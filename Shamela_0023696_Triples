@@ -1,0 +1,127 @@
+PROV جزيرة العرب 	TYPE كورة 	REG1 الحجاز 
+PROV جزيرة العرب 	TYPE كورة 	REG1 اليمن 
+PROV جزيرة العرب 	TYPE كورة 	REG1 عمان 
+PROV جزيرة العرب 	TYPE كورة 	REG1 هجر 
+PROV جزيرة العرب 	TYPE ناحية 	REG1 الأحقاف 
+PROV جزيرة العرب 	TYPE ناحية 	REG1 الأشجار 
+PROV جزيرة العرب 	TYPE ناحية 	REG1 اليمامة 
+PROV جزيرة العرب 	TYPE ناحية 	REG1 قرح 
+REG1 الحجاز 	TYPE قصبة 	STTL مكة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL يثرب 
+REG1 الحجاز 	TYPE مدن امهات 	STTL ينبع 
+REG1 الحجاز 	TYPE مدن امهات 	STTL قرح 
+REG1 الحجاز 	TYPE مدن امهات 	STTL خيبر 
+REG1 الحجاز 	TYPE مدن امهات 	STTL المروة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الحوراء 
+REG1 الحجاز 	TYPE مدن امهات 	STTL جدة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الطائف 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الجار 
+REG1 الحجاز 	TYPE مدن امهات 	STTL السقيا 
+REG1 الحجاز 	TYPE مدن امهات 	STTL العونيد 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الجحفة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL العشيرة 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL بدر 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL خليص 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL أمج 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL الحجر 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL بدا يعقوب 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL السوارقية 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL الفرع 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL السيرة 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL جبلة 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL مهايع 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL حاذة 
+FROM مكة 	TOWA بطن مر 	DIST مرحلة 
+FROM بطن مر 	TOWA عسفان 	DIST مرحلة 
+FROM عسفان 	TOWA خليص 	DIST مرحلة 
+FROM عسفان 	TOWA أمج 	DIST مرحلة 
+FROM خليص 	TOWA الخيم 	DIST مرحلة 
+FROM أمج 	TOWA الخيم 	DIST مرحلة 
+FROM الخيم 	TOWA الجحفة 	DIST مرحلة 
+FROM الجحفة 	TOWA الأبواء 	DIST مرحلة 
+FROM الأبواء 	TOWA سقيا بنى غفار 	DIST مرحلة 
+FROM سقيا بنى غفار 	TOWA العرج 	DIST مرحلة 
+FROM العرج 	TOWA الروحاء 	DIST مرحلة 
+FROM الروحاء 	TOWA رويثة 	DIST مرحلة 
+FROM رويثة 	TOWA يثرب 	DIST مرحلة 
+FROM مكة 	TOWA يلملم 	DIST مرحلة 
+PROV الشام 	TYPE كورة 	REG1 قنسرين 
+PROV الشام 	TYPE كورة 	REG1 حمص 
+PROV الشام 	TYPE كورة 	REG1 دمشق 
+PROV الشام 	TYPE كورة 	REG1 الأردن 
+PROV الشام 	TYPE كورة 	REG1 فلسطين 
+PROV الشام 	TYPE كورة 	REG1 الشراة 
+REG1 قنسرين 	TYPE قصبة 	STTL حلب 
+REG1 قنسرين 	TYPE مدينة 	STTL أنطاكية 
+REG1 قنسرين 	TYPE مدينة 	STTL بالس 
+REG1 قنسرين 	TYPE مدينة 	STTL السويدية 
+REG1 قنسرين 	TYPE مدينة 	STTL سميساط 
+REG1 قنسرين 	TYPE مدينة 	STTL منبج 
+REG1 قنسرين 	TYPE مدينة 	STTL بيلس 
+REG1 قنسرين 	TYPE مدينة 	STTL التينات 
+REG1 قنسرين 	TYPE مدينة 	STTL قنسرين 
+REG1 قنسرين 	TYPE مدينة 	STTL مرعش 
+REG1 قنسرين 	TYPE مدينة 	STTL إسكندرونة 
+REG1 قنسرين 	TYPE مدينة 	STTL لجون 
+REG1 قنسرين 	TYPE مدينة 	STTL رفنية 
+REG1 قنسرين 	TYPE مدينة 	STTL جوسية 
+REG1 قنسرين 	TYPE مدينة 	STTL حماة 
+REG1 قنسرين 	TYPE مدينة 	STTL شيزر 
+REG1 قنسرين 	TYPE مدينة 	STTL وادي بطنان 
+REG1 قنسرين 	TYPE مدينة 	STTL معرة النعمان 
+REG1 قنسرين 	TYPE مدينة 	STTL معرة قنسرين 
+REG1 حمص 	TYPE قصبة 	STTL حمص 
+REG1 حمص 	TYPE مدينة 	STTL سلمية 
+REG1 حمص 	TYPE مدينة 	STTL تدمر 
+REG1 حمص 	TYPE مدينة 	STTL الخناصرة 
+REG1 حمص 	TYPE مدينة 	STTL كفرطاب 
+REG1 حمص 	TYPE مدينة 	STTL اللاذقية 
+REG1 حمص 	TYPE مدينة 	STTL جبلة 
+REG1 حمص 	TYPE مدينة 	STTL أنطرسوس 
+REG1 حمص 	TYPE مدينة 	STTL بلنياس 
+REG1 حمص 	TYPE مدينة 	STTL حصن الخوابي 
+REG1 دمشق 	TYPE قصبة 	STTL دمشق 
+REG1 دمشق 	TYPE مدينة 	STTL بانياس 
+REG1 دمشق 	TYPE مدينة 	STTL صيدا 
+REG1 دمشق 	TYPE مدينة 	STTL بيروت 
+REG1 دمشق 	TYPE مدينة 	STTL أطرابلس 
+REG1 دمشق 	TYPE مدينة 	STTL عرقة 
+REG2 البقاع 	TYPE مدينة 	STTL بعلبك 
+REG2 البقاع 	TYPE ولها 	STTL كامد 
+REG2 البقاع 	TYPE ولها 	STTL عرجموش 
+REG2 البقاع 	TYPE ولها 	STTL الزبداني 
+REG1 دمشق 	TYPE رستاق 	REG2 الغوطة 
+REG1 دمشق 	TYPE رستاق 	REG2 حوران 
+REG1 دمشق 	TYPE رستاق 	REG2 البثنية 
+REG1 دمشق 	TYPE رستاق 	REG2 الجولان 
+REG1 دمشق 	TYPE رستاق 	REG2 البقاع 
+REG1 دمشق 	TYPE رستاق 	REG2 الحولة 
+REG1 الاردن 	TYPE قصبة 	STTL طبرية 
+REG1 الاردن 	TYPE مدينة 	STTL قدس 
+REG1 الاردن 	TYPE مدينة 	STTL صور 
+REG1 الاردن 	TYPE مدينة 	STTL عكا 
+REG1 الاردن 	TYPE مدينة 	STTL اللجون 
+REG1 الاردن 	TYPE مدينة 	STTL كابل 
+REG1 الاردن 	TYPE مدينة 	STTL بيسان 
+REG1 الاردن 	TYPE مدينة 	STTL أذرعات 
+REG1 فلسطين 	TYPE قصبة 	STTL الرملة 
+REG1 فلسطين 	TYPE مدينة 	STTL بيت المقدس 
+REG1 فلسطين 	TYPE مدينة 	STTL بيت جبريل 
+REG1 فلسطين 	TYPE مدينة 	STTL غزة 
+REG1 فلسطين 	TYPE مدينة 	STTL ميماس 
+REG1 فلسطين 	TYPE مدينة 	STTL عسقلان 
+REG1 فلسطين 	TYPE مدينة 	STTL يافه 
+REG1 فلسطين 	TYPE مدينة 	STTL أرسوف 
+REG1 فلسطين 	TYPE مدينة 	STTL قيسارية 
+REG1 فلسطين 	TYPE مدينة 	STTL نابلس 
+REG1 فلسطين 	TYPE مدينة 	STTL أريحا 
+REG1 فلسطين 	TYPE مدينة 	STTL عمان 
+REG1 الشراة 	TYPE قصبة 	STTL صغر 
+REG1 الشراة 	TYPE مدينة 	STTL مآب 
+REG1 الشراة 	TYPE مدينة 	STTL معان 
+REG1 الشراة 	TYPE مدينة 	STTL تبوك 
+REG1 الشراة 	TYPE مدينة 	STTL أذرح 
+REG1 الشراة 	TYPE مدينة 	STTL ويله 
+REG1 الشراة 	TYPE مدينة 	STTL مدين 
+FROM حلب 	TOWA بالس 	DIST يومين 
+FROM حلب 	TOWA قنسرين 	DIST يوما 
