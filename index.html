@@ -63,7 +63,22 @@ d3.json("treeroot.json", function(error, root) {
       .attr("dy", ".31em")
       .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-      .text(function(d) { return d.label; });
+      .text(function(d) { return d.label; })
+      .on("mouseover", function (d) {
+        link.style('stroke-width', function(l) {
+          if (d === l.target || d === l.source)
+            return 4;
+          else
+            return 1.5;
+        });
+        d3.select(this).select('text')
+	  .transition()
+	  .duration(300)
+	  .style("font-size","15px")
+})
+      .on("mouseout", function () {
+  link.style('stroke-width', 1.5);
+});
 });
 
 d3.select(self.frameElement).style("height", diameter - 150 + "px");
