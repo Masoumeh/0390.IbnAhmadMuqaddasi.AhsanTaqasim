@@ -1,0 +1,292 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Simple Topojson Pathfinding</title>
+  <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="d3map.css" />
+    <link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/emeeks/d3-carto-map/master/examples/example.css" />
+</head>
+<style>
+  html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  #map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .reproject {
+    position: absolute;
+    z-index: 99;
+    left: 50px;
+    top: 250px;
+  }
+  
+
+  .node {
+    fill: blue;
+    stroke: black;
+    stroke-width: 1
+  }
+  
+  #pathdata {
+    position: fixed;
+    top: 20px;
+    left: 300px;
+    background: white;
+    border: 1px gray solid;
+    z-index: 99;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  #random {
+    position: fixed;
+    top: 50px;
+    left: 150px;
+    z-index: 99;
+    font-size: 20px;
+  }
+  .roads {
+    stroke: brown;
+    stroke-width: 1px;
+    fill: none;
+}
+</style>
+<script>
+  function makeSomeMaps() {
+    pathSource = 0;
+    //var dijSource, dijTarget;
+    map = d3.carto.map();
+
+    d3.select("#map").call(map);
+    map.centerOn([44.361488,33.312806],"latlong");
+    map.setScale(4);
+
+    map.refresh();
+
+    wcLayer = d3.carto.layer.tile();
+    wcLayer
+    .tileType("stamen")
+    .path("watercolor")
+    .label("Watercolor")
+    .visibility(true)
+  // try to shows paths with geojson
+  // var width  = 300;
+  // var height = 400;
+  // var vis = d3.select("#map").append("svg")
+  //     .attr("width", width).attr("height", height)
+  //   d3.json("sampleNet.json", function(json) {
+  //     alert(JSON.stringify(json));
+  //     // create a first guess for the projection
+  //     var center = d3.geo.centroid(json)
+  //     var scale  = 150;
+  //     var offset = [width/2, height/2];
+  //     var projection = d3.geo.mercator().scale(scale).center(center);
+  //         //.translate(offset);
+
+  //     // create the path
+  //     var path = d3.geo.path().projection(projection);
+
+  //     vis.selectAll("path").data(json.features).enter().append("path")
+  //       .attr("d", path)
+  //       .style("fill", "red")
+  //       .style("stroke-width", "1")
+  //       .style("stroke", "black")
+  //   });
+    postLayer = d3.carto.layer.topojson();
+    postLayer
+    .path("sampleNet.topojson")
+    .label("Postal Routes")
+    .cssClass("roads")
+    .renderMode("svg")
+    .on("load", createMatrix);
+
+    map.addCartoLayer(wcLayer).addCartoLayer(postLayer);
+    nodes = [];
+    function createMatrix() {
+      postdata = postLayer.features();
+      edgeList = [];
+      edgeMap = {};
+      
+      nodeHash = {};
+      for (x in postdata) {
+        var line = postdata[x].geometry.coordinates;
+        var sName = postdata[x].properties.sToponym;
+        var eName = postdata[x].properties.eToponym;
+        var lS = line[0];
+        var lE = line[line.length - 1];
+        var nA = [lS,lE];
+        var sNode = {label: sName, id: sName, coordinates: [lS], x: lS[0], y: lS[1]};
+        var eNode = {label: eName, id: sName, coordinates: [lE], x: lE[0], y: lE[1]};
+        var cost = d3.geo.length(postdata[x]) * 6371;
+      if (edgeMap[sName]) {
+        edgeMap[sName][eName] = cost;
+      }
+      else {
+        edgeMap[sName] = {};
+        edgeMap[sName][eName] = cost;
+      }
+      if (edgeMap[eName]) {
+        edgeMap[eName][sName] = cost;
+      }
+      else {
+        edgeMap[eName] = {};
+        edgeMap[eName][sName] = cost;
+      }
+      }
+    
+      graph = new Graph(edgeMap);
+      cityLayer = d3.carto.layer.csv();
+      cityLayer
+        .path("people.csv")
+        .label("Test")
+        .cssClass("metro")
+        .renderMode("svg")
+        .x("lon")
+        .y("lat")
+        .clickableFeatures(true)
+        .on("load", function(){console.log("hi")});
+      map.addCartoLayer(cityLayer);
+        //d3.select("body").append("h1").html("My beautiful text")
+        //d3.select("#map").append("button").attr("id","random").html("random path").on("click", randomPath)
+    }// end of createMatrix
+
+   d3.csv("peopleRegion.csv", function(error, data) {
+      if (error) throw error;
+      var people = [];
+      var cnt = 0; 
+      // group data based on the people Id and year.
+      // If the original data file is grouped this part needs to be skipped. 
+      data = d3.nest()
+              .key(function(d) { return d.id ; })
+              .rollup(function(leaves) {
+                  var tmp = ""; 
+                  for (var i = 0;i < leaves.length; i++) {
+                    tmp += leaves[i].country + ",";
+                  } 
+                  tmp = tmp.slice(0, -1);
+                  return {
+                    "year": leaves[0].year,
+                    "country": tmp
+                  };
+              })
+              .entries(data);
+          //d3.select("#map").append("ul").attr("id",'people')
+      //.style("top",70*cnt+"px").style("position","fixed").style("left","170px")
+      //.style("z-index","99").style("font-size","20px").style("height","300px")
+      //.style("overflow-y",scroll).style("overflow","hidden");
+      
+    var select =  d3.select("#pathdata")
+                    .append('div')
+                    .append("select")
+                    .on("change", function(d) {
+        
+        //var selectedIndex = select.property('selectedIndex'),
+        //data = options[0][selectedIndex].__data__;
+                      var id = this.options[this.selectedIndex].value;
+                      updateRoutes(id);
+                      alert(JSON.stringify(id));
+                    });
+    var options = select.selectAll("option").data(data)
+      //options.text(function (d) { return d.value; })
+      //   .attr("value", function (d) { return d.value; });
+      //data.forEach(function(d) {    
+        //cnt++;
+      //  if(people[d['id']]==undefined) {
+      //     people[d['id']] = [];
+      //  } 
+      //  people[d['id']].push(d['country']);
+      //  console.log(JSON.stringify(people[d['id']]));
+    options.enter()
+      .append("option")
+      .text(function (d) { return d.key;});
+     
+     function updateRoutes(id) {
+      
+      var trav = 0;
+      d3.selectAll("path").transition().duration(1000).style("stroke", function(d,i) {return "black"}).style("stroke-width", "2px");
+
+      for (var i = 0; i < data.length; i++)
+      {
+        if (data[i]['key'] == id) 
+         {
+           var country = (data[i]['values']['country']).split(",");
+           alert(JSON.stringify( country));
+           for (var x = 0; x < country.length; x++)
+           {
+             for (var y = x + 1; y < country.length; y++) 
+             {
+              var pData = graph.findShortestPath(country[x],country[y]);
+
+              alert("trav "+trav);
+              displayPath(pData, trav );
+             }
+           }
+        
+         }
+        } 
+     }
+   });
+  
+   
+   function displayPath(pathData, trav) {
+    var formatter = d3.format(".0f");
+    d3.selectAll("circle").transition().duration(1000).style("fill", "green");
+  
+    if (pathData) {
+
+    d3.selectAll("path").filter(function(d) {return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1;}).transition().attr("trav", trav++).duration(2000).style("stroke", "red").style("stroke-width", trav);
+    d3.selectAll("circle").filter(function(d) {return pathData.indexOf(d.region) > -1}).transition().duration(2000).style("fill", "red")
+    var pDataArray = d3.selectAll("path").filter(function(d) {return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1}).data();
+    // var totalLength = d3.sum(pDataArray, function(d) {return d.properties.cost});    
+    // d3.select("#pathdata").html("<span style='font-weight: 900'>Total Distance:</span> " + formatter(totalLength) + "km");
+    }
+    else {
+      d3.select("#pathdata").html("NO ROUTE");      
+    }
+
+   }
+ 
+   // function sourceClick(d) {
+   //  d3.selectAll("circle.node").style("stroke-width", "1px").style("stroke", "black")
+   //  pathSource = d.id;
+   //  d3.selectAll("circle.node").on("click", targetClick);
+   //  d3.select(this).style("stroke-width", "5px").style("stroke", "green")
+   // }
+
+   // function targetClick(d) {
+   //  var pData = graph.findShortestPath(pathSource,d.id);
+   //  d3.selectAll("circle.node").on("click", sourceClick)
+   //  d3.select(this).style("stroke-width", "5px").style("stroke", "red")
+   //  displayPath(pData);
+   // }
+
+  }
+</script>
+<body onload="makeSomeMaps()">
+<div id="map"></div>
+<div id="pathdata"></div>
+<div id="selectList"></div>
+<footer>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8" type="text/javascript"></script>
+<script src="http://d3js.org/topojson.v1.min.js" type="text/javascript">
+</script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js" type="text/javascript">
+</script>
+<script src="http://bl.ocks.org/emeeks/raw/f3105fda25ff785dc5ed/tile.js" type="text/javascript">
+</script>
+<script src="http://bl.ocks.org/emeeks/raw/f3105fda25ff785dc5ed/d3.quadtiles.js" type="text/javascript">
+</script>
+<script src="http://bl.ocks.org/emeeks/raw/f3105fda25ff785dc5ed/d3.geo.raster.js" type="text/javascript">
+</script>
+<script src="https://rawgit.com/emeeks/d3-carto-map/master/d3.carto.map.js" type="text/javascript">
+</script>
+<script src="dijkstra.js" type="text/javascript">
+</script>
+</footer>
+</body>
+</html>

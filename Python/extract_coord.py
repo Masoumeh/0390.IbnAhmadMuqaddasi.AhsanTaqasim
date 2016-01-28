@@ -30,19 +30,20 @@ def findCoord(fileName, name, fWriter):
       fName = d["arTitle"]
       sName = d["arTitleOther"].split(",")
       if name == fName:
-        fWriter.writerow([name, d["lat"], d["lon"]])
+        fWriter.writerow([name, d["lat"], d["lon"], d["region"]])
       else:
         for n in sName:
           if name == n.strip():
-            fWriter.writerow([name, d["lat"], d["lon"]])
+            fWriter.writerow([name, d["lat"], d["lon"], d["region"]])
 
 def getCornuSttlWithCoord(hierarchyFile, coordsFile):
     global cnt
     data = []
     sttlNames = getSetOfSttl(hierarchyFile,"STTL")
     #print(sttlNames)
-    with open(coordsFile+"Coords", 'w') as csvCoord:
+    with open("STTLCoordsCSV", 'w') as csvCoord:
       fWriter = csv.writer(csvCoord, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+      fWriter.writerow(["name", "lat", "lon", "region"])
     
       for st in sttlNames:
         findCoord(coordsFile, st,fWriter)

@@ -59,13 +59,13 @@ def buildHierarchiesGraph(fileName):
 
     for rs in roots:
       trav=[]
-      print(rs,cnt)
+      #print(rs,cnt)
       g.add_edge(1,cnt, label = "child of root")
       g.add_node(cnt,label=rs) 
       trav.append(''+ g.node[cnt]['label'])
       #trav.append(lS[1])      
       cnt = cnt + 1
-      graphLevel(g, fileName, cnt-1, trav)      
+      graphLevel(g, fileName, cnt-1, trav)      	
       
       
     data = json_graph.tree_data(g,root=1)
