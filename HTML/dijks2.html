@@ -3,7 +3,7 @@
   <title>Simple Topojson Pathfinding</title>
   <meta charset="utf-8" />
     <link type="text/css" rel="stylesheet" href="d3map.css" />
-    <link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/emeeks/d3-carto-map/master/examples/example.css" />
+     <link rel="stylesheet" href="d3.slider.css" /> 
 </head>
 <style>
   html,body {
@@ -159,87 +159,115 @@
       if (error) throw error;
       var people = [];
       var cnt = 0; 
-      // group data based on the people Id and year.
-      // If the original data file is grouped this part needs to be skipped. 
-      data = d3.nest()
-              .key(function(d) { return d.id ; })
-              .rollup(function(leaves) {
-                  var tmp = ""; 
-                  for (var i = 0;i < leaves.length; i++) {
-                    tmp += leaves[i].country + ",";
-                  } 
-                  tmp = tmp.slice(0, -1);
-                  return {
-                    "year": leaves[0].year,
-                    "country": tmp
-                  };
-              })
-              .entries(data);
-          //d3.select("#map").append("ul").attr("id",'people')
-      //.style("top",70*cnt+"px").style("position","fixed").style("left","170px")
-      //.style("z-index","99").style("font-size","20px").style("height","300px")
-      //.style("overflow-y",scroll).style("overflow","hidden");
+      var min_year=2000,max_year=0;
+      var peopleMap = {};
+      var yearPeople = {};
+      data.forEach(function(d) {
+        if(peopleMap[d.id]!=undefined) {
+          peopleMap[d.id]={'diedAt':d.diedAt, 'country':peopleMap[d.id]['country']+','+d.country};
+        } else {
+          peopleMap[d.id]={'diedAt':d.diedAt, 'country':d.country};
+        }
       
+        if(yearPeople[d.diedAt]!=undefined) {
+          yearPeople[d.diedAt]={'id':yearPeople[d.diedAt]['id'] + ','+d.id};
+        } else {
+          yearPeople[d.diedAt]={'id':d.id};
+        }
+
+         var year=parseInt(d.diedAt);
+         if(year < min_year) min_year=year;
+         if(year > max_year) max_year=year;
+      });
+
+    d3.select("#pathdata")
+      .append('div')
+      .call(d3.slider().value( [ 0, 100 ] )
+        .on("slide", function(evt, value) {
+           d3.select('#yearValue').text("from " 
+            + parseInt(value[0]+min_year)*parseInt((max_year-min_year)/100) + " to " 
+            + parseInt(value[1]+min_year)*parseInt((max_year-min_year)/100));
+           
+        })
+        .on("slideend",function(evt,value){
+          var uniqueCountires = {};
+          for(var i=min_year;i<=max_year;i++) {
+            if(yearPeople[i+'']!=undefined) {
+            var arr = yearPeople[i+'']['id'].split(',');
+             arr.forEach(function(d){
+
+            var country=peopleMap[id]['country'].split(',');
+            country.forEach(function(d) {
+              if(uniqueCountires[d]==undefined) uniqueCountires[d]=0;
+              else uniqueCountires[d]++;
+            });
+            
+               //updateRoutes(d)
+             });
+           }
+           }
+           updateRoutesCountries(uniqueCountires);
+        })
+        );
+
+    d3.select('#pathData')
+      .append('div')
+      .attr('id','yearValue')
+      .text('from '+ min_year + ' to ' + max_year);
+
     var select =  d3.select("#pathdata")
                     .append('div')
                     .append("select")
                     .on("change", function(d) {
-        
-        //var selectedIndex = select.property('selectedIndex'),
-        //data = options[0][selectedIndex].__data__;
                       var id = this.options[this.selectedIndex].value;
                       updateRoutes(id);
-                      alert(JSON.stringify(id));
                     });
-    var options = select.selectAll("option").data(data)
-      //options.text(function (d) { return d.value; })
-      //   .attr("value", function (d) { return d.value; });
-      //data.forEach(function(d) {    
-        //cnt++;
-      //  if(people[d['id']]==undefined) {
-      //     people[d['id']] = [];
-      //  } 
-      //  people[d['id']].push(d['country']);
-      //  console.log(JSON.stringify(people[d['id']]));
+
+    var options = select.selectAll("option").data(Object.keys(peopleMap));
     options.enter()
       .append("option")
-      .text(function (d) { return d.key;});
-     
-     function updateRoutes(id) {
-      
+      .text(function (d) { return d;});
+
+      function updateRoutesCountries(countries) {
       var trav = 0;
       d3.selectAll("path").transition().duration(1000).style("stroke", function(d,i) {return "black"}).style("stroke-width", "2px");
 
-      for (var i = 0; i < data.length; i++)
+      var country=Object.keys(countries);
+      for (var x = 0; x < country.length; x++)
       {
-        if (data[i]['key'] == id) 
-         {
-           var country = (data[i]['values']['country']).split(",");
-           alert(JSON.stringify( country));
-           for (var x = 0; x < country.length; x++)
-           {
              for (var y = x + 1; y < country.length; y++) 
              {
               var pData = graph.findShortestPath(country[x],country[y]);
-
-              alert("trav "+trav);
+              trav++;
               displayPath(pData, trav );
-             }
            }
-        
-         }
-        } 
-     }
-   });
-  
-   
+      }
+    }
+     
+     function updateRoutes(id) {
+      var trav = 0;
+      d3.selectAll("path").transition().duration(1000).style("stroke", function(d,i) {return "black"}).style("stroke-width", "2px");
+
+      var country=peopleMap[id]['country'].split(',');
+      for (var x = 0; x < country.length; x++)
+      {
+             for (var y = x + 1; y < country.length; y++) 
+             {
+
+              var pData = graph.findShortestPath(country[x],country[y]);
+              trav++;
+              displayPath(pData, trav );
+           }
+      }
+    }});
+
    function displayPath(pathData, trav) {
     var formatter = d3.format(".0f");
     d3.selectAll("circle").transition().duration(1000).style("fill", "green");
   
     if (pathData) {
 
-    d3.selectAll("path").filter(function(d) {return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1;}).transition().attr("trav", trav++).duration(2000).style("stroke", "red").style("stroke-width", trav);
+    d3.selectAll("path").filter(function(d) {return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1;}).transition()./*attr("trav", trav).*/duration(2000).style("stroke", "red").style("stroke-width", 4);
     d3.selectAll("circle").filter(function(d) {return pathData.indexOf(d.region) > -1}).transition().duration(2000).style("fill", "red")
     var pDataArray = d3.selectAll("path").filter(function(d) {return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1}).data();
     // var totalLength = d3.sum(pDataArray, function(d) {return d.properties.cost});    
@@ -250,27 +278,13 @@
     }
 
    }
- 
-   // function sourceClick(d) {
-   //  d3.selectAll("circle.node").style("stroke-width", "1px").style("stroke", "black")
-   //  pathSource = d.id;
-   //  d3.selectAll("circle.node").on("click", targetClick);
-   //  d3.select(this).style("stroke-width", "5px").style("stroke", "green")
-   // }
-
-   // function targetClick(d) {
-   //  var pData = graph.findShortestPath(pathSource,d.id);
-   //  d3.selectAll("circle.node").on("click", sourceClick)
-   //  d3.select(this).style("stroke-width", "5px").style("stroke", "red")
-   //  displayPath(pData);
-   // }
-
-  }
+}
 </script>
 <body onload="makeSomeMaps()">
 <div id="map"></div>
-<div id="pathdata"></div>
+<div id="pathdata" style="width:300px;"></div>
 <div id="selectList"></div>
+</div>
 <footer>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8" type="text/javascript"></script>
 <script src="http://d3js.org/topojson.v1.min.js" type="text/javascript">
@@ -287,6 +301,7 @@
 </script>
 <script src="dijkstra.js" type="text/javascript">
 </script>
+<script type="text/javascript" src="d3.slider.js"></script>
 </footer>
 </body>
 </html>
