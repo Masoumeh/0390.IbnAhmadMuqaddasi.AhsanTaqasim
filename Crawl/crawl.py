@@ -39,13 +39,20 @@ for ch in FaAlphs:
                     f2.write(str(arr2[1].get('content')))
 	          #exit()
                 else:
+                  main_title = ''
                   for page in range(1,pageSize):
-                    os.system(u'phantomjs save_page_book.js http://library.tebyan.net'+bookURL+'#'+ str(page) +' > bookpage.html')
-	            print(u'phantomjs save_page_book.js http://library.tebyan.net'+bookURL+'#'+ str(page) +' > bookpage.html')       
+                    os.system(u'phantomjs save_page.js http://library.tebyan.net'+bookURL[0:-1]+ str(page) +' > bookpage.html')
+	            print(u'phantomjs save_page.js http://library.tebyan.net'+bookURL[0:-1]+ str(page)  +' > bookpage.html')       
                     data3 = open("bookpage.html",'r').read()
                     soup3 = BeautifulSoup(data3, 'html.parser')
-                    arr2  = soup3.find_all('meta')
+                    arr2  = soup3.find_all('article')
                     print(str(soup3.title.string))
-	  	    with open(str(soup3.title.string), "a") as f2:      
-                      f2.write('\n'+str(arr2[1].get('content')))
+                    if page == 1:
+                      main_title = str(soup3.title.string)
+                    for art in arr2:
+                      if 'js_lblContent' in art.get('id'):
+	  	        with open(main_title, "a") as f2:  
+			  result = unicode.join(u'\n',map(unicode,art.contents))    
+                          f2.write(result)
+                          break
 	              #exit()
