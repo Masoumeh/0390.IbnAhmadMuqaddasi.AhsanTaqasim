@@ -1,0 +1,514 @@
+/* BASICS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;  
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+input,textarea,select {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+a,a:active,a:visited {
+  text-decoration: none;
+  color: steelblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.container {
+  clear: both;  
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+/* SECTIONS */
+
+div.mapstarter-section {
+  margin-top: 12px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 8px;
+  padding-top: 8px;
+  font-weight: normal;
+  border-top: 1px solid #dedede;
+}
+
+h3:first-of-type {
+  border-top: none;
+  margin-top: none;
+}
+
+h2 {
+  color: #222;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 160%;
+  margin: 0px 0px 10px 0px;
+}
+
+div.mapstarter-section ul {
+  padding-left: 24px;
+  list-style-type: none;
+  margin: 0px 0px 10px 0px; 
+}
+
+div.mapstarter-section ul li {
+  margin-top: 8px;
+}
+
+div.mapstarter-section div.instructions {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+div.panel {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+}
+
+div.loading {
+  text-align: center;
+}
+
+div.loading-bar {
+  background: url('loading-bar.gif') no-repeat center center;
+  height: 24px;
+}
+
+div#alerts > div {
+  margin-top: 12px;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  position: relative;
+  font-size: 13px;
+  color: #000;
+}
+
+div#alerts > div.warn {
+  background-color: #fff1b8;    
+}
+
+div#alerts > div.error {  
+  background-color: #f5cccc;
+}
+
+div#alerts > div span.alert-close {
+  position: absolute;
+  top: 0px;
+  right: 4px;  
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+div#alerts > div span.alert-close:hover {
+  opacity: 1;
+}
+
+/* HEADER */
+
+div.navbar div.container {
+  background-color: #f8f8f8;  
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+div.navbar ul {
+  list-style-type: none;
+}
+
+div.navbar ul li {
+  float: left;  
+  position: relative;
+}
+
+div.navbar ul li a {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px 12px;
+  color: #666;  
+}
+
+div.navbar ul li a:hover {
+  background-color: #e9e9e9;
+  color: #444;
+}
+
+div.navbar ul li.active a,div.navbar ul li.active a:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+div.navbar ul li span.glyphicon {
+  font-size: 14px;  
+}
+
+#file-status {  
+  text-align: center;
+  font-weight: bold;
+  color: #444;  
+}
+
+#file-status div.container {
+  padding: 6px;
+  background-color: #f8f8f8;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+span.filesize {
+  color: #999;
+}
+
+/* CHOOSE FILE/INTRO */
+
+div#upload-target {  
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #eee;
+  padding: 12px;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+div#upload-target:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+div#upload-target:not(.loading) {
+  cursor: pointer;
+}
+
+div#upload-target:not(.loading):hover {
+  background-color: #ccc;
+}
+
+div#upload-target div#file-loading {
+  display: none;
+  margin-bottom: 0px;
+}
+
+div#upload-target.loading div#file-prompt {
+  display: none;
+}
+
+div#upload-target.loading div#file-loading {
+  display: block;
+}
+
+a.sample-data {
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+a.sample-data:first-of-type {
+  margin-left: 0px;
+}
+
+div#section-choose-file {
+  margin-bottom: 16px;
+}
+
+/* GENERAL FORM STUFF */
+
+input.text,select {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+input.text:focus,input:focus,select:focus {
+  border-color: #66afe9;
+  outline: 0;
+}
+
+div.panel-group span.form-item {
+  margin-right: 2em;
+}
+
+div.panel-group span.form-item:last-of-type {
+  margin: 0;
+}
+
+div.panel div.panel-group {
+  margin-bottom: 16px;
+}
+
+div.panel div.panel-group:last-of-type {
+  margin-bottom: 0;
+}
+
+div.panel div.panel-group div.panel-header {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 4px;  
+}
+
+span.form-item label {
+  margin-right: 4px;
+}
+
+span.form-item label.radio {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/* SIZE/PROJECTION */
+
+div#section-size div.panel-group span.form-item label {
+  font-weight: bold;  
+}
+
+/* COLORS */
+
+input#color-stroke-width {
+  width: 60px;
+}
+
+div.palette {
+  float: left;
+  padding: 16px;
+  cursor: pointer;
+}
+
+div.palette.selected {
+  background-color: #ccc;
+}
+
+div.palette:not(.selected):hover {
+  background-color: #dedede;
+}
+
+div.palette div.swatch {
+  float: left;
+  width: 16px;
+  height: 24px;  
+}
+
+div#color-choropleth div.panel-header {
+  margin-top: 16px;
+}
+
+/* DOWNLOAD */
+
+pre {
+  background-color: rgb(255,255,255);
+  font-size: 15px;
+}
+
+pre code {
+  border: 1px solid #444;
+  white-space: pre-wrap;
+  padding: 8px;
+  font-family: "Menlo", monospace, "Courier";
+}
+
+/* MAP BOX STYLES */
+
+#map-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+g#features path {
+  cursor: pointer;
+}
+
+div#tooltip {
+  position: absolute;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 4px 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* ATTRIBUTE TABLE STYLES */
+
+table#attributes {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+table#attributes td input.text {
+  font-size: 12px;
+  padding: 0;
+}
+
+table#attributes th,td {
+  margin: 0;
+  font-size: 12px;
+  padding: 4px 6px;
+}
+
+table#attributes th {
+  font-weight: bold;
+  text-align: center;
+}
+
+table#attributes tr:hover:not(.deleted) {
+  background-color: #e6e6e6;
+}
+
+table#attributes td {
+  text-align: left;
+}
+
+table#attributes th:last-of-type {
+  border-color: transparent;
+}
+
+table#attributes th.sortable {  
+  cursor: pointer;
+}
+
+table#attributes th.sortable:hover {  
+  background-color: #e6e6e6;
+}
+
+table#attributes tr td:last-of-type {
+  text-align: left;      
+  border-color: transparent;
+  cursor: auto;
+  white-space: nowrap;
+}
+
+table#attributes td, table#attributes th {  
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+table#attributes td, table#attributes th span.glyphicon {
+  color: #999;
+}
+
+table#attributes td, table#attributes th:hover {
+  color: #333;
+}
+
+table#attributes th.sorted {
+  color: steelblue;
+}
+
+table#attributes th.sorted span.glyphicon {
+  color: steelblue;
+}
+
+table#attributes tr.deleted td:not(:last-of-type) {
+  text-decoration: line-through;
+  color: #999;
+}
+
+table#attributes tr.deleted td:last-of-type a {
+  color: #999;
+}
+
+table#attributes tr td:last-of-type a span {
+  font-weight: bold;
+}
+
+table#attributes th {
+  text-align: center;
+}
+
+table#attributes tbody tr {
+  cursor: pointer;
+}
+
+div#attributes-outer {
+  max-height: 240px;
+  overflow-y: auto;
+  border: 1px solid #ccc;  
+}
+
+/* LOADING TOGGLES */
+
+body.blanked div#file-status {
+  display: none;
+}
+
+body.blanked div.navbar ul li:not(#choose-file) {
+  display: none;
+}
+
+body.blanked div.mapstarter-section:not(.unblankable) {
+   display: none;
+}
+
+#file-status div.loading {
+  display: none;
+}
+
+#file-status.loading div.loaded {
+  display: none;
+}
+
+#file-status.loading div.loading {
+  display: block;
+}
+
+#upload-target div.loading {
+  display: none;
+}
+
+#upload-target.loading div.loaded {
+  display: none;
+}
+
+#upload-target.loading div.loading {
+  display: block;
+}
