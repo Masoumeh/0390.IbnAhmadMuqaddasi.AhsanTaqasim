@@ -1,0 +1,940 @@
+<!DOCTYPE html><html lang="fa" xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta charset="utf-8">
+        <title>مرورالفبایی</title>
+        <meta name="Description" content="اینجــــا یک کتابخانه دیجیتالی است با بیش از 100000 منبع الکترونیکی رایگان به زبان فارسی ، عربی و انگلیسی ">
+        <meta name="keywords" content="کتاب , مقاله , Book , Article , جستجو , موضوعات">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="HandheldFriendly" content="true">
+        <!--[if IE]>
+            <script type="text/javascript" src="/js/Html5.js"></script>
+            <script type="text/javascript" src="/js/Mediaqueries.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="/css/CoreStyle.css">
+        <link rel="stylesheet" type="text/css" href="/css/rtl/rtl.css">
+        <link rel="stylesheet" href="/css/MultiColorButtons/buttons.css">
+        <link rel="stylesheet" type="text/css" href="/js/jquery/Plugin/Slider/Slider.css">
+        <link rel="stylesheet" href="/js/jquery/Plugin/TooltipLibrary/Tooltip.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/css/CommonLibrary.css">
+        <link rel="stylesheet" type="text/css" href="/css/MainPageLibrary.css">
+        <link rel="stylesheet" type="text/css" href="/css/MainNavigate.css">
+        <link rel="stylesheet" type="text/css" href="/css/InternalPageLibrary.css">
+        <script type="text/javascript" src="/js/jquery-1.9.0.min.js"></script>
+        <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="/js/jquery/plugin/Common/WebService.js?s=3"></script>
+        <script type="text/javascript" src="/js/jquery/Plugin/TooltipLibrary/Tooltip.js"></script>
+        <script type="text/javascript">
+        var SearchUrl = '/fa/Browse/Search';
+        var MSG_NoEmptyInput = 'مقدار ورودی نباید خالی باشد';
+        var MSG_NoData = 'اطلاعاتی یافت نشد';
+        var MSG_NoLogin = 'NotLogin';
+        var MSG_OkSuccess = 'با موفقیت انجام شد';
+        var ErrorValidateEmail = 'لطفا پست الکترونیک را صحیح وارد نمایید';
+        var CurrentLanguage = 'fa';
+        var IP = '"139.18.40.184"';
+        </script></head>
+    <body style="zoom: 1; ">
+        <section class="LoadingBox" style="display: none; ">
+            <img class="LoadingImage" src="/image/Loading.gif" width="26" height="26">
+            لطفا منتظر باشید ...
+        </section>
+        <section class="GeneralLibrary w100p m0a relative InternalPage rtlLang">
+            <header class="GeneralHeader relative ">
+                <nav class="GeneralNavigation">
+                    <section class="MainNav w100p dr tr lh3">
+                        <a kind="click" fn="ToggleMinimizeMenu" class="js_Tooltip js_ShyMenu js_MinimizeMenu MinimizeMenu fr block relative" href="javascript:void(0)" rel="nofollow"></a>
+                        <section class="js_LinkTN js_ShyMenu LinkTN fr dr">
+                            <a title="صفحه اصلی تبیان" class="OverLinkBlue trans400 prl10 relative" href="http://tebyan.net">صفحه اصلی تبیان</a>
+                            <a title="شبکه اجتماعی" class="OverLinkBlue trans400 prl10 relative" href="http://net.tebyan.net">شبکه اجتماعی</a>
+                            <a title="مشاوره" class="OverLinkBlue trans400 prl10 relative" href="http://moshavere.tebyan.net">مشاوره</a>
+                            <a title="آموزش" class="OverLinkBlue trans400 prl10 relative" href="http://www.tebyan.net/newindex.aspx?pid=256784">آموزش</a>
+                            <a title="فیلم" class="OverLinkBlue trans400 prl10 relative" href="http://film.tebyan.net">فیلم</a>
+                            <a title="صوت" class="OverLinkBlue trans400 prl10 relative" href="http://sound.tebyan.net">صوت</a>
+                            <a title="تصاویر" class="OverLinkBlue trans400 prl10 relative" href="http://image.tebyan.net">تصاویر</a>
+                            <a title="حوزه" class="OverLinkBlue trans400 prl10 relative" href="http://www.tebyan.net/newindex.aspx?pid=91199">حوزه</a>
+                            <a title="کتابخانه" class="OverLinkBlue trans400 prl10 relative" href="http://library.tebyan.net">کتابخانه</a>
+                            <a title="دانلود" class="OverLinkBlue trans400 prl10 relative" href="http://download.tebyan.net">دانلود</a>
+                            <a title="وبلاگ" class="OverLinkBlue trans400 prl10 relative" href="http://teblog.tebyan.net">وبلاگ</a>
+                            <a title="فروشگاه اینترنتی" class="OverLinkBlue trans400 prl10 relative" href="http://www.tebyan.net/newindex.aspx?pid=236001">فروشگاه اینترنتی</a>
+                        </section>
+                        <section class="fl pl5 lh3 js_LoginBox">
+<!--Donut#286D0FC912F197BB25850C9ECB1CDA2B3085F4676CFAF39092ECC3BC19221342D2A9790B24357A2796E3C7779573B60ED07767D3FBAB43FA87E4407B0B5C9D7E281D7F92AD13FA1C608CF62AE5F151A8D72F66CA08C22C0D775E08AC7F64BAC3CB8BB5C880FC89DD3607B3598D90192165D06907382741EAD60D44D35C81AAE0FF9B2601B12308A967DAC16B8ED39032A94634ABB80EDD1626E7C4A6A4FA7ABFD3309CCB9C8DA1FA747F3AFF9263CD9D4F362190020AF2B4534DFA26AA39F66895ED0E49E54B5E5F548785AD97695BA5060E1ED833A45EC91A338D2371914763EE25BD8CD1169A0D911EE9DB0C83282E76B0C0B296B0F3971E2F08842D898E2FC028A13F6EDC72108E45C714B1C22C529152F5FD923B5B73122E8CAC61E23BE92C8A6C8C4EDD9446BE8AD3A1D41B9D8F5059CE541612935186EEA4C97BF36B73C5B7C4942360FF7D58A110398FA3D531CB61EFB55137B255677E3BA2618A98DF672F7EDF95F9E70DDE0636F16D7D8C33F6A5B23C1FC31FC1181C102468C48F8F#-->
+    <a class="btnLogin relative js_Login button small gray bold" href="/fa/Account/Login?returnUrl=/fa/Browse/Alphabet?Alpha=%D8%A7" rel="license">ورود</a>
+<!--EndDonut-->
+                        </section>
+                        <section class="fl LanguageBox dr tc prl5">
+                            <a href="javascript:void(0)" class="trans400 relative ActiveLan">فارسی</a>
+                            <a href="javascript:void(0)" class="trans400 relative">English</a>
+                            <a href="javascript:void(0)" class="trans400 relative">العربیة</a>
+                        </section>
+                    </section>
+                </nav>
+                <section class="IntraGeneralHeader w100p relative inlineblock">
+                    <img src="/image/TestVersion.png" width="149" height="115" class="TestVersion absolute">
+                    <a href="http://library.tebyan.net" class="MainLogo absolute z1 trans400" title="کتابخانه دیجیتال">
+                        <figure>
+                            <img src="/image/MainLogo.png" width="200" height="129" alt="کتابخانه دیجیتال" title="کتابخانه دیجیتال">
+                        </figure>
+                    </a>
+                    <h1 class="w100p tc dr relative HeaderTitle FirstHeaderTitle BNazanin cFFF">
+                        اینجــــا یک کتابخانه دیجیتالی است
+                    </h1>
+                    <h1 class="w100p tc dr relative HeaderTitle SecondtHeaderTitle BNazanin cFFF">
+                        با بیش از <span class="BNazanin cffc900 HeaderNumber">100000</span> منبع الکترونیکی رایگان به زبان فارسی ، عربی و انگلیسی
+                    </h1>
+                    <a class="InternalMainLogo absolute block" href="http://library2.tebyan.net">
+                        <img width="162" height="46" src="/image/NewInternalMainLogo.png" alt="کتابخانه دیجیتالی تبیان" class="block">
+                    </a>
+                    <section class="js_SearchBox SearchBox bFFF relative z2 trans400">
+                        <div class="FrameSearchBox absolute">
+                            <input type="text" class="js_TextSearchBox TextSearchBox border0 w100p h100p dr tr BNazanin" fn="EnterSearching" kind="keydown" value="جستجو ...">
+                        </div>
+                        <a class="js_Tooltip Searching absolute trans400 cover" href="javascript:void(0)" rel="nofollow" fn="Searching" kind="click"></a>
+                        <span class="js_ShyFilteringBox">
+                            <a class="js_Tooltip js_Filtering Filtering absolute trans400 cover" href="javascript:void(0)" rel="nofollow" fn="Filtering" kind="click"></a>
+                            <section class="js_FilteringBox FilteringBox absolute z1 sborder border1 bcc0c0c0 bFFF p10 none">
+                                <span class="cb inlineblock bold dr tr p5">جستجو بر اساس ...</span>
+                                <a href="javascript:void(0)" rel="nofollow" class="block cb lh1-5 p5 relative ActiveFilter" typeinfo="fullvalues">همه</a>
+                                <a href="javascript:void(0)" rel="nofollow" class="block cb lh1-5 p5 relative" typeinfo="Title">عنوان</a>
+                                <a href="javascript:void(0)" rel="nofollow" class="block cb lh1-5 p5 relative" typeinfo="Author">پدیدآور</a>
+                                <a href="javascript:void(0)" rel="nofollow" class="block cb lh1-5 p5 relative" typeinfo="Subject">موضوع</a>
+                                <a href="javascript:void(0)" rel="nofollow" class="block cb lh1-5 p5 relative" typeinfo="Note">یادداشت</a>
+                                <a href="javascript:void(0)" rel="nofollow" class="block cb lh1-5 p5 relative" typeinfo="FullText">تمام متن</a>
+                            </section>
+                        </span>
+                    </section>
+                    <span class="js_ShyToggleMenu">
+                        <section class="js_MainLinksBox MainLinksBox tc dr m0a">
+                            <a href="/fa/Browse/Thesaurus" class="RightLinks cFFF Estelahname inlineblock relative trans400" title="اصطلاحنامه" ttitle="اصطلاحنامه">
+                                اصطلاحنامه
+                            </a>
+                            <a href="/fa/Browse/Collection" class="RightLinks cFFF Majmoeha inlineblock relative trans400" title="مجموعه ها" ttitle="مجموعه ها">
+                                مجموعه ها
+                            </a>
+                            <a href="/fa/Browse/Alphabet" class="RightLinks cFFF MororeAlefbaee inlineblock relative trans400" title="مرورالفبایی" ttitle="مرورالفبایی">
+                                مرورالفبایی
+                            </a>
+                            <span class="LeftLLinks">
+                                <a href="/fa/Account/MyLibrary" class="LeftLinks cFFF KetabkhaneShakhsi inlineblock relative trans400" title="کتابخانه شخصی" ttitle="کتابخانه شخصی">
+                                    کتابخانه شخصی
+                                </a>
+                                <a href="http://www.tebyan.net/newindex.aspx?pid=851&amp;GroupID=1197" class="LeftLinks cFFF PorseshAzKetabdar inlineblock relative trans400" title="پرسش از کتابدار" ttitle="پرسش از کتابدار">
+                                    پرسش از کتابدار
+                                </a>
+                                <a href="/fa/Account/MyLibrary#Send" class="LeftLinks cFFF ErsaleManba inlineblock relative trans400" title="ارسال منبع" ttitle="ارسال منبع">
+                                    ارسال منبع
+                                </a>
+                                <a href="http://library2.tebyan.net/fa/Viewer/PDF/16451/2" class="LeftLinks cFFF RahnamaKetabkhane inlineblock relative trans400" title="راهنمای کتابخانه" ttitle="راهنمای کتابخانه">
+                                    راهنمای کتابخانه
+                                </a>
+                            </span>
+                        </section>
+                        <a href="javascript:void(0)" rel="nofollow" title="گزینگان کتابخانه" class="js_ToggleMenu ToggleMenu absolute none" fn="ToggleMenu" kind="click"></a>
+                    </span>
+                </section>
+            </header>
+            <section class="js_GeneralContent GeneralContent w100p relative">
+                <section class="RightShadowGC TopShadows absolute t0 r0 z1"></section>
+                <section class="TopShadowGC TopShadows absolute t0 r0 l0"></section>
+                <section class="LeftShadowGC TopShadows absolute t0 l0 z1"></section>
+                
+
+<script type="text/javascript" src="/JS/jquery/plugin/Pagination/jquery.pagination.js?seed=30/05/2015"></script>
+<link rel="stylesheet" href="/JS/jquery/plugin/Pagination/pagination.css?seed=30/05/2015">
+<link rel="stylesheet" href="/css/SearchLibrary.css?seed=31/05/2015">
+<section class="Alphabet relative z1">
+    <section class="js_FilterStrick SearchFilter relative z1">
+        <section class="js_MainInternalTab MainInternalTab SearchFilterPack mt10">
+            <section class="js_RowInternalTab RowInternalTab FirstRow w100p cb mt10 inlineblock ActiveTab">
+                <section class="TitleThesaurus fr">
+                    <strong class="dr tc block fl">مرور الفبایی</strong>
+                </section>
+                <section class="SubTitleInternalTab RowSearchFilter w100p cb dr tr">
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh ActiveAlphabet" href="?Alpha=ا">آ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ب">ب</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=پ">پ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ت">ت</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ث">ث</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ج">ج</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=چ">چ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ح">ح</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=خ">خ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=د">د</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ذ">ذ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ر">ر</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ز">ز</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ژ">ژ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=س">س</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ش">ش</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ص">ص</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ض">ض</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ط">ط</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ظ">ظ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ع">ع</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=غ">غ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ف">ف</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ق">ق</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ک">ک</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=گ">گ</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ل">ل</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=م">م</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ن">ن</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=و">و</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ه">ه</a>
+                        <a class="itemfsp border1 sborder dr tc radius3 trans400 ofh " href="?Alpha=ی">ی</a>
+                </section>
+            </section>
+            <script type="text/javascript">
+                var PartFilter = 'Alphabet';
+            </script>
+
+
+
+
+ <section class="DropFilterBox absolute" style="display:inline">
+        <section class="js_ItemDropFilterBox js_shyDropDown ItemDropFilterBox fl relative z1">
+            <a href="javascript:void(0)">
+                <header class="js_HeaderIFB HeaderIFB relative dr tr tradius3 sborder">نوع منبع</header>
+            </a>
+            <section class="js_lstGenre js_ContentIFB ContentIFB absolute sborder none">
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="47390"></span></div>سند</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="48755"></span></div>کتاب الکترونیکی</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="48760"></span></div>وصیتنامه</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="48756"></span></div>متن سخنرانی</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="319"></span></div>مقاله</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="321"></span></div>خود زندگینامه</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="322"></span></div>کتاب شناسی</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="323"></span></div>زندگینامه</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="337"></span></div>مقاله روزنامه ای</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="350"></span></div>نسخه خطی</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="357"></span></div>مجله</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="363"></span></div>نامه</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="371"></span></div>رمان</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="378"></span></div>شعر</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="387"></span></div>اسلاید</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="395"></span></div>پایان نامه</h1>
+            </section>
+        </section>
+            <section class="js_ItemDropFilterBox js_shyDropDown ItemDropFilterBox fl relative z1">
+            <a href="javascript:void(0)">
+                <header class="js_HeaderIFB HeaderIFB relative dr tr tradius3 sborder">زبان</header>
+            </a>
+            <section class="js_lstLanguage js_ContentIFB ContentIFB absolute sborder none">
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="803"></span></div>عربی</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="801"></span></div>انگلیسی</h1>
+                    <h1 href="javascript:void(0)" class="dr tr block lh2 Circle relative trans400"><div class="checker"><span class="checked"><input checked="checked" type="checkbox" value="1036"></span></div>فارسی</h1>
+            </section>
+        </section>
+    <section class="js_ItemDropFilterBox js_shyDropDown ItemDropFilterBox fl relative z1">
+        <a href="javascript:void(0)">
+            <header class="js_HeaderIFB HeaderIFB relative dr tr tradius3 sborder">مرتب سازی براساس</header>
+        </a>
+        <section class="js_lstOrderBy js_ContentIFB ContentIFB absolute sborder none">
+            <a href="javascript:void(0)" value="authorsearch" class="dr tr block lh2 Circle relative trans400">پدیدآور</a>
+            <a href="javascript:void(0)" value="MetaDataID" class="dr tr block lh2 Circle relative trans400">شناسه فراداده</a>
+            <a href="javascript:void(0)" value="TitleSearch" class="dr tr block lh2 Circle relative trans400 ActiveDropItem">عنوان</a>
+        </section>
+    </section>
+</section>
+
+<script type="text/javascript">
+    function RenderPage() {
+        var Params = [];
+        if (PartFilter == 'Thesaurus') Params.push('SubjectID=');
+        else if (PartFilter == 'Alphabet') Params.push('Alpha=ا');
+        Params.push('lstOrder=asc');
+        var GenreIDs = [];
+        $('.js_lstGenre input:checked').each(function () {
+            GenreIDs.push($(this).val());
+        });
+        if (GenreIDs.length > 0) Params.push('GenreIDs=' + GenreIDs.join(","));
+
+        var LangIDs = [];
+        $('.js_lstLanguage input:checked').each(function () {
+            LangIDs.push($(this).val());
+        });
+        if (LangIDs.length > 0) Params.push('LanguageIDs=' + LangIDs.join(","));
+
+
+        Params.push('lstOrderBy=' + $('.js_lstOrderBy .ActiveDropItem').attr('Value'));
+        Params.push('PageIndex=' + GetHashValue('PageIndex', 0));
+
+        GetActionHtml("/fa/Browse/SearchResult?" + Params.join('&'), {}, function (data) {
+            $('.pnlResult').html(data.d);
+            ActiveCheckBox('.js_ContentIFB input[type="checkbox"]');
+        },
+                  function (a) {
+                      if (a) {
+                          $('.LoadingBox').show();
+                      }
+                      else $('.LoadingBox').hide();
+                  });
+    }
+    function GetHashValue(k1, _default) {
+        var params = document.location.hash.substr(1).split("&");
+        for (var p in params) {
+
+            try {
+                var k = params[p].split('=');
+                if (k1 == k[0]) {
+                    return k[1];
+                }
+            }
+            catch (ex) { }
+        }
+        return _default;
+    }
+    $(document).ready(function () {
+        try {
+            var params = document.location.hash.substr(1).split("&");
+            for (var p in params) {
+                try {
+                    var k = params[p].split('=');
+                    $('#' + k[0]).val(k[1]);
+                }
+                catch (ex) { }
+            }
+            /*if(document.location.hash.length>1)
+            {
+                RenderPage();
+            }*/
+        }
+        catch (ex) { }
+        $(window).hashchange(function () {
+            try {
+                RenderPage();
+            }
+            catch (ex) { }
+        });
+        RenderPage();
+    });
+
+</script>
+    </section>
+</section>
+<section class="js_pnlResult pnlResult">
+<section class="ResultSearch cb">
+    <section class="ResultPaging w100p table dr tc mt10 mb10">
+        <section class="paging inlineblock"><div class="pagination"><span class="current prev">قبل</span><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>...</span><a href="#" class="ep">1210</a><a href="#" class="ep">1211</a><a href="#" class="ep">1212</a><a href="#" class="ep">1213</a><a href="#" class="ep">1214</a><a href="#" class="next">بعد</a></div></section>
+        <div class="w100p tc dr mt5 CountPaging">
+            <span class="TitleCountPaging">تعداد نتایج : </span>
+            <span class="NemberCountPaging mr5">12137</span>
+        </div>
+    </section>
+        <script type="text/javascript">
+         
+    function callWebserviced(page_index, IsPagging) {
+        document.location.hash = SetHashString(document.location.hash, "PageIndex", page_index.toString());
+        changepaging = false;
+        $("html:not(:animated),body:not(:animated)").animate({ scrollTop: 0 }, 800);
+        return false;
+    }
+     
+    $(".paging").empty().pagination(
+        parseInt(12137),
+        {
+            prev_text: 'قبل',
+            next_text: 'بعد',
+            current_page: parseInt(0),
+            items_per_page: 10,
+            num_display_entries: 5,
+            num_edge_entries: 5,
+            callback: callWebserviced
+        });
+    
+</script>
+        <script type="text/javascript">
+            function highlightWord(root, word)
+            {
+                if($.trim(word).length <= 0 ) return;
+                textNodesUnder(root).forEach(highlightWords);
+                function textNodesUnder(root) {
+                    var n, a = [], w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+                    while (n = w.nextNode()) a.push(n);
+                    return a;
+                }
+                function highlightWords(n) {
+                    for (var i; (i = n.nodeValue.indexOf(word, i)) > -1; n = after) {
+                        var after = n.splitText(i + word.length);
+                        var highlighted = n.splitText(i);
+                        var span = document.createElement('em');
+                        //span.className = 'highlighted';
+                        span.name = word;
+                        span.appendChild(highlighted);
+                        after.parentNode.insertBefore(span, after);
+
+                    }
+                }
+            }
+            function RunhighlightWord(word)
+            {
+                if (word && word.length > 0) {
+                    var words = word.split(' ');
+                    for (var i in words) {
+                        q = words[i];
+                        highlightWord(document.body, q);
+                        if (q != q.replace(/ی/gi, 'ي').replace(/ک/gi, 'ك')) {
+                            highlightWord(document.body, q.replace(/ی/gi, 'ي').replace(/ک/gi, 'ك'));
+                        }
+                    }
+                }
+            }
+            RunhighlightWord($('#txtField1').is('input') && $('#txtField1').val());
+            $('.js_TextSearchBox').val($('#txtField1').val());
+        </script>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/101231/%D8%A7%D8%A1%D9%85%D8%A7%D9%85%E2%80%8C%20%D8%A7%D9%84%D8%AD%D8%B3%DB%8C%D9%86%20%E2%80%8C(%D8%B9)%20%D9%81%DB%8C%E2%80%8C%20%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D9%86%D8%AD%D8%B1%D8%A7%D9%81" title="اءمام‌ الحسین ‌(ع) فی‌ مواجهة‌ الانحراف "><img class="ImageResultSearch fr mr20" src="/images/DefaulImage/metadataarticle.jpg#1" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/101231/%D8%A7%D8%A1%D9%85%D8%A7%D9%85%E2%80%8C%20%D8%A7%D9%84%D8%AD%D8%B3%DB%8C%D9%86%20%E2%80%8C(%D8%B9)%20%D9%81%DB%8C%E2%80%8C%20%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D9%86%D8%AD%D8%B1%D8%A7%D9%81" title="اءمام‌ الحسین ‌(ع) فی‌ مواجهة‌ الانحراف ">اءمام‌ الحسین ‌(ع) فی‌ مواجهة‌ الانحراف </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">سعد متعب</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">مقاله</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/222655/%D8%A7%D9%86%D8%AD%D8%B1%D8%A7%D9%81%D8%A7%D8%AA%20%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A">انحرافات اجتماعي</a> , <a href="/fa/Thesaurus/265751/%D8%B3%D9%8A%D8%B1%D9%87%E2%80%8C%20%D8%A7%D9%85%D8%A7%D9%85%D8%A7%D9%86%E2%80%8C">سيره‌ امامان‌</a> , <a href="/fa/Thesaurus/265831/%D9%82%D9%8A%D8%A7%D9%85%E2%80%8C%20%D8%B9%D8%A7%D8%B4%D9%88%D8%B1%D8%A7">قيام‌ عاشورا</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/text.png">&nbsp;<a href="/fa/Viewer/Switcher/102801/0">نسخه متنی</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="101231" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/101231/%D8%A7%D8%A1%D9%85%D8%A7%D9%85%E2%80%8C%20%D8%A7%D9%84%D8%AD%D8%B3%DB%8C%D9%86%20%E2%80%8C(%D8%B9)%20%D9%81%DB%8C%E2%80%8C%20%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D9%86%D8%AD%D8%B1%D8%A7%D9%81" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="اءمام‌ الحسین ‌(ع) فی‌ مواجهة‌ الانحراف " data-hover="اءمام‌ الحسین ‌(ع) فی‌ مواجهة‌ الانحراف ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/136032/%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%A3%D9%85%D8%A9%20%D9%81%DB%8C%20%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%DB%8C" title="ائتلاف مع الأمة فی معادلة التغییر الإسلامی "><img class="ImageResultSearch fr mr20" src="/images/DefaulImage/metadataarticle.jpg#1" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/136032/%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%A3%D9%85%D8%A9%20%D9%81%DB%8C%20%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%DB%8C" title="ائتلاف مع الأمة فی معادلة التغییر الإسلامی ">ائتلاف مع الأمة فی معادلة التغییر الإسلامی </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">فؤاد کاظم المقدادی</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">مقاله</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/271235/%D9%88%D8%AD%D8%AF%D8%AA%E2%80%8C%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%E2%80%8C">وحدت‌ اسلامي‌</a> , <a href="/fa/Thesaurus/274743/%D9%85%D8%B3%D9%84%D9%85%D8%A7%D9%86%D8%A7%D9%86%E2%80%8C">مسلمانان‌</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/text.png">&nbsp;<a href="/fa/Viewer/Switcher/141816/0">نسخه متنی</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="136032" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/136032/%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%A3%D9%85%D8%A9%20%D9%81%DB%8C%20%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%20%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%DB%8C" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائتلاف مع الأمة فی معادلة التغییر الإسلامی " data-hover="ائتلاف مع الأمة فی معادلة التغییر الإسلامی ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/130187/%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%20%D9%85%D9%86%D8%A7%D8%A8%D8%B9%20%D8%AF%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA%D9%87%D8%A7" title="ائتلاف منابع در شرکتها "><img class="ImageResultSearch fr mr20" src="/images/DefaulImage/metadataarticle.jpg#1" alt=" ساختارهای علمی و ظرفیت نوآوری" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/130187/%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%20%D9%85%D9%86%D8%A7%D8%A8%D8%B9%20%D8%AF%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA%D9%87%D8%A7" title="ائتلاف منابع در شرکتها ">ائتلاف منابع در شرکتها </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                                <span>:  ساختارهای علمی و ظرفیت نوآوری </span>
+                        </h1>
+                    </section>
+                                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">فارسی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">مقاله</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/267718/%D8%A8%D9%87%D8%B1%D9%87%20%D9%88%D8%B1%D9%8A%E2%80%8C">بهره وري‌</a> , <a href="/fa/Thesaurus/267854/%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%AA%E2%80%8C%20%D9%85%D9%86%D8%A7%D8%A8%D8%B9%E2%80%8C">مديريت‌ منابع‌</a> , <a href="/fa/Thesaurus/267878/%D9%85%D9%88%D9%81%D9%82%D9%8A%D8%AA%E2%80%8C%20%D8%B4%D8%BA%D9%84%D9%8A%E2%80%8C">موفقيت‌ شغلي‌</a> , <a href="/fa/Thesaurus/268875/%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5%E2%80%8C%20%D9%85%D9%86%D8%A7%D8%A8%D8%B9%E2%80%8C">تخصيص‌ منابع‌</a> , <a href="/fa/Thesaurus/274917/%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%AA%20%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1">مديريت تغيير</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/133270/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="130187" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/130187/%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81%20%D9%85%D9%86%D8%A7%D8%A8%D8%B9%20%D8%AF%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA%D9%87%D8%A7" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائتلاف منابع در شرکتها " data-hover="ائتلاف منابع در شرکتها ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/111887/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D8%A7%20%D8%B9%D8%B4%D8%B1" title="ائمة الاثنا عشر "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/metadata/111887.jpg" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/111887/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D8%A7%20%D8%B9%D8%B4%D8%B1" title="ائمة الاثنا عشر ">ائمة الاثنا عشر </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">جعفر سبحانی تبریزی</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/113241/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D9%87%D9%84%20%D8%A8%D9%8A%D8%AA%20(%20%D8%B9%20)">فضايل اهل بيت ( ع )</a> , <a href="/fa/Thesaurus/295529/%D8%A7%D8%A6%D9%85%D9%87%20%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20(%20%D8%B9%20)">ائمه اثني عشر ( ع )</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/text.png">&nbsp;<a href="/fa/Viewer/Switcher/114869/0">نسخه متنی</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="111887" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/111887/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D8%A7%20%D8%B9%D8%B4%D8%B1" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمة الاثنا عشر " data-hover="ائمة الاثنا عشر ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/122847/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" title="ائمة الاثني عشر عليهم السلام "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/185057.png" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/122847/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" title="ائمة الاثني عشر عليهم السلام ">ائمة الاثني عشر عليهم السلام </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">امام حسن عليه السلام</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/24523/%D8%A7%D9%81%D8%B9%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D9%85%20%D8%AD%D8%B3%D9%86%20(%20%D8%B9%20)">افعال امام حسن ( ع )</a> , <a href="/fa/Thesaurus/83077/%D8%B3%D9%8A%D8%B1%D9%87%20%D8%A7%D8%A6%D9%85%D9%87%20%D8%A7%D8%B7%D9%87%D8%A7%D8%B1%20(%20%D8%B9%20)">سيره ائمه اطهار ( ع )</a> , <a href="/fa/Thesaurus/113235/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D8%A6%D9%85%D9%87%20(%20%D8%B9%20)">فضايل ائمه ( ع )</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/125917/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="122847" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/122847/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمة الاثني عشر عليهم السلام " data-hover="ائمة الاثني عشر عليهم السلام ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/122806/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%DB%8C%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" title="ائمة الاثني عشر علیهم السلام "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/185016.png" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/122806/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%DB%8C%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" title="ائمة الاثني عشر علیهم السلام ">ائمة الاثني عشر علیهم السلام </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">امام حسن عليه السلام</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/24523/%D8%A7%D9%81%D8%B9%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D9%85%20%D8%AD%D8%B3%D9%86%20(%20%D8%B9%20)">افعال امام حسن ( ع )</a> , <a href="/fa/Thesaurus/113241/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D9%87%D9%84%20%D8%A8%D9%8A%D8%AA%20(%20%D8%B9%20)">فضايل اهل بيت ( ع )</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/125876/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="122806" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/122806/%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%DB%8C%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمة الاثني عشر علیهم السلام " data-hover="ائمة الاثني عشر علیهم السلام ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/122845/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" title="ائمتنا، روائع من حياة الأئمة الاثني عشر عليهم السلام "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/185055.png" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/122845/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" title="ائمتنا، روائع من حياة الأئمة الاثني عشر عليهم السلام ">ائمتنا، روائع من حياة الأئمة الاثني عشر عليهم السلام </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">امام حسن عليه السلام</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/24523/%D8%A7%D9%81%D8%B9%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D9%85%20%D8%AD%D8%B3%D9%86%20(%20%D8%B9%20)">افعال امام حسن ( ع )</a> , <a href="/fa/Thesaurus/83077/%D8%B3%D9%8A%D8%B1%D9%87%20%D8%A7%D8%A6%D9%85%D9%87%20%D8%A7%D8%B7%D9%87%D8%A7%D8%B1%20(%20%D8%B9%20)">سيره ائمه اطهار ( ع )</a> , <a href="/fa/Thesaurus/113235/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D8%A6%D9%85%D9%87%20(%20%D8%B9%20)">فضايل ائمه ( ع )</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/125915/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="122845" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/122845/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%20%D8%B9%D8%B4%D8%B1%20%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمتنا، روائع من حياة الأئمة الاثني عشر عليهم السلام " data-hover="ائمتنا، روائع من حياة الأئمة الاثني عشر عليهم السلام ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/122888/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1" title="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/185098.png" alt=" الامام الباقر علیه السلام" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/122888/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1" title="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر ">ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                                <span>:  الامام الباقر علیه السلام </span>
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">دخيل، علي محمدعلي، 1936 -     م.</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/32555/%D8%A8%D8%A7%D9%82%D8%B1%20%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85">باقر العلوم</a> , <a href="/fa/Thesaurus/113235/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D8%A6%D9%85%D9%87%20(%20%D8%B9%20)">فضايل ائمه ( ع )</a> , <a href="/fa/Thesaurus/295381/%D8%A7%D9%81%D8%B9%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D9%85">افعال امام</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/125958/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="122888" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/122888/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر " data-hover="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/120376/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1%20(%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85)" title="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر (عليهم السلام) "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/183031.png" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/120376/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1%20(%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85)" title="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر (عليهم السلام) ">ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر (عليهم السلام) </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">علی محمد علی دخیل</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/24522/%D8%A7%D9%81%D8%B9%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D9%85">افعال امام</a> , <a href="/fa/Thesaurus/113235/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D8%A6%D9%85%D9%87%20(%20%D8%B9%20)">فضايل ائمه ( ع )</a> , <a href="/fa/Thesaurus/295850/%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%A7%D9%84%D8%AD%D9%82%D9%88%D9%82%20%D9%84%D9%84%D8%A7%D9%85%D8%A7%D9%85%20%D8%B3%D8%AC%D8%A7%D8%AF%20(%D8%B9)(%DA%A9%D8%AA%D8%A7%D8%A8)">رساله الحقوق للامام سجاد (ع)(کتاب)</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/123443/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="120376" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/120376/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D8%AD%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1%20(%D8%B9%D9%84%D9%8A%D9%87%D9%85%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85)" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر (عليهم السلام) " data-hover="ائمتنا، روائع‌ من حياة‌ الأئمة‌ الاثني‌ عشر (عليهم السلام) ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="RowResultSearch w100p cb table trans400 sborder radius3">
+            <input type="checkbox" class="CheckBoxResultSearch fr mrl10 none">
+            <a href="/fa/122874/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1" title="ائمتنا، روائع‌ من ياة‌ الأئمة‌ الاثني‌ عشر "><img class="ImageResultSearch fr mr20" src="http://img.tebyan.net/Library/thumbs/185084.png" alt="" width="125" height="165"></a>
+            <section class="DetailsResultSearch">
+                    <section class="dr tr lh2">
+                        <h1 class="SquareBack inlineblock bold dr tr">
+                            <a class="bold" href="/fa/122874/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1" title="ائمتنا، روائع‌ من ياة‌ الأئمة‌ الاثني‌ عشر ">ائمتنا، روائع‌ من ياة‌ الأئمة‌ الاثني‌ عشر </a>
+                        </h1>
+                        <h1 class="ColoryBack inlineblock dr tr">
+                            <span>[منبع الکترونیکی] </span> 
+                        </h1>
+                    </section>
+                                <section class="dr tr lh2">
+                    <h1 class="TitleRow fr dr tr">شرح پدیدآور :</h1>
+                    <h1 class="ValueRow dr tr">دخيل، علي محمدعلي، 1936 -     م.</h1>
+                </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">زبان :</h1>
+                        <h1 class="ValueRow dr tr">عربی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">نوع منبع :</h1>
+                        <h1 class="ValueRow dr tr">کتاب الکترونیکی</h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">موضوعات :</h1>
+                        <h1 class="ValueRow dr tr"><a href="/fa/Thesaurus/83077/%D8%B3%D9%8A%D8%B1%D9%87%20%D8%A7%D8%A6%D9%85%D9%87%20%D8%A7%D8%B7%D9%87%D8%A7%D8%B1%20(%20%D8%B9%20)">سيره ائمه اطهار ( ع )</a> , <a href="/fa/Thesaurus/113235/%D9%81%D8%B6%D8%A7%D9%8A%D9%84%20%D8%A7%D8%A6%D9%85%D9%87%20(%20%D8%B9%20)">فضايل ائمه ( ع )</a> , <a href="/fa/Thesaurus/295381/%D8%A7%D9%81%D8%B9%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D9%85">افعال امام</a></h1>
+                    </section>
+                                    <section class="dr tr lh2">
+                        <h1 class="TitleRow fr dr tr">منابع دیجیتالی :</h1>
+                        <h1 class="ValueRow dr tr "><img src="/images/pdf.png">&nbsp;<a href="/fa/Viewer/Switcher/125944/0">نسخه pdf</a> </h1>
+                    </section>
+                <section class="dr tr lh2 BtnRowData">
+                    <span class="js_ShyContentTooltip">
+                        <a href="javascript:void(0)" rel="nofollow" favoritecatid="0" metadataid="122874" class="js_AddToFavorite  fl OverlayBtn RedOverlay relative mt5 ml10" title="افزودن به کتابخانه شخصی" data-hover="افزودن به کتابخانه شخصی">
+                            <span class="cFFF dr tc radius5 block">
+                                افزودن به کتابخانه شخصی
+                            </span>
+                        </a>
+                    </span>
+                    <a href="/fa/122874/%D8%A7%D8%A6%D9%85%D8%AA%D9%86%D8%A7%D8%8C%20%D8%B1%D9%88%D8%A7%D8%A6%D8%B9%E2%80%8C%20%D9%85%D9%86%20%D9%8A%D8%A7%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A3%D8%A6%D9%85%D8%A9%E2%80%8C%20%D8%A7%D9%84%D8%A7%D8%AB%D9%86%D9%8A%E2%80%8C%20%D8%B9%D8%B4%D8%B1" class="fl OverlayBtn BlueOverlay relative mt5 ml10" title="ائمتنا، روائع‌ من ياة‌ الأئمة‌ الاثني‌ عشر " data-hover="ائمتنا، روائع‌ من ياة‌ الأئمة‌ الاثني‌ عشر ">
+                        <span class="cFFF dr tc radius5 block">
+                            مشاهده فراداده و بررسی ها
+                        </span>
+                    </a>
+                </section>
+            </section>
+        </section>
+            <section class="ResultPaging w100p table dr tc mt10 mb10">
+        <section class="paging inlineblock"><div class="pagination"><span class="current prev">قبل</span><span class="current">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>...</span><a href="#" class="ep">1210</a><a href="#" class="ep">1211</a><a href="#" class="ep">1212</a><a href="#" class="ep">1213</a><a href="#" class="ep">1214</a><a href="#" class="next">بعد</a></div></section>
+        <div class="w100p tc dr mt5 CountPaging">
+            <span class="TitleCountPaging">تعداد نتایج : </span>
+            <span class="NemberCountPaging mr5">12137</span>
+        </div>
+    </section>
+</section>
+<link type="text/css" rel="stylesheet" href="/js/jquery/plugin/CheckBoxLibrary/uniform_CheckBox.css?seed=01/06/2015">
+<script type="text/javascript" src="/js/jquery/plugin/CheckBoxLibrary/uniform_CheckBox.js?seed=01/06/2015"></script>
+
+<!--Donut#8C437AA19633FE7A8FF673AF96AD1FEF3693D3BA7C43D93B83697E15C9D81FEB04527080DB7CD460A993E6CCDFE913BB7B33360405184C9DAA6F5645D4495666EA97708D4559A2E681866CB563E9D44453F21D9295619B18C3A22A82503429DBF75792A0C475A40BA1FCFA49E868CD2E52B2F924CEB5714B875DA02333DC230EB40903BFF00F09FD0028CDBCD1B13E5ED1571B43C3A612F8E7701287F330277D13900B859164442F6DE77A3A54632B79BD4E3FF62FDD8A6C98120B08D57D4A349AAE2E2E20B0C6799B48FF1094C7FE9098FC947DE4ACDE9164799A2A2CF26ECBDEBEF806376BAC3874C793A4CEEBA670D8CF8EB08FFFE84D4A4C549B0EFF6270154C21F3312697F02B9BEA87E5B5755B2B53AB51AEDACE050800C21535871D45028A16294CF4110387697C72CEC2E81A06FBB26D6E419F4595BBA68AC0E6123FC5091F62C1811B0847E9AEB4263C40107FFF448E0A578CDFCA8105CFD835A7D70A585F3CF39C2955088132D97B4520AED4863951629C08CFD320CD70A646391919B98093A81E9F1D5782FA960B31A6D2CFC98855490E637B673A315BF5C6050BB967D9F388326DB8550FE57C70712DFBCAB474120D28F2D4E2796707CFBB1660A1659A9F56D35CB1CE80A4F6C4E9747BB254B5C86CFF71E6FA6CF6459CD9831AFACAAE912BF30F496DCFEAC491C1A17C02A7A1139913B4C3126A8E44DB8DDEAC2FE868656EB052D3234B86528E05F8DC3D6FE6C8FF21B8F65B112F23B52DE8B82C9730C058809EA7DE8F1444730322705EC54E382072110F0C09F09D27BF428CD9CBD0CD4F6C888AD7E2CE172DBFB12463B14A3C1AAC55412D9D1927A8C00D277DCB618228F23FCE21F73488AA16A2E09C9F899C39A63F7AE49CF20C28D7CB1E2BC9A651E81C316CA6E731726F90BB06D07A464328C70B01206954FDC585FAFB3DA58DA635F941EF2A5E578698C94AC92DEEFEA4A2E5262CEC2177348E19B1DDBD78A1FC03419A285A6ECA3487DC69E9CD3488A8000171BD4C1E4FCE9B6B115B9F71CD0434639162E6F015EA2B0007CB36E662974468AB02F1D94D4C04907C3518E23F53F07EAD127BE74100B1A79FCDFE5B235A2EB3B55734C9FB51626A793C01B5DFA2E3683A78933D095F14662230940058BFA56772564DC1C03129AD5F4B8073DD315F1EE6D10866E98F7EA265C0582528F4EDC405856C892AE2D15AD2B0#-->
+<iframe src="/fa/Base/UserLog?UK=d5959ee9-a419-42ed-a715-90f5d31ff8f1" style="display:none"></iframe><!--EndDonut-->
+</section>
+</section>
+
+<script type="text/javascript" src="/js/InternalTab.js?seed=27/05/2015"></script>
+            </section>
+            <footer class="GeneralFooter">
+                <section class="TopGeneralFooter">
+                    <section class="RightTGF tr">
+                        <section class="ContentRightTGF fr dr tr relative">
+                            <section class="ItemCRTGF StatisticsBox fr">
+                                <section class="ValueStatistics">
+                                    <img src="/image/Statistics.png" alt="کتابخانه دیجیتال" title="کتابخانه دیجیتال" width="57" height="40" class="fr relative">
+                                    <h1 class="TitleStatistics relative dr tr cFFF bold mb5">تعداد منابع فارسی</h1>
+                                    <h1 class="NumberStatistics relative dr tr cFFF ti5 inlineblock BNazanin">100911</h1>
+                                </section>
+                            </section>
+                            <section class="ItemCRTGF StatisticsBox fr">
+                                <section class="ValueStatistics">
+                                    <img src="/image/Statistics.png" alt="کتابخانه دیجیتال" title="کتابخانه دیجیتال" width="57" height="40" class="fr relative">
+                                    <h1 class="TitleStatistics relative dr tr cFFF bold mb5">تعداد منابع عربی</h1>
+                                    <h1 class="NumberStatistics relative dr tr cFFF ti5 inlineblock BNazanin">13998</h1>
+                                </section>
+                            </section>
+                            <section class="ItemCRTGF StatisticsBox fr">
+                                <section class="ValueStatistics">
+                                    <img src="/image/Statistics.png" alt="کتابخانه دیجیتال" title="کتابخانه دیجیتال" width="57" height="40" class="fr relative">
+                                    <h1 class="TitleStatistics relative dr tr cFFF bold mb5">تعداد منابع انگلیسی</h1>
+                                    <h1 class="NumberStatistics relative dr tr cFFF ti5 inlineblock BNazanin">3281</h1>
+                                </section>
+                            </section>
+                            
+                        </section>
+                    </section>
+                    <section class="LeftTGF fl tc">
+                        <nav class="dr tc FooterNavigation">
+                            <a href="/fa/Common/CommonQuestion" title="سوالات متداول" class="LeftBorder cFFF relative">سوالات متداول</a>
+                            <a href="/fa/Common/contact" target="_blank" title="ارتباط  با ما" class="LeftBorder cFFF relative">ارتباط  با ما</a>
+                            <a href="/fa/Common/About" target="_blank" title="درباره ما" class="LeftBorder cFFF relative">درباره ما</a>
+                            <a href="/fa/Common/Links" target="_blank" title="پیوندها" class="cFFF relative mr20">پیوندها</a>
+                        </nav>
+                        <a href="http://library2.tebyan.net" title="کتابخانه دیجیتال" class="tc">
+                            <figure><img class="ImgLeftTGF" src="/image/LeftTGF.png" width="318" height="153" title="کتابخانه دیجیتال" alt="کتابخانه دیجیتال"></figure>
+                        </a>
+                    </section>
+                </section>
+                <section class="BottomGeneralFooter b000 cFFF dr tc sborder">
+                    کلیه حقوق این سایت مربوط به موسسه فرهنگی و اطلاع رسانی تبیان می باشد .
+                </section>
+            </footer>
+        </section>
+        <script type="text/javascript" src="/js/jquery.easing.Pack.1.3.js"></script>
+        <script type="text/javascript" src="/js/jquery/plugin/Notification/Notification.js"></script>
+        <script type="text/javascript" src="/js/jquery/Plugin/DefaultValuInput/DefaultValuInput.js"></script>
+        <script type="text/javascript" src="/js/jquery/Plugin/TabSheet/GetAndSetCookie.js"></script>
+        <script type="text/javascript" src="/js/jquery/Plugin/TabSheet/TabSheet.js"></script>
+        <script type="text/javascript" src="/js/jquery/Plugin/Slider/Slider.js"></script>
+        <script type="text/javascript" src="/js/jquery/Plugin/LazyImage/LazyImage.js"></script>
+        <script type="text/javascript" src="/js/CommonLibrary.js?s=1"></script><div id="tiptip_holder" style="max-width:200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div>
+        <script type="text/javascript" src="/js/MainPageLibrary.js"></script>
+        <script type="text/javascript" src="/js/MainNavigate.js"></script>
+    
+
+<!--Donut#0C921B8BDE0F188FECA9DAB4A4226F67CE5E357DE63C398F308926BE0AEB304AD963F4E7DF9960C91D1F5810F8FBC5591BCC09A2D2E0D7743FA880A8EDA734C5EFAF27E028D20AF193AF7799A6505559786944E53ADF063AA359304DC1736C73D55C58E4FF1CCE1F6E722C659041A5049C371DABACF062B3CCB3B8135F849B53664FDF544C929791A916B70C8E0A751DA0A6980028540612519DB0DE3A5A3FC19D41F63D86534EF68E44D5D40929FEF1844DB3BC1A740696B3517C64865626331B17E6A93234B18B6103A60147CD922F959EDB5E88857C3E9144F808CE24205849E11263950B51E9D16AF9BAD62CCFB9186E528CC8BC16D350164CEE8A32FB7668EF7FDF82B90DF6C0552EC36D75BAF441FE1F5A8D08C70EB15C50240F69A8D3C0425633B389EE0FD610B621E781E22E5459AF96D476E2C91B9D0E974378E446DC2256471533994EA890CF73FE624B4C8E22BE848DEA058B1BB1C15B9F4BD89BE7759B32D8AEE50C5B7B50DA46B8A8A425C57F32CF4AE26409E1405CE5EF903C006692F7D64A94918481B3E63BC1230D7731BD29CA1B67A0C2C99B4D689BD7B077E2F104C306EEB06B973A596E1078DA63A8412CCEAB2B512C02789FA41DF88DAB17C5CC80B47158D5ACF40D43D181220ECF7FDB9BCD4C58CE7EDC62E5FE2B2682F951F10A0A8278D59932F3BD00E35E7646F907A5CDF580DCCE66990A0B79557AE12801280E7A7E831FCD8E3F405B0A5418B245C05E46C9725C5C695A7303328A4071AB02E44331C4EFF6CAC85B9F73E456BF079DC9544A08A5D45D7D10278D84A3565301FBE0527767A9E5685DB6EA06B2A9B9C3855936E62D3E4422D76C3D7F5811D21849AD341440C0C9B5D51A464BE95E2B43B0576E8419B92F12EF9E722658DF1CA56BF83BB7708C88B49EAE8301637A11C1866285F0122E2F8972A23EBE800121293CF73C73EA47A96016FEE4A50383964C4B95F93EFFF165D3DF6102AE190D2F91D71287607D2DCE0D31DED3ADFED2E5F34A2AA932845A98AF5FE7099C5689B2948F895382AA86EEAC2454D673F05178AC4F1548471A90FF2E72E97A9DDEB84802990B7E60EBCCBC4F90E6B4BD897B8ACD8FF0A139FD868327C9404E8F0223864171272C1041BA0AA1131EC2E0E5329D0F3D8197BC6DF74A14A475EB40329EBA073C742D32A5467D74A4735BADDE914C5BFC14BACA71B56243D48613#-->
+<iframe src="/fa/Base/UserLog?UK=b4def889-8272-445e-a47e-37ad9c21f75c" style="display:none"></iframe><!--EndDonut-->
+</body></html>
