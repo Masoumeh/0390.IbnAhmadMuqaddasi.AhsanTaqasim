@@ -125,6 +125,7 @@ var Graph = (function (undefined) {
 			return findShortestPath(this.map, start);
 		} else if (arguments.length === 2) {
 			return findShortestPath(this.map, [start, end]);
+
 		} else {
 			return findShortestPath(this.map, toArray(arguments));
 		}

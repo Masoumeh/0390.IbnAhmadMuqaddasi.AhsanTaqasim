@@ -181,5 +181,3 @@ function prefixMatch(p) {
   while (++i < n) if (p[i] + "Transform" in s) return "-" + p[i].toLowerCase() + "-";
   return "";
 }
-
-

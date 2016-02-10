@@ -51,5 +51,3 @@ d3.geo.tile = function() {
 
   return tile;
 };
-
-

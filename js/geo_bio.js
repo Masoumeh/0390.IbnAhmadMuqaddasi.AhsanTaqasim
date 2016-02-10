@@ -34,7 +34,7 @@ function createMatrix() {
 
     graph = new Graph(edgeMap);
     cityLayer = d3.carto.layer.csv();
-    cityLayer.path("cornu.csv")
+    cityLayer.path("../Data/cornu.csv")
         .label("Cities")
         .cssClass("metro")
         .renderMode("svg")
@@ -42,7 +42,7 @@ function createMatrix() {
         .y("lat")
         //.clickableFeatures(true)
         .on("load", function () {
-            console.log("hi")
+
         });
     map.addCartoLayer(cityLayer);
 }
@@ -94,7 +94,7 @@ function makeSomeMaps() {
         .visibility(true);
     postLayer = d3.carto.layer.topojson();
     postLayer
-        .path("all_routes_new.topojson")
+        .path("../Data/all_routes_new.topojson")
         .label("Postal Routes")
         .cssClass("roads")
         .renderMode("svg")
@@ -102,7 +102,7 @@ function makeSomeMaps() {
     map.addCartoLayer(wcLayer).addCartoLayer(postLayer);
     nodes = [];
 
-    d3.csv("peopleRegion.csv", function (error, data) {
+    d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
         var people = [];
         var cnt = 0;
@@ -128,7 +128,6 @@ function makeSomeMaps() {
             if (year > max_year) max_year = year;
         });
 
-
         d3.select("#personSlider")
             .append('div')
             .call(d3.slider().value([0, 100])
@@ -145,6 +144,7 @@ function makeSomeMaps() {
                         if (yearPeople[i + ''] != undefined) {
                             var arr = yearPeople[i + '']['id'].split(',');
                             arr.forEach(function (d) {
+                                console.log("test "+JSON.stringify(peopleMap));
                                 var city = peopleMap[d]['city'].split(',');
                                 city.forEach(function (d) {
                                     if (uniqueCountires[d] == undefined)
