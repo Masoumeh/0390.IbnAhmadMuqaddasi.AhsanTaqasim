@@ -15,7 +15,6 @@ svg, canvas {
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: -1;
 }
 
 .controlsDiv {
@@ -23,6 +22,7 @@ svg, canvas {
     position: fixed;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 78;
 }
 
 #controlbar {
@@ -30,6 +30,7 @@ svg, canvas {
     left: 15px;
     width: 320px;
     padding:0px 10px 20px;
+    z-index: 78;
 }
 
 #controlbarScroller {
@@ -38,7 +39,6 @@ svg, canvas {
     overflow:auto;
     height: 511px;
 }
-
 
 .tab {
     position: absolute;
