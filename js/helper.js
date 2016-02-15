@@ -50,6 +50,8 @@ function createMatrix(postdata) {
 }
 
 function displayPath(pathData,countries) {
+        console.log("countries: " + JSON.stringify(Object.keys(countries)));
+    //console.log("pathdata: "+JSON.stringify(pathData));
     var rscale = d3.scale.linear()
         .domain([1,1000])
         .range([3,40]);
@@ -74,7 +76,9 @@ function displayPath(pathData,countries) {
                 return rscale(size);});
 
         d3.selectAll("circle").filter(function (d) {
-            return pathData.indexOf(d.topURI) <= -1
+            //console.log("d:" + JSON.stringify(d));
+            return (pathData.indexOf(d.topURI) <= -1 // is this line needed to be checked? for 949 to 1300 it seems it's needed!
+                    || Object.keys(countries).indexOf(d.topURI) <= -1 )
         }).transition().duration(2000)
             .attr("r", "0");
 
@@ -119,6 +123,7 @@ function updateRoutes(id) {
             var pData = graph.findShortestPath(country[x], country[y]);
             trav++;
             if (pData) {
+                //console.log("pathdata: ", JSON.stringify(pData));
                 displayPath(pData);
             }
         }
