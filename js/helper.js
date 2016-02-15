@@ -50,7 +50,7 @@ function createMatrix(postdata) {
 }
 
 function displayPath(pathData,countries) {
-        console.log("countries: " + JSON.stringify(Object.keys(countries)));
+    console.log("countries: " + JSON.stringify(Object.keys(countries)));
     //console.log("pathdata: "+JSON.stringify(pathData));
     var rscale = d3.scale.linear()
         .domain([1,1000])
@@ -67,7 +67,7 @@ function displayPath(pathData,countries) {
         d3.selectAll("circle").filter(function (d) {
             return pathData.indexOf(d.topURI) > -1
         }).transition().duration(2000)
-            .style("fill", "red")
+            .style("fill", "orange")
             .attr("r", function(d) {
                 var size = (parseInt(countries[d['topURI']]));
                 if(isNaN(size)) return 5;
@@ -78,12 +78,13 @@ function displayPath(pathData,countries) {
         d3.selectAll("circle").filter(function (d) {
             //console.log("d:" + JSON.stringify(d));
             return (pathData.indexOf(d.topURI) <= -1 // is this line needed to be checked? for 949 to 1300 it seems it's needed!
-                    || Object.keys(countries).indexOf(d.topURI) <= -1 )
+                || Object.keys(countries).indexOf(d.topURI) <= -1 )
         }).transition().duration(2000)
             .attr("r", "0");
 
         var pDataArray = d3.selectAll("path").filter(function (d) {
-            return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1
+            return pathData.indexOf(d.properties.sToponym) > -1
+                && pathData.indexOf(d.properties.eToponym) > -1
         }).data();
         // var totalLength = d3.sum(pDataArray, function(d) {return d.properties.cost});
         // d3.select("#pathdata").html("<span style='font-weight: 900'>Total Distance:</span> " + formatter(totalLength) + "km");
@@ -99,9 +100,12 @@ function updateRoutesCountries(countries,graph) {
     }).style("stroke-width", "2px");
     var country = Object.keys(countries);
     var pathData = [];
+    var uniquePaths = [];
     for (var x = 0; x < country.length; x++) {
         for (var y = x + 1; y < country.length; y++) {
             var pData = graph.findShortestPath(country[x], country[y]);
+            uniquePaths = pData.join(",");
+            console.log("pdata: "+JSON.stringify(uniquePaths));
             if (pData) {
                 pathData = pathData.concat(pData);
             }
@@ -123,7 +127,6 @@ function updateRoutes(id) {
             var pData = graph.findShortestPath(country[x], country[y]);
             trav++;
             if (pData) {
-                //console.log("pathdata: ", JSON.stringify(pData));
                 displayPath(pData);
             }
         }
