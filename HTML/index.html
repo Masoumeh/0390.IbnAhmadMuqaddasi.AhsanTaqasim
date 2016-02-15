@@ -23,7 +23,7 @@
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var diameter = 960;
+var diameter = 3600;
 
 var tree = d3.layout.tree()
     .size([360, diameter / 2 - 120])
@@ -38,7 +38,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-d3.json("treeroot.json", function(error, root) {
+d3.json("../Data/treeroot.json", function(error, root) {
   if (error) throw error;
 
   var nodes = tree.nodes(root),

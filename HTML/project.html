@@ -13,6 +13,7 @@
     <script src="../js/dijkstra.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/d3.slider.js"></script>
     <script src="../js/geo_bio.js" charset="utf-8" type="text/javascript"></script>
+    <script src="../js/helper.js" charset="utf-8" type="text/javascript"></script>
 </head>
 <body onload="makeSomeMaps();">
 <div id="geoMap"></div>
@@ -24,8 +25,17 @@
             <a class="tab backtab" id="minTab">Person</a>
             <div class="buttonContainer" style="height:80px;">
                 <div id="sourceSelectParent" style="margin-bottom:10px;padding: 5px 10px; background: white;color:gray;">
-                    <span style="width:25px;color:gray;" id="sourceSelectLabel">FROM</span>:
-                    <div id="personSlider"></div>
+                    <span style="width:25px;color:gray;" id="sourceSelectLabel">
+                        THE TIME FRAME OF PEOPLE:
+                    </span>
+                    <div id="personSlider">
+                        <div id="yearSlider" style="width: 250px;left: 10px;">
+                        </div>
+                        <div id="yearValue">
+                            <span id="minYear"></span>
+                            To   <span id="maxYear"></span> AH
+                        </div>
+                    </div>
                 </div>
                 <div id="directionDiv" style="display:none;margin-bottom:10px;padding: 5px 10px; background: white;height:23px;">
                     <div style="width:100%;color:gray;"><span style="margin-right:10px;">DIRECTION:</span>
@@ -44,74 +54,72 @@
                     <!--<label for="seasonD" class="departure-picker-label">Season</label>-->
                 </fieldset>
                 <fieldset style="padding: 0 10px 15px 15px;border: none;" id="monthPicker">
-                    <input type="radio" name="month" class="season" value="1" id="winter">
-                    <label style="width: auto;" for="winter" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/winter.jpg"></label>
-                    <input type="radio" name="month" class="season" value="4" id="spring">
-                    <label style="width: auto;" for="spring" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/spring.jpg"></label>
-                    <input type="radio" name="month" class="season" value="7" id="summer" checked="">
-                    <label style="width: auto;" for="summer" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/summer.jpg"></label>
-                    <input type="radio" name="month" class="season" value="9" id="fall">
-                    <label style="width: auto;" for="fall" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/fall.jpg"></label>
+                    <!--<input type="radio" name="month" class="season" value="1" id="winter">-->
+                    <!--<label style="width: auto;" for="winter" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/winter.jpg"></label>-->
+                    <!--<input type="radio" name="month" class="season" value="4" id="spring">-->
+                    <!--<label style="width: auto;" for="spring" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/spring.jpg"></label>-->
+                    <!--<input type="radio" name="month" class="season" value="7" id="summer" checked="">-->
+                    <!--<label style="width: auto;" for="summer" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/summer.jpg"></label>-->
+                    <!--<input type="radio" name="month" class="season" value="9" id="fall">-->
+                    <!--<label style="width: auto;" for="fall" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/fall.jpg"></label>-->
 
-                    <input style="display:none;" type="radio" name="month" value="1" id="jan">
-                    <label style="display:none;" for="jan" class="month-picker-label">Jan</label>
-                    <input style="display:none;" type="radio" name="month" value="2" id="feb">
-                    <label style="display:none;" for="feb" class="month-picker-label">Feb</label>
-                    <input style="display:none;" type="radio" name="month" value="3" id="mar">
-                    <label style="display:none;" for="mar" class="month-picker-label">Mar</label>
-                    <input style="display:none;" type="radio" name="month" value="4" id="apr">
-                    <label style="display:none;" for="apr" class="month-picker-label">Apr</label>
-                    <input style="display:none;" type="radio" name="month" value="5" id="may">
-                    <label style="display:none;" for="may" class="month-picker-label">May</label>
-                    <input style="display:none;" type="radio" name="month" value="6" id="jun">
-                    <label style="display:none;" for="jun" class="month-picker-label">Jun</label>
-                    <input style="display:none;" type="radio" name="month" value="7" id="jul">
-                    <label style="display:none;" for="jul" class="month-picker-label">Jul</label>
-                    <input style="display:none;" type="radio" name="month" value="8" id="aug">
-                    <label style="display:none;" for="aug" class="month-picker-label">Aug</label>
-                    <input style="display:none;" type="radio" name="month" value="9" id="sep">
-                    <label style="display:none;" for="sep" class="month-picker-label">Sep</label>
-                    <input style="display:none;" type="radio" name="month" value="10" id="oct">
-                    <label style="display:none;" for="oct" class="month-picker-label">Oct</label>
-                    <input style="display:none;" type="radio" name="month" value="11" id="nov">
-                    <label style="display:none;" for="nov" class="month-picker-label">Nov</label>
-                    <input style="display:none;" type="radio" name="month" value="12" id="dec">
-                    <label style="display:none;" for="dec" class="month-picker-label">Dec</label>
+                    <!--<input style="display:none;" type="radio" name="month" value="1" id="jan">-->
+                    <!--<label style="display:none;" for="jan" class="month-picker-label">Jan</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="2" id="feb">-->
+                    <!--<label style="display:none;" for="feb" class="month-picker-label">Feb</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="3" id="mar">-->
+                    <!--<label style="display:none;" for="mar" class="month-picker-label">Mar</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="4" id="apr">-->
+                    <!--<label style="display:none;" for="apr" class="month-picker-label">Apr</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="5" id="may">-->
+                    <!--<label style="display:none;" for="may" class="month-picker-label">May</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="6" id="jun">-->
+                    <!--<label style="display:none;" for="jun" class="month-picker-label">Jun</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="7" id="jul">-->
+                    <!--<label style="display:none;" for="jul" class="month-picker-label">Jul</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="8" id="aug">-->
+                    <!--<label style="display:none;" for="aug" class="month-picker-label">Aug</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="9" id="sep">-->
+                    <!--<label style="display:none;" for="sep" class="month-picker-label">Sep</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="10" id="oct">-->
+                    <!--<label style="display:none;" for="oct" class="month-picker-label">Oct</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="11" id="nov">-->
+                    <!--<label style="display:none;" for="nov" class="month-picker-label">Nov</label>-->
+                    <!--<input style="display:none;" type="radio" name="month" value="12" id="dec">-->
+                    <!--<label style="display:none;" for="dec" class="month-picker-label">Dec</label>-->
                 </fieldset>
             </div>
 
             <div class="buttonContainer" style="background: white;">
-
                 <fieldset style="border: none;" id="priorityForm" class="priorityForm">
                     <div style="color:gray;padding-right:5px;display: inline-block;margin-top: 3px;">PRIORITY: </div>
-                    <input onclick="" type="radio" value="0" name="priority" id="fp" checked="">
-                    <label for="fp" class="priority-picker-label">Fastest</label>
-                    <input onclick="" type="radio" value="1" name="priority" id="cp">
-                    <label for="cp" class="priority-picker-label">Cheapest</label>
-                    <input onclick="" type="radio" value="2" name="priority" id="sp">
+                    <input onclick="" type="radio" value="0" name="priority" id="op">
+                    <label for="op" class="priority-picker-label">Optimal</label>
+                    <input onclick="" type="radio" value="1" name="priority" id="sp" checked="">
                     <label for="sp" class="priority-picker-label">Shortest</label>
                 </fieldset>
             </div>
 
             <div class="buttonContainer" id="networkModeContainer" style="overflow:hidden;background:white;padding-bottom: 9px;">
-                <div class="fieldTitle" style="text-transform: uppercase;color:gray;">Network Modes</div>
+                <div class="fieldTitle" style="text-transform: uppercase;color:gray;">Network Models<Model></Model>s</div>
                 <fieldset style="margin-top:-8px;margin-bottom: 8px;padding-bottom: 13px;border:none;border-bottom: 1px solid #414042;">
                     <form id="modeForm" onclick="updateBGRoutes();">
-                        <div style="width:130px;float:left;">
-                            <input type="checkbox" class="mode-checkbox" value="road" name="mode" id="rm" checked="">
-                            <label for="rm" class="mode-picker-label"></label>Road</div>
-                        <div style="width:130px;float:left;">
-                            <input id="coastModeCheck" class="mode-checkbox" type="checkbox" value="coastal" name="mode" checked="">
-                            <label for="coastModeCheck" class="mode-picker-label"></label>Coastal Sea</div>
-                        <div style="width:130px;float:left;">
-                            <input id="riverModeCheck" class="mode-checkbox" type="checkbox" value="upstream,downstream" name="mode" checked="">
-                            <label for="riverModeCheck" class="mode-picker-label"></label>River</div>
-                        <div style="width:130px;float:left;">
-                            <input id="overseasModeCheck" class="mode-checkbox" type="checkbox" value="overseas" name="mode" checked="">
-                            <label for="overseasModeCheck" class="mode-picker-label"></label>Open Sea</div>
-                        <div style="width:240px;float:left;" data="highres" class="helpicon">
-                            <input type="checkbox" class="mode-checkbox" value="hires" name="mode" id="hrm">
-                            <label for="hrm" class="mode-picker-label"></label>High Resolution
+                        <!-- to put checkboxes in two columns, should set smaller width of div like width:130px-->
+                        <div style="width:320px;float:left;">
+                            <input type="checkbox" class="mode-checkbox" value="alMuq" name="mode" id="alMuqCheck" checked="">
+                            <label for="alMuqCheck" class="mode-picker-label"></label>AL-MUQADDASI</div>
+                        <div style="width:320px;float:left;">
+                            <input id="alIstakCheck" class="mode-checkbox" type="checkbox" value="alIstak" name="mode" checked="">
+                            <label for="alIstakCheck" class="mode-picker-label"></label>AL-ISTAKHRI</div>
+                        <div style="width:320px;float:left;">
+                            <input id="ibnKhurdCheck" class="mode-checkbox" type="checkbox" value="ibnKhurd" name="mode" checked="">
+                            <label for="ibnKhurdCheck" class="mode-picker-label"></label>IBN KHURDHADHBIH</div>
+                        <div style="width:320px;float:left;">
+                            <input id="...Check" class="mode-checkbox" type="checkbox" value="..." name="mode" checked="">
+                            <label for="...Check" class="mode-picker-label"></label>....</div>
+                        <div style="width:320px;float:left;" data="highres" class="helpicon">
+                            <input type="checkbox" class="mode-checkbox" value="....." name="mode" id="....Check">
+                            <label for="....Check" class="mode-picker-label"></label>.....
                         </div>
                     </form>
                 </fieldset>

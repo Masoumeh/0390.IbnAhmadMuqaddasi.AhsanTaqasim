@@ -73,26 +73,8 @@ for ch in FaAlphs:
                     if a.string is not None:
                       #print(u'non value: '+ a.string)
                       val = a.string
-                      f2.write(val + " ")
+                      f2.write(val + ", ")
                 f2.write("\n")
 #                 valueStr = ''
 print("all done!")
-	 #          #exit()
-  #               else:
-  #                 main_title = ''
-  #                 for page in range(1,pageSize + 1):
-  #                   os.system(u'phantomjs save_page.js http://library.tebyan.net'+bookURL[0:-1]+ str(page) +' > bookpage.html')
-	 #            print(u'phantomjs save_page.js http://library.tebyan.net'+bookURL[0:-1]+ str(page)  +' > bookpage.html')       
-  #                   data3 = open("bookpage.html",'r').read()
-  #                   soup3 = BeautifulSoup(data3, 'html.parser')
-  #                   arr2  = soup3.find_all('article')
-  #                   print(str(soup3.title.string))
-  #                   if page == 1:
-  #                     main_title = str(soup3.title.string)
-  #                   for art in arr2:
-  #                     if 'js_lblContent' in art.get('id'):
-	 #  	        with open(main_title, "a") as f2:  
-		# 	  result = unicode.join(u'\n',map(unicode,art.contents))    
-  #                         f2.write(result)
-  #                         break
-  # cnt = cnt +1
+
