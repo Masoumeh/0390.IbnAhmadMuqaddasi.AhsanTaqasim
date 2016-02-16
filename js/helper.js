@@ -49,12 +49,16 @@ function createMatrix(postdata) {
     return new Graph(edgeMap);
 }
 
-function displayPath(pathData,countries) {
-    console.log("countries: " + JSON.stringify(Object.keys(countries)));
+function displayPath(pathData,countries,uniquePaths) {
+    //console.log("countries: " + JSON.stringify(Object.keys(countries)));
     //console.log("pathdata: "+JSON.stringify(pathData));
     var rscale = d3.scale.linear()
         .domain([1,1000])
-        .range([3,40]);
+        .range([5,35]);
+
+    var pathscale = d3.scale.linear()
+        .domain([1,15])
+        .range([3,20]);
     d3.selectAll("circle").transition().duration(1000)
         .style("fill", "green")
         .attr("r",5);
@@ -63,11 +67,25 @@ function displayPath(pathData,countries) {
         d3.selectAll("path").filter(function (d) {
             return pathData.indexOf(d.properties.sToponym) > -1
                 && pathData.indexOf(d.properties.eToponym) > -1;
-        }).transition().duration(2000).style("stroke", "red").style("stroke-width", 3);
+        }).transition().duration(2000).style("stroke", "red")
+            .style("stroke-width", function (d) {
+                var tmp1 = uniquePaths[d.properties.sToponym
+                                +","+ d.properties.eToponym];
+                var tmp2 = uniquePaths[d.properties.eToponym
+                                +","+ d.properties.sToponym]
+                var size;
+                if(tmp1==undefined && tmp2==undefined) {size =3}
+                else {
+                    if(tmp1==undefined) {size = pathscale(tmp2);}
+                    else {size=pathscale(tmp1);}
+                }
+                return size;
+            });
+
         d3.selectAll("circle").filter(function (d) {
             return pathData.indexOf(d.topURI) > -1
         }).transition().duration(2000)
-            .style("fill", "orange")
+            .style("fill", "red")
             .attr("r", function(d) {
                 var size = (parseInt(countries[d['topURI']]));
                 if(isNaN(size)) return 5;
@@ -78,20 +96,19 @@ function displayPath(pathData,countries) {
         d3.selectAll("circle").filter(function (d) {
             //console.log("d:" + JSON.stringify(d));
             return (pathData.indexOf(d.topURI) <= -1 // is this line needed to be checked? for 949 to 1300 it seems it's needed!
-                || Object.keys(countries).indexOf(d.topURI) <= -1 )
+                    || Object.keys(countries).indexOf(d.topURI) <= -1 )
         }).transition().duration(2000)
             .attr("r", "0");
 
         var pDataArray = d3.selectAll("path").filter(function (d) {
-            return pathData.indexOf(d.properties.sToponym) > -1
-                && pathData.indexOf(d.properties.eToponym) > -1
+            return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1
         }).data();
         // var totalLength = d3.sum(pDataArray, function(d) {return d.properties.cost});
         // d3.select("#pathdata").html("<span style='font-weight: 900'>Total Distance:</span> " + formatter(totalLength) + "km");
     }
-    else {
-        d3.select("#personSlider").html("NO ROUTE");
-    }
+    //else {
+    //    d3.select("#personSlider").html("NO ROUTE");
+    //}
 }
 
 function updateRoutesCountries(countries,graph) {
@@ -100,18 +117,29 @@ function updateRoutesCountries(countries,graph) {
     }).style("stroke-width", "2px");
     var country = Object.keys(countries);
     var pathData = [];
-    var uniquePaths = [];
+    var uniquePaths = {};
     for (var x = 0; x < country.length; x++) {
         for (var y = x + 1; y < country.length; y++) {
             var pData = graph.findShortestPath(country[x], country[y]);
-            uniquePaths = pData.join(",");
-            console.log("pdata: "+JSON.stringify(uniquePaths));
             if (pData) {
+                for (var i = 0; i < pData.length; i++) {
+                    for (var j = i+1; j < pData.length; j++) {
+                        if (uniquePaths[pData[i] + "," + pData[j]] == undefined) {
+                            if(uniquePaths[pData[j] + "," + pData[i]] != undefined) {
+                                uniquePaths[pData[j] + "," + pData[i]]++;
+                            } else {
+                                uniquePaths[pData[i] + "," + pData[j]] = 1;
+                            }
+                        } else {
+                            uniquePaths[pData[i] + "," + pData[j]]++;
+                        }
+                    }
+                }
                 pathData = pathData.concat(pData);
             }
         }
     }
-    displayPath(pathData, countries);
+    displayPath(pathData, countries, uniquePaths);
 }
 
 
@@ -127,6 +155,7 @@ function updateRoutes(id) {
             var pData = graph.findShortestPath(country[x], country[y]);
             trav++;
             if (pData) {
+                //console.log("pathdata: ", JSON.stringify(pData));
                 displayPath(pData);
             }
         }
