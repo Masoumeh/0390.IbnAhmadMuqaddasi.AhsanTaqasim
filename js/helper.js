@@ -1,6 +1,8 @@
 /**
  * Created by masum on 11.02.16.
  */
+// make a unique list of countries(names) for people in a specific year
+// starting from a yearPeople map(year to people ids) to peopleMap (people to year + country (name))
 function unify_year_people(minyear,maxyear,yearPeople,peopleMap) {
     var uniqueCountries = {};
     for (var i = minyear; i <= maxyear; i++) {
@@ -11,6 +13,7 @@ function unify_year_people(minyear,maxyear,yearPeople,peopleMap) {
                 city.forEach(function (d) {
                     if (uniqueCountries[d] == undefined)
                         uniqueCountries[d] = 0;
+                    // counts the number of countries in a map
                     else uniqueCountries[d]++;
                 });
             });
@@ -49,48 +52,71 @@ function createMatrix(postdata) {
     return new Graph(edgeMap);
 }
 
-function displayPath(pathData,countries,uniquePaths) {
-    //console.log("countries: " + JSON.stringify(Object.keys(countries)));
-    //console.log("pathdata: "+JSON.stringify(pathData));
-    var rscale = d3.scale.linear()
-        .domain([1,1000])
-        .range([5,35]);
-
+function calcPathSize(d, uniquePaths ) {
     var pathscale = d3.scale.linear()
-        .domain([1,15])
-        .range([3,20]);
-    d3.selectAll("circle").transition().duration(1000)
-        .style("fill", "green")
-        .attr("r",5);
+        .domain([d3.min(d3.values(uniquePaths)),d3.max(d3.values(uniquePaths))])
+        .range([1,20]);
+    // To consider the paths from A to B and B to A as one path
+    var tmp1 = uniquePaths[d.properties.sToponym
+    +","+ d.properties.eToponym];
+    var tmp2 = uniquePaths[d.properties.eToponym
+    +","+ d.properties.sToponym];
+    var size;
+    if(tmp1==undefined && tmp2==undefined) {size = 0}
+    else {
+        if(tmp1==undefined)
+            size = pathscale(tmp2);
+        else size = pathscale(tmp1);
+    }
+    return size;
+}
 
+function displayPath(pathData, countries, uniquePaths) {
+    //console.log("countries: " + JSON.stringify(d3.values(countries)));
+    //console.log("uniqPaths: "+JSON.stringify(uniquePaths));
+    var rscale = d3.scale.linear()
+        .domain(d3.extent(d3.values(countries)))
+        .range([5,40]);
+
+    var colorScale = d3.scale.linear()
+        .domain(d3.extent(d3.values(uniquePaths)))
+        .range(["darkseagreen", "darkgreen"])
+        .interpolate(d3.interpolateHcl);
+
+    //Initial fill of all circles
+    d3.selectAll("circle").transition().duration(1000)
+        .style("fill", "seagreen")
+        .attr("r",5);
+    //
+    d3.selectAll("path").filter(function (d) {
+        return pathData.indexOf(d.properties.sToponym) === -1
+            && pathData.indexOf(d.properties.eToponym) === -1;
+    }).transition().duration(1000).style("opacity", 0); // or display property?
     if (pathData) {
         d3.selectAll("path").filter(function (d) {
             return pathData.indexOf(d.properties.sToponym) > -1
                 && pathData.indexOf(d.properties.eToponym) > -1;
-        }).transition().duration(2000).style("stroke", "red")
+        }).transition().duration(2000).style("stroke", function (d) {
+            var size = calcPathSize(d, uniquePaths);
+            return colorScale(size);
+        })
             .style("stroke-width", function (d) {
-                var tmp1 = uniquePaths[d.properties.sToponym
-                                +","+ d.properties.eToponym];
-                var tmp2 = uniquePaths[d.properties.eToponym
-                                +","+ d.properties.sToponym]
-                var size;
-                if(tmp1==undefined && tmp2==undefined) {size =3}
-                else {
-                    if(tmp1==undefined) {size = pathscale(tmp2);}
-                    else {size=pathscale(tmp1);}
-                }
-                return size;
+                return calcPathSize(d, uniquePaths);
             });
+            //.style("fill", function (d) {
+            //    var size = calcPathSize(d, uniquePaths);
+            //    console.log("color", color(size));
+            //    return color(size);
+            //});
 
         d3.selectAll("circle").filter(function (d) {
             return pathData.indexOf(d.topURI) > -1
         }).transition().duration(2000)
-            .style("fill", "red")
+            .style("fill", "orange")
+            .style("stroke", "orange")
             .attr("r", function(d) {
                 var size = (parseInt(countries[d['topURI']]));
                 if(isNaN(size)) return 5;
-                //if(size > 1000) {size = size / 50}
-                //else {size = size/10;}
                 return rscale(size);});
 
         d3.selectAll("circle").filter(function (d) {
@@ -101,7 +127,8 @@ function displayPath(pathData,countries,uniquePaths) {
             .attr("r", "0");
 
         var pDataArray = d3.selectAll("path").filter(function (d) {
-            return pathData.indexOf(d.properties.sToponym) > -1 && pathData.indexOf(d.properties.eToponym) > -1
+            return pathData.indexOf(d.properties.sToponym) > -1
+                && pathData.indexOf(d.properties.eToponym) > -1
         }).data();
         // var totalLength = d3.sum(pDataArray, function(d) {return d.properties.cost});
         // d3.select("#pathdata").html("<span style='font-weight: 900'>Total Distance:</span> " + formatter(totalLength) + "km");
@@ -112,9 +139,11 @@ function displayPath(pathData,countries,uniquePaths) {
 }
 
 function updateRoutesCountries(countries,graph) {
-    d3.selectAll("path").transition().duration(1000).style("stroke", function (d, i) {
-        return "black"
-    }).style("stroke-width", "2px");
+    d3.selectAll("path").transition().duration(1000)
+        .style("stroke", function (d, i) {
+            return "black"
+        })
+        .style("stroke-width", "2px");
     var country = Object.keys(countries);
     var pathData = [];
     var uniquePaths = {};
@@ -124,8 +153,10 @@ function updateRoutesCountries(countries,graph) {
             if (pData) {
                 for (var i = 0; i < pData.length; i++) {
                     for (var j = i+1; j < pData.length; j++) {
+                        // Check both i to j and j to i paths to prevent counting a path two times
                         if (uniquePaths[pData[i] + "," + pData[j]] == undefined) {
                             if(uniquePaths[pData[j] + "," + pData[i]] != undefined) {
+                                // adds counter to one of the ij/ji paths
                                 uniquePaths[pData[j] + "," + pData[i]]++;
                             } else {
                                 uniquePaths[pData[i] + "," + pData[j]] = 1;
@@ -135,6 +166,7 @@ function updateRoutesCountries(countries,graph) {
                         }
                     }
                 }
+                // concats new path to the array of pathData
                 pathData = pathData.concat(pData);
             }
         }
@@ -162,27 +194,32 @@ function updateRoutes(id) {
     }
 }
 
+// Building initial map structures
 function dataStructsBetweenPeopleYears(data) {
     var min_year = 2000, max_year = 0;
+    // A map from people to assigned year and name (now just toponyms)
     var peopleMap = {};
+    // A map from year to people assigned to that year
     var yearPeople = {};
     data.forEach(function (d) {
+        // Group the years to decades
+        var diedAtDecade = d.diedAt - (d.diedAt % 10);
         if (peopleMap[d.id] != undefined) {
             peopleMap[d.id] = {
-                'diedAt': d.diedAt,
+                'diedAt': diedAtDecade,
                 'city': peopleMap[d.id]['city'] + ',' + d.city
             };
         } else {
-            peopleMap[d.id] = {'diedAt': d.diedAt, 'city': d.city};
+            peopleMap[d.id] = {'diedAt': diedAtDecade, 'city': d.city};
         }
 
-        if (yearPeople[d.diedAt] != undefined) {
-            yearPeople[d.diedAt] = {'id': yearPeople[d.diedAt]['id'] + ',' + d.id};
+        if (yearPeople[diedAtDecade] != undefined) {
+            yearPeople[diedAtDecade] = {'id': yearPeople[diedAtDecade]['id'] + ',' + d.id};
         } else {
-            yearPeople[d.diedAt] = {'id': d.id};
+            yearPeople[diedAtDecade] = {'id': d.id};
         }
 
-        var year = parseInt(d.diedAt);
+        var year = parseInt(diedAtDecade);
         if (year < min_year) min_year = year;
         if (year > max_year) max_year = year;
     });

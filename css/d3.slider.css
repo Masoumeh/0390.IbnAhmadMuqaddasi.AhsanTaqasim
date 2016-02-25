@@ -11,7 +11,7 @@
 }  
 
 .d3-slider-range {
-  background:#2980b9;
+  background:#2E8B57;//#2980b9;
   left:0px;
   right:0px;
   height: 0.8em;
@@ -33,7 +33,7 @@
 
 .d3-slider-handle {
     position: absolute;
-    width: 1.2em;
+    width: 0.5em;
     height: 1.2em;
     border: 1px solid #d3d3d3;
     border-radius: 4px;

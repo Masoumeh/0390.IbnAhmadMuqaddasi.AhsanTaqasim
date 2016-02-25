@@ -18,7 +18,7 @@
   #d3MapPanBox > button, #d3MapZoomBox > button {
     border-radius: 15px;
     background: white;
-    border 2px double gray;
+    border: 2px double gray;
     color: black;
     border: 2px double gray;
   }

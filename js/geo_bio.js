@@ -25,8 +25,8 @@ function makeSomeMaps() {
         .cssClass("roads")
         .renderMode("svg")
         .on("load", function() {
-            postdata = routeLayer.features();
-            graph = createMatrix(postdata);
+            routeData = routeLayer.features();
+            graph = createMatrix(routeData);
             cityLayer = d3.carto.layer.csv();
             cityLayer.path("../Data/cornu.csv")
                 .label("Cities")
@@ -38,12 +38,18 @@ function makeSomeMaps() {
                 .on("load", function () {
                     //the initial of circles
                     d3.selectAll("circle").transition().duration(1000)
-                        .style("fill", "green")
+                        .style("fill", "seagreen")
                         .attr("r",5);
                 });
             map.addCartoLayer(cityLayer);
         });
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
+
+
+    var sliderValue;
+    function update(value) {
+        sliderValue = value;
+    };
 
     d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
@@ -52,24 +58,36 @@ function makeSomeMaps() {
         var max_year = output['max_year'];
         var peopleMap = output['peopleMap'];
         var yearPeople = output['yearPeople'];
+        var slider = d3.slider().value([0, 100])
+            .on("slide", function (evt, value) {
+                d3.select('#minYear').text(''
+                    + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
+                d3.select('#maxYear').text('' +
+                    +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
+
+
+            })
+            .on("slideend", function (evt, value) {
+                update(value);
+            });
+        //function update(value) {
+        d3.select("#calcConnections")
+            .on("click", function () {
+                console.log("click!", sliderValue[0]);
+
+                var minyear = parseInt(sliderValue[0] + min_year)
+                    * parseInt((max_year - min_year) / 100);
+                var maxyear = parseInt(sliderValue[1] + min_year)
+                    * parseInt((max_year - min_year) / 100);
+                var uniqueCountires =
+                    unify_year_people(minyear, maxyear, yearPeople, peopleMap);
+                updateRoutesCountries(uniqueCountires, graph);
+            });
+    //};
+
         d3.select("#yearSlider")
-            .call(d3.slider().value([0, 100])
-                .on("slide", function (evt, value) {
-                    d3.select('#minYear').text(''
-                        + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
-                    d3.select('#maxYear').text(''+
-                        + parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
-                })
-                .on("slideend", function (evt, value) {
-                    var minyear = parseInt(value[0] + min_year)
-                        * parseInt((max_year - min_year) / 100);
-                    var maxyear = parseInt(value[1] + min_year)
-                        * parseInt((max_year - min_year) / 100);
-                    var uniqueCountires =
-                        unify_year_people(minyear,maxyear,yearPeople,peopleMap);
-                    updateRoutesCountries(uniqueCountires,graph);
-                })
-        );
+            .call(slider);
+        //var sliderValue = slider.value;
 
         d3.select("#minYear").text(min_year+'');
         d3.select("#maxYear").text(max_year+'');
@@ -89,6 +107,20 @@ function makeSomeMaps() {
                 return d;
             });
     });
+}
+
+function closeOpen() {
+    console.log("test " +d3.select("#controlbar")
+            .style("display") );
+    if(d3.select("#controlbar")
+            .style("display")==="block") {
+        d3.select("#controlbar")
+            .style("display", "none");
+
+    } else {
+        d3.select("#controlbar")
+            .style("display","block");
+    }
 }
 
 

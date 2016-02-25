@@ -16,7 +16,7 @@
 .invisible {
     fill: rgba(0,0,0,0);
     stroke-width: 0;
-    stroke: black;
+    stroke: white;
     cursor: pointer;
 }
 
@@ -25,6 +25,7 @@
     stroke-width: 1px;
     stroke: black;
     opacity: 1;
+    display: none;
 }
 
 .halffilledcountries {
@@ -61,8 +62,8 @@
 }
 
 circle {
-    fill: black;
-    stroke: red;
+    fill: seagreen;
+    stroke: seagreen;
 }
 
 circle.pinkcircle {
