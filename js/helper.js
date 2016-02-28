@@ -79,7 +79,7 @@ function displayPath(pathData, countries, uniquePaths) {
     //console.log("uniqPaths: "+JSON.stringify(uniquePaths));
     var rscale = d3.scale.linear()
         .domain(d3.extent(d3.values(countries)))
-        .range([5,40]);
+        .range([5,30]);
 
     var colorScale = d3.scale.linear()
         .domain(d3.extent(d3.values(uniquePaths)))
@@ -282,7 +282,7 @@ function updateRoutesCountries(countries,graph) {
                                     // adds counter to one of the ij/ji paths
                                     uniquePaths[pData[j] + "," + pData[i]]++;
                                 } else {
-                                    uniquePaths[pData[i] + "," + pData[j]] = 1;
+                                    uniquePaths[pData[j] + "," + pData[i]] = 1;
                                 }
                             } else {
                                 uniquePaths[pData[i] + "," + pData[j]]++;

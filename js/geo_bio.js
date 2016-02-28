@@ -44,7 +44,8 @@ function makeSomeMaps() {
                         .filter(function (d)
                         {return d.topType!=='capitals'
                             && d.topType !== 'metropoles'
-                            && d.topType !== 'towns';})
+                            && d.topType !== 'towns'
+                            && d.topType !== 'quarters';})
                         .remove();
                 });
             map.addCartoLayer(cityLayer);
