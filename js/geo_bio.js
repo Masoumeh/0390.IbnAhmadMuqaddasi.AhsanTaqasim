@@ -24,7 +24,7 @@ function makeSomeMaps() {
         .label("Postal Routes")
         .cssClass("roads")
         .renderMode("svg")
-        .on("load", function() {
+        .on("load", function () {
             routeData = routeLayer.features();
             graph = createMatrix(routeData);
             cityLayer = d3.carto.layer.csv();
@@ -39,23 +39,19 @@ function makeSomeMaps() {
                     //the initial of circles
                     d3.selectAll("circle").transition().duration(1000)
                         .style("fill", "seagreen")
-                        .attr("r",5);
+                        .attr("r", 5);
                     d3.selectAll("circle")
-                        .filter(function (d)
-                        {return d.topType!=='capitals'
-                            && d.topType !== 'metropoles'
-                            && d.topType !== 'towns'
-                            && d.topType !== 'quarters';})
+                        .filter(function (d) {
+                            return d.topType !== 'capitals'
+                                && d.topType !== 'metropoles'
+                                && d.topType !== 'towns'
+                                && d.topType !== 'quarters';
+                        })
                         .remove();
                 });
             map.addCartoLayer(cityLayer);
         });
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
-
-    var sliderValue;
-    function update(value) {
-        sliderValue = value;
-    };
 
     d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
@@ -71,31 +67,21 @@ function makeSomeMaps() {
                     + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
                 d3.select('#maxYear').text('' +
                     +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
-            })
-            .on("slideend", function (evt, value) {
-                update(value);
             });
         //function update(value) {
         d3.select("#calcConnections")
             .on("click", function () {
-                console.log("click!", sliderValue[0]);
+                console.log("click!", d3.select('#minYear').html());
 
-                var minyear = parseInt(sliderValue[0] + min_year)
-                    * parseInt((max_year - min_year) / 100);
-                var maxyear = parseInt(sliderValue[1] + min_year)
-                    * parseInt((max_year - min_year) / 100);
+                var minyear = parseInt(d3.select('#minYear').html());
+                var maxyear = parseInt(d3.select('#maxYear').html());
                 var uniqueCountires =
                     unify_year_people(minyear, maxyear, yearPeople, peopleMap);
                 updateRoutesCountries(uniqueCountires, graph);
             });
-    //};
-
-        d3.select("#yearSlider")
-            .call(slider);
-        //var sliderValue = slider.value;
-
-        d3.select("#minYear").text(min_year+'');
-        d3.select("#maxYear").text(max_year+'');
+        d3.select("#yearSlider").call(slider);
+        d3.select("#minYear").text(min_year + '');
+        d3.select("#maxYear").text(max_year + '');
 
         var select = d3.select("#personSlider")
             .append('div')

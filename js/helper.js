@@ -53,8 +53,26 @@ function createMatrix(postdata) {
 }
 
 function calcPathSize(d, uniquePaths ) {
-    //console.log("sala " + d3.min(d3.values(uniquePaths)) + " "
-    //+d3.max(d3.values(uniquePaths)));
+    //var pathscale = d3.scale.linear()
+    //    .domain([d3.min(d3.values(uniquePaths)),d3.max(d3.values(uniquePaths))])
+    //    .range([1,20]);
+    var pathscale = d3.scale.linear().domain([1,15]).range([1,10]);
+    // To consider the paths from A to B and B to A as one path
+    var tmp1 = uniquePaths[d.properties.sToponym
+    +","+ d.properties.eToponym];
+    var tmp2 = uniquePaths[d.properties.eToponym
+    +","+ d.properties.sToponym];
+    var size;
+    if(tmp1==undefined && tmp2==undefined) {size = 0}
+    else {
+        if(tmp1==undefined)
+            size = pathscale(tmp2);
+        else size = pathscale(tmp1);
+    }
+    return size;
+}
+
+function calcPathSizeForColors(d, uniquePaths ) {
     //var pathscale = d3.scale.linear()
     //    .domain([d3.min(d3.values(uniquePaths)),d3.max(d3.values(uniquePaths))])
     //    .range([1,20]);
@@ -101,7 +119,7 @@ function displayPath(pathData, countries, uniquePaths) {
             return pathData.indexOf(d.properties.sToponym) > -1
                 && pathData.indexOf(d.properties.eToponym) > -1;
         }).transition().duration(2000).style("stroke", function (d) {
-            var size = calcPathSize(d, uniquePaths);
+            var size = calcPathSizeForColors(d, uniquePaths);
             return colorScale(size);
         }).style("stroke-width", function (d) {
                 return calcPathSize(d, uniquePaths);
@@ -259,11 +277,6 @@ function displayPathArc(pathData, countries, uniquePaths) {
 }
 
 function updateRoutesCountries(countries,graph) {
-    d3.selectAll("path").transition().duration(1000)
-        .style("stroke", function (d, i) {
-            return "black"
-        })
-        .style("stroke-width", "2px");
     var country = Object.keys(countries);
     var pathData = [];
     var uniquePaths = {};
