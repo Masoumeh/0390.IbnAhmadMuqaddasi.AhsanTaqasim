@@ -40,11 +40,16 @@ function makeSomeMaps() {
                     d3.selectAll("circle").transition().duration(1000)
                         .style("fill", "seagreen")
                         .attr("r",5);
+                    d3.selectAll("circle")
+                        .filter(function (d)
+                        {return d.topType!=='capitals'
+                            && d.topType !== 'metropoles'
+                            && d.topType !== 'towns';})
+                        .remove();
                 });
             map.addCartoLayer(cityLayer);
         });
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
-
 
     var sliderValue;
     function update(value) {
@@ -53,6 +58,7 @@ function makeSomeMaps() {
 
     d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
+
         var output = dataStructsBetweenPeopleYears(data);
         var min_year = output['min_year'];
         var max_year = output['max_year'];
@@ -64,8 +70,6 @@ function makeSomeMaps() {
                     + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
                 d3.select('#maxYear').text('' +
                     +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
-
-
             })
             .on("slideend", function (evt, value) {
                 update(value);
