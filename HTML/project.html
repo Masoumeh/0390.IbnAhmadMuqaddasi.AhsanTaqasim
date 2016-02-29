@@ -18,7 +18,68 @@
 </head>
 <body onload="makeSomeMaps();">
 <div id="geoMap"></div>
-    <div onclick="closeOpen()" id="closeLeft" class="rightarrow"></div>
+    <div onclick="closeOpen('leftPanel')" id="closeLeft" class="rightarrow"></div>
+    <div onclick="closeOpen('rightPanel')" id="closeRight" class="leftarrow"></div>
+    <div style="height: auto; width: auto; right: 15px;" id="rightControls" class="controlsDiv">
+    <div class="buttonContainer" style="height: auto; width: auto;">
+        <div id="displayOptionsContainer" class="buttonContainer">
+            <span style="color:gray;">DISPLAY</span>
+            <!--<div onclick="mapOff();" style="width:100%;">-->
+                <!--<div class="eyeButton" id="terrainOnButton">-->
+                        <!--<input id="dTOB" class="mode-checkbox" name="display" checked="checked" type="checkbox">-->
+                    <!--<label for="dTOB" class="mode-picker-label"></label>-->
+                    <!--Terrain</div>-->
+            <!--</div>-->
+            <!--<div style="width:100%;" onclick="sitesOff();">-->
+                <!--<div class="eyeButton" id="sitesOnButton">-->
+                    <!--<input id="dSOB" class="mode-checkbox" name="display" checked="checked" type="checkbox">-->
+                    <!--<label for="dSOB" class="mode-picker-label"></label>-->
+                    <!--Sites</div></div>-->
+
+            <!--<div style="width:100%;" onclick="temporaryLabels();">-->
+                <!--<div class="eyeButton" id="labelsOnButton">-->
+                        <!--<input id="dLOB" class="mode-checkbox" name="display" type="checkbox">-->
+                    <!--<label for="dLOB" class="mode-picker-label"></label>-->
+                    <!--Names</div></div>-->
+
+            <!--<div style="width:100%;" onclick="networkOff(false);">-->
+                <!--<div class="eyeButton" id="networkOnButton">-->
+                    <!--<input id="dNOB" class="mode-checkbox" name="display" checked="checked" type="checkbox">-->
+                    <!--<label for="dNOB" class="mode-picker-label"></label>-->
+                    <!--Paths</div></div>-->
+            <!--<div style="width:100%;" onclick="provincesOnOff();">-->
+                <!--<div class="eyeButton" id="borderOnButton">-->
+                    <!--<input id="dBOB" class="mode-checkbox" name="display" type="checkbox">-->
+                    <!--<label for="dBOB" class="mode-picker-label"></label>-->
+                    <!--Regions</div></div>-->
+            <!--<div style="width:100%;" id="networkDisplayButton" onclick="changeStyleDots();">-->
+                <!--<div class="eyeButton" id="dotSyleOnButton">-->
+                    <!--<input id="dNDB" class="mode-checkbox" name="display" type="checkbox">-->
+                    <!--<label for="dNDB" class="mode-picker-label"></label>-->
+                    <!--All Sites</div></div>-->
+        </div>
+        <!--<div class="buttonContainer" id="otherButtons">-->
+            <!--<button style="display: inline;" id="startBrushingButton" onclick="startBrushing();" data="selectsites" class="helpicon">Select Sites</button>-->
+            <!--<button id="stopBrushingButton" style="display:none;" onclick="stopBrushing();">Stop Selecting</button>-->
+            <!--<button id="resetMapButton" onclick="resetMap();">Reset Map</button>-->
+            <!--<button onclick="clusterSitesUI()" data="cluster" class="helpicon">Cluster</button>-->
+            <!--<button id="sankeyButton" style="display:none;" onclick="sankeyOff();">Flow Off</button>-->
+            <!--<button data="browse" class="helpicon" onclick="_gaq.push(['_trackEvent', 'ui', 'history', 'history']);d3.selectAll('#resultsTableBack').style('display', 'block');d3.selectAll('.resultsRow').style('display', 'block');d3.selectAll('tr.resultsRow').style('display','table-row');">History</button>-->
+            <!--<button data="exportsvg" class="helpicon" onclick="exportSVG();">Export SVG</button>-->
+            <!--<a style="padding: 0px 12px; border-radius: 2px; color: rgb(238, 232, 170); background: rgb(199, 47, 42) none repeat scroll 0% 0%; display: none;" id="svgDownload">Download SVG</a>-->
+            <!--<button data="pathcolor" class="helpicon" onclick="changeStyleLines();">Path Coloring</button>-->
+            <!--<button style="display: none;" id="cartoOffMenu" onclick="cartogramOff();">Georectify</button>-->
+            <!--<button style="display: none;" id="voroOffMenu" onclick="clearVoronoi();">Zones off</button>-->
+            <!--<button onclick="psStyle();" style="display: none;">Places &amp; Spaces</button>-->
+            <!--<div style="margin-top:20px;">-->
+                <!--<iframe data-url="http://orbis.stanford.edu" src="ORBIS:%20The%20Stanford%20Geospatial%20Network%20Model%20of%20the%20Roman%20World_files/tweet_button.html" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 60px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe>-->
+
+                <!--<div style="margin-top:20px;margin-left:30px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Forbis.stanford.edu&amp;width&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=65" scrolling="no" style="border:none; overflow:hidden; height:65px;" allowtransparency="true" frameborder="0"></iframe>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
     <div class="controlsDiv" id="controlbar">
         <div id="controlbarScroller">
             <a class="tab" id="routTab">Route</a>

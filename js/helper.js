@@ -155,125 +155,7 @@ function displayPath(pathData, countries, uniquePaths) {
 }
 
 function displayPathArc(pathData, countries, uniquePaths) {
-    displayPath(pathData,countries,uniquePaths);
-    ////console.log("countries: " + JSON.stringify(d3.values(countries)));
-    ////console.log("uniqPaths: "+JSON.stringify(uniquePaths));
-    ////
-    ////console.log("test" +
-    ////    JSON.stringify(d3.selectAll("path")[0][0]['__data__']['properties']['coordinates']));
-    //
-    //var rscale = d3.scale.linear()
-    //    .domain(d3.extent(d3.values(countries)))
-    //    .range([5, 40]);
-    //
-    //var colorScale = d3.scale.linear()
-    //    .domain(d3.extent(d3.values(uniquePaths)))
-    //    .range(["darkseagreen", "darkgreen"])
-    //    .interpolate(d3.interpolateHcl);
-    //
-    ////Initial fill of all circles
-    //d3.selectAll("circle").transition().duration(1000)
-    //    .style("fill", "seagreen")
-    //    .attr("r", 5);
-    ////
-    ////d3.selectAll("path").filter(function (d) {
-    ////    return pathData.indexOf(d.properties.sToponym) === -1
-    ////        && pathData.indexOf(d.properties.eToponym) === -1;
-    ////}).transition().duration(1000).style("stroke", 0); // or display property?
-    ////d3.selectAll("path").style("display", "none");
-    //
-    ////if (pathData) {
-    ////d3.selectAll("path").filter(function (d) {
-    ////    return pathData.indexOf(d.properties.sToponym) > -1
-    ////        && pathData.indexOf(d.properties.eToponym) > -1;
-    ////}).transition().duration(2000).style("stroke", function (d) {
-    ////    var size = calcPathSize(d, uniquePaths);
-    ////    return colorScale(size);
-    ////}).style("stroke-width", function (d) {
-    ////    return calcPathSize(d, uniquePaths);
-    ////});
-    //
-    //d3.selectAll("circle").filter(function (d) {
-    //    return pathData.indexOf(d.topURI) > -1
-    //}).transition().duration(2000)
-    //    .style("fill", "orange")
-    //    .style("stroke", "orange")
-    //    .attr("r", function (d) {
-    //        var size = (parseInt(countries[d['topURI']]));
-    //        if (isNaN(size)) return 5;
-    //        return rscale(size);
-    //    });
-    //
-    //links = [];
-    //Object.keys(uniquePaths).forEach(function (d) {
-    //    var tmp = d.split(",");
-    //    var start = tmp[0];
-    //    var end = tmp[1];
-    //    var test = d3.selectAll("circle").filter(function (d) {
-    //        return d.topURI == start;
-    //    });
-    //    var start_lat = test[0][0]['__data__']['lat'];
-    //    var start_lon = test[0][0]['__data__']['lon'];
-    //
-    //    test = d3.selectAll("circle").filter(function (d) {
-    //        return d.topURI == end;
-    //    });
-    //    var end_lat = test[0][0]['__data__']['lat'];
-    //    var end_lon = test[0][0]['__data__']['lon'];
-    //
-    //    links.push({
-    //        type: "LineString",
-    //        coordinates: [
-    //            [start_lon, start_lat],
-    //            [end_lon, end_lat]
-    //        ]
-    //    });
-    //});
-    ////mylayer = d3.carto.layer.topojson();
-    ////mylayer
-    ////    .featureArray(links)
-    ////    .cssClass("roads")
-    ////    .renderMode("svg")
-    ////    .on("load", function() {
-    ////            alert("here");
-    ////        });
-    ////map.addCartoLayer(mylayer);
-    //
-    //
-    //var projection = d3.geo.albersUsa()
-    //    .scale(1070);
-    //var path = d3.geo.path()
-    //    .projection(projection);
-    //d3.selectAll("path")
-    //    .data(links)
-    //    .enter()
-    //    .append("path")
-    //    .attr("d",path);
-    //
-    //
-    ////d3.selectAll("path").
-    ////    enter().append("path")
-    ////    .attr("r", 5)
-    ////    .style("fill", "red");
-    ////  //  data(links);//.style("stroke","10px");
-    //
-    //d3.selectAll("circle").filter(function (d) {
-    //    // is this line needed to be checked? for 949 to 1300 it seems it's needed!
-    //    return (pathData.indexOf(d.topURI) <= -1
-    //    || Object.keys(countries).indexOf(d.topURI) <= -1 )
-    //}).transition().duration(2000)
-    //    .attr("r", "0");
-    //
-    ////var pDataArray = d3.selectAll("path").filter(function (d) {
-    ////    return pathData.indexOf(d.properties.sToponym) > -1
-    ////        && pathData.indexOf(d.properties.eToponym) > -1
-    ////}).data();
-    //// var totalLength = d3.sum(pDataArray, function(d) {return d.properties.cost});
-    //// d3.select("#pathdata").html("<span style='font-weight: 900'>Total Distance:</span> " + formatter(totalLength) + "km");
-    //
-    ////else {
-    ////    d3.select("#personSlider").html("NO ROUTE");
-    ////}
+    displayPath(pathData, countries, uniquePaths);
 }
 
 function updateRoutesCountries(countries,graph) {
@@ -386,4 +268,8 @@ function dataStructsBetweenPeopleYears(data) {
     output['peopleMap']=peopleMap;
     output['yearPeople']=yearPeople;
     return output;
+}
+
+function getTpotypes() {
+
 }

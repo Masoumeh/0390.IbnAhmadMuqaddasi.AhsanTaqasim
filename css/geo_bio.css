@@ -92,7 +92,7 @@ svg, canvas {
 }
 
 #minTab {
-    background: #B1CA8D /*rgb(39,38,40);*/
+    background: #B1CA8D; /*rgb(39,38,40);*/
     position:absolute;
     left:232px;
     width:98px;
@@ -119,4 +119,57 @@ svg, canvas {
     z-index: 10;
     width: 15px;
     cursor: pointer;
+}
+
+.leftarrow:after {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 2px;
+    top: 40%;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #e6e7e8;
+}
+
+#closeRight {
+    top: 120px;
+    right: 0;
+    background: #4C6447;/*rgba(65,64,66,.85);*/
+    border-left: 1px solid #4C6447; /*rgba(35,31,32,.85);*/
+    bottom:21px;
+    position: fixed;
+    z-index: 10;
+    width: 15px;
+    cursor: pointer;
+}
+
+#rightControls {
+    padding: 0 10px 10px;
+    top: 120px;
+    right: 15px;
+    width: 120px;
+    overflow:auto;
+}
+
+.controlsDiv {
+    background: #4C6447;/*rgba(65,64,66,.85);*/
+    position: fixed;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttonContainer {
+    width: 100%;
+    margin-top:10px;
+    float: left;
+    position: relative;
+}
+
+#displayOptionsContainer {
+    background: white;
+    overflow: auto;
+    height: auto;
+    padding: 5px;
+    width: auto;
 }

@@ -36,23 +36,22 @@ function makeSomeMaps() {
                 .y("lat")
                 .clickableFeatures(true)
                 .on("load", function () {
+                    var uniqueTopType = {};
+                    cityLayer.features().forEach(function(f){
+                        uniqueTopType[f['topType']]=0;
+                    });
+                    var disOpts = d3.select("#displayOptionsContainer");
+                    Object.keys(uniqueTopType).forEach(function (type) {
+                        topTypeDiv(disOpts, type);
+                    });
                     //the initial of circles
                     d3.selectAll("circle").transition().duration(1000)
                         .style("fill", "seagreen")
                         .attr("r", 5);
-                    d3.selectAll("circle")
-                        .filter(function (d) {
-                            return d.topType !== 'capitals'
-                                && d.topType !== 'metropoles'
-                                && d.topType !== 'towns'
-                                && d.topType !== 'quarters';
-                        })
-                        .remove();
                 });
             map.addCartoLayer(cityLayer);
         });
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
-
     d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
 
@@ -100,19 +99,66 @@ function makeSomeMaps() {
     });
 }
 
-function closeOpen() {
-    console.log("test " +d3.select("#controlbar")
-            .style("display") );
-    if(d3.select("#controlbar")
-            .style("display")==="block") {
-        d3.select("#controlbar")
-            .style("display", "none");
-
-    } else {
-        d3.select("#controlbar")
-            .style("display","block");
+function closeOpen(container) {
+    switch (container) {
+        case "leftPanel":
+            d3.select("#controlbar").style("left") == "15px" ? d3.select("#controlbar").transition().duration(500).style("left", "-350px") : d3.select("#controlbar").transition().duration(500).style("left", "15px");
+            d3.select("#closeLeft").classed("rightarrow") ? d3.select("#closeLeft").classed("rightarrow", false).classed("leftarrow", true) : d3.select("#closeLeft").classed("rightarrow", true).classed("leftarrow", false);
+            break;
+        case "rightPanel":
+            if (d3.select("#rightControls").style("right") == "15px") {
+                d3.select("#rightControls").transition().duration(500).style("right", "-300px")
+                d3.select("#mapControls").transition().duration(500).style("right", "60px")
+            }
+            else {
+                d3.select("#rightControls").transition().duration(500).style("right", "15px")
+                d3.select("#mapControls").transition().duration(500).style("right", "200px")
+            }
+            d3.select("#closeRight").classed("rightarrow") ? d3.select("#closeRight").classed("rightarrow", false).classed("leftarrow", true) : d3.select("#closeRight").classed("rightarrow", true).classed("leftarrow", false);
+            break;
     }
 }
 
+function topTypeDiv(disOpts, type) {
+    var div = disOpts.append("div")
+        .style("width", "100%")
+        .append("div")
+        .attr("id", function () {
+            return type;
+        })
+        .attr("class", "eyeButton");
+    var input = div.append("input")
+        .attr("id", type + "Button")
+        .attr("class", "mode-checkbox")
+        .attr("name", "display")
+        .attr("checked", "checked")
+        .attr("type", "checkbox")
+        .attr("value", function () {
+            return type;
+        })
+        .on("change", function () {
+            if (!this.checked) {
+                d3.selectAll("circle")
+                    .filter(function (d) {
+                        return d.topType == type;
+                    }).attr("r", 0);
+            } else {
+                d3.selectAll("circle")
+                    .filter(function (d) {
+                        return d.topType == type;
+                    }).attr("r", 5);
+            }
+        });
+
+    div.append("label")
+        .attr("for", function () {
+            return type + "button";
+        })
+        .attr("class", "mode-picker-label")
+        .attr("name", "display")
+        .html(function () {
+            return type;
+        });
+}
 
 
