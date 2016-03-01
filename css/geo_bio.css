@@ -61,6 +61,12 @@ svg, canvas {
     color: white;
 }
 
+/*.backtab:hover {*/
+    /*opacity: 1;*/
+    /*background: black;*/
+    /*cursor: pointer;*/
+/*}*/
+
 .buttonContainer {
     width: 100%;
     margin-top:10px;
@@ -75,15 +81,13 @@ svg, canvas {
     background: white;height:23px;
 }
 
-#routTab {
-    background: #B1CA8D;/*rgb(65,64,66);*/
+#person {
     position:absolute;
     left:0px;
     width:100px;
 }
 
-#cartTab {
-    background: #B1CA8Dl;/*rgb(52,51,53);*/
+#network {
     position:absolute;
     left:110px;
     width:110px;
@@ -91,8 +95,7 @@ svg, canvas {
     border-left: solid #428934 1px;
 }
 
-#minTab {
-    background: #B1CA8D; /*rgb(39,38,40);*/
+#route {
     position:absolute;
     left:232px;
     width:98px;

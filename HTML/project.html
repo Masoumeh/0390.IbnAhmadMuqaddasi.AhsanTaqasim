@@ -25,36 +25,14 @@
         <div id="displayOptionsContainer" class="buttonContainer">
             <span style="color:gray;">DISPLAY</span>
         </div>
-        <div>
-
-        </div>
-        <!--<div class="buttonContainer" id="otherButtons">-->
-            <!--<button style="display: inline;" id="startBrushingButton" onclick="startBrushing();" data="selectsites" class="helpicon">Select Sites</button>-->
-            <!--<button id="stopBrushingButton" style="display:none;" onclick="stopBrushing();">Stop Selecting</button>-->
-            <!--<button id="resetMapButton" onclick="resetMap();">Reset Map</button>-->
-            <!--<button onclick="clusterSitesUI()" data="cluster" class="helpicon">Cluster</button>-->
-            <!--<button id="sankeyButton" style="display:none;" onclick="sankeyOff();">Flow Off</button>-->
-            <!--<button data="browse" class="helpicon" onclick="_gaq.push(['_trackEvent', 'ui', 'history', 'history']);d3.selectAll('#resultsTableBack').style('display', 'block');d3.selectAll('.resultsRow').style('display', 'block');d3.selectAll('tr.resultsRow').style('display','table-row');">History</button>-->
-            <!--<button data="exportsvg" class="helpicon" onclick="exportSVG();">Export SVG</button>-->
-            <!--<a style="padding: 0px 12px; border-radius: 2px; color: rgb(238, 232, 170); background: rgb(199, 47, 42) none repeat scroll 0% 0%; display: none;" id="svgDownload">Download SVG</a>-->
-            <!--<button data="pathcolor" class="helpicon" onclick="changeStyleLines();">Path Coloring</button>-->
-            <!--<button style="display: none;" id="cartoOffMenu" onclick="cartogramOff();">Georectify</button>-->
-            <!--<button style="display: none;" id="voroOffMenu" onclick="clearVoronoi();">Zones off</button>-->
-            <!--<button onclick="psStyle();" style="display: none;">Places &amp; Spaces</button>-->
-            <!--<div style="margin-top:20px;">-->
-                <!--<iframe data-url="http://orbis.stanford.edu" src="ORBIS:%20The%20Stanford%20Geospatial%20Network%20Model%20of%20the%20Roman%20World_files/tweet_button.html" title="Twitter Tweet Button" style="position: static; visibility: visible; width: 60px; height: 20px;" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" allowtransparency="true" scrolling="no" id="twitter-widget-0" frameborder="0"></iframe>-->
-
-                <!--<div style="margin-top:20px;margin-left:30px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Forbis.stanford.edu&amp;width&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=65" scrolling="no" style="border:none; overflow:hidden; height:65px;" allowtransparency="true" frameborder="0"></iframe>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
     </div>
 </div>
     <div class="controlsDiv" id="controlbar">
         <div id="controlbarScroller">
-            <a class="tab" id="routTab">Route</a>
-            <a class="tab backtab" id="cartTab">Network</a>
-            <a class="tab backtab" id="minTab">Person</a>
+            <a class="tab" id="person" style="background: white;" onclick="showTab('persontab');">Person</a>
+            <a class="tab" id="network" onclick="showTab('networktab');">Network</a>
+            <a class="tab" id="route" onclick="showTab('routetab');">Route</a>
+            <div id="persontab">
             <div class="buttonContainer" style="height:80px;">
                 <div id="sourceSelectParent" style="margin-bottom:10px;padding: 5px 10px; background: white;color:gray;">
                     <span style="width:25px;color:gray;" id="sourceSelectLabel">
@@ -98,50 +76,14 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div id="networktab" style="display: none;">
             <div class="buttonContainer" style="background: white;padding: 5px 0;">
                 <fieldset style="border:none;padding-top: 10px;margin-top:-8px;" id="departurePicker">
-                    <!--<div style="color:gray;padding-right:5px;margin-top:1px;display:inline-block;margin-top: 3px;">DEPARTING: </div> <input onclick="showHide(&#39;travelMonth&#39;);" type="radio" name="departure" value="1" id="monthD">-->
-                    <!--<label for="monthD" class="departure-picker-label">Month</label>-->
-                    <!--<input onclick="" type="radio" name="departure" value="2" id="seasonD" checked="">-->
-                    <!--<label for="seasonD" class="departure-picker-label">Season</label>-->
                 </fieldset>
                 <fieldset style="padding: 0 10px 15px 15px;border: none;" id="monthPicker">
-                    <!--<input type="radio" name="month" class="season" value="1" id="winter">-->
-                    <!--<label style="width: auto;" for="winter" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/winter.jpg"></label>-->
-                    <!--<input type="radio" name="month" class="season" value="4" id="spring">-->
-                    <!--<label style="width: auto;" for="spring" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/spring.jpg"></label>-->
-                    <!--<input type="radio" name="month" class="season" value="7" id="summer" checked="">-->
-                    <!--<label style="width: auto;" for="summer" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/summer.jpg"></label>-->
-                    <!--<input type="radio" name="month" class="season" value="9" id="fall">-->
-                    <!--<label style="width: auto;" for="fall" class="month-picker-label season-picker-label season"><img class="season" style="height:36px;" src="../Data/fall.jpg"></label>-->
-
-                    <!--<input style="display:none;" type="radio" name="month" value="1" id="jan">-->
-                    <!--<label style="display:none;" for="jan" class="month-picker-label">Jan</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="2" id="feb">-->
-                    <!--<label style="display:none;" for="feb" class="month-picker-label">Feb</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="3" id="mar">-->
-                    <!--<label style="display:none;" for="mar" class="month-picker-label">Mar</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="4" id="apr">-->
-                    <!--<label style="display:none;" for="apr" class="month-picker-label">Apr</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="5" id="may">-->
-                    <!--<label style="display:none;" for="may" class="month-picker-label">May</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="6" id="jun">-->
-                    <!--<label style="display:none;" for="jun" class="month-picker-label">Jun</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="7" id="jul">-->
-                    <!--<label style="display:none;" for="jul" class="month-picker-label">Jul</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="8" id="aug">-->
-                    <!--<label style="display:none;" for="aug" class="month-picker-label">Aug</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="9" id="sep">-->
-                    <!--<label style="display:none;" for="sep" class="month-picker-label">Sep</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="10" id="oct">-->
-                    <!--<label style="display:none;" for="oct" class="month-picker-label">Oct</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="11" id="nov">-->
-                    <!--<label style="display:none;" for="nov" class="month-picker-label">Nov</label>-->
-                    <!--<input style="display:none;" type="radio" name="month" value="12" id="dec">-->
-                    <!--<label style="display:none;" for="dec" class="month-picker-label">Dec</label>-->
                 </fieldset>
             </div>
-
             <div class="buttonContainer" style="background: white;">
                 <fieldset style="border: none;" id="priorityForm" class="priorityForm">
                     <div style="color:gray;padding-right:5px;display: inline-block;margin-top: 3px;">PRIORITY: </div>
@@ -151,7 +93,6 @@
                     <label for="sp" class="priority-picker-label">Shortest</label>
                 </fieldset>
             </div>
-
             <div class="buttonContainer" id="networkModeContainer" style="overflow:hidden;background:white;padding-bottom: 9px;">
                 <div class="fieldTitle" style="text-transform: uppercase;color:gray;">Network Models</div>
                 <fieldset style="margin-top:-8px;margin-bottom: 8px;padding-bottom: 13px;border:none;border-bottom: 1px solid #414042;">
@@ -188,13 +129,8 @@
                 </div>
             </div>
         </div>
-        <div class="buttonContainer">
-            <div class="calculateDisable" style="display: none;"><div id="calculateDisableText">Calculating</div></div>
-            <!--<button class="controlButton calculateButton" id="routeCalculateButton" onclick="calculateRoute()">Calculate Route</button>-->
-            <button class="controlButton calculateButton" id="cartoCalculateButton" style="display:none;" onclick="calculateCarto()">Calculate Network</button>
-            <button class="controlButton calculateButton" id="sankeyCalculateButton" style="display:none;" onclick="calculateSankey()">Calculate Flow</button>
+            <div id="routetab"></div>
         </div>
-
     </div>
 </body>
 </html>

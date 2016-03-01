@@ -158,4 +158,17 @@ function topTypeDiv(disOpts, type) {
         });
 }
 
+function hideAllTab() {
+    d3.select('#persontab').style('display', 'none');
+    d3.select('#person').style('background', '#B1CA8D');
+    d3.select('#networktab').style('display', 'none');
+    d3.select('#network').style('background', '#B1CA8D');
+    d3.select('#routetab').style('display', 'none');
+    d3.select('#route').style('background', '#B1CA8D');
+}
 
+function showTab(tabname) {
+    hideAllTab();
+    d3.select('#' + tabname).style('display', 'block');
+    d3.select('#' + tabname.substring(0,tabname.length-3)).style('background', 'white');
+}
