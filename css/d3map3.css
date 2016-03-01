@@ -58,12 +58,10 @@
 }
 
 #d3MapLayerBox {
-    position: relative;
+    position: absolute;
     z-index: 10;
-    height: 100px;
-    width: 120px;
-    top: 10px;
-    left: 10px;
+    top: 500px;
+    right : 30px;
     overflow: auto;
     color: white;
     background: rgba(35,31,32,.85);

@@ -54,12 +54,12 @@ function makeSomeMaps() {
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
     d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
-
         var output = dataStructsBetweenPeopleYears(data);
         var min_year = output['min_year'];
         var max_year = output['max_year'];
         var peopleMap = output['peopleMap'];
         var yearPeople = output['yearPeople'];
+
         var slider = d3.slider().value([0, 100])
             .on("slide", function (evt, value) {
                 d3.select('#minYear').text(''
@@ -70,8 +70,6 @@ function makeSomeMaps() {
         //function update(value) {
         d3.select("#calcConnections")
             .on("click", function () {
-                console.log("click!", d3.select('#minYear').html());
-
                 var minyear = parseInt(d3.select('#minYear').html());
                 var maxyear = parseInt(d3.select('#maxYear').html());
                 var uniqueCountires =
@@ -81,7 +79,6 @@ function makeSomeMaps() {
         d3.select("#yearSlider").call(slider);
         d3.select("#minYear").text(min_year + '');
         d3.select("#maxYear").text(max_year + '');
-
         var select = d3.select("#personSlider")
             .append('div')
             .append("select")
