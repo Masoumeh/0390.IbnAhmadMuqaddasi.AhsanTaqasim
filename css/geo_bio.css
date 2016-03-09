@@ -74,7 +74,7 @@ svg, canvas {
     position: relative;
 }
 
-#directionDiv {
+#routeDiv {
     display:none;
     margin-bottom:10px;
     padding: 5px 10px;
@@ -175,4 +175,38 @@ svg, canvas {
     height: auto;
     padding: 5px;
     width: auto;
+}
+
+.checkBoxSelect
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.checkboxDiv
+{
+    display: inline-block;
+}
+
+.radio-radio {
+    display:none;
+}
+.radio-radio + label {
+    display:inline-block;
+    width:15px;
+    height:15px;
+    margin:-1px 5px 0 0;
+    vertical-align:middle;
+    background:url(radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+.radio-radio:checked + label {
+    background:url(radio_sheet.png) -15px top no-repeat;
+}
+
+.radio-radio + label:hover {
+    background:url(radio_sheet.png) -30px top no-repeat;
+}
+.radio-radio:checked + label:hover {
+    background:url(radio_sheet.png) -45px top no-repeat;
 }

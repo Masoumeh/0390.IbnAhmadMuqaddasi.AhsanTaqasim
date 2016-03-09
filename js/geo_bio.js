@@ -79,13 +79,13 @@ function makeSomeMaps() {
         d3.select("#yearSlider").call(slider);
         d3.select("#minYear").text(min_year + '');
         d3.select("#maxYear").text(max_year + '');
-        var select = d3.select("#personSlider")
-            .append('div')
-            .append("select")
-            .on("change", function (d) {
-                var id = this.options[this.selectedIndex].value;
-                updateRoutes(id);
-            });
+        //var select = d3.select("#personSlider")
+        //    .append('div')
+        //    .append("select")
+        //    .on("change", function (d) {
+        //        var id = this.options[this.selectedIndex].value;
+        //        updateRoutes(id);
+        //    });
 
         var options = select.selectAll("option").data(Object.keys(peopleMap));
         options.enter()

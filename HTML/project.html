@@ -29,7 +29,7 @@
 </div>
     <div class="controlsDiv" id="controlbar">
         <div id="controlbarScroller">
-            <a class="tab" id="person" style="background: white;" onclick="showTab('persontab');">Person</a>
+            <a class="tab" id="person" style="background: white;" onclick="showTab('persontab');">People</a>
             <a class="tab" id="network" onclick="showTab('networktab');">Network</a>
             <a class="tab" id="route" onclick="showTab('routetab');">Route</a>
             <div id="persontab">
@@ -56,29 +56,22 @@
                         </div>
                         <input onclick="" type="radio" value="0" name="pathvis" checked="">
                         <label for="op" class="priority-picker-label">Complete</label>
-                        <input onclick="" type="radio" value="1" name="pathvis" >
+                        <input onclick="" type="radio" value="1" name="pathvis">
                         <label for="sp" class="priority-picker-label">Arc</label>
                     </div>
                 </div>
-                <div id="directionDiv" style="display:none;margin-bottom:10px;padding: 5px 10px; background: white;height:23px;">
-                    <div style="width:100%;color:gray;"><span style="margin-right:10px;">DIRECTION:</span>
-                        <input style="height:20px;" id="from" class="radio-radio" type="radio" name="direction" value="0" checked="">
-                        <label style="color:gray;" for="from" class="mode-picker-label"></label><span style="margin-right:30px;">From</span>
-                        <input id="to" class="radio-radio" type="radio" name="direction" value="1">
-                        <label style="color:gray;" for="to" class="mode-picker-label"></label><span style="margin-right:10px;">To</span>
-                    </div>
-                </div>
+
             </div>
             </div>
             <div id="networktab" style="display: none;">
-            <div class="buttonContainer" style="background: white;padding: 5px 0;">
-                <fieldset style="border:none;padding-top: 10px;margin-top:-8px;" id="departurePicker">
-                </fieldset>
-                <fieldset style="padding: 0 10px 15px 15px;border: none;" id="monthPicker">
-                </fieldset>
-            </div>
+            <!--<div class="buttonContainer" style="background: white;padding: 5px 0;">-->
+                <!--<fieldset style="border:none;padding-top: 10px;margin-top:-8px;" id="startNetwork">-->
+                <!--</fieldset>-->
+                <!--&lt;!&ndash;<fieldset style="padding: 0 10px 15px 15px;border: none;" id="monthPicker">&ndash;&gt;-->
+                <!--&lt;!&ndash;</fieldset>&ndash;&gt;-->
+            <!--</div>-->
             <div class="buttonContainer" style="background: white;">
-                <fieldset style="border: none;" id="priorityForm" class="priorityForm">
+                <fieldset style="border: none;" id="priorityForm" class="checkBoxSelect">
                     <div style="color:gray;padding-right:5px;display: inline-block;margin-top: 3px;">PRIORITY: </div>
                     <input onclick="" type="radio" value="0" name="priority" id="op">
                     <label for="op" class="priority-picker-label">Optimal</label>
@@ -122,7 +115,26 @@
                 </div>
             </div>
         </div>
-            <div id="routetab"></div>
+            <div id="routetab">
+                <div class="buttonContainer" style="background: white;padding: 5px 0;">
+                    <!--<fieldset style="border: none;" id="routeFind" class="checkBoxSelect">-->
+                    <div>
+
+                    </div>
+                     <div>
+
+                     </div>
+                        <div id="routeDiv" style="margin-bottom:10px;padding: 5px 10px; background: white;height:23px;">
+                            <div style="width:100%;color:gray;"><span style="margin-right:10px;">DIRECTION:</span>
+                                <input style="height:20px;" id="from" class="radio-radio" type="text" name="direction" value="0" checked="">
+                                <label style="color:gray;" for="from" class="mode-picker-label"></label><span style="margin-right:30px;">From</span>
+                                <input id="to" class="radio-radio" type="text" name="direction" value="1">
+                                <label style="color:gray;" for="to" class="mode-picker-label"></label><span style="margin-right:10px;">To</span>
+                            </div>
+                        </div>
+                    <!--</fieldset>-->
+                </div>
+            </div>
         </div>
     </div>
 </body>
