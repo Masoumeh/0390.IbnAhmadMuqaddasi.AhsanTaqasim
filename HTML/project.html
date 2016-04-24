@@ -30,14 +30,14 @@
     <div class="controlsDiv" id="controlbar">
         <div id="controlbarScroller">
             <a class="tab" id="person" style="background: white;" onclick="showTab('persontab');">People</a>
-            <a class="tab" id="network" onclick="showTab('networktab');">Network</a>
-            <a class="tab" id="route" onclick="showTab('routetab');">Route</a>
+            <a class="tab" id="network" onclick="showTab('routetab');">Route</a>
+            <a class="tab" id="route" onclick="showTab('networktab');">Network</a>
             <div id="persontab">
             <div class="buttonContainer" style="height:80px;">
                 <div id="sourceSelectParent" style="margin-bottom:10px;padding: 5px 10px; background: white;color:gray;">
-                    <span style="width:25px;color:gray;" id="sourceSelectLabel">
+                    <div style="margin-bottom: 7px;"><span style="width:25px;color:gray;" id="sourceSelectLabel">
                         THE TIME FRAME OF PEOPLE:
-                    </span>
+                    </span></div>
                     <div id="personSlider">
                         <div id="yearSlider" style="width: 250px;left: 10px;">
                         </div>
@@ -60,16 +60,9 @@
                         <label for="sp" class="priority-picker-label">Arc</label>
                     </div>
                 </div>
-
             </div>
             </div>
-            <div id="networktab" style="display: none;">
-            <!--<div class="buttonContainer" style="background: white;padding: 5px 0;">-->
-                <!--<fieldset style="border:none;padding-top: 10px;margin-top:-8px;" id="startNetwork">-->
-                <!--</fieldset>-->
-                <!--&lt;!&ndash;<fieldset style="padding: 0 10px 15px 15px;border: none;" id="monthPicker">&ndash;&gt;-->
-                <!--&lt;!&ndash;</fieldset>&ndash;&gt;-->
-            <!--</div>-->
+            <div id="routetab" style="display: none;">
             <div class="buttonContainer" style="background: white;">
                 <fieldset style="border: none;" id="priorityForm" class="checkBoxSelect">
                     <div style="color:gray;padding-right:5px;display: inline-block;margin-top: 3px;">PRIORITY: </div>
@@ -79,9 +72,10 @@
                     <label for="sp" class="priority-picker-label">Shortest</label>
                 </fieldset>
             </div>
-            <div class="buttonContainer" id="networkModeContainer" style="overflow:hidden;background:white;padding-bottom: 9px;">
+            <div class="buttonContainer" id="networkModeContainer" style="overflow:hidden;
+                 padding-left:10px;padding-top: 10px;background:white;padding-bottom: 9px;">
                 <div class="fieldTitle" style="text-transform: uppercase;color:gray;">Network Models</div>
-                <fieldset style="margin-top:-8px;margin-bottom: 8px;padding-bottom: 13px;border:none;border-bottom: 1px solid #414042;">
+                <fieldset style="margin-bottom: 8px;padding-bottom: 13px;border:none;border-bottom: 1px solid #414042;">
                     <form id="modeForm" onclick="updateBGRoutes();">
                         <!-- to put checkboxes in two columns, should set smaller width of div like width:130px-->
                         <div style="width:320px;float:left;">
@@ -109,14 +103,22 @@
                     <div style="margin-top: 14px;text-align: right;font-size: 14px;text-transform: uppercase;">Sea </div>
                 </div>
                 <div style="width:30%;float:left;" data="transfer" class="helpicon">
-                    <div style="width:100%;color:gray;">TRANSFER COST</div>
+                    <div style="width:100%;color:gray;bottom: 10px;">TRANSFER COST</div>
                     <div style="width:100%;margin-top:16px;"><input type="text" style="text-align: center;height:23px;border-radius: 2px;width:30px;border: 1px #231f20 solid;" id="riverTransferCost" class="controlButton" placeholder="0"></div>
                     <div style="width:100%;margin-top:6px;"><input type="text" style="text-align: center;height:23px;border-radius: 2px;width:30px;border: 1px #231f20 solid;" id="seaTransferCost" class="controlButton" placeholder="0"></div>
                 </div>
             </div>
-        </div>
-            <div id="routetab">
+            </div>
+            <div id="networktab" style="display: none;">
                 <div class="buttonContainer" style="background: white;padding: 5px 0;">
+                    <div id="sourceSelectParent" style="margin-bottom:10px;padding: 5px 10px; background: white;color:gray;">
+                        <div style="margin-bottom: 7px;">
+                            <span style="width:25px;color:gray;" id="sourceSelectLabel">
+                            START:
+                            </span>
+                            <div><select id="networkStart"></select></div>
+                        </div>
+                    </div>
                     <!--<fieldset style="border: none;" id="routeFind" class="checkBoxSelect">-->
                     <div>
 
