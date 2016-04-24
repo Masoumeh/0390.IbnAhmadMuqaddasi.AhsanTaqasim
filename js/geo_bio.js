@@ -5,6 +5,12 @@
 function makeSomeMaps() {
     pathSource = 0;
     var graph;
+    var svg = d3.select("body").append("svg")
+        .attr("width", 1000)
+        .attr("height", 600);
+
+    var g = svg.append("g");
+    var arcGroup = g.append('g');
     //var dijSource, dijTarget;
     map = d3.carto.map();
     d3.select("#geoMap").call(map);
@@ -51,8 +57,34 @@ function makeSomeMaps() {
                 });
             map.addCartoLayer(cityLayer);
         });
+    d3.carto.layer.fea
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
-    d3.csv("../Data/peopleRegion.csv", function (error, data) {
+    d3.csv("../Data/cornu.csv", function (csv) {
+        var prev = '';
+        // To filter the duplicate names and those containing "RoutPoint"
+        var filteredData = csv.filter(function(d) {
+            if(d.arTitle.indexOf('RoutPoint')===-1) {
+                var test;
+                if(prev !== d.arTitle) test = true;
+                prev = d.arTitle;
+                if(test) return d;
+            }
+        });
+        d3.select("#networkStart").on("change", function (d) {
+                    var id = this.options[this.selectedIndex].value;
+            //        updateRoutes(id);
+        })
+            .selectAll("option").data(filteredData).enter()
+            .append("option")
+            .attr("value", function (d) {
+                return d.arTitle;
+            })
+            .text(function (d) {
+                return d.arTitle;
+            });
+
+    });
+      d3.csv("../Data/peopleRegion.csv", function (error, data) {
         if (error) throw error;
         var output = dataStructsBetweenPeopleYears(data);
         var min_year = output['min_year'];
@@ -74,11 +106,12 @@ function makeSomeMaps() {
                 var maxyear = parseInt(d3.select('#maxYear').html());
                 var uniqueCountires =
                     unify_year_people(minyear, maxyear, yearPeople, peopleMap);
-                updateRoutesCountries(uniqueCountires, graph);
+                updateRoutesCountries(uniqueCountires, graph, arcGroup);
             });
         d3.select("#yearSlider").call(slider);
         d3.select("#minYear").text(min_year + '');
         d3.select("#maxYear").text(max_year + '');
+
         //var select = d3.select("#personSlider")
         //    .append('div')
         //    .append("select")
@@ -87,12 +120,12 @@ function makeSomeMaps() {
         //        updateRoutes(id);
         //    });
 
-        var options = select.selectAll("option").data(Object.keys(peopleMap));
-        options.enter()
-            .append("option")
-            .text(function (d) {
-                return d;
-            });
+        //var options = select.selectAll("option").data(Object.keys(peopleMap));
+        //options.enter()
+        //    .append("option")
+        //    .text(function (d) {
+        //        return d;
+        //    });
     });
 }
 

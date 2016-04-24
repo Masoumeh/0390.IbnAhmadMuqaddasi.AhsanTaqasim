@@ -154,11 +154,58 @@ function displayPath(pathData, countries, uniquePaths) {
     //}
 }
 
-function displayPathArc(pathData, countries, uniquePaths) {
-    displayPath(pathData, countries, uniquePaths);
+function displayPathArc(pathData, countries, uniquePaths, svg) {
+    //displayPath(pathData, countries, uniquePaths);
+    svg.append("line")          // attach a line
+        .style("stroke", "black")
+        .style("stroke-width", "100")// colour the line
+        .attr("x1", -0.35371)     // x position of the first end of the line
+        .attr("y1", 42.16109)      // y position of the first end of the line
+        .attr("x2", -5.56634)     // x position of the second end of the line
+        .attr("y2", 42.6185);    // y position of the second end of the line
+   // var links = [];
+   // //var arcGroup = g.append('g');
+   //// for(var i=0, len=data.length-1; i<len; i++){
+   //     // (note: loop until length - 1 since we're getting the next
+   //     //  item with i+1)
+   //     links.push({
+   //         type: "LineString",
+   //         coordinates: [
+   //             [ -0.35371, 42.16109 ],
+   //             [ -5.56634, 42.6185 ]
+   //         ]
+   //     });
+   //// }
+   // // Standard enter / update
+   // var pathArcs = arcGroup.selectAll(".arc")
+   //     .data(links);
+   //
+   // //enter
+   // pathArcs.enter()
+   //     .append("path").attr({
+   //         'class': 'arc'
+   //     }).style({
+   //         fill: 'none',
+   //     });
+   //
+   // //update
+   // pathArcs.attr({
+   //     //d is the points attribute for this path, we'll draw
+   //     //  an arc between the points using the arc function
+   //     d: path
+   // })
+   //     .style({
+   //         stroke: '#0000ff',
+   //         'stroke-width': '2px'
+   //     })
+   //     // Uncomment this line to remove the transition
+   //     .call(lineTransition);
+   //
+   // //exit
+   // pathArcs.exit().remove();
 }
 
-function updateRoutesCountries(countries,graph) {
+function updateRoutesCountries(countries,graph, svg) {
     var country = Object.keys(countries);
     var pathData = [];
     var uniquePaths = {};
@@ -210,7 +257,7 @@ function updateRoutesCountries(countries,graph) {
             }
         }
 
-        displayPathArc(pathData, countries, uniquePaths);
+        displayPathArc(pathData, countries, uniquePaths, svg);
     }
 }
 
