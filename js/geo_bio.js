@@ -1,7 +1,7 @@
 /**
  * Created by masoumeh on 10.02.16.
  */
-
+var map,arcLayer,routeLayer;
 function makeSomeMaps() {
     pathSource = 0;
     var graph;
@@ -18,6 +18,7 @@ function makeSomeMaps() {
     map.setScale(4);
     map.refresh();
 
+    var routeData;
     wcLayer = d3.carto.layer.tile();
     wcLayer
         .tileType("stamen")
@@ -43,8 +44,8 @@ function makeSomeMaps() {
                 .clickableFeatures(true)
                 .on("load", function () {
                     var uniqueTopType = {};
-                    cityLayer.features().forEach(function(f){
-                        uniqueTopType[f['topType']]=0;
+                    cityLayer.features().forEach(function (f) {
+                        uniqueTopType[f['topType']] = 0;
                     });
                     var disOpts = d3.select("#displayOptionsContainer");
                     Object.keys(uniqueTopType).forEach(function (type) {
@@ -57,21 +58,22 @@ function makeSomeMaps() {
                 });
             map.addCartoLayer(cityLayer);
         });
-    d3.carto.layer.fea
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
+
+
     d3.csv("../Data/cornu.csv", function (csv) {
         var prev = '';
         // To filter the duplicate names and those containing "RoutPoint"
-        var filteredData = csv.filter(function(d) {
-            if(d.arTitle.indexOf('RoutPoint')===-1) {
+        var filteredData = csv.filter(function (d) {
+            if (d.arTitle.indexOf('RoutPoint') === -1) {
                 var test;
-                if(prev !== d.arTitle) test = true;
+                if (prev !== d.arTitle) test = true;
                 prev = d.arTitle;
-                if(test) return d;
+                if (test) return d;
             }
         });
         d3.select("#networkStart").on("change", function (d) {
-                    var id = this.options[this.selectedIndex].value;
+            var id = this.options[this.selectedIndex].value;
             //        updateRoutes(id);
         })
             .selectAll("option").data(filteredData).enter()
@@ -83,49 +85,61 @@ function makeSomeMaps() {
                 return d.arTitle;
             });
 
-    });
-      d3.csv("../Data/peopleRegion.csv", function (error, data) {
-        if (error) throw error;
-        var output = dataStructsBetweenPeopleYears(data);
-        var min_year = output['min_year'];
-        var max_year = output['max_year'];
-        var peopleMap = output['peopleMap'];
-        var yearPeople = output['yearPeople'];
 
-        var slider = d3.slider().value([0, 100])
-            .on("slide", function (evt, value) {
-                d3.select('#minYear').text(''
-                    + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
-                d3.select('#maxYear').text('' +
-                    +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
-            });
-        //function update(value) {
-        d3.select("#calcConnections")
-            .on("click", function () {
-                var minyear = parseInt(d3.select('#minYear').html());
-                var maxyear = parseInt(d3.select('#maxYear').html());
-                var uniqueCountires =
-                    unify_year_people(minyear, maxyear, yearPeople, peopleMap);
-                updateRoutesCountries(uniqueCountires, graph, arcGroup);
-            });
-        d3.select("#yearSlider").call(slider);
-        d3.select("#minYear").text(min_year + '');
-        d3.select("#maxYear").text(max_year + '');
+        d3.csv("../Data/peopleRegion.csv", function (error, data) {
+            if (error) throw error;
+            var output = dataStructsBetweenPeopleYears(data);
+            var min_year = output['min_year'];
+            var max_year = output['max_year'];
+            var peopleMap = output['peopleMap'];
+            var yearPeople = output['yearPeople'];
 
-        //var select = d3.select("#personSlider")
-        //    .append('div')
-        //    .append("select")
-        //    .on("change", function (d) {
-        //        var id = this.options[this.selectedIndex].value;
-        //        updateRoutes(id);
-        //    });
+            var slider = d3.slider().value([0, 100])
+                .on("slide", function (evt, value) {
+                    d3.select('#minYear').text(''
+                        + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
+                    d3.select('#maxYear').text('' +
+                        +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
+                });
+            //function update(value) {
+            d3.select("#calcConnections")
+                .on("click", function () {
+                    var minyear = parseInt(d3.select('#minYear').html());
+                    var maxyear = parseInt(d3.select('#maxYear').html());
+                    var uniqueCountires =
+                        unify_year_people(minyear, maxyear, yearPeople, peopleMap);
+                    updateRoutesCountries(uniqueCountires, graph, arcGroup);
+                });
+            d3.select("#yearSlider").call(slider);
+            d3.select("#minYear").text(min_year + '');
+            d3.select("#maxYear").text(max_year + '');
 
-        //var options = select.selectAll("option").data(Object.keys(peopleMap));
-        //options.enter()
-        //    .append("option")
-        //    .text(function (d) {
-        //        return d;
-        //    });
+            arcLayer = d3.carto.layer.geojson();
+            arcLayer.path("../Data/arcs.json")
+                .label("Arcs")
+                .renderMode("svg")
+                .cssClass("roads")
+                .clickableFeatures(true);
+            arcLayer.visibility('hidden');
+            map.addCartoLayer(arcLayer);
+
+
+            //findCountries(csv, data, routeData);
+            //var select = d3.select("#personSlider")
+            //    .append('div')
+            //    .append("select")
+            //    .on("change", function (d) {
+            //        var id = this.options[this.selectedIndex].value;
+            //        updateRoutes(id);
+            //    });
+
+            //var options = select.selectAll("option").data(Object.keys(peopleMap));
+            //options.enter()
+            //    .append("option")
+            //    .text(function (d) {
+            //        return d;
+            //    });
+        });
     });
 }
 
@@ -203,5 +217,5 @@ function hideAllTab() {
 function showTab(tabname) {
     hideAllTab();
     d3.select('#' + tabname).style('display', 'block');
-    d3.select('#' + tabname.substring(0,tabname.length-3)).style('background', 'white');
+    d3.select('#' + tabname.substring(0, tabname.length - 3)).style('background', 'white');
 }
