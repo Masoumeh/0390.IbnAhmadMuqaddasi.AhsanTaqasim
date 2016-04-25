@@ -1,7 +1,7 @@
 /**
  * Created by masoumeh on 10.02.16.
  */
-var map,arcLayer,routeLayer;
+var map,arcLayer,routeLayer, arcVisibility;
 function makeSomeMaps() {
     pathSource = 0;
     var graph;
@@ -72,6 +72,8 @@ function makeSomeMaps() {
                 if (test) return d;
             }
         });
+        // drop down list for starting point of network flow,
+        // containing arTitles from cornu.csv file
         d3.select("#networkStart").on("change", function (d) {
             var id = this.options[this.selectedIndex].value;
             //        updateRoutes(id);
@@ -88,10 +90,15 @@ function makeSomeMaps() {
 
         d3.csv("../Data/peopleRegion.csv", function (error, data) {
             if (error) throw error;
+            // Creating the required data structures
             var output = dataStructsBetweenPeopleYears(data);
+            // Min year
             var min_year = output['min_year'];
+            // Max year
             var max_year = output['max_year'];
+            // A map from people to places they have been related to
             var peopleMap = output['peopleMap'];
+            // A map from years to people they have been related to
             var yearPeople = output['yearPeople'];
 
             var slider = d3.slider().value([0, 100])
@@ -117,12 +124,13 @@ function makeSomeMaps() {
             arcLayer = d3.carto.layer.geojson();
             arcLayer.path("../Data/arcs.json")
                 .label("Arcs")
+                .visibility(false)
                 .renderMode("svg")
                 .cssClass("roads")
                 .clickableFeatures(true);
-            arcLayer.visibility('hidden');
+            arcVisibility = false;
             map.addCartoLayer(arcLayer);
-
+            //arcLayer.visibility('false');
 
             //findCountries(csv, data, routeData);
             //var select = d3.select("#personSlider")
