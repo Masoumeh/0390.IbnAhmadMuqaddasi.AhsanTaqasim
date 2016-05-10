@@ -222,7 +222,8 @@ function makeSomeMaps() {
                     map.addCartoLayer(voronoiLayer);
                 });
             map.addCartoLayer(cityLayer);
-
+            closeOpen('leftPanel');
+            closeOpen('rightPanel');
 
             //compute_voronoi(filteredData);
         });
