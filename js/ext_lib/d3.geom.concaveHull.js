@@ -18,7 +18,6 @@
                 sides.push(distance(d[0],d[2]));
                 sides.push(distance(d[1],d[2]));
             });
-            console.log("sides "+JSON.stringify(sides))
             var dev = d3.deviation(sides);
             var mean = d3.mean(sides);
 
