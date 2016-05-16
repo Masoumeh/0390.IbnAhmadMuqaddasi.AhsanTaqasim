@@ -210,3 +210,23 @@ svg, canvas {
 .radio-radio:checked + label:hover {
     background:url(radio_sheet.png) -45px top no-repeat;
 }
+
+#networkStart {
+    width: 200px;
+}
+
+.zone1-node {
+    fill: #31a354;
+}
+.zone2-node {
+    fill: #FFD62E;
+}
+.zone3-node {
+    fill: #FF9500;
+}
+.zone4-node {
+    fill: #E80909;
+}
+.zone5-node {
+    fill: #000;
+}

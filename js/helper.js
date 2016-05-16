@@ -183,14 +183,14 @@ function displayPathArc(pathData, countries, uniquePaths, svg) {
     //    .attr("r", 5);
 }
 // Updates the routes between a list of countries, using dijkstra algorithm
-function updateRoutesCountries(countries, graph, svg) {
+function updateRoutesCountries(countries, dijks_graph, svg) {
     var country = Object.keys(countries);
     var pathData = [];
     var uniquePaths = {};
 
     for (var x = 0; x < country.length; x++) {
         for (var y = x + 1; y < country.length; y++) {
-            var pData = graph.findShortestPath(country[x], country[y]);
+            var pData = dijks_graph.findShortestPath(country[x], country[y]);
             if (pData) {
                 for (var i = 0; i < pData.length; i++) {
                     for (var j = i + 1; j < pData.length; j++) {
@@ -241,7 +241,7 @@ function updateRoutes(id) {
     var country = peopleMap[id]['city'].split(',');
     for (var x = 0; x < country.length; x++) {
         for (var y = x + 1; y < country.length; y++) {
-            var pData = graph.findShortestPath(country[x], country[y]);
+            var pData = dijks_graph.findShortestPath(country[x], country[y]);
             trav++;
             if (pData) {
                 //console.log("pathdata: ", JSON.stringify(pData));
@@ -386,4 +386,13 @@ function distance(lat1, lon1, lat2, lon2, unit) {
         dist = dist * 0.8684
     }
     return dist;
+}
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
 }

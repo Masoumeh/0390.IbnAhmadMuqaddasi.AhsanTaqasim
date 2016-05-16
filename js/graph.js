@@ -1,37 +1,40 @@
-var Graph = require('data-structures').Graph;
-var graph = new Graph(); 
-var sites = places.data; 
-var routes = allRoutes.features; 
-//var DAY = 120000;  
-var DAY  = 39702; 
-var WITHIN_A_DAY = DAY * 3; 
+var graph;
+//var DAY = 120000;
+var DAY = 39702;
+var WITHIN_A_DAY = DAY * 3;
 //var MULTIPLIER = 3;
-var NUM_ZONES = 5;
-var e, s, edge;  
+var NUM_ZONES = 10;
 
-for (var i = 0; i < routes.length; i++) {
-	e = routes[i].properties.eToponym;
-	s = routes[i].properties.sToponym;
-	graph.addNode(e);
-	graph.getNode(e)._id = e;
+function init_graph(routes) {
+  var Graph = require('data-structures').Graph;
+  graph = new Graph();
+  var e, s, edge;
 
-	graph.addNode(s)
-	graph.getNode(s)._id = s; 
+  for (var i = 0; i < routes.length; i++) {
+    e = routes[i].properties.eToponym;
+    s = routes[i].properties.sToponym;
+    graph.addNode(e);
+    graph.getNode(e)._id = e;
 
-	graph.addEdge(e, s); 
-	edge = graph.getEdge(e, s); 
-  edge._eid = e;
-	edge._sid = s; 
+    graph.addNode(s);
+    graph.getNode(s)._id = s;
 
-	edge._id = routes[i].properties.id; 
-  edge.weight = routes[i].properties.Meter; 
+    graph.addEdge(e, s);
+    edge = graph.getEdge(e, s);
+    edge._eid = e;
+    edge._sid = s;
+
+    edge._id = routes[i].properties.id;
+    edge.weight = routes[i].properties.Meter;
+  }
+  resetNodes(graph);
+
 }
 
 /* consider doing the routepoint thing in the definition of the graph. 
  so if you run across a routepoint, all edges connecting to it equal 
  weight of routepoint + current edge. maybe that will work? */ 
 
-resetNodes(graph);
 
 function resetNodes(G) {
   graph.forEachNode( function(node) {
@@ -177,7 +180,7 @@ function getNetwork(distances, multiplier) {
     network.set(z, new Array());
   }); 
 
-  $j.each(distances, function(id, meters) {
+  jQuery.each(distances, function(id, meters) {
     zone = placeDistanceInZone(meters, zones); 
     network.get(zone).push(id); 
   })

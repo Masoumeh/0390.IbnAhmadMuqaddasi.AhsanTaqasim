@@ -61,7 +61,7 @@ function makeSomeMaps() {
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
 
 
-    d3.csv("../Data/cornu.csv", function (csv) {
+    d3.csv("../Data/cornuFiltered.csv", function (csv) {
         var prev = '';
         // To filter the duplicate names and those containing "RoutPoint"
         var filteredData = csv.filter(function (d) {
@@ -71,6 +71,20 @@ function makeSomeMaps() {
                 prev = d.arTitle;
                 if (test) return d;
             }
+        });
+        // alphabetically sort the names (based on eiSearch)
+        filteredData.sort(function(a, b) {
+            var nameA = a.arTitle.toUpperCase(); // ignore upper and lowercase
+            var nameB = b.arTitle.toUpperCase(); // ignore upper and lowercase
+            if (nameA < nameB) {
+                return -1;
+            }
+            if (nameA > nameB) {
+                return 1;
+            }
+
+            // names must be equal
+            return 0;
         });
         // drop down list for starting point of network flow,
         // containing arTitles from cornu.csv file

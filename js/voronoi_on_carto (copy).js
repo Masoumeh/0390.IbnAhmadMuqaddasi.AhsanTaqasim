@@ -26,24 +26,18 @@ function makeSomeMaps() {
         .path("watercolor")
         .label("Watercolor")
         .visibility(true);
-    routeLayer = d3.carto.layer.geojson();
+    routeLayer = d3.carto.layer.topojson();
     routeLayer
-        .path("../Data/all_routes_new.json")
+        .path("../Data/all_routes_new.topojson")
         .label("Postal Routes")
         .cssClass("roads")
         .renderMode("svg")
         .on("load", function () {
-            //console.log("route " + JSON.stringify(routeLayer.features()))
             routeData = routeLayer.features();
-            //    .filter(function (f) {
-            //    if (f.properties.sToponym.indexOf("ROUTPOINT") === -1
-            //        && f.properties.eToponym.indexOf("ROUTPOINT") === -1)
-            //        return f;
-            //});
             init_graph(routeData);
             //console.log("grap " + JSON.stringify(graph));
             cityLayer = d3.carto.layer.csv();
-            cityLayer.path("../Data/cornuFilteredRoutes.csv")
+            cityLayer.path("../Data/cornu_filtered.csv")
                 .label("Cities")
                 .cssClass("metro")
                 .renderMode("svg")
@@ -64,7 +58,8 @@ function makeSomeMaps() {
                         .style("fill", "seagreen")
                         .attr("r", 1);
                     var poly = {'data': []};
-                    voronoiLayer = map.createVoronoiLayer(cityLayer, 0.5, poly);
+                    //console.log("cityLayer" + JSON.stringify(cityLayer.features()));
+                    voronoiLayer = map.createVoronoiLayer(cityLayer, 0.5);
                     voronoiLayer
                         .label("Voronoi")
                         .cssClass("voronoi")
@@ -151,7 +146,7 @@ function makeSomeMaps() {
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
     //return;
 
-    d3.csv("../Data/cornuFilteredRoutes.csv", function (csv) {
+    d3.csv("../Data/cornu.csv", function (csv) {
         var prev = '';
         // To filter the duplicate names and those containing "RoutPoint"
         var filteredData = csv.filter(function (d) {
@@ -162,55 +157,47 @@ function makeSomeMaps() {
                 if (test) return d;
             }
         });
-        filteredData.sort(function(a, b) {
-            // ignore upper and lowercase
-            var nameA = a.eiSearch.toUpperCase();
-            var nameB = b.eiSearch.toUpperCase();
-            if (nameA < nameB) {
-                return -1;
-            }
-            if (nameA > nameB) {
-                return 1;
-            }
-
-            // names must be equal
-            return 0;
-        });
 
         // drop down list for starting point of network flow,
         // containing arTitles from cornu.csv file
         d3.select("#networkStart").on("change", function (d) {
             var id = this.options[this.selectedIndex].value;
-            d3.selectAll('circle').filter(function(d) {
-                return d.topURI == id
-            }).attr("r", 10);
-
             var s = graph.getNode(id);
-            //console.log("graph "+JSON.stringify(graph));
             var distances = shortestPath(s, s, 'n');
-            //console.log("dis "+JSON.stringify(distances))
-            var network = getNetwork(distances, 5); //multiplier
-            //console.log("net " +JSON.stringify(network));
+            var network = getNetwork(distances, 3); //multiplier
             var sitesByZone = network.values();
-            //console.log("sites "+sitesByZone);
+            var siteClass, zone;
             var topURI_zone = {};
             var c10 = d3.scale.category10();
+            var color = d3.scale.linear().domain([0,1,5]).range(["green","yellow","red"])
+            //for(var i = 0; i < sitesByZone.length; i++) { // don't need last zone, default unreachable
+            //    zone = sitesByZone[i];
+            //    siteClass = 'zone' + (i+1) + '-node';
+            //    //renderVoronoi();
+            //    //svg.selectAll("path").style("fill",function(p) {
+            //    //	console.log(JSON.stringify(p));
+            //    //});
+            //    zone.forEach(function(s) {
+            //        voronoiLayer.g().selectAll("path")
+            //            .filter(function(d) {
+            //                console.log("test "+s+" " + d.topURI);
+            //                return d.topURI == s;})
+            //            //.classed('zone5-node', false)
+            //            .style("fill", color(i));
+            //            //.attr("r", 4)
+            //            //.style("visibility", "visible");
+            //    })
+            //}
             voronoiLayer.g().selectAll("path")
                 .style("fill", function (p) {
                     var turi = p['properties']['node']['topURI'];
                     var ttype = p['properties']['node']['topType'];
                     var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
-                    if(pol.area()>10) return "rgba(0,0,0,0)";
+                    //if(pol.area()>10) return "rgba(0,0,0,0)";
                     //if(ttype=="waystations") return "rgba(0,0,0,0)";
-                    //if(ttype=="sites") return "rgba(0,0,0,0)";
-                    //if(ttype=="waters") return "rgba(0,0,0,0)";
                     for(var i = 0; i < sitesByZone.length; i++) {
                         var zone = sitesByZone[i];
                         if(zone.indexOf(turi)!=-1) {
-                            //if(turi.indexOf("NAHRAWAN")!=-1) {
-                            //    console.log("salam " + turi);
-                            //    return "yellow";
-                            //}
                             return c10(i+1);
                         }
                     }

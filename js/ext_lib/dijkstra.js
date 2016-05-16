@@ -1,4 +1,4 @@
-var Graph = (function (undefined) {
+var DijksGraph = (function (undefined) {
 
 	var extractKeys = function (obj) {
 		var keys = [], key;

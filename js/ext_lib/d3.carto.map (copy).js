@@ -2196,13 +2196,12 @@ function manualZoom(zoomDirection) {
             .x(function(d) {return cartoLayer.x()(d)})
             .y(function(d) {return cartoLayer.y()(d)});
 
-	    var vorData = voronoi(cartoLayer.features());
-            //.filter(function (f) {
-            //    return (f.topType !== "waystations"
-            //    && f.topType !== "sites"
-            //    && f.topType !== "waters"
-            //    && f.topType !== "xroads");
-            //});
+	    var vorData = voronoi(cartoLayer.features().filter(function (f) {
+            if (f.topType !== "waystations"
+                && f.topType!=="sites"
+                && f.topType!=="waters")
+                return f;
+            }));
 	    var vorGeodata = []
         //console.log("features "+JSON.stringify(vorData));
 	    for (var x in vorData) {
