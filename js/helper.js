@@ -49,7 +49,7 @@ function createMatrix(postdata) {
         }
     }
 
-    return new Graph(edgeMap);
+    return new DijksGraph(edgeMap);
 }
 
 function calcPathSize(d, uniquePaths) {

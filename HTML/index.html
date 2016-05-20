@@ -12,11 +12,17 @@
     <script src="../js/ext_lib/tile.js" type="text/javascript"></script>
     <script src="../js/ext_lib/d3.quadtiles.js" type="text/javascript"></script>
     <script src="../js/ext_lib/dijkstra.js" type="text/javascript"></script>
+    <script src="../js/ext_lib/jquery-1.11.1.js"> </script>
+    <script src="../js/ext_lib/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../js/ext_lib/d3.slider.js"></script>
     <script src="../js/geo_bio.js" charset="utf-8" type="text/javascript"></script>
     <script src="../js/helper.js" charset="utf-8" type="text/javascript"></script>
     <script src="../js/ext_lib/FileSaver.min.js"></script>
     <script src="../js/graph_msp.js"></script>
+    <script src="../js/ext_lib/data-structures-1.4.2.min.js"></script>
+    <script src="../js/graph.js"></script>
+    <script src="../js/gen_voronoi_layer.js"></script>
+    <script src="../js/setup_city_list.js"></script>
 </head>
 <body onload="makeSomeMaps();">
 <div id="geoMap"></div>
@@ -119,6 +125,8 @@
                             START:
                             </span>
                             <div><select id="networkStart"></select></div>
+                            </br>
+                            Distance Multiplier: <select id="multiplier-select"></select> </br>
                         </div>
                     </div>
                     <!--<fieldset style="border: none;" id="routeFind" class="checkBoxSelect">-->

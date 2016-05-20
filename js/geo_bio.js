@@ -2,9 +2,10 @@
  * Created by masoumeh on 10.02.16.
  */
 var map,arcLayer,routeLayer, arcVisibility;
+var voronoiLayer;
 function makeSomeMaps() {
     pathSource = 0;
-    var graph;
+    var graph_dijks;
     var svg = d3.select("body").append("svg")
         .attr("width", 1000)
         .attr("height", 600);
@@ -33,9 +34,10 @@ function makeSomeMaps() {
         .renderMode("svg")
         .on("load", function () {
             routeData = routeLayer.features();
-            graph = createMatrix(routeData);
+            init_graph(routeData);
+            graph_dijks = createMatrix(routeData);
             cityLayer = d3.carto.layer.csv();
-            cityLayer.path("../Data/cornu.csv")
+            cityLayer.path("../Data/cornuFilteredRoutes.csv")
                 .label("Cities")
                 .cssClass("metro")
                 .renderMode("svg")
@@ -55,113 +57,72 @@ function makeSomeMaps() {
                     d3.selectAll("circle").transition().duration(1000)
                         .style("fill", "seagreen")
                         .attr("r", 5);
+                    voronoiLayer=gen_voronoi_layer(voronoiLayer);
+                    setup_city_list(voronoiLayer);
                 });
             map.addCartoLayer(cityLayer);
         });
     map.addCartoLayer(wcLayer).addCartoLayer(routeLayer);
 
+    d3.csv("../Data/peopleRegion.csv", function (error, data) {
+        if (error) throw error;
+        // Creating the required data structures
+        var output = dataStructsBetweenPeopleYears(data);
+        // Min year
+        var min_year = output['min_year'];
+        // Max year
+        var max_year = output['max_year'];
+        // A map from people to places they have been related to
+        var peopleMap = output['peopleMap'];
+        // A map from years to people they have been related to
+        var yearPeople = output['yearPeople'];
 
-    d3.csv("../Data/cornuFiltered.csv", function (csv) {
-        var prev = '';
-        // To filter the duplicate names and those containing "RoutPoint"
-        var filteredData = csv.filter(function (d) {
-            if (d.arTitle.indexOf('RoutPoint') === -1) {
-                var test;
-                if (prev !== d.arTitle) test = true;
-                prev = d.arTitle;
-                if (test) return d;
-            }
-        });
-        // alphabetically sort the names (based on eiSearch)
-        filteredData.sort(function(a, b) {
-            var nameA = a.arTitle.toUpperCase(); // ignore upper and lowercase
-            var nameB = b.arTitle.toUpperCase(); // ignore upper and lowercase
-            if (nameA < nameB) {
-                return -1;
-            }
-            if (nameA > nameB) {
-                return 1;
-            }
-
-            // names must be equal
-            return 0;
-        });
-        // drop down list for starting point of network flow,
-        // containing arTitles from cornu.csv file
-        d3.select("#networkStart").on("change", function (d) {
-            var id = this.options[this.selectedIndex].value;
-            //        updateRoutes(id);
-        })
-            .selectAll("option").data(filteredData).enter()
-            .append("option")
-            .attr("value", function (d) {
-                return d.arTitle;
-            })
-            .text(function (d) {
-                return d.arTitle;
+        var slider = d3.slider().value([0, 100])
+            .on("slide", function (evt, value) {
+                d3.select('#minYear').text(''
+                    + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
+                d3.select('#maxYear').text('' +
+                    +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
             });
+        //function update(value) {
+        d3.select("#calcConnections")
+            .on("click", function () {
+                var minyear = parseInt(d3.select('#minYear').html());
+                var maxyear = parseInt(d3.select('#maxYear').html());
+                var uniqueCountires =
+                    unify_year_people(minyear, maxyear, yearPeople, peopleMap);
+                updateRoutesCountries(uniqueCountires, graph_dijks, arcGroup);
+            });
+        d3.select("#yearSlider").call(slider);
+        d3.select("#minYear").text(min_year + '');
+        d3.select("#maxYear").text(max_year + '');
 
+        arcLayer = d3.carto.layer.geojson();
+        arcLayer.path("../Data/arcs.json")
+            .label("Arcs")
+            .visibility(false)
+            .renderMode("svg")
+            .cssClass("roads")
+            .clickableFeatures(true);
+        arcVisibility = false;
+        map.addCartoLayer(arcLayer);
+        //arcLayer.visibility('false');
 
-        d3.csv("../Data/peopleRegion.csv", function (error, data) {
-            if (error) throw error;
-            // Creating the required data structures
-            var output = dataStructsBetweenPeopleYears(data);
-            // Min year
-            var min_year = output['min_year'];
-            // Max year
-            var max_year = output['max_year'];
-            // A map from people to places they have been related to
-            var peopleMap = output['peopleMap'];
-            // A map from years to people they have been related to
-            var yearPeople = output['yearPeople'];
+        //findCountries(csv, data, routeData);
+        //var select = d3.select("#personSlider")
+        //    .append('div')
+        //    .append("select")
+        //    .on("change", function (d) {
+        //        var id = this.options[this.selectedIndex].value;
+        //        updateRoutes(id);
+        //    });
 
-            var slider = d3.slider().value([0, 100])
-                .on("slide", function (evt, value) {
-                    d3.select('#minYear').text(''
-                        + parseInt(value[0] + min_year) * parseInt((max_year - min_year) / 100));
-                    d3.select('#maxYear').text('' +
-                        +parseInt(value[1] + min_year) * parseInt((max_year - min_year) / 100));
-                });
-            //function update(value) {
-            d3.select("#calcConnections")
-                .on("click", function () {
-                    var minyear = parseInt(d3.select('#minYear').html());
-                    var maxyear = parseInt(d3.select('#maxYear').html());
-                    var uniqueCountires =
-                        unify_year_people(minyear, maxyear, yearPeople, peopleMap);
-                    updateRoutesCountries(uniqueCountires, graph, arcGroup);
-                });
-            d3.select("#yearSlider").call(slider);
-            d3.select("#minYear").text(min_year + '');
-            d3.select("#maxYear").text(max_year + '');
-
-            arcLayer = d3.carto.layer.geojson();
-            arcLayer.path("../Data/arcs.json")
-                .label("Arcs")
-                .visibility(false)
-                .renderMode("svg")
-                .cssClass("roads")
-                .clickableFeatures(true);
-            arcVisibility = false;
-            map.addCartoLayer(arcLayer);
-            //arcLayer.visibility('false');
-
-            //findCountries(csv, data, routeData);
-            //var select = d3.select("#personSlider")
-            //    .append('div')
-            //    .append("select")
-            //    .on("change", function (d) {
-            //        var id = this.options[this.selectedIndex].value;
-            //        updateRoutes(id);
-            //    });
-
-            //var options = select.selectAll("option").data(Object.keys(peopleMap));
-            //options.enter()
-            //    .append("option")
-            //    .text(function (d) {
-            //        return d;
-            //    });
-        });
+        //var options = select.selectAll("option").data(Object.keys(peopleMap));
+        //options.enter()
+        //    .append("option")
+        //    .text(function (d) {
+        //        return d;
+        //    });
     });
 }
 
