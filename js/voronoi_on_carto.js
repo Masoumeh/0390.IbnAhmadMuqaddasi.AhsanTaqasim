@@ -2,8 +2,12 @@
  * Created by masoumeh on 10.02.16.
  */
 var map, arcLayer, routeLayer, arcVisibility;
+var typesToExclude = [];
+var voronoiLayer, hullLayer, hullFeatures;
+
 function makeSomeMaps() {
     pathSource = 0;
+
     //var dijks_graph;
     var svg = d3.select("body").append("svg")
         .attr("width", 1000)
@@ -18,7 +22,6 @@ function makeSomeMaps() {
     map.setScale(4);
     map.refresh();
 
-    var voronoiLayer;
     var routeData;
     wcLayer = d3.carto.layer.tile();
     wcLayer
@@ -42,6 +45,7 @@ function makeSomeMaps() {
             //});
             init_graph(routeData);
             //console.log("grap " + JSON.stringify(graph));
+
             cityLayer = d3.carto.layer.csv();
             cityLayer.path("../Data/cornuFilteredRoutes.csv")
                 .label("Cities")
@@ -63,86 +67,94 @@ function makeSomeMaps() {
                     d3.selectAll("circle").transition().duration(1000)
                         .style("fill", "seagreen")
                         .attr("r", 1);
+                    //TODO: to exclude topTypes from voronoi as a third argument in createVoronoiLayer function
                     var poly = {'data': []};
-                    voronoiLayer = map.createVoronoiLayer(cityLayer, 0.5, poly);
+                    makeHull();
+                    voronoiLayer = map.createVoronoiLayer(cityLayer, 0.5, typesToExclude );
                     voronoiLayer
-                        .label("Voronoi")
-                        .cssClass("voronoi")
+                        //.label("Voronoi!")
+                        //.cssClass("voronoi")
                         .on("load", function () {
                             var data = {};
-                            d3.json("../Python/commonWithCornu.json", function (error, json) {
-                                data = json;//console.log(JSON.stringify(Object.keys(json)));
+                            //d3.json("../Python/commonWithCornu.json", function (error, json) {
+                            // data = json;//console.log(JSON.stringify(Object.keys(json)));
+                            var c20 = d3.scale.category20();
+                            var ind = 1;
+                            var region_color = {};
+                            voronoiLayer.g().selectAll("path")
+                                .style("fill", function (p) {
+                                    //var areaLim = 5;
+                                    var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
+                                    var poly = p["geometry"]["coordinates"][0];
+                                    var center = pol.centroid();
+                                    var region = p['properties']['node']['region'];
+                                    if (region == "noData") return "rgba(0,0,0,0)";
+                                    if (region_color[region] == undefined) {
+                                        region_color[region] = c20(ind);
+                                        ind++;
+                                        if (ind == 20) ind = 1;
+                                    }
+                                    var max_area = 100;
+                                    var sub = 8;
 
-                                var c20 = d3.scale.category20();
-                                var ind = 1;
-                                var region_color = {};
-                                voronoiLayer.g().selectAll("path")
-                                    .style("fill", function (p) {
-                                        //var areaLim = 5;
-                                        var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
-                                        var poly = p["geometry"]["coordinates"][0];
-                                        var center = pol.centroid();
-                                        var region = p['properties']['node']['region'];
-                                        if (region == "noData") return "rgba(0,0,0,0)";
-                                        if (region_color[region] == undefined) {
-                                            region_color[region] = c20(ind);
-                                            ind++;
-                                            if (ind == 20) ind = 1;
-                                        }
-                                        var max_area = 100;
-                                        var sub = 8;
-
-                                        if (region == "Sind") max_area = 50;
-                                        if (region == "Barqa") max_area = 10;
-                                        if (region == "Sicile") {
-                                            max_area = 1;
-                                            sub = 10;
-                                        }
-                                        if (region == "Khazar") max_area = 0;
-                                        if (region == "Rihab") max_area = 10;
-                                        if (region == "Daylam") max_area = 15;
-                                        if (region == "Jazirat al-Arab") max_area = 40;
-                                        if (region == "Yemen") max_area = 40;
-                                        if (region == "Transoxiana") max_area = 2;
-                                        if (Math.abs(pol.area()) < max_area) {
-                                            for (var i = 0; i < poly.length; i++) {
-                                                var dist =
-                                                    Math.sqrt(Math.pow(Math.abs(center[0] - poly[i][0]), 2) +
-                                                        Math.pow(Math.abs(center[1] - poly[i][1]), 2));
-                                                if (dist > max_area / 4) {
-                                                    var v1 = poly[i][0] - center[0];
-                                                    v1 /= dist;
-                                                    var v2 = poly[i][1] - center[1];
-                                                    v2 /= dist;
-                                                    p["geometry"]["coordinates"][0][i] =
-                                                        [center[0] + (dist / sub) * v1,
-                                                            center[1] + (dist / sub) * v2];
-                                                }
+                                    if (region == "Sind") max_area = 50;
+                                    if (region == "Barqa") max_area = 10;
+                                    if (region == "Sicile") {
+                                        max_area = 1;
+                                        sub = 10;
+                                    }
+                                    if (region == "Khazar") max_area = 0;
+                                    if (region == "Rihab") max_area = 10;
+                                    if (region == "Daylam") max_area = 15;
+                                    if (region == "Jazirat al-Arab") max_area = 40;
+                                    if (region == "Yemen") max_area = 40;
+                                    if (region == "Transoxiana") max_area = 2;
+                                    //if (Math.abs(pol.area()) < max_area) {
+                                        for (var i = 0; i < poly.length; i++) {
+                                            var dist =
+                                                Math.sqrt(Math.pow(Math.abs(center[0] - poly[i][0]), 2) +
+                                                    Math.pow(Math.abs(center[1] - poly[i][1]), 2));
+                                            if (dist > max_area / 4) {
+                                                var v1 = poly[i][0] - center[0];
+                                                v1 /= dist;
+                                                var v2 = poly[i][1] - center[1];
+                                                v2 /= dist;
+                                                p["geometry"]["coordinates"][0][i] =
+                                                    [center[0] + (dist / sub) * v1,
+                                                        center[1] + (dist / sub) * v2];
                                             }
-                                            return region_color[region];
                                         }
-                                        else return "rgba(0,0,0,0)";
-                                    }).style("stroke-width", "0.0");
+                                        return region_color[region];
+                                    //}
+                                    //else return "rgba(0,0,0,0)";
+                                }).style("stroke-width", "0.0");
 
-                                voronoiLayer.g().selectAll("g.marker")
-                                    .filter(function (p) {
-                                        var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
-                                        //if(Math.abs(pol.area()) < 1) return "red";
-                                        if (p['properties']['node']['region'] == "Sham") {
-                                            if (Math.abs(pol.area()) < 1)
-                                                return p;
-                                        }
-                                    })
-                                    .style("pointer-events", "all")
-                                    .style()
-                                    .on("click", function () {
-                                        //alert(d3.mouse(this));
-                                    });
-                            });
+                            voronoiLayer.g().selectAll("g.marker")
+                                .filter(function (p) {
+                                    var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
+                                    //if(Math.abs(pol.area()) < 1) return "red";
+                                    if (p['properties']['node']['region'] == "Sham") {
+                                        if (Math.abs(pol.area()) < 1)
+                                            return p;
+                                    }
+                                })
+                                .style("pointer-events", "all")
+                                .style()
+                                .on("click", function () {
+                                    //alert(d3.mouse(this));
+                                });
+                            //});
+                            //var clippedVoronoi = voronoiLayer.g().selectAll("g.marker")
+                            //    .map(function (vor) {
+                            //        return hullLayer.features().clip(vor);
+                            //    })
+
                         });
-
+                    //d3.geom.polygon(voronoiLayer.features()).clip(hullFeatures);
 
                     map.addCartoLayer(voronoiLayer);
+                    //console.log("city "+ JSON.stringify(cityLayer.features()))
+
                 });
             map.addCartoLayer(cityLayer);
             closeOpen('leftPanel');
@@ -162,7 +174,7 @@ function makeSomeMaps() {
                 if (test) return d;
             }
         });
-        filteredData.sort(function(a, b) {
+        filteredData.sort(function (a, b) {
             // ignore upper and lowercase
             var nameA = a.eiSearch.toUpperCase();
             var nameB = b.eiSearch.toUpperCase();
@@ -181,7 +193,7 @@ function makeSomeMaps() {
         // containing arTitles from cornu.csv file
         d3.select("#networkStart").on("change", function (d) {
             var id = this.options[this.selectedIndex].value;
-            d3.selectAll('circle').filter(function(d) {
+            d3.selectAll('circle').filter(function (d) {
                 return d.topURI == id
             }).attr("r", 10);
 
@@ -200,18 +212,18 @@ function makeSomeMaps() {
                     var turi = p['properties']['node']['topURI'];
                     var ttype = p['properties']['node']['topType'];
                     var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
-                    if(pol.area()>10) return "rgba(0,0,0,0)";
+                    if (pol.area() > 10) return "rgba(0,0,0,0)";
                     //if(ttype=="waystations") return "rgba(0,0,0,0)";
                     //if(ttype=="sites") return "rgba(0,0,0,0)";
                     //if(ttype=="waters") return "rgba(0,0,0,0)";
-                    for(var i = 0; i < sitesByZone.length; i++) {
+                    for (var i = 0; i < sitesByZone.length; i++) {
                         var zone = sitesByZone[i];
-                        if(zone.indexOf(turi)!=-1) {
+                        if (zone.indexOf(turi) != -1) {
                             //if(turi.indexOf("NAHRAWAN")!=-1) {
                             //    console.log("salam " + turi);
                             //    return "yellow";
                             //}
-                            return c10(i+1);
+                            return c10(i + 1);
                         }
                     }
                     return "rgba(0,0,0,0)";
@@ -316,6 +328,107 @@ function topTypeDiv(disOpts, type) {
                     .filter(function (d) {
                         return d.topType == type;
                     }).attr("r", 0);
+                //var updateLayer = cityLayer.features().filter(function (f) {
+                //    return f.topType !== type;
+                //})
+                var val = this.value;
+                typesToExclude.push(val);
+                //map.deleteCartoLayer(voronoiLayer);
+//                map.refresh()
+//                voronoiLayer.g().selectAll("path").remove();
+
+                cityLayer.features(cityLayer.features().filter(function(f){
+                    return f.topType === "capitals";
+                }));
+
+                map.deleteCartoLayer(voronoiLayer);
+                map.deleteCartoLayer(hullLayer);
+                hullLayer = makeHull();
+                voronoiLayer = map.createVoronoiLayer(cityLayer, 0.5, typesToExclude );
+                voronoiLayer
+                    //.label("Voronoi!")
+                    //.cssClass("voronoi")
+                    .on("load", function () {
+                        var data = {};
+                        //d3.json("../Python/commonWithCornu.json", function (error, json) {
+                        // data = json;//console.log(JSON.stringify(Object.keys(json)));
+                        var c20 = d3.scale.category20();
+                        var ind = 1;
+                        var region_color = {};
+                        voronoiLayer.g().selectAll("path")
+                            .style("fill", function (p) {
+                                //var areaLim = 5;
+                                var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
+                                var poly = p["geometry"]["coordinates"][0];
+                                var center = pol.centroid();
+                                var region = p['properties']['node']['region'];
+                                if (region == "noData") return "rgba(0,0,0,0)";
+                                if (region_color[region] == undefined) {
+                                    region_color[region] = c20(ind);
+                                    ind++;
+                                    if (ind == 20) ind = 1;
+                                }
+                                var max_area = 100;
+                                var sub = 8;
+
+                                if (region == "Sind") max_area = 50;
+                                if (region == "Barqa") max_area = 10;
+                                if (region == "Sicile") {
+                                    max_area = 1;
+                                    sub = 10;
+                                }
+                                if (region == "Khazar") max_area = 0;
+                                if (region == "Rihab") max_area = 10;
+                                if (region == "Daylam") max_area = 15;
+                                if (region == "Jazirat al-Arab") max_area = 40;
+                                if (region == "Yemen") max_area = 40;
+                                if (region == "Transoxiana") max_area = 2;
+                                if (Math.abs(pol.area()) < max_area) {
+                                    for (var i = 0; i < poly.length; i++) {
+                                        var dist =
+                                            Math.sqrt(Math.pow(Math.abs(center[0] - poly[i][0]), 2) +
+                                                Math.pow(Math.abs(center[1] - poly[i][1]), 2));
+                                        if (dist > max_area / 4) {
+                                            var v1 = poly[i][0] - center[0];
+                                            v1 /= dist;
+                                            var v2 = poly[i][1] - center[1];
+                                            v2 /= dist;
+                                            p["geometry"]["coordinates"][0][i] =
+                                                [center[0] + (dist / sub) * v1,
+                                                    center[1] + (dist / sub) * v2];
+                                        }
+                                    }
+                                    return region_color[region];
+                                }
+                                else return "rgba(0,0,0,0)";
+                            }).style("stroke-width", "0.0");
+
+                        voronoiLayer.g().selectAll("g.marker")
+                            .filter(function (p) {
+                                var pol = d3.geom.polygon(p["geometry"]["coordinates"][0]);
+                                //if(Math.abs(pol.area()) < 1) return "red";
+                                if (p['properties']['node']['region'] == "Sham") {
+                                    if (Math.abs(pol.area()) < 1)
+                                        return p;
+                                }
+                            })
+                            .style("pointer-events", "all")
+                            .style()
+                            .on("click", function () {
+                                //alert(d3.mouse(this));
+                            });
+                        //});
+                    });
+
+                map.addCartoLayer(voronoiLayer);
+                map.addCartoLayer(hullLayer);
+
+                map.refreshCartoLayer(voronoiLayer);
+                map.refreshCartoLayer(hullLayer);
+
+                map.refresh();
+
+                //map.createVoronoiLayer(cityLayer, 0.5, typesToExclude);
             } else {
                 d3.selectAll("circle")
                     .filter(function (d) {
@@ -352,4 +465,24 @@ function showTab(tabname) {
 
 function polygon(d) {
     return "M" + d.join("L") + "Z";
+}
+
+function makeHull() {
+    hullLayer = map.createHullLayer(cityLayer)
+    //    , function (d) {
+    //    return d.region
+    //});
+    hullLayer.markerSize(1).cssClass("cityhull")
+        .on("load", recolorHulls)
+    map.addCartoLayer(hullLayer);
+    console.log("hull layer f " +JSON.stringify(hullLayer.features()))
+
+    function recolorHulls() {
+        var hullColor = d3.scale.category20b();
+        hullLayer.g()
+            .selectAll("path")
+            .style("fill", function (d, i) {
+                return hullColor(i % 20)
+            });
+    }
 }

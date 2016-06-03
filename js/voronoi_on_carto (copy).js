@@ -298,11 +298,16 @@ function topTypeDiv(disOpts, type) {
             return type;
         })
         .on("change", function () {
+            alert("hi");
+
             if (!this.checked) {
                 d3.selectAll("circle")
                     .filter(function (d) {
                         return d.topType == type;
                     }).attr("r", 0);
+                //map.createVoronoiLayer(cityLayer, 0.5);
+
+                //console.log("city "+ JSON.stringify(cityLayer.features()));
             } else {
                 d3.selectAll("circle")
                     .filter(function (d) {

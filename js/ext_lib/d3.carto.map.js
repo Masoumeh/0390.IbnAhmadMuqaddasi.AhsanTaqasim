@@ -2186,8 +2186,8 @@ function manualZoom(zoomDirection) {
 
     }
     
-    map.createVoronoiLayer = function(cartoLayer, margin, excludeTypes) {
-	
+    map.createVoronoiLayer = function(cartoLayer, margin, excludedTypes, clipHull) {
+
 	var xExtent = d3.extent(cartoLayer.features(), function(d) {return parseFloat(cartoLayer.x()(d))});
 	var yExtent = d3.extent(cartoLayer.features(), function(d) {return parseFloat(cartoLayer.y()(d))});
 
@@ -2195,14 +2195,28 @@ function manualZoom(zoomDirection) {
 	    .clipExtent([[xExtent[0] - margin,yExtent[0] - margin],[xExtent[1] + margin,yExtent[1] + margin]])
             .x(function(d) {return cartoLayer.x()(d)})
             .y(function(d) {return cartoLayer.y()(d)});
-
+        //
+        //console.log("test "+JSON.stringify(cartoLayer.features()
+        //        .filter(function (f) {
+        //            return (f.topType !== "waystations"
+        //            && f.topType !== "sites"
+        //            && f.topType !== "waters"
+        //            && f.topType !== "xroads");
+        //        })));
 	    var vorData = voronoi(cartoLayer.features());
-            //.filter(function (f) {
-            //    return (f.topType !== "waystations"
-            //    && f.topType !== "sites"
-            //    && f.topType !== "waters"
-            //    && f.topType !== "xroads");
-            //});
+            //.filter(function(f){
+            //    //if (excludedTypes instanceof Array) {
+            //    //    console.log("instance" + JSON.stringify(excludedTypes));
+            //        return excludedTypes.indexOf(f.topType) === -1;
+            //    //}
+            //
+            //    //else
+            //    //    return f.topType !== excludedTypes;
+            //    //return (f.topType !== "waystations"
+            //    //            && f.topType !== "sites"
+            //    //            && f.topType !== "waters"
+            //    //            && f.topType !== "xroads");
+            //}));
 	    var vorGeodata = []
         //console.log("features "+JSON.stringify(vorData));
 	    for (var x in vorData) {
@@ -2210,11 +2224,14 @@ function manualZoom(zoomDirection) {
 
 		    thisVor.push(vorData[x][0])
 
-		var vorFeature = {type: "Feature", properties: {node: cartoLayer.features()[x]}, geometry: {"type": "Polygon", coordinates: [thisVor]}};
+		var vorFeature = {type: "Feature", properties: {node: cartoLayer.features()[x]},
+            geometry: {"type": "Polygon", coordinates: [thisVor]}};
 
 		vorGeodata.push(vorFeature);
-	    }
-	    
+
+        }
+
+	    //console.log("voronoi " +JSON.stringify(vorGeodata));
 	    cartoLayer = Layer()
 	    .type("featurearray")
 	    .features(vorGeodata)
@@ -2222,7 +2239,8 @@ function manualZoom(zoomDirection) {
 	    .cssClass("voronoi")
 	    .renderMode("svg")
 	    .on("newmodal", function() {d3MapSetModal(cartoLayer)});
-
+        voronoi
+//console.log("voronoi layer " + JSON.stringify(cartoLayer.features()));
 	    return cartoLayer;
 
     }
@@ -2238,20 +2256,24 @@ function manualZoom(zoomDirection) {
             .y(function(d) {return cartoLayer.y()(d)});
 
 	var attributeKeys = d3.set(features.map(cartoAttribute)).values();
+            //console.log("arrt " + JSON.stringify((attributeKeys)));
 	    var hullGeodata = [];
 	
 	for (var x in attributeKeys) {
 	    var hullData = hull(features.filter(function(d) {return cartoAttribute(d) == attributeKeys[x]}));
-	    if(hullData.length > 0) {
+	    console.log("hulldata " + JSON.stringify(hullData));
+        if(hullData.length > 0) {
 
 	    var hullCoords = hullData.map(function(d) {return [cartoLayer.x()(d),cartoLayer.y()(d)]});
 	    hullCoords.push(hullCoords[0]);
 
 	    var hullFeature = {type: "Feature", properties: {node: attributeKeys[x]}, geometry: {"type": "Polygon", coordinates: [hullCoords]}};
+            console.log("hullFeatures " + JSON.stringify(hullFeature));
 
 	    hullGeodata.push(hullFeature);
 	    }
 	}
+            //console.log("hull " + JSON.stringify(hullGeodata));
 	    cartoLayer = Layer()
 	    .type("featurearray")
 	    .features(hullGeodata)
@@ -2261,6 +2283,43 @@ function manualZoom(zoomDirection) {
 	    .on("newmodal", function() {d3MapSetModal(cartoLayer)});
 
 	    return cartoLayer;
+
+    }
+    map.createHullLayer = function(cartoLayer) {
+
+        var xExtent = d3.extent(cartoLayer.features(), function(d) {return parseFloat(cartoLayer.x()(d))});
+        var yExtent = d3.extent(cartoLayer.features(), function(d) {return parseFloat(cartoLayer.y()(d))});
+        var features = cartoLayer.features();
+
+        var hull = d3.geom.hull()
+            .x(function(d) {return cartoLayer.x()(d)})
+            .y(function(d) {return cartoLayer.y()(d)});
+
+        var hullGeodata = [];
+
+            var hullData = hull(features)
+            //console.log("hulldata " + JSON.stringify(hullData));
+            if(hullData.length > 0) {
+
+                var hullCoords = hullData.map(function(d) {return [cartoLayer.x()(d),cartoLayer.y()(d)]});
+                hullCoords.push(hullCoords[0]);
+
+                var hullFeature = {type: "Feature", geometry: {"type": "Polygon", coordinates: [hullCoords]}};
+                //console.log("hullFeatures " + JSON.stringify(hullFeature));
+
+                hullGeodata.push(hullFeature);
+            }
+
+        //console.log("hull " + JSON.stringify(hullGeodata));
+        cartoLayer = Layer()
+            .type("featurearray")
+            .features(hullGeodata)
+            .label("Hull")
+            .cssClass("hull")
+            .renderMode("svg")
+            .on("newmodal", function() {d3MapSetModal(cartoLayer)});
+
+        return cartoLayer;
 
     }
 

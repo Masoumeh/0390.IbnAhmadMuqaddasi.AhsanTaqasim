@@ -57,7 +57,7 @@ function makeSomeMaps() {
                     d3.selectAll("circle").transition().duration(1000)
                         .style("fill", "seagreen")
                         .attr("r", 5);
-                    voronoiLayer=gen_voronoi_layer(voronoiLayer);
+                    voronoiLayer=gen_voronoi_layer(voronoiLayer, []);
                     setup_city_list(voronoiLayer);
                 });
             map.addCartoLayer(cityLayer);

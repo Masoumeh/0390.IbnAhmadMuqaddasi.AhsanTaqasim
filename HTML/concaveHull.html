@@ -29,7 +29,6 @@
             d.x = projection([d.lon, d.lat])[0];
             d.y = projection([d.lon, d.lat])[1];
         })
-
         d3.select("svg").selectAll("circle")
                 .data(cities)
                 .enter()
@@ -42,13 +41,11 @@
         concaveHull = d3.geom.concaveHull();
 
         countries.forEach(function (ccode) {
-//            console.log("ccode: "+ccode);
             theseCities = cities.filter(function (d) {
                 if (d.region !== "waystations" && d.region !== "RoutePoint"
                 && d.region !== "noData" && d.region !== "site")
                 return d.region === ccode})
                     .map(function (d) {return [d.x,d.y]});
-//            console.log(JSON.stringify(theseCities))
 
             if (theseCities.length > 3) {
                 d3.select("svg")

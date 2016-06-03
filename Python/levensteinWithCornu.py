@@ -31,9 +31,10 @@ with open('Shamela_0023696_Triples_H', 'r') as csvfile:
     next(data, None)
     for row in reader:
       sttl = row[-1][4:].strip()
+      print("sttl in row" , sttl)
       cnt = 0
       for d in data:
-        print("d2 ",d[2])
+        #print("d2 ",d[2])
         if levenshtein_distance(d[2],sttl) <= 2:
            print("sttl ", sttl)
 #if d["arTitle"] == sttl:
