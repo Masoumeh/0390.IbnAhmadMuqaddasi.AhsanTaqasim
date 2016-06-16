@@ -1,7 +1,3 @@
-# To create a file out of the geographical hierarchies, using the hierarchical triples.
-# Each line in the file starts with the most top level division and ends with sttls.
-# Also, creates a json to be used in visualizations.
-
 from networkx.readwrite import json_graph
 import io, json
 import re
@@ -49,7 +45,7 @@ def graphLevel(g, fileName, node_id, trav):
           trav.append(lS[1])
           trav.append(''+ g.node[ident]['label'])
           a = ''
-          with open("../Data/" + fileName+"_H", "a") as f2:          
+          with open(fileName+"_R", "a") as f2:          
             f2.write(','.join(trav))
             f2.write('\n')
           trav.pop()
@@ -58,11 +54,10 @@ def graphLevel(g, fileName, node_id, trav):
 def buildHierarchiesGraph(fileName):
     global cnt
     data = []
-    roots = getSetOfName(fileName,"PROV")
+    roots = getSetOfName(fileName,"REG1")
     graphs = []        
     g = nx.DiGraph()
     g.add_node(1,label="root")
-    
 
     for rs in roots:
       trav=[]
@@ -79,5 +74,5 @@ def buildHierarchiesGraph(fileName):
     with io.open('tree'+g.node[1]['label']+'.json', 'w', encoding='utf-8') as f:
       f.write(unicode(json.dumps(data, ensure_ascii=False)))	
 
-buildHierarchiesGraph("../Data/Shamela_0023696_Triples")
+buildHierarchiesGraph("Shamela_0023696_Triples")
 print(count)

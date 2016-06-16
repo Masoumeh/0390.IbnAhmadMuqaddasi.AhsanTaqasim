@@ -10,7 +10,7 @@ def delRows(fileName, rowList):
     if row['topType'] not in rowList:
       rows.append(row)
     #print(row)
-    with io.open('cornuFiltered.csv', 'w', encoding='utf-8') as f:
+    with io.open('../Data/cornuFiltered.csv', 'w', encoding='utf-8') as f:
       fWriter = csv.writer(f, delimiter=',')
       fWriter.writerow(["arBW","source","arTitle","lat", "eiSearch","lon","region", "translitTitleOther","topURI","searchNames", "topTypeAlt", "topType", "translitTitle", "arTitleOther", "UStranslitTitle"])   
 
@@ -19,4 +19,4 @@ def delRows(fileName, rowList):
             
     
 
-delRows('cornu.csv', '[waystations, xroads]')
+delRows('../Data/cornu.csv', '[waystations, xroads]')

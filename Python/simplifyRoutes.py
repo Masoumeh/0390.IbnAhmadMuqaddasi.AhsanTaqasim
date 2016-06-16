@@ -1,3 +1,5 @@
+# To remove the coordinates of cornu routes, except source and destination coordinates.
+
 from networkx.readwrite import json_graph
 import io, json
 import re

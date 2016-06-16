@@ -1,3 +1,5 @@
+# Converts json to csv 
+
 import json
 import csv
 from json import load
@@ -14,4 +16,4 @@ def cornuJsonToCsv(openFile, writeFile):
   print("All done!")
 
 
-cornuJsonToCsv("cornu_all_new2.js", "cornu.csv")
+cornuJsonToCsv("../Data/cornu_all_new2.js", "../Data/cornu.csv")

@@ -14,11 +14,11 @@ def delSites(csvFile, jsonFile):
         for d in data['features']:
           if uri == d['properties']['eToponym'] or  uri == d['properties']['sToponym']:
             rows.append(row)
-  with io.open('cornuFilteredRoutes.csv', 'w', encoding='utf-8') as f:
+  with io.open('../Data/cornuFilteredRoutes.csv', 'w', encoding='utf-8') as f:
       fWriter = csv.writer(f, delimiter=',')
       fWriter.writerow(["arBW","source","arTitle","lat", "eiSearch","lon","region", "translitTitleOther","topURI","searchNames", "topTypeAlt", "topType", "translitTitle", "arTitleOther", "UStranslitTitle"])   
 
       for r in rows:
         fWriter.writerow(r)
 
-delSites('cornu.csv', 'all_routes_new.json')
+delSites('cornu.csv', '../Data/all_routes_new.json')

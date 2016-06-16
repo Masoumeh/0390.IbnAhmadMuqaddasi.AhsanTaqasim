@@ -1,8 +1,13 @@
+# Finding the similar sttl name with cornu, using levenstein.
+
 import io
 import csv, json
+import sys
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
 
 def levenshtein_distance(first, second):
-    """Find the Levenshtein distance between two strings."""
     if len(first) > len(second):
         first, second = second, first
     if len(second) == 0:
@@ -23,21 +28,26 @@ def levenshtein_distance(first, second):
                 substitution += 1
             distance_matrix[i][j] = min(insertion, deletion, substitution)
     return distance_matrix[first_length-1][second_length-1]
+
 sttls =[]
 with open('Shamela_0023696_Triples_H', 'r') as csvfile:
   reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-  with open ('cornu.csv') as cornu:
-    data = csv.reader(cornu, delimiter=',', quotechar='|')
-    next(data, None)
-    for row in reader:
+  #with open ('cornu.csv') as cornu:
+    #data = csv.reader(cornu, delimiter=',', quotechar='|')
+    #next(data, None)
+  for row in reader:
       sttl = row[-1][4:].strip()
-      print("sttl in row" , sttl)
-      cnt = 0
-      for d in data:
-        #print("d2 ",d[2])
-        if levenshtein_distance(d[2],sttl) <= 2:
-           print("sttl ", sttl)
-#if d["arTitle"] == sttl:
-#             cnt = cnt+1
-#             sttls.append(sttl)            
-#print (sttls)
+      #print("sttl in row" , cnt)
+      with open ('cornu.csv') as cornu:
+        data = csv.reader(cornu, delimiter=',', quotechar='|')
+        next(data, None)
+        for d in data:
+          #print("d2 ",cnt1)
+          if levenshtein_distance(d[2],sttl) <= 2:
+            sttl = "-".join((sttl, d[2]))
+            #print("sttl ", sttl)
+            sttls.append(sttl) 
+with io.open('levensteinWithCornu.txt', 'w', encoding='utf-8') as f:
+  f.write(unicode("\n".join(sttls))) 
+print("done!")    
+
