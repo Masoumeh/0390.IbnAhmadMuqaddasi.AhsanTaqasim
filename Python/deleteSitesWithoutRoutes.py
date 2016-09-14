@@ -1,3 +1,8 @@
+"""
+This function filters out the cornu toponyms that are not connected to any route section (of cornu route file).
+The input is the csv version of cornu places and writes a new csv file with the fltered toponyms.
+"""
+
 import io, json, csv
 import re
 import sys  

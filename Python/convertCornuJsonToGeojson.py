@@ -1,7 +1,13 @@
+"""
+Converts a json file holding geographic data to geojson format.
+"""
 import json
 import sys
 
 def convert_json(fileName):
+    """
+    Main function
+    """
     import json
     with open(fileName) as jsonFile:    
       allData = json.load(jsonFile)
@@ -21,5 +27,5 @@ def convert_json(fileName):
         json.dump(featureColl, outfile)
 
     
-convert_json('cornu_all_new.json')
+convert_json('../Data/cornu_all_new.json')
 

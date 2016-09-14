@@ -1,6 +1,12 @@
+"""
+Replaces the classic distances with meter values. For example "عشرون مراحل" will be replaced by equivallent value in meters.
+The calculations has been done before and here is available in a dictionary.
+Tis script should be extended to check all the numerical values and units in original text. The values that we check here are just those mentioned in part of Al-Muqaddasi. 
+Should eb generalized to include arbitrary units or numerical values.  
+"""
 import re
 import csv, json
-# Average measurement for a distnce unit in geographical text
+
 
 
 pluralUnits = {"أيام": "يوم","مراحل": "مرحلة", "اميال":"ميل", "فراسخ": "فرسخ"}
@@ -8,12 +14,15 @@ unit_distance = {"يوما": 28156.0,"يوم": 28156.0, "بريدا": 17060.5, "
 numbers = {"نصف": 0.5,"واحد": 1,"إثنان":2,"ثلاثة":3,"أربعة":4,"خمسة":5,"ستة":6,"سبعة":7,"ثمانية":8,"ثامن":8,"تسعة":9,"عشرة":10,"إحدى عشر":11,"إثنا عشر":12,"ثلاثة عشر":13,"أربعة عشر":14,"خمسة عشر":15,"ستة عشر":16,"سبعة عشر":17,"ثمانية عشر":18,"تسعة عشر":19,"عشرون":20,"واحد وعشرون":21,"إثنان وعشرون":22,"ثلاثة وعشرون":23,"أربعة وعشرون":34,"خمسة وعشرون":25,"ستة وعشرون":26,"سبعة وعشرون":27,"ثمانية وعشرون":28,"تسعة وعشرون":29,"ثلاثون":30,"واحدوثلاثون":31}
 
 def replaceUnitsWithMeter(fileName, writer):
+    """
+    Checks the classic values with the given map (from classic to modern values) and replace them as distances in meter for route sections.
+    """
     with open(fileName, 'r') as meterFile:
       distReader = csv.reader(meterFile, delimiter='\t', quotechar='|')
       #unit_meter = dict()
       next(distReader, None)
       for row in distReader:
-          dist = row[-1][5:].strip()
+          dist = row[-1][4:].strip()
           splitDist = dist.split(' ')
           if len(splitDist) == 1:
             if splitDist[0] in unit_distance:

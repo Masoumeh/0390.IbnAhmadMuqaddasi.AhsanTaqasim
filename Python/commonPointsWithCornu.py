@@ -1,3 +1,8 @@
+"""
+Initial function for searching STTLs of a tagged text in Cornu, by checking the STTL names with 'arTitle'. 
+The result is a dictionary of STTL names found in cornu to lat and long values.
+This function is expanded in  extract_coordWithHierarchy.py and extract_coordWithHierarchy_Normalized.py scripts.
+"""
 import csv
 import sys 
 import json
@@ -10,7 +15,6 @@ import collections
 #sys.setdefaultencoding('utf8')
 
 
-feeds = []
 point = {}
 tmp = {}
 with open('../Data/Shamela_0023696_Triples_H', 'r') as csvfile:

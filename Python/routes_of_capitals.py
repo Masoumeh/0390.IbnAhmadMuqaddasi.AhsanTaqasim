@@ -1,4 +1,9 @@
-# To biuld the routes starting and ending with capitals from geogrpahic text (like Muqaddasi!)
+"""
+To biuld the routes (of geo text) starting and ending with capitals of a geogrpahic text (like Muqaddasi!)
+Here we select the capitals, as specified in geographical text, and go through the route sections (of geo texts) to form routes startting from a capital and ending with other. To do this we make a graph by networkx python API. The graphs shortest path between each two capital is the result that we expect. There might be no shortest path between some capitals. For such cases we mention "No path" in the output file.
+The output file can be used in manual searching and mapping the toponyms from geo text in Cornu.
+This script should be generalized to check all vacabularies used in geo texts for ccapitals. here we just check "قصبة" that means capital in Al-Muqaddasi.
+"""
 
 import io, json
 import re
@@ -18,16 +23,20 @@ def getcapitals(fileName):
     print("count: ", len(capitals))
     return capitals
 
-# Creat route graph 
-def createGraph(fileName):
 
+def createGraph(fileName):
+   """
+   Creat routes graph to be used in 
+   """
    G = nx.read_edgelist(fileName, delimiter=",", data=[("Distance_Meter", float)], encoding="utf8")
    G.edges(data=True)
    edge_labels = dict( ((u, v), d["Distance_Meter"]) for u, v, d in G.edges(data=True) )
    return G
 
-# Find the routes 
 def findRoutes(routeFile, hierFile):
+    """
+    Find the routes 
+    """"
     capitals = getcapitals(hierFile)
     print(capitals)
     G = createGraph(routeFile)

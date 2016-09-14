@@ -1,3 +1,7 @@
+"""
+To find common sttl names with Cornu, using fuzzywuzzy library.
+Can be replced with extract_coordWithHierarchy_Normalized.py
+"""
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import io
@@ -7,8 +11,7 @@ import sys, re
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
-# To find common sttl names with cornu using fuzzywuzzy library.
-# Can be replced with extract_coordWithHierarchy.py
+
 sttls =[]
 with open('../Data/Shamela_0023696_Triples_H', 'r') as csvfile:
   reader = csv.reader(csvfile, delimiter=',', quotechar='|')

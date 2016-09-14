@@ -1,8 +1,10 @@
-# Extract the region for each common sttl name with cornu,
-# for each common string either in arTitle or (each of the) arTitleOther, the corresponding region will be extracted.
-# The common sttl names are extraced (before) and written into a csv file as an input.
-# The output file is json 
-# This script can be replaced by extract_coord.py or better by extract_coordWithHierarchy.py
+"""
+This script is early version of extract_coord.py and extract_coordWithHierarchy.py
+Extract the region for each common sttl name with Cornu.
+For each common string either in arTitle or (each of the) arTitleOther, the corresponding region will be extracted.
+The common sttl names are extraced (before) and availble in a csv file as an input.
+The output file is json.
+"""
 
 import io
 import csv, json

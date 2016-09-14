@@ -1,10 +1,11 @@
+"""
+To extract coordinates and regions of sttl names of geographical text that are found in Cornu, using fuzzywuzzy library (or complete match commented!)
+This scripts is initial and more complete functionalities is included in extract_coordWithHierarchy.py and then in extract_coordWithHierarchy_Normalized.py.
+
+"""
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from networkx.readwrite import json_graph
-
-# To extract coordinates of common sttl names with cornu, using fuzzywuzzy (or complete match commented!)
-# More complete functionalities of this script is included in extract_coordWithHierarchy.py
-# by which regions of the tagged texts are also added in the result file.
 
 import io, json
 import re
@@ -16,8 +17,10 @@ from json import load
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
-# Finds the sttls from the hierarchy file (including hierarchies from the top level regions to sttls)
 def getSetOfSttl(fileName,name):
+    """
+    Finds the sttls from the hierarchy file (geographical text)
+    """
     names = list()
     with open(fileName, "r") as f1:
         f1 = f1.read().split("\n")
@@ -29,8 +32,11 @@ def getSetOfSttl(fileName,name):
     print("name count: ", len(names))
     return names
 
-# Using the sttl names, find the coordinates from cornu and writes them into a csv file
+
 def findCoord(fileName, name, fWriter):
+  """
+  Using the sttl names, find the coordinates from cornu and writes them into a csv file
+  """
   coords = []
   with open(fileName) as jsonFile:    
     allData = json.load(jsonFile)
@@ -49,13 +55,15 @@ def findCoord(fileName, name, fWriter):
             fWriter.writerow([name, fName, n.strip(), d["lat"], d["lon"], d["region"]])
             break
 
-# The main function
+
 def getCornuSttlWithCoord(hierarchyFile, coordsFile):
+    """
+    The main function
+    """
     global cnt
     data = []
     sttlNames = getSetOfSttl(hierarchyFile,"STTL")
-    #print(sttlNames)
-    with open("../Data/STTLCoordsCSV(fuzzyWuzzy)", 'w') as csvCoord:
+    with open("../Data/STTLCoordsCSV_fuzzyWuzzy", 'w') as csvCoord:
       fWriter = csv.writer(csvCoord, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
       fWriter.writerow(["geoTitle", "cornuName", "geoTitleOther", "lat", "lon", "cornuRegion"])
     

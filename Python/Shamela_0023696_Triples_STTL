@@ -1,0 +1,1134 @@
+REG1 الحجاز 	TYPE قصبة 	STTL مكة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL يثرب 
+REG1 الحجاز 	TYPE مدن امهات 	STTL ينبع 
+REG1 الحجاز 	TYPE مدن امهات 	STTL قرح 
+REG1 الحجاز 	TYPE مدن امهات 	STTL خيبر 
+REG1 الحجاز 	TYPE مدن امهات 	STTL المروة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الحوراء 
+REG1 الحجاز 	TYPE مدن امهات 	STTL جدة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الطائف 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الجار 
+REG1 الحجاز 	TYPE مدن امهات 	STTL السقيا 
+REG1 الحجاز 	TYPE مدن امهات 	STTL العونيد 
+REG1 الحجاز 	TYPE مدن امهات 	STTL الجحفة 
+REG1 الحجاز 	TYPE مدن امهات 	STTL العشيرة 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL بدر 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL خليص 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL أمج 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL الحجر 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL بدا يعقوب 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL السوارقية 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL الفرع 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL السيرة 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL جبلة 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL مهايع 
+REG1 الحجاز 	TYPE مدن دون امهات 	STTL حاذة 
+REG2 تهامه 	TYPE قصبه 	STTL زبيد 
+REG2 تهامه 	TYPE مدينه 	STTL معقر 
+REG2 تهامه 	TYPE مدينه 	STTL كدرة 
+REG2 تهامه 	TYPE مدينه 	STTL مور 
+REG2 تهامه 	TYPE مدينه 	STTL عطنة 
+REG2 تهامه 	TYPE مدينه 	STTL الشرجة 
+REG2 تهامه 	TYPE مدينه 	STTL دويمة 
+REG2 تهامه 	TYPE مدينه 	STTL الحمضة 
+REG2 تهامه 	TYPE مدينه 	STTL غلافقة 
+REG2 تهامه 	TYPE مدينه 	STTL مخا 
+REG2 تهامه 	TYPE مدينه 	STTL كمران 
+REG2 تهامه 	TYPE مدينه 	STTL الحردة 
+REG2 تهامه 	TYPE مدينه 	STTL اللسعة 
+REG2 تهامه 	TYPE مدينه 	STTL شرمة 
+REG2 تهامه 	TYPE مدينه 	STTL العشيرة 
+REG2 تهامه 	TYPE مدينه 	STTL رنقة 
+REG2 تهامه 	TYPE مدينه 	STTL الخصوف 
+REG2 تهامه 	TYPE مدينه 	STTL الساعد 
+REG2 تهامه 	TYPE مدينه 	STTL المهجم 
+REG3 أبين 	TYPE مدينه 	STTL عدن 
+REG3 أبين 	TYPE مدينه 	STTL لهج 
+REG3 عثر 	TYPE مدينه 	STTL بيش 
+REG3 عثر 	TYPE مدينه 	STTL حلى 
+REG3 عثر 	TYPE مدينه 	STTL السرين 
+REG2 نجد 	TYPE قصبه 	STTL صنعاء 
+REG2 نجد 	TYPE مدينه 	STTL صعدة 
+REG2 نجد 	TYPE مدينه 	STTL نجران 
+REG2 نجد 	TYPE مدينه 	STTL جرش 
+REG2 نجد 	TYPE مدينه 	STTL العرف 
+REG2 نجد 	TYPE مدينه 	STTL جبلان 
+REG2 نجد 	TYPE مدينه 	STTL الجند 
+REG2 نجد 	TYPE مدينه 	STTL ذمار 
+REG2 نجد 	TYPE مدينه 	STTL نسفان 
+REG2 نجد 	TYPE مدينه 	STTL يحصب 
+REG2 نجد 	TYPE مدينه 	STTL السحول 
+REG2 نجد 	TYPE مدينه 	STTL المذيخرة 
+REG2 نجد 	TYPE مدينه 	STTL خولان 
+REG3 الأحقاف 	TYPE مدينه 	STTL حضرموت 
+REG3 مهرة 	TYPE مدينه 	STTL الشحر 
+REG1 عمان 	TYPE قصبه 	STTL صحار 
+REG1 عمان 	TYPE مدينه 	STTL نزوة 
+REG1 عمان 	TYPE مدينه 	STTL السر 
+REG1 عمان 	TYPE مدينه 	STTL ضنك 
+REG1 عمان 	TYPE مدينه 	STTL حفيت 
+REG1 عمان 	TYPE مدينه 	STTL دبا 
+REG1 عمان 	TYPE مدينه 	STTL سلوت 
+REG1 عمان 	TYPE مدينه 	STTL جلفار 
+REG1 عمان 	TYPE مدينه 	STTL سمد 
+REG1 عمان 	TYPE مدينه 	STTL لسيا 
+REG1 عمان 	TYPE مدينه 	STTL ملح 
+REG1 هجر 	TYPE قصبه 	STTL الأحساء 
+REG1 هجر 	TYPE قصبه 	STTL سابون 
+REG1 هجر 	TYPE قصبه 	STTL الزرقاء 
+REG1 هجر 	TYPE قصبه 	STTL أوال 
+REG1 هجر 	TYPE قصبه 	STTL العقير 
+REG1 الکوفة 	TYPE مدينه 	STTL حمام ابن عمر 
+REG1 الکوفة 	TYPE مدينه 	STTL الجامعين 
+REG1 الکوفة 	TYPE مدينه 	STTL سورا 
+REG1 الکوفة 	TYPE مدينه 	STTL النيل 
+REG1 الکوفة 	TYPE مدينه 	STTL القادسيه 
+REG1 الکوفة 	TYPE مدينه 	STTL عين التمر 
+REG1 البصرة 	TYPE مدينة 	STTL الأبله 
+REG1 البصرة 	TYPE مدينة 	STTL شق عثمان 
+REG1 البصرة 	TYPE مدينة 	STTL زبان 
+REG1 البصرة 	TYPE مدينة 	STTL بدران 
+REG1 البصرة 	TYPE مدينة 	STTL بيان 
+REG1 البصرة 	TYPE مدينة 	STTL نهر الملک 
+REG1 البصرة 	TYPE مدينة 	STTL دبا 
+REG1 البصرة 	TYPE مدينة 	STTL نهر الأمير 
+REG1 البصرة 	TYPE مدينة 	STTL ابو الخصيب 
+REG1 البصرة 	TYPE مدينة 	STTL سليمانان 
+REG1 البصرة 	TYPE مدينة 	STTL عبادان 
+REG1 البصرة 	TYPE مدينة 	STTL المطوعة 
+REG1 البصرة 	TYPE مدينة 	STTL القندلة 
+REG1 البصرة 	TYPE مدينة 	STTL المفتح 
+REG1 البصرة 	TYPE مدينة 	STTL الجعفرية 
+REG1 واسط 	TYPE مدينة 	STTL فم الصلح 
+REG1 واسط 	TYPE مدينة 	STTL درمکان 
+REG1 واسط 	TYPE مدينة 	STTL قراقبه 
+REG1 واسط 	TYPE مدينة 	STTL سيادة 
+REG1 واسط 	TYPE مدينة 	STTL باذبين 
+REG1 واسط 	TYPE مدينة 	STTL السکر 
+REG1 واسط 	TYPE مدينة 	STTL الطيب 
+REG1 بغداد 	TYPE مدينة 	STTL النهروان 
+REG1 بغداد 	TYPE مدينة 	STTL بردان 
+REG1 بغداد 	TYPE مدينة 	STTL کارة 
+REG1 بغداد 	TYPE مدينة 	STTL الدسکرة 
+REG1 بغداد 	TYPE مدينة 	STTL طراستان 
+REG1 بغداد 	TYPE مدينة 	STTL هارونية 
+REG1 حلوان 	TYPE مدينة 	STTL خانقين 
+REG1 حلوان 	TYPE مدينة 	STTL زبوجان 
+REG1 حلوان 	TYPE مدينة 	STTL شلاشلان 
+REG1 حلوان 	TYPE مدينة 	STTL الجامد 
+REG1 حلوان 	TYPE مدينة 	STTL الحر 
+REG1 حلوان 	TYPE مدينة 	STTL السيروان 
+REG1 سامرا 	TYPE مدينة 	STTL الکرخ 
+REG1 سامرا 	TYPE مدينة 	STTL عکبرا 
+REG1 سامرا 	TYPE مدينة 	STTL الدور 
+REG1 سامرا 	TYPE مدينة 	STTL الجامعين 
+REG1 سامرا 	TYPE مدينة 	STTL بت 
+REG1 سامرا 	TYPE مدينة 	STTL رذانات 
+REG1 سامرا 	TYPE مدينة 	STTL قصر الجص 
+REG1 سامرا 	TYPE مدينة 	STTL حري 
+REG1 سامرا 	TYPE مدينة 	STTL أيوانا 
+REG1 سامرا 	TYPE مدينة 	STTL بريقا 
+REG1 سامرا 	TYPE مدينة 	STTL سندية 
+REG1 سامرا 	TYPE مدينة 	STTL راقفروبة 
+REG1 سامرا 	TYPE مدينة 	STTL دمما 
+REG1 سامرا 	TYPE مدينة 	STTL الأنبار 
+REG1 سامرا 	TYPE مدينة 	STTL هيت 
+REG1 سامرا 	TYPE مدينة 	STTL تکريت 
+REG1 سامرا 	TYPE مدينة 	STTL السن 
+REG1 ديار ربيعة 	TYPE قصبة 	STTL الموصل 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL الحديثة 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL معلثاى 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL الحسنية 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL تلعفر 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL سنجار 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL الجبال 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL بلد 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL أذرمة 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL برقعيد 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL نصيبين 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL دارا 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL کفرتوثا 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL راس العين 
+REG1 ديار ربيعة 	TYPE مدينه 	STTL ثمانين 
+REG1 جزيرة ابن عمر 	TYPE مدينة 	STTL فيشابور 
+REG1 جزيرة ابن عمر 	TYPE مدينة 	STTL باعيناثا 
+REG1 جزيرة ابن عمر 	TYPE مدينة 	STTL المغيثة 
+REG1 جزيرة ابن عمر 	TYPE مدينة 	STTL الزوزان 
+REG1 ديار مضر 	TYPE قصبة 	STTL الرقة 
+REG1 ديار مضر 	TYPE مدينة 	STTL المحترقة 
+REG1 ديار مضر 	TYPE مدينة 	STTL الرافقة 
+REG1 ديار مضر 	TYPE مدينة 	STTL خانوقة 
+REG1 ديار مضر 	TYPE مدينة 	STTL الحريش 
+REG1 ديار مضر 	TYPE مدينة 	STTL تل محرى 
+REG1 ديار مضر 	TYPE مدينة 	STTL باجروان 
+REG1 ديار مضر 	TYPE مدينة 	STTL حصن مسلمة 
+REG1 ديار مضر 	TYPE مدينة 	STTL ترعوز 
+REG1 ديار مضر 	TYPE مدينة 	STTL حران 
+REG1 ديار مضر 	TYPE مدينة 	STTL الرها 
+REG1 ديار بکر 	TYPE قصبة 	STTL آمد 
+REG1 ديار بکر 	TYPE مدينة 	STTL ميافارقين 
+REG1 ديار بکر 	TYPE مدينة 	STTL تل فافان 
+REG1 ديار بکر 	TYPE مدينة 	STTL حصن کيفا 
+REG1 ديار بکر 	TYPE مدينة 	STTL الفار 
+REG1 ديار بکر 	TYPE مدينة 	STTL حاذية 
+REG1 قنسرين 	TYPE قصبة 	STTL حلب 
+REG1 قنسرين 	TYPE مدينة 	STTL أنطاكية 
+REG1 قنسرين 	TYPE مدينة 	STTL بالس 
+REG1 قنسرين 	TYPE مدينة 	STTL السويدية 
+REG1 قنسرين 	TYPE مدينة 	STTL سميساط 
+REG1 قنسرين 	TYPE مدينة 	STTL منبج 
+REG1 قنسرين 	TYPE مدينة 	STTL بيلس 
+REG1 قنسرين 	TYPE مدينة 	STTL التينات 
+REG1 قنسرين 	TYPE مدينة 	STTL قنسرين 
+REG1 قنسرين 	TYPE مدينة 	STTL مرعش 
+REG1 قنسرين 	TYPE مدينة 	STTL إسكندرونة 
+REG1 قنسرين 	TYPE مدينة 	STTL لجون 
+REG1 قنسرين 	TYPE مدينة 	STTL رفنية 
+REG1 قنسرين 	TYPE مدينة 	STTL جوسية 
+REG1 قنسرين 	TYPE مدينة 	STTL حماة 
+REG1 قنسرين 	TYPE مدينة 	STTL شيزر 
+REG1 قنسرين 	TYPE مدينة 	STTL وادي بطنان 
+REG1 قنسرين 	TYPE مدينة 	STTL معرة النعمان 
+REG1 قنسرين 	TYPE مدينة 	STTL معرة قنسرين 
+REG1 حمص 	TYPE قصبة 	STTL حمص 
+REG1 حمص 	TYPE مدينة 	STTL سلمية 
+REG1 حمص 	TYPE مدينة 	STTL تدمر 
+REG1 حمص 	TYPE مدينة 	STTL الخناصرة 
+REG1 حمص 	TYPE مدينة 	STTL كفرطاب 
+REG1 حمص 	TYPE مدينة 	STTL اللاذقية 
+REG1 حمص 	TYPE مدينة 	STTL جبلة 
+REG1 حمص 	TYPE مدينة 	STTL أنطرسوس 
+REG1 حمص 	TYPE مدينة 	STTL بلنياس 
+REG1 حمص 	TYPE مدينة 	STTL حصن الخوابي 
+REG1 دمشق 	TYPE قصبة 	STTL دمشق 
+REG1 دمشق 	TYPE مدينة 	STTL بانياس 
+REG1 دمشق 	TYPE مدينة 	STTL صيدا 
+REG1 دمشق 	TYPE مدينة 	STTL بيروت 
+REG1 دمشق 	TYPE مدينة 	STTL أطرابلس 
+REG1 دمشق 	TYPE مدينة 	STTL عرقة 
+REG2 البقاع 	TYPE مدينة 	STTL بعلبك 
+REG2 البقاع 	TYPE ولها 	STTL كامد 
+REG2 البقاع 	TYPE ولها 	STTL عرجموش 
+REG2 البقاع 	TYPE ولها 	STTL الزبداني 
+REG1 الاردن 	TYPE قصبة 	STTL طبرية 
+REG1 الاردن 	TYPE مدينة 	STTL قدس 
+REG1 الاردن 	TYPE مدينة 	STTL صور 
+REG1 الاردن 	TYPE مدينة 	STTL عكا 
+REG1 الاردن 	TYPE مدينة 	STTL اللجون 
+REG1 الاردن 	TYPE مدينة 	STTL كابل 
+REG1 الاردن 	TYPE مدينة 	STTL بيسان 
+REG1 الاردن 	TYPE مدينة 	STTL أذرعات 
+REG1 فلسطين 	TYPE قصبة 	STTL الرملة 
+REG1 فلسطين 	TYPE مدينة 	STTL بيت المقدس 
+REG1 فلسطين 	TYPE مدينة 	STTL بيت جبريل 
+REG1 فلسطين 	TYPE مدينة 	STTL غزة 
+REG1 فلسطين 	TYPE مدينة 	STTL ميماس 
+REG1 فلسطين 	TYPE مدينة 	STTL عسقلان 
+REG1 فلسطين 	TYPE مدينة 	STTL يافه 
+REG1 فلسطين 	TYPE مدينة 	STTL أرسوف 
+REG1 فلسطين 	TYPE مدينة 	STTL قيسارية 
+REG1 فلسطين 	TYPE مدينة 	STTL نابلس 
+REG1 فلسطين 	TYPE مدينة 	STTL أريحا 
+REG1 فلسطين 	TYPE مدينة 	STTL عمان 
+REG1 الشراة 	TYPE قصبة 	STTL صغر 
+REG1 الشراة 	TYPE مدينة 	STTL مآب 
+REG1 الشراة 	TYPE مدينة 	STTL معان 
+REG1 الشراة 	TYPE مدينة 	STTL تبوك 
+REG1 الشراة 	TYPE مدينة 	STTL أذرح 
+REG1 الشراة 	TYPE مدينة 	STTL ويله 
+REG1 الشراة 	TYPE مدينة 	STTL مدين 
+REG1 الجفار 	TYPE قصبة 	STTL الفرما 
+REG1 الجفار 	TYPE مدينة 	STTL البقارة 
+REG1 الجفار 	TYPE مدينة 	STTL الواردة 
+REG1 الجفار 	TYPE مدينة 	STTL العريش 
+REG1 الحوف 	TYPE قصبة 	STTL بلبيس 
+REG1 الحوف 	TYPE مدينة 	STTL مشتول 
+REG1 الحوف 	TYPE مدينة 	STTL جرجير 
+REG1 الحوف 	TYPE مدينة 	STTL فاقوس 
+REG1 الحوف 	TYPE مدينة 	STTL غيفا 
+REG1 الحوف 	TYPE مدينة 	STTL دبقو 
+REG1 الحوف 	TYPE مدينة 	STTL تونة 
+REG1 الحوف 	TYPE مدينة 	STTL بريم 
+REG1 الحوف 	TYPE مدينة 	STTL القلزم 
+REG1 الريف 	TYPE قصبة 	STTL العباسية 
+REG1 الريف 	TYPE مدينة 	STTL شبرو 
+REG1 الريف 	TYPE مدينة 	STTLدمنهور 
+REG1 الريف 	TYPE مدينة 	STTL سنهور 
+REG1 الريف 	TYPE مدينة 	STTL بنها العسل 
+REG1 الريف 	TYPE مدينة 	STTL شطنوف 
+REG1 الريف 	TYPE مدينة 	STTL مليج 
+REG1 الريف 	TYPE مدينة 	STTL محلة 
+REG1 الريف 	TYPE مدينة 	STTL سدر 
+REG1 الريف 	TYPE مدينة 	STTL محلة كرمين 
+REG1 الريف 	TYPE مدينة 	STTL المحلة الكبيرة 
+REG1 الريف 	TYPE مدينة 	STTL سندفا 
+REG1 الريف 	TYPE مدينة 	STTL دميرة 
+REG1 الريف 	TYPE مدينة 	STTL بورة 
+REG1 الريف 	TYPE مدينة 	STTL دقهلة 
+REG1 الريف 	TYPE مدينة 	STTL محلة زيد 
+REG1 الريف 	TYPE مدينة 	STTL محلة حفص 
+REG1 الريف 	TYPE مدينة 	STTL محلة زياد 
+REG1 الريف 	TYPE مدينة 	STTL سنهور الصغرى 
+REG1 الريف 	TYPE مدينة 	STTL بريس 
+REG1 اسكندرية 	TYPE قصبة 	STTL اسكندرية 
+REG1 اسكندرية 	TYPE مدينة 	STTL الرشيد 
+REG1 اسكندرية 	TYPE مدينة 	STTL مريوط 
+REG1 اسكندرية 	TYPE مدينة 	STTL ذات الحمام 
+REG1 اسكندرية 	TYPE مدينة 	STTL برلس 
+REG1 مقدونية 	TYPE قصبة 	STTL الفسطاط 
+REG1 مقدونية 	TYPE مدينة 	STTL العزيزية 
+REG1 مقدونية 	TYPE مدينة 	STTL الجيزة 
+REG1 مقدونية 	TYPE مدينة 	STTL عين شمس 
+REG1 الصعيد 	TYPE قصبة 	STTL أسوان 
+REG1 الصعيد 	TYPE مدينة 	STTL حلوان 
+REG1 الصعيد 	TYPE مدينة 	STTL قوص 
+REG1 الصعيد 	TYPE مدينة 	STTL خميم 
+REG1 الصعيد 	TYPE مدينة 	STTL بلينا 
+REG1 الصعيد 	TYPE مدينة 	STTL علاقى 
+REG1 الصعيد 	TYPE مدينة 	STTL اجمع 
+REG1 الصعيد 	TYPE مدينة 	STTL بوصير 
+REG1 الصعيد 	TYPE مدينة 	STTL الفيوم 
+REG1 الصعيد 	TYPE مدينة 	STTL أشمونين 
+REG1 الصعيد 	TYPE مدينة 	STTL سمسطا 
+REG1 الصعيد 	TYPE مدينة 	STTL تندة 
+REG1 الصعيد 	TYPE مدينة 	STTL طحا 
+REG1 الصعيد 	TYPE مدينة 	STTL بهنسة 
+REG1 الصعيد 	TYPE مدينة 	STTL قيس 
+REG1 برقة 	TYPE قصبة 	STTL برقة 
+REG1 برقة 	TYPE مدينة 	STTL ذات الحمام 
+REG1 برقة 	TYPE مدينة 	STTL رمادة 
+REG1 برقة 	TYPE مدينة 	STTL أطرابلس 
+REG1 برقة 	TYPE مدينة 	STTL أجدابية 
+REG1 برقة 	TYPE مدينة 	STTL صبرة 
+REG1 برقة 	TYPE مدينة 	STTL قابس 
+REG1 برقة 	TYPE مدينة 	STTL غافق 
+REG1 افريقية 	TYPE قصبة 	STTL القيروان 
+REG1 افريقية 	TYPE مدينة 	STTL صبرة 
+REG1 افريقية 	TYPE مدينة 	STTL أسفاقس 
+REG1 افريقية 	TYPE مدينة 	STTL المهدية 
+REG1 افريقية 	TYPE مدينة 	STTL سوسة 
+REG1 افريقية 	TYPE مدينة 	STTL تونس 
+REG1 افريقية 	TYPE مدينة 	STTL بنزرد 
+REG1 افريقية 	TYPE مدينة 	STTL طبرقة 
+REG1 افريقية 	TYPE مدينة 	STTL مرسى الخرز 
+REG1 افريقية 	TYPE مدينة 	STTL بونة 
+REG1 افريقية 	TYPE مدينة 	STTL باجة 
+REG1 افريقية 	TYPE مدينة 	STTL لربس 
+REG1 افريقية 	TYPE مدينة 	STTL قرنة 
+REG1 افريقية 	TYPE مدينة 	STTL مرنيسة 
+REG1 افريقية 	TYPE مدينة 	STTL مس 
+REG1 افريقية 	TYPE مدينة 	STTL بنجد 
+REG1 افريقية 	TYPE مدينة 	STTL مرماجنة 
+REG1 افريقية 	TYPE مدينة 	STTL سبيبة 
+REG1 افريقية 	TYPE مدينة 	STTL قمودة 
+REG1 افريقية 	TYPE مدينة 	STTL قفصة 
+REG1 افريقية 	TYPE مدينة 	STTL قسطيلية 
+REG1 افريقية 	TYPE مدينة 	STTL نفزاوة 
+REG1 افريقية 	TYPE مدينة 	STTL لافس 
+REG1 افريقية 	TYPE مدينة 	STTL اوذة 
+REG1 افريقية 	TYPE مدينة 	STTL قلانس 
+REG1 افريقية 	TYPE مدينة 	STTL قبيشة 
+REG1 افريقية 	TYPE مدينة 	STTL رصفة 
+REG1 افريقية 	TYPE مدينة 	STTL بنونش 
+REG1 افريقية 	TYPE مدينة 	STTL لجم 
+REG1 افريقية 	TYPE مدينة 	STTL جزيرة أبى شريك 
+REG1 افريقية 	TYPE مدينة 	STTL باغاى 
+REG1 افريقية 	TYPE مدينة 	STTL سوق ابن خلف 
+REG1 افريقية 	TYPE مدينة 	STTL دوفانة 
+REG1 افريقية 	TYPE مدينة 	STTL المسيلة 
+REG1 افريقية 	TYPE مدينة 	STTL أشير 
+REG1 افريقية 	TYPE مدينة 	STTL سوق حمزة 
+REG1 افريقية 	TYPE مدينة 	STTL جزيرة بنى زغناية 
+REG1 افريقية 	TYPE مدينة 	STTL متيجة 
+REG1 افريقية 	TYPE مدينة 	STTL تنس 
+REG1 افريقية 	TYPE مدينة 	STTL دار 
+REG1 افريقية 	TYPE مدينة 	STTL سوق إبراهيم 
+REG1 افريقية 	TYPE مدينة 	STTL الغزة 
+REG1 افريقية 	TYPE مدينة 	STTL قلعة برجمة 
+REG1 افريقية 	TYPE مدينة 	STTL باغر 
+REG1 افريقية 	TYPE مدينة 	STTL يلل 
+REG1 افريقية 	TYPE مدينة 	STTL جبل زالاغ 
+REG1 افريقية 	TYPE مدينة 	STTL أسفاقس 
+REG1 افريقية 	TYPE مدينة 	STTL منستير 
+REG1 افريقية 	TYPE مدينة 	STTL مرسى الحجامين 
+REG1 افريقية 	TYPE مدينة 	STTL بنزرت 
+REG1 افريقية 	TYPE مدينة 	STTL طبرقة 
+REG1 افريقية 	TYPE مدينة 	STTL هياجة 
+REG1 افريقية 	TYPE مدينة 	STTL باغر 
+REG1 افريقية 	TYPE مدينة 	STTL غيبث 
+REG1 افريقية 	TYPE مدينة 	STTL قرية الصقالبة 
+REG1 افريقية 	TYPE مدينة 	STTL لربس 
+REG1 افريقية 	TYPE مدينة 	STTL مرسى الحجر 
+REG1 افريقية 	TYPE مدينة 	STTL جمونس الصابون 
+REG1 افريقية 	TYPE مدينة 	STTL طرس 
+REG1 افريقية 	TYPE مدينة 	STTL قسطيلية 
+REG1 افريقية 	TYPE مدينة 	STTL نفطة 
+REG1 افريقية 	TYPE مدينة 	STTL بنطيوس 
+REG1 افريقية 	TYPE مدينة 	STTL تقيوس 
+REG1 افريقية 	TYPE مدينة 	STTL مدينة القصور 
+REG1 افريقية 	TYPE مدينة 	STTL مسكيانة 
+REG1 افريقية 	TYPE مدينة 	STTL باغاى 
+REG1 افريقية 	TYPE مدينة 	STTLدوفانة 
+REG1 افريقية 	TYPE مدينة 	STTL عين العصافير 
+REG1 افريقية 	TYPE مدينة 	STTL دار ملول 
+REG1 افريقية 	TYPE مدينة 	STTL طبنة 
+REG1 افريقية 	TYPE مدينة 	STTL مقرة 
+REG1 افريقية 	TYPE مدينة 	STTL تيجس 
+REG1 افريقية 	TYPE مدينة 	STTL مدينة المهريين 
+REG1 افريقية 	TYPE مدينة 	STTL تامسنت 
+REG1 افريقية 	TYPE مدينة 	STTL دكما 
+REG1 افريقية 	TYPE مدينة 	STTL قصر الافريقى 
+REG1 افريقية 	TYPE مدينة 	STTL ركوى 
+REG1 افريقية 	TYPE مدينة 	STTL القسطنطينية 
+REG1 افريقية 	TYPE مدينة 	STTL ميلى 
+REG1 افريقية 	TYPE مدينة 	STTL جيجل 
+REG1 افريقية 	TYPE مدينة 	STTL تابريت 
+REG1 افريقية 	TYPE مدينة 	STTL سطيف 
+REG1 افريقية 	TYPE مدينة 	STTL إيكجا 
+REG1 افريقية 	TYPE مدينة 	STTL مرسى الدجاج 
+REG1 افريقية 	TYPE مدينة 	STTL أشير 
+REG1 تاهرت 	TYPE قصبة 	STTL تاهرت 
+REG1 تاهرت 	TYPE مدينة 	STTL يممة 
+REG1 تاهرت 	TYPE مدينة 	STTL تاغليسية 
+REG1 تاهرت 	TYPE مدينة 	STTL قلعة ابن الهرب 
+REG1 تاهرت 	TYPE مدينة 	STTL هزارة 
+REG1 تاهرت 	TYPE مدينة 	STTL الجعبة 
+REG1 تاهرت 	TYPE مدينة 	STTL غدير الدروع 
+REG1 تاهرت 	TYPE مدينة 	STTL لماية 
+REG1 تاهرت 	TYPE مدينة 	STTL منداس 
+REG1 تاهرت 	TYPE مدينة 	STTL سوق ابن حبلة 
+REG1 تاهرت 	TYPE مدينة 	STTL مطماطة 
+REG1 تاهرت 	TYPE مدينة 	STTL جبل تجان 
+REG1 تاهرت 	TYPE مدينة 	STTL وهران 
+REG1 تاهرت 	TYPE مدينة 	STTL شلف 
+REG1 تاهرت 	TYPE مدينة 	STTL طير 
+REG1 تاهرت 	TYPE مدينة 	STTL الغزة 
+REG1 تاهرت 	TYPE مدينة 	STTL سوق إبراهيم 
+REG1 تاهرت 	TYPE مدينة 	STTL رهباية 
+REG1 تاهرت 	TYPE مدينة 	STTL البطحة 
+REG1 تاهرت 	TYPE مدينة 	STTL الزيتونة 
+REG1 تاهرت 	TYPE مدينة 	STTL تمما 
+REG1 تاهرت 	TYPE مدينة 	STTL يعود 
+REG1 تاهرت 	TYPE مدينة 	STTL الخضراء 
+REG1 تاهرت 	TYPE مدينة 	STTL واريفن 
+REG1 تاهرت 	TYPE مدينة 	STTL تنس 
+REG1 تاهرت 	TYPE مدينة 	STTL قصر الفلوس 
+REG1 تاهرت 	TYPE مدينة 	STTL بحرية 
+REG1 تاهرت 	TYPE مدينة 	STTL سوق كرى 
+REG1 تاهرت 	TYPE مدينة 	STTL منجصة 
+REG1 تاهرت 	TYPE مدينة 	STTL اوزكى 
+REG1 تاهرت 	TYPE مدينة 	STTL تبرين 
+REG1 تاهرت 	TYPE مدينة 	STTL سوق ابن مبلول 
+REG1 تاهرت 	TYPE مدينة 	STTL ربا 
+REG1 تاهرت 	TYPE مدينة 	STTL تاويلت ابى مغول تامزيت 
+REG1 تاهرت 	TYPE مدينة 	STTL تاويلت لغوا 
+REG1 تاهرت 	TYPE مدينة 	STTL فكان 
+REG1 سجلماسة 	TYPE قصبة 	STTL سجلماسة 
+REG1 سجلماسة 	TYPE مدينة 	STTL درعة 
+REG1 سجلماسة 	TYPE مدينة 	STTL تادنقوست 
+REG1 سجلماسة 	TYPE مدينة 	STTL اثر 
+REG1 سجلماسة 	TYPE مدينة 	STTL ايلا 
+REG1 سجلماسة 	TYPE مدينة 	STTL ويلميس 
+REG1 سجلماسة 	TYPE مدينة 	STTL حصن ابن صالح 
+REG1 سجلماسة 	TYPE مدينة 	STTL النحاسين 
+REG1 سجلماسة 	TYPE مدينة 	STTL حصن السودان 
+REG1 سجلماسة 	TYPE مدينة 	STTL هلال 
+REG1 سجلماسة 	TYPE مدينة 	STTL إمصلى 
+REG1 سجلماسة 	TYPE مدينة 	STTL دار الأمير 
+REG1 سجلماسة 	TYPE مدينة 	STTL حصن برارة 
+REG1 سجلماسة 	TYPE مدينة 	STTL الخيامات 
+REG1 سجلماسة 	TYPE مدينة 	STTL تازروت 
+REG1 فاس 	TYPE قصبة 	STTL فاس 
+REG1 فاس 	TYPE مدينة 	STTL البصرة 
+REG1 فاس 	TYPE مدينة 	STTL زلول 
+REG1 فاس 	TYPE مدينة 	STTL الجاحد 
+REG1 فاس 	TYPE مدينة 	STTL سوق الكتامي 
+REG1 فاس 	TYPE مدينة 	STTL ورغة 
+REG1 فاس 	TYPE مدينة 	STTL سبوا 
+REG1 فاس 	TYPE مدينة 	STTL صنهاجة  
+REG1 فاس 	TYPE مدينة 	STTL هوارة 
+REG1 فاس 	TYPE مدينة 	STTL تيزا 
+REG1 فاس 	TYPE مدينة 	STTL مطماطة 
+REG1 فاس 	TYPE مدينة 	STTL كزناية 
+REG1 فاس 	TYPE مدينة 	STTL سلا 
+REG1 فاس 	TYPE مدينة 	STTL مدينة بنى قرباس 
+REG1 فاس 	TYPE مدينة 	STTL مزحاحية 
+REG1 فاس 	TYPE مدينة 	STTL أزيلا 
+REG1 فاس 	TYPE مدينة 	STTL سبتا 
+REG1 فاس 	TYPE مدينة 	STTL بلد غمار 
+REG1 فاس 	TYPE مدينة 	STTL قلعة النسور 
+REG1 فاس 	TYPE مدينة 	STTL نكور 
+REG1 فاس 	TYPE مدينة 	STTL بلش 
+REG1 فاس 	TYPE مدينة 	STTL مرنيسة 
+REG1 فاس 	TYPE مدينة 	STTL تابريدا 
+REG1 فاس 	TYPE مدينة 	STTL وصاع 
+REG1 فاس 	TYPE مدينة 	STTL مكناسة 
+REG1 فاس 	TYPE مدينة 	STTL قلعة شميت 
+REG1 فاس 	TYPE مدينة 	STTL مدائن 
+REG1 فاس 	TYPE مدينة 	STTL برجن اوزكى  
+REG1 فاس 	TYPE مدينة 	STTL تيونوا 
+REG1 فاس 	TYPE مدينة 	STTL مكسين 
+REG1 فاس 	TYPE مدينة 	STTL امليل 
+REG1 فاس 	TYPE مدينة 	STTL املاه ابى الحسن 
+REG1 فاس 	TYPE مدينة 	STTL قسطيلية 
+REG1 فاس 	TYPE مدينة 	STTL نفزاوة 
+REG1 فاس 	TYPE مدينة 	STTL نقاوس 
+REG1 فاس 	TYPE مدينة 	STTL بسكرة 
+REG1 فاس 	TYPE مدينة 	STTL قبيشة 
+REG1 فاس 	TYPE مدينة 	STTL مدينة بنى زحيق 
+REG1 فاس 	TYPE مدينة 	STTL لواتة عبد الله 
+REG1 فاس 	TYPE مدينة 	STTL لواتة بركية 
+REG1 فاس 	TYPE مدينة 	STTL أكذار ابن شراك 
+REG1 فاس 	TYPE مدينة 	STTL مدينة جبل زالاغ 
+REG2 طنجة 	TYPE مدينة 	STTL وليلة 
+REG2 طنجة 	TYPE مدينة 	STTL مدركة 
+REG2 طنجة 	TYPE مدينة 	STTL متروكة 
+REG2 طنجة 	TYPE مدينة 	STTL زفون 
+REG2 طنجة 	TYPE مدينة 	STTL غزة 
+REG2 طنجة 	TYPE مدينة 	STTL غميرة 
+REG2 طنجة 	TYPE مدينة 	STTL الحاجر 
+REG2 طنجة 	TYPE مدينة 	STTL ماجراجرا 
+REG2 طنجة 	TYPE مدينة 	STTL البيضاء 
+REG2 طنجة 	TYPE مدينة 	STTL الخضراء 
+REG2 الزاب 	TYPE مدينة 	STTL مقرة 
+REG2 الزاب 	TYPE مدينة 	STTL طبنة 
+REG2 الزاب 	TYPE مدينة 	STTL بسكرة 
+REG2 الزاب 	TYPE مدينة 	STTL بادس 
+REG2 الزاب 	TYPE مدينة 	STTL تهوذا 
+REG2 الزاب 	TYPE مدينة 	STTL طولقا 
+REG2 الزاب 	TYPE مدينة 	STTLجميلا 
+REG2 الزاب 	TYPE مدينة 	STTL بنطيوس 
+REG2 الزاب 	TYPE مدينة 	STTL أدنة 
+REG2 الزاب 	TYPE مدينة 	STTL أشير 
+REG1 السوس الأقصى 	TYPE قصبة 	STTL طرفانة 
+REG1 السوس الأقصى 	TYPE مدينة 	STTL أغمات ويلا 
+REG1 السوس الأقصى 	TYPE مدينة 	STTL وريكة 
+REG1 السوس الأقصى 	TYPE مدينة 	STTL تندلى 
+REG1 السوس الأقصى 	TYPE مدينة 	STTL ماسة 
+REG1 اصقلية 	TYPE قصبة 	STTL بلرم 
+REG1 اصقلية 	TYPE مدينة 	STTL الخالصة 
+REG1 اصقلية 	TYPE مدينة 	STTL اطرابنش 
+REG1 اصقلية 	TYPE مدينة 	STTL مازر 
+REG1 اصقلية 	TYPE مدينة 	STTLعين المغطا 
+REG1 اصقلية 	TYPE مدينة 	STTLقلعة البلوط 
+REG1 اصقلية 	TYPE مدينة 	STTLجرجنت 
+REG1 اصقلية 	TYPE مدينة 	STTL بثيرة 
+REG1 اصقلية 	TYPE مدينة 	STTL سرقوسة 
+REG1 اصقلية 	TYPE مدينة 	STTL لنتيني 
+REG1 اصقلية 	TYPE مدينة 	STTL قطانية 
+REG1 اصقلية 	TYPE مدينة 	STTL اليلج 
+REG1 اصقلية 	TYPE مدينة 	STTL بطرنوا 
+REG1 اصقلية 	TYPE مدينة 	STTL طبرمين 
+REG1 اصقلية 	TYPE مدينة 	STTL ميقش 
+REG1 اصقلية 	TYPE مدينة 	STTL مسينة 
+REG1 اصقلية 	TYPE مدينة 	STTL رمطة 
+REG1 اصقلية 	TYPE مدينة 	STTL دمنش 
+REG1 اصقلية 	TYPE مدينة 	STTL جاراس 
+REG1 اصقلية 	TYPE مدينة 	STTL قلعة القوارب 
+REG1 اصقلية 	TYPE مدينة 	STTL قلعة الصراط 
+REG1 اصقلية 	TYPE مدينة 	STTL قلعة ابى ثور 
+REG1 اصقلية 	TYPE مدينة 	STTL بطرلية 
+REG1 اصقلية 	TYPE مدينة 	STTL ثرمة 
+REG1 اصقلية 	TYPE مدينة 	STTL بورقاد 
+REG1 اصقلية 	TYPE مدينة 	STTL قرليون 
+REG1 اصقلية 	TYPE مدينة 	STTL قرينش 
+REG1 اصقلية 	TYPE مدينة 	STTL برطنيق 
+REG1 اصقلية 	TYPE مدينة 	STTL اخياس 
+REG1 اصقلية 	TYPE مدينة 	STTL بلجة 
+REG1 اصقلية 	TYPE مدينة 	STTL برطنة 
+REG2 فرغانة 	TYPE قصبة 	STTL أخسيكت 
+REG2 فرغانة 	TYPE مدينة 	STTL الميانروذية 
+REG2 فرغانة 	TYPE مدينة 	STTL نصراباذ 
+REG2 فرغانة 	TYPE مدينة 	STTL منارة 
+REG2 فرغانة 	TYPE مدينة 	STTL رنجد 
+REG2 فرغانة 	TYPE مدينة 	STTL شكت 
+REG2 فرغانة 	TYPE مدينة 	STTL زاركان 
+REG2 فرغانة 	TYPE مدينة 	STTL خير لام 
+REG2 فرغانة 	TYPE مدينة 	STTL بشبشان 
+REG2 فرغانة 	TYPE مدينة 	STTL أشتيقان 
+REG2 فرغانة 	TYPE مدينة 	STTL وزرندرامش 
+REG2 فرغانة 	TYPE مدينة 	STTL أوزكند 
+REG2 أسبيجاب 	TYPE قصبة 	STTL أسبيجاب 
+REG2 أسبيجاب 	TYPE مدينة 	STTL خورلوغ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL جمشلاغو 
+REG2 أسبيجاب 	TYPE مدينة 	STTL ارسبانيكث 
+REG2 أسبيجاب 	TYPE مدينة 	STTLباراب 
+REG2 أسبيجاب 	TYPE مدينة 	STTL شاوغر 
+REG2 أسبيجاب 	TYPE مدينة 	STTL سوران 
+REG2 أسبيجاب 	TYPE مدينة 	STTL ترار زراخ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL شغلجان 
+REG2 أسبيجاب 	TYPE مدينة 	STTL بلاج 
+REG2 أسبيجاب 	TYPE مدينة 	STTL بروكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL بروخ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL يكانكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL أذخكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL ده نوجيكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL طراز 
+REG2 أسبيجاب 	TYPE مدينة 	STTL بالوا 
+REG2 أسبيجاب 	TYPE مدينة 	STTL جكل 
+REG2 أسبيجاب 	TYPE مدينة 	STTL برسخان 
+REG2 أسبيجاب 	TYPE مدينة 	STTL اطلخ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL جموكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL شلجى 
+REG2 أسبيجاب 	TYPE مدينة 	STTL كول 
+REG2 أسبيجاب 	TYPE مدينة 	STTL سوس 
+REG2 أسبيجاب 	TYPE مدينة 	STTL تكابكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL ده نوى 
+REG2 أسبيجاب 	TYPE مدينة 	STTL كولان 
+REG2 أسبيجاب 	TYPE مدينة 	STTL ميركى 
+REG2 أسبيجاب 	TYPE مدينة 	STTL نوشكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL لقرا 
+REG2 أسبيجاب 	TYPE مدينة 	STTL جموك 
+REG2 أسبيجاب 	TYPE مدينة 	STTL أردوا 
+REG2 أسبيجاب 	TYPE مدينة 	STTL نويكث 
+REG2 أسبيجاب 	TYPE مدينة 	STTL بلاسكون 
+REG2 أسبيجاب 	TYPE مدينة 	STTL لبان 
+REG2 أسبيجاب 	TYPE مدينة 	STTL شوى 
+REG2 أسبيجاب 	TYPE مدينة 	STTL أبالغ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL مادانكت 
+REG2 أسبيجاب 	TYPE مدينة 	STTL برسيان 
+REG2 أسبيجاب 	TYPE مدينة 	STTL بلغ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL جكركان 
+REG2 أسبيجاب 	TYPE مدينة 	STTL يغ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL يكالغ 
+REG2 أسبيجاب 	TYPE مدينة 	STTL روانجم 
+REG2 أسبيجاب 	TYPE مدينة 	STTL كتاك 
+REG2 أسبيجاب 	TYPE مدينة 	STTL شورجشمه 
+REG2 أسبيجاب 	TYPE مدينة 	STTL دل اواس 
+REG2 أسبيجاب 	TYPE مدينة 	STTL جركرد 
+REG2 الشاش 	TYPE قصبة 	STTL بنكث 
+REG2 الشاش 	TYPE مدينة 	STTL نکث 
+REG2 الشاش 	TYPE مدينة 	STTL جينانجكث 
+REG2 الشاش 	TYPE مدينة 	STTL نجاكث 
+REG2 الشاش 	TYPE مدينة 	STTL بناكث 
+REG2 الشاش 	TYPE مدينة 	STTL خرشكث 
+REG2 الشاش 	TYPE مدينة 	STTL غرجند 
+REG2 الشاش 	TYPE مدينة 	STTL غناج 
+REG2 الشاش 	TYPE مدينة 	STTL جبوزن 
+REG2 الشاش 	TYPE مدينة 	STTL وردك 
+REG2 الشاش 	TYPE مدينة 	STTL كبرنه 
+REG2 الشاش 	TYPE مدينة 	STTL نمدوانك 
+REG2 الشاش 	TYPE مدينة 	STTL نوجكث 
+REG2 الشاش 	TYPE مدينة 	STTL غزك 
+REG2 الشاش 	TYPE مدينة 	STTL أنوذكت 
+REG2 الشاش 	TYPE مدينة 	STTL بشكت 
+REG2 الشاش 	TYPE مدينة 	STTL بركوش 
+REG2 الشاش 	TYPE مدينة 	STTL خاتونكت 
+REG2 الشاش 	TYPE مدينة 	STTL جيغوكت 
+REG2 الشاش 	TYPE مدينة 	STTL فرنكد 
+REG2 الشاش 	TYPE مدينة 	STTL كداك 
+REG2 الشاش 	TYPE مدينة 	STTL نكالك 
+REG2 الشاش 	TYPE مدينة 	STTL بارسكث 
+REG2 الشاش 	TYPE مدينة 	STTL اشتوركث 
+REG2 الشاش 	TYPE مدينة 	STTL البيكث 
+REG2 الشاش 	TYPE مدينة 	STTL كباشكث 
+REG2 الشاش 	TYPE مدينة 	STTL غناج 
+REG2 الشاش 	TYPE مدينة 	STTL ده كوران 
+REG2 الشاش 	TYPE مدينة 	STTL تل اوش 
+REG2 الشاش 	TYPE مدينة 	STTL غزكرد 
+REG2 الشاش 	TYPE مدينة 	STTL زرانكث 
+REG2 الشاش 	TYPE مدينة 	STTL دروا 
+REG2 الشاش 	TYPE مدينة 	STTL فردكث 
+REG2 الشاش 	TYPE مدينة 	STTL اجخ 
+REG2 إيلاق 	TYPE قصبة 	STTL تونكث 
+REG2 إيلاق 	TYPE مدينة 	STTL شاوكث 
+REG2 إيلاق 	TYPE مدينة 	STTL بانخاش 
+REG2 إيلاق 	TYPE مدينة 	STTL نوكث 
+REG2 إيلاق 	TYPE مدينة 	STTL بالايان 
+REG2 إيلاق 	TYPE مدينة 	STTL اربلخ 
+REG2 إيلاق 	TYPE مدينة 	STTL نموذلغ 
+REG2 إيلاق 	TYPE مدينة 	STTL تكث 
+REG2 إيلاق 	TYPE مدينة 	STTL خمرك 
+REG2 إيلاق 	TYPE مدينة 	STTL سيكث 
+REG2 إيلاق 	TYPE مدينة 	STTL كهسيم 
+REG2 إيلاق 	TYPE مدينة 	STTL ادخكت 
+REG2 إيلاق 	TYPE مدينة 	STTL خاس 
+REG2 إيلاق 	TYPE مدينة 	STTL خجاكث 
+REG2 إيلاق 	TYPE مدينة 	STTL غرجند 
+REG2 إيلاق 	TYPE مدينة 	STTL سام سرك 
+REG2 إيلاق 	TYPE مدينة 	STTL بسكت 
+REG2 اشروسنة 	TYPE قصبة 	STTL بنجكث 
+REG2 اشروسنة 	TYPE مدينة 	STTL ارسبانيكث
+REG2 اشروسنة 	TYPE مدينة 	STTL كردكث 
+REG2 اشروسنة 	TYPE مدينة 	STTL غزق 
+REG2 اشروسنة 	TYPE مدينة 	STTL فغكث 
+REG2 اشروسنة 	TYPE مدينة 	STTL ساباط 
+REG2 اشروسنة 	TYPE مدينة 	STTL زامين 
+REG2 اشروسنة 	TYPE مدينة 	STTL ديزك 
+REG2 اشروسنة 	TYPE مدينة 	STTL نوجكث 
+REG2 اشروسنة 	TYPE مدينة 	STTL قطوان دزه 
+REG2 اشروسنة 	TYPE مدينة 	STTL خرقانة 
+REG2 اشروسنة 	TYPE مدينة 	STTL خشت 
+REG2 اشروسنة 	TYPE مدينة 	STTL مرسمندة 
+REG2 الصغد 	TYPE قصبة 	STTL سمرقند 
+REG2 الصغد 	TYPE مدينة 	STTL ريودد 
+REG2 الصغد 	TYPE مدينة 	STTL أبغر 
+REG2 الصغد 	TYPE مدينة 	STTL إشتيخن 
+REG2 الصغد 	TYPE مدينة 	STTL كشانى 
+REG2 الصغد 	TYPE مدينة 	STTL دبوسية 
+REG2 الصغد 	TYPE مدينة 	STTL كرمينية 
+REG2 الصغد 	TYPE مدينة 	STTL ربنجان قطوانة 
+REG2 بخارا 	TYPE قصبة 	STTL نموجكث 
+REG2 بخارا 	TYPE مدينة 	STTL بيكند 
+REG2 بخارا 	TYPE مدينة 	STTL الطواويس 
+REG2 بخارا 	TYPE مدينة 	STTL زندنة 
+REG2 بخارا 	TYPE مدينة 	STTL بمجكث 
+REG2 بخارا 	TYPE مدينة 	STTL خجادى 
+REG2 بخارا 	TYPE مدينة 	STTLمغكان 
+REG2 بخارا 	TYPE مدينة 	STTL خرغانكث 
+REG2 بخارا 	TYPE مدينة 	STTL خديمنكن 
+REG2 بخارا 	TYPE مدينة 	STTL عروان 
+REG2 بخارا 	TYPE مدينة 	STTL بخسون 
+REG2 بخارا 	TYPE مدينة 	STTL سيكث 
+REG2 بخارا 	TYPE مدينة 	STTL جرغر 
+REG2 بخارا 	TYPE مدينة 	STTL سيشكث 
+REG2 بخارا 	TYPE مدينة 	STTL ارياميثن 
+REG2 بخارا 	TYPE مدينة 	STTL ورخشى 
+REG2 بخارا 	TYPE مدينة 	STTL وزرميثن 
+REG2 بخارا 	TYPE مدينة 	STTL كمجكث 
+REG2 بخارا 	TYPE مدينة 	STTL فغرسين 
+REG2 بخارا 	TYPE مدينة 	STTL كشفغن 
+REG2 بخارا 	TYPE مدينة 	STTL نويدك 
+REG2 بخارا 	TYPE مدينة 	STTL وركي 
+REG3 کش 	TYPE مدينة 	STTL نوقد قريش 
+REG3 کش 	TYPE مدينة 	STTL سونج 
+REG3 کش 	TYPE مدينة 	STTL اسكيفغن 
+REG3 کش 	TYPE مدينة 	STTL نسف 
+REG2 قواديان 	TYPE مدينة 	STTL سكارا 
+REG2 قواديان 	TYPE مدينة 	STTL اوزج 
+REG2 قواديان 	TYPE مدينة 	STTL بورم 
+REG2 الختل 	TYPE مدينة 	STTL مرند 
+REG2 الختل 	TYPE مدينة 	STTL انديجارغ 
+REG2 الختل 	TYPE مدينة 	STTL هلاورد 
+REG2 الختل 	TYPE مدينة 	STTL لاوكند 
+REG2 الختل 	TYPE مدينة 	STTL كاربنك 
+REG2 الختل 	TYPE مدينة 	STTL تمليات 
+REG2 الختل 	TYPE مدينة 	STTL اسكندرة 
+REG2 الختل 	TYPE مدينة 	STTL منك 
+REG2 الختل 	TYPE مدينة 	STTL فارغر 
+REG2 الختل 	TYPE مدينة 	STTL بنك 
+REG2 الختل 	TYPE قصبة 	STTL هلبك 
+REG3 بلخ 	TYPE قصبة 	STTL بلخ 
+REG3 بلخ 	TYPE مدينة 	STTL أشفورقان 
+REG3 بلخ 	TYPE مدينة 	STTL سليم 
+REG3 بلخ 	TYPE مدينة 	STTL كركو 
+REG3 بلخ 	TYPE مدينة 	STTL جا 
+REG3 بلخ 	TYPE مدينة 	STTL مذر 
+REG3 بلخ 	TYPE مدينة 	STTL برواز 
+REG4 طخارستان 	TYPE قصبة 	STTL طخارستان 
+REG4 طخارستان 	TYPE مدينة 	STTL ولوالج 
+REG4 طخارستان 	TYPE مدينة 	STTL الطالقان 
+REG4 طخارستان 	TYPE مدينة 	STTL خلم 
+REG4 طخارستان 	TYPE مدينة 	STTL غربنك 
+REG4 طخارستان 	TYPE مدينة 	STTL سمنجان 
+REG4 طخارستان 	TYPE مدينة 	STTL اسكلكند 
+REG4 طخارستان 	TYPE مدينة 	STTL رؤب 
+REG4 طخارستان 	TYPE مدينة 	STTL بغلان السفلى 
+REG4 طخارستان 	TYPE مدينة 	STTL بغلان العليا 
+REG4 طخارستان 	TYPE مدينة 	STTL اسكيمشت 
+REG4 طخارستان 	TYPE مدينة 	STTL راون 
+REG4 طخارستان 	TYPE مدينة 	STTL  آرهن 
+REG4 طخارستان 	TYPE مدينة 	STTL أندراب 
+REG4 طخارستان 	TYPE مدينة 	STTL خست 
+REG4 طخارستان 	TYPE مدينة 	STTL سراى عاصم 
+REG3 باميان 	TYPE مدينة 	STTL بسغورفند 
+REG3 باميان 	TYPE مدينة 	STTL سكاوند 
+REG3 باميان 	TYPE مدينة 	STTL لخراب 
+REG3 بلخ 	TYPE رستاق 	STTL بدخشان 
+REG3 بلخ 	TYPE رستاق 	STTL بنجهير 
+REG3 بلخ 	TYPE رستاق 	STTL جاربايه 
+REG3 بلخ 	TYPE رستاق 	STTL بروان 
+REG3 غزنين 	TYPE قصبة 	STTL غزنين 
+REG3 غزنين 	TYPE مدينة 	STTL كرديس 
+REG3 غزنين 	TYPE مدينة 	STTL سكاوند 
+REG3 غزنين 	TYPE مدينة 	STTL نوه 
+REG3 غزنين 	TYPE مدينة 	STTL بردن 
+REG3 غزنين 	TYPE مدينة 	STTL دمراخى 
+REG3 غزنين 	TYPE مدينة 	STTL حش بارى 
+REG3 غزنين 	TYPE مدينة 	STTL فرمل 
+REG3 غزنين 	TYPE مدينة 	STTL سرهون 
+REG3 غزنين 	TYPE مدينة 	STTL لجرا 
+REG3 غزنين 	TYPE مدينة 	STTL خواست 
+REG3 غزنين 	TYPE مدينة 	STTL زاوه 
+REG3 غزنين 	TYPE مدينة 	STTL كاويل 
+REG3 غزنين 	TYPE مدينة 	STTL كابل  
+REG3 غزنين 	TYPE مدينة 	STTLلمغان 
+REG3 غزنين 	TYPE مدينة 	STTL بودن 
+REG3 غزنين 	TYPE مدينة 	STTL لهوكر 
+REG3 بست 	TYPE قصبة 	STTL بست 
+REG3 بست 	TYPE مدينة 	STTL جهالكان 
+REG3 بست 	TYPE مدينة 	STTL بان 
+REG3 بست 	TYPE مدينة 	STTL قرمة 
+REG3 بست 	TYPE مدينة 	STTL بوزاد 
+REG3 بست 	TYPE مدينة 	STTL ارض داور 
+REG3 بست 	TYPE مدينة 	STTL صروستان 
+REG3 بست 	TYPE مدينة 	STTL قرية الجوز 
+REG3 بست 	TYPE مدينة 	STTL رخود 
+REG3 بست 	TYPE مدينة 	STTL بكراواذ 
+REG3 بست 	TYPE مدينة 	STTL بنجوى 
+REG3 بست 	TYPE مدينة 	STTL كش 
+REG3 بست 	TYPE مدينة 	STTL روذان 
+REG3 بست 	TYPE مدينة 	STTL سفنجاوى 
+REG3 بست 	TYPE مدينة 	STTL طلقان 
+REG3 سجستان 	TYPE قصبة 	STTL زرنج 
+REG3 سجستان 	TYPE مدينة 	STTL كوين 
+REG3 سجستان 	TYPE مدينة 	STTL زنبوك 
+REG3 سجستان 	TYPE مدينة 	STTL فره 
+REG3 سجستان 	TYPE مدينة 	STTL درهند 
+REG3 سجستان 	TYPE مدينة 	STTL قرنين 
+REG3 سجستان 	TYPE مدينة 	STTL كواربواذ 
+REG3 سجستان 	TYPE مدينة 	STTL بارنواذ 
+REG3 سجستان 	TYPE مدينة 	STTL كزه 
+REG3 سجستان 	TYPE مدينة 	STTL سنج 
+REG3 سجستان 	TYPE مدينة 	STTL باب الطعام 
+REG3 سجستان 	TYPE مدينة 	STTL روادكن 
+REG3 سجستان 	TYPE مدينة 	STTL نه 
+REG3 سجستان 	TYPE مدينة 	STTL الطاق 
+REG3 هراة 	TYPE قصبة 	STTL هراة 
+REG3 هراة 	TYPE مدينة 	STTL كروخ 
+REG3 هراة 	TYPE مدينة 	STTL أوبه 
+REG3 هراة 	TYPE مدينة 	STTL مالن 
+REG3 هراة 	TYPE مدينة 	STTL خيسار 
+REG3 هراة 	TYPE مدينة 	STTL استرينان 
+REG3 هراة 	TYPE مدينة 	STTL ماراباذ 
+REG4 بوشنج 	TYPE مدينة 	STTL خركرد 
+REG4 بوشنج 	TYPE مدينة 	STTL فركرد 
+REG4 بوشنج 	TYPE مدينة 	STTL كوسوى 
+REG4 بوشنج 	TYPE مدينة 	STTL كره 
+REG4 باذغيس 	TYPE مدينة 	STTL دهستان 
+REG4 باذغيس 	TYPE مدينة 	STTL كوغاناباذ 
+REG4 باذغيس 	TYPE مدينة 	STTL كوفا 
+REG4 باذغيس 	TYPE مدينة 	STTL بشت 
+REG4 باذغيس 	TYPE مدينة 	STTL جاذاوا 
+REG4 باذغيس 	TYPE مدينة 	STTL كابرون 
+REG4 باذغيس 	TYPE مدينة 	STTL كالوون 
+REG4 باذغيس 	TYPE مدينة 	STTL جبل الفضة 
+REG3 هراة 	TYPE رستاق 	STTL كنج 
+REG4 كنج 	TYPE مدينة 	STTL ببن 
+REG4 كنج 	TYPE مدينة 	STTL كيف 
+REG4 كنج 	TYPE مدينة 	STTL بغ شور 
+REG4 أسفزار 	TYPE مدينة 	STTL كواشان 
+REG4 أسفزار 	TYPE مدينة 	STTL كواران 
+REG4 أسفزار 	TYPE مدينة 	STTL كوشك 
+REG4 أسفزار 	TYPE مدينة 	STTL ادرسكر 
+REG4 جوزجانان 	TYPE قصبة 	STTL اليهودية 
+REG4 جوزجانان 	TYPE مدينة 	STTL أنبار 
+REG4 جوزجانان 	TYPE مدينة 	STTL برزور 
+REG4 جوزجانان 	TYPE مدينة 	STTL فارياب 
+REG4 جوزجانان 	TYPE مدينة 	STTL كلان 
+REG4 جوزجانان 	TYPE مدينة 	STTL شبورقان 
+REG3 نيسابور 	TYPE قصبة 	STTL ايرانشهر 
+REG3 قوهستان 	TYPE قصبتة 	STTL قاين 
+REG3 قوهستان 	TYPE مدينة 	STTL تون 
+REG3 قوهستان 	TYPE مدينة 	STTL جنابد 
+REG3 قوهستان 	TYPE مدينة 	STTL طبس 
+REG3 قوهستان 	TYPE مدينة 	STTL العناب 
+REG3 قوهستان 	TYPE مدينة 	STTL الرقة 
+REG3 قوهستان 	TYPE مدينة 	STTL خور 
+REG3 قوهستان 	TYPE مدينة 	STTL خوست 
+REG3 قوهستان 	TYPE مدينة 	STTL كرى 
+REG3 قوهستان 	TYPE مدينة 	STTLطبس التمر 
+REG1 قومس 	TYPE قصبة 	STTL الدامغان 
+REG1 قومس 	TYPE مدينة 	STTL سمنان 
+REG1 قومس 	TYPE مدينة 	STTL بسطام 
+REG1 قومس 	TYPE مدينة 	STTL زغنة 
+REG1 قومس 	TYPE مدينة 	STTL بيار 
+REG1 قومس 	TYPE مدينة 	STTL مغون 
+REG1 جرجان 	TYPE قصبة 	STTL شهرستان 
+REG1 جرجان 	TYPE مدينة 	STTL أستراباذ 
+REG1 جرجان 	TYPE مدينة 	STTL آبسكون 
+REG1 جرجان 	TYPE مدينة 	STTL ألهم 
+REG1 جرجان 	TYPE مدينة 	STTL آخر 
+REG1 جرجان 	TYPE مدينة 	STTL الرباط 
+REG1 طبرستان 	TYPE قصبة 	STTL آمل 
+REG1 طبرستان 	TYPE مدينة 	STTL سالوس 
+REG1 طبرستان 	TYPE مدينة 	STTL ميلة 
+REG1 طبرستان 	TYPE مدينة 	STTL ما مطير 
+REG1 طبرستان 	TYPE مدينة 	STTL برجى 
+REG1 طبرستان 	TYPE مدينة 	STTL سارية 
+REG1 طبرستان 	TYPE مدينة 	STTL طميسة 
+REG1 طبرستان 	TYPE مدينة 	STTL هرى 
+REG1 طبرستان 	TYPE مدينة 	STTL بود 
+REG1 طبرستان 	TYPE مدينة 	STTL ممطير 
+REG1 طبرستان 	TYPE مدينة 	STTL نامية 
+REG1 طبرستان 	TYPE مدينة 	STTL تميشة 
+REG1 الديلمان 	TYPE قصبة 	STTL بروان 
+REG1 الديلمان 	TYPE مدينة 	STTL ولامر 
+REG1 الديلمان 	TYPE مدينة 	STTL شكيرز 
+REG1 الديلمان 	TYPE مدينة 	STTL تارم 
+REG1 الديلمان 	TYPE مدينة 	STTL خشم 
+REG1 الخزر 	TYPE قصبة 	STTL إتل 
+REG1 الخزر 	TYPE مدينة 	STTL بلغار 
+REG1 الخزر 	TYPE مدينة 	STTL سمندر 
+REG1 الخزر 	TYPE مدينة 	STTL سوار 
+REG1 الخزر 	TYPE مدينة 	STTL بغند 
+REG1 الخزر 	TYPE مدينة 	STTL قيشوى 
+REG1 الخزر 	TYPE مدينة 	STTL خمليج 
+REG1 الخزر 	TYPE مدينة 	STTL بلنجر 
+REG1 الخزر 	TYPE مدينة 	STTL البيضاء 
+REG1 الران 	TYPE قصبة 	STTL برذعة 
+REG1 الران 	TYPE مدينة 	STTL تفليس 
+REG1 الران 	TYPE مدينة 	STTL القلعة 
+REG1 الران 	TYPE مدينة 	STTL خنان 
+REG1 الران 	TYPE مدينة 	STTL شمكور 
+REG1 الران 	TYPE مدينة 	STTL جنزة 
+REG1 الران 	TYPE مدينة 	STTL برديج 
+REG1 الران 	TYPE مدينة 	STTL الشماخية 
+REG1 الران 	TYPE مدينة 	STTL شروان 
+REG1 الران 	TYPE مدينة 	STTL باكوه 
+REG1 الران 	TYPE مدينة 	STTL الشابران 
+REG1 الران 	TYPE مدينة 	STTL باب الأبواب 
+REG1 الران 	TYPE مدينة 	STTL الأبخاز 
+REG1 الران 	TYPE مدينة 	STTL قبلة 
+REG1 الران 	TYPE مدينة 	STTL شكى 
+REG1 الران 	TYPE مدينة 	STTL ملازكرد 
+REG1 الران 	TYPE مدينة 	STTL تبلا 
+REG1 أرمينية 	TYPE قصبة 	STTL دبيل 
+REG1 أرمينية 	TYPE مدينة 	STTL بدليس 
+REG1 أرمينية 	TYPE مدينة 	STTL خلاط 
+REG1 أرمينية 	TYPE مدينة 	STTL أرجيش 
+REG1 أرمينية 	TYPE مدينة 	STTL بركرى 
+REG1 أرمينية 	TYPE مدينة 	STTL خوى 
+REG1 أرمينية 	TYPE مدينة 	STTL سلماس 
+REG1 أرمينية 	TYPE مدينة 	STTL أرمية 
+REG1 أرمينية 	TYPE مدينة 	STTL داخرقان 
+REG1 أرمينية 	TYPE مدينة 	STTL مراغة 
+REG1 أرمينية 	TYPE مدينة 	STTL أهر 
+REG1 أرمينية 	TYPE مدينة 	STTL مرند 
+REG1 أرمينية 	TYPE مدينة 	STTL سنجان 
+REG1 أرمينية 	TYPE مدينة 	STTL قاليقلا 
+REG1 أرمينية 	TYPE مدينة 	STTL قندرية 
+REG1 أرمينية 	TYPE مدينة 	STTL قلعة يونس 
+REG1 أرمينية 	TYPE مدينة 	STTL نورين 
+REG1 أذربيجان 	TYPE قصبة 	STTL أردبيل 
+REG1 أذربيجان 	TYPE مدينة 	STTL رسبة 
+REG1 أذربيجان 	TYPE مدينة 	STTL تبريز 
+REG1 أذربيجان 	TYPE مدينة 	STTL جابروان 
+REG1 أذربيجان 	TYPE مدينة 	STTL خونج 
+REG1 أذربيجان 	TYPE مدينة 	STTL الميانج 
+REG1 أذربيجان 	TYPE مدينة 	STTL السراة 
+REG1 أذربيجان 	TYPE مدينة 	STTL بروى 
+REG1 أذربيجان 	TYPE مدينة 	STTL ورثان 
+REG1 أذربيجان 	TYPE مدينة 	STTL موقان 
+REG1 أذربيجان 	TYPE مدينة 	STTL ميمذ 
+REG1 أذربيجان 	TYPE مدينة 	STTL برزند 
+REG1 الري 	TYPE مدينة 	STTL آوه 
+REG1 الري 	TYPE مدينة 	STTL ساوة 
+REG1 الري 	TYPE مدينة 	STTL قزوين 
+REG1 الري 	TYPE مدينة 	STTL أبهر 
+REG1 الري 	TYPE مدينة 	STTL شلنبة 
+REG1 الري 	TYPE مدينة 	STTL الخوار 
+REG1 همذان 	TYPE مدينة 	STTL أسداواذ 
+REG1 همذان 	TYPE مدينة 	STTL آوه 
+REG1 همذان 	TYPE مدينة 	STTL سبه 
+REG1 همذان 	TYPE مدينة 	STTL رامن 
+REG1 همذان 	TYPE مدينة 	STTL وبه 
+REG1 همذان 	TYPE مدينة 	STTL سيراوند 
+REG1 همذان 	TYPE مدينة 	STTL روذراور 
+REG1 همذان 	TYPE مدينة 	STTL طزر 
+REG1 أصفهان 	TYPE قصبة 	STTL اليهودية 
+REG1 ههههه 	TYPE ههههه 	STTL بصنا 
+REG1 ههههه 	TYPE ههههه 	STTL متوت 
+REG1 ههههه 	TYPE ههههه 	STTL بيروت 
+REG1 ههههه 	TYPE ههههه 	STTL البذان 
+REG1 ههههه 	TYPE ههههه 	STTL قرية الرمل 
+REG1 ههههه 	TYPE ههههه 	STTL كرخة  
+REG1 العسكر 	TYPE مدينة 	STTL جوبك 
+REG1 العسكر 	TYPE مدينة 	STTL وزيدان 
+REG1 العسكر 	TYPE مدينة 	STTL سوق الثلثاء 
+REG1 العسكر 	TYPE مدينة 	STTL حبك ذو قرطم 
+REG1 العسكر 	TYPE مدينة 	STTL برجان 
+REG1 العسكر 	TYPE مدينة 	STTL خان طوق 
+REG1 الأهواز 	TYPE مدينة 	STTL نهر تيري 
+REG1 الأهواز 	TYPE مدينة 	STTL مناذر الكبرى 
+REG1 الأهواز 	TYPE مدينة 	STTL مناذر الصغرى 
+REG1 الأهواز 	TYPE مدينة 	STTL جوزدك 
+REG1 الأهواز 	TYPE مدينة 	STTL بيروه 
+REG1 الأهواز 	TYPE مدينة 	STTL سوق الأربعاء 
+REG1 الأهواز 	TYPE مدينة 	STTL حصن مهدى 
+REG1 الأهواز 	TYPE مدينة 	STTL باسيان 
+REG1 الأهواز 	TYPE مدينة 	STTL شوراب 
+REG1 الأهواز 	TYPE مدينة 	STTL بندم 
+REG1 الأهواز 	TYPE مدينة 	STTL الدورق 
+REG1 الأهواز 	TYPE مدينة 	STTL وسنة 
+REG1 الأهواز 	TYPE مدينة 	STTL جبى 
+REG1 الدورق 	TYPE مدينة 	STTL آزر 
+REG1 الدورق 	TYPE مدينة 	STTL أجم 
+REG1 الدورق 	TYPE مدينة 	STTL بخساباذ 
+REG1 الدورق 	TYPE مدينة 	STTL الدز 
+REG1 الدورق 	TYPE مدينة 	STTL اندبار 
+REG1 الدورق 	TYPE مدينة 	STTL ميراقيان 
+REG1 الدورق 	TYPE مدينة 	STTL ميراثيان 
+REG1 رامهرمز 	TYPE مدينة 	STTL سنبل 
+REG1 رامهرمز 	TYPE مدينة 	STTL إيذج 
+REG1 رامهرمز 	TYPE مدينة 	STTL تيرم 
+REG1 رامهرمز 	TYPE مدينة 	STTL بازنك 
+REG1 رامهرمز 	TYPE مدينة 	STTL لاذ 
+REG1 رامهرمز 	TYPE مدينة 	STTL غروة 
+REG1 رامهرمز 	TYPE مدينة 	STTL بابج 
+REG1 رامهرمز 	TYPE مدينة 	STTL كوزوك 
+REG1 أرجان 	TYPE قصبة 	STTL أرجان 
+REG1 أرجان 	TYPE مدينة 	STTL قوستان 
+REG1 أرجان 	TYPE مدينة 	STTL داريان 
+REG1 أرجان 	TYPE مدينة 	STTL مهربان 
+REG1 أرجان 	TYPE مدينة 	STTL جنابة 
+REG1 أرجان 	TYPE مدينة 	STTL سينيز 
+REG1 أرجان 	TYPE مدينة 	STTL جومة 
+REG1 أرجان 	TYPE مدينة 	STTL هندوان 
+REG1 أردشيرخره 	TYPE قصبة 	STTL سيراف 
+REG1 أردشيرخره 	TYPE مدينة 	STTL جور 
+REG1 أردشيرخره 	TYPE مدينة 	STTL ميمند 
+REG1 أردشيرخره 	TYPE مدينة 	STTL نابند 
+REG1 أردشيرخره 	TYPE مدينة 	STTL الصيمكان 
+REG1 أردشيرخره 	TYPE مدينة 	STTL خبر 
+REG1 أردشيرخره 	TYPE مدينة 	STTL خورستان 
+REG1 أردشيرخره 	TYPE مدينة 	STTL الغندجان 
+REG1 أردشيرخره 	TYPE مدينة 	STTL كران 
+REG1 أردشيرخره 	TYPE مدينة 	STTL سميران 
+REG1 أردشيرخره 	TYPE مدينة 	STTL زيرباذ 
+REG1 أردشيرخره 	TYPE مدينة 	STTL نجيرم 
+REG1 أردشيرخره 	TYPE مدينة 	STTL نابند دون 
+REG1 أردشيرخره 	TYPE مدينة 	STTL سورو 
+REG1 أردشيرخره 	TYPE مدينة 	STTL راس كشم 
+REG1 درابجرد 	TYPE قصبة 	STTL درابجرد 
+REG1 درابجرد 	TYPE مدينة 	STTL طبستان 
+REG1 درابجرد 	TYPE مدينة 	STTL الكردبان 
+REG1 درابجرد 	TYPE مدينة 	STTL كرم 
+REG1 درابجرد 	TYPE مدينة 	STTL يزدخواست 
+REG1 درابجرد 	TYPE مدينة 	STTL المسكانات 
+REG1 درابجرد 	TYPE مدينة 	STTL رم شهريار 
+REG1 درابجرد 	TYPE مدينة 	STTL كدروا 
+REG1 درابجرد 	TYPE مدينة 	STTL اوجين 
+REG1 درابجرد 	TYPE مدينة 	STTL ايك 
+REG2 نيريز 	TYPE مدينة 	STTL خيار 
+REG2 نيريز 	TYPE مدينة 	STTL المريزجان 
+REG2 نيريز 	TYPE مدينة 	STTL الماذوان 
+REG2 خسو 	TYPE مدينة 	STTL روبنج 
+REG2 خسو 	TYPE مدينة 	STTL رستاق الرستاق 
+REG2 خسو 	TYPE مدينة 	STTL فرج 
+REG2 خسو 	TYPE مدينة 	STTL تارم 
+REG1 شيراز 	TYPE قصبة 	STTL شيراز 
+REG1 شيراز 	TYPE مدينة 	STTL البيضاء 
+REG1 شيراز 	TYPE مدينة 	STTL فسا 
+REG1 شيراز 	TYPE مدينة 	STTL المص 
+REG1 شيراز 	TYPE مدينة 	STTL كول 
+REG1 شيراز 	TYPE مدينة 	STTL جور 
+REG1 شيراز 	TYPE مدينة 	STTL كارزين 
+REG1 شيراز 	TYPE مدينة 	STTL دشت بارين 
+REG1 شيراز 	TYPE مدينة 	STTL جم 
+REG1 شيراز 	TYPE مدينة 	STTL جوبك 
+REG1 شيراز 	TYPE مدينة 	STTL جمكان 
+REG1 شيراز 	TYPE مدينة 	STTL كورد 
+REG1 شيراز 	TYPE مدينة 	STTL بجه 
+REG1 شيراز 	TYPE مدينة 	STTL هزار 
+REG1 شيراز 	TYPE مدينة 	STTL أبك 
+REG1 سابور 	TYPE قصبة 	STTL شهرستان 
+REG1 سابور 	TYPE مدينة 	STTL دريز 
+REG1 سابور 	TYPE مدينة 	STTL  كازرون 
+REG1 سابور 	TYPE مدينة 	STTL خره 
+REG1 سابور 	TYPE مدينة 	STTL النوبندجان 
+REG1 سابور 	TYPE مدينة 	STTL كاريان 
+REG1 سابور 	TYPE مدينة 	STTL كندران 
+REG1 سابور 	TYPE مدينة 	STTL توز 
+REG1 سابور 	TYPE مدينة 	STTL رم الأكراد 
+REG1 سابور 	TYPE مدينة 	STTL جنبد 
+REG1 سابور 	TYPE مدينة 	STTL خشت 
+REG1 إصطخر 	TYPE مدينة 	STTL هراة 
+REG1 إصطخر 	TYPE مدينة 	STTL ميبذ 
+REG1 إصطخر 	TYPE مدينة 	STTL مائين الفهرج 
+REG1 إصطخر 	TYPE مدينة 	STTL الحيرة 
+REG1 إصطخر 	TYPE مدينة 	STTL فاروق 
+REG1 إصطخر 	TYPE مدينة 	STTL سروستان 
+REG1 إصطخر 	TYPE مدينة 	STTL أسبنجان 
+REG1 إصطخر 	TYPE مدينة 	STTL بوان كرمان 
+REG1 إصطخر 	TYPE مدينة 	STTL شهرباتق 
+REG1 إصطخر 	TYPE مدينة 	STTL أورد 
+REG1 إصطخر 	TYPE مدينة 	STTL الرون 
+REG1 إصطخر 	TYPE مدينة 	STTL خرمة 
+REG1 إصطخر 	TYPE مدينة 	STTL ده أشتران 
+REG1 إصطخر 	TYPE مدينة 	STTL ترك نيشان 
+REG1 إصطخر 	TYPE مدينة 	STTL صاهه 
+REG1 إصطخر 	TYPE مدينة 	STTL شبابك 
+REG1 بردسير 	TYPE قصبة 	STTL بردسير 
+REG1 بردسير 	TYPE مدينة 	STTL ماهان 
+REG1 بردسير 	TYPE مدينة 	STTL كوغون 
+REG1 بردسير 	TYPE مدينة 	STTL زرند 
+REG1 بردسير 	TYPE مدينة 	STTL جنزروذ 
+REG1 بردسير 	TYPE مدينة 	STTL كوه بيان 
+REG1 بردسير 	TYPE مدينة 	STTL قواف 
+REG1 بردسير 	TYPE مدينة 	STTL أناس 
+REG1 بردسير 	TYPE مدينة 	STTL زاور 
+REG1 بردسير 	TYPE مدينة 	STTL خوناوب 
+REG1 بردسير 	TYPE مدينة 	STTL غبيرا 
+REG1 بردسير 	TYPE مدينة 	STTL كارشتان 
+REG1 نرماسير 	TYPE مدينة 	STTL باهر 
+REG1 نرماسير 	TYPE مدينة 	STTL كرك 
+REG1 نرماسير 	TYPE مدينة 	STTL ريكان 
+REG1 نرماسير 	TYPE مدينة 	STTL نسا 
+REG1 السيرجان 	TYPE مدينة 	STTL بيمند 
+REG1 السيرجان 	TYPE مدينة 	STTL الشامات 
+REG1 السيرجان 	TYPE مدينة 	STTL واجب 
+REG1 السيرجان 	TYPE مدينة 	STTL بزورك 
+REG1 السيرجان 	TYPE مدينة 	STTL خور 
+REG1 السيرجان 	TYPE مدينة 	STTL دشت برين 
+REG1 بم 	TYPE مدينة 	STTL دارژين 
+REG1 بم 	TYPE مدينة 	STTL طوشتان 
+REG1 بم 	TYPE مدينة 	STTL أوارك 
+REG1 بم 	TYPE مدينة 	STTL مهركرد 
+REG1 بم 	TYPE مدينة 	STTL راين 
+REG1 جيرفت 	TYPE مدينة 	STTL باس 
+REG1 جيرفت 	TYPE مدينة 	STTL جكين 
+REG1 جيرفت 	TYPE مدينة 	STTL منوقان 
+REG1 جيرفت 	TYPE مدينة 	STTL درهقان 
+REG1 جيرفت 	TYPE مدينة 	STTL جوى سليمان 
+REG1 جيرفت 	TYPE مدينة 	STTL كوه بارجان 
+REG1 جيرفت 	TYPE مدينة 	STTL قوهستان 
+REG1 جيرفت 	TYPE مدينة 	STTL مغون 
+REG1 جيرفت 	TYPE مدينة 	STTL جواون 
+REG1 جيرفت 	TYPE مدينة 	STTL ولاشجرد 
+REG1 جيرفت 	TYPE مدينة 	STTL زوذكان 
+REG1 جيرفت 	TYPE مدينة 	STTL درفانى 
+REG1 مكران 	TYPE قصبة 	STTL بنجبور 
+REG1 مكران 	TYPE مدينة 	STTL مشكة 
+REG1 مكران 	TYPE مدينة 	STTL كيج 
+REG1 مكران 	TYPE مدينة 	STTL سرى 
+REG1 مكران 	TYPE مدينة 	STTL شهر 
+REG1 مكران 	TYPE مدينة 	STTL بربور 
+REG1 مكران 	TYPE مدينة 	STTL خواش 
+REG1 مكران 	TYPE مدينة 	STTL دمندان 
+REG1 مكران 	TYPE مدينة 	STTL جالك 
+REG1 مكران 	TYPE مدينة 	STTL دزك 
+REG1 مكران 	TYPE مدينة 	STTL دشت علي 
+REG1 مكران 	TYPE مدينة 	STTL التيز 
+REG1 طوران 	TYPE قصبة 	STTL قزدار 
+REG1 طوران 	TYPE مدينة 	STTL قندبيل 
+REG1 طوران 	TYPE مدينة 	STTL بجثرد 
+REG1 طوران 	TYPE مدينة 	STTL جثرد 
+REG1 طوران 	TYPE مدينة 	STTL بكانان 
+REG1 طوران 	TYPE مدينة 	STTL خوزي 
+REG1 طوران 	TYPE مدينة 	STTL رستاكهن 
+REG1 طوران 	TYPE مدينة 	STTL رستاق روذ 
+REG1 طوران 	TYPE مدينة 	STTL موردان  
+REG1 طوران 	TYPE مدينة 	STTLرستاق ماسكان 
+REG1 طوران 	TYPE مدينة 	STTL كهركور 
+REG1 السند 	TYPE قصبة 	STTL المنصورة 
+REG1 السند 	TYPE مدينة 	STTL ديبل 
+REG1 السند 	TYPE مدينة 	STTL زندريج 
+REG1 السند 	TYPE مدينة 	STTL كدار 
+REG1 السند 	TYPE مدينة 	STTL مايل 
+REG1 السند 	TYPE مدينة 	STTL تنبلى 
+REG1 قنوج 	TYPE قصبة 	STTL قنوج 
+REG1 قنوج 	TYPE مدينة 	STTL قدار 
+REG1 قنوج 	TYPE مدينة 	STTL ابار 
+REG1 قنوج 	TYPE مدينة 	STTL كهارة 
+REG1 قنوج 	TYPE مدينة 	STTL بارد 
+REG1 قنوج 	TYPE مدينة 	STTL وجين 
+REG1 قنوج 	TYPE مدينة 	STTL اورهة 
+REG1 قنوج 	TYPE مدينة 	STTL زهو 
+REG1 قنوج 	TYPE مدينة 	STTL هر 
+REG1 قنوج 	TYPE مدينة 	STTL برهيروا 
+REG1 الملتان 	TYPE قصبة 	STTL الملتان 
+REG1 الملتان 	TYPE مدينة 	STTL برار 
+REG1 الملتان 	TYPE مدينة 	STTL راماذان 
+REG1 الملتان 	TYPE مدينة 	STTL وروين 
+REG1 الملتان 	TYPE مدينة 	STTL برور 

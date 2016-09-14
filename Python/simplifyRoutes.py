@@ -1,4 +1,8 @@
-# To remove the coordinates of cornu routes, except source and destination coordinates.
+"""
+ To simplify the coordinates of cornu routes by removing the coordinates except source and destination coordinates.
+ The output is used in Geo-Bio (project) in http://bl.ocks.org/masoumeh/4b6a27fd50ffdd81c34fb3c59963a401.
+ The idea was to simplify the routes on the map. 
+"""
 
 from networkx.readwrite import json_graph
 import io, json

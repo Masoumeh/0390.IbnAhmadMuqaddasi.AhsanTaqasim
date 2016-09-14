@@ -1,3 +1,8 @@
+"""
+Removes waystations and RoutPoints (or any other type that is mentioned) from Cornu file.
+It's been used in Geo-Bio (project) in: http://bl.ocks.org/masoumeh/4b6a27fd50ffdd81c34fb3c59963a401
+"""
+
 import io, json, csv
 import re
 import sys  
@@ -9,7 +14,6 @@ def delRows(fileName, rowList):
   for row in data_dict:
     if row['topType'] not in rowList:
       rows.append(row)
-    #print(row)
     with io.open('../Data/cornuFiltered.csv', 'w', encoding='utf-8') as f:
       fWriter = csv.writer(f, delimiter=',')
       fWriter.writerow(["arBW","source","arTitle","lat", "eiSearch","lon","region", "translitTitleOther","topURI","searchNames", "topTypeAlt", "topType", "translitTitle", "arTitleOther", "UStranslitTitle"])   

@@ -1,12 +1,20 @@
+"""
+To find the routes connected to toponym (from geo texts) that are not found in Cornu.
+It searches for route sections (of geo text) to which those toponyms are connected.
+By this way we are gathering more information about the toponyms without coordinates with might help us to spot them on the map!
+"""
 
-from networkx.readwrite import json_graph
 import io, json, csv
 import re
 import sys  
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
 
 
-# Normalization function
 def normalizeArabic(text):
+    """
+    Normalization function
+    """
     text = re.sub("[إأٱآا]", "ا", text)
     text = re.sub("ى", "ي", text)
     text = re.sub("ؤ", "ء", text)
@@ -16,9 +24,12 @@ def normalizeArabic(text):
       text = text[2:] 
     return(text)
 
-# makes a list of sttl names
-def getSttlWithRegs(fileName):
-    # list of names
+
+def getSttls(fileName):
+    """
+    Makes a list of sttl names out of the csv containing hierarchies in lines (from PROV to STTL)
+    that are not found in Cornu.    
+    """
     names = list()
     with open(fileName, "r", encoding="utf8") as f1:
         f1 = csv.reader(f1, delimiter=',')
@@ -26,17 +37,29 @@ def getSttlWithRegs(fileName):
           names.append(l[-1][4:].strip())
     return names
 
-def findNotCommons(fileName):
-    
-   sttls = getSttlWithRegs("../Data/notCommon_checkAgainstCommons.txt")
+def findNotCommons(fileName, writer):
+   """
+   Main functions to 
+   """
+   notCommonInRoutes = []
+   sttls = getSttls("../Data/notCommon_checkAgainstCommons.txt")
    for sttl in sttls:
      with open(fileName, "r", encoding="utf8") as triRoutes:
-       triRoutes = csv.reader(triRoutes, delimiter=',')
+       triRoutes = csv.reader(triRoutes, delimiter='\t')
        for tri in triRoutes:
          #print("sttl:",sttl,"tri:",tri[0],"tri[1]:",tri[1],)
-         if normalizeArabic(sttl) == normalizeArabic(tri[0].strip()) or normalizeArabic(sttl) == normalizeArabic(tri[1].strip()): 
-           notCommonInRoutes.append(sttl)
+         if fuzz.ratio(normalizeArabic(sttl), normalizeArabic(tri[0][4:].strip())) >= 90 or fuzz.ratio(normalizeArabic(sttl), normalizeArabic(tri[1][4:].strip())) >= 90: 
+           notCommonInRoutes.append(tri)
+   print(len(notCommonInRoutes))
+   for r in notCommonInRoutes:
+     writer.writerow(r)
    return notCommonInRoutes
     
-findNotCommons("../Data/tripleRoutes_withMeter")
 
+with open("../Data/noCommon_Routes", "w", encoding="utf8") as distURI:
+      fWriter = csv.writer(distURI, delimiter=',')
+      fWriter.writerow(["From", "To", "Dist_Meter"])
+      nc = findNotCommons("../Data/Shamela_0023696_Triples_Dist", fWriter)
+      
+        
+print("done!")

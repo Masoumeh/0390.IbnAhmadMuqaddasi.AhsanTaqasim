@@ -1,5 +1,9 @@
-# Extracts the list of similar sttl names with cornu, using fuzzywuzzy and normalization (or exact match in comment!).
-# Output file is csv, containing sttl names, region from both cornu and geography file. 
+"""
+Makes a list of similar sttl names with cornu, usinf fuzzywuzzy with more that 100% similarity ration (or exact match that is commented out!).
+This is a version of extract_coordWithHierarchy.py extended with normalization function on arabic words. We use this script as the most complete version.
+The output is a csv file, containing sttl names, region from both Cornu and geographical text and other information as:
+["Title in geo text", "Name in Cornu", "TitleOther from Cornu", "lat", "lon", "belonging region in cornu", "Prov in geo text", "direct region (parent) in geo text", "eiSearch from Cornu", "translitTitle from Cornu"]
+"""
 
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
@@ -22,12 +26,16 @@ def normalizeArabic(text):
     text = re.sub("ؤ", "ء", text)
     text = re.sub("ئ", "ء", text)
     text = re.sub("ه", "ة", text)
+    text = re.sub("ک", "ك", text)
     if text.startswith("ال"):
       text = text[2:] 
     return(text)
 
-# makes a list of sttl names with region and provice
+
 def getSttlWithRegs(fileName):
+    """
+    Makes a list of sttl names with region and province
+    """
     # list of names together with latest region and province
     names = list()
     with open(fileName, "r", encoding="utf8") as f1:
@@ -47,15 +55,19 @@ def getSttlWithRegs(fileName):
     print("name count: ", len(names))
     return names
 
-# find the coordinates, last region and the province belonging to for the sttls from cornu file
-# and write them all together in a file
+
 def findCoord(fileName, sttlReg, fWriter):
+  """
+  Finds the coordinates, last region and the province belonging to for the sttls from cornu file
+  and write them all together in a csv file.
+  """
   sttlName = sttlReg.split('-')[0]
   with open(fileName, "r", encoding="utf8") as jsonFile:    
     allData = json.load(jsonFile)
     for d in allData["data"]:
       fName = d["arTitle"]
       sName = d["arTitleOther"].split(",")
+      #print("stl: ", sttlName, "stl normal: ", normalizeArabic(sttlName), 
 #      if name == fName:
       # check if it finds similar words with arTitle, using fuzzywuzzy library
       if sttlReg and fuzz.ratio(normalizeArabic(sttlName), normalizeArabic(fName))>= 90:

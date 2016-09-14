@@ -24,6 +24,6 @@ with open("Shamela_0023696_Triples_H", "r") as f1:
 print(len(res))
 print(len(res2))
 print(len(res-res2))
-with open("test", "a") as f2:          
+with open("../Data/test", "a") as f2:          
   f2.write(','.join(res-res2))
   

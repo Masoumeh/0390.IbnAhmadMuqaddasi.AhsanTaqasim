@@ -1,4 +1,7 @@
-# Finding the similar sttl name with cornu, using levenstein.
+"""
+Finding the similar sttl name with Cornu, using levenstein approach.
+
+"""
 
 import io
 import csv, json
@@ -30,7 +33,7 @@ def levenshtein_distance(first, second):
     return distance_matrix[first_length-1][second_length-1]
 
 sttls =[]
-with open('Shamela_0023696_Triples_H', 'r') as csvfile:
+with open('../Data/Shamela_0023696_Triples_H', 'r') as csvfile:
   reader = csv.reader(csvfile, delimiter=',', quotechar='|')
   #with open ('cornu.csv') as cornu:
     #data = csv.reader(cornu, delimiter=',', quotechar='|')
@@ -47,7 +50,7 @@ with open('Shamela_0023696_Triples_H', 'r') as csvfile:
             sttl = "-".join((sttl, d[2]))
             #print("sttl ", sttl)
             sttls.append(sttl) 
-with io.open('levensteinWithCornu.txt', 'w', encoding='utf-8') as f:
+with io.open('../Data/levensteinWithCornu.txt', 'w', encoding='utf-8') as f:
   f.write(unicode("\n".join(sttls))) 
 print("done!")    
 

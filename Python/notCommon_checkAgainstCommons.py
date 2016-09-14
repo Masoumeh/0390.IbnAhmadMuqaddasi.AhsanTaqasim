@@ -1,3 +1,7 @@
+"""
+Makes a file out of toponyms (STTLs in hierarchy file) not found in Cornu, by checking the toponyms against the list of common names.
+The Common toponyms are in an input file.
+"""
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import io
@@ -7,8 +11,7 @@ import sys, re
 #reload(sys)  
 #sys.setdefaultencoding('utf8')
 
-# To find common sttl names with cornu using fuzzywuzzy library.
-# Can be replced with extract_coordWithHierarchy.py
+
 sttls =[]
 found = "false"
 with open('../Data/Shamela_0023696_Triples_H', 'r') as triFile:

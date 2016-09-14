@@ -1,4 +1,6 @@
-# Converts json to csv 
+"""
+Converts json to csv
+"""
 
 import json
 import csv

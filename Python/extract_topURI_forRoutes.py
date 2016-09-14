@@ -1,6 +1,11 @@
+"""
+To find the topURIs from cornu for the routes extracted from geographies. 
+This is an early version of extract_coord_ofDistanceFile. 
+It checks the exact match of toponyms, not using fuzzywuzzy and any normalization on arabic words!
+"""
 import re
 import csv, json
-# To find the topURIs from cornu for the routes extracted from geographies
+
 def extractTopURI(fileName, writer):
     with open(fileName, 'r') as triFile:
       triReader = csv.reader(triFile, delimiter='\t', quotechar='|')

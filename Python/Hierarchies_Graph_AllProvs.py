@@ -1,7 +1,10 @@
-# To create a file out of the geographical hierarchies, using the hierarchical triples.
-# Each line in the file starts with the most top level division and ends with sttls.
-# Also, creates a json to be used in visualizations.
-
+"""
+To create a file out of the geographical hierarchies, using the hierarchical triples.
+This is the generalized version of Hierarchies_Graph.py, which does the same for all PROVs all together.
+All PROVs are integrated in a single graph. The graph also will be traversed to find the hierarchies from PROV to STTL.
+Then, the hierarchies resulting from the traversal will be written a file in which each line starts with the most top level division and ends with sttls.
+Also, creates a json to be used in visualizations.
+"""
 from networkx.readwrite import json_graph
 import io, json
 import re
@@ -25,7 +28,11 @@ def getSetOfName(fileName,name):
 
 cnt = 2
 count = 0
+
 def graphLevel(g, fileName, node_id, trav):
+  """
+  To traverse the graph and form individal routes from PROV to STTL, expressing single hierarchies.
+  """
   global cnt
   global count
   
@@ -56,6 +63,10 @@ def graphLevel(g, fileName, node_id, trav):
           trav.pop()
 
 def buildHierarchiesGraph(fileName):
+    """
+    Main functoin to build the graph and write it to a file.
+    It also creats a json representation of the hierarchies.
+    """
     global cnt
     data = []
     roots = getSetOfName(fileName,"PROV")
@@ -66,7 +77,6 @@ def buildHierarchiesGraph(fileName):
 
     for rs in roots:
       trav=[]
-      #print(rs,cnt)
       g.add_edge(1,cnt, label = "child of root")
       g.add_node(cnt,label=rs) 
       trav.append(''+ g.node[cnt]['label'])
@@ -76,7 +86,7 @@ def buildHierarchiesGraph(fileName):
       
       
     data = json_graph.tree_data(g,root=1)
-    with io.open('tree'+g.node[1]['label']+'.json', 'w', encoding='utf-8') as f:
+    with io.open('../Data/tree'+g.node[1]['label']+'.json', 'w', encoding='utf-8') as f:
       f.write(unicode(json.dumps(data, ensure_ascii=False)))	
 
 buildHierarchiesGraph("../Data/Shamela_0023696_Triples")

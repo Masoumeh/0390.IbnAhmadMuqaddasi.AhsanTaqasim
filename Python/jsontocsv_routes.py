@@ -1,5 +1,6 @@
-# Converts json to csv 
-
+"""
+Converts json to csv (here Cornu route file is converted)
+"""
 import json
 import csv
 from json import load

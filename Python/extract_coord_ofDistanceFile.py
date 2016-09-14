@@ -1,5 +1,10 @@
-# Extracts region, coords, and topURI for the routes from Cornu.
-
+"""
+Extracts region, coords, and topURI for the route sections of a geographic text, all from Cornu.
+It also uses some Arabic normalizations on the word while searching and matching toponyms from both sources.
+For those toponyms in route sections (i.e. FROM/TO) which doesn't find any match in cornu, fills the information with "null" value.
+The out put is a csv file, with all data lines of route sections (from geo text), extended as:
+["From", "From_lat", "From_long", "From_Region(Cornu)", "From_URI(Cornu)", "To", "To_lat", "To_long", "To_Region(Cornu)", "To_URI", "original distance in classic text"]
+"""
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from networkx.readwrite import json_graph
@@ -15,19 +20,26 @@ import operator
 #sys.setdefaultencoding('utf8')
 
 
-# Normalization function
 def normalizeArabic(text):
+    """
+    Normalization function
+    """
     text = re.sub("[إأٱآا]", "ا", text)
     text = re.sub("ى", "ي", text)
     text = re.sub("ؤ", "ء", text)
     text = re.sub("ئ", "ء", text)
     text = re.sub("ه", "ة", text)
+    text = re.sub("ک", "ك", text)
     if text.startswith("ال"):
       text = text[2:] 
     return(text)
 
 
 def populateDict(string, data):
+    """
+    Populates a dictionay values with coordinates, region, and TOP_URI values for a toponym as key.
+    used in getStartEndCoords function
+    """
     dictionary = {}
     fName = data["arTitle"]
     sName = data["arTitleOther"].split(",")
@@ -44,6 +56,11 @@ def populateDict(string, data):
     return dictionary
 
 def getStartEndCoords(fileName1, fileName2):
+    """
+    Extracts the coordinates, region, and URI for each toponym at start or end of a route section.
+    The result is a dictionary with toponyms as key, and extracted data as values.
+    It calls populateDict function to populate the dictionsry.
+    """
     uniqueNames = dict()
     with open(fileName1, "r", encoding="utf8") as f1:
         f1 = csv.reader(f1, delimiter='\t')
@@ -56,17 +73,19 @@ def getStartEndCoords(fileName1, fileName2):
                 # populates the uniqueNames dictionary for start and end toponyms
                 uniqueNames.update(populateDict(start, d))
                 uniqueNames.update(populateDict(end, d))
-        #print("Unames: ", uniqueNames)
         return uniqueNames
 
 
 def getCornuCoord_forDistances(distanceFile, cornuRoutesFile, cornuCoordsFile):
+    """
+    The main function which calls the other functions to create a structure ans write it to a csv file.
+    """
     dataToWrite = []
     not_common = []
     coords = getStartEndCoords(distanceFile,cornuCoordsFile)
     with open("../Data/Distances_withCoords_normalized", 'w', encoding="utf8") as csvCoord:
       fWriter = csv.writer(csvCoord, delimiter=',')
-      fWriter.writerow(["From", "From_lat", "From_long", "From_Region", "From_RUI", "To", "To_lat", "To_long", "To_Region", "To_URI", "distance"])
+      fWriter.writerow(["From", "From_lat", "From_long", "From_Region", "From_URI", "To", "To_lat", "To_long", "To_Region", "To_URI", "distance"])
       with open(distanceFile, "r", encoding="utf8") as csvfile:
         distances = csv.reader(csvfile, delimiter='\t', quotechar='|')
         for line in distances:

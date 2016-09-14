@@ -1,5 +1,7 @@
-# Extracts routes connected to ROUTEPOINTS in cornu.
-
+"""
+Extracts all routes connected to ROUTEPOINTS in cornu. Not completed and used!!!
+It seams we don't need it anymore!
+"""
 import io, json
 import re
 import sys, codecs
@@ -16,7 +18,7 @@ def getRoutes(fileName):
               if sTopo.startswith('ROUTPOINT'):
                 if routePoint['sToponym'] not in routePoints:  
                  routePoint['sToponym'] = []  
-                 routePoint['sToponym'].extend(d['properties']['eToponym'])
+                routePoint['sToponym'].extend(d['properties']['eToponym'])
               elif eTopo.startswith('ROUTPOINT'):
                 if routePoint['eToponym'] not in routePoints:  
                  routePoint['eToponym'] = []  
@@ -41,7 +43,6 @@ def connectByRoutePoints(cornuRouteFile):
           distance = line[-1][5:].strip()
           fWriter.writerow([start, ",".join( str(e) for e in coords[start]) if start in coords else "null,null,null,null", 
                             end, ",".join( str(e) for e in coords[end]) if end in coords else "null,null,null,null", distance])
-        #fWriter.writerow(dataToWrite)
           if start not in coords:
              not_common.append(start)
           if end not in coords:
