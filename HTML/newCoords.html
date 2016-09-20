@@ -38,24 +38,23 @@ circle {
     
     csvLayer = d3.carto.layer.csv();
     csvLayer
-    .path("newCoords_cartesian2.csv")
+    .path("../Data/newCoords_graph_bufferCenter.csv")
     .label("CSV Points")
     .cssClass("pinkcircle")
     .renderMode("svg")
     .markerSize(4)
-    .x("lng")
-    .y("lat")
+    .x("lat")
+    .y("lng")
     .clickableFeatures(true)
     .on("load", function(d) {
-			d3.selectAll("circle").style("fill", function(d) {console.log(d.property); 
-                        if (d.property.indexOf('new') !== -1) return "red" 
-			else return "green"})});
+			d3.selectAll("circle").style("fill", function(d) {
+                        if (d.status.indexOf('new') !== -1) return "red"
+            			else return "green"})});
     
 
     map.addCartoLayer(tileLayer).addCartoLayer(csvLayer);
     map.centerOn([44.361488,33.312806],"latlong").setScale(2);
-    console.log(d3.selectAll("circle"))
-    
+
     //color = d3.scale.sqrt().domain([0,10000000]).range([0,10]).clamp(true);
     //d3.selectAll("circle").style("fill", function(d) {console.log(d.property); 							
 	//							if (d.property.indexOf('new') !== -1) return "red" 

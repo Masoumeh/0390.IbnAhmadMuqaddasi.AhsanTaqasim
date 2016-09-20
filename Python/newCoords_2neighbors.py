@@ -79,8 +79,8 @@ def createGraph(fileName):
                found = found - 1
 
          
-   with open("../Data/newCoords_graph.csv", "w", encoding="utf8") as distMeter:
-     fWriter = csv.writer(distMeter, delimiter=',',)
+   with open("../Data/newCoords_graph.csv", "w", encoding="utf8") as newGraph:
+     fWriter = csv.writer(newGraph, delimiter=',')
      fWriter.writerow(["name", "lat", "lng"])
      for node in G.nodes():
        fWriter.writerow([node, G.node[node]['lat'], G.node[node]['lng']])
