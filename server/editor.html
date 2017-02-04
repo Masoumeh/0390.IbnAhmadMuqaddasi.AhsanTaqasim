@@ -8,19 +8,6 @@
 
 <script>
     var places = {};
-    function saveData(data, fileName) {
-        var a = document.createElement("a");
-        document.body.appendChild(a);
-        a.style = "display: none";
-        var json = JSON.stringify(data),
-                blob = new Blob([json], {type: "octet/stream"}),
-                url = window.URL.createObjectURL(blob);
-        a.href = url;
-        a.download = fileName;
-        a.click();
-        window.URL.revokeObjectURL(url);
-
-    };
     function trueSource(placeUri, fUri, elemId) {
         // Stop events bubbling to the highest point in the DOM.
         // i.e. stop firing the (parent)<li> tag's click event
@@ -69,7 +56,7 @@
             features.push(places[pUri])
         });
         var writeplaces = {"type": "FeatureCollection", "features": features};
-        writeJsonToFile(writeplaces,"processed.json")
+        writeJsonToFile(writeplaces,"processedSources.json")
         //var blob = new Blob([JSON.stringify(writeplaces)], {type: "octet/stream"});
         // Save all objects in a new file (or as the same of orignial file, places.geojson)
         // The edited file should be used for each time that the page is loaded, to show the edited data
@@ -88,7 +75,7 @@
 
     function downloadProcessed() {
         readProcessedData(function(processed){
-            saveData(processed,"processed.json");
+            saveData(processed,"processedSources.json");
         });
     }
     function makeSomeMaps() {
@@ -260,28 +247,7 @@
     <script src="https://rawgit.com/emeeks/d3-carto-map/master/d3.carto.map.min.js" type="text/javascript"></script></footer>
 <script src="https://rawgit.com/eligrey/FileSaver.js/master/FileSaver.js"></script>
 <script src="/socket.io/socket.io.js"></script>
-Server script
-<script>
-var socket = io();
-function writeDataToFile(d, f) {
-var str = { data: d, file:f};
-socket.emit('writeDataToFile', str);
-}
-function writeJsonToFile(d,f) {
-var str = { data: d, file:f};
-socket.emit('writeJsonToFile',str);
-}
-function appendDataToFile(d, f) {
-var str = { data: d, file:f};
-socket.emit('appendDataToFile', str);
-}
-function readProcessedData(func) {
-socket.emit('readProcessedData',"hi");
-socket.on('readProcessedData', function(msg){
-func(msg);
-});
-}
-</script>
+<script src="comm_funcs.js"></script>
 </body>
 </html>
 
