@@ -1,34 +1,36 @@
 var http = require("http");
 var fs = require('fs');
-var port = 3000;
-var serverUrl = "127.0.0.1";
+var port = 8008;
+var serverUrl = "0.0.0.0";
 var counter = 0;
-
-var server = http.createServer(function(req, res) {
-  counter++;
-  console.log("Request: " + req.url + " (" + counter + ")");
-  console.log("req.url: "+req.url)
-  if(req.url == "/") {
-    //fs.readFile("matchToCornu.html", function(err, text){
-    console.log("if ")
-
-    fs.readFile("editor.html", function(err, text){
-      res.setHeader("Content-Type", "text/html");
-      res.end(text);
-    });
-    return;
-  }
-  //
-  //if(req.url == "/SttlReg_CoordsCSV_fuzzyWuzzy.csv") {
-  if(req.url == "/places.geojson") {
-    //fs.readFile('SttlReg_CoordsCSV_fuzzyWuzzy.csv', 'utf8', function (err, data) {
-    fs.readFile('places.geojson', 'utf8', function (err, data) {
-      console.log("data: "+data)
-      res.setHeader("Content-Type", "text");
-      res.write(data);
-      res.end();
-    })
-  }
+var server = http.createServer(function (request, response) {
+  console.log(request.url);
+  fs.readFile('./' + request.url, function(err, data) {
+    if (!err) {
+      var dotoffset = request.url.lastIndexOf('.');
+      var mimetype = dotoffset == -1
+          ? 'text/plain'
+          : {
+        '.html' : 'text/html',
+        '.ico' : 'image/x-icon',
+        '.jpg' : 'image/jpeg',
+        '.png' : 'image/png',
+        '.gif' : 'image/gif',
+        '.css' : 'text/css',
+        '.js' : 'text/javascript',
+	'.geojson' : 'application/json',
+	'.json' : 'application/json',
+	'.csv' : 'text/csv'
+      }[ request.url.substr(dotoffset) ];
+      response.setHeader('Content-type' , mimetype);
+      response.end(data);
+      console.log( request.url, mimetype );
+    } else {
+      console.log ('file not found: ' + request.url);
+      response.writeHead(404, "Not Found");
+      response.end();
+    }
+  });
 });
 
 var io = require('socket.io')(server);
