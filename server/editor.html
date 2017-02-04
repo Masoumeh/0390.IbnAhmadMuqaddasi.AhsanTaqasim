@@ -86,6 +86,11 @@
     //        }
     //    })();
 
+    function downloadProcessed() {
+        readProcessedData(function(processed){
+            saveData(processed,"processed.json");
+        });
+    }
     function makeSomeMaps() {
         map = d3.carto.map();
 
@@ -242,6 +247,7 @@
                 <hr>
                 <button id="saveBtn" onclick="saveChanges()">Save Changes!</button>
             </div>
+            <button id="down-processed" onclick="downloadProcessed()">Download Processed</button>
         </div>
     </div>
 </div>
