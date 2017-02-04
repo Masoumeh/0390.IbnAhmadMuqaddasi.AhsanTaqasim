@@ -258,22 +258,22 @@ Server script
 <script>
 var socket = io();
 function writeDataToFile(d, f) {
-var str = { data: d, file:f};
-socket.emit('writeDataToFile', str);
+    var str = {data: d, file: f};
+    socket.emit('writeDataToFile', str);
 }
 function writeJsonToFile(d,f) {
-var str = { data: d, file:f};
-socket.emit('writeJsonToFile',str);
+    var str = {data: d, file: f};
+    socket.emit('writeJsonToFile', str);
 }
 function appendDataToFile(d, f) {
-var str = { data: d, file:f};
-socket.emit('appendDataToFile', str);
+    var str = {data: d, file: f};
+    socket.emit('appendDataToFile', str);
 }
 function readProcessedData(func) {
-socket.emit('readProcessedData',"hi");
-socket.on('readProcessedData', function(msg){
-func(msg);
-});
+    socket.emit('readProcessedData', "hi");
+    socket.on('readProcessedData', function (msg) {
+        func(msg);
+    });
 }
 </script>
 </body>
