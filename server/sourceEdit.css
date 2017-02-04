@@ -76,7 +76,7 @@ html,body {
 }
 
 .controlsDiv {
-    background: #4C6447;/*rgba(65,64,66,.85);*/
+    background: seagreen;
     position: fixed;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
