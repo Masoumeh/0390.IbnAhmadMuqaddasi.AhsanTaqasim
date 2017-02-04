@@ -50,13 +50,13 @@
         d3.select("#" + elemId).html(divHtml);
         d3.select('#saveDiv').style("display", "none");
     }
-    function saveChanges(){
+    function saveChanges() {
         var features = [];
-        Object.keys(places).forEach(function(pUri) {
+        Object.keys(places).forEach(function (pUri) {
             features.push(places[pUri])
         });
         var writeplaces = {"type": "FeatureCollection", "features": features};
-        writeJsonToFile(writeplaces,"processedEditor.json")
+        writeJsonToFile(writeplaces, "processedEditor.json")
         //var blob = new Blob([JSON.stringify(writeplaces)], {type: "octet/stream"});
         // Save all objects in a new file (or as the same of orignial file, places.geojson)
         // The edited file should be used for each time that the page is loaded, to show the edited data
@@ -64,6 +64,7 @@
 //        d3.select("#false_"+placeUri+"_btn").remove();
 //        d3.select("#true_"+placeUri+"_btn").remove();
         d3.select('#saveDiv').style("display", "none");
+    }
 
     function makeSomeMaps() {
         map = d3.carto.map();
@@ -200,6 +201,11 @@
             })
         }
     }
+    function downloadProcessed() {
+        readProcessedData(function(processed){
+            saveData(processed,"processed.json");
+        });
+    }
 </script>
 < onload="makeSomeMaps()">
 <div id="map"></div>
@@ -220,6 +226,7 @@
             <div id="saveDiv" style="display: none">
                 <hr>
                 <button id="saveBtn" onclick="saveChanges()">Save Changes!</button>
+                <button id="down-processed" onclick="downloadProcessed()">Download Processed</button>
             </div>
         </div>
     </div>
