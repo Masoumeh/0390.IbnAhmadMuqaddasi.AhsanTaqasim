@@ -1,3 +1,7 @@
+"""
+
+"""
+
 from networkx.readwrite import json_graph
 import io, json, csv
 import re
@@ -41,16 +45,15 @@ def createGraph(fileName):
      featureColl = {}
      featureColl['type'] = "FeatureCollection"
      featureColl['features'] = []
-   # check neighbors of nodes without coordinate, whether they have coordinate or not
-     prev_found = 0
 
+     prev_found = 0
      while (found != prev_found ):
        prev_found = found
        print(prev_found ,found)
        for node in G.nodes():
          if G.node[node]['lat'] == "null" and G.node[node]['lng'] == "null" and len(G.neighbors(node)) > 1: 
-
            neighbors[node] = []
+           # find neighbours with coordinate
            for n in G.neighbors(node):
              if G.node[n]['lat'] != "null" and G.node[n]['lng'] != "null": 
                neighbors[node].append(n) 
@@ -60,11 +63,9 @@ def createGraph(fileName):
            if neiLen >= 2:
              x1,y1 = proj1(G.node[neighbors[node][0]]['lat'],G.node[neighbors[node][0]]['lng'])
              x2,y2 = proj1(G.node[neighbors[node][1]]['lat'],G.node[neighbors[node][1]]['lng'])
-             #print("x,y : ", x1, "  " , y1, "x2,y2 : ", x2, "  " , y2)
              # r1 and r2, distances between node and the first two neighbours
              r1 = G[node][neighbors[node][0]]['length']
              r2 = G[node][neighbors[node][1]]['length']
-             #print(Point(x1, y1).buffer(r1))
              circle1 = Point(x1, y1).buffer(Decimal(r1)).boundary
              circle2 = Point(x2, y2).buffer(Decimal(r2)).boundary
              #fWriter.writerow(["{0:4f}".format(newX), "{0:4f}".format(newY), "new"])
@@ -82,8 +83,10 @@ def createGraph(fileName):
                geometry = LineString([Point(newLat1,newLon1), Point(newLat2,newLon2)])#.buffer(0.001)
                geomCentroid = geometry.centroid
                buff = geomCentroid.buffer(0.05)
+               # center of the line/buffer
                centerLat = geomCentroid.coords[0][0]
                centerLon = geomCentroid.coords[0][1]
+               # line or buffer centroid as new coordinates, added to graph
                G.node[node]['lat'] = centerLat
                G.node[node]['lng'] = centerLon
                G.node[node]['status'] = "new"
@@ -100,12 +103,15 @@ def createGraph(fileName):
                aFeature['properties']['name'] = node
                aFeature['properties']['centroid'] = mapping(buff.centroid)
                featureColl['features'].append(aFeature)
-
+     # Write the buffers to file, together with the name of the toponym and possible coordinate, 
+     #that is the centroid of the buffer and connecting line
      with open("../Data/newCoords_bufferCenter_circle.geojson", "w", encoding="utf8") as newCoordFile:
        json.dump(featureColl, newCoordFile, ensure_ascii=False, indent=4)
+     # Write the new graph, contaning the new coordinates, into a file
+     # To change the buffer between circular and ellipsoid, change the file name 
      featureColl['features'] = []
      for node in G.nodes():
-       if G.node[node]['lat'] != "null" and G.node[node]['lng'] != "null":
+       #if G.node[node]['lat'] != "null" and G.node[node]['lng'] != "null":
          aFeature = {}
          aFeature['type'] = 'Feature'
          aFeature['geometry'] = {}
@@ -115,7 +121,7 @@ def createGraph(fileName):
          aFeature['properties']['name'] = node
          aFeature['properties']['status'] = G.node[node]['status']
          featureColl['features'].append(aFeature)
-     with open("../Data/newCoords_graph_bufferCenter_circle.geojson", "w", encoding="utf8") as newGraph:
+     with open("../Data/newCoords_graph_bufferCenter_circle_withNullCoords.geojson", "w", encoding="utf8") as newGraph:
        json.dump(featureColl, newGraph, ensure_ascii=False, indent=4)
 	
 createGraph("../Data/tripleRoutes_withMeter2")

@@ -14,7 +14,6 @@ def measureDistance(fileName, writer):
     with open(fileName, 'r') as triFile:
       triReader = csv.reader(triFile, delimiter=',', quotechar='|')
       for tri in triReader:
-      #print(tri)
           startURI = tri[1].strip()
           toURI = tri[3].strip()
           with open('../Data/all_routes_new.json', 'r') as cornuFile:
@@ -30,6 +29,6 @@ def measureDistance(fileName, writer):
 
 with open("../Data/Shamela_Triples_Dist_cornuMeter", "w", encoding="utf8") as distMeter:
       fWriter = csv.writer(distMeter, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-      fWriter.writerow(["From", "FromUri", "To", "ToUri", "originalDist", "cornuMeter"])
+      fWriter.writerow(["From", "From_Uri", "To", "To_Uri", "Dist_Original", "Dist_CornuMeter"])
       measureDistance("../Data/Shamela_0023696_Triples_Dist_TopURI", fWriter)
 print("Done!")

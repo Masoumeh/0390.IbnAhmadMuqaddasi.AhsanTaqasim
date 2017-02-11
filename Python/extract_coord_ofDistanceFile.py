@@ -41,17 +41,17 @@ def populateDict(string, data):
     used in getStartEndCoords function
     """
     dictionary = {}
-    fName = data["arTitle"]
-    sName = data["arTitleOther"].split(",")
+    fName = data["properties"]["cornuData"]["toponym_arabic"]
+    sName = data["properties"]["cornuData"]["toponym_arabic_other"].split(",")
     if string not in dictionary: 
       if normalizeArabic(string) == normalizeArabic(fName):
         dictionary[string] = []
-        dictionary[string].extend([data["lat"], data["lon"], data['source'], data['topURI']])
+        dictionary[string].extend([data["properties"]["cornuData"]["coord_lat"], data["properties"]["cornuData"]["coord_lon"], data["properties"]["cornuData"]["region_code"], data["properties"]["cornuData"]["cornu_URI"]])
       else:
         for n in sName:
           if normalizeArabic(string) == normalizeArabic(n.strip()):
             dictionary[string] = []
-            dictionary[string].extend([data["lat"], data["lon"], data['source'], data['topURI']])
+            dictionary[string].extend([data["properties"]["cornuData"]["coord_lat"], data["properties"]["cornuData"]["coord_lon"], data["properties"]["cornuData"]["region_code"], data["properties"]["cornuData"]["cornu_URI"]])
             break
     return dictionary
 
@@ -69,7 +69,7 @@ def getStartEndCoords(fileName1, fileName2):
             end = ls[1][4:].strip()
             with open(fileName2, "r", encoding="utf8") as jsonFile:    
               allData = json.load(jsonFile)
-              for d in allData["data"]:
+              for d in allData["features"]:
                 # populates the uniqueNames dictionary for start and end toponyms
                 uniqueNames.update(populateDict(start, d))
                 uniqueNames.update(populateDict(end, d))
@@ -78,12 +78,13 @@ def getStartEndCoords(fileName1, fileName2):
 
 def getCornuCoord_forDistances(distanceFile, cornuRoutesFile, cornuCoordsFile):
     """
-    The main function which calls the other functions to create a structure ans write it to a csv file.
+    The main function to create a structure and write it to a csv file.
     """
     dataToWrite = []
     not_common = []
     coords = getStartEndCoords(distanceFile,cornuCoordsFile)
-    with open("../Data/Distances_withCoords_normalized", 'w', encoding="utf8") as csvCoord:
+    print(coords)
+    with open("../Data/Distances_withCoords_normalized2", 'w', encoding="utf8") as csvCoord:
       fWriter = csv.writer(csvCoord, delimiter=',')
       fWriter.writerow(["From", "From_lat", "From_long", "From_Region", "From_URI", "To", "To_lat", "To_long", "To_Region", "To_URI", "distance"])
       with open(distanceFile, "r", encoding="utf8") as csvfile:
@@ -96,15 +97,15 @@ def getCornuCoord_forDistances(distanceFile, cornuRoutesFile, cornuCoordsFile):
                             end, ",".join( str(e) for e in coords[end]) if end in coords else "null,null,null,null", distance])
         #fWriter.writerow(dataToWrite)
           if start not in coords:
-             not_common.append(start)
+             not_common.extend(start)
           if end not in coords:
-             not_common.append(end)
-    with open("../Data/Distances_withoutCoords_normalized", 'w', encoding="utf8") as f:
+             not_common.extend(end)
+    with open("../Data/Distances_withoutCoords_normalized2", 'w', encoding="utf8") as f:
           writer = csv.writer(f, delimiter=',') 
           writer.writerow(["not_common"]) 
           for nc in not_common:
             writer.writerow([nc])
 
-getCornuCoord_forDistances("../Data/Shamela_0023696_Triples_Dist", "../Data/all_routes_new.json", "../Data/cornu_all_new2.json")
+getCornuCoord_forDistances("../Data/Shamela_0023696_Triples_Dist2", "../Data/all_routes_new.json", "../Data/places.geojson")
 print("Done!")  
     

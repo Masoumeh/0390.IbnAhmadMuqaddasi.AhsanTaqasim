@@ -45,14 +45,29 @@ circle {
     .markerSize(2)
     .x("lon")
     .y("lat")
-    .cluster(true);
+    .cluster(true)
+            .on("load", function(d) {
+              console.log(d3.selectAll("circle").attr("r"))
+            });
     
     map.addCartoLayer(tileLayer).addCartoLayer(csvLayer);
     map.centerOn([44.361488,33.312806],"latlong").setScale(2);
 
   }
+
+  function updateData() {
+    var color = d3.scale.linear().domain([1, 10]).range(['#C3FFD5', 'darkgreen']);
+
+    d3.selectAll("circle").style("fill", function () {
+        return color(d3.select(this).attr("r"));
+      })
+  }
 </script>
 <body onload="makeSomeMaps()">
+  <input name="updateButton"
+         type="button"
+         value="Update"
+         onclick="updateData()" />
 <div id="map"></div>
 <footer>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8" type="text/javascript"></script>

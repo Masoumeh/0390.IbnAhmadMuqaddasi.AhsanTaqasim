@@ -31,7 +31,7 @@ PROV مصر ,TYPE کورة ,REG1 مقدونية ,TYPE قصبة ,STTL الفسط�
 PROV مصر ,TYPE کورة ,REG1 مقدونية ,TYPE مدينة ,STTL الجيزة
 PROV مصر ,TYPE کورة ,REG1 مقدونية ,TYPE مدينة ,STTL عين شمس
 PROV مصر ,TYPE کورة ,REG1 الصعيد ,TYPE قصبة ,STTL أسوان
-PROV مصر ,TYPE کورة ,REG1 الصعيد ,TYPE مدينة ,STTL حلوان -> 3 time in cornu (Eqypt, Iraq, Mafaza)
+PROV مصر ,TYPE کورة ,REG1 الصعيد ,TYPE مدينة ,STTL حلوان -> three times in cornu (Eqypt, Iraq, Mafaza)
 PROV مصر ,TYPE کورة ,REG1 الصعيد ,TYPE مدينة ,STTL قوص
 PROV مصر ,TYPE کورة ,REG1 الصعيد ,TYPE مدينة ,STTL خميم -> has to be changed to إخميم in tagged text. in Cornu: أخميم 
 PROV مصر ,TYPE کورة ,REG1 الصعيد ,TYPE مدينة ,STTL بلينا
@@ -48,7 +48,40 @@ PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE مدينه ,STTL ا
 PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE مدينه ,STTL سنجار
 PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE مدينه ,STTL الجبال -> two in Cornu: Aqur/Sham
 PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE مدينه ,STTL بلد
-
-
+PROV العراق ,TYPE کورة ,REG1 سامرا ,TYPE مدينة ,STTL أيوانا -> with this name "أيوانة" ????
+PROV العراق ,TYPE کورة ,REG1 سامرا ,TYPE مدينة ,STTL تكريت
+PROV الجبال ,TYPE كورة ,REG1 همذان ,TYPE مدينة ,STTL أسداواذ -> with the name "أسداباذ" one in Jibal and two in Khurasan 
+PROV فارس ,TYPE كورة ,REG1 أردشيرخره ,TYPE مدينة ,STTL نابند دون -> in Fris and Mafaza only "نابند"
+PROV فارس ,TYPE كورة ,REG1 درابجرد ,TYPE ناحية ,REG2 خسو ,TYPE مدينة ,STTL رستاق الرستاق -> maybe just "رستاق" as in Cornu, should be check in original text
+PROV فارس ,TYPE كورة ,REG1 سابور ,TYPE مدينة ,STTL جنبد -> there is "جنبذ ملغان" in Faris
+PROV فارس ,TYPE كورة ,REG1 إصطخر ,TYPE مدينة ,STTL مائين الفهرج -> there are "الفهرج" in Faris and Kirman, and Sind
+PROV فارس ,TYPE كورة ,REG1 إصطخر ,TYPE مدينة ,STTL بوان كرمان -> there are both "بوان" and "كران" (titled as "كرمان" in sources) in Faris 
+PROV فارس ,TYPE كورة ,REG1 إصطخر ,TYPE مدينة ,STTL خرمة -> there is "خرمق" in Faris titled as "خرمة" in sources
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE مدينة ,STTL صيدا -> in Cornu as "صيداء"
+PROV الشام ,TYPE كورة ,REG1 الشراة ,TYPE مدينة ,STTL أذرح -> in cornu as "أذروح"
+PROV خوزستان ,TYPE كورة ,REG1 الأهواز ,TYPE مدينة ,STTL مناذر الكبرى -> in cornu as "مناذر"
+PROV خوزستان ,TYPE كورة ,REG1 الأهواز ,TYPE مدينة ,STTL مناذر الصغرى -> in cornu as "مناذر"
+PROV خوزستان ,TYPE كورة ,REG1 الأهواز ,TYPE مدينة ,STTL بيروه -> in cornu as "بيروت"
+PROV خوزستان ,TYPE كورة ,REG1 رامهرمز ,TYPE مدينة ,STTL سنبل -> in cornu as "سنبيل"
+PROV الرحاب ,TYPE كورة ,REG1 أذربيجان ,TYPE مدينة ,STTL السراة -> in cornu as "السرات"
+PROV السند ,TYPE كورة ,REG1 مكران ,TYPE مدينة ,STTL مشكة -> in cornu as "مشكى، مشكي"
+PROV السند ,TYPE كورة ,REG1 مكران ,TYPE مدينة ,STTL سرى -> as "سراي شهر". might be a mistake in tagging
+PROV السند ,TYPE كورة ,REG1 مكران ,TYPE مدينة ,STTL شهر -> as "سراي شهر". might be a mistake in tagging
+PROV السند ,TYPE كورة ,REG1 السند ,TYPE مدينة ,STTL مايل -> in cornu as "أيل" ???
+PROV جزيرة العرب ,TYPE كورة ,REG1 الحجاز ,TYPE مدن امهات ,STTL السقيا -> in cornu as "السقياء" in ther_titles and sources. As "سقياء يزيد" in title
+PROV جزيرة العرب ,TYPE كورة ,REG1 الحجاز ,TYPE مدن دون امهات ,STTL الفرع -> in cornu as "وادي فرع"
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE قسم ,REG2 تهامه ,TYPE مدينه ,STTL الحمضة -> as "حمض" in cornu
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE قسم ,REG2 تهامه ,TYPE مدينه ,STTL كمران -> probably the "جزيرة كمران" in Yemen?
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE قسم ,REG2 تهامه ,TYPE مدينه ,STTL الساعد -> maybe the "الساعدة" in Badiyat?
+PROV المغرب ,TYPE كورة ,REG1 تاهرت ,TYPE مدينة ,STTL شلف -> in cornu as "وادي شلف"
+PROV المغرب ,TYPE كورة ,REG1 تاهرت ,TYPE مدينة ,STTL واريفن -> in cornu as "بنو واريفن"
+PROV المغرب ,TYPE كورة ,REG1 تاهرت ,TYPE مدينة ,STTL سوق كرى -> in cornu as "سوق كرا"
+PROV المغرب ,TYPE كورة ,REG1 تاهرت ,TYPE مدينة ,STTL ربا -> maybe "رباط" in Maghrib?
+PROV المغرب ,TYPE كورة ,REG1 سجلماسة ,TYPE مدينة ,STTL درعة -> as "وادي درعة" in cornu
+PROV المغرب ,TYPE كورة ,REG1 سجلماسة ,TYPE مدينة ,STTL ايلا -> just "أيلان" in cornu and "أغمات أيلا" in other titles
+PROV المغرب ,TYPE كورة ,REG1 فاس ,TYPE ناحية ,REG2 الزاب ,TYPE مدينة ,STTL جميلا 
+PROV المغرب ,TYPE كورة ,REG1 فاس ,TYPE مدينة ,STTL ورغة -> as "وادي ورغة" in cornu
+PROV المغرب ,TYPE كورة ,REG1 فاس ,TYPE مدينة ,STTL سبوا -> maybe "وادي سبو" in Maghrib. in English translation mentioned as "سبو"PROV المغرب ,TYPE كورة ,REG1 فاس ,TYPE مدينة ,STTL أزيلا -> in cornu as "أزيلة"
+PROV المغرب ,TYPE كورة ,REG1 فاس ,TYPE مدينة ,STTL سبتا -> in cornu as "سبتة"
 
 

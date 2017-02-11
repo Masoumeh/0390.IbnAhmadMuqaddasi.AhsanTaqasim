@@ -7,7 +7,7 @@ import csv
 
 def extractDistUnits(fileName):
     dists = []
-    with open('../Data/Shamela_0023696_Triples_Dist', 'r') as triFile:
+    with open(fileName, 'r') as triFile:
       triReader = csv.reader(triFile, delimiter='\t', quotechar='|')
       for tri in triReader:
           dist = tri[-1][4:].strip()
@@ -19,9 +19,9 @@ def extractDistUnits(fileName):
           #if unit not in dists:
           #  dists.append( "-".join([dist,unit]))
 
-      with open("../Data/Distances", "w", encoding="utf8") as f9:
+      with open("../Data/Distances2_with_region", "w", encoding="utf8") as f9:
           f9.write("\n".join(dists))
 
 
-extractDistUnits("../Data/Shamela_0023696_Triples_Dist")
+extractDistUnits("../Data/Shamela_0023696_Triples_Dist_with_Region")
 print("Done!")

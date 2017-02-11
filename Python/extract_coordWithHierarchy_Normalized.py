@@ -13,6 +13,7 @@ import re
 import sys, codecs
 import csv
 from json import load
+import normalization as norm
 
 # used for python 2.7
 #reload(sys)  
@@ -70,28 +71,28 @@ def findCoord(fileName, sttlReg, fWriter):
       #print("stl: ", sttlName, "stl normal: ", normalizeArabic(sttlName), 
 #      if name == fName:
       # check if it finds similar words with arTitle, using fuzzywuzzy library
-      if sttlReg and fuzz.ratio(normalizeArabic(sttlName), normalizeArabic(fName))>= 90:
+      if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))>= 90:
 #      if sttlReg and normalizeArabic(sttlName) == normalizeArabic(fName):
-          fWriter.writerow([sttlName, fName, "/".join(sName), d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(normalizeArabic(sttlName), normalizeArabic(fName))])
+          fWriter.writerow([sttlName, fName, "/".join(sName), d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))])
       else:
         for n in sName:
           n = n.strip()
 #          if name == n.strip():
           # check if it finds similar words with arTitleOther, using fuzzywuzzy library
-          if sttlReg and fuzz.ratio(normalizeArabic(sttlName), normalizeArabic(n))>= 90:
+          if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))>= 90:
 #          if sttlReg and normalizeArabic(sttlName) == normalizeArabic(n):
-              fWriter.writerow([sttlName, fName, n, d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(normalizeArabic(sttlName), normalizeArabic(n))])
+              fWriter.writerow([sttlName, fName, n, d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))])
               break
 
 def getCornuSttlWithCoord(hierarchyFile, coordsFile):
     sttlNames = getSttlWithRegs(hierarchyFile)
-    with open("../Data/SttlReg_CoordsCSV_fuzzyWuzzy_normalized", 'w', encoding="utf8") as csvCoord:
+    with open("../Data/SttlReg_CoordsCSV_fuzzyWuzzy_normalized2", 'w', encoding="utf8") as csvCoord:
       fWriter = csv.writer(csvCoord, delimiter=',', quoting=csv.QUOTE_MINIMAL)
       fWriter.writerow(["geoTitle", "cornuTitle", "cornuTitleOther", "lat", "lon", "cornuRegion", "geoProv", "geoFinalReg", "eiSearch", "translitTitle", "FW_ratio"])
       for st in sttlNames:
         findCoord(coordsFile, st, fWriter)
            
       
-getCornuSttlWithCoord("../Data/Shamela_0023696_Triples_H", "../Data/cornu_all_new2.json")
+getCornuSttlWithCoord("../Data/Shamela_0023696_Triples_H", "../Data/places.geojson")
 print("Done!")  
     

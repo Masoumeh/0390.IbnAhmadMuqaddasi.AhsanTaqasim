@@ -22,12 +22,23 @@ circle {
     fill: black;
     stroke: red;
 }
-
+  .hidden {
+    display: none;
+  }
+  div.tooltip {
+    color: #222;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    opacity: 0.9;
+    position: absolute;}
 </style>
 <script>
   function makeSomeMaps() {
     map = d3.carto.map();
-
+    var tooltip = d3.select('body').append('div')
+            .attr('class', 'hidden tooltip');
     d3.select("#map").call(map);
     tileLayer = d3.carto.layer.tile();
     tileLayer
@@ -38,22 +49,31 @@ circle {
     
     csvLayer = d3.carto.layer.csv();
     csvLayer
-    .path("../Data/newCoords_graph_bufferCenter.csv")
+    .path("../Data/newCoords_composedGraph_bufferCenter222.csv")
     .label("CSV Points")
     .cssClass("pinkcircle")
     .renderMode("svg")
     .markerSize(4)
-    .x("lat")
-    .y("lng")
+    .x("lng")
+    .y("lat")
     .clickableFeatures(true)
     .on("load", function(d) {
 			d3.selectAll("circle").style("fill", function(d) {
-                        if (d.status.indexOf('new') !== -1) return "red"
-            			else return "green"})});
+                        if (d.status =='new') return "red";
+            			else return "green"})
+            });
+//    d3.selectAll("circle").on("click", function(){
+//              alert("d: "+JSON.stringify(d))
+//              tooltip.html( d) });
     
 
     map.addCartoLayer(tileLayer).addCartoLayer(csvLayer);
     map.centerOn([44.361488,33.312806],"latlong").setScale(2);
+//    d3.selectAll("circle").call(d3.helper.tooltip(
+//            function(d, i){
+//              return createPopup(d.point);
+//            }));
+
 
     //color = d3.scale.sqrt().domain([0,10000000]).range([0,10]).clamp(true);
     //d3.selectAll("circle").style("fill", function(d) {console.log(d.property); 							

@@ -1,8 +1,10 @@
 /**
  * Created by masoumeh on 10.02.16.
  */
-var map,arcLayer,routeLayer, arcVisibility;
+var map,arcLayer,routeLayer, connLayer, arcVisibility;
 var voronoiLayer;
+var connections;
+
 function makeSomeMaps() {
     pathSource = 0;
     var graph_dijks;
@@ -76,7 +78,6 @@ function makeSomeMaps() {
         var peopleMap = output['peopleMap'];
         // A map from years to people they have been related to
         var yearPeople = output['yearPeople'];
-
         var slider = d3.slider().value([0, 100])
             .on("slide", function (evt, value) {
                 d3.select('#minYear').text(''
@@ -92,6 +93,7 @@ function makeSomeMaps() {
                 var uniqueCountires =
                     unify_year_people(minyear, maxyear, yearPeople, peopleMap);
                 updateRoutesCountries(uniqueCountires, graph_dijks, arcGroup);
+                connections = cityConnections(minyear, maxyear, yearPeople, peopleMap);
             });
         d3.select("#yearSlider").call(slider);
         d3.select("#minYear").text(min_year + '');
@@ -105,10 +107,23 @@ function makeSomeMaps() {
             .cssClass("roads")
             .clickableFeatures(true);
         arcVisibility = false;
+        connLayer = d3.carto.layer.geojson();
+        connLayer.path("../Data/completeArcs.json")
+            .label("Complete Arcs")
+            .visibility(false)
+            .renderMode("svg")
+            .cssClass("roads")
+            .clickableFeatures(true);
         map.addCartoLayer(arcLayer);
+        map.addCartoLayer(connLayer);
         //arcLayer.visibility('false');
-
-        //findCountries(csv, data, routeData);
+        //console.log("data: "+JSON.stringify(data))
+        //d3.csv("../Data/cornuFilteredRoutes.csv", function (error, csv) {
+            // To make minimum spanning tree out of the countries connected
+            //findCountries(csv, data, routeData);
+            // To make complete graph out of countries connected
+        //    createCountriesGraph(csv, data);
+        //})
         //var select = d3.select("#personSlider")
         //    .append('div')
         //    .append("select")
@@ -123,6 +138,7 @@ function makeSomeMaps() {
         //    .text(function (d) {
         //        return d;
         //    });
+
     });
 }
 

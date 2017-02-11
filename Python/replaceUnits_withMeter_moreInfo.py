@@ -7,11 +7,9 @@ Should eb generalized to include arbitrary units or numerical values.
 import re
 import csv, json
 
-
-
-pluralUnits = {"أيام": "يوم","مراحل": "مرحلة", "اميال":"ميل", "فراسخ": "فرسخ"}
-unit_distance = {"يوما": 28156.0,"يوم": 28156.0, "بريدا": 17060.5, "فرسخا": 2888.2, "مرحلتین": 70357.0, "میلا": 1941, "بريدين": 23504.153846153848,"مرحلة": 37987.00561797753, "يومين": 84568.0,  "فرسخ": 2888.2, "بريد": 17060.5, "مرحلتان": 70357.0, "ميل": 1941}
-numbers = {"نصف": 0.5,"واحد": 1,"إثنان":2,"ثلاثة":3,"أربعة":4,"خمسة":5,"ستة":6,"سبعة":7,"ثمانية":8,"ثامن":8,"تسعة":9,"عشرة":10,"إحدى عشر":11,"إثنا عشر":12,"ثلاثة عشر":13,"أربعة عشر":14,"خمسة عشر":15,"ستة عشر":16,"سبعة عشر":17,"ثمانية عشر":18,"تسعة عشر":19,"عشرون":20,"واحد وعشرون":21,"إثنان وعشرون":22,"ثلاثة وعشرون":23,"أربعة وعشرون":34,"خمسة وعشرون":25,"ستة وعشرون":26,"سبعة وعشرون":27,"ثمانية وعشرون":28,"تسعة وعشرون":29,"ثلاثون":30,"واحدوثلاثون":31}
+pluralUnits = {"أيام": "يوم","مراحل": "مرحلة", "اميال":"ميل", "فراسخ": "فرسخ", "أنهر": "نهار", "أنهر": "نهارا"}
+unit_distance = {"يوما": 28156.0,"يوم": 28156.0, "بريدا": 17060.5, "فرسخا": 2888.2, "مرحلتین": 70357.0, "میلا": 1941, "بريدين": 23504.153846153848,"مرحلة": 37987.00561797753, "يومين": 84568.0,  "فرسخ": 2888.2, "بريد": 17060.5, "مرحلتان": 70357.0, "ميل": 1941, "نهار": 28156.0, "نهارا": 28156.0, "نهارين": 56312.0, "نصف نهار": 14078.0, "نهارا ونصفا": 42234}
+numbers = {"نصف": 0.5,"واحد": 1,"إثنان":2,"ثلاثة":3,"أربعة":4,"خمسة":5,"ستة":6,"سبعة":7,"ثمانية":8,"ثامن":8,"تسعة":9,"عشرة":10,"إحدى عشر":11,"إثنا عشر":12,"ثلاثة عشر":13,"أربعة عشر":14,"خمسة عشر":15,"ستة عشر":16,"سبعة عشر":17,"ثمانية عشر":18,"تسعة عشر":19,"عشرون":20,"واحد وعشرون":21,"إثنان وعشرون":22,"ثلاثة وعشرون":23,"أربعة وعشرون":24,"خمسة وعشرون":25,"ستة وعشرون":26,"سبعة وعشرون":27,"ثمانية وعشرون":28,"تسعة وعشرون":29,"ثلاثون":30,"واحد وثلاثون":31, "عشرين":20,"واحد وعشرين":21,"إثنان وعشرين":22,"ثلاثة وعشرين":23,"أربعة وعشرين":34,"خمسة وعشرين":25,"ستة وعشرين":26,"سبعة وعشرين":27,"ثمانية وعشرين":28,"تسعة وعشرين":29,"ثلاثين":30,"واحد وثلاثين":31, "إثنان وثلاثون":32, "إثنان وثلاثين":32 ,"ثلاثة وثلاثين":33 , "ثلاثة وثلاثون":33, "أربعة وثلاثين":34, "أربعة وثلاثون":34, "أربع وثلاثين":34, "أربعة وثلاثون":34, "خمسة وثلاثين": 35, "خمسة وثلاثون": 35, "سبعة وثلاثين": 37, "ستة وثلاثون": 36, "ستة وثلاثون": 36, "سبعة وثلاثون": 37, "ثمانية وثلاثين": 38, "ثمانية وثلاثون": 38, "تسعة وثلاثين": 39, "تسعة وثلاثون": 39, "أربعون":40, "اثنان وأربعون": 42, "واحد وأربعون": 41, "ثمانية وأربعون": 48,  "ثمانية وأربعون": 48, "خمسون": 50, "سبعون": 70} 
 
 def replaceUnitsWithMeter(fileName, writer):
     """
@@ -22,22 +20,26 @@ def replaceUnitsWithMeter(fileName, writer):
       #unit_meter = dict()
       next(distReader, None)
       for row in distReader: 
+          print(row)
           #tmp = row[0].split(',')
           dist = row[-1].strip()
           splitDist = dist.split(' ')
           if len(splitDist) == 1:
             if splitDist[0] in unit_distance:
               meter = unit_distance[splitDist[0]]
-              writer.writerow([row[0], row[1].strip('"'), row[2], row[5], row[6].strip('"'), row[7], meter])
+              writer.writerow([row[0], row[1].strip('"'), row[2], row[3], row[4], row[5], row[6].strip('"'), row[7], row[8], row[9], row[10], meter])
+              #writer.writerow([row, meter])
           elif len(splitDist) > 1:
             if re.search('[0-9]', splitDist[0]):
               if splitDist[1] in unit_distance:
                 meter = float(splitDist[0]) * unit_distance[splitDist[1]]
-                writer.writerow([row[0], row[1].strip('"'), row[2], row[5], row[6].strip('"'), row[7], meter]) 
+                writer.writerow([row[0], row[1].strip('"'), row[2], row[3], row[4], row[5], row[6].strip('"'), row[7], row[8], row[9], row[10], meter]) 
+                #writer.writerow([row, meter])
               elif splitDist[1] in pluralUnits:
                 single_unit = pluralUnits[splitDist[1]]
                 meter = float(splitDist[0]) * unit_distance[single_unit]
-                writer.writerow([row[0], row[1].strip('"'), row[2], row[5], row[6].strip('"'), row[7], meter]) 
+                writer.writerow([row[0], row[1].strip('"'), row[2], row[3], row[4], row[5], row[6].strip('"'), row[7], row[8], row[9], row[10], meter]) 
+                #writer.writerow([row, meter])
             else:
               unit = next((y for y in splitDist if (y in unit_distance or y in pluralUnits)), None)
               if unit != None:
@@ -50,12 +52,12 @@ def replaceUnitsWithMeter(fileName, writer):
                     meter = numbers[value] * unit_distance[single_unit]
                   elif splitDist[unit_index] in unit_distance:
                     meter = numbers[value] * unit_distance[splitDist[unit_index]]
-                  writer.writerow([row[0], row[1].strip('"'), row[2], row[5], row[6].strip('"'), row[7], meter])
-                            
+                  writer.writerow([row[0], row[1].strip('"'), row[2], row[3], row[4], row[5], row[6].strip('"'), row[7], row[8], row[9], row[10], meter])
+                    #writer.writerow([row, meter])         
 
 
-with open("../Data/tripleRoutes_withMeter2", "w", encoding="utf8") as distMeter:
+with open("../Data/tripleRoutes_withMeter2_notNormalized", "w", encoding="utf8") as distMeter:
       fWriter = csv.writer(distMeter, delimiter=',',)
-      fWriter.writerow(["From", "From_lat", "From_long", "To", "To_lat", "To_long", "Distance_Meter"])
+      fWriter.writerow(["From", "From_lat", "From_long", "From_Region", "From_URI", "To", "To_lat", "To_long", "To_Region", "To_URI", "Distance_original", "Distance_avgMeter"])
       replaceUnitsWithMeter("../Data/Distances_withCoords_normalized", fWriter)
 print("Done!")

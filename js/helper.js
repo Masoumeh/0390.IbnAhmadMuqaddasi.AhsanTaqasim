@@ -10,6 +10,7 @@ function unify_year_people(minyear, maxyear, yearPeople, peopleMap) {
             var arr = yearPeople[i + '']['id'].split(',');
             arr.forEach(function (d) {
                 var city = peopleMap[d]['city'].split(',');
+                //console.log(city[0])
                 city.forEach(function (d) {
                     if (uniqueCountries[d] == undefined)
                         uniqueCountries[d] = 0;
@@ -20,6 +21,28 @@ function unify_year_people(minyear, maxyear, yearPeople, peopleMap) {
         }
     }
     return uniqueCountries;
+}
+
+function cityConnections(minyear, maxyear, yearPeople, peopleMap) {
+    var connection = {};
+    for (var i = minyear; i <= maxyear; i++) {
+        if (yearPeople[i + ''] != undefined) {
+            var arr = yearPeople[i + '']['id'].split(',');
+            arr.forEach(function (d) {
+                var city = peopleMap[d]['city'].split(',');
+                for (k = 0; k < city.length-1; k++) {
+                    for (j = k+1; j < city.length; j++) {
+                        if (connection.hasOwnProperty(city[k] + ',' + city[j])
+                                || connection.hasOwnProperty(city[j] + ',' + city[k]))
+                            connection[city[k] + ',' + city[j]]++;
+                        else
+                            connection[city[k] + ',' + city[j]] = 1;
+                    }
+                }
+            });
+        }
+    }
+    return connection;
 }
 
 function createMatrix(postdata) {
@@ -53,13 +76,21 @@ function createMatrix(postdata) {
 }
 
 function calcPathSize(d, uniquePaths) {
-    //var pathscale = d3.scale.linear()
+    //var connScale = d3.scale.linear()
     //    .domain([d3.min(d3.values(uniquePaths)),d3.max(d3.values(uniquePaths))])
-    //    .range([1,20]);
+    //    .range([1,15]);
     if (arcLayer.visibility())
-        var pathscale = d3.scale.linear().domain([1, 15]).range([1, 30]);
+        var pathScale = d3.scale.linear().domain([1, 15]).range([1, 30]);
     else if (routeLayer.visibility())
-        var pathscale = d3.scale.linear().domain([1, 15]).range([1, 15]);
+        var pathScale = d3.scale.linear().domain([1, 15]).range([1, 15]);
+    else if (connLayer.visibility()) {
+        //alert("yes")
+        var pathScale = d3.scale.linear()
+            .domain([d3.min(d3.values(uniquePaths))
+                ,d3.max(d3.values(uniquePaths))])
+            .range([1,20]);
+    }
+
     // To consider the paths from A to B and B to A as one path
     var tmp1 = uniquePaths[d.properties.sToponym
     + "," + d.properties.eToponym];
@@ -71,9 +102,10 @@ function calcPathSize(d, uniquePaths) {
     }
     else {
         if (tmp1 == undefined)
-            size = pathscale(tmp2);
-        else size = pathscale(tmp1);
+            size = pathScale(tmp2);
+        else size = pathScale(tmp1);
     }
+    console.log("size: "+size)
     return size;
 }
 
@@ -122,25 +154,44 @@ function displayPath(pathData, countries, uniquePaths) {
     }).transition().duration(1000).style("stroke-width", 0); // or display property?
 
     if (pathData) {
-        d3.selectAll("path").filter(function (d) {
+        var filteredPaths = d3.selectAll("path").filter(function (d) {
             return pathData.indexOf(d.properties.sToponym) > -1
                 && pathData.indexOf(d.properties.eToponym) > -1;
-        }).transition().duration(2000).style("stroke", function (d) {
+        })
+            filteredPaths.transition().duration(2000).style("stroke", function (d) {
             var size = calcPathSizeForColors(d, uniquePaths);
             return colorScale(size);
         }).style("stroke-width", function (d) {
             return calcPathSize(d, uniquePaths);
         });
 
-        d3.selectAll("circle").filter(function (d) {
+        var filteredCircles = d3.selectAll("circle").filter(function (d) {
             return pathData.indexOf(d.topURI) > -1
-        }).transition().duration(2000)
+        })
+            filteredCircles.transition().duration(1000)
             .style("fill", "orange")
             .style("stroke", "orange")
             .attr("r", function (d) {
                 var size = (parseInt(countries[d['topURI']]));
                 if (isNaN(size)) return 5;
                 return rscale(size);
+            });
+        filteredCircles
+            .style("fill", "red")
+            .on("mouseover", function(){
+                var currCircle = d3.select(this);
+                var uri = currCircle[0][0]["__data__"]["topURI"]
+                filteredPaths.filter(function(p){
+                           return uri !== p.properties.sToponym || uri !== p.properties.eToponym
+                }).style("stroke-width", 0)
+                filteredPaths.filter(function(p){
+                    return uri == p.properties.sToponym || uri == p.properties.eToponym
+                }).style("stroke-width", function (d) {
+                    return calcPathSize(d, connections);
+                })
+            })
+            .on("mouseout", function(){
+                d3.select(this).style("fill", "orange");
             });
 
         d3.selectAll("circle").filter(function (d) {
@@ -161,6 +212,58 @@ function displayPath(pathData, countries, uniquePaths) {
     //}
 }
 
+function displayConnection(connData) {
+    console.log("connData: "+JSON.stringify(connData));
+    //var rscale = d3.scale.linear()
+    //    .domain(d3.extent(d3.values(countries)))
+    //    .range([5, 30]);
+    //
+    //var colorScale = d3.scale.linear()
+    //    .domain(d3.extent(d3.values(uniquePaths)))
+    //    .range(["darkseagreen", "darkgreen"])
+    //    .interpolate(d3.interpolateHcl);
+    //
+    ////Initial fill of all circles
+    //d3.selectAll("circle").transition().duration(1000)
+    //    .style("fill", "seagreen")
+    //    .attr("r", 5);
+    //
+    d3.selectAll("path").filter(function (d) {
+        //console.log("d: "+JSON.stringify(d))
+        return !(connData.hasOwnProperty(d.properties.sToponym+','+d.properties.eToponym)
+            || connData.hasOwnProperty(d.properties.eToponym+','+d.properties.sToponym));
+    }).transition().duration(1000).style("stroke-width", 0); // or display property?
+
+    if (connData) {
+        d3.selectAll("path").filter(function (d) {
+            var sE = d.properties.sToponym+','+d.properties.eToponym;
+            var eS = d.properties.eToponym+','+d.properties.sToponym;
+            return (connData.hasOwnProperty(sE) || connData.hasOwnProperty(eS))
+                //&& d.properties.type == "connection";
+        }).transition().duration(1000)
+            .style("stroke", "red")
+            .style("stroke-width", function (d) {
+                return calcPathSize(d, connData);
+        });
+
+        //d3.selectAll("circle").filter(function (d) {
+        //    return pathData.indexOf(d.topURI) > -1
+        //}).transition().duration(2000)
+        //    .style("fill", "orange")
+        //    .style("stroke", "orange")
+        //    .attr("r", function (d) {
+        //        var size = (parseInt(countries[d['topURI']]));
+        //        if (isNaN(size)) return 5;
+        //        return rscale(size);
+        //    });
+        //
+        //d3.selectAll("circle").filter(function (d) {
+        //    return (pathData.indexOf(d.topURI) <= -1 // is this line needed to be checked? for 949 to 1300 it seems it's needed!
+        //    || Object.keys(countries).indexOf(d.topURI) <= -1 )
+        //}).transition().duration(2000)
+        //    .attr("r", "0");
+    }
+}
 function displayPathArc(pathData, countries, uniquePaths, svg) {
     //routeLayer.visibility(false);
     //arcLayer.visibility(true);
@@ -296,7 +399,7 @@ function dataStructsBetweenPeopleYears(data) {
 function findCountries(csv, data, routeData) {
     var arr = [];
     var cityNames = [];
-
+    //console.log("csv: "+csv)
 
     var g = new Graph_msp();
 
@@ -325,8 +428,9 @@ function findCountries(csv, data, routeData) {
         }
     }
 
+    // To make an msp graph.
     var result = Prim(g);
-    console.log("res " +result);
+
 
     var i,j;
     for (i = 0; i < arr.length; i++) {
@@ -350,6 +454,7 @@ function findCountries(csv, data, routeData) {
                     }
                 };
                 var isInTree = false;
+                // To make msp graph out of "result"
                 result.forEach(function(r) {
                    if(r.src==arr[i].city && r.dst == arr[j].city) {
                        isInTree=true;
@@ -366,6 +471,72 @@ function findCountries(csv, data, routeData) {
     //alert(JSON.stringify(msp));
     var blob = new Blob([JSON.stringify(geoJson)], {type: "text/plain;charset=utf-8"});
     saveAs(blob, "arcs.json");
+
+    return geoJson;
+}
+
+function createCountriesGraph(csv, data) {
+    var arr = [];
+    var cityNames = [];
+
+    var g = new Graph_msp();
+
+    data.forEach(function (d) {
+        csv.forEach(function (c) {
+            if (c.topURI == d.city) {
+                if (cityNames.indexOf(d.city) == -1) {
+                    cityNames.push(d.city);
+                    arr.push({"lat": c.lat, "lon": c.lon, "city": d.city});
+                    g.addNode(d.city);
+                }
+            }
+        });
+    });
+    var geoJson = {
+        "features": [],
+        "type": "FeatureCollection"
+    };
+
+    for (i = 0; i < arr.length; i++) {
+        for (j = i; j < arr.length; j++) {
+            if (i != j) {
+                g.addEdge(arr[i].city, arr[j].city, distance(arr[i].lat, arr[i].lon
+                    , arr[j].lat, arr[j].lon, "K"));
+            }
+        }
+    }
+
+    var i,j;
+    for (i = 0; i < arr.length; i++) {
+        for (j = i; j < arr.length; j++) {
+            if (i != j) {
+                var arcs =
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        type: "LineString",
+                        coordinates: [
+                            [parseFloat(arr[i].lon), parseFloat(arr[i].lat)],
+                            [parseFloat(arr[j].lon), parseFloat(arr[j].lat)]
+                        ]
+                    },
+                    "properties": {
+                        "sToponym": arr[i].city,
+                        "eToponym": arr[j].city,
+                        "Meter": distance(arr[i].lat, arr[i].lon
+                            , arr[j].lat, arr[j].lon, "K")
+                        // property for paths in complete graph.
+                        // used to differentiate paths of msp graph from complete graph.
+                        ,"type": "connection"
+                    }
+                };
+                geoJson.features.push(arcs);
+            }
+        }
+    }
+
+    var blob = new Blob([JSON.stringify(geoJson)], {type: "text/plain;charset=utf-8"});
+    saveAs(blob, "completeArcs.json");
 
     return geoJson;
 }

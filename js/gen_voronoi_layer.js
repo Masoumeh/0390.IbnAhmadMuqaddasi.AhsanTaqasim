@@ -2,7 +2,6 @@
  * Created by rostam on 16.05.16.
  */
 function gen_voronoi_layer(voronoiLayer, exclude) {
-    alert("hi")
     voronoiLayer = map.createVoronoiLayer(cityLayer, 0.5, exclude);
     voronoiLayer
         .label("Voronoi")

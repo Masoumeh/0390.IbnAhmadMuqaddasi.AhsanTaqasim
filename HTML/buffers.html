@@ -37,7 +37,7 @@
 <script>
     var colorLookup = {
         "new": "red",
-        "old": "lightgreen"
+        "old": "darkgreen"
     }
     var min_zoom = 6, max_zoom = 14;
     var map = L.map('map',null, {maxZoom:max_zoom}).setView([30,40], min_zoom);
@@ -75,7 +75,7 @@
             return L.circleMarker(latlng, {
                 radius: 4,
                 fillColor: colorLookup[feature.properties.status],
-                color: "#000",
+                color: "darkgreen",
                 weight: 1,
                 opacity: 1,
                 fillOpacity: 0.8
@@ -94,6 +94,16 @@
         },
         onEachFeature: onEachFeature
     }).addTo(map);
+//    L.geoJson(bufferEllipse, {
+//        style: {
+//            weight: 2,
+//            color: "darkred",
+//            opacity: 1,
+//            fillColor: "red",
+//            fillOpacity: 0.8
+//        },
+//        onEachFeature: onEachFeature
+//    }).addTo(map);
 
 
 
