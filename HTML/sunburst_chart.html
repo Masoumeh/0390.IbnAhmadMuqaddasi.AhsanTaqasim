@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Provinces: Al-Mughaddasi vs Cornu</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src=".https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+    <script type="text/javascript" src="https://raw.githubusercontent.com/pshivale/psd3/gh-pages/psd3.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/pshivale/psd3/gh-pages/psd3.css" />
+</head>
+
+<body style="margin: 15px;">
+
+    <div class="container">
+        <div class="well">
+            <h2>Provinces: Al-Mughaddasi vs Cornu</h2>
+            The missing parts means no direct fit for that region.
+        </div>
+
+        <div id="chartContainer" class="well"></div>
+    </div>
+
+    <script type="text/javascript">
+        var sampleData = [{
+            noOfColleges: 3,
+            place: "المشرق",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "خراسان",
+            }, {
+                noOfColleges: 1,
+                place: "سجستان",
+
+            },{
+                noOfColleges: 1,
+                place: "ماورا النهر",
+
+            }]
+        },{
+            noOfColleges: 4,
+            place: "المغرب",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "برقة",
+            }, {
+                noOfColleges: 1,
+                place: "مغرب",
+
+            },{
+                noOfColleges: 1,
+                place: "الاندلس",
+
+            },{
+                noOfColleges: 1,
+                place: "سيسيل",
+
+            }]
+        },{
+            noOfColleges: 1,
+            place: "جزيرة العرب",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "جزيرة العرب",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "العراق",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "العراق",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "أقور",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "أقور",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "الشام",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "الشام",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "مصر",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "مصر",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "بادية العرب",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "بادية العرب",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "السند",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "السند",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "كرمان",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "كرمان",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "فارس",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "فارس",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "خوزستان",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "خوزستان",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "الجبال",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "الجبال",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "الرحاب",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "الرحاب",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "الديلم",
+            drilldown: [{
+                noOfColleges: 1,
+                place: "الديلم",
+            }]
+        },{
+            noOfColleges: 1,
+            place: "الخزر",
+            drilldown: []
+        },{
+            noOfColleges: 1,
+            place: "المفازة",
+            drilldown: []
+        }];
+
+        var config = {
+            containerId: "chartContainer",
+            width: 1000,
+            height: 1000,
+            data: sampleData,
+            heading: {
+                text: "Provinces",
+                pos: "top"
+            },
+            label: function(d) {
+                return d.data.place ;
+            },
+            value: "noOfColleges",
+            inner: "drilldown",
+            tooltip: function(d) {
+                return "<p>There are " + d.noOfColleges + " medical colleges in " + d.place + ".</p>";
+            },
+            transition: "bounce",
+            transitionDuration: 1,
+            donutRadius: 100
+        };
+
+        var samplePie = new psd3.Pie(config);
+    </script>
+
+</body>
+
+</html>
