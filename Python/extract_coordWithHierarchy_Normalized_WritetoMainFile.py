@@ -5,15 +5,12 @@ The output is a csv file, containing sttl names, region from both Cornu and geog
 ["Title in geo text", "Name in Cornu", "TitleOther from Cornu", "lat", "lon", "belonging region in cornu", "Prov in geo text", "direct region (parent) in geo text", "eiSearch from Cornu", "translitTitle from Cornu"]
 """
 
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
-from networkx.readwrite import json_graph
-import io, json
-import re
-import sys, codecs
 import csv
-from json import load
-import normalization as norm
+import json
+
+from fuzzywuzzy import fuzz
+
+from aratext import normalization as norm
 
 
 def getSttlWithRegs(fileName):
@@ -55,20 +52,20 @@ def findCoord(fileName, sttlReg, fWriter):
       sName = d["properties"]["cornuData"]["toponym_arabic_other"].split("،")
 #      if name == fName:
       # check if it finds similar words with arTitle, using fuzzywuzzy library
-      if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))>= 90:
+      if sttlReg and fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(fName))>= 90:
           found = True
 #      if sttlReg and normalizeArabic(sttlName) == normalizeArabic(fName):
-          fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], fName, "/".join(sName), d["properties"]["cornuData"]["coord_lat"], d["properties"]["cornuData"]["coord_lon"], d["properties"]["cornuData"]["region_code"], d["properties"]["cornuData"]["cornu_URI"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))])
+          fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], fName, "/".join(sName), d["properties"]["cornuData"]["coord_lat"], d["properties"]["cornuData"]["coord_lon"], d["properties"]["cornuData"]["region_code"], d["properties"]["cornuData"]["cornu_URI"], fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(fName))])
 
       else:
         for n in sName:
           n = n.strip()
 #          if name == n.strip():
           # check if it finds similar words with arTitleOther, using fuzzywuzzy library
-          if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))>= 90:
+          if sttlReg and fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(n))>= 90:
               found = True
 #          if sttlReg and normalizeArabic(sttlName) == normalizeArabic(n):
-              fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], fName, "/".join(sName), d["properties"]["cornuData"]["coord_lat"], d["properties"]["cornuData"]["coord_lon"], d["properties"]["cornuData"]["region_code"],  d["properties"]["cornuData"]["cornu_URI"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))])
+              fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], fName, "/".join(sName), d["properties"]["cornuData"]["coord_lat"], d["properties"]["cornuData"]["coord_lon"], d["properties"]["cornuData"]["region_code"], d["properties"]["cornuData"]["cornu_URI"], fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(n))])
               break
 
     if found == False:

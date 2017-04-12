@@ -5,15 +5,14 @@ The output is a csv file, containing sttl names, region from both Cornu and geog
 ["Title in geo text", "Name in Cornu", "TitleOther from Cornu", "lat", "lon", "belonging region in cornu", "Prov in geo text", "direct region (parent) in geo text", "eiSearch from Cornu", "translitTitle from Cornu"]
 """
 
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
-from networkx.readwrite import json_graph
-import io, json
-import re
-import sys, codecs
 import csv
-from json import load
-import normalization as norm
+import json
+import re
+
+from fuzzywuzzy import fuzz
+
+from aratext import normalization as norm
+
 
 # used for python 2.7
 #reload(sys)  
@@ -71,17 +70,17 @@ def findCoord(fileName, sttlReg, fWriter):
       #print("stl: ", sttlName, "stl normal: ", normalizeArabic(sttlName), 
 #      if name == fName:
       # check if it finds similar words with arTitle, using fuzzywuzzy library
-      if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))>= 90:
+      if sttlReg and fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(fName))>= 90:
 #      if sttlReg and normalizeArabic(sttlName) == normalizeArabic(fName):
-          fWriter.writerow([sttlName, fName, "/".join(sName), d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))])
+          fWriter.writerow([sttlName, fName, "/".join(sName), d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(fName))])
       else:
         for n in sName:
           n = n.strip()
 #          if name == n.strip():
           # check if it finds similar words with arTitleOther, using fuzzywuzzy library
-          if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))>= 90:
+          if sttlReg and fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(n))>= 90:
 #          if sttlReg and normalizeArabic(sttlName) == normalizeArabic(n):
-              fWriter.writerow([sttlName, fName, n, d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))])
+              fWriter.writerow([sttlName, fName, n, d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalize_alphabet(sttlName), norm.normalize_alphabet(n))])
               break
 
 def getCornuSttlWithCoord(hierarchyFile, coordsFile):

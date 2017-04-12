@@ -6,17 +6,14 @@ For those toponyms in route sections (i.e. FROM/TO) which doesn't find any match
 The out put is a csv file, with all data lines of route sections (from geo text), extended as:
 ["From", "From_lat", "From_long", "From_Region(Cornu)", "From_URI(Cornu)", "To", "To_lat", "To_long", "To_Region(Cornu)", "To_URI", "original distance in classic text"]
 """
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
-from networkx.readwrite import json_graph
-import io, json
-import re
-import sys, codecs
 import csv
-from json import load
-import operator
-import normalization as norm
-import global_var as gv
+import json
+import re
+
+from fuzzywuzzy import fuzz
+
+from aratext import normalization as norm
+
 
 # used for python 2.7
 #reload(sys)  
@@ -31,9 +28,9 @@ def populateDict(string, region, data):
     """
     found = False
     dictionary = {}
-    string_norm = norm.normalizeArabic(string)
+    string_norm = norm.normalize_alphabet(string)
     fName = data["properties"]["cornuData"]["toponym_arabic"]
-    fName_norm = norm.normalizeArabic(fName)
+    fName_norm = norm.normalize_alphabet(fName)
     sName = re.split('،|,',data["properties"]["cornuData"]["toponym_arabic_other"])
     cornu_reg = data["properties"]["cornuData"]["region_code"]
     key = ','.join([string] + region.strip().split(","))
@@ -51,7 +48,7 @@ def populateDict(string, region, data):
 
       else:
         for n in sName:
-          if (fuzz.ratio(string_norm , n.strip()) >= 90 or fuzz.ratio(string , n.strip()) >= 90 or any(x in [n.strip(), norm.normalizeArabic(n.strip())] for x in [string, string_norm])) and cornu_reg in region.strip().split(","):
+          if (fuzz.ratio(string_norm , n.strip()) >= 90 or fuzz.ratio(string , n.strip()) >= 90 or any(x in [n.strip(), norm.normalize_alphabet(n.strip())] for x in [string, string_norm])) and cornu_reg in region.strip().split(","):
             #print("key sName: ", string, "-", key)
             dictionary[key] = {}
             dictionary[key]['lat']= data["properties"]["cornuData"]["coord_lat"]
@@ -81,12 +78,12 @@ def getStartEndCoords(fileName1, fileName2):
         f1 = csv.reader(f1, delimiter='\t')
         for ls in f1:
             start = ls[0][4:].strip()
-            normStart = norm.normalizeArabic(start)
+            normStart = norm.normalize_alphabet(start)
             start_reg = ls[1]#.strip().split(",")
             startKey = ','.join([normStart] + start_reg.strip().split(","))
             startKey_orig = ','.join([start] + start_reg.strip().split(","))
             end = ls[2][4:].strip()
-            normEnd = norm.normalizeArabic(end)
+            normEnd = norm.normalize_alphabet(end)
             end_reg = ls[3]#.strip().split(",")
             endKey = ','.join([normEnd] + end_reg.strip().split(","))
             endKey_orig = ','.join([end] + end_reg.strip().split(","))
@@ -136,12 +133,12 @@ def getCornuCoord_forDistances(distanceFile, cornuCoordsFile):
         for line in distances:
           tmp = {}
           start = line[0][4:].strip()
-          normStart = norm.normalizeArabic(start)
+          normStart = norm.normalize_alphabet(start)
           startRegion = line[1].strip().split(",")
           startKey = ','.join([start] + startRegion).strip()
           startKey_norm = ','.join([normStart] + startRegion).strip()
           end = line[2][4:].strip()
-          normEnd = norm.normalizeArabic(end)
+          normEnd = norm.normalize_alphabet(end)
           endRegion = line[3].strip().split(",")
           endKey = ','.join([end] + endRegion).strip()
           endKey_norm = ','.join([normEnd] + endRegion).strip()

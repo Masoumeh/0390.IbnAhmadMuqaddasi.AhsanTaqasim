@@ -7,6 +7,8 @@ import sys
 import math
 from decimal import *
 from pyproj import *
+import geograph.graph as ggraph
+import geograph.map  as ggeo
 
 
 def createGraphFromJSON(fileName):

@@ -1,5 +1,4 @@
 import math
-import simplify_cornu_routes as smp
 import geojson
 
 

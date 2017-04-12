@@ -5,16 +5,16 @@ All PROVs are integrated in a single graph. The graph also will be traversed to 
 Then, the hierarchies resulting from the traversal will be written a file in which each line starts with the most top level division and ends with sttls.
 Also, creates a json to be used in visualizations.
 """
-from networkx.readwrite import json_graph
-import io, json
-import re
+import io
+import json
+
 import networkx as nx
-import matplotlib.pyplot as plt	
-import sys  
-import normalization as norm
+from networkx.readwrite import json_graph
+
+from aratext import normalization as norm
 
 
-#reload(sys)  
+#reload(sys)
 #sys.setdefaultencoding('utf8')
 
 def getSetOfName(fileName,name):
@@ -43,7 +43,7 @@ def graphLevel(g, fileName, node_id, trav):
 
       for l in f1:
         lS = l.split("\t")
-        if lS[0].startswith(g.node[node_id]['label']) or norm.normalizeArabic(lS[0]).startswith(norm.normalizeArabic(g.node[node_id]['label'])):
+        if lS[0].startswith(g.node[node_id]['label']) or norm.normalize_alphabet(lS[0]).startswith(norm.normalize_alphabet(g.node[node_id]['label'])):
           found = True
           ident = cnt
           g.add_node(ident,label=lS[-1])
