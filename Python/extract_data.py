@@ -16,6 +16,7 @@ def extractTriples(fileName):
         for l in f1:
             # to include distances in extraction, remove PROV and REG strings in the below line
             if l.startswith("#$#FROM"):#PROV") or l.startswith("#$#REG"):
+            #if l.startswith("#$#PROV") or l.startswith("#$#REG"):
                 l = l.split("#$#")[1:]
 
                 val = l[2]
@@ -26,7 +27,7 @@ def extractTriples(fileName):
                     newValue = "\t".join([l[0], l[1], valTag+v])
                     data.append(newValue)
 
-        with open("../Data/" + fileName + "_Triples_Dist2", "w", encoding="utf8") as f9:
+        with open("../Data/" + fileName + "_Triples_Dist3", "w", encoding="utf8") as f9:
             f9.write("\n".join(data))
 
 

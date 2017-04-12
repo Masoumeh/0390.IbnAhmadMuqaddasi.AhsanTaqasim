@@ -24,7 +24,11 @@ def createGraph(geoRoutesFile, cornuPlaces):
         G.add_node(startNode, lat= distReader[r]['start']['lat'], lng= distReader[r]['start']['lon'], status="old" if distReader[r]['start']['URI'] != "null" else "null", region=distReader[r]['start']['region'])
         print(endNode)
         G.add_node(endNode, lat= distReader[r]['end']['lat'], lng= distReader[r]['end']['lon'], status="old" if distReader[r]['end']['URI'] != "null" else "null", region=distReader[r]['end']['region'])
-        G.add_edge(startNode, endNode, length= distReader[r]['cornu_meter'])
+        G.add_edge(startNode, endNode, length= distReader[r]['distance'])
    data = json_graph.node_link_data(G)
-   with open('Muqaddasi_Graph_noNorm_noAL.json', 'w') as graphfile:
+   with open('Muqaddasi_Graph_noNorm_noAL_origkey90.json', 'w') as graphfile:
           json.dump(data, graphfile, ensure_ascii=False, indent=4) 
+
+
+
+createGraph("../Data/Distances_withCoords_normalized_with_cornuRegion_json_noNorm_noAL_origkey90","../Data/places.geojson")

@@ -15,23 +15,6 @@ import csv
 from json import load
 import normalization as norm
 
-# used for python 2.7
-#reload(sys)  
-#sys.setdefaultencoding('utf8')
-
-
-# Normalization function
-def normalizeArabic(text):
-    text = re.sub("[إأٱآا]", "ا", text)
-    text = re.sub("ى", "ي", text)
-    text = re.sub("ؤ", "ء", text)
-    text = re.sub("ئ", "ء", text)
-    text = re.sub("ه", "ة", text)
-    text = re.sub("ک", "ك", text)
-    if text.startswith("ال"):
-      text = text[2:] 
-    return(text)
-
 
 def getSttlWithRegs(fileName):
     """
@@ -47,8 +30,8 @@ def getSttlWithRegs(fileName):
           cnt = cnt + 1
           ls = l.split(",")
           if l:
-            # join the sttl name with latest region and province to which it belongs
-            tmp = "-".join((ls[-1][4:].strip(), ls[0][4:].strip(), ls[-3][4:].strip()))
+            # join the sttl name with province to which it belongs
+            tmp = "-".join((ls[-1][4:].strip(), ls[0][4:].strip(), ls[1][4:].strip()))
             #if tmp not in names:
             names.append(tmp)
             #else:
@@ -59,40 +42,48 @@ def getSttlWithRegs(fileName):
 
 def findCoord(fileName, sttlReg, fWriter):
   """
-  Finds the coordinates, last region and the province belonging to for the sttls from cornu file
+  Finds the coordinates, URI and the province belonging to for the sttls from cornu file
   and write them all together in a csv file.
   """
+
   sttlName = sttlReg.split('-')[0]
   with open(fileName, "r", encoding="utf8") as jsonFile:    
     allData = json.load(jsonFile)
-    for d in allData["data"]:
-      fName = d["arTitle"]
-      sName = d["arTitleOther"].split(",")
-      #print("stl: ", sttlName, "stl normal: ", normalizeArabic(sttlName), 
+    found = False
+    for d in allData["features"]:
+      fName = d["properties"]["cornuData"]["toponym_arabic"]
+      sName = d["properties"]["cornuData"]["toponym_arabic_other"].split("،")
 #      if name == fName:
       # check if it finds similar words with arTitle, using fuzzywuzzy library
       if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))>= 90:
+          found = True
 #      if sttlReg and normalizeArabic(sttlName) == normalizeArabic(fName):
-          fWriter.writerow([sttlName, fName, "/".join(sName), d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))])
+          fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], fName, "/".join(sName), d["properties"]["cornuData"]["coord_lat"], d["properties"]["cornuData"]["coord_lon"], d["properties"]["cornuData"]["region_code"], d["properties"]["cornuData"]["cornu_URI"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(fName))])
+
       else:
         for n in sName:
           n = n.strip()
 #          if name == n.strip():
           # check if it finds similar words with arTitleOther, using fuzzywuzzy library
           if sttlReg and fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))>= 90:
+              found = True
 #          if sttlReg and normalizeArabic(sttlName) == normalizeArabic(n):
-              fWriter.writerow([sttlName, fName, n, d["lat"], d["lon"], d["region"], sttlReg.split('-')[1], sttlReg.split('-')[2], d["eiSearch"], d["translitTitle"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))])
+              fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], fName, "/".join(sName), d["properties"]["cornuData"]["coord_lat"], d["properties"]["cornuData"]["coord_lon"], d["properties"]["cornuData"]["region_code"],  d["properties"]["cornuData"]["cornu_URI"], fuzz.ratio(norm.normalizeArabic(sttlName), norm.normalizeArabic(n))])
               break
+
+    if found == False:
+        #print("last")
+        fWriter.writerow([sttlName, sttlReg.split('-')[1], sttlReg.split('-')[2], "null", "null", "null", "null", "null", "null", 0])
 
 def getCornuSttlWithCoord(hierarchyFile, coordsFile):
     sttlNames = getSttlWithRegs(hierarchyFile)
-    with open("../Data/SttlReg_CoordsCSV_fuzzyWuzzy_normalized2", 'w', encoding="utf8") as csvCoord:
+    with open("../Data/flat_geo_hierarchy_cornuMatches", 'w', encoding="utf8") as csvCoord:
       fWriter = csv.writer(csvCoord, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-      fWriter.writerow(["geoTitle", "cornuTitle", "cornuTitleOther", "lat", "lon", "cornuRegion", "geoProv", "geoFinalReg", "eiSearch", "translitTitle", "FW_ratio"])
+      fWriter.writerow(["geoSttl", "geoProv", "geoReg1", "cornuTitle", "cornuTitleOther", "lat", "lon", "cornuRegion", "URI", "FW_ratio"])
       for st in sttlNames:
         findCoord(coordsFile, st, fWriter)
            
       
-getCornuSttlWithCoord("../Data/Shamela_0023696_Triples_H", "../Data/places.geojson")
+getCornuSttlWithCoord("../Data/flat_geo_hierarchy_H3", "../Data/places.geojson")
 print("Done!")  
     

@@ -13,11 +13,13 @@ class Point:
         self._x = x
         self._y = y
         self._uri = uri
+
     def dist_to_point(self, other):
         'Compute the Euclidean distance between two Point objects'
         delta_x = self._x - other._x
         delta_y = self._y - other._y
         return (delta_x ** 2 + delta_y ** 2) ** 0.5
+
     def __repr__(self):
         return '{:}, {:}, {:}'.format(self._x, self._y, self._uri)
 

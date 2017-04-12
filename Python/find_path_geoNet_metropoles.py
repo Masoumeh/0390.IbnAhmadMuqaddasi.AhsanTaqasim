@@ -45,5 +45,5 @@ def all_shortest_paths(geoNetFile):
       with open('Muqaddasi_all_shortest_paths.json', 'w') as graphfile:
           json.dump(paths, graphfile, ensure_ascii=False, indent=4)
 
-all_shortest_paths("Muqaddasi_Graph.json")
+all_shortest_paths("Muqaddasi_Graph_noNorm_noAL_origkey90.json")
 print("done!")

@@ -1,9 +1,8 @@
 
-
 global reg_dict 
 global metropoles
 reg_dict = {
-"جزيرة العرب": "Jazirat al-Arab,Yemen", "إقليم العراق": "Iraq", "إقليم أقور": "Aqur", "إقليم الشام": "Sham", "إقليم مصر": "Egypt", "إقليم المغرب": "Maghrib,Barqa,Andalus", "ذكر بادية العرب": "Badiyat al-Arab", "إقليم السند": "Sind", "إقليم كرمان": "Kirman", "إقليم فارس": "Faris", "إقليم خوزستان": "Khuzistan", "إقليم الجبال": "Jibal", "إقليم الرحاب": "Rihab", "إقليم الديلم": "Daylam", "إقليم المشرق": "Khurasan,Sijistan,Transoxiana"
+"جزيرة العرب": "Jazirat al-Arab,Yemen", "إقليم العراق": "Iraq", "إقليم أقور": "Aqur", "إقليم الشام": "Sham", "إقليم مصر": "Egypt", "إقليم المغرب": "Maghrib,Barqa,Andalus", "ذكر بادية العرب": "Badiyat al-Arab", "إقليم السند": "Sind", "إقليم كرمان": "Kirman", "إقليم فارس": "Faris", "إقليم خوزستان": "Khuzistan", "إقليم الجبال": "Jibal", "إقليم الرحاب": "Rihab", "إقليم الديلم": "Daylam", "إقليم المشرق": "Khurasan,Sijistan,Transoxiana", "جزيرة العرب": "Jazirat al-Arab,Yemen", "العراق": "Iraq", "أقور": "Aqur", "الشام": "Sham", "مصر": "Egypt", "المغرب": "Maghrib,Barqa,Andalus", "بادية العرب": "Badiyat al-Arab", "السند": "Sind", "كرمان": "Kirman", "فارس": "Faris", "خوزستان": "Khuzistan", "الجبال": "Jibal", "الرحاب": "Rihab", "الديلم": "Daylam", "المشرق": "Khurasan,Sijistan,Transoxiana"
 }
 
 metropoles = [

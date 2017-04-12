@@ -1,0 +1,158 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>d3.carto - Major City Clustering</title>
+<meta charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="../css/d3map.css" />
+<link type="text/css" rel="stylesheet" href="../css/example.css" />
+</head>
+<style>
+html,body {
+height: 100%;
+width: 100%;
+margin: 0;
+}
+
+#map {
+height: 100%;
+width: 100%;
+position: absolute;
+}
+.point {
+fill: red;
+stroke: darkred;
+stroke-width: 1px;
+}
+.path {
+    fill: black;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+</style>
+<script>
+function makeSomeMaps() {
+var colorLookup = {
+//"Andalus": "#323449",
+"Aqur": "#A768E6",
+"Barqa": "#58E0C1",
+"Daylam": "#D5812E",
+"Egypt": "#6CD941",
+"Faris": "#E23A80",
+"Iraq": "#ABB1DB",
+"Jibal": "#384E21",
+"Khazar": "#BDD977",
+"Khurasan": "#B27E86",
+"Khuzistan": "#8F351D",
+"Kirman": "#D5AB7A",
+"Mafaza": "#d3d3d3",//"#514285", has changed to light gray to set this region to background
+"Maghrib": "#539675",
+"Rihab": "#DB4621",
+"Sham": "#539236",
+"Sicile": "#4B281F",
+"Sijistan": "#68DA85",
+"Sind": "#6C7BD8",
+//"Transoxiana": "#DBB540",
+"Yemen": "#8F3247",
+    "undefined": "Red",
+    22: "#000000",//"#A8DBD5", has changed to light gray to set this region to background
+"Badiyat al-Arab": "#d3d3d3",//"#C9DB3F", has changed to light gray to set this region to background
+"Jazirat al-Arab": "#537195",
+"NoRegion": "#d3d3d3", //# "#7E5C31", for routepoints clearly between regions
+26: "#D1785F",
+27: "#898837",
+28: "#DC4AD3",
+29: "#DD454F",
+30: "#C4D9A5",
+31: "#DDC1BF",
+32: "#D498D2",
+33: "#61B7D6",
+34: "#A357B1",
+"Transoxiana": "#522046",
+36: "#849389",
+//"Transoxiana": "#3B524B",
+38: "#DD6F91",
+39: "#B4368A",
+"Andalus": "#8F547C"
+};
+map = d3.carto.map();
+
+d3.select("#map").call(map);
+pointModal = d3.carto.modal();
+var formatter = pointModal.formatter(
+function(d) {
+console.log(JSON.stringify(d))
+return "<h1>" + "geo title: " + d.properties.URI
+//                        +  "</br>"
+//                        + "cornu Name: " + d.cornuName + "</br>"
+//                        + "other cornu title: " + d.geoTitleOther + "</br>"
+//                        + "cornu lat: " + d.lat + "</br>"
+//                        + "cornu lon: " + d.lon + "</br>"
+//                        + "cornu region: " + d.cornuRegion + "</br>"
+//                        + "geo top region: " + d.geoProv + "</br>"
+//                        + "geo low region: " + d.geoFinalReg + "</br>"
+//                        + "<hr>"
+//                        + "<button id='matchBtn' type='button' onclick=''>" + "Match" + "</button>"
+//                        + "<button id='noMatchBtn' type='button' onclick=''>"+ "Does not Match" + "</button>"
+//                        + "<button id='notSureBtn' type='button' onclick=''>"+ "Not Sure!!" + "</button>"
++ "</h1>"})
+tileLayer = d3.carto.layer.tile();
+tileLayer
+.tileType("stamen")
+.path("watercolor")
+.label("Watercolor")
+.visibility(true);
+
+postLayer = d3.carto.layer.geojson();
+postLayer
+    .path("../Data/simplified_cornu_coords_postProcessed_loop.geojson")
+    .label("Points")
+    .renderMode("svg")
+    .markerSize(3)
+    .markerColor(function(d) { return "green"})//colorLookup[d.properties.region]})
+//    .cssClass("point")
+    //                .modal(pointModal)
+    .clickableFeatures(true)
+    .on("load", function() {
+        d3.selectAll("circle").style("fill", function(d) {
+            return colorLookup[d.properties.region]})
+                .style("stroke", function(d) {
+                    return colorLookup[d.properties.region]})
+    });
+pathLayer = d3.carto.layer.geojson();
+pathLayer
+    .path("../Data/simplified_cornu_lines.geojson")
+    .label("Paths")
+    .renderMode("svg")
+    //                .cssClass("point")
+    //                .modal(pointModal)
+//        .markerSize(5)
+    .clickableFeatures(true)
+
+//        d3.selectAll("circle").style("fil", function(d){console.log(d); return colorLookup[d.properties.cornuDara.region_code]})
+//        postLayer
+//                .markerColor(function(d) { return colorLookup[d.properties.region]})
+map.addCartoLayer(tileLayer).addCartoLayer(postLayer)//.addCartoLayer(pathLayer);
+map.centerOn([44.361488, 33.312806], "latlong").setScale(3);
+}
+</script>
+<body onload="makeSomeMaps()">
+<div id="map"></div>
+<footer>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8" type="text/javascript"></script>
+<script src="http://d3js.org/topojson.v1.min.js" type="text/javascript">
+</script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js" type="text/javascript">
+</script>
+<script src="http://bl.ocks.org/emeeks/raw/f3105fda25ff785dc5ed/tile.js" type="text/javascript">
+</script>
+<script src="http://bl.ocks.org/emeeks/raw/f3105fda25ff785dc5ed/d3.quadtiles.js" type="text/javascript">
+</script>
+<script src="http://bl.ocks.org/emeeks/raw/f3105fda25ff785dc5ed/d3.geo.raster.js" type="text/javascript">
+</script>
+<script src="https://rawgit.com/emeeks/d3-carto-map/master/d3.carto.map.js" type="text/javascript">
+</script>
+</footer>
+</body>
+</html>
+
+

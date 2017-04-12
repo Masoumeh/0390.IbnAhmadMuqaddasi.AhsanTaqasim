@@ -96,8 +96,8 @@ def replaceUnitsWithMeter(fileName):
             distReader[row]['cornu_meter'] = "null"
             routes[row] = distReader[row]
 
-    with open("../Data/tripleRoutes_withMeter2_normalized_with_cornuRegion_json_noNorm", "w", encoding="utf8") as distMeter:
+    with open("../Data/tripleRoutes_withMeter2_normalized_with_cornuRegion_json_noNorm_noAL_origkey90", "w", encoding="utf8") as distMeter:
       json.dump(routes, distMeter, ensure_ascii=False, indent=4)
 
-replaceUnitsWithMeter("../Data/Distances_withCoords_normalized_with_cornuRegion_json_noNorm")
+replaceUnitsWithMeter("../Data/Distances_withCoords_normalized_with_cornuRegion_json_noNorm_noAL_origkey90")
 print("Done!")

@@ -11,10 +11,11 @@ import re
 import networkx as nx
 import matplotlib.pyplot as plt	
 import sys  
+import normalization as norm
 
 
-reload(sys)  
-sys.setdefaultencoding('utf8')
+#reload(sys)  
+#sys.setdefaultencoding('utf8')
 
 def getSetOfName(fileName,name):
     roots = set()
@@ -37,30 +38,40 @@ def graphLevel(g, fileName, node_id, trav):
   global count
   
   with open(fileName, "r") as f1:
-    f1 = f1.read().split("\n")
-    for l in f1:
-      lS = l.split("\t")
-      if lS[0].startswith(g.node[node_id]['label']):
-        ident = cnt
-        g.add_node(ident,label=lS[-1])
-        g.add_edge(node_id,ident, label = lS[1])
-        cnt = cnt + 1
-        if 'STTL' not in g.node[ident]['label']:
-          trav.append(lS[1])
-          trav.append(''+ g.node[ident]['label'])
-          graphLevel(g,fileName,ident,trav)
-          trav.pop()
-          trav.pop()
-        else:
-          count=count+1
-          trav.append(lS[1])
-          trav.append(''+ g.node[ident]['label'])
-          a = ''
-          with open("../Data/" + fileName+"_H", "a") as f2:          
+      f1 = f1.read().split("\n")
+      found = False
+
+      for l in f1:
+        lS = l.split("\t")
+        if lS[0].startswith(g.node[node_id]['label']) or norm.normalizeArabic(lS[0]).startswith(norm.normalizeArabic(g.node[node_id]['label'])):
+          found = True
+          ident = cnt
+          g.add_node(ident,label=lS[-1])
+          g.add_edge(node_id,ident, label = lS[1])
+          cnt = cnt + 1
+          if 'STTL' not in g.node[ident]['label']:
+            trav.append(lS[1])
+            trav.append(''+ g.node[ident]['label'])
+            graphLevel(g,fileName,ident,trav)
+            trav.pop()
+            trav.pop()
+          else:
+            found = True
+            count=count+1
+            trav.append(lS[1])
+            trav.append(''+ g.node[ident]['label'])
+            a = ''
+            with open("../Data/" + fileName+"_H3", "a") as f2: 
+              f2.write(','.join(trav))
+              f2.write('\n')
+            trav.pop()
+            trav.pop()
+      if found == False:
+          #print(trav)
+          with open("../Data/" + fileName+"_H4", "a") as f2: 
             f2.write(','.join(trav))
             f2.write('\n')
-          trav.pop()
-          trav.pop()
+          
 
 def buildHierarchiesGraph(fileName):
     """
@@ -76,18 +87,18 @@ def buildHierarchiesGraph(fileName):
     
 
     for rs in roots:
-      trav=[]
-      g.add_edge(1,cnt, label = "child of root")
-      g.add_node(cnt,label=rs) 
-      trav.append(''+ g.node[cnt]['label'])
+        trav=[]
+        g.add_edge(1,cnt, label = "child of root")
+        g.add_node(cnt,label=rs) 
+        trav.append(''+ g.node[cnt]['label'])
       #trav.append(lS[1])      
-      cnt = cnt + 1
-      graphLevel(g, fileName, cnt-1, trav)      	
+        cnt = cnt + 1
+        graphLevel(g, fileName, cnt-1, trav)      	
       
       
     data = json_graph.tree_data(g,root=1)
     with io.open('../Data/tree'+g.node[1]['label']+'.json', 'w', encoding='utf-8') as f:
-      f.write(unicode(json.dumps(data, ensure_ascii=False)))	
+      f.write(json.dumps(data, ensure_ascii=False))	
 
-buildHierarchiesGraph("../Data/Shamela_0023696_Triples")
+buildHierarchiesGraph("../Data/Shamela_0023696_Triples_H4")
 print(count)
