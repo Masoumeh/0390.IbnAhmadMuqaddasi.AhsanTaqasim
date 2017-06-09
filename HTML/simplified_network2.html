@@ -72,7 +72,8 @@ var colorLookup = {
 //"Transoxiana": "#3B524B",
 38: "#DD6F91",
 39: "#B4368A",
-"Andalus": "#8F547C"
+"Andalus": "#8F547C",
+    "not_set":"black"
 };
 map = d3.carto.map();
 
@@ -104,7 +105,7 @@ tileLayer
 
 postLayer = d3.carto.layer.geojson();
 postLayer
-    .path("../Data/new_simplified_cornu_coords_postProcessed_loop.geojson")
+    .path("../Data/new_simplified_cornu_coords_postProcessed_loop2.geojson")//new_simplified_muq_coords_post.geojson")
     .label("Points")
     .renderMode("svg")
     .markerSize(3)

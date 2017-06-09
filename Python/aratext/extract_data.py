@@ -23,7 +23,7 @@ def extractTriples(fileName):
                     newValue = "\t".join([l[0], l[1], valTag+v])
                     data.append(newValue)
 
-        with open("../Data/" + fileName + "_Triples_Dist3", "w", encoding="utf8") as f9:
+        with open("../../Data/" + fileName + "_Triples_Dist3", "w", encoding="utf8") as f9:
             f9.write("\n".join(data))
 
 #

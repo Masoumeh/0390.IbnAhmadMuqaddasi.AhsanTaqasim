@@ -9,6 +9,7 @@ The out put is a csv file, with all data lines of route sections (from geo text)
 import csv
 import json
 import re
+import global_var as gv
 
 from fuzzywuzzy import fuzz
 
@@ -37,7 +38,9 @@ def populateDict(string, region, data):
     key_norm = ','.join([string_norm] + region.strip().split(","))
 
     if not any(x in dictionary for x in [key, key_norm]): 
-      if (fuzz.ratio(string_norm , fName) >= 90 or fuzz.ratio(string , fName) >= 90 or any(x in [fName, fName_norm] for x in [string, string_norm])) and cornu_reg in region.strip().split(","):
+      if (fuzz.ratio(string_norm , fName) >= 90 or fuzz.ratio(string , fName) >= 90
+          or any(x in [fName, fName_norm] for x in [string, string_norm])) \
+              and cornu_reg in region.strip().split(","):
         #print("key fName: ", string, "-", key)
         dictionary[key] = {}
         dictionary[key]['lat']= data["properties"]["cornuData"]["coord_lat"]
@@ -97,24 +100,44 @@ def getStartEndCoords(fileName1, fileName2):
                 if not any(x in uniqueNames for x in [endKey, endKey_orig]):
                   uniqueNames.update(populateDict(end, end_reg, d))
               if not any(x in uniqueNames for x in [startKey, startKey_orig]):
-                  tmp = {}
-                  tmp[startKey_orig] = {}
-                  tmp[startKey_orig]['lat']= "null"
-                  tmp[startKey_orig]['lon'] = "null"
-                  tmp[startKey_orig]['region'] = start_reg
-                  tmp[startKey_orig]['cornuUri'] = "null"
-                  print("start: ", startKey_orig)
-                  uniqueNames.update(tmp)
+                  for uri in gv.found_URIs:
+                      if any(x in uri for x in [startKey, startKey_orig])\
+                              and re.match(r'\d', gv.found_URIs[uri]) == None:
+                          tmp = {}
+                          tmp[startKey_orig] = {}
+                          tmp[startKey_orig]['lat'] = "null"
+                          tmp[startKey_orig]['lon'] = "null"
+                          tmp[startKey_orig]['region'] = start_reg
+                          tmp[startKey_orig]['cornuUri'] = gv.found_URIs[uri]
+                          uniqueNames.update(tmp)
+                  if startKey_orig not in uniqueNames:
+                      tmp = {}
+                      tmp[startKey_orig] = {}
+                      tmp[startKey_orig]['lat']= "null"
+                      tmp[startKey_orig]['lon'] = "null"
+                      tmp[startKey_orig]['region'] = start_reg
+                      tmp[startKey_orig]['cornuUri'] = "null"
+                      uniqueNames.update(tmp)
 
               if not any(x in uniqueNames for x in [endKey, endKey_orig]):
-                  tmp = {}
-                  tmp[endKey_orig] = {}
-                  tmp[endKey_orig]['lat']= "null"
-                  tmp[endKey_orig]['lon'] = "null"
-                  tmp[endKey_orig]['region'] = end_reg
-                  tmp[endKey_orig]['cornuUri'] = "null"
-                  print("end: ", endKey_orig)
-                  uniqueNames.update(tmp)  
+                  for uri in gv.found_URIs:
+                      if any(x in uri for x in [endKey, endKey_orig])\
+                              and re.match(r'\d', gv.found_URIs[uri]) == None:
+                          tmp = {}
+                          tmp[endKey_orig] = {}
+                          tmp[endKey_orig]['lat'] = "null"
+                          tmp[endKey_orig]['lon'] = "null"
+                          tmp[endKey_orig]['region'] = end_reg
+                          tmp[endKey_orig]['cornuUri'] = gv.found_URIs[uri]
+                          uniqueNames.update(tmp)
+                  if endKey_orig not in uniqueNames:
+                      tmp = {}
+                      tmp[endKey_orig] = {}
+                      tmp[endKey_orig]['lat']= "null"
+                      tmp[endKey_orig]['lon'] = "null"
+                      tmp[endKey_orig]['region'] = end_reg
+                      tmp[endKey_orig]['cornuUri'] = "null"
+                      uniqueNames.update(tmp)
         return uniqueNames
 
 

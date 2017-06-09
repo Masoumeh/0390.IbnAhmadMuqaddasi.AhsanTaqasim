@@ -42,99 +42,91 @@ colorLookup = {
     '39': "#B4368A",
     "Andalus": "#8F547C"
 }
-def create_new_struct(sourceFile):
-    with open(sourceFile) as rFile:
+def create_new_struct(source_file, region_file):
+
+    with open(source_file) as rFile:
         allData = json.load(rFile)
         featureColl = {}
         featureColl['type'] = "FeatureCollection"
         featureColl['features'] = []
         regions = {}
-        for d in allData["features"]:
-            if d['properties']['cornuData']['region_code'] not in regions:
-                regions[d['properties']['cornuData']['region_code']] = {}
-                regions[d['properties']['cornuData']['region_code']]['display'] = d['properties']['cornuData']['region_spelled']
-                regions[d['properties']['cornuData']['region_code']]['color'] = colorLookup[d['properties']['cornuData']['region_code']]
-                if d['properties']['althurayyaData']['visual_center'] == 'yes':
+        with open(region_file, 'r') as reg_f:
+            regs = json.load(reg_f)
+            for d in allData["features"]:
+                if d['properties']['cornuData']['region_code'] not in regions:
+                    regions[d['properties']['cornuData']['region_code']] = {}
+                    regions[d['properties']['cornuData']['region_code']]['display'] = d['properties']['cornuData']['region_spelled']
+                    regions[d['properties']['cornuData']['region_code']]['color'] = colorLookup[d['properties']['cornuData']['region_code']]
+                    if d['properties']['althurayyaData']['visual_center'] == 'yes':
+                        regions[d['properties']['cornuData']['region_code']]['visual_center'] = d['properties']['cornuData']['cornu_URI']
+                    else:
+                        regions[d['properties']['cornuData']['region_code']]['visual_center'] = ""
+                elif regions[d['properties']['cornuData']['region_code']]['visual_center'] == "" and d['properties']['althurayyaData']['visual_center'] == 'yes':
                     regions[d['properties']['cornuData']['region_code']]['visual_center'] = d['properties']['cornuData']['cornu_URI']
-                else:
-                    regions[d['properties']['cornuData']['region_code']]['visual_center'] = ""
-            elif regions[d['properties']['cornuData']['region_code']]['visual_center'] == "" and d['properties']['althurayyaData']['visual_center'] == 'yes':
-                regions[d['properties']['cornuData']['region_code']]['visual_center'] = d['properties']['cornuData']['cornu_URI']
-            new_d = {}
-            new_d['geometry'] = d['geometry']
-            new_d['type'] = d['type']
-            new_d['archive'] = {}
-            new_d['archive']['cornuData'] = d['properties']['cornuData']
-            new_d['properties'] = {}
-            new_d['properties']["althurayyaData"] = {}
-            # new_d['properties']["althurayyaData"]['sources'] = {}
-            # source = {}
-            new_d['properties']["althurayyaData"]['source'] = "cornuData"
-            new_d['properties']["althurayyaData"]['coord_certainty'] = d['properties']['cornuData']["coord_certainty"]
-            new_d['properties']["althurayyaData"]['coord_lat'] = d['properties']['cornuData']["coord_lat"]
-            new_d['properties']["althurayyaData"]["coord_lon"] = d['properties']['cornuData']["coord_lon"]
-            new_d['properties']["althurayyaData"]["URI"] = d['properties']['cornuData']["cornu_URI"]
-            new_d['properties']["althurayyaData"]["region"] = d['properties']['cornuData']['region_code']
-            # new_d['properties']["althurayyaData"]["region_code"] = d['properties']['cornuData']['region_code']
-            # new_d['properties']["althurayyaData"]["region_spelled"] = d['properties']['cornuData']['region_spelled']
-            # new_d['properties']["althurayyaData"]["top_type_hom"] = d['properties']['cornuData']["top_type_hom"]
-            new_d['properties']["althurayyaData"]["top_type"] = d['properties']['cornuData']["top_type_hom"]
-            # new_d['properties']["althurayyaData"]["original_language"] = ""
-            # new_d['properties']["althurayyaData"]["toponym_original"] = d['properties']['cornuData']["toponym_arabic"]
-            # new_d['properties']["althurayyaData"]["toponym_original_other"] = d['properties']['cornuData']["toponym_arabic_other"]
-            new_d['properties']["althurayyaData"]["names"] = {}
-            # name = {}
-            # name["arabic"] = {}
-            # name["toponym_search"] = d['properties']['cornuData']["toponym_search"]
-            # name["toponym_translit"] = d['properties']['cornuData']["toponym_translit"]
-            # name["toponym_translit_other"] = d['properties']['cornuData']["toponym_translit_other"]
-            new_d['properties']["althurayyaData"]["names"]['arabic'] = {}
-            new_d['properties']["althurayyaData"]["names"]['arabic']['search'] = d['properties']['cornuData']["toponym_arabic"]
-            new_d['properties']["althurayyaData"]["names"]['arabic']['common'] = d['properties']['cornuData']["toponym_arabic"]
-            new_d['properties']["althurayyaData"]["names"]['arabic']['common_other'] = d['properties']['cornuData']["toponym_arabic_other"]
-            new_d['properties']["althurayyaData"]["names"]['arabic']['translit'] = ""
-            new_d['properties']["althurayyaData"]["names"]['arabic']['translit_other'] = ""
-            new_d['properties']["althurayyaData"]["names"]['english'] = {}
-            new_d['properties']["althurayyaData"]["names"]['english']['search'] = d['properties']['cornuData'][
-                "toponym_search"]
-            new_d['properties']["althurayyaData"]["names"]['english']['common'] = ""
-            new_d['properties']["althurayyaData"]["names"]['english']['common_other'] = ""
-            new_d['properties']["althurayyaData"]["names"]['english']['translit'] = d['properties']['cornuData'][
-                "toponym_translit"]
-            new_d['properties']["althurayyaData"]["names"]['english']['translit_other'] = d['properties']['cornuData'][
-                "toponym_translit_other"]
-            # source["names"].update(name)
-            # new_d['properties']["althurayyaData"].update(source)
-            # new_d['properties']["althurayyaData"]['names'] = name
-            new_d['properties']["references"] = {}
-            new_d['properties']["references"]["primary"] = {}
-            new_d['properties']["references"]["secondary"] = {}
-            for k,v in d["properties"]["sources_arabic"].items():
-                tmp_ref = {}
-                tmp_ref[k] = v
-                # tmp_ref[k]['type'] = "primary"
-                tmp_ref[k]['match_rate'] = d["properties"]["sources_arabic"][k]['rate']
-                tmp_ref[k]['match_status'] = d["properties"]["sources_arabic"][k]['status']
-                tmp_ref[k]['language_orig'] = 'Arabic'
-                tmp_ref[k]['language_manifestation'] = ''
-                del tmp_ref[k]['rate']
-                del tmp_ref[k]['status']
-                new_d['properties']["references"]['primary'].update(tmp_ref)
-            for k,v in d["properties"]["sources_english"].items():
-                print(k, " ",v)
-                tmp_ref = {}
-                tmp_ref[v['uri']] = {}
-                # tmp_ref[v['uri']]['type'] = "secondary"
-                tmp_ref[v['uri']]['match_rate'] = ""
-                tmp_ref[v['uri']]['match_status'] = ""
-                tmp_ref[v['uri']]['language_orig'] = 'English'
-                tmp_ref[v['uri']]['language_manifestation'] = ''
-                # del tmp_ref[v['uri']]['uri']
-                new_d['properties']["references"]['secondary'].update(tmp_ref)
-            featureColl['features'].append(new_d)
+                new_d = {}
+                new_d['geometry'] = d['geometry']
+                new_d['type'] = d['type']
+                new_d['archive'] = {}
+                new_d['archive']['cornuData'] = {}
+                new_d['properties'] = {}
+                new_d['properties']["althurayyaData"] = {}
+                # new_d['properties']["althurayyaData"]['sources'] = {}
+                # source = {}
+                new_d['properties']["althurayyaData"]['source'] = "cornuData"
+                new_d['properties']["althurayyaData"]['coord_certainty'] = d['properties']['cornuData']["coord_certainty"]
+                new_d['properties']["althurayyaData"]["URI"] = d['properties']['cornuData']["cornu_URI"]
+                new_d['properties']["althurayyaData"]["region_URI"] = [r for r in regs if regs[r]['region_code'] == d['properties']['cornuData']['region_code']][0]
+                new_d['properties']["althurayyaData"]["top_type"] = d['properties']['cornuData']["top_type_hom"]
+                new_d['properties']["althurayyaData"]["language"] = ["ara", "eng"]
+                new_d['properties']["althurayyaData"]["names"] = {}
+                new_d['properties']["althurayyaData"]["names"]['ara'] = {}
+                new_d['properties']["althurayyaData"]["names"]['ara']['search'] = d['properties']['cornuData']["toponym_arabic"]
+                new_d['properties']["althurayyaData"]["names"]['ara']['common'] = d['properties']['cornuData']["toponym_arabic"]
+                new_d['properties']["althurayyaData"]["names"]['ara']['common_other'] = d['properties']['cornuData']["toponym_arabic_other"]
+                new_d['properties']["althurayyaData"]["names"]['ara']['translit'] = ""
+                new_d['properties']["althurayyaData"]["names"]['ara']['translit_other'] = ""
+                new_d['properties']["althurayyaData"]["names"]['eng'] = {}
+                new_d['properties']["althurayyaData"]["names"]['eng']['search'] = d['properties']['cornuData'][
+                    "toponym_search"]
+                new_d['properties']["althurayyaData"]["names"]['eng']['common'] = ""
+                new_d['properties']["althurayyaData"]["names"]['eng']['common_other'] = ""
+                new_d['properties']["althurayyaData"]["names"]['eng']['translit'] = d['properties']['cornuData'][
+                    "toponym_translit"]
+                new_d['properties']["althurayyaData"]["names"]['eng']['translit_other'] = d['properties']['cornuData'][
+                    "toponym_translit_other"]
+                # source["names"].update(name)
+                # new_d['properties']["althurayyaData"].update(source)
+                # new_d['properties']["althurayyaData"]['names'] = name
+                new_d['properties']["references"] = {}
+                new_d['properties']["references"]["primary"] = {}
+                new_d['properties']["references"]["secondary"] = {}
+                for k,v in d["properties"]["sources_arabic"].items():
+                    tmp_ref = {}
+                    tmp_ref[k] = v
+                    # tmp_ref[k]['type'] = "primary"
+                    tmp_ref[k]['match_rate'] = d["properties"]["sources_arabic"][k]['rate']
+                    tmp_ref[k]['match_status'] = d["properties"]["sources_arabic"][k]['status']
+                    tmp_ref[k]['language_orig'] = 'Arabic'
+                    tmp_ref[k]['language_manifestation'] = ''
+                    del tmp_ref[k]['rate']
+                    del tmp_ref[k]['status']
+                    new_d['properties']["references"]['primary'].update(tmp_ref)
+                for k,v in d["properties"]["sources_english"].items():
+                    print(k, " ",v)
+                    tmp_ref = {}
+                    tmp_ref[v['uri']] = {}
+                    # tmp_ref[v['uri']]['type'] = "secondary"
+                    tmp_ref[v['uri']]['match_rate'] = ""
+                    tmp_ref[v['uri']]['match_status'] = ""
+                    tmp_ref[v['uri']]['language_orig'] = 'English'
+                    tmp_ref[v['uri']]['language_manifestation'] = ''
+                    # del tmp_ref[v['uri']]['uri']
+                    new_d['properties']["references"]['secondary'].update(tmp_ref)
+                featureColl['features'].append(new_d)
+    # print(featureColl)
 
     with open("../Data/places_new_structure.geojson", 'w') as outfile:
         json.dump(featureColl, outfile, sort_keys=True, indent=4, ensure_ascii=False)
-    with open("../Data/regions.json", 'w') as outfile:
-        json.dump(regions, outfile, sort_keys=True, indent=4, ensure_ascii=False)
-create_new_struct("../Data/places.geojson")
+    # with open("../Data/regions.json", 'w') as outfile:
+    #     json.dump(regions, outfile, sort_keys=True, indent=4, ensure_ascii=False)
+create_new_struct("../Data/places.geojson", "../Data/regions.json")
