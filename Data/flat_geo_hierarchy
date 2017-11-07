@@ -1,0 +1,669 @@
+PROV,REG1,STTL
+PROV العراق ,REG1 الکوفة ,STTL حمام ابن عمر 
+PROV العراق ,REG1 الکوفة ,STTL الجامعين 
+PROV العراق ,REG1 الکوفة ,STTL سورا 
+PROV العراق ,REG1 الکوفة ,STTL النيل 
+PROV العراق ,REG1 الکوفة ,STTL القادسيه 
+PROV العراق ,REG1 الکوفة ,STTL عين التمر 
+PROV العراق ,REG1 البصرة ,STTL الأبله 
+PROV العراق ,REG1 البصرة ,STTL شق عثمان 
+PROV العراق ,REG1 البصرة ,STTL زبان 
+PROV العراق ,REG1 البصرة ,STTL بدران 
+PROV العراق ,REG1 البصرة ,STTL بيان 
+PROV العراق ,REG1 البصرة ,STTL نهر الملک 
+PROV العراق ,REG1 البصرة ,STTL دبا 
+PROV العراق ,REG1 البصرة ,STTL نهر الأمير 
+PROV العراق ,REG1 البصرة ,STTL ابو الخصيب 
+PROV العراق ,REG1 البصرة ,STTL سليمانان 
+PROV العراق ,REG1 البصرة ,STTL عبادان 
+PROV العراق ,REG1 البصرة ,STTL المطوعة 
+PROV العراق ,REG1 البصرة ,STTL القندلة 
+PROV العراق ,REG1 البصرة ,STTL المفتح 
+PROV العراق ,REG1 البصرة ,STTL الجعفرية 
+PROV العراق ,REG1 واسط ,STTL فم الصلح 
+PROV العراق ,REG1 واسط ,STTL درمکان 
+PROV العراق ,REG1 واسط ,STTL قراقبه 
+PROV العراق ,REG1 واسط ,STTL سيادة 
+PROV العراق ,REG1 واسط ,STTL باذبين 
+PROV العراق ,REG1 واسط ,STTL السکر 
+PROV العراق ,REG1 واسط ,STTL الطيب 
+PROV العراق ,REG1 بغداد ,STTL النهروان 
+PROV العراق ,REG1 بغداد ,STTL بردان 
+PROV العراق ,REG1 بغداد ,STTL کارة 
+PROV العراق ,REG1 بغداد ,STTL الدسکرة 
+PROV العراق ,REG1 بغداد ,STTL طراستان 
+PROV العراق ,REG1 بغداد ,STTL هارونية 
+PROV العراق ,REG1 حلوان ,STTL خانقين 
+PROV العراق ,REG1 حلوان ,STTL زبوجان 
+PROV العراق ,REG1 حلوان ,STTL شلاشلان 
+PROV العراق ,REG1 حلوان ,STTL الجامد 
+PROV العراق ,REG1 حلوان ,STTL الحر 
+PROV العراق ,REG1 حلوان ,STTL السيروان 
+PROV العراق ,REG1 سامرا ,STTL الکرخ 
+PROV العراق ,REG1 سامرا ,STTL عکبرا 
+PROV العراق ,REG1 سامرا ,STTL الدور 
+PROV العراق ,REG1 سامرا ,STTL الجامعين 
+PROV العراق ,REG1 سامرا ,STTL بت 
+PROV العراق ,REG1 سامرا ,STTL رذانات 
+PROV العراق ,REG1 سامرا ,STTL قصر الجص 
+PROV العراق ,REG1 سامرا ,STTL حري 
+PROV العراق ,REG1 سامرا ,STTL أيوانا 
+PROV العراق ,REG1 سامرا ,STTL بريقا 
+PROV العراق ,REG1 سامرا ,STTL سندية 
+PROV العراق ,REG1 سامرا ,STTL راقفروبة 
+PROV العراق ,REG1 سامرا ,STTL دمما 
+PROV العراق ,REG1 سامرا ,STTL الأنبار 
+PROV العراق ,REG1 سامرا ,STTL هيت 
+PROV العراق ,REG1 سامرا ,STTL تکريت 
+PROV العراق ,REG1 سامرا ,STTL السن 
+PROV الجبال ,REG1 الري ,STTL آوه 
+PROV الجبال ,REG1 الري ,STTL ساوة 
+PROV الجبال ,REG1 الري ,STTL قزوين 
+PROV الجبال ,REG1 الري ,STTL أبهر 
+PROV الجبال ,REG1 الري ,STTL شلنبة 
+PROV الجبال ,REG1 الري ,STTL الخوار 
+PROV الجبال ,REG1 همذان ,STTL أسداواذ 
+PROV الجبال ,REG1 همذان ,STTL آوه 
+PROV الجبال ,REG1 همذان ,STTL سبه 
+PROV الجبال ,REG1 همذان ,STTL رامن 
+PROV الجبال ,REG1 همذان ,STTL وبه 
+PROV الجبال ,REG1 همذان ,STTL سيراوند 
+PROV الجبال ,REG1 همذان ,STTL روذراور 
+PROV الجبال ,REG1 همذان ,STTL طزر 
+PROV الجبال ,REG1 أصفهان ,STTL اليهودية 
+PROV المغرب ,REG1 برقة ,STTL برقة 
+PROV المغرب ,REG1 برقة ,STTL ذات الحمام 
+PROV المغرب ,REG1 برقة ,STTL رمادة 
+PROV المغرب ,REG1 برقة ,STTL أطرابلس 
+PROV المغرب ,REG1 برقة ,STTL أجدابية 
+PROV المغرب ,REG1 برقة ,STTL صبرة 
+PROV المغرب ,REG1 برقة ,STTL قابس 
+PROV المغرب ,REG1 برقة ,STTL غافق 
+PROV المغرب ,REG1 تاهرت ,STTL تاهرت 
+PROV المغرب ,REG1 تاهرت ,STTL يممة 
+PROV المغرب ,REG1 تاهرت ,STTL تاغليسية 
+PROV المغرب ,REG1 تاهرت ,STTL قلعة ابن الهرب 
+PROV المغرب ,REG1 تاهرت ,STTL هزارة 
+PROV المغرب ,REG1 تاهرت ,STTL الجعبة 
+PROV المغرب ,REG1 تاهرت ,STTL غدير الدروع 
+PROV المغرب ,REG1 تاهرت ,STTL لماية 
+PROV المغرب ,REG1 تاهرت ,STTL منداس 
+PROV المغرب ,REG1 تاهرت ,STTL سوق ابن حبلة 
+PROV المغرب ,REG1 تاهرت ,STTL مطماطة 
+PROV المغرب ,REG1 تاهرت ,STTL جبل تجان 
+PROV المغرب ,REG1 تاهرت ,STTL وهران 
+PROV المغرب ,REG1 تاهرت ,STTL شلف 
+PROV المغرب ,REG1 تاهرت ,STTL طير 
+PROV المغرب ,REG1 تاهرت ,STTL الغزة 
+PROV المغرب ,REG1 تاهرت ,STTL سوق إبراهيم 
+PROV المغرب ,REG1 تاهرت ,STTL رهباية 
+PROV المغرب ,REG1 تاهرت ,STTL البطحة 
+PROV المغرب ,REG1 تاهرت ,STTL الزيتونة 
+PROV المغرب ,REG1 تاهرت ,STTL تمما 
+PROV المغرب ,REG1 تاهرت ,STTL يعود 
+PROV المغرب ,REG1 تاهرت ,STTL الخضراء 
+PROV المغرب ,REG1 تاهرت ,STTL واريفن 
+PROV المغرب ,REG1 تاهرت ,STTL تنس 
+PROV المغرب ,REG1 تاهرت ,STTL قصر الفلوس 
+PROV المغرب ,REG1 تاهرت ,STTL بحرية 
+PROV المغرب ,REG1 تاهرت ,STTL سوق كرى 
+PROV المغرب ,REG1 تاهرت ,STTL منجصة 
+PROV المغرب ,REG1 تاهرت ,STTL اوزكى 
+PROV المغرب ,REG1 تاهرت ,STTL تبرين 
+PROV المغرب ,REG1 تاهرت ,STTL سوق ابن مبلول 
+PROV المغرب ,REG1 تاهرت ,STTL ربا 
+PROV المغرب ,REG1 تاهرت ,STTL تاويلت ابى مغول تامزيت 
+PROV المغرب ,REG1 تاهرت ,STTL تاويلت لغوا 
+PROV المغرب ,REG1 تاهرت ,STTL فكان 
+PROV المغرب ,REG1 سجلماسة ,STTL سجلماسة 
+PROV المغرب ,REG1 سجلماسة ,STTL درعة 
+PROV المغرب ,REG1 سجلماسة ,STTL تادنقوست 
+PROV المغرب ,REG1 سجلماسة ,STTL اثر 
+PROV المغرب ,REG1 سجلماسة ,STTL ايلا 
+PROV المغرب ,REG1 سجلماسة ,STTL ويلميس 
+PROV المغرب ,REG1 سجلماسة ,STTL حصن ابن صالح 
+PROV المغرب ,REG1 سجلماسة ,STTL النحاسين 
+PROV المغرب ,REG1 سجلماسة ,STTL حصن السودان 
+PROV المغرب ,REG1 سجلماسة ,STTL هلال 
+PROV المغرب ,REG1 سجلماسة ,STTL إمصلى 
+PROV المغرب ,REG1 سجلماسة ,STTL دار الأمير 
+PROV المغرب ,REG1 سجلماسة ,STTL حصن برارة 
+PROV المغرب ,REG1 سجلماسة ,STTL الخيامات 
+PROV المغرب ,REG1 سجلماسة ,STTL تازروت 
+PROV المغرب ,REG1 فاس ,STTL وليلة 
+PROV المغرب ,REG1 فاس ,STTL مدركة 
+PROV المغرب ,REG1 فاس ,STTL متروكة 
+PROV المغرب ,REG1 فاس ,STTL زفون 
+PROV المغرب ,REG1 فاس ,STTL غزة 
+PROV المغرب ,REG1 فاس ,STTL غميرة 
+PROV المغرب ,REG1 فاس ,STTL الحاجر 
+PROV المغرب ,REG1 فاس ,STTL ماجراجرا 
+PROV المغرب ,REG1 فاس ,STTL البيضاء 
+PROV المغرب ,REG1 فاس ,STTL الخضراء 
+PROV المغرب ,REG1 فاس ,STTL مقرة 
+PROV المغرب ,REG1 فاس ,STTL طبنة 
+PROV المغرب ,REG1 فاس ,STTL بسكرة 
+PROV المغرب ,REG1 فاس ,STTL بادس 
+PROV المغرب ,REG1 فاس ,STTL تهوذا 
+PROV المغرب ,REG1 فاس ,STTL طولقا 
+PROV المغرب ,REG1 فاس ,STTLجميلا 
+PROV المغرب ,REG1 فاس ,STTL بنطيوس 
+PROV المغرب ,REG1 فاس ,STTL أدنة 
+PROV المغرب ,REG1 فاس ,STTL أشير 
+PROV المغرب ,REG1 فاس ,STTL فاس 
+PROV المغرب ,REG1 فاس ,STTL البصرة 
+PROV المغرب ,REG1 فاس ,STTL زلول 
+PROV المغرب ,REG1 فاس ,STTL الجاحد 
+PROV المغرب ,REG1 فاس ,STTL سوق الكتامي 
+PROV المغرب ,REG1 فاس ,STTL ورغة 
+PROV المغرب ,REG1 فاس ,STTL سبوا 
+PROV المغرب ,REG1 فاس ,STTL صنهاجة  
+PROV المغرب ,REG1 فاس ,STTL هوارة 
+PROV المغرب ,REG1 فاس ,STTL تيزا 
+PROV المغرب ,REG1 فاس ,STTL مطماطة 
+PROV المغرب ,REG1 فاس ,STTL كزناية 
+PROV المغرب ,REG1 فاس ,STTL سلا 
+PROV المغرب ,REG1 فاس ,STTL مدينة بنى قرباس 
+PROV المغرب ,REG1 فاس ,STTL مزحاحية 
+PROV المغرب ,REG1 فاس ,STTL أزيلا 
+PROV المغرب ,REG1 فاس ,STTL سبتا 
+PROV المغرب ,REG1 فاس ,STTL بلد غمار 
+PROV المغرب ,REG1 فاس ,STTL قلعة النسور 
+PROV المغرب ,REG1 فاس ,STTL نكور 
+PROV المغرب ,REG1 فاس ,STTL بلش 
+PROV المغرب ,REG1 فاس ,STTL مرنيسة 
+PROV المغرب ,REG1 فاس ,STTL تابريدا 
+PROV المغرب ,REG1 فاس ,STTL وصاع 
+PROV المغرب ,REG1 فاس ,STTL مكناسة 
+PROV المغرب ,REG1 فاس ,STTL قلعة شميت 
+PROV المغرب ,REG1 فاس ,STTL مدائن 
+PROV المغرب ,REG1 فاس ,STTL برجن اوزكى  
+PROV المغرب ,REG1 فاس ,STTL تيونوا 
+PROV المغرب ,REG1 فاس ,STTL مكسين 
+PROV المغرب ,REG1 فاس ,STTL امليل 
+PROV المغرب ,REG1 فاس ,STTL املاه ابى الحسن 
+PROV المغرب ,REG1 فاس ,STTL قسطيلية 
+PROV المغرب ,REG1 فاس ,STTL نفزاوة 
+PROV المغرب ,REG1 فاس ,STTL نقاوس 
+PROV المغرب ,REG1 فاس ,STTL بسكرة 
+PROV المغرب ,REG1 فاس ,STTL قبيشة 
+PROV المغرب ,REG1 فاس ,STTL مدينة بنى زحيق 
+PROV المغرب ,REG1 فاس ,STTL لواتة عبد الله 
+PROV المغرب ,REG1 فاس ,STTL لواتة بركية 
+PROV المغرب ,REG1 فاس ,STTL أكذار ابن شراك 
+PROV المغرب ,REG1 فاس ,STTL مدينة جبل زالاغ 
+PROV المغرب ,REG1 فاس ,STTL وليلة 
+PROV المغرب ,REG1 فاس ,STTL مدركة 
+PROV المغرب ,REG1 فاس ,STTL متروكة 
+PROV المغرب ,REG1 فاس ,STTL زفون 
+PROV المغرب ,REG1 فاس ,STTL غزة 
+PROV المغرب ,REG1 فاس ,STTL غميرة 
+PROV المغرب ,REG1 فاس ,STTL الحاجر 
+PROV المغرب ,REG1 فاس ,STTL ماجراجرا 
+PROV المغرب ,REG1 فاس ,STTL البيضاء 
+PROV المغرب ,REG1 فاس ,STTL الخضراء 
+PROV فارس ,REG1 أرجان ,STTL أرجان 
+PROV فارس ,REG1 أرجان ,STTL قوستان 
+PROV فارس ,REG1 أرجان ,STTL داريان 
+PROV فارس ,REG1 أرجان ,STTL مهربان 
+PROV فارس ,REG1 أرجان ,STTL جنابة 
+PROV فارس ,REG1 أرجان ,STTL سينيز 
+PROV فارس ,REG1 أرجان ,STTL جومة 
+PROV فارس ,REG1 أرجان ,STTL هندوان 
+PROV فارس ,REG1 أردشيرخره ,STTL سيراف 
+PROV فارس ,REG1 أردشيرخره ,STTL جور 
+PROV فارس ,REG1 أردشيرخره ,STTL ميمند 
+PROV فارس ,REG1 أردشيرخره ,STTL نابند 
+PROV فارس ,REG1 أردشيرخره ,STTL الصيمكان 
+PROV فارس ,REG1 أردشيرخره ,STTL خبر 
+PROV فارس ,REG1 أردشيرخره ,STTL خورستان 
+PROV فارس ,REG1 أردشيرخره ,STTL الغندجان 
+PROV فارس ,REG1 أردشيرخره ,STTL كران 
+PROV فارس ,REG1 أردشيرخره ,STTL سميران 
+PROV فارس ,REG1 أردشيرخره ,STTL زيرباذ 
+PROV فارس ,REG1 أردشيرخره ,STTL نجيرم 
+PROV فارس ,REG1 أردشيرخره ,STTL نابند دون 
+PROV فارس ,REG1 أردشيرخره ,STTL سورو 
+PROV فارس ,REG1 أردشيرخره ,STTL راس كشم 
+PROV فارس ,REG1 درابجرد ,STTL درابجرد 
+PROV فارس ,REG1 درابجرد ,STTL طبستان 
+PROV فارس ,REG1 درابجرد ,STTL الكردبان 
+PROV فارس ,REG1 درابجرد ,STTL كرم 
+PROV فارس ,REG1 درابجرد ,STTL يزدخواست 
+PROV فارس ,REG1 درابجرد ,STTL المسكانات 
+PROV فارس ,REG1 درابجرد ,STTL رم شهريار 
+PROV فارس ,REG1 درابجرد ,STTL كدروا 
+PROV فارس ,REG1 درابجرد ,STTL اوجين 
+PROV فارس ,REG1 درابجرد ,STTL ايك 
+PROV فارس ,REG1 درابجرد ,STTL خيار 
+PROV فارس ,REG1 درابجرد ,STTL المريزجان 
+PROV فارس ,REG1 درابجرد ,STTL الماذوان 
+PROV فارس ,REG1 درابجرد ,STTL روبنج 
+PROV فارس ,REG1 درابجرد ,STTL رستاق الرستاق 
+PROV فارس ,REG1 درابجرد ,STTL فرج 
+PROV فارس ,REG1 درابجرد ,STTL تارم 
+PROV فارس ,REG1 شيراز ,STTL شيراز 
+PROV فارس ,REG1 شيراز ,STTL البيضاء 
+PROV فارس ,REG1 شيراز ,STTL فسا 
+PROV فارس ,REG1 شيراز ,STTL المص 
+PROV فارس ,REG1 شيراز ,STTL كول 
+PROV فارس ,REG1 شيراز ,STTL جور 
+PROV فارس ,REG1 شيراز ,STTL كارزين 
+PROV فارس ,REG1 شيراز ,STTL دشت بارين 
+PROV فارس ,REG1 شيراز ,STTL جم 
+PROV فارس ,REG1 شيراز ,STTL جوبك 
+PROV فارس ,REG1 شيراز ,STTL جمكان 
+PROV فارس ,REG1 شيراز ,STTL كورد 
+PROV فارس ,REG1 شيراز ,STTL بجه 
+PROV فارس ,REG1 شيراز ,STTL هزار 
+PROV فارس ,REG1 شيراز ,STTL أبك 
+PROV فارس ,REG1 سابور ,STTL شهرستان 
+PROV فارس ,REG1 سابور ,STTL دريز 
+PROV فارس ,REG1 سابور ,STTL  كازرون 
+PROV فارس ,REG1 سابور ,STTL خره 
+PROV فارس ,REG1 سابور ,STTL النوبندجان 
+PROV فارس ,REG1 سابور ,STTL كاريان 
+PROV فارس ,REG1 سابور ,STTL كندران 
+PROV فارس ,REG1 سابور ,STTL توز 
+PROV فارس ,REG1 سابور ,STTL رم الأكراد 
+PROV فارس ,REG1 سابور ,STTL جنبد 
+PROV فارس ,REG1 سابور ,STTL خشت 
+PROV فارس ,REG1 إصطخر ,STTL هراة 
+PROV فارس ,REG1 إصطخر ,STTL ميبذ 
+PROV فارس ,REG1 إصطخر ,STTL مائين الفهرج 
+PROV فارس ,REG1 إصطخر ,STTL الحيرة 
+PROV فارس ,REG1 إصطخر ,STTL فاروق 
+PROV فارس ,REG1 إصطخر ,STTL سروستان 
+PROV فارس ,REG1 إصطخر ,STTL أسبنجان 
+PROV فارس ,REG1 إصطخر ,STTL بوان كرمان 
+PROV فارس ,REG1 إصطخر ,STTL شهرباتق 
+PROV فارس ,REG1 إصطخر ,STTL أورد 
+PROV فارس ,REG1 إصطخر ,STTL الرون 
+PROV فارس ,REG1 إصطخر ,STTL خرمة 
+PROV فارس ,REG1 إصطخر ,STTL ده أشتران 
+PROV فارس ,REG1 إصطخر ,STTL ترك نيشان 
+PROV فارس ,REG1 إصطخر ,STTL صاهه 
+PROV فارس ,REG1 إصطخر ,STTL شبابك 
+PROV الشام ,REG1 قنسرين ,STTL حلب 
+PROV الشام ,REG1 قنسرين ,STTL أنطاكية 
+PROV الشام ,REG1 قنسرين ,STTL بالس 
+PROV الشام ,REG1 قنسرين ,STTL السويدية 
+PROV الشام ,REG1 قنسرين ,STTL سميساط 
+PROV الشام ,REG1 قنسرين ,STTL منبج 
+PROV الشام ,REG1 قنسرين ,STTL بيلس 
+PROV الشام ,REG1 قنسرين ,STTL التينات 
+PROV الشام ,REG1 قنسرين ,STTL قنسرين 
+PROV الشام ,REG1 قنسرين ,STTL مرعش 
+PROV الشام ,REG1 قنسرين ,STTL إسكندرونة 
+PROV الشام ,REG1 قنسرين ,STTL لجون 
+PROV الشام ,REG1 قنسرين ,STTL رفنية 
+PROV الشام ,REG1 قنسرين ,STTL جوسية 
+PROV الشام ,REG1 قنسرين ,STTL حماة 
+PROV الشام ,REG1 قنسرين ,STTL شيزر 
+PROV الشام ,REG1 قنسرين ,STTL وادي بطنان 
+PROV الشام ,REG1 قنسرين ,STTL معرة النعمان 
+PROV الشام ,REG1 قنسرين ,STTL معرة قنسرين 
+PROV الشام ,REG1 حمص ,STTL حمص 
+PROV الشام ,REG1 حمص ,STTL سلمية 
+PROV الشام ,REG1 حمص ,STTL تدمر 
+PROV الشام ,REG1 حمص ,STTL الخناصرة 
+PROV الشام ,REG1 حمص ,STTL كفرطاب 
+PROV الشام ,REG1 حمص ,STTL اللاذقية 
+PROV الشام ,REG1 حمص ,STTL جبلة 
+PROV الشام ,REG1 حمص ,STTL أنطرسوس 
+PROV الشام ,REG1 حمص ,STTL بلنياس 
+PROV الشام ,REG1 حمص ,STTL حصن الخوابي 
+PROV الشام ,REG1 دمشق ,STTL دمشق 
+PROV الشام ,REG1 دمشق ,STTL بانياس 
+PROV الشام ,REG1 دمشق ,STTL صيدا 
+PROV الشام ,REG1 دمشق ,STTL بيروت 
+PROV الشام ,REG1 دمشق ,STTL أطرابلس 
+PROV الشام ,REG1 دمشق ,STTL عرقة 
+PROV الشام ,REG1 دمشق ,STTL بعلبك 
+PROV الشام ,REG1 دمشق ,STTL كامد 
+PROV الشام ,REG1 دمشق ,STTL عرجموش 
+PROV الشام ,REG1 دمشق ,STTL الزبداني 
+PROV الشام ,REG1 فلسطين ,STTL الرملة 
+PROV الشام ,REG1 فلسطين ,STTL بيت المقدس 
+PROV الشام ,REG1 فلسطين ,STTL بيت جبريل 
+PROV الشام ,REG1 فلسطين ,STTL غزة 
+PROV الشام ,REG1 فلسطين ,STTL ميماس 
+PROV الشام ,REG1 فلسطين ,STTL عسقلان 
+PROV الشام ,REG1 فلسطين ,STTL يافه 
+PROV الشام ,REG1 فلسطين ,STTL أرسوف 
+PROV الشام ,REG1 فلسطين ,STTL قيسارية 
+PROV الشام ,REG1 فلسطين ,STTL نابلس 
+PROV الشام ,REG1 فلسطين ,STTL أريحا 
+PROV الشام ,REG1 فلسطين ,STTL عمان 
+PROV الشام ,REG1 الشراة ,STTL صغر 
+PROV الشام ,REG1 الشراة ,STTL مآب 
+PROV الشام ,REG1 الشراة ,STTL معان 
+PROV الشام ,REG1 الشراة ,STTL تبوك 
+PROV الشام ,REG1 الشراة ,STTL أذرح 
+PROV الشام ,REG1 الشراة ,STTL ويله 
+PROV الشام ,REG1 الشراة ,STTL مدين 
+PROV مصر ,REG1 الجفار ,STTL الفرما 
+PROV مصر ,REG1 الجفار ,STTL البقارة 
+PROV مصر ,REG1 الجفار ,STTL الواردة 
+PROV مصر ,REG1 الجفار ,STTL العريش 
+PROV مصر ,REG1 الحوف ,STTL بلبيس 
+PROV مصر ,REG1 الحوف ,STTL مشتول 
+PROV مصر ,REG1 الحوف ,STTL جرجير 
+PROV مصر ,REG1 الحوف ,STTL فاقوس 
+PROV مصر ,REG1 الحوف ,STTL غيفا 
+PROV مصر ,REG1 الحوف ,STTL دبقو 
+PROV مصر ,REG1 الحوف ,STTL تونة 
+PROV مصر ,REG1 الحوف ,STTL بريم 
+PROV مصر ,REG1 الحوف ,STTL القلزم 
+PROV مصر ,REG1 الريف ,STTL العباسية 
+PROV مصر ,REG1 الريف ,STTL شبرو 
+PROV مصر ,REG1 الريف ,STTLدمنهور 
+PROV مصر ,REG1 الريف ,STTL سنهور 
+PROV مصر ,REG1 الريف ,STTL بنها العسل 
+PROV مصر ,REG1 الريف ,STTL شطنوف 
+PROV مصر ,REG1 الريف ,STTL مليج 
+PROV مصر ,REG1 الريف ,STTL محلة 
+PROV مصر ,REG1 الريف ,STTL سدر 
+PROV مصر ,REG1 الريف ,STTL محلة كرمين 
+PROV مصر ,REG1 الريف ,STTL المحلة الكبيرة 
+PROV مصر ,REG1 الريف ,STTL سندفا 
+PROV مصر ,REG1 الريف ,STTL دميرة 
+PROV مصر ,REG1 الريف ,STTL بورة 
+PROV مصر ,REG1 الريف ,STTL دقهلة 
+PROV مصر ,REG1 الريف ,STTL محلة زيد 
+PROV مصر ,REG1 الريف ,STTL محلة حفص 
+PROV مصر ,REG1 الريف ,STTL محلة زياد 
+PROV مصر ,REG1 الريف ,STTL سنهور الصغرى 
+PROV مصر ,REG1 الريف ,STTL بريس 
+PROV مصر ,REG1 مقدونية ,STTL الفسطاط 
+PROV مصر ,REG1 مقدونية ,STTL العزيزية 
+PROV مصر ,REG1 مقدونية ,STTL الجيزة 
+PROV مصر ,REG1 مقدونية ,STTL عين شمس 
+PROV مصر ,REG1 الصعيد ,STTL أسوان 
+PROV مصر ,REG1 الصعيد ,STTL حلوان 
+PROV مصر ,REG1 الصعيد ,STTL قوص 
+PROV مصر ,REG1 الصعيد ,STTL خميم 
+PROV مصر ,REG1 الصعيد ,STTL بلينا 
+PROV مصر ,REG1 الصعيد ,STTL علاقى 
+PROV مصر ,REG1 الصعيد ,STTL اجمع 
+PROV مصر ,REG1 الصعيد ,STTL بوصير 
+PROV مصر ,REG1 الصعيد ,STTL الفيوم 
+PROV مصر ,REG1 الصعيد ,STTL أشمونين 
+PROV مصر ,REG1 الصعيد ,STTL سمسطا 
+PROV مصر ,REG1 الصعيد ,STTL تندة 
+PROV مصر ,REG1 الصعيد ,STTL طحا 
+PROV مصر ,REG1 الصعيد ,STTL بهنسة 
+PROV مصر ,REG1 الصعيد ,STTL قيس 
+PROV أقور ,REG1 ديار ربيعة ,STTL الموصل 
+PROV أقور ,REG1 ديار ربيعة ,STTL الحديثة 
+PROV أقور ,REG1 ديار ربيعة ,STTL معلثاى 
+PROV أقور ,REG1 ديار ربيعة ,STTL الحسنية 
+PROV أقور ,REG1 ديار ربيعة ,STTL تلعفر 
+PROV أقور ,REG1 ديار ربيعة ,STTL سنجار 
+PROV أقور ,REG1 ديار ربيعة ,STTL الجبال 
+PROV أقور ,REG1 ديار ربيعة ,STTL بلد 
+PROV أقور ,REG1 ديار ربيعة ,STTL أذرمة 
+PROV أقور ,REG1 ديار ربيعة ,STTL برقعيد 
+PROV أقور ,REG1 ديار ربيعة ,STTL نصيبين 
+PROV أقور ,REG1 ديار ربيعة ,STTL دارا 
+PROV أقور ,REG1 ديار ربيعة ,STTL کفرتوثا 
+PROV أقور ,REG1 ديار ربيعة ,STTL راس العين 
+PROV أقور ,REG1 ديار ربيعة ,STTL ثمانين 
+PROV أقور ,REG1 ديار مضر ,STTL الرقة 
+PROV أقور ,REG1 ديار مضر ,STTL المحترقة 
+PROV أقور ,REG1 ديار مضر ,STTL الرافقة 
+PROV أقور ,REG1 ديار مضر ,STTL خانوقة 
+PROV أقور ,REG1 ديار مضر ,STTL الحريش 
+PROV أقور ,REG1 ديار مضر ,STTL تل محرى 
+PROV أقور ,REG1 ديار مضر ,STTL باجروان 
+PROV أقور ,REG1 ديار مضر ,STTL حصن مسلمة 
+PROV أقور ,REG1 ديار مضر ,STTL ترعوز 
+PROV أقور ,REG1 ديار مضر ,STTL حران 
+PROV أقور ,REG1 ديار مضر ,STTL الرها 
+PROV أقور ,REG1 ديار بکر ,STTL آمد 
+PROV أقور ,REG1 ديار بکر ,STTL ميافارقين 
+PROV أقور ,REG1 ديار بکر ,STTL تل فافان 
+PROV أقور ,REG1 ديار بکر ,STTL حصن کيفا 
+PROV أقور ,REG1 ديار بکر ,STTL الفار 
+PROV أقور ,REG1 ديار بکر ,STTL حاذية 
+PROV الديلم ,REG1 قومس ,STTL الدامغان 
+PROV الديلم ,REG1 قومس ,STTL سمنان 
+PROV الديلم ,REG1 قومس ,STTL بسطام 
+PROV الديلم ,REG1 قومس ,STTL زغنة 
+PROV الديلم ,REG1 قومس ,STTL بيار 
+PROV الديلم ,REG1 قومس ,STTL مغون 
+PROV الديلم ,REG1 جرجان ,STTL شهرستان 
+PROV الديلم ,REG1 جرجان ,STTL أستراباذ 
+PROV الديلم ,REG1 جرجان ,STTL آبسكون 
+PROV الديلم ,REG1 جرجان ,STTL ألهم 
+PROV الديلم ,REG1 جرجان ,STTL آخر 
+PROV الديلم ,REG1 جرجان ,STTL الرباط 
+PROV الديلم ,REG1 طبرستان ,STTL آمل 
+PROV الديلم ,REG1 طبرستان ,STTL سالوس 
+PROV الديلم ,REG1 طبرستان ,STTL ميلة 
+PROV الديلم ,REG1 طبرستان ,STTL ما مطير 
+PROV الديلم ,REG1 طبرستان ,STTL برجى 
+PROV الديلم ,REG1 طبرستان ,STTL سارية 
+PROV الديلم ,REG1 طبرستان ,STTL طميسة 
+PROV الديلم ,REG1 طبرستان ,STTL هرى 
+PROV الديلم ,REG1 طبرستان ,STTL بود 
+PROV الديلم ,REG1 طبرستان ,STTL ممطير 
+PROV الديلم ,REG1 طبرستان ,STTL نامية 
+PROV الديلم ,REG1 طبرستان ,STTL تميشة 
+PROV الديلم ,REG1 الديلمان ,STTL بروان 
+PROV الديلم ,REG1 الديلمان ,STTL ولامر 
+PROV الديلم ,REG1 الديلمان ,STTL شكيرز 
+PROV الديلم ,REG1 الديلمان ,STTL تارم 
+PROV الديلم ,REG1 الديلمان ,STTL خشم 
+PROV الديلم ,REG1 الخزر ,STTL إتل 
+PROV الديلم ,REG1 الخزر ,STTL بلغار 
+PROV الديلم ,REG1 الخزر ,STTL سمندر 
+PROV الديلم ,REG1 الخزر ,STTL سوار 
+PROV الديلم ,REG1 الخزر ,STTL بغند 
+PROV الديلم ,REG1 الخزر ,STTL قيشوى 
+PROV الديلم ,REG1 الخزر ,STTL خمليج 
+PROV الديلم ,REG1 الخزر ,STTL بلنجر 
+PROV الديلم ,REG1 الخزر ,STTL البيضاء 
+PROV خوزستان ,REG1 السوس ,STTL طرفانة 
+PROV خوزستان ,REG1 السوس ,STTL أغمات ويلا 
+PROV خوزستان ,REG1 السوس ,STTL وريكة 
+PROV خوزستان ,REG1 السوس ,STTL تندلى 
+PROV خوزستان ,REG1 السوس ,STTL ماسة 
+PROV خوزستان ,REG1 الأهواز ,STTL نهر تيري 
+PROV خوزستان ,REG1 الأهواز ,STTL مناذر الكبرى 
+PROV خوزستان ,REG1 الأهواز ,STTL مناذر الصغرى 
+PROV خوزستان ,REG1 الأهواز ,STTL جوزدك 
+PROV خوزستان ,REG1 الأهواز ,STTL بيروه 
+PROV خوزستان ,REG1 الأهواز ,STTL سوق الأربعاء 
+PROV خوزستان ,REG1 الأهواز ,STTL حصن مهدى 
+PROV خوزستان ,REG1 الأهواز ,STTL باسيان 
+PROV خوزستان ,REG1 الأهواز ,STTL شوراب 
+PROV خوزستان ,REG1 الأهواز ,STTL بندم 
+PROV خوزستان ,REG1 الأهواز ,STTL الدورق 
+PROV خوزستان ,REG1 الأهواز ,STTL وسنة 
+PROV خوزستان ,REG1 الأهواز ,STTL جبى 
+PROV خوزستان ,REG1 رامهرمز ,STTL سنبل 
+PROV خوزستان ,REG1 رامهرمز ,STTL إيذج 
+PROV خوزستان ,REG1 رامهرمز ,STTL تيرم 
+PROV خوزستان ,REG1 رامهرمز ,STTL بازنك 
+PROV خوزستان ,REG1 رامهرمز ,STTL لاذ 
+PROV خوزستان ,REG1 رامهرمز ,STTL غروة 
+PROV خوزستان ,REG1 رامهرمز ,STTL بابج 
+PROV خوزستان ,REG1 رامهرمز ,STTL كوزوك 
+PROV خوزستان ,REG1 الدورق ,STTL آزر 
+PROV خوزستان ,REG1 الدورق ,STTL أجم 
+PROV خوزستان ,REG1 الدورق ,STTL بخساباذ 
+PROV خوزستان ,REG1 الدورق ,STTL الدز 
+PROV خوزستان ,REG1 الدورق ,STTL اندبار 
+PROV خوزستان ,REG1 الدورق ,STTL ميراقيان 
+PROV خوزستان ,REG1 الدورق ,STTL ميراثيان 
+PROV الرحاب ,REG1 الران ,STTL برذعة 
+PROV الرحاب ,REG1 الران ,STTL تفليس 
+PROV الرحاب ,REG1 الران ,STTL القلعة 
+PROV الرحاب ,REG1 الران ,STTL خنان 
+PROV الرحاب ,REG1 الران ,STTL شمكور 
+PROV الرحاب ,REG1 الران ,STTL جنزة 
+PROV الرحاب ,REG1 الران ,STTL برديج 
+PROV الرحاب ,REG1 الران ,STTL الشماخية 
+PROV الرحاب ,REG1 الران ,STTL شروان 
+PROV الرحاب ,REG1 الران ,STTL باكوه 
+PROV الرحاب ,REG1 الران ,STTL الشابران 
+PROV الرحاب ,REG1 الران ,STTL باب الأبواب 
+PROV الرحاب ,REG1 الران ,STTL الأبخاز 
+PROV الرحاب ,REG1 الران ,STTL قبلة 
+PROV الرحاب ,REG1 الران ,STTL شكى 
+PROV الرحاب ,REG1 الران ,STTL ملازكرد 
+PROV الرحاب ,REG1 الران ,STTL تبلا 
+PROV الرحاب ,REG1 أرمينية ,STTL دبيل 
+PROV الرحاب ,REG1 أرمينية ,STTL بدليس 
+PROV الرحاب ,REG1 أرمينية ,STTL خلاط 
+PROV الرحاب ,REG1 أرمينية ,STTL أرجيش 
+PROV الرحاب ,REG1 أرمينية ,STTL بركرى 
+PROV الرحاب ,REG1 أرمينية ,STTL خوى 
+PROV الرحاب ,REG1 أرمينية ,STTL سلماس 
+PROV الرحاب ,REG1 أرمينية ,STTL أرمية 
+PROV الرحاب ,REG1 أرمينية ,STTL داخرقان 
+PROV الرحاب ,REG1 أرمينية ,STTL مراغة 
+PROV الرحاب ,REG1 أرمينية ,STTL أهر 
+PROV الرحاب ,REG1 أرمينية ,STTL مرند 
+PROV الرحاب ,REG1 أرمينية ,STTL سنجان 
+PROV الرحاب ,REG1 أرمينية ,STTL قاليقلا 
+PROV الرحاب ,REG1 أرمينية ,STTL قندرية 
+PROV الرحاب ,REG1 أرمينية ,STTL قلعة يونس 
+PROV الرحاب ,REG1 أرمينية ,STTL نورين 
+PROV الرحاب ,REG1 أذربيجان ,STTL أردبيل 
+PROV الرحاب ,REG1 أذربيجان ,STTL رسبة 
+PROV الرحاب ,REG1 أذربيجان ,STTL تبريز 
+PROV الرحاب ,REG1 أذربيجان ,STTL جابروان 
+PROV الرحاب ,REG1 أذربيجان ,STTL خونج 
+PROV الرحاب ,REG1 أذربيجان ,STTL الميانج 
+PROV الرحاب ,REG1 أذربيجان ,STTL السراة 
+PROV الرحاب ,REG1 أذربيجان ,STTL بروى 
+PROV الرحاب ,REG1 أذربيجان ,STTL ورثان 
+PROV الرحاب ,REG1 أذربيجان ,STTL موقان 
+PROV الرحاب ,REG1 أذربيجان ,STTL ميمذ 
+PROV الرحاب ,REG1 أذربيجان ,STTL برزند 
+PROV السند ,REG1 مكران ,STTL بنجبور 
+PROV السند ,REG1 مكران ,STTL مشكة 
+PROV السند ,REG1 مكران ,STTL كيج 
+PROV السند ,REG1 مكران ,STTL سرى 
+PROV السند ,REG1 مكران ,STTL شهر 
+PROV السند ,REG1 مكران ,STTL بربور 
+PROV السند ,REG1 مكران ,STTL خواش 
+PROV السند ,REG1 مكران ,STTL دمندان 
+PROV السند ,REG1 مكران ,STTL جالك 
+PROV السند ,REG1 مكران ,STTL دزك 
+PROV السند ,REG1 مكران ,STTL دشت علي 
+PROV السند ,REG1 مكران ,STTL التيز 
+PROV السند ,REG1 طوران ,STTL قزدار 
+PROV السند ,REG1 طوران ,STTL قندبيل 
+PROV السند ,REG1 طوران ,STTL بجثرد 
+PROV السند ,REG1 طوران ,STTL جثرد 
+PROV السند ,REG1 طوران ,STTL بكانان 
+PROV السند ,REG1 طوران ,STTL خوزي 
+PROV السند ,REG1 طوران ,STTL رستاكهن 
+PROV السند ,REG1 طوران ,STTL رستاق روذ 
+PROV السند ,REG1 طوران ,STTL موردان  
+PROV السند ,REG1 طوران ,STTLرستاق ماسكان 
+PROV السند ,REG1 طوران ,STTL كهركور 
+PROV السند ,REG1 السند ,STTL المنصورة 
+PROV السند ,REG1 السند ,STTL ديبل 
+PROV السند ,REG1 السند ,STTL زندريج 
+PROV السند ,REG1 السند ,STTL كدار 
+PROV السند ,REG1 السند ,STTL مايل 
+PROV السند ,REG1 السند ,STTL تنبلى 
+PROV السند ,REG1 قنوج ,STTL قنوج 
+PROV السند ,REG1 قنوج ,STTL قدار 
+PROV السند ,REG1 قنوج ,STTL ابار 
+PROV السند ,REG1 قنوج ,STTL كهارة 
+PROV السند ,REG1 قنوج ,STTL بارد 
+PROV السند ,REG1 قنوج ,STTL وجين 
+PROV السند ,REG1 قنوج ,STTL اورهة 
+PROV السند ,REG1 قنوج ,STTL زهو 
+PROV السند ,REG1 قنوج ,STTL هر 
+PROV السند ,REG1 قنوج ,STTL برهيروا 
+PROV السند ,REG1 الملتان ,STTL الملتان 
+PROV السند ,REG1 الملتان ,STTL برار 
+PROV السند ,REG1 الملتان ,STTL راماذان 
+PROV السند ,REG1 الملتان ,STTL وروين 
+PROV السند ,REG1 الملتان ,STTL برور 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL مكة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL يثرب 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL ينبع 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL قرح 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL خيبر 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL المروة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL الحوراء 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL جدة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL الطائف 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL الجار 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL السقيا 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL العونيد 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL الجحفة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL العشيرة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL بدر 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL خليص 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL أمج 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL الحجر 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL بدا يعقوب 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL السوارقية 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL الفرع 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL السيرة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL جبلة 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL مهايع 
+PROV جزيرة العرب ,REG1 الحجاز ,STTL حاذة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL زبيد 
+PROV جزيرة العرب ,REG1 اليمن ,STTL معقر 
+PROV جزيرة العرب ,REG1 اليمن ,STTL كدرة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL مور 
+PROV جزيرة العرب ,REG1 اليمن ,STTL عطنة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الشرجة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL دويمة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الحمضة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL غلافقة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL مخا 
+PROV جزيرة العرب ,REG1 اليمن ,STTL كمران 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الحردة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL اللسعة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL شرمة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL العشيرة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL رنقة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الخصوف 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الساعد 
+PROV جزيرة العرب ,REG1 اليمن ,STTL المهجم 
+PROV جزيرة العرب ,REG1 اليمن ,STTL عدن 
+PROV جزيرة العرب ,REG1 اليمن ,STTL لهج 
+PROV جزيرة العرب ,REG1 اليمن ,STTL بيش 
+PROV جزيرة العرب ,REG1 اليمن ,STTL حلى 
+PROV جزيرة العرب ,REG1 اليمن ,STTL السرين 
+PROV جزيرة العرب ,REG1 اليمن ,STTL صنعاء 
+PROV جزيرة العرب ,REG1 اليمن ,STTL صعدة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL نجران 
+PROV جزيرة العرب ,REG1 اليمن ,STTL جرش 
+PROV جزيرة العرب ,REG1 اليمن ,STTL العرف 
+PROV جزيرة العرب ,REG1 اليمن ,STTL جبلان 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الجند 
+PROV جزيرة العرب ,REG1 اليمن ,STTL ذمار 
+PROV جزيرة العرب ,REG1 اليمن ,STTL نسفان 
+PROV جزيرة العرب ,REG1 اليمن ,STTL يحصب 
+PROV جزيرة العرب ,REG1 اليمن ,STTL السحول 
+PROV جزيرة العرب ,REG1 اليمن ,STTL المذيخرة 
+PROV جزيرة العرب ,REG1 اليمن ,STTL خولان 
+PROV جزيرة العرب ,REG1 اليمن ,STTL حضرموت 
+PROV جزيرة العرب ,REG1 اليمن ,STTL الشحر 
+PROV جزيرة العرب ,REG1 عمان ,STTL صحار 
+PROV جزيرة العرب ,REG1 عمان ,STTL نزوة 
+PROV جزيرة العرب ,REG1 عمان ,STTL السر 
+PROV جزيرة العرب ,REG1 عمان ,STTL ضنك 
+PROV جزيرة العرب ,REG1 عمان ,STTL حفيت 
+PROV جزيرة العرب ,REG1 عمان ,STTL دبا 
+PROV جزيرة العرب ,REG1 عمان ,STTL سلوت 
+PROV جزيرة العرب ,REG1 عمان ,STTL جلفار 
+PROV جزيرة العرب ,REG1 عمان ,STTL سمد 
+PROV جزيرة العرب ,REG1 عمان ,STTL لسيا 
+PROV جزيرة العرب ,REG1 عمان ,STTL ملح 
+PROV جزيرة العرب ,REG1 هجر ,STTL الأحساء 
+PROV جزيرة العرب ,REG1 هجر ,STTL سابون 
+PROV جزيرة العرب ,REG1 هجر ,STTL الزرقاء 
+PROV جزيرة العرب ,REG1 هجر ,STTL أوال 
+PROV جزيرة العرب ,REG1 هجر ,STTL العقير 

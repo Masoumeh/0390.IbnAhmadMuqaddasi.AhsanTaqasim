@@ -1,17 +1,13 @@
 """
 To extract coordinates and regions of sttl names of geographical text that are found in Cornu, using fuzzywuzzy library (or complete match commented!)
-This scripts is initial and more complete functionalities is included in extract_coordWithHierarchy.py and then in extract_coordWithHierarchy_Normalized.py.
+This scripts is initial and more complete functionality is included in extract_coordWithHierarchy.py and then in extract_coordWithHierarchy_Normalized.py.
 
 """
 from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
-from networkx.readwrite import json_graph
 
 import io, json
-import re
-import sys 
+import sys
 import csv
-from json import load
 
 
 reload(sys)  

@@ -1,0 +1,3190 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DIZ_484E323N_S",
+                "region": "Khuzistan"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.42219,
+                    32.38975
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SAYMARA_474E331N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.834025898213014,
+                    36.8764542804063
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HULWAN_459E344N_S",
+                "region": "Iraq"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.93468,
+                    34.47862
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TAYMA_385E275N_S",
+                "region": "Badiyat al-Arab"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.52,
+                    27.58081
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "THAJR_378E288N_S",
+                "region": "Badiyat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.68186287222179,
+                    30.51857946812393
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AJWALI_374E298N_S",
+                "region": "Badiyat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.19558981665133,
+                    32.836223780033755
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "UBAYR_367E307N_S",
+                "region": "Badiyat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    33.738069530437485,
+                    35.05025693843076
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AMMAN_359E319N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    31.765860166384133,
+                    37.93225717174581
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAYTRAM_356E318N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    31.323886928425548,
+                    38.57488863460107
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIHA_354E318N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    31.093432036784034,
+                    38.90860661380992
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "NABULUS_352E322N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    30.456917363940317,
+                    39.81734219056379
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TAASIR_353E323N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    30.197416679323165,
+                    40.18622599617437
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAYSAN_354E325N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    29.921207741840973,
+                    40.576570385611326
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AKKA_350E329N_S",
+                "region": "Sham"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.07559,
+                    32.92878
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "LADHIQIYYA_358E355N_S",
+                "region": "Sham"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.80763,
+                    35.51961
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUWAYDIYYA_359E360N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.41728176053502,
+                    37.342198966528194
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ANTAKIYYA_361E361N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.93336516774316,
+                    37.92418619908803
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TIZIN_367E362N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.09390991130547,
+                    39.20665532778268
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ATHARIB_368E361N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.47756600647207,
+                    39.629263315525954
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HALAB_371E361N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.25143062608958,
+                    40.46996091243101
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MANBIJ_379E365N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.283348301738954,
+                    42.59525649833997
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JISRMANBIJ_382E366N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    43.00508683266258,
+                    43.34480952623703
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SARUJ_384E369N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.02220567023313,
+                    44.38158371241123
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MUZANIYYA_385E372N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.9374298759996,
+                    45.30006359236417
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUMAYSAT_385E375N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.697673052600805,
+                    46.053268950580154
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MALATIN_383E383N_S",
+                "region": "Aqur"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.35767,
+                    38.35806
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HAMADHAN_485E347N_S",
+                "region": "Jibal"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.57908,
+                    34.77554
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DARNAWA_487E348N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    49.54503940120728,
+                    34.95057159688592
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BUZANJIRD_489E349N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    51.12303188631262,
+                    35.231527186091355
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ZARRA_492E350N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    52.65420982056971,
+                    35.50345761870013
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TAZRA_493E351N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    53.60919171179828,
+                    35.674932677525895
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BUSTA_497E351N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    55.58135361699324,
+                    36.0191758473352
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RUDHA_497E351N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    55.91759242671898,
+                    36.08009106122204
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MASDAQAN_498E350N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    56.361958966751104,
+                    36.160312581405144
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUSANQIN_500E350N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    57.37054425969034,
+                    36.33960407535817
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DARWADH_501E350N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    58.3259916422833,
+                    36.50927358851076
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SAWA_504E349N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    59.60186951419157,
+                    36.73345817272251
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MASHKUYA_507E353N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    62.562780620977556,
+                    37.22934315929686
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QUSTANA_510E354N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.21748427536266,
+                    37.51431929907424
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DIZA_516E353N_O",
+                "region": "Jibal"
+            },
+            "geometry": {
+                "coordinates": [
+                    51.65,
+                    35.3031
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HISNBULKUNA_042W378N_S",
+                "region": "Andalus"
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.22025,
+                    37.87073
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ISTIJA_051W375N_S",
+                "region": "Andalus",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    -13.633306775516242,
+                    31.724598427095582
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MAWRUR_054W371N_S",
+                "region": "Andalus"
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.48272,
+                    37.14029
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HIRA_443E320N_S",
+                "region": "Iraq"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.37232,
+                    32.01734
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KUFA_443E320N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.44517284747066,
+                    32.057650084156435
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SHAHI_443E322N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.038787846550065,
+                    32.38371287061707
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HAMMAMIBNUMAR_443E323N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.439618218030844,
+                    32.603642004494134
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JISRSURA_443E326N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.14070697234448,
+                    32.98582681265099
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QASRIBNHUBAYRA_443E327N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.304891552976365,
+                    33.07558541938025
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JISRKUTHA_443E328N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.781296392933854,
+                    33.33466861000943
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "NAHRMALIK_443E330N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    47.27066365492588,
+                    33.599955937734556
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SARSAR_443E331N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    47.42568160637885,
+                    33.68411628920137
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KARKH_443E333N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.008128625705865,
+                    33.99816762716153
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAGHDAD_443E333N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.134893256599774,
+                    34.066694903826715
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "NAHRAWAN_445E334N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.73602012243492,
+                    34.38925900820696
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DAYRBAZAMA_447E336N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    49.29380835267622,
+                    34.68758424940147
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DASKARA_449E339N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    50.371414300224615,
+                    35.25762179356637
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HARUNIYYA_450E339N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    50.61298243092679,
+                    35.386024488216435
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JALULA_451E341N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    51.2463654796804,
+                    35.72026667275098
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHANIQIN_454E343N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    52.1741181034215,
+                    36.20569939842336
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QASRSHIRIN_456E344N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    52.780404995312445,
+                    36.522427478289124
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HULWAN_459E344N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    53.521555725333116,
+                    36.90724308890212
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MADHARWISTAN_460E344N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    53.81341126948116,
+                    37.05901937187591
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MARJ_462E343N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    54.39212609326137,
+                    37.35808408973894
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TAZAR_464E341N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    55.053769290190736,
+                    37.698206311376204
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ZUBAYDIYYA_468E342N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    56.15384433399042,
+                    38.25735457282521
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QARMASIN_470E343N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    56.81715137161444,
+                    38.59412811907208
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BISUTUN_474E343N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    57.76988982266304,
+                    39.073411411355295
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QANTARANUMAN_476E344N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    58.35787025053604,
+                    39.3688514647187
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QASRLUSUS_479E344N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    59.112212876127124,
+                    39.745282195230715
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAMAN_486E342N_S",
+                "region": "Jibal"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.65585,
+                    34.25819
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATBUSHTKHAMM_552E295N_S",
+                "region": "Kirman"
+            },
+            "geometry": {
+                "coordinates": [
+                    55.28258,
+                    29.5607
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SIRJAN_557E294N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    57.49512423517293,
+                    29.19202192877269
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHANNAB_567E298N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    62.54086746424849,
+                    28.29173771511204
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "GHUBAYRA_569E297N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    63.908717305756326,
+                    28.06598826132403
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KUGHUN_570E296N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.64794693970015,
+                    27.945554245011582
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAIN_574E296N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    66.60996498483821,
+                    27.616316275688373
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SARWISTAN_578E292N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    69.3199818102201,
+                    27.152641055298858
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DARJIN_581E292N_S",
+                "region": "Kirman",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    70.69700086918557,
+                    26.92322020580149
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "NARMASIR_586E289N_S",
+                "region": "Kirman"
+            },
+            "geometry": {
+                "coordinates": [
+                    58.64795,
+                    28.98436
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATKHURAN_564E337N_S",
+                "region": "Mafaza"
+            },
+            "geometry": {
+                "coordinates": [
+                    56.45466,
+                    33.73469
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BUSTADARAN_568E341N_S",
+                "region": "Mafaza",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    57.80984388181073,
+                    36.42644530681582
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BANNA_569E344N_S",
+                "region": "Mafaza",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    58.45832200105536,
+                    37.694518368091494
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATZANJI_574E348N_S",
+                "region": "Mafaza",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    59.90539903118038,
+                    40.41308516170615
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SABZAWAR_576E361N_S",
+                "region": "Khurasan"
+            },
+            "geometry": {
+                "coordinates": [
+                    57.66932,
+                    36.15624
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SARUJ_384E369N_S",
+                "region": "Aqur"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.43806,
+                    36.9791
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RUHA_388E371N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.130171259975846,
+                    35.16921436417355
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HARRAN_390E368N_S",
+                "region": "Aqur"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.08906,
+                    36.88438
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TABARIYYA_355E327N_S",
+                "region": "Sham"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.51241,
+                    32.77755
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AQABAFIQ_356E327N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.15456451400715,
+                    33.37864257146195
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JASIM_360E329N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.21713346234053,
+                    34.36007684685381
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KUSWA_362E333N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.39259559415236,
+                    35.43105763076728
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DIMASHQ_363E335N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.89010571253553,
+                    35.88311137642094
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QUTAYYIFA_366E337N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.891952893589185,
+                    36.7808923858291
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JARUD_367E338N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.28029489084151,
+                    37.12827326364918
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QARYATAN_372E342N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.043746380997824,
+                    38.66311417935838
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "NIHYA_373E344N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.806229106702446,
+                    39.32363262512994
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAQQA_390E359N_S",
+                "region": "Aqur"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.05128,
+                    35.9493
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BUKHARA_644E398N_S",
+                "region": "Transoxiana"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.46489,
+                    39.85224
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TAWAWIS_647E400N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    65.56846033603766,
+                    40.05060392059254
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KARMIINIYYA_654E401N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    67.42820165252289,
+                    40.377191912906966
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHUDIMANKAN_655E401N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    67.95458698390425,
+                    40.47250407209332
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DABUSIYA_660E399N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    69.36164588552528,
+                    40.720986887016686
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RABINJAN_663E398N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    70.41462234588701,
+                    40.9079963225403
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ZARMAN_666E397N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    71.2339461380052,
+                    41.05400119462364
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SAMARQAND_670E396N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    72.44759671028109,
+                    41.26748966327717
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KABUZANJAKATH_671E397N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    72.85772615606649,
+                    41.340972331860804
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BUZMAJAN_673E397N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    73.32387206054226,
+                    41.424270255995516
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATSAD_677E398N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    74.52203284465251,
+                    41.633881362348596
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BURNAMADH_681E399N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    75.79195585992103,
+                    41.854860960314774
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ZAMIN_684E399N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    76.67604509424496,
+                    42.00978955596642
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SABAT_687E399N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    77.64685997750252,
+                    42.179085603009845
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHUJANDA_696E402N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    80.42515441239786,
+                    42.638203551816375
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SAMGHAR_702E404N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    82.37668607072095,
+                    42.965832178567396
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JAJISTAN_704E405N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    83.1066138146363,
+                    43.09197799395395
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAB_711E408N_S",
+                "region": "Transoxiana"
+            },
+            "geometry": {
+                "coordinates": [
+                    71.16439,
+                    40.88072
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHARKIRD_601E343N_S",
+                "region": "Khurasan"
+            },
+            "geometry": {
+                "coordinates": [
+                    60.16386,
+                    34.31639
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "FARKIRD_610E342N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    63.037966277407946,
+                    35.340185309742864
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BUSANJ_614E343N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.29605311574579,
+                    35.79388546754855
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HARA_621E343N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    66.46816029030248,
+                    36.56120081082407
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KARUKH_625E344N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    67.85623705584557,
+                    37.05276199058008
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATMAYANAH_627E345N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    68.59273780660259,
+                    37.314651277578044
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SHURMIN_635E347N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    71.28326167794435,
+                    38.23732117443552
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATSHUR_635E350N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    72.72946442362047,
+                    38.73720350526443
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ABSHIN_635E352N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    73.39122908826734,
+                    38.967381184874434
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATKARZWAN_638E356N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    75.22944699601541,
+                    39.591828621952786
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TALAQAN_642E357N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    76.69773544118931,
+                    40.08919694339171
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "YAHUDIYYA_648E359N_S",
+                "region": "Khurasan"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.83857,
+                    35.9347
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KABUL_352E328N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.501338424213934,
+                    33.61239355414464
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AQABAFIQ_356E327N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.944422040936395,
+                    33.929618184250394
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KUSWA_362E333N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.69441206549061,
+                    36.378832713880705
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DIMASHQ_363E335N_S",
+                "region": "Sham"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.30199,
+                    33.51843
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AMID_402E379N_S",
+                "region": "Aqur"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.21323,
+                    37.9151
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HARRAN_390E368N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    30.567451819541475,
+                    31.17026529145281
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TALLABDA_387E366N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    28.113482318615294,
+                    29.508037911212718
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JISRMANBIJ_382E366N_S",
+                "region": "Aqur"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.22057,
+                    36.67173
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QURH_379E265N_S",
+                "region": "Jazirat al-Arab"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.99288,
+                    26.55412
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUQYAYAZID_383E261N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.62322057262883,
+                    25.55716532550758
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MARWA_385E257N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.25337699983885,
+                    24.552346039105363
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUWAYDA_390E250N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.208465477990096,
+                    23.010206863644633
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DHUKHUSHUB_392E247N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.690715532075046,
+                    22.227951777750906
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MADINA_396E244N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.17057987137029,
+                    21.445321361126922
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QUBA_395E244N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.21888721108093,
+                    21.36655831893394
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DHUHULAYFA_395E244N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.26839000162459,
+                    21.285801568385956
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MALAL_394E242N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.451772072793524,
+                    20.98596068239437
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SAYYALA_393E241N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.60933730371963,
+                    20.727902662742594
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAWHA_392E241N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.71966421232431,
+                    20.547011759648647
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RUWAYTHA_392E240N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.856181560155605,
+                    20.3228427097645
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ARJ_392E238N_O",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.04513052748137,
+                    20.011931148413474
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUQYABANUGHIFAR_392E235N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.382852491709116,
+                    19.45413003952663
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ABWA_390E232N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.82450740992793,
+                    18.72131107453736
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JUHFA_391E226N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    43.56987831449248,
+                    17.475113056173797
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHULAYS_394E221N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.237005631383525,
+                    16.353298644288735
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "USFAN_394E218N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.5010681575366,
+                    15.908558449332888
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BATNMARR_397E216N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    44.917616623383644,
+                    15.204447004417162
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TANIM_397E215N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.05804065830597,
+                    14.966911270000207
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MAKKA_398E213N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.235489985204445,
+                    14.666314340005023
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DHATIRQ_404E216N_S",
+                "region": "Jazirat al-Arab",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.948727687030235,
+                    13.450790747153745
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "GHAMRA_408E218N_S",
+                "region": "Jazirat al-Arab"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.84007,
+                    21.89675
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATBARAKAN_512E320N_S",
+                "region": "Khuzistan"
+            },
+            "geometry": {
+                "coordinates": [
+                    51.21056,
+                    32.01123
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "LURDAJAN_507E315N_S",
+                "region": "Faris",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.49887466437482,
+                    30.38066487257917
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JISRJAHANNAM_502E314N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.25195172928011,
+                    29.478546092784025
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BADAH_499E312N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    40.37094536615837,
+                    28.96341704107267
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAMHURMUZ_496E312N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.4212478145427,
+                    28.426459885629164
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ABDIN_493E312N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    36.853034776904266,
+                    27.995179179003692
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AHWAZ_486E313N_S",
+                "region": "Khuzistan"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.69059,
+                    31.32986
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MARW_621E376N_S",
+                "region": "Khurasan"
+            },
+            "geometry": {
+                "coordinates": [
+                    62.10386,
+                    37.67193
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KUSHMAYHAN_625E377N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    63.443479953138564,
+                    38.27130666704621
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATHADID_628E380N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.42307935827448,
+                    38.70838004620356
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATNASRAK_629E383N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    65.38656327769262,
+                    39.13570981280789
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JUBBHAMMAD_632E385N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    66.39851772147523,
+                    39.58143470551088
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RIBATBARIS_633E388N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    67.31102817347994,
+                    39.98138192646106
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AMUL_635E390N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    68.15023441025764,
+                    40.34745972880292
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "FIRABR_636E391N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    68.58477995625022,
+                    40.53722967381173
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAYKAND_640E395N_S",
+                "region": "Transoxiana",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    70.31331384002587,
+                    41.27409779317525
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHARAQANA_675E399N_S",
+                "region": "Transoxiana"
+            },
+            "geometry": {
+                "coordinates": [
+                    67.58739,
+                    39.9712
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AWA_505E346N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    49.88922497672446,
+                    33.190669538581595
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KARAJ_495E338N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.126840187441516,
+                    31.026251998454192
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DARAQAN_487E334N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.9713502527836,
+                    29.58951828918425
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SABURKHASHT_483E334N_S",
+                "region": "Jibal",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.49541180234912,
+                    28.995614232151294
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DIZ_484E329N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.670513527532584,
+                    27.955003916735063
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JUNDAYSABUR_485E322N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    48.27417866159017,
+                    32.21125661324165
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "TUSTAR_488E320N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    47.74590633651952,
+                    31.56893175110961
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ASKARMUKRAM_488E316N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    47.185675845473064,
+                    30.88273528758113
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AHWAZ_486E313N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.610265803149986,
+                    30.172767791911774
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SUQARBAA_485E309N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    46.03417160160494,
+                    29.456873427740522
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "HISNMAHDI_483E305N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.41588132488071,
+                    28.682680076837883
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAYAN_480E304N_S",
+                "region": "Iraq",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.016553419652304,
+                    28.1806315248462
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BASRA_477E304N_S",
+                "region": "Iraq"
+            },
+            "geometry": {
+                "coordinates": [
+                    47.71735,
+                    30.40147
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AYNRUMIYYA_389E363N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    29.74700086943335,
+                    26.04621304565779
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAJARWAN_389E361N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    30.70484474188793,
+                    23.985508030756478
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAQQA_390E359N_S",
+                "region": "Aqur",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    31.532693582930083,
+                    22.181036863922486
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RUSAFA_387E356N_S",
+                "region": "Sham"
+            },
+            "geometry": {
+                "coordinates": [
+                    38.77933,
+                    35.60242
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KASHAN_645E358N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.34722905584849,
+                    35.32764798567279
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "MALIN_621E341N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    66.1594324562229,
+                    36.1840795337564
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KUWASHAN_622E338N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    65.49355207881176,
+                    35.36122482097002
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ADRASKAR_622E335N_S",
+                "region": "Khurasan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    64.98247862586943,
+                    34.72509400787742
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "FARAH_620E323N_S",
+                "region": "Sijistan"
+            },
+            "geometry": {
+                "coordinates": [
+                    62.06561,
+                    32.35928
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "FARAMA_325E310N_S",
+                "region": "Egypt"
+            },
+            "geometry": {
+                "coordinates": [
+                    32.59811,
+                    31.02282
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "BAQQARA_331E310N_S",
+                "region": "Egypt",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    34.002849288131124,
+                    32.20229015216946
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "WARRADA_335E310N_S",
+                "region": "Egypt",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.10877277582861,
+                    33.12245027476401
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ARISH_338E311N_S",
+                "region": "Egypt",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.8363991207193,
+                    33.72469027219868
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAFH_342E313N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.18365521643071,
+                    34.821918456603385
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAMLA_348E319N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.82533881116713,
+                    36.90334048970327
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "LUDD_348E319N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    39.94122890023942,
+                    36.99571603932024
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QALANSUWA_349E322N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    41.08041155255857,
+                    37.88813341225665
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "LAJJUN_352E326N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.4045538728095,
+                    38.90972997940814
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "JUBBYUSUF_355E329N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.993467201809246,
+                    33.17870877949553
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "QARYAUYUN_355E333N_S",
+                "region": "Sham",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    37.387833797414686,
+                    34.3210136476014
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "AYNJARR_359E337N_S",
+                "region": "Sham"
+            },
+            "geometry": {
+                "coordinates": [
+                    35.90422,
+                    33.7273
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "ARRAJAN_502E306N_S",
+                "region": "Faris"
+            },
+            "geometry": {
+                "coordinates": [
+                    50.29766,
+                    30.6103
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "SANBIL_501E307N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    47.97640104777748,
+                    32.810569735246304
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "DAHLIZAN_499E307N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    45.79366441173497,
+                    34.831193021305566
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "KHABARAN_498E309N_S",
+                "region": "Khuzistan",
+                "status": "new"
+            },
+            "geometry": {
+                "coordinates": [
+                    42.415509257964,
+                    37.82294816420382
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "URI": "RAMHURMUZ_496E312N_S",
+                "region": "Khuzistan"
+            },
+            "geometry": {
+                "coordinates": [
+                    49.60131,
+                    31.28576
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}

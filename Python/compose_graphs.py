@@ -1,3 +1,7 @@
+'''
+Create a graph of both cornu and muqaddasi networks and writes the graph into a json file.
+'''
+
 from networkx.readwrite import json_graph
 import io, json, csv
 import re

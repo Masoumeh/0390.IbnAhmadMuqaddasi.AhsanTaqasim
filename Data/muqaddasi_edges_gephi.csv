@@ -1,0 +1,1493 @@
+SOURCE,TARGET,TYPE
+مكة,بطن مر,undirected
+بطن مر,عسفان,undirected
+عسفان,خليص,undirected
+عسفان,أمج,undirected
+خليص,الخيم,undirected
+أمج,الخيم,undirected
+الخيم,الجحفة,undirected
+الجحفة,الأبواء,undirected
+الأبواء,سقيا بنى غفار,undirected
+سقيا بنى غفار,العرج,undirected
+العرج,الروحاء,undirected
+الروحاء,رويثة,undirected
+رويثة,يثرب,undirected
+مكة,يلملم,undirected
+يلملم,قرن,undirected
+قرن,السرين,undirected
+مکه,بستان بنى عامر,undirected
+بستان بنى عامر,ذات عرق,undirected
+ذات عرق,الغمرة,undirected
+مکه,قرين,undirected
+قرين,جدة,undirected
+بطن مر,جدة,undirected
+الجحفة,بدر,undirected
+بدر,الصفراء,undirected
+بدر,المعلاة,undirected
+الصفراء,الروحاء,undirected
+المعلاة,الروحاء,undirected
+بدر,ينبع,undirected
+ينبع,راس العين,undirected
+راس العين,المعدن,undirected
+المعدن,المروة,undirected
+بدر,الجار,undirected
+الجار,الجحفة,undirected
+الجار,ينبع,undirected
+جدة,الجار,undirected
+جدة,السرين,undirected
+يثرب,السويدية,undirected
+يثرب,بطن النخل,undirected
+السويدية,المروة,undirected
+بطن النخل,معدن النقرة,undirected
+المروة,السقيا,undirected
+السقيا,بدا يعقوب,undirected
+بدا يعقوب,العونيد,undirected
+السقيا,وادي القري,undirected
+وادي القري,الحجر,undirected
+الحجر,تيماء,undirected
+زبالة,الشقوق,undirected
+الشقوق,البطان,undirected
+البطان,الثعلبية,undirected
+الثعلبية,الخزيمية,undirected
+الخزيميه,أجفر,undirected
+أجفر,فيد,undirected
+فيد,توز,undirected
+توز,سميراء,undirected
+سميراء,حاجر,undirected
+حاجر,معدن النقرة,undirected
+معدن النقرة,المغيثة,undirected
+المغيثة,الربذة,undirected
+الربذة,معدن بنى سليم,undirected
+معدن بنى سليم,السليلة,undirected
+السليلة,العمق,undirected
+العمق,الأفيعية,undirected
+الأفيعية,المسلح,undirected
+المسلح,غمرة,undirected
+البصرة,الحفير,undirected
+الحفير,الرحيل,undirected
+الرحيل,الشجى,undirected
+الشجى,حفر ابى موسى,undirected
+حفر ابى موسى,ماوية,undirected
+ماوية,ذات العشر,undirected
+دات العشر,الينسوعة,undirected
+الينسوعة,السمينة,undirected
+السمينة,القريتين,undirected
+القريتين,النباج,undirected
+النباج,العوسجة,undirected
+العوسجة,رامة,undirected
+رامة,إمرة,undirected
+إمرة,طخفة,undirected
+طخفة,ضرية,undirected
+ضرية,جديلة,undirected
+جديلة,ملحة,undirected
+ملحة,الدثينة,undirected
+الدثينة,قبا,undirected
+قبا,الشبيكة(السنبلة),undirected
+الشبيكة(السنبلة),وجرة,undirected
+وجرة,ذات عرق,undirected
+ويلة,شرف ذي النمل,undirected
+شرف ذي النمل,مدين,undirected
+مدين,الاعراء,undirected
+منزل,الكلاية,undirected
+الكلاية,شغب,undirected
+شغب,بدا,undirected
+بدا,السرحتين,undirected
+السرحتين,البيضاء,undirected
+البيضاء,وادي القري,undirected
+شرف ذي النمل,الصلا,undirected
+الصلا,النبك,undirected
+النبک,ضبة,undirected
+ضبة,العونيد,undirected
+العونيد,الرحبة,undirected
+الرحبة,منخوس,undirected
+منخوس,البحيرة,undirected
+البحيرة,الأحساء,undirected
+الأحساء,العشيرة,undirected
+العشيرة,الجار,undirected
+الجار,بدر,undirected
+صحار,نزوة,undirected
+نزوة,عجلة,undirected
+عجلة,عضوة,undirected
+عضوة,بئر السلاح,undirected
+صنعاء,الريدة,undirected
+الريدة,أثافت,undirected
+أثافت,خيوان,undirected
+خيوان,الأعمشية,undirected
+الأعمشية,صعدة,undirected
+صعدة,غرفة,undirected
+صعدة,المهجرة,undirected
+المهجرة,شروراح,undirected
+شروراح,الثجة,undirected
+الثجة,کثبة,undirected
+کثبة,يبنبم,undirected
+جرش/يبنبم,بنات جرم,undirected
+بنات جرم,جسداء,undirected
+جسداء,بيشة,undirected
+بيشة,تبالة,undirected
+تبالة,رنية,undirected
+رنية,کدي,undirected
+کدي,صفر,undirected
+صفر,تربة,undirected
+تربة,الفتق,undirected
+الفتق,الجدد,undirected
+الجدد,الغمرة,undirected
+مکة,بئر ابن المرتفع,undirected
+بئر ابن المرتفع,قرن,undirected
+قرن,الطائف,undirected
+مکة,عرفات,undirected
+عرفات,الطائف,undirected
+ويلة,شرف البعل,undirected
+شرف البعل,الصلا,undirected
+الصلا,النبک,undirected
+النبک,ضبة,undirected
+ضبة,العونيد,undirected
+عونيد,الرحبة,undirected
+الرحبة,منخوس,undirected
+منخوس,البحيرة,undirected
+البحيرة,الإحساء,undirected
+الإحساء,الاعراء,undirected
+الاعراء,الکلاية,undirected
+الکلاية,شغب,undirected
+شغب,بدا,undirected
+بدا,السرحتين,undirected
+السرحتين,البيضاء,undirected
+البيضاء,قرح,undirected
+قرح,سقيا يزيد,undirected
+صنعاء,صداء,undirected
+صنعاء,حضرموت,undirected
+صنعاء,ذمار,undirected
+ذمار,نسفان,undirected
+ذمار,کحلان,undirected
+کحلان,حجر,undirected
+کحلان,بدر,undirected
+بدر,عدن,undirected
+ذمار,يحصب,undirected
+يحصب,السحول,undirected
+السحول,الثجة,undirected
+الثجة,الجند,undirected
+صنعاء,الجند,undirected
+صنعاء,العرف,undirected
+العرف,ألهان,undirected
+ألهان,جبلان,undirected
+جبلان,زبيد,undirected
+صنعاء,شبام,undirected
+عدن,أبين,undirected
+بغداد,نهر الملك,undirected
+نهر الملك,القصر,undirected
+القصر,حمام ابن عمر,undirected
+حمام ابن عمر ,الكوفة,undirected
+الكوفة,القادسية,undirected
+بغداد,المدائن,undirected
+المدائن,السيب,undirected
+السيب,دير العاقول,undirected
+دير العاقول,جرجرايا,undirected
+جرجرايا,النعمانية,undirected
+النعمانية,جبل,undirected
+جبل,نهر سابس,undirected
+نهر سابس,مطارة,undirected
+مطارة,الحارله,undirected
+الحارله,الاسحاقية,undirected
+الاسحاقية,المحراقة,undirected
+المحراقة,الحدادية,undirected
+الحدادية,ترمانة,undirected
+ترمانة,واسط,undirected
+الحدادية,الزبيدية,undirected
+الزبيدية,واسط,undirected
+المحراقة,الجامدة,undirected
+الحدادية,الصليق,undirected
+البصرة,الأبلة,undirected
+الأبلة,بيان,undirected
+بيان,عبادان,undirected
+بغداد,السيلحين,undirected
+السيلحين,الأنبار,undirected
+الأنبار,الرب,undirected
+الرب,هيت,undirected
+بغداد,البردان,undirected
+البردان,عكبرا,undirected
+عكبرا,باحمشا,undirected
+باحمشا,القادسية,undirected
+القادسية,الكرخ,undirected
+الكرخ,جبلتا,undirected
+جبلتا,السودقانية,undirected
+السودقانية,بارما,undirected
+بارما,السن,undirected
+بغداد,النهروان,undirected
+النهروان,دير بازما,undirected
+دير بازما,الدسكرة,undirected
+الدسكرة,جلولا,undirected
+جلولا,خانقين,undirected
+هيت,الناووسة,undirected
+الناووسة,عانة,undirected
+عانة,آلوسة,undirected
+آلوسة,الفحيمة,undirected
+الفحيمة,الحديثة,undirected
+الحديثة,النهية,undirected
+حلوان,ماذرواستان,undirected
+ماذرواستان,المرج,undirected
+المرج,قصر يزيد,undirected
+قصر يزيد,الزبيدية,undirected
+الزبيدية,قصر عمرو,undirected
+قصر عمرو,قرماسين,undirected
+حلوان,قصر شيرين,undirected
+قصر شيرين,خانقين,undirected
+الأبلة,الخمازية,undirected
+الأبلة,نهر دبا,undirected
+نهر دبا,فم العضدى,undirected
+واسط,بغداد,undirected
+واسط,الكوفة,undirected
+واسط,البصرة,undirected
+واسط,حلوان,undirected
+واسط,الأهواز,undirected
+الموصل,مرجهينة,undirected
+الموصل,بلد,undirected
+الموصل,المحلبية,undirected
+الموصل,مزارعى,undirected
+مرجهينة,الحديثة,undirected
+الحديثة,البقيعة,undirected
+البقيعة,السن,undirected
+بلد,برقعيد,undirected
+برقعيد,أذرمة,undirected
+أذرمة,المونسة,undirected
+المونسة,نصيبين,undirected
+نصيبين,دارا,undirected
+المحلبية,الشحاجية,undirected
+الشحاجية,تل اعفر,undirected
+ تل اعفر,سنجار,undirected
+مزارعى,معلثايا,undirected
+معلثايا,الحسنية,undirected
+الحسنية,ثمانين,undirected
+ثمانين,جزيرة ابن عمر,undirected
+جزيرة ابن عمر,تل فافان,undirected
+الموصل,شهرزور,undirected
+آمد,ميافارقين,undirected
+ميافارقين,أرزن,undirected
+أرزن,مسجد أويس,undirected
+مسجد أويس,المعدن,undirected
+المعدن,بدليس,undirected
+بدليس,شمشاط,undirected
+شمشاط,تل حوم,undirected
+تل حوم,جرنان,undirected
+جرنان,بامقرا,undirected
+بامقرا,جلاب,undirected
+جلاب,الرها,undirected
+الرها,حران,undirected
+حران,باجروان,undirected
+باجروان,الرقة,undirected
+الرحبة,قرقيسيا,undirected
+قرقيسيا,الدالية,undirected
+قرقيسيا,بئر,undirected
+قرقيسيا,فدين,undirected
+فدين,السكير,undirected
+آمد,تل حور,undirected
+تل حور,ملطين,undirected
+ملطين,طبوس,undirected
+طبوس,شمشاط,undirected
+شمشاط,الفعونية,undirected
+الفعونية,حصن زياد,undirected
+حصن زياد,ملطين,undirected
+ملطين,عرقة,undirected
+عرقة,الصفصاف,undirected
+الصفصاف,الرمانة,undirected
+الرمانة,سمندو,undirected
+سمندو,مرج قيسارية,undirected
+مرج قيسارية,أنقرة,undirected
+أنقرة,جسر شاغر,undirected
+جسر شاغر,النقموذية,undirected
+النقموذية,ملعب الملك,undirected
+ملعب الملك,حارفة,undirected
+حارفة,القسطنطينية,undirected
+ميافارقين,موش,undirected
+موش,قنب,undirected
+قنب,سن نحاس,undirected
+سن نحاس,قاليقلا,undirected
+سن نحاس,ملازكرد,undirected
+سن نحاس,موش,undirected
+سن نحاس,الخالديات,undirected
+سموقموش,قلونية العوفي,undirected
+قلونية العوفي,نفشارية,undirected
+نفشارية,عقبة الشهداء,undirected
+عقبة الشهداء,الأفلاغونية,undirected
+الأفلاغونية,السونشة,undirected
+السونشة,بمولصة,undirected
+بمولصة,بلد ابن السوانيطى,undirected
+بلد ابن السوانيطى,دوسنية,undirected
+قطابولى,بلد ابن الملاين,undirected
+بلد ابن الملاين,البحيرة الحلوة,undirected
+البحيرة الحلوة,حصن صاعس,undirected
+حلب,بالس,undirected
+حلب,قنسرين,undirected
+حلب,الأثارب,undirected
+حلب,منبج,undirected
+انطاكية,الاذقية,undirected
+منبج,الفرات,undirected
+حمص,جوسية,undirected
+جوسية,يعاث,undirected
+يعاث,بعلبك,undirected
+بعلبك,الزبداني,undirected
+الزبداني,دمشق,undirected
+حمص,شمسين,undirected
+شمسين,قارا,undirected
+قارا,البنك,undirected
+البنك,القطيفة,undirected
+القطيفة,دمشق,undirected
+حمص,سلمية,undirected
+سلمية,القسطل,undirected
+القسطل,الزراعة,undirected
+الزراعة,الرصافة,undirected
+الرصافة,الرقة,undirected
+حمص,حماة,undirected
+حماة,شيزر,undirected
+شيزر,كفرطاب,undirected
+كفرطاب,قنسرين,undirected
+قنسرين,حلب,undirected
+دمشق,طرابلس,undirected
+دمشق,بيروت,undirected
+دمشق,صيدا,undirected
+دمشق,بانياس,undirected
+دمشق,الحوران,undirected
+دمشق,البثنية,undirected
+دمشق,أقصى الغوطة,undirected
+دمشق,بيت سرعا,undirected
+دمشق,الكسوة,undirected
+دمشق,جاسم,undirected
+جاسم,فيق,undirected
+فيق,طبرية,undirected
+بانياس,قدس,undirected
+بانياس,جب يوسف,undirected
+بيروت,صيدا,undirected
+بيروت,طرابلس,undirected
+طبرية,اللجون,undirected
+طبرية,جب يوسف,undirected
+طبرية,بيسان,undirected
+طبرية,عقبة أفيق,undirected
+طبرية,الجش,undirected
+طبرية,كفركيلا,undirected
+اللجون,قلنسوة,undirected
+قلنسوة,الرملة,undirected
+اللجون,كفرسابا,undirected
+كفرسابا,الرملة,undirected
+بيسان,تعاسير,undirected
+تعاسير,نابلس,undirected
+نابلس,بيت المقدس,undirected
+جب يوسف,قرية العيون,undirected
+قرية العيون,القرعون,undirected
+القرعون,عين الحجر,undirected
+عين الحجر,بعلبك,undirected
+الجش,صور,undirected
+صور,صيدا,undirected
+صور,قدس,undirected
+صور,مجدل سلم,undirected
+مجدل سلم,بانياس,undirected
+طبرية,عكا,undirected
+جبل لبنان,نابلس,undirected
+جبل لبنان,قدس,undirected
+جبل لبنان,صيدا,undirected
+جبل لبنان,صور نحو,undirected
+الرملة,بيت المقدس,undirected
+الرملة,بيت جبريل,undirected
+الرملة,عسقلان,undirected
+الرملة,السكرية,undirected
+الرملة,نابلس,undirected
+الرملة,كفر سلام,undirected
+الرملة,مسجد إبراهيم,undirected
+الرملة,اريحاء,undirected
+الرملة,يافه,undirected
+الرملة,الماحوز,undirected
+الرملة,ارسوف,undirected
+الرملة,ازدود,undirected
+الرملة,رفح,undirected
+بيت المقدس,بيت جبريل,undirected
+بيت المقدس,مسجد إبراهيم,undirected
+بيت المقدس,نهر الاردن,undirected
+بيت المقدس,نابلس,undirected
+بيت المقدس,اريحاء,undirected
+غزة,بيت جبريل,undirected
+غزة,ازدود,undirected
+غزة,رفح,undirected
+مسجد إبراهيم,قاووس,undirected
+قاووس,صغر,undirected
+نهر الاردن,عمان,undirected
+نابلس,اريحاء,undirected
+اريحاء,بيت الرام,undirected
+بيت الرام,عمان,undirected
+صغر,مآب,undirected
+عميان,مآب,undirected
+عميان,الزرقاء,undirected
+الزرقاء,أذرعات,undirected
+أذرعات,دمشق,undirected
+قيسارية,كفرسلام,undirected
+قيسارية,كفرسابا,undirected
+قيسارية,ارسوف,undirected
+قيسارية,الكنيسة,undirected
+يافه,عسقلان,undirected
+الفرما,البقارة,undirected
+البقارة,الورادة,undirected
+الورادة,العريش,undirected
+العريش,رفح,undirected
+الفرما,جرجير,undirected
+جرجير,فاقوس,undirected
+الفرما,الرصد,undirected
+الرصد,فاقوس,undirected
+الفرما,تنيس,undirected
+تنيس,دمياط,undirected
+دمياط,المحلة الكبيرة,undirected
+المحلة الكبيرة,الاسكندرية,undirected
+دمياط,سردوس,undirected
+سردوس,الفسطاط,undirected
+بلبيس,المنصف,undirected
+المنصف,القلزم,undirected
+الفرما,دير النصارى,undirected
+دير النصارى,المخلصة,undirected
+المخلصة,العريش,undirected
+بلبيس,الفسطاط,undirected
+الاسكندرية,الرافقة,undirected
+الرافقة,كوم شريك,undirected
+كوم شريك,ترنوط,undirected
+ترنوط,ذات السلاسل,undirected
+ذات السلاسل,الفسطاط,undirected
+الاسكندرية,بومينه,undirected
+بومينه,سفا,undirected
+سفا,ارمسا,undirected
+ارمسا,ذات الحمام,undirected
+الاسكندرية,الغاضرة,undirected
+الغاضرة,فاقوس,undirected
+الفسطاط,بلبيس,undirected
+بلبيس,المنصف,undirected
+المنصف,القلزم,undirected
+القلزم,جدة,undirected
+الجب,البويب,undirected
+البويب,منزل ابن بندقة,undirected
+منزل ابن بندقة,عجرود,undirected
+عجرود,المدينة,undirected
+المدينة,الكرسي,undirected
+الكرسي,الحفر,undirected
+الحفر,ويلة,undirected
+برقة,الندامة,undirected
+الندامة,تاكنست,undirected
+تاكنست,المغار,undirected
+المغار,حليمان,undirected
+حليمان,مخيل,undirected
+مخيل,جب الميدعان,undirected
+جب الميدعان,جياد الصغير,undirected
+جياد الصغير,حى عبد الله,undirected
+حى عبد الله,مرج الشيخ,undirected
+مرج الشيخ,العقبة,undirected
+العقبة,خرائب ابى حليمة,undirected
+خرائب ابى حليمة,خربة القوم,undirected
+خربة القوم,قصر الشماس,undirected
+قصر الشماس,سكة الحمام,undirected
+سكة الحمام,جب العوسج,undirected
+جب العوسج,كنائس الحرير,undirected
+كنائس الحرير,الطاحونة,undirected
+الطاحونة,حنية الروم,undirected
+حنية الروم,ذات الحمام,undirected
+ذات الحمام,بومينه,undirected
+بومينه,الاسكندرية,undirected
+طرابلس,المسدودة,undirected
+المسدودة,ارسطا,undirected
+ارسطا,الراشدية,undirected
+الراشدية,قصور حسان,undirected
+قصور حسان,مغمداش,undirected
+مغمداش,سرت,undirected
+سرت,قصر العبادى,undirected
+قصر العبادى,اليهوديتين,undirected
+اليهوديتين,قصر العطش,undirected
+قصر العطش,سبخة منهوسا,undirected
+سبخة منهوسا,بلد روب,undirected
+بلد روب,برمست,undirected
+برمست,سلوق,undirected
+سلوق,اوبران,undirected
+اوبران,قصر الفيل,undirected
+قصر الفيل,مليتية,undirected
+مليتية,برقة,undirected
+أطرابلس,بئر الجمالين,undirected
+بئر الجمالين,قصر الدرق,undirected
+قصر الدرق,بارجمت,undirected
+بارجمت,الفوارة,undirected
+الفوارة,قابس,undirected
+قابس,الزيتونة,undirected
+الزيتونة,كتانة,undirected
+كتانة,الكبس,undirected
+الكبس,القيروان,undirected
+القيروان,السوس الأدنى,undirected
+السوس الأدنى,السوس الأقصى,undirected
+القيروان,قفصة,undirected
+قفصة,قسطيلية,undirected
+قسطيلية,تاهرت,undirected
+تاهرت,فاس,undirected
+فاس,الشقور,undirected
+الشقور,البصرة,undirected
+القيروان,سطيف,undirected
+سطيف,تاهرت,undirected
+تاهرت,فاس,undirected
+فاس, السوس الأقصى,undirected
+القيروان,زويلة,undirected
+القيروان,سجلماسة,undirected
+القيروان,سجلماسة,undirected
+القيروان,تونس,undirected
+تونس,طبرقة,undirected
+طبرقة,تنس,undirected
+تنس,جزيرة بنى زغناى,undirected
+القيروان,قابس,undirected
+القيروان,نفطة,undirected
+القيروان,قرنة,undirected
+القيروان,سبيبة,undirected
+القيروان,مدينة القصور,undirected
+القيروان,المهدية,undirected
+القيروان,لافس,undirected
+القيروان,الجزيرة,undirected
+القيروان,أبة,undirected
+القيروان,مرسى الخرز,undirected
+القيروان,قابس,undirected
+القيروان,قصر الافريقى,undirected
+القيروان,مجانة,undirected
+مجانة,تبسة,undirected
+مجانة,باغلى,undirected
+مجانة,دوفانة,undirected
+مجانة,عين العصافير,undirected
+مجانة,دار ملول,undirected
+مجانة,طبنة,undirected
+مجانة,مقرة,undirected
+مجانة,المسيلة,undirected
+مجانة,تبسة,undirected
+تبسة,باغلى,undirected
+باغلى,دوفانة,undirected
+دوفانة,عين العصافير,undirected
+عين العصافير,دار ملول,undirected
+دار ملول,طبنة,undirected
+طبنة,مقرة,undirected
+مقرة,المسيلة,undirected
+المسيلة,أشير,undirected
+أشير,تاهرت,undirected
+تاهرت,فكان,undirected
+فكان,تلمسان,undirected
+تلمسان,جراوة,undirected
+تلمسان,صاع,undirected
+تاهرت,ناكور,undirected
+ناكور,سجلماسة,undirected
+فاس,البصرة,undirected
+فاس,أزيلة,undirected
+القيروان,سوسة,undirected
+القيروان,قلشانة,undirected
+القيروان,تماجر,undirected
+قرطبة,اشبيلية,undirected
+اشبيلية,استجة,undirected
+قرطبة,طليطلة,undirected
+طليطلة,وادي الحجارة,undirected
+قرطبة,مكناسة,undirected
+مكناسة,هوارة,undirected
+هوارة,نفرة,undirected
+نفرة,سمورة,undirected
+قرطبة,قورية,undirected
+قورية,ماردة,undirected
+قورية,باجة,undirected
+باجة,شنترين,undirected
+باجة,فحص البلوط,undirected
+فحص البلوط,لبلة,undirected
+باجة,قرمونة,undirected
+قرمونة,اشبيلية,undirected
+استجة,مورور,undirected
+مورور,شذونة,undirected
+مورور,جبل طارق,undirected
+استجة,مالقة,undirected
+استجة,أرجدونة,undirected
+استجة,بجانة,undirected
+استجة,مرسية,undirected
+استجة,بلنسية,undirected
+بلنسية,طرطوشة,undirected
+مرسية,بجانة,undirected
+بجانة,مالقة,undirected
+مالقة,جبل طارق,undirected
+جبل طارق,شذونة,undirected
+شذونة,اشبيلية,undirected
+البويب,بندقة,undirected
+بندقة,عجرود,undirected
+عجرود,المدينة,undirected
+المدينة,الكرسي,undirected
+الكرسي,الحفر,undirected
+الحفر,المنزل,undirected
+المنزل,ويلة,undirected
+السكرية,التليل,undirected
+التليل,الغمر,undirected
+الغمر,ويلة,undirected
+صغر,ويلة,undirected
+عمان,معان,undirected
+معان,تبوك,undirected
+تبوك,تيماء,undirected
+تيماء,وادي القرى,undirected
+عمان,وبير,undirected
+وبير,الأجولى,undirected
+الأجولى,ثجر,undirected
+ثجر,تيماء,undirected
+عمان,العونيد,undirected
+العونيد,المحدثة,undirected
+المحدثة,النبك,undirected
+الجربي,عرفجا,undirected
+عرفجا,مخرى,undirected
+مخرى,تيماء,undirected
+القادسية,المغيثة,undirected
+المغيثة,القرعاء,undirected
+القرعاء,واقصة,undirected
+واقصة,العقبة,undirected
+العقبة,القاع,undirected
+القاع,زبالة,undirected
+زبالة,الشقوق,undirected
+الشقوق,البطان,undirected
+البطان,الثعلبية,undirected
+الثعلبية,الخزيمية,undirected
+الخزيمية,أجفر,undirected
+أجفر,فيد,undirected
+البصرة,الحفير,undirected
+الحفير,الرحيل,undirected
+الرحيل,الشجى,undirected
+الشجى,حفر ابى موسى,undirected
+حفر ابى موسى,ماوية,undirected
+ماوية,ذات العشر,undirected
+ذات العشر,الينسوعة,undirected
+الينسوعة,السمينة,undirected
+السمينة,القريتين,undirected
+القريتين,النباج,undirected
+الكوفة,الرهيمة,undirected
+الرهيمة,النحيت,undirected
+النحيت,القراى,undirected
+القراى,الخنفس,undirected
+الخنفس,الحشية,undirected
+الحشية,الغريفة,undirected
+الغريفة,قراكر,undirected
+قراكر,الأزرق,undirected
+الأزرق,عمان,undirected
+هيت,دمشق,undirected
+الرحبة,دمشق,undirected
+المنهب,وادي القرى,undirected
+المنهب,تيماء,undirected
+المنهب,تبوك,undirected
+المنهب,وادي طيئ,undirected
+البصرة,الكوفة,undirected
+أخسيكت,قبا,undirected
+قبا,أوش,undirected
+أوش,أوزكند,undirected
+أوزكند,العقبة,undirected
+العقبة,طباش,undirected
+طباش,برسخان الأعلى,undirected
+برسخان الأعلى,موضع بغراخاقان,undirected
+اخسيكت,باب,undirected
+باب,ترمغان,undirected
+ترمغان,جاجستان,undirected
+جاجستان,صامغر,undirected
+صامغر,خجندة,undirected
+إسبيجاب,شاواب,undirected
+شاواب,بدوخكث,undirected
+بدوخكث,تمتاج,undirected
+تمتاج,بارجاخ,undirected
+بارجاخ,منزل,undirected
+منزل,شاوغر,undirected
+شاوغر,طراز,undirected
+أسبيجاب,غركرد,undirected
+غركرد,بنكث,undirected
+بنكث,ستوركث,undirected
+بناكث,نهر الشاش,undirected
+نهر الشاش,خاوص,undirected
+خاوص,زامين,undirected
+بنكث الشاش,معدن الفضة,undirected
+معدن الفضة,جاجستان,undirected
+جاجستان,ترمغان,undirected
+بنكث,غركرد,undirected
+غركرد,أسبيجاب,undirected
+زامين,خاوص,undirected
+زامين,ساباط,undirected
+ساباط,شاوكث,undirected
+شاوكث,خجندة,undirected
+سمرقند,زرمان,undirected
+زرمان,ربنجن,undirected
+ربنجن,الدبوسية,undirected
+الدبوسية,كرمينية,undirected
+كرمينية,الطواويس,undirected
+الطواويس,ديمس,undirected
+ديمس,بخارا,undirected
+سمرقند,زامين,undirected
+زامين,خاوس,undirected
+خاوس,بناكث,undirected
+بناكث,ستوركث,undirected
+ستوركث,بنكث,undirected
+سمرقند,درزده,undirected
+درزده,كش,undirected
+كش,كندك,undirected
+كندك,باب الحديد,undirected
+باب الحديد,قرنة,undirected
+قرنة,ترمذ,undirected
+بخارا,بيكند,undirected
+بيكند,ميان كال,undirected
+ميان كال,فربر,undirected
+فربر,جيحون,undirected
+بخارا,جكم,undirected
+جكم,رباط عتيق,undirected
+رباط عتيق,جب سعيد,undirected
+جب سعيد,بزدة,undirected
+بزدة,رباط خواران,undirected
+رباط خواران,قرية البخاريين,undirected
+قرية البخاريين,قرية الخوارزميين,undirected
+قرية الخوارزميين,بلخان,undirected
+بلخان,كالف,undirected
+كالف,محلة القياسين,undirected
+محلة القياسين,ترمذ,undirected
+بخارا,امزه,undirected
+امزه,رباط تاش,undirected
+رباط تاش,شوروخ,undirected
+شوروخ,الرمل,undirected
+الرمل,رباط طغان,undirected
+رباط طغان,رباط جكربند,undirected
+رباط جكربند,رباط حسن,undirected
+رباط حسن,نابادغين,undirected
+نابادغين,مضيق النهر,undirected
+مضيق النهر,رباط ماش,undirected
+رباط ماش,رباط سنده,undirected
+رباط سنده,بغرقان,undirected
+بغرقان,شراخان,undirected
+شراخان,كاث,undirected
+كاث,خاس,undirected
+خاس,نوزكات,undirected
+نوزكات,وايخان,undirected
+وايخان,نوباغ,undirected
+نوباغ,مزداخقان,undirected
+مزداخقان,درسان,undirected
+درسان,كردر,undirected
+كردر,جويقان,undirected
+جويقان,قرية براتكين,undirected
+قرية براتكين,البحيرة,undirected
+رباط ماش,أمير,undirected
+أمير,باراب سار,undirected
+باراب سار,أرذخيوه,undirected
+مزداخقان,وردراغ,undirected
+وردراغ,كردر,undirected
+كاث,غردمان,undirected
+غردمان,وايخان,undirected
+وايخان,أرذخيوه,undirected
+أرذخيوه,نوكباغ,undirected
+اوزارمند,دسكاخان خاس,undirected
+دسكاخان خاس,رخشميثن,undirected
+رخشميثن,خيوه,undirected
+خيوه,كردرانخاس,undirected
+كردرانخاس,زردوخ,undirected
+زردوخ بريدا ,هزاراسب,undirected
+اوزارمند,روزوند,undirected
+روزوند,نوزوار,undirected
+نوزوار,زمخشر,undirected
+زمخشر,الجرجانية,undirected
+بخارا,نخشب,undirected
+نخشب,الصغانيان,undirected
+الصغانيان,دارزنجى,undirected
+الصغانيان,باسند,undirected
+الصغانيان,بايماب,undirected
+الصغانيان,سنكردة,undirected
+الصغانيان,بوراب,undirected
+الصغانيان,بهام,undirected
+الصغانيان,غش,undirected
+الصغانيان,زينور,undirected
+الصغانيان,هنبان,undirected
+الصغانيان,الختل,undirected
+الصغانيان,سمرقند,undirected
+بلخ,خلم,undirected
+خلم,ورواليز,undirected
+ورواليز,الطالقان,undirected
+الطالقان,بذخشان,undirected
+خلم,سمنجان,undirected
+سمنجان,أندرابة,undirected
+أندرابة,كاربايه,undirected
+كاربايه,بنجهير,undirected
+بنجهير,فروان,undirected
+بلخ,بغلان,undirected
+سمنجان,بغلان,undirected
+بلخ,مذر,undirected
+مذر,كه,undirected
+كه,الباميان,undirected
+بلخ,أشبورقان,undirected
+أشبورقان,الفارياب,undirected
+الفارياب,الطالقان,undirected
+بلخ,شاوكرد,undirected
+شاوكرد,ترمذ,undirected
+اليهودية,القاع,undirected
+القاع,اشبورقان,undirected
+اشبورقان,السدرة,undirected
+السدرة,الدستجرده,undirected
+الدستجرده,بلخ,undirected
+اليهودية,قصر الأمير,undirected
+قصر الأمير,فارياب,undirected
+فارياب,كرك,undirected
+كرك,الطالقان,undirected
+اليهودية,أنبار,undirected
+أنبار,رباط,undirected
+رباط,بلخ,undirected
+فارياب,آستانة,undirected
+آستانة,جوبين وملين,undirected
+جوبين وملين,أندخوذ,undirected
+أندخوذ,رباط أفريغون,undirected
+رباط أفريغون,قنى غياث,undirected
+قنى غياث,كركوه,undirected
+مرو,فاز,undirected
+فاز,مهدي آباذ,undirected
+مهدي آباذ,بحيرآباذ,undirected
+بحيرآباذ,القرينين,undirected
+القرينين,أسداباذ,undirected
+القرينين,حوزان,undirected
+حوزان,قصر أحنف,undirected
+قصر أحنف,أرسكن,undirected
+أرسكن,الأسراب,undirected
+الأسراب,كنجاباذ,undirected
+كنجاباذ,الطالقان,undirected
+الطالقان,كسحان,undirected
+كسحان,اليهودية,undirected
+مرو,جروجرد,undirected
+جروجرد,الدندانقان,undirected
+الدندانقان,تلستانة,undirected
+تلستانة,أشترمغك,undirected
+أشترمغك,سرخس,undirected
+مرو,كشميهن,undirected
+كشميهن,رباط الحديد,undirected
+رباط الحديد,رباط نصرك,undirected
+رباط نصرك,جب حماد,undirected
+جب حماد,رباط بارس,undirected
+رباط بارس,آمل,undirected
+آمل,جيحون,undirected
+ابشين,رباط شور,undirected
+رباط شور,رباط شار,undirected
+رباط شار,قرية القاضي,undirected
+قرية القاضي,شورمين,undirected
+شورمين,قرية المجوس,undirected
+قرية المجوس,خاره,undirected
+خاره,رباط ميانه,undirected
+رباط ميانه,كروخ,undirected
+كروخ,هراة,undirected
+ابشين,رباط كرزوان,undirected
+رباط كرزوان,مرزك,undirected
+مرزك,رباطروذ,undirected
+رباطروذ,مروالروذ,undirected
+مروالروذ,جسر حر,undirected
+جسر حر,الطالقان,undirected
+هراة,أسفزار,undirected
+هراة,مالن,undirected
+هراة,كروخ,undirected
+هراة,باشان,undirected
+باشان,خيسار,undirected
+خيسار,استربيان,undirected
+استربيان,ماراباذ,undirected
+ماراباذ,أوفه,undirected
+أوفه,خشت,undirected
+هراة,ببنة,undirected
+ببنة,كيف,undirected
+كيف,بغشور,undirected
+غزنين,رباط البارد,undirected
+رباط البارد,اسناخ,undirected
+اسناخ,حنس,undirected
+حنس,الباميان,undirected
+غزنين,كرديز,undirected
+كرديز,اوغ,undirected
+بست,رباط فيروزقند,undirected
+رباط فيروزقند,ميغون,undirected
+ميغون,رباط كشر,undirected
+رباط كشر,بنجواى,undirected
+بنجواى,كراباذ,undirected
+كراباذ,خرسان,undirected
+خرسان,رباط سراب,undirected
+رباط سراب,رباط الاوقل,undirected
+رباط الاوقل,خنكل اباذ,undirected
+خنكل اباذ,قرية غرم,undirected
+قرية غرم,قرية خاست,undirected
+قرية خاست,قرية جومة,undirected
+قرية جومة,خايسار,undirected
+سفنجاوى,رباط,undirected
+رباط,جنكى,undirected
+جنكى,رباط الحجرية,undirected
+رباط الحجرية,بنجواى,undirected
+بست,داور,undirected
+داور,الغور,undirected
+زرنج,كركويه,undirected
+كركويه,بشتر,undirected
+بشتر,جوين,undirected
+جوين,بستك,undirected
+بستك,كنجر,undirected
+كنجر,سرشك,undirected
+سرشك,وادي فره,undirected
+وادي فره,فره,undirected
+فره,دره,undirected
+دره,كوستان,undirected
+كوستان,جاشان,undirected
+جاشان,قناة سرى,undirected
+قناة سرى,الجبل الأسود,undirected
+الجبل الأسود,جامان,undirected
+جامان,هراة,undirected
+زرنج,زانبوق,undirected
+زانبوق,سروزن,undirected
+سروزن,حروري,undirected
+حروري,دهك,undirected
+دهك,رباط كرودين,undirected
+رباط كرودين,رباط قهستان,undirected
+رباط قهستان,رباط عبد الله,undirected
+رباط عبد الله,بست,undirected
+زرنج,جزه,undirected
+جزه,فره,undirected
+جزه,القرنين,undirected
+فره,نه,undirected
+زرنج,الطاق,undirected
+زرنج,كش,undirected
+قاين,تون,undirected
+قاين,ينابد,undirected
+ينابد,كندر,undirected
+كندر,طرثيث,undirected
+ينابد,سنكان,undirected
+سنكان,جايمن,undirected
+سنكان,مالن كواخرز,undirected
+مالن كواخرز,بوزجان,undirected
+بوزجان,الملاحة,undirected
+الملاحة,القصر,undirected
+نيسابور,بيسكند,undirected
+بيسكند,حسيناباذ,undirected
+حسيناباذ,خسروجرد,undirected
+خسروجرد,النوق,undirected
+خسروجرد,يحيى اباذ,undirected
+يحيى اباذ,مزينان,undirected
+يحيى اباذ,بهمن اباذ,undirected
+النوق,مزينان,undirected
+النوق,بهمن اباذ,undirected
+مزينان,أسداباذ,undirected
+بهمن اباذ,أسداباذ,undirected
+أسداباذ,هفدر,undirected
+نيسابور,قصر الريح,undirected
+قصر الريح,الرمادة,undirected
+الرمادة,صاهه,undirected
+صاهه,مزدوران,undirected
+مزدوران,اوكينة,undirected
+اوكينة,سرخس,undirected
+قصر الريح,فرهاكرد,undirected
+فرهاكرد,نوكده,undirected
+نوكده,مالايكرد,undirected
+مالايكرد,بوزجان,undirected
+بوزجان,كلنا,undirected
+كلنا,البق,undirected
+البق,امده,undirected
+امده,هراة,undirected
+القصر,الملاحة,undirected
+الملاحة,سنكان,undirected
+سنكان,ينابد,undirected
+نيسابور,كلكاو,undirected
+كلكاو,الدارين,undirected
+الدارين,نمخكن,undirected
+نمخكن,ريك,undirected
+ريك,فرخان,undirected
+فرخان,بردر,undirected
+بردر,بغداو,undirected
+بغداو,نسا,undirected
+دزاوند,حويران,undirected
+حويران,قلميهن,undirected
+قلميهن,أبيورد,undirected
+قلميهن,كوفن,undirected
+كوفى,أبيورد,undirected
+نيسابور,بغيشن,undirected
+بغيشن,القرية الحمراء,undirected
+القرية الحمراء,المشهد,undirected
+المشهد,طابران,undirected
+نيسابور,نشديغن,undirected
+نيسابور,ريوند,undirected
+ريوند,مهرجان,undirected
+مهرجان,أسفراين,undirected
+الدامغان,الحدادة,undirected
+الحدادة,بدش,undirected
+بدش,مرجان,undirected
+مرجان,هفدر,undirected
+هفدر,أسداباذ,undirected
+الدامغان,جرمجوى,undirected
+جرمجوى,رباط علياباذ,undirected
+رباط علياباذ,سمنان,undirected
+سمنان,راس الكلب,undirected
+راس الكلب,قرية الملح,undirected
+قرية الملح,خوار الرى,undirected
+الحدادة,بسطام,undirected
+زرداباذ,خرماروذ,undirected
+خرماروذ,جهينة,undirected
+جهينة,جرجان,undirected
+أسداباذ,طرثيث,undirected
+جرجان,دينازارى,undirected
+دينازارى,املوتا,undirected
+املوتا,اجغ,undirected
+اجغ,سبداست,undirected
+سبداست,أسفراين,undirected
+أسفراين,آبسكون,undirected
+أسفراين,آبسكون,undirected
+أسفراين,رباط علي,undirected
+رباط علي,رباط الأمير,undirected
+رباط الأمير,بيلمك,undirected
+بيلمك,رباط دهستان,undirected
+آمل,بلور,undirected
+بلور,اسك,undirected
+اسك,بامهر,undirected
+بامهر,برزيان,undirected
+برزيان,الرى,undirected
+آمل,مامطير,undirected
+مامطير,سارية,undirected
+سارية,ابارست,undirected
+ابارست,ابادان,undirected
+ابادان,طميسة,undirected
+طميسة,أستراباذ,undirected
+أستراباذ,جرجان,undirected
+جرجان,الديلمان,undirected
+الديلمان,أردبيل,undirected
+آبسكون,أستراباذ,undirected
+أستراباذ,سارية,undirected
+آمل,ناتل,undirected
+ناتل,سالوس,undirected
+سالوس,كلار,undirected
+كلار,جبال الديلم,undirected
+سالوس,إسبيدروذ,undirected
+إسبيدروذ,قرية الرصد,undirected
+قرية الرصد,خشم,undirected
+خشم,بيلمان,undirected
+بيلمان,الدولاب,undirected
+الدولاب,كهن روذ,undirected
+كهن روذ,موغكان,undirected
+موغكان,الكر,undirected
+الكر,هشتاذر,undirected
+هشتاذر,الشماخية,undirected
+برذعة,يونان,undirected
+برذعة,برديج,undirected
+برذعة,جنزة,undirected
+برذعة,قلقاطوس,undirected
+يونان,البيلقان,undirected
+البيلقان,ورثان,undirected
+ورثان,تلخاب,undirected
+تلخاب,برزند,undirected
+برزند,أردبيل,undirected
+برديج,الشماخية,undirected
+الشماخية,شروان,undirected
+شروان,الابخان,undirected
+الابخان,جسر سمور,undirected
+جسر سمور,باب الأبواب,undirected
+جنزة,شمكور,undirected
+شمكور,خنان,undirected
+خنان,قلعة ابن كندمان,undirected
+قلعة ابن كندمان,تفليس,undirected
+قلقاطوس,متريس,undirected
+متريس,دميس,undirected
+دميس,كيلكونى,undirected
+دبيل,نشوى,undirected
+نشوى,خوى,undirected
+خوى,سلماس,undirected
+سلماس,أرمية,undirected
+أرمية,خرقان,undirected
+خرقان,مراغة,undirected
+مراغة,أردبيل,undirected
+مراغة,قندرية,undirected
+قلعة الحسن بن علي,شهرزور,undirected
+مراغة,نورين,undirected
+خوى,قلعة يونس,undirected
+قلعة يونس,قرية العصبيات,undirected
+تفليس,تبلا,undirected
+تبلا,شكى,undirected
+شكى,لكزان,undirected
+لكزان,الباب,undirected
+مراغة,الخرقان,undirected
+الخرقان,تبريز,undirected
+تبريز,مرند,undirected
+أردبيل,النير,undirected
+النير,سراة,undirected
+سراة,كولسره,undirected
+كولسره,مراغة,undirected
+مراغة,خره روذ,undirected
+خره روذ,موسى آباذ,undirected
+موسى آباذ,برزة,undirected
+برزة,تفليس,undirected
+بريدا,جابروان,undirected
+جابروان,نريز,undirected
+نريز,أرومية,undirected
+مرند,النشوى,undirected
+النشوى,دبيل,undirected
+مراغة,سابرخاست,undirected
+سابرخاست,برزة,undirected
+برزة,البيلقان,undirected
+البيلقان,سيسر,undirected
+سيسر,تل وان,undirected
+تل وان,الخبارجان,undirected
+الخبارجان,الدينور,undirected
+أردبيل,الميانج,undirected
+نوى,زنجان,undirected
+الميانج,خونج,undirected
+خونج,كولسره,undirected
+كولسره,مراغة,undirected
+مراغة,خرقان,undirected
+مراغة,أرمية,undirected
+خرقان,سلماس,undirected
+أرمية,سلماس,undirected
+سلماس,خوى,undirected
+خوى,بركرى,undirected
+بركرى,أرجيش,undirected
+أرجيش,أخلاط,undirected
+أرجيش,بدليس,undirected
+بدليس,آمد,undirected
+بدليس,ميافارقين,undirected
+مراغة,الدينور,undirected
+برقوى,ملازكرد,undirected
+ملازكرد,أرزن,undirected
+أرزن,آمد,undirected
+الرى,كيلين,undirected
+كيلين,كيس,undirected
+كيس,الخوار,undirected
+الرى,قسطان,undirected
+قسطان,مشكويه,undirected
+مشكويه,ودروه,undirected
+ودروه,ساوة,undirected
+ساوة,سونقين,undirected
+سونقين,المصدقان,undirected
+المصدقان,الروذة,undirected
+الروذة,الدكان,undirected
+همذان,بوزنجرد,undirected
+بوزنجرد,قرية الجن,undirected
+قرية الجن,الدكان,undirected
+همذان,أسداواذ,undirected
+أسداواذ,قصر اللصوص,undirected
+قصر اللصوص,قنطرة النعمان,undirected
+قنطرة النعمان,جبل بيستون,undirected
+جبل بيستون,قرماسين,undirected
+قرماسين,قصر عمرو,undirected
+قصر عمرو,الزبيدية,undirected
+الزبيدية,طزر,undirected
+طزر,المرج,undirected
+طزر,حلوان,undirected
+كرج,سواد مقولة,undirected
+سواد مقولة,خوزن,undirected
+خوزن,برزانيان,undirected
+برزانيان,آوه,undirected
+آوه,قرية جرا,undirected
+قرية جرا,رباط جرا,undirected
+رباط جرا,ورامين,undirected
+ورامين,كسكانة,undirected
+كسكانة,الرى,undirected
+كرج,وفراوندة,undirected
+وفراوندة,دارقان,undirected
+دارقان,خروذ,undirected
+خروذ,سابرخواس,undirected
+سابرخواس,كركويش,undirected
+كركويش,الخان,undirected
+الخان,رزمانان,undirected
+رزمانان,اللور,undirected
+قصر اللصوص,كير حراس,undirected
+كير حراس,نهاوند,undirected
+همذان,الديمر,undirected
+الديمر,راكاه,undirected
+راكاه,نهاوند,undirected
+نهاوند,راكاه,undirected
+راكاه,جوراب,undirected
+جوراب,الكرج,undirected
+همذان,طاق سعيد,undirected
+طاق سعيد,جوراب,undirected
+الكرج,جراناباذ,undirected
+جراناباذ,ابتعه,undirected
+ابتعه,جرباذقان,undirected
+جرباذقان,قنوان,undirected
+قنوان,مرج وزهر,undirected
+مرج وزهر,الماريين,undirected
+الماريين,ازميران,undirected
+ازميران,اليهودية,undirected
+السوس,قرقوب,undirected
+قرقوب,الطيب,undirected
+السوس,بصنا,undirected
+بصنا,البذان,undirected
+جنديسابور,اللور,undirected
+اللور,الدز,undirected
+الدز,رايكان,undirected
+رايكان,كلبايكان,undirected
+كلبايكان,كرج ابى دلف,undirected
+تستر,قرية الرمل,undirected
+قرية الرمل,بصنا,undirected
+العسكر,تستر,undirected
+العسكر,الأهواز,undirected
+جنديسابور,السوس,undirected
+جنديسابور,تستر,undirected
+بيروت,السوس,undirected
+بيروت,البذان,undirected
+الأهواز,شوراب,undirected
+شوراب,مندم,undirected
+مندم,قصبة الدورق,undirected
+الأهواز,سوق الأربعاء,undirected
+سوق الأربعاء,حصن مهدى,undirected
+حصن مهدى,فم العضدى,undirected
+حصن مهدى,بيان,undirected
+الأهواز,أجم,undirected
+أجم,آزر,undirected
+آزر,رامهرمز,undirected
+الأهواز,الدورق,undirected
+الدورق,خان,undirected
+خان,بصنا,undirected
+بصنا,قرية الرمل,undirected
+قرية الرمل,قرقوب,undirected
+الأهواز,نهر تيري,undirected
+نهر تيري,نهر العباس,undirected
+نهر العباس,الخوزية,undirected
+الخوزية,الأبلة,undirected
+الأهواز,الاسحاقية,undirected
+الاسحاقية,الجسر المحترق,undirected
+الجسر المحترق,حصن مهدى,undirected
+نهر العباس,عسكر ابى جعفر,undirected
+رامهرمز,سنبل,undirected
+سنبل,أرجان,undirected
+رامهرمز,تيرم,undirected
+تيرم,غروة,undirected
+غروة,البازير,undirected
+البازير,إيذج,undirected
+إيذج,الدز,undirected
+الدز,الدولاب,undirected
+رامهرمز,الزط,undirected
+رامهرمز,بده,undirected
+بده,جسر جهنم,undirected
+ارجان,ريشهر,undirected
+ريشهر,مهربان,undirected
+ارجان,بسابك,undirected
+بسابك,دهليزان,undirected
+دهليزان,خابران,undirected
+خابران,وادي الملح,undirected
+وادي الملح,رامهرمز,undirected
+ارجان,الزيتون,undirected
+الزيتون,حبس,undirected
+حبس,بندق,undirected
+بندق,جنبد,undirected
+بندق,جنبد,undirected
+جنبد,زنك,undirected
+زنك,دخويذ,undirected
+دخويذ,خواذان,undirected
+خواذان,النوبندجان,undirected
+ارجان,كنيسة المجوس,undirected
+كنيسة المجوس,قرية,undirected
+قرية,الزيز,undirected
+الزيز,العينية,undirected
+العينية,النهر,undirected
+النهر,خرندة,undirected
+خرندة,سميرم,undirected
+مهربان,سينيز,undirected
+مهربان,النهر,undirected
+النهر,ارجان,undirected
+سينيز,سنجاهان,undirected
+سنجاهان,جنابة,undirected
+جنابة,دشت داودي,undirected
+دشت داودي,توز,undirected
+توز,خشت,undirected
+خشت,نيماراه,undirected
+نيماراه,سابور,undirected
+سيراف,جم,undirected
+جم,برزرة,undirected
+برزرة,كيرند,undirected
+كيرند,مه,undirected
+مه,رايكان,undirected
+رايكان,بيابشوراب,undirected
+بيابشوراب,جور,undirected
+سيراف,عمان,undirected
+سيراف,البصرة,undirected
+سيراف,البحرين,undirected
+درابجرد,خسو,undirected
+خسو,كرب,undirected
+كرب,جويم ابى احمد,undirected
+جويم ابى احمد,كاريان,undirected
+كاريان,باراب,undirected
+باراب,كران,undirected
+كران,سيراف,undirected
+درابجرد,جرموا,undirected
+جرموا,رستاق الرستاق,undirected
+رستاق الرستاق,برك,undirected
+برك,تارم,undirected
+درابجرد,جاه زندايا,undirected
+جاه زندايا,تيمارستان,undirected
+تيمارستان,فسا,undirected
+شيراز,كفره,undirected
+كفره,كول,undirected
+كول,بومهان,undirected
+بومهان,جور,undirected
+شيراز,قرية جويم,undirected
+قرية جويم,خلار,undirected
+خلار,الخرارة,undirected
+الخرارة,جركان,undirected
+جركان,النوبندجان,undirected
+شيراز,قرية الرمان,undirected
+قرية الرمان,سروستان,undirected
+سروستان,كرم,undirected
+كرم,فسا,undirected
+شيراز,داريان,undirected
+داريان,خرمة,undirected
+خرمة,كث,undirected
+كث,خير,undirected
+خير,نيريز,undirected
+نيريز,كدروا,undirected
+كدروا,رباط زرودوا,undirected
+رباط زرودوا,نهر من,undirected
+نهر من,هنته,undirected
+هنته,بيمند,undirected
+بيمند,السيرجان,undirected
+شيراز,ركان,undirected
+ركان,راس السكر,undirected
+راس السكر,زياداباذ,undirected
+زياداباذ,جب أمير المؤمنين,undirected
+جب أمير المؤمنين,راس الدنيا,undirected
+شيراز,صاهه,undirected
+صاهه,دشت أرزن,undirected
+فسا,كارزين,undirected
+كارزين,هرمز,undirected
+كارزين,خارزين,undirected
+شيراز,كثة,undirected
+شيراز,تارم,undirected
+شيراز,نجيرم,undirected
+شيراز,نهر طاب,undirected
+شيراز,سينيز,undirected
+شيراز,الروذان,undirected
+شيراز,سورو,undirected
+شيراز,أصفهان,undirected
+سابور,شيراز,undirected
+كازرون,شيراز,undirected
+خره,شيراز,undirected
+جور,شيراز,undirected
+سابور,كازرون,undirected
+كازرون,خره,undirected
+سابور,النوبندجان,undirected
+سابور,كرك,undirected
+كرك,دشت ارزن,undirected
+كازرون,قرية الحطب,undirected
+قرية الحطب,دشت ارزن,undirected
+كازرون,دريز,undirected
+دريز,راس العقبة,undirected
+راس العقبة,توز,undirected
+توز,قرية,undirected
+قرية,جنابة,undirected
+إصطخر,راس السكر,undirected
+إصطخر,البيضاء,undirected
+إصطخر,قرية الحمام,undirected
+قرية الحمام,زيادواذ,undirected
+زيادواذ,جب أمير المؤمنين,undirected
+جب أمير المؤمنين,هراة,undirected
+هراة,راذان,undirected
+راذان,شاباوك,undirected
+شاباوك,روار,undirected
+روار,قرية الجمال,undirected
+قرية الجمال,الروذان,undirected
+إصطخر,بئر,undirected
+بئر,كهمندة,undirected
+كهمندة,قرية بيذ,undirected
+قرية بيذ,أبرقوه,undirected
+أبرقوه,قرية الأسد,undirected
+قرية الأسد,الأرد,undirected
+الأرد,قلعة المجوس,undirected
+قلعة المجوس,كثة,undirected
+كثة,أنجيره,undirected
+اليهودية,خان رش,undirected
+خان رش,قومسة,undirected
+قومسة,كرو,undirected
+كرو,سميرم,undirected
+اليهودية,الخان حان لنجان,undirected
+الخان حان لنجان,كرو,undirected
+كرو,ماس,undirected
+ماس,خان روشن,undirected
+خان روشن,إصطخران,undirected
+إصطخران,قصر أعين,undirected
+قصر أعين,خوسكان,undirected
+خوسكان,ماءين,undirected
+ماءين,أزر سابور,undirected
+أزر سابور,شيراز,undirected
+قومسة,روزكان,undirected
+روزكان,ازكاس,undirected
+ازكاس,سروستان,undirected
+سروستان,سرمسه,undirected
+سرمسه,لاه وكره,undirected
+لاه وكره,قرية الخلاف,undirected
+قرية الخلاف,كماهنك,undirected
+كماهنك,قرية ابن بندار,undirected
+قرية ابن بندار,إصطخر,undirected
+سميرم,جعفرآباذ,undirected
+جعفرآباذ,الزاب,undirected
+الزاب,كورد وكلار,undirected
+كورد وكلار,مهرجاناواذ,undirected
+مهرجاناواذ,اش وبورد,undirected
+اش وبورد,نسا,undirected
+نسا,شيراز,undirected
+اليهودية,خالنجان,undirected
+خالنجان,باركان,undirected
+باركان,أسبيذدشت,undirected
+أسبيذدشت,جعاد وجورد,undirected
+جعاد وجورد,الرباط,undirected
+الرباط,كورستان,undirected
+كورستان,جسر جهنم,undirected
+بردسير,السيرجان,undirected
+بردسير,جنزروذ,undirected
+جنزروذ,زرند,undirected
+نرماسير,الفهرج,undirected
+نرماسير,جوى سليمان,undirected
+جوى سليمان,ريكان,undirected
+ريكان,موخكان,undirected
+موخكان,الطيب,undirected
+الطيب,مروغان,undirected
+مروغان,باس وجكين,undirected
+باس وجكين,هروك,undirected
+هروك,قصر مهدى,undirected
+قصر مهدى,هرموز,undirected
+هرموز,الفرضة,undirected
+السيرجان,كاهون,undirected
+كاهون,رستاق الرستاق,undirected
+السيرجان,بيمند,undirected
+بيمند,كردكان,undirected
+كردكان,أناس,undirected
+أناس,الروذان,undirected
+السيرجان,الشامات,undirected
+الشامات,بهار,undirected
+بهار,خناب,undirected
+خناب,غبيرا,undirected
+غبيرا,كوغون,undirected
+كوغون,رائين,undirected
+رائين,سروستان,undirected
+سروستان,دارجين,undirected
+دارجين,بم,undirected
+السيرجان,فرزين,undirected
+فرزين,ماهان,undirected
+ماهان,خبيص,undirected
+بم,نرماسير,undirected
+بم,دارجين,undirected
+دارجين,هرمز,undirected
+هرمز,جيرفت,undirected
+تيز مكران,كيس,undirected
+كيس,فنزبور,undirected
+فنزبور,دزك,undirected
+دزك,راسك,undirected
+راسك,فهل فهرة,undirected
+فهل فهرة,اصفقة,undirected
+اصفقة,بند,undirected
+بند,به,undirected
+به,قصرقند,undirected
+قصرقند,ارمابيل,undirected
+ارمابيل,ديبل,undirected
+التيز,قصدار,undirected
+المنصورة,ديبل,undirected
+المنصورة,الملتان,undirected
+المنصورة,البدهة,undirected
+البدهة,التيز,undirected
+الملتان,غزنين,undirected
+الملتان,المنصورة,undirected
+المنصورة,قزدار,undirected
+قزدار,كنكابان,undirected
+كنكابان,سيوه,undirected
+سيوه,ولا شتان,undirected
+ولا شتان,ساغن,undirected
+ساغن,غزنين,undirected
+قزدار,مشكى,undirected
+مشكى,جالق,undirected
+جالق,خواص,undirected
+خواص,سرى شهر,undirected
+سرى شهر,نهر سليمان,undirected
+نهر سليمان,درهفان,undirected
+درهفان,جيرفت,undirected
+الملتان,بالس,undirected
+بالس,قندابيل,undirected
+قندابيل,قصدار,undirected
+قندابيل,المنصورة,undirected
+قندابيل,الملتان,undirected
+المنصورة,قامهل,undirected
+قامهل,كنباية,undirected
+كنباية,سوبارة,undirected
+سندان,سيمور,undirected
+سيمور,سرنديب,undirected
+الملتان,بسمد,undirected
+بسمد,الرور,undirected
+الرور,انرى,undirected
+انرى,قلرى,undirected
+قلرى,المنصورة,undirected
+المنصورة,قامهل,undirected

@@ -1,0 +1,1483 @@
+FROM مكة 	Jazirat al-Arab,Yemen	TOWA بطن مر 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بطن مر 	Jazirat al-Arab,Yemen	TOWA عسفان 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM عسفان 	Jazirat al-Arab,Yemen	TOWA خليص 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM عسفان 	Jazirat al-Arab,Yemen	TOWA أمج 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM خليص 	Jazirat al-Arab,Yemen	TOWA الخيم 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM أمج 	Jazirat al-Arab,Yemen	TOWA الخيم 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الخيم 	Jazirat al-Arab,Yemen	TOWA الجحفة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الجحفة 	Jazirat al-Arab,Yemen	TOWA الأبواء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الأبواء 	Jazirat al-Arab,Yemen	TOWA سقيا بنى غفار 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM سقيا بنى غفار 	Jazirat al-Arab,Yemen	TOWA العرج 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM العرج 	Jazirat al-Arab,Yemen	TOWA الروحاء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الروحاء 	Jazirat al-Arab,Yemen	TOWA رويثة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM رويثة 	Jazirat al-Arab,Yemen	TOWA يثرب 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM مكة 	Jazirat al-Arab,Yemen	TOWA يلملم 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM يلملم 	Jazirat al-Arab,Yemen	TOWA قرن 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM قرن 	Jazirat al-Arab,Yemen	TOWA السرین 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM مکه 	Jazirat al-Arab,Yemen	TOWA بستان بنى عامر 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بستان بنى عامر 	Jazirat al-Arab,Yemen	TOWA ذات عرق 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM ذات عرق 	Jazirat al-Arab,Yemen	TOWA الغمرة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM مکه 	Jazirat al-Arab,Yemen	TOWA قرین 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM قرین 	Jazirat al-Arab,Yemen	TOWA جدة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بطن مر 	Jazirat al-Arab,Yemen	TOWA جدة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الجحفة 	Jazirat al-Arab,Yemen	TOWA بدر 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بدر 	Jazirat al-Arab,Yemen	TOWA الصفراء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بدر 	Jazirat al-Arab,Yemen	TOWA المعلاة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الصفراء 	Jazirat al-Arab,Yemen	TOWA الروحاء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM المعلاة 	Jazirat al-Arab,Yemen	TOWA الروحاء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بدر 	Jazirat al-Arab,Yemen	TOWA ینبع 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM ینبع 	Jazirat al-Arab,Yemen	TOWA الراس العین 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بدر 	Jazirat al-Arab,Yemen	TOWA المعدن 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الراس العین 	Jazirat al-Arab,Yemen	TOWA المروة 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM بدر 	Jazirat al-Arab,Yemen	TOWA الجار 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الجار 	Jazirat al-Arab,Yemen	TOWA الجحفة 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM الجار 	Jazirat al-Arab,Yemen	TOWA ينبع 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM جدة 	Jazirat al-Arab,Yemen	TOWA الجار 	Jazirat al-Arab,Yemen	DIST أربعا مرحلة 
+FROM جدة 	Jazirat al-Arab,Yemen	TOWA السرین 	Jazirat al-Arab,Yemen	DIST أربعا مرحلة 
+FROM یثرب 	Jazirat al-Arab,Yemen	TOWA السويدية 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM یثرب 	Jazirat al-Arab,Yemen	TOWA بطن النخل 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM السويدية 	Jazirat al-Arab,Yemen	TOWA المروة 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM بطن النخل 	Jazirat al-Arab,Yemen	TOWA معدن النقرة 	Jazirat al-Arab,Yemen	DIST مرحلتين 
+FROM المروة 	Jazirat al-Arab,Yemen	TOWA السقيا 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM السقیا 	Jazirat al-Arab,Yemen	TOWA بدا یعقوب 	Jazirat al-Arab,Yemen	DIST ثلاثا مرحلة 
+FROM بدا یعقوب 	Jazirat al-Arab,Yemen	TOWA العونید 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM السقیا 	Jazirat al-Arab,Yemen	TOWA وادی القری 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM وادی القری 	Jazirat al-Arab,Yemen	TOWA الحجر 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الحجر 	Jazirat al-Arab,Yemen	TOWA تيماء 	Jazirat al-Arab,Yemen	DIST  ثلاث مراحل 
+FROM زبالة 	Jazirat al-Arab,Yemen	TOWA الشقوق 	Jazirat al-Arab,Yemen	DIST واحد وعشرون ميلا 
+FROM الشقوق 	Jazirat al-Arab,Yemen	TOWA البطان 	Jazirat al-Arab,Yemen	DIST 29 ميلا 
+FROM البطان 	Jazirat al-Arab,Yemen	TOWA الثعلبية 	Jazirat al-Arab,Yemen	DIST 29 ميلا 
+FROM الثعلبیة 	Jazirat al-Arab,Yemen	TOWA الخزیمیة 	Jazirat al-Arab,Yemen	DIST اثنان وثلاثون ميلا 
+FROM الخزیمیه 	Jazirat al-Arab,Yemen	TOWA أجفر 	Jazirat al-Arab,Yemen	DIST 24 ميلا 
+FROM أجفر 	Jazirat al-Arab,Yemen	TOWA فید 	Jazirat al-Arab,Yemen	DIST ستة وثلاثون ميلا 
+FROM فید 	Jazirat al-Arab,Yemen	TOWA توز 	Jazirat al-Arab,Yemen	DIST واحد وثلاثين ميلا 
+FROM توز 	Jazirat al-Arab,Yemen	TOWA سمیراء 	Jazirat al-Arab,Yemen	DIST عشرون ميلا 
+FROM سمیراء 	Jazirat al-Arab,Yemen	TOWA حاجر 	Jazirat al-Arab,Yemen	DIST ثلاثة وثلاثين ميلا 
+FROM حاجر 	Jazirat al-Arab,Yemen	TOWA معدن النقرة 	Jazirat al-Arab,Yemen	DIST 34 ميلا 
+FROM معدن النقرة 	Jazirat al-Arab,Yemen	TOWA المغيثة 	Jazirat al-Arab,Yemen	DIST ثلاثة وثلاثين ميلا 
+FROM المغيثة 	Jazirat al-Arab,Yemen	TOWA الربذة 	Jazirat al-Arab,Yemen	DIST أربع وعشرين ميلا 
+FROM الربذة 	Jazirat al-Arab,Yemen	TOWA معدن بنى سليم 	Jazirat al-Arab,Yemen	DIST 24 ميلا 
+FROM معدن بنى سليم 	Jazirat al-Arab,Yemen	TOWA السليلة 	Jazirat al-Arab,Yemen	DIST ستة وثلاثون ميلا 
+FROM السليلة 	Jazirat al-Arab,Yemen	TOWA العمق 	Jazirat al-Arab,Yemen	DIST واحد وعشرون ميلا 
+FROM العمق 	Jazirat al-Arab,Yemen	TOWA الأفيعية 	Jazirat al-Arab,Yemen	DIST اثنان وثلاثون ميلا 
+FROM الأفيعية 	Jazirat al-Arab,Yemen	TOWA المسلح 	Jazirat al-Arab,Yemen	DIST اثنان وثلاثون ميلا 
+FROM المسلح 	Jazirat al-Arab,Yemen	TOWA غمرة 	Jazirat al-Arab,Yemen	DIST 18 ميلا 
+FROM البصرة 	Jazirat al-Arab,Yemen	TOWA الحفیر 	Jazirat al-Arab,Yemen	DIST 18 ميلا 
+FROM الحفیر 	Jazirat al-Arab,Yemen	TOWA الرحیل 	Jazirat al-Arab,Yemen	DIST 28 ميلا 
+FROM الرحیل 	Jazirat al-Arab,Yemen	TOWA الشجى 	Jazirat al-Arab,Yemen	DIST 27 ميلا 
+FROM الشجى 	Jazirat al-Arab,Yemen	TOWA حفر ابى موسى 	Jazirat al-Arab,Yemen	DIST ستة وثلاثون ميلا 
+FROM حفر ابى موسى 	Jazirat al-Arab,Yemen	TOWA ماویة 	Jazirat al-Arab,Yemen	DIST اثنان وثلاثون ميلا 
+FROM ماویة 	Jazirat al-Arab,Yemen	TOWA ذات العشر 	Jazirat al-Arab,Yemen	DIST تسعة وعشرين ميلا 
+FROM دات العشر 	Jazirat al-Arab,Yemen	TOWA الینسوعة 	Jazirat al-Arab,Yemen	DIST ثلاثة وعشرون ميلا 
+FROM الینسوعة 	Jazirat al-Arab,Yemen	TOWA السمينة 	Jazirat al-Arab,Yemen	DIST تسعة وعشرين ميلا 
+FROM السمينة 	Jazirat al-Arab,Yemen	TOWA القريتين 	Jazirat al-Arab,Yemen	DIST 22 ميلا 
+FROM القريتين 	Jazirat al-Arab,Yemen	TOWA النباج 	Jazirat al-Arab,Yemen	DIST ثلاثة وعشرون ميلا 
+FROM النباج 	Jazirat al-Arab,Yemen	TOWA العوسجة 	Jazirat al-Arab,Yemen	DIST تسعة وعشرين ميلا 
+FROM العوسجة 	Jazirat al-Arab,Yemen	TOWA رامة 	Jazirat al-Arab,Yemen	DIST  
+FROM رامة 	Jazirat al-Arab,Yemen	TOWA إمرة 	Jazirat al-Arab,Yemen	DIST 27 ميلا 
+FROM إمرة 	Jazirat al-Arab,Yemen	TOWA طخفة 	Jazirat al-Arab,Yemen	DIST ستة وثلاثون ميلا 
+FROM طخفة 	Jazirat al-Arab,Yemen	TOWA ضریة 	Jazirat al-Arab,Yemen	DIST 18 ميلا 
+FROM ضریة 	Jazirat al-Arab,Yemen	TOWA جديلة 	Jazirat al-Arab,Yemen	DIST اثنان وثلاثون ميلا 
+FROM جدیلة 	Jazirat al-Arab,Yemen	TOWA ملحة 	Jazirat al-Arab,Yemen	DIST خمسة وثلاثين ميلا 
+FROM ملحة 	Jazirat al-Arab,Yemen	TOWA الدثينة 	Jazirat al-Arab,Yemen	DIST ستة وثلاثون ميلا 
+FROM الدثينة 	Jazirat al-Arab,Yemen	TOWA قبا 	Jazirat al-Arab,Yemen	DIST 27 ميلا 
+FROM قبا 	Jazirat al-Arab,Yemen	TOWA الشبيكة(السنبلة) 	Jazirat al-Arab,Yemen	DIST 27 ميلا 
+FROM الشبيكة(السنبلة) 	Jazirat al-Arab,Yemen	TOWA وجرة 	Jazirat al-Arab,Yemen	DIST أربعون ميلا 
+FROM وجرة 	Jazirat al-Arab,Yemen	TOWA ذات عرق 	Jazirat al-Arab,Yemen	DIST 27 ميلا 
+FROM ويلة 	Jazirat al-Arab,Yemen	TOWA شرف ذي النمل 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شرف ذي النمل 	Jazirat al-Arab,Yemen	TOWA مدین 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM مدین 	Jazirat al-Arab,Yemen	TOWA الاعراء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM منزل 	Jazirat al-Arab,Yemen	TOWA الكلاية 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الكلاية 	Jazirat al-Arab,Yemen	TOWA شغب 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شغب 	Jazirat al-Arab,Yemen	TOWA بدا 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بدا 	Jazirat al-Arab,Yemen	TOWA السرحتین 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM السرحتین 	Jazirat al-Arab,Yemen	TOWA البیضاء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM البیضاء 	Jazirat al-Arab,Yemen	TOWA وادی القری 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شرف ذي النمل 	Jazirat al-Arab,Yemen	TOWA الصلا 	Jazirat al-Arab,Yemen	DIST  
+FROM الصلا 	Jazirat al-Arab,Yemen	TOWA النبك 	Jazirat al-Arab,Yemen	DIST  
+FROM النبک 	Jazirat al-Arab,Yemen	TOWA ضبة 	Jazirat al-Arab,Yemen	DIST  
+FROM صبة 	Jazirat al-Arab,Yemen	TOWA العونید 	Jazirat al-Arab,Yemen	DIST  
+FROM العونید 	Jazirat al-Arab,Yemen	TOWA الرحبة 	Jazirat al-Arab,Yemen	DIST  
+FROM الرحبة 	Jazirat al-Arab,Yemen	TOWA منخوس 	Jazirat al-Arab,Yemen	DIST  
+FROM منخوس 	Jazirat al-Arab,Yemen	TOWA البحیرة 	Jazirat al-Arab,Yemen	DIST  
+FROM البحیرة 	Jazirat al-Arab,Yemen	TOWA الأحساء 	Jazirat al-Arab,Yemen	DIST  
+FROM الأحساء 	Jazirat al-Arab,Yemen	TOWA العشیرة 	Jazirat al-Arab,Yemen	DIST  
+FROM العشیرة 	Jazirat al-Arab,Yemen	TOWA الجار 	Jazirat al-Arab,Yemen	DIST  
+FROM الجار 	Jazirat al-Arab,Yemen	TOWA بدر 	Jazirat al-Arab,Yemen	DIST  
+FROM صحار 	Jazirat al-Arab,Yemen	TOWA نزوة 	Jazirat al-Arab,Yemen	DIST  
+FROM نزوة 	Jazirat al-Arab,Yemen	TOWA عجلة 	Jazirat al-Arab,Yemen	DIST ثلاثون ميلا 
+FROM عجلة 	Jazirat al-Arab,Yemen	TOWA عضوة 	Jazirat al-Arab,Yemen	DIST 24 ميلا 
+FROM عضوة 	Jazirat al-Arab,Yemen	TOWA بئر السلاح 	Jazirat al-Arab,Yemen	DIST ثلاثون ميلا 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA الريدة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الريدة 	Jazirat al-Arab,Yemen	TOWA أثافت 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM أثافت 	Jazirat al-Arab,Yemen	TOWA خيوان 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM خيوان 	Jazirat al-Arab,Yemen	TOWA الأعمشية 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الأعمشية 	Jazirat al-Arab,Yemen	TOWA صعدة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM صعدة 	Jazirat al-Arab,Yemen	TOWA غرفة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM صعدة 	Jazirat al-Arab,Yemen	TOWA المهجرة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM المهجرة 	Jazirat al-Arab,Yemen	TOWA شروراح 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شروراح 	Jazirat al-Arab,Yemen	TOWA الثجة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الثجة 	Jazirat al-Arab,Yemen	TOWA کثبة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM کثبة 	Jazirat al-Arab,Yemen	TOWA یبنبم 	Jazirat al-Arab,Yemen	DIST 8 أميال 
+FROM جرش/یبنبم 	Jazirat al-Arab,Yemen	TOWA بنات جرم 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بنات جرم 	Jazirat al-Arab,Yemen	TOWA جسداء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM جسداء 	Jazirat al-Arab,Yemen	TOWA بیشة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بیشة 	Jazirat al-Arab,Yemen	TOWA تبالة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM تبالة 	Jazirat al-Arab,Yemen	TOWA رنیة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM رنیة 	Jazirat al-Arab,Yemen	TOWA کدی 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM کدی 	Jazirat al-Arab,Yemen	TOWA صفر 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM صفر 	Jazirat al-Arab,Yemen	TOWA تربة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM تربة 	Jazirat al-Arab,Yemen	TOWA الفتق 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الفتق 	Jazirat al-Arab,Yemen	TOWA الجدد 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الجدد 	Jazirat al-Arab,Yemen	TOWA الغمرة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM مکة 	Jazirat al-Arab,Yemen	TOWA بئر ابن المرتفع 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بئر ابن المرتفع 	Jazirat al-Arab,Yemen	TOWA قرن 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM قرن 	Jazirat al-Arab,Yemen	TOWA الطائف 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM ویلة 	Jazirat al-Arab,Yemen	TOWA شرف البعل 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شرف البعل 	Jazirat al-Arab,Yemen	TOWA الصلا 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شرف الصلا 	Jazirat al-Arab,Yemen	TOWA النبک 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شرف النبک 	Jazirat al-Arab,Yemen	TOWA ضبة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM ضبة 	Jazirat al-Arab,Yemen	TOWA عونید 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM عونید 	Jazirat al-Arab,Yemen	TOWA الرحبة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الرحبة 	Jazirat al-Arab,Yemen	TOWA منخوس 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM منخوس 	Jazirat al-Arab,Yemen	TOWA البحیرة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM البحیرة 	Jazirat al-Arab,Yemen	TOWA الإحساء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الإحساء 	Jazirat al-Arab,Yemen	TOWA الاعراء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الاعراء 	Jazirat al-Arab,Yemen	TOWA الکلایة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الکلایة 	Jazirat al-Arab,Yemen	TOWA شغب 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM شغب 	Jazirat al-Arab,Yemen	TOWA بدا 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM بدا 	Jazirat al-Arab,Yemen	TOWA السرحتین 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM السرحتین 	Jazirat al-Arab,Yemen	TOWA البیضاء 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM البیضاء 	Jazirat al-Arab,Yemen	TOWA قرح 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM قرح 	Jazirat al-Arab,Yemen	TOWA سقیا یزید 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA صداء 	Jazirat al-Arab,Yemen	DIST 42 فرسخا 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA حضرموت 	Jazirat al-Arab,Yemen	DIST 74 فرسخا 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA ذمار 	Jazirat al-Arab,Yemen	DIST 16 فرسخا 
+FROM ذمار 	Jazirat al-Arab,Yemen	TOWA نسفان 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM ذمار 	Jazirat al-Arab,Yemen	TOWA کحلان 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM کحلان 	Jazirat al-Arab,Yemen	TOWA حجر 	Jazirat al-Arab,Yemen	DIST عشرون فرسخا 
+FROM کحلان 	Jazirat al-Arab,Yemen	TOWA بدر 	Jazirat al-Arab,Yemen	DIST عشرون فرسخا 
+FROM بدر 	Jazirat al-Arab,Yemen	TOWA عدن 	Jazirat al-Arab,Yemen	DIST 24 فرسخا 
+FROM ذمار 	Jazirat al-Arab,Yemen	TOWA یحصب 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM یحصب 	Jazirat al-Arab,Yemen	TOWA السحول 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM السحول 	Jazirat al-Arab,Yemen	TOWA الثجة 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM الثجة 	Jazirat al-Arab,Yemen	TOWA الجند 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA الجند 	Jazirat al-Arab,Yemen	DIST 48 فرسخا 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA العرف 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM العرف 	Jazirat al-Arab,Yemen	TOWA ألهان 	Jazirat al-Arab,Yemen	DIST عشرة فرسخا 
+FROM ألهان 	Jazirat al-Arab,Yemen	TOWA جبلان 	Jazirat al-Arab,Yemen	DIST 14 فرسخا 
+FROM جبلان 	Jazirat al-Arab,Yemen	TOWA زبید 	Jazirat al-Arab,Yemen	DIST 23 فرسخا 
+FROM صنعاء 	Jazirat al-Arab,Yemen	TOWA شبام 	Jazirat al-Arab,Yemen	DIST مرحلة 
+FROM عدن 	Jazirat al-Arab,Yemen	TOWA أبین 	Jazirat al-Arab,Yemen	DIST ثلاثة فراسخ 
+FROM بغداد 	Iraq	TOWA نهر الملك 	Iraq	DIST مرحلة 
+FROM نهر الملك 	Iraq	TOWA القصر 	Iraq	DIST مرحلة 
+FROM القصر 	Iraq	TOWA حمام ابن عمر 	Iraq	DIST مرحلة 
+FROM حمام ابن عمر  	Iraq	TOWA الكوفة 	Iraq	DIST مرحلة 
+FROM الكوفة 	Iraq	TOWA القادسية 	Iraq	DIST مرحلة 
+FROM بغداد 	Iraq	TOWA المدائن 	Iraq	DIST مرحلة 
+FROM المدائن 	Iraq	TOWA السيب 	Iraq	DIST مرحلة 
+FROM السيب 	Iraq	TOWA دير العاقول 	Iraq	DIST مرحلة 
+FROM دير العاقول 	Iraq	TOWA جرجرايا 	Iraq	DIST مرحلة 
+FROM جرجرايا 	Iraq	TOWA النعمانية 	Iraq	DIST مرحلة 
+FROM النعمانية 	Iraq	TOWA جبل 	Iraq	DIST مرحلة 
+FROM جبل 	Iraq	TOWA نهر سابس 	Iraq	DIST مرحلة 
+FROM نهر سابس 	Iraq	TOWA مطارة 	Iraq	DIST بريدين 
+FROM مطارة 	Iraq	TOWA الحارله 	Iraq	DIST بريدين 
+FROM الحارله 	Iraq	TOWA الاسحاقية 	Iraq	DIST مرحلة 
+FROM الاسحاقية 	Iraq	TOWA المحراقة 	Iraq	DIST بريدين 
+FROM المحراقة 	Iraq	TOWA الحدادية 	Iraq	DIST بريدين 
+FROM الحدادية 	Iraq	TOWA ترمانة 	Iraq	DIST مرحلة 
+FROM ترمانة 	Iraq	TOWA واسط 	Iraq	DIST مرحلة 
+FROM الحدادية 	Iraq	TOWA الزبيدية 	Iraq	DIST مرحلة 
+FROM الزبيدية 	Iraq	TOWA واسط 	Iraq	DIST بريدين 
+FROM المحراقة 	Iraq	TOWA الجامدة 	Iraq	DIST بريدين 
+FROM الحدادية 	Iraq	TOWA الصليق 	Iraq	DIST بريدين 
+FROM البصرة 	Iraq	TOWA الأبلة 	Iraq	DIST بريدين 
+FROM الأبلة 	Iraq	TOWA بيان 	Iraq	DIST مرحلة 
+FROM بيان 	Iraq	TOWA عبادان 	Iraq	DIST مرحلة 
+FROM بغداد 	Iraq	TOWA السيلحين 	Iraq	DIST بريدين 
+FROM السيلحين 	Iraq	TOWA الأنبار 	Iraq	DIST مرحلة 
+FROM الأنبار 	Iraq	TOWA الرب 	Iraq	DIST مرحلة 
+FROM الرب 	Iraq	TOWA هيت 	Iraq	DIST مرحلتين 
+FROM بغداد 	Iraq	TOWA البردان 	Iraq	DIST بريدين 
+FROM البردان 	Iraq	TOWA عكبرا 	Iraq	DIST مرحلة 
+FROM عكبرا 	Iraq	TOWA باحمشا 	Iraq	DIST نصف مرحلة 
+FROM باحمشا 	Iraq	TOWA القادسية 	Iraq	DIST مرحلة 
+FROM القادسية 	Iraq	TOWA الكرخ 	Iraq	DIST مرحلة 
+FROM الكرخ 	Iraq	TOWA جبلتا 	Iraq	DIST مرحلة 
+FROM جبلتا 	Iraq	TOWA السودقانية 	Iraq	DIST مرحلة 
+FROM السودقانية 	Iraq	TOWA بارما 	Iraq	DIST مرحلة 
+FROM بارما 	Iraq	TOWA السن 	Iraq	DIST مرحلة 
+FROM بغداد 	Iraq	TOWA النهروان 	Iraq	DIST بريدين 
+FROM النهروان 	Iraq	TOWA دير بازما 	Iraq	DIST بريدين 
+FROM دير بازما 	Iraq	TOWA الدسكرة 	Iraq	DIST مرحلة 
+FROM الدسكرة 	Iraq	TOWA جلولا 	Iraq	DIST مرحلة 
+FROM جلولا 	Iraq	TOWA خانقين 	Iraq	DIST مرحلة 
+FROM هيت 	Iraq	TOWA الناووسة 	Iraq	DIST مرحلة 
+FROM الناووسة 	Iraq	TOWA عانة 	Iraq	DIST مرحلة 
+FROM عانة 	Iraq	TOWA آلوسة 	Iraq	DIST مرحلة 
+FROM آلوسة 	Iraq	TOWA الفحيمة 	Iraq	DIST مرحلة 
+FROM الفحيمة 	Iraq	TOWA الحديثة 	Iraq	DIST مرحلة 
+FROM الحديثة 	Iraq	TOWA النهية 	Iraq	DIST مرحلة 
+FROM حلوان 	Iraq	TOWA ماذرواستان 	Iraq	DIST بريدين 
+FROM ماذرواستان 	Iraq	TOWA المرج 	Iraq	DIST مرحلة 
+FROM المرج 	Iraq	TOWA قصر يزيد 	Iraq	DIST بريدين 
+FROM قصر يزيد 	Iraq	TOWA الزبيدية 	Iraq	DIST مرحلة 
+FROM الزبيدية 	Iraq	TOWA قصر عمرو 	Iraq	DIST مرحلة 
+FROM قصر عمرو 	Iraq	TOWA قرماسين 	Iraq	DIST نصف مرحلة 
+FROM حلوان 	Iraq	TOWA قصر شيرين 	Iraq	DIST مرحلة 
+FROM قصر شيرين 	Iraq	TOWA خانقين 	Iraq	DIST مرحلة 
+FROM الأبلة 	Iraq	TOWA الخمازية 	Iraq	DIST مرحلة 
+FROM الأبلة 	Iraq	TOWA نهر دبا 	Iraq	DIST مرحلة 
+FROM نهر دبا 	Iraq	TOWA فم العضدى 	Iraq	DIST مرحلة 
+FROM واسط 	Iraq	TOWA بغداد 	Iraq	DIST خمسين فرسخا 
+FROM واسط 	Iraq	TOWA الكوفة 	Iraq	DIST خمسين فرسخا 
+FROM واسط 	Iraq	TOWA البصرة 	Iraq	DIST خمسين فرسخا 
+FROM واسط 	Iraq	TOWA حلوان 	Iraq	DIST خمسين فرسخا 
+FROM واسط 	Iraq	TOWA الأهواز 	Iraq	DIST خمسين فرسخا 
+FROM الموصل 	Aqur	TOWA مرجهينة 	Aqur	DIST مرحلة 
+FROM الموصل 	Aqur	TOWA بلد 	Aqur	DIST مرحلة 
+FROM الموصل 	Aqur	TOWA المحلبية 	Aqur	DIST مرحلة 
+FROM الموصل 	Aqur	TOWA مزارعى 	Aqur	DIST مرحلة 
+FROM مرجهينة 	Aqur	TOWA الحديثة 	Aqur	DIST مرحلة 
+FROM الحديثة 	Aqur	TOWA البقيعة 	Aqur	DIST مرحلة 
+FROM البقيعة 	Aqur	TOWA السن 	Aqur	DIST مرحلة 
+FROM بلد 	Aqur	TOWA برقعيد 	Aqur	DIST مرحلة 
+FROM برقعيد 	Aqur	TOWA أذرمة 	Aqur	DIST مرحلة 
+FROM أذرمة 	Aqur	TOWA المونسة 	Aqur	DIST مرحلة 
+FROM المونسة 	Aqur	TOWA نصيبين 	Aqur	DIST مرحلة 
+FROM نصيبين 	Aqur	TOWA دارا 	Aqur	DIST مرحلة 
+FROM المحلبية 	Aqur	TOWA الشحاجية 	Aqur	DIST مرحلة 
+FROM الشحاجية 	Aqur	TOWA تل اعفر 	Aqur	DIST مرحلة 
+FROM  تل اعفر 	Aqur	TOWA سنجار 	Aqur	DIST مرحلة 
+FROM مزارعى 	Aqur	TOWA معلثايا 	Aqur	DIST مرحلة 
+FROM معلثايا 	Aqur	TOWA الحسنية 	Aqur	DIST مرحلة 
+FROM الحسنية 	Aqur	TOWA ثمانين 	Aqur	DIST مرحلة 
+FROM ثمانين 	Aqur	TOWA جزيرة ابن عمر 	Aqur	DIST مرحلة 
+FROM جزيرة ابن عمر 	Aqur	TOWA تل فافان 	Aqur	DIST مرحلة 
+FROM الموصل 	Aqur	TOWA شهرزور 	Aqur	DIST ستون فرسخا 
+FROM آمد 	Aqur	TOWA ميافارقين 	Aqur	DIST مرحلة 
+FROM ميافارقين 	Aqur	TOWA أرزن 	Aqur	DIST مرحلة 
+FROM أرزن 	Aqur	TOWA مسجد أويس 	Aqur	DIST مرحلة 
+FROM مسجد أويس 	Aqur	TOWA المعدن 	Aqur	DIST مرحلة 
+FROM المعدن 	Aqur	TOWA بدليس 	Aqur	DIST مرحلة 
+FROM بدليس 	Aqur	TOWA شمشاط 	Aqur	DIST مرحلة 
+FROM شمشاط 	Aqur	TOWA تل حوم 	Aqur	DIST مرحلة 
+FROM تل حوم 	Aqur	TOWA جرنان 	Aqur	DIST مرحلة 
+FROM جرنان 	Aqur	TOWA بامقرا 	Aqur	DIST مرحلة 
+FROM بامقرا 	Aqur	TOWA جلاب 	Aqur	DIST مرحلة 
+FROM جلاب 	Aqur	TOWA الرها 	Aqur	DIST بريدين 
+FROM الرها 	Aqur	TOWA حران 	Aqur	DIST بريدين 
+FROM حران 	Aqur	TOWA باجروان 	Aqur	DIST مرحلة 
+FROM باجروان 	Aqur	TOWA الرقة 	Aqur	DIST نصف مرحلة 
+FROM الرحبة 	Aqur	TOWA قرقيسيا 	Aqur	DIST مرحلة 
+FROM قرقيسيا 	Aqur	TOWA الدالية 	Aqur	DIST مرحلة 
+FROM قرقيسيا 	Aqur	TOWA بئر 	Aqur	DIST مرحلة 
+FROM قرقيسيا 	Aqur	TOWA فدين 	Aqur	DIST مرحلة 
+FROM فدين 	Aqur	TOWA السكير 	Aqur	DIST مرحلة 
+FROM آمد 	Aqur	TOWA تل حور 	Aqur	DIST مرحلة 
+FROM تل حور 	Aqur	TOWA ملطين 	Aqur	DIST مرحلة 
+FROM ملطين 	Aqur	TOWA طبوس 	Aqur	DIST مرحلة 
+FROM طبوس 	Aqur	TOWA شمشاط 	Aqur	DIST مرحلة 
+FROM شمشاط 	Aqur	TOWA الفعونية 	Aqur	DIST مرحلة 
+FROM الفعونية 	Aqur	TOWA حصن زياد 	Aqur	DIST مرحلة 
+FROM حصن زياد 	Aqur	TOWA ملطين 	Aqur	DIST مرحلة 
+FROM ملطين 	Aqur	TOWA عرقة 	Aqur	DIST مرحلة 
+FROM عرقة 	Aqur	TOWA الصفصاف 	Aqur	DIST مرحلة 
+FROM الصفصاف 	Aqur	TOWA الرمانة 	Aqur	DIST مرحلة 
+FROM الرمانة 	Aqur	TOWA سمندو 	Aqur	DIST مرحلتين 
+FROM سمندو 	Aqur	TOWA مرج قيسارية 	Aqur	DIST مرحلة 
+FROM مرج قيسارية 	Aqur	TOWA أنقرة 	Aqur	DIST 4 مراحل 
+FROM أنقرة 	Aqur	TOWA جسر شاغر 	Aqur	DIST ثلاثة مراحل 
+FROM جسر شاغر 	Aqur	TOWA النقموذية 	Aqur	DIST مرحلة 
+FROM النقموذية 	Aqur	TOWA ملعب الملك 	Aqur	DIST مرحلة 
+FROM ملعب الملك 	Aqur	TOWA حارفة 	Aqur	DIST مرحلة 
+FROM حارفة 	Aqur	TOWA القسطنطينية 	Aqur	DIST مرحلة 
+FROM ميافارقين 	Aqur	TOWA موش 	Aqur	DIST 4 مراحل 
+FROM موش 	Aqur	TOWA قنب 	Aqur	DIST مرحلة 
+FROM قنب 	Aqur	TOWA سن نحاس 	Aqur	DIST مرحلة 
+FROM سن نحاس 	Aqur	TOWA قاليقلا 	Aqur	DIST مرحلتان 
+FROM سن نحاس 	Aqur	TOWA ملازكرد 	Aqur	DIST مرحلتان 
+FROM سن نحاس 	Aqur	TOWA موش 	Aqur	DIST مرحلتان 
+FROM سن نحاس 	Aqur	TOWA الخالديات 	Aqur	DIST مرحلتان 
+FROM سموقموش 	Aqur	TOWA قلونية العوفي 	Aqur	DIST مرحلتين 
+FROM قلونية العوفي 	Aqur	TOWA نفشارية 	Aqur	DIST 4 مراحل 
+FROM نفشارية 	Aqur	TOWA عقبة الشهداء 	Aqur	DIST مرحلة 
+FROM عقبة الشهداء 	Aqur	TOWA الأفلاغونية 	Aqur	DIST مرحلة 
+FROM الأفلاغونية 	Aqur	TOWA السونشة 	Aqur	DIST مرحلة 
+FROM السونشة 	Aqur	TOWA بمولصة 	Aqur	DIST مرحلة 
+FROM بمولصة 	Aqur	TOWA بلد ابن السوانيطى 	Aqur	DIST مرحلة 
+FROM بلد ابن السوانيطى 	Aqur	TOWA دوسنية 	Aqur	DIST مرحلة 
+FROM قطابولى 	Aqur	TOWA بلد ابن الملاين 	Aqur	DIST مرحلتين 
+FROM بلد ابن الملاين 	Aqur	TOWA البحيرة الحلوة 	Aqur	DIST مرحلة 
+FROM البحيرة الحلوة 	Aqur	TOWA حصن صاعس 	Aqur	DIST مرحلة 
+FROM حلب 	Sham	TOWA بالس 	Sham	DIST يومين 
+FROM حلب 	Sham	TOWA قنسرين 	Sham	DIST يوما 
+FROM حلب 	Sham	TOWA الأثارب 	Sham	DIST يوما 
+FROM حلب 	Sham	TOWA منبج 	Sham	DIST يومين 
+FROM انطاكية 	Sham	TOWA الاذقية 	Sham	DIST ثلاثة ايام 
+FROM منبج 	Sham	TOWA الفرات 	Sham	DIST مرحلة 
+FROM حمص 	Sham	TOWA جوسية 	Sham	DIST مرحلة 
+FROM جوسية 	Sham	TOWA يعاث 	Sham	DIST مرحلة 
+FROM يعاث 	Sham	TOWA بعلبك 	Sham	DIST نصف مرحلة 
+FROM بعلبك 	Sham	TOWA الزبداني 	Sham	DIST مرحلة 
+FROM الزبداني 	Sham	TOWA دمشق 	Sham	DIST مرحلة 
+FROM حمص 	Sham	TOWA شمسين 	Sham	DIST مرحلة 
+FROM شمسين 	Sham	TOWA قارا 	Sham	DIST مرحلة 
+FROM قارا 	Sham	TOWA البنك 	Sham	DIST مرحلة 
+FROM البنك 	Sham	TOWA القطيفة 	Sham	DIST مرحلة 
+FROM القطيفة 	Sham	TOWA دمشق 	Sham	DIST مرحلة 
+FROM حمص 	Sham	TOWA سلمية 	Sham	DIST مرحلة 
+FROM سلمية 	Sham	TOWA القسطل 	Sham	DIST مرحلتين 
+FROM القسطل 	Sham	TOWA الزراعة 	Sham	DIST مرحلتين 
+FROM الزراعة 	Sham	TOWA الرصافة 	Sham	DIST مرحلتين 
+FROM الرصافة 	Sham	TOWA الرقة 	Sham	DIST نصف مرحلة 
+FROM حمص 	Sham	TOWA حماة 	Sham	DIST مرحلة 
+FROM حماة 	Sham	TOWA شيزر 	Sham	DIST مرحلة 
+FROM شيزر 	Sham	TOWA كفرطاب 	Sham	DIST مرحلة 
+FROM كفرطاب 	Sham	TOWA قنسرين 	Sham	DIST مرحلة 
+FROM قنسرين 	Sham	TOWA حلب 	Sham	DIST مرحلة 
+FROM دمشق 	Sham	TOWA طرابلس 	Sham	DIST يومين 
+FROM دمشق 	Sham	TOWA بيروت 	Sham	DIST يومين 
+FROM دمشق 	Sham	TOWA صيدا 	Sham	DIST يومين 
+FROM دمشق 	Sham	TOWA بانياس 	Sham	DIST يومين 
+FROM دمشق 	Sham	TOWA الحوران 	Sham	DIST يومين 
+FROM دمشق 	Sham	TOWA البثنية 	Sham	DIST يومين 
+FROM دمشق 	Sham	TOWA أقصى الغوطة 	Sham	DIST مرحلة 
+FROM دمشق 	Sham	TOWA بيت سرعا 	Sham	DIST مرحلة 
+FROM دمشق 	Sham	TOWA الكسوة 	Sham	DIST بريدين 
+FROM دمشق 	Sham	TOWA جاسم 	Sham	DIST مرحلة 
+FROM جاسم 	Sham	TOWA فيق 	Sham	DIST مرحلة 
+FROM فيق 	Sham	TOWA طبرية 	Sham	DIST بريدا 
+FROM بانياس 	Sham	TOWA قدس 	Sham	DIST بريدين 
+FROM بانياس 	Sham	TOWA جب يوسف 	Sham	DIST بريدين 
+FROM بيروت 	Sham	TOWA صيدا 	Sham	DIST مرحلة 
+FROM بيروت 	Sham	TOWA طرابلس 	Sham	DIST مرحلة 
+FROM طبرية 	Sham	TOWA اللجون 	Sham	DIST مرحلة 
+FROM طبرية 	Sham	TOWA جب يوسف 	Sham	DIST مرحلة 
+FROM طبرية 	Sham	TOWA بيسان 	Sham	DIST مرحلة 
+FROM طبرية 	Sham	TOWA عقبة أفيق 	Sham	DIST مرحلة 
+FROM طبرية 	Sham	TOWA الجش 	Sham	DIST مرحلة 
+FROM طبرية 	Sham	TOWA كفركيلا 	Sham	DIST مرحلة 
+FROM اللجون 	Sham	TOWA قلنسوة 	Sham	DIST مرحلة 
+FROM قلنسوة 	Sham	TOWA الرملة 	Sham	DIST مرحلة 
+FROM اللجون 	Sham	TOWA كفرسابا 	Sham	DIST مرحلة 
+FROM كفرسابا 	Sham	TOWA الرملة 	Sham	DIST مرحلة 
+FROM بيسان 	Sham	TOWA تعاسير 	Sham	DIST بريدين 
+FROM بريدين 	Sham	TOWA نابلس 	Sham	DIST بريدين 
+FROM نابلس 	Sham	TOWA بيت المقدس 	Sham	DIST مرحلة 
+FROM جب يوسف 	Sham	TOWA قرية العيون 	Sham	DIST مرحلتين 
+FROM قرية العيون 	Sham	TOWA القرعون 	Sham	DIST مرحلة 
+FROM القرعون 	Sham	TOWA عين الحجر 	Sham	DIST مرحلة 
+FROM عين الحجر 	Sham	TOWA بعلبك 	Sham	DIST مرحلة 
+FROM الجش 	Sham	TOWA صور 	Sham	DIST مرحلة 
+FROM صور 	Sham	TOWA صيدا 	Sham	DIST مرحلة 
+FROM صور 	Sham	TOWA قدس 	Sham	DIST بريدين 
+FROM صور 	Sham	TOWA مجدل سلم 	Sham	DIST بريدين 
+FROM مجدل سلم 	Sham	TOWA بانياس 	Sham	DIST بريدين 
+FROM طبرية 	Sham	TOWA عكا 	Sham	DIST مرحلتين 
+FROM جبل لبنان 	Sham	TOWA نابلس 	Sham	DIST مرحلة 
+FROM جبل لبنان 	Sham	TOWA قدس 	Sham	DIST مرحلة 
+FROM جبل لبنان 	Sham	TOWA صيدا 	Sham	DIST مرحلة 
+FROM جبل لبنان 	Sham	TOWA صور نحو 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA بيت المقدس 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA بيت جبريل 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA عسقلان 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA السكرية 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA نابلس 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA كفر سلام 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA مسجد إبراهيم 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA اريحاء 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA يافه 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA الماحوز 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA ارسوف 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA ازدود 	Sham	DIST مرحلة 
+FROM الرملة 	Sham	TOWA رفح 	Sham	DIST مرحلة 
+FROM بيت المقدس 	Sham	TOWA بيت جبريل 	Sham	DIST مرحلة 
+FROM بيت المقدس 	Sham	TOWA مسجد إبراهيم 	Sham	DIST مرحلة 
+FROM بيت المقدس 	Sham	TOWA نهر الاردن 	Sham	DIST مرحلة 
+FROM بيت المقدس 	Sham	TOWA نابلس 	Sham	DIST مرحلة 
+FROM بيت المقدس 	Sham	TOWA اريحاء 	Sham	DIST بريدين 
+FROM غزة 	Sham	TOWA بيت جبريل 	Sham	DIST مرحلة 
+FROM غزة 	Sham	TOWA ازدود 	Sham	DIST مرحلة 
+FROM غزة 	Sham	TOWA رفح 	Sham	DIST مرحلة 
+FROM مسجد إبراهيم 	Sham	TOWA قاووس 	Sham	DIST مرحلة 
+FROM قاووس 	Sham	TOWA صغر 	Sham	DIST مرحلة 
+FROM نهر الاردن 	Sham	TOWA عمان 	Sham	DIST مرحلة 
+FROM نابلس 	Sham	TOWA اريحاء 	Sham	DIST مرحلة 
+FROM اريحاء 	Sham	TOWA بيت الرام 	Sham	DIST بريدين 
+FROM بيت الرام 	Sham	TOWA عمان 	Sham	DIST مرحلة 
+FROM صغر 	Sham	TOWA مآب 	Sham	DIST مرحلة 
+FROM عميان 	Sham	TOWA مآب 	Sham	DIST مرحلة 
+FROM عميان 	Sham	TOWA الزرقاء 	Sham	DIST مرحلة 
+FROM الزرقاء 	Sham	TOWA أذرعات 	Sham	DIST مرحلة 
+FROM أذرعات 	Sham	TOWA دمشق 	Sham	DIST مرحلتين 
+FROM قيسارية 	Sham	TOWA كفرسلام 	Sham	DIST مرحلة 
+FROM قيسارية 	Sham	TOWA كفرسابا 	Sham	DIST مرحلة 
+FROM قيسارية 	Sham	TOWA ارسوف 	Sham	DIST مرحلة 
+FROM قيسارية 	Sham	TOWA الكنيسة 	Sham	DIST مرحلة 
+FROM يافه 	Sham	TOWA عسقلان 	Sham	DIST مرحلة 
+FROM الفرما 	Egypt	TOWA البقارة 	Egypt	DIST مرحلة 
+FROM البقارة 	Egypt	TOWA الورادة 	Egypt	DIST مرحلة 
+FROM الورادة 	Egypt	TOWA العريش 	Egypt	DIST مرحلة 
+FROM العريش 	Egypt	TOWA رفح 	Egypt	DIST مرحلة 
+FROM الفرما 	Egypt	TOWA جرجير 	Egypt	DIST مرحلة 
+FROM جرجير 	Egypt	TOWA فاقوس 	Egypt	DIST مرحلة 
+FROM الفرما 	Egypt	TOWA الرصد 	Egypt	DIST مرحلة 
+FROM الرصد 	Egypt	TOWA فاقوس 	Egypt	DIST مرحلة 
+FROM الفرما 	Egypt	TOWA تنيس 	Egypt	DIST مرحلة 
+FROM تنيس 	Egypt	TOWA دمياط 	Egypt	DIST مرحلة 
+FROM دمياط 	Egypt	TOWA المحلة الكبيرة 	Egypt	DIST مرحلة 
+FROM المحلة الكبيرة 	Egypt	TOWA الاسكندرية 	Egypt	DIST مرحلتين 
+FROM دمياط 	Egypt	TOWA سردوس 	Egypt	DIST مرحلة 
+FROM سردوس 	Egypt	TOWA الفسطاط 	Egypt	DIST مرحلة 
+FROM بلبيس 	Egypt	TOWA المنصف 	Egypt	DIST مرحلة 
+FROM المنصف 	Egypt	TOWA القلزم 	Egypt	DIST مرحلة 
+FROM الفرما 	Egypt	TOWA دير النصارى 	Egypt	DIST مرحلة 
+FROM دير النصارى 	Egypt	TOWA المخلصة 	Egypt	DIST مرحلة 
+FROM المخلصة 	Egypt	TOWA العريش 	Egypt	DIST مرحلة 
+FROM بلبيس 	Egypt	TOWA الفسطاط 	Egypt	DIST مرحلة 
+FROM الاسكندرية 	Egypt	TOWA الرافقة 	Egypt	DIST مرحلة 
+FROM الرافقة 	Egypt	TOWA كوم شريك 	Egypt	DIST مرحلة 
+FROM كوم شريك 	Egypt	TOWA ترنوط 	Egypt	DIST مرحلة 
+FROM ترنوط 	Egypt	TOWA ذات السلاسل 	Egypt	DIST مرحلة 
+FROM ذات السلاسل 	Egypt	TOWA الفسطاط 	Egypt	DIST مرحلة 
+FROM الاسكندرية 	Egypt	TOWA بومينه 	Egypt	DIST مرحلة 
+FROM بومينه 	Egypt	TOWA سفا 	Egypt	DIST مرحلة 
+FROM سفا 	Egypt	TOWA ارمسا 	Egypt	DIST مرحلة 
+FROM ارمسا 	Egypt	TOWA ذات الحمام 	Egypt	DIST مرحلة 
+FROM الاسكندرية 	Egypt	TOWA الغاضرة 	Egypt	DIST مرحلة 
+FROM الغاضرة 	Egypt	TOWA فاقوس 	Egypt	DIST مرحلة 
+FROM الفسطاط 	Egypt	TOWA بلبيس 	Egypt	DIST مرحلة 
+FROM بلبيس 	Egypt	TOWA المنصف 	Egypt	DIST مرحلة 
+FROM المنصف 	Egypt	TOWA القلزم 	Egypt	DIST مرحلة 
+FROM القلزم 	Egypt	TOWA جدة 	Egypt	DIST ثلاثمائة فرسخ 
+FROM الجب 	Egypt	TOWA البويب 	Egypt	DIST مرحلة 
+FROM البويب 	Egypt	TOWA منزل ابن بندقة 	Egypt	DIST مرحلة 
+FROM منزل ابن بندقة 	Egypt	TOWA عجرود 	Egypt	DIST مرحلة 
+FROM عجرود 	Egypt	TOWA المدينة 	Egypt	DIST مرحلة 
+FROM المدينة 	Egypt	TOWA الكرسي 	Egypt	DIST مرحلة 
+FROM الكرسي 	Egypt	TOWA الحفر 	Egypt	DIST مرحلة 
+FROM الحفر 	Egypt	TOWA ويلة 	Egypt	DIST مرحلة 
+FROM برقة 	Maghrib,Barqa,Andalus	TOWA الندامة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM الندامة 	Maghrib,Barqa,Andalus	TOWA تاكنست 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM تاكنست 	Maghrib,Barqa,Andalus	TOWA المغار 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM المغار 	Maghrib,Barqa,Andalus	TOWA حليمان 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM حليمان 	Maghrib,Barqa,Andalus	TOWA مخيل 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مخيل 	Maghrib,Barqa,Andalus	TOWA جب الميدعان 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM جب الميدعان 	Maghrib,Barqa,Andalus	TOWA جياد الصغير 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM جياد الصغير 	Maghrib,Barqa,Andalus	TOWA حى عبد الله 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM حى عبد الله 	Maghrib,Barqa,Andalus	TOWA مرج الشيخ 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مرج الشيخ 	Maghrib,Barqa,Andalus	TOWA العقبة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM العقبة 	Maghrib,Barqa,Andalus	TOWA خرائب ابى حليمة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM خرائب ابى حليمة 	Maghrib,Barqa,Andalus	TOWA خربة القوم 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM خربة القوم 	Maghrib,Barqa,Andalus	TOWA قصر الشماس 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قصر الشماس 	Maghrib,Barqa,Andalus	TOWA سكة الحمام 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM سكة الحمام 	Maghrib,Barqa,Andalus	TOWA جب العوسج 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM جب العوسج 	Maghrib,Barqa,Andalus	TOWA كنائس الحرير 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM كنائس الحرير 	Maghrib,Barqa,Andalus	TOWA الطاحونة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM الطاحونة 	Maghrib,Barqa,Andalus	TOWA حنية الروم 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM حنية الروم 	Maghrib,Barqa,Andalus	TOWA ذات الحمام 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM ذات الحمام 	Maghrib,Barqa,Andalus	TOWA بومينه 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM بومينه 	Maghrib,Barqa,Andalus	TOWA الاسكندرية 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM طرابلس 	Maghrib,Barqa,Andalus	TOWA المسدودة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM المسدودة 	Maghrib,Barqa,Andalus	TOWA ارسطا 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM ارسطا 	Maghrib,Barqa,Andalus	TOWA الراشدية 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM الراشدية 	Maghrib,Barqa,Andalus	TOWA قصور حسان 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قصور حسان 	Maghrib,Barqa,Andalus	TOWA مغمداش 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مغمداش 	Maghrib,Barqa,Andalus	TOWA سرت 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM سرت 	Maghrib,Barqa,Andalus	TOWA قصر العبادى 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قصر العبادى 	Maghrib,Barqa,Andalus	TOWA اليهوديتين 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM اليهوديتين 	Maghrib,Barqa,Andalus	TOWA قصر العطش 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قصر العطش 	Maghrib,Barqa,Andalus	TOWA سبخة منهوسا 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM سبخة منهوسا 	Maghrib,Barqa,Andalus	TOWA بلد روب 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM بلد روب 	Maghrib,Barqa,Andalus	TOWA برمست 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM برمست 	Maghrib,Barqa,Andalus	TOWA سلوق 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM سلوق 	Maghrib,Barqa,Andalus	TOWA اوبران 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM اوبران 	Maghrib,Barqa,Andalus	TOWA قصر الفيل 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قصر الفيل 	Maghrib,Barqa,Andalus	TOWA مليتية 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مليتية 	Maghrib,Barqa,Andalus	TOWA برقة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM أطرابلس 	Maghrib,Barqa,Andalus	TOWA بئر الجمالين 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM بئر الجمالين 	Maghrib,Barqa,Andalus	TOWA قصر الدرق 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قصر الدرق 	Maghrib,Barqa,Andalus	TOWA بارجمت 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM بارجمت 	Maghrib,Barqa,Andalus	TOWA الفوارة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM الفوارة 	Maghrib,Barqa,Andalus	TOWA قابس 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قابس 	Maghrib,Barqa,Andalus	TOWA الزيتونة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM الزيتونة 	Maghrib,Barqa,Andalus	TOWA كتانة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM كتانة 	Maghrib,Barqa,Andalus	TOWA الكبس 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM الكبس 	Maghrib,Barqa,Andalus	TOWA القيروان 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA السوس الأدنى 	Maghrib,Barqa,Andalus	DIST الفين ومائة وخمسين ميلا 
+FROM السوس الأدنى 	Maghrib,Barqa,Andalus	TOWA السوس الأقصى 	Maghrib,Barqa,Andalus	DIST ثلاثة وعشرون يوما 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA قفصة 	Maghrib,Barqa,Andalus	DIST 7 مراحل 
+FROM قفصة 	Maghrib,Barqa,Andalus	TOWA قسطيلية 	Maghrib,Barqa,Andalus	DIST ثلاثة مراحل 
+FROM قسطيلية 	Maghrib,Barqa,Andalus	TOWA تاهرت 	Maghrib,Barqa,Andalus	DIST خمسة عشر يوما 
+FROM تاهرت 	Maghrib,Barqa,Andalus	TOWA فلس 	Maghrib,Barqa,Andalus	DIST ثلاثة أيام 
+FROM فلس 	Maghrib,Barqa,Andalus	TOWA الشقور 	Maghrib,Barqa,Andalus	DIST ثامن مراحل 
+FROM الشقور 	Maghrib,Barqa,Andalus	TOWA البصرة 	Maghrib,Barqa,Andalus	DIST ثامن مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA سطيف 	Maghrib,Barqa,Andalus	DIST عشرة مراحل 
+FROM سطيف 	Maghrib,Barqa,Andalus	TOWA تاهرت 	Maghrib,Barqa,Andalus	DIST عشرون مراحل 
+FROM تاهرت 	Maghrib,Barqa,Andalus	TOWA فلس 	Maghrib,Barqa,Andalus	DIST خمسون مراحل 
+FROM فلس 	Maghrib,Barqa,Andalus	TOWA  السوس الأقصى 	Maghrib,Barqa,Andalus	DIST ثلاثون مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA زويلة 	Maghrib,Barqa,Andalus	DIST شهرا 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA سجلماسة 	Maghrib,Barqa,Andalus	DIST ثلاثون مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA سجلماسة 	Maghrib,Barqa,Andalus	DIST خمسون مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA تونس 	Maghrib,Barqa,Andalus	DIST ثلاثة مراحل 
+FROM تونس 	Maghrib,Barqa,Andalus	TOWA طبرقة 	Maghrib,Barqa,Andalus	DIST عشرة مراحل 
+FROM طبرقة 	Maghrib,Barqa,Andalus	TOWA تنس 	Maghrib,Barqa,Andalus	DIST 6 مراحل 
+FROM تنس 	Maghrib,Barqa,Andalus	TOWA جزيرة بنى زغناى 	Maghrib,Barqa,Andalus	DIST خمسة مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA قابس 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA نفطة 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA قرنة 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA سبيبة 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA مدينة القصور 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA المهدية 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA لافس 	Maghrib,Barqa,Andalus	DIST ثلاث مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA الجزيرة 	Maghrib,Barqa,Andalus	DIST ثلاث مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA أبة 	Maghrib,Barqa,Andalus	DIST ثلاث مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA مرسى الخرز 	Maghrib,Barqa,Andalus	DIST ثلاث مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA قابس 	Maghrib,Barqa,Andalus	DIST 5 مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA قصر الافريقى 	Maghrib,Barqa,Andalus	DIST 5 مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA مجانة 	Maghrib,Barqa,Andalus	DIST 5 مراحل 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA تبسة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA باغلى 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA دوفانة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA عين العصافير 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA دار ملول 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA طبنة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA مقرة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA المسيلة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مجانة 	Maghrib,Barqa,Andalus	TOWA تبسة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM تبسة 	Maghrib,Barqa,Andalus	TOWA باغلى 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM باغلى 	Maghrib,Barqa,Andalus	TOWA دوفانة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM دوفانة 	Maghrib,Barqa,Andalus	TOWA عين العصافير 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM عين العصافير 	Maghrib,Barqa,Andalus	TOWA دار ملول 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM دار ملول 	Maghrib,Barqa,Andalus	TOWA طبنة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM طبنة 	Maghrib,Barqa,Andalus	TOWA مقرة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مقرة 	Maghrib,Barqa,Andalus	TOWA المسيلة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM المسيلة 	Maghrib,Barqa,Andalus	TOWA أشير 	Maghrib,Barqa,Andalus	DIST ثلاث أيام 
+FROM أشير 	Maghrib,Barqa,Andalus	TOWA تاهرت 	Maghrib,Barqa,Andalus	DIST 5 أيام 
+FROM تاهرت 	Maghrib,Barqa,Andalus	TOWA فكان 	Maghrib,Barqa,Andalus	DIST 5 أيام 
+FROM فكان 	Maghrib,Barqa,Andalus	TOWA تلمسان 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM تلمسان 	Maghrib,Barqa,Andalus	TOWA جراوة 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM تلمسان 	Maghrib,Barqa,Andalus	TOWA صاع 	Maghrib,Barqa,Andalus	DIST مرحلتين 
+FROM تاهرت 	Maghrib,Barqa,Andalus	TOWA ناكور 	Maghrib,Barqa,Andalus	DIST ثلاثون مراحل 
+FROM ناكور 	Maghrib,Barqa,Andalus	TOWA سجلماسة 	Maghrib,Barqa,Andalus	DIST 15 مراحل 
+FROM فاس 	Maghrib,Barqa,Andalus	TOWA البصرة 	Maghrib,Barqa,Andalus	DIST 6 مراحل 
+FROM فاس 	Maghrib,Barqa,Andalus	TOWA أزيلة 	Maghrib,Barqa,Andalus	DIST ثامن مراحل 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA سوسة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA قلشانة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM القيروان 	Maghrib,Barqa,Andalus	TOWA تماجر 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قرطبة 	Maghrib,Barqa,Andalus	TOWA اشبيلية 	Maghrib,Barqa,Andalus	DIST ثلاثة مراحل 
+FROM اشبيلية 	Maghrib,Barqa,Andalus	TOWA استجة 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM قرطبة 	Maghrib,Barqa,Andalus	TOWA طليطلة 	Maghrib,Barqa,Andalus	DIST ستة أيام 
+FROM طليطلة 	Maghrib,Barqa,Andalus	TOWA وادي الحجارة 	Maghrib,Barqa,Andalus	DIST مرحلتان 
+FROM قرطبة 	Maghrib,Barqa,Andalus	TOWA مكناسة 	Maghrib,Barqa,Andalus	DIST 4 أيام 
+FROM مكناسة 	Maghrib,Barqa,Andalus	TOWA هوارة 	Maghrib,Barqa,Andalus	DIST 4 أيام 
+FROM هوارة 	Maghrib,Barqa,Andalus	TOWA نفرة 	Maghrib,Barqa,Andalus	DIST عشرة أيام 
+FROM نفرة 	Maghrib,Barqa,Andalus	TOWA سمورة 	Maghrib,Barqa,Andalus	DIST 4 أيام 
+FROM قرطبة 	Maghrib,Barqa,Andalus	TOWA قورية 	Maghrib,Barqa,Andalus	DIST 12 مراحل 
+FROM قورية 	Maghrib,Barqa,Andalus	TOWA ماردة 	Maghrib,Barqa,Andalus	DIST 4 مراحل 
+FROM قورية 	Maghrib,Barqa,Andalus	TOWA باجة 	Maghrib,Barqa,Andalus	DIST ستة أيام 
+FROM باجة 	Maghrib,Barqa,Andalus	TOWA شنترين 	Maghrib,Barqa,Andalus	DIST 17 أيام 
+FROM باجة 	Maghrib,Barqa,Andalus	TOWA فحص البلوط 	Maghrib,Barqa,Andalus	DIST يومان 
+FROM فحص البلوط 	Maghrib,Barqa,Andalus	TOWA لبلة 	Maghrib,Barqa,Andalus	DIST 14 أيام 
+FROM باجة 	Maghrib,Barqa,Andalus	TOWA قرمونة 	Maghrib,Barqa,Andalus	DIST 4 أيام 
+FROM قرمونة 	Maghrib,Barqa,Andalus	TOWA اشبيلية 	Maghrib,Barqa,Andalus	DIST مرحلتان 
+FROM استجة 	Maghrib,Barqa,Andalus	TOWA مورور 	Maghrib,Barqa,Andalus	DIST مرحلة 
+FROM مورور 	Maghrib,Barqa,Andalus	TOWA شذونة 	Maghrib,Barqa,Andalus	DIST يومان 
+FROM مورور 	Maghrib,Barqa,Andalus	TOWA جبل طارق 	Maghrib,Barqa,Andalus	DIST ثلاث أيام 
+FROM استجة 	Maghrib,Barqa,Andalus	TOWA مالقة 	Maghrib,Barqa,Andalus	DIST سبعة أيام 
+FROM استجة 	Maghrib,Barqa,Andalus	TOWA أرجدونة 	Maghrib,Barqa,Andalus	DIST ثلاث مراحل 
+FROM استجة 	Maghrib,Barqa,Andalus	TOWA بجانة 	Maghrib,Barqa,Andalus	DIST 6 مراحل 
+FROM استجة 	Maghrib,Barqa,Andalus	TOWA مرسية 	Maghrib,Barqa,Andalus	DIST سبعة أيام 
+FROM استجة 	Maghrib,Barqa,Andalus	TOWA بلنسية 	Maghrib,Barqa,Andalus	DIST عشرون أيام 
+FROM بلنسية 	Maghrib,Barqa,Andalus	TOWA طرطوشة 	Maghrib,Barqa,Andalus	DIST 12 مراحل 
+FROM مرسية 	Maghrib,Barqa,Andalus	TOWA بجانة 	Maghrib,Barqa,Andalus	DIST ستة أيام 
+FROM بجانة 	Maghrib,Barqa,Andalus	TOWA مالقة 	Maghrib,Barqa,Andalus	DIST عشرة أيام 
+FROM مالقة 	Maghrib,Barqa,Andalus	TOWA جبل طارق 	Maghrib,Barqa,Andalus	DIST 4 أيام 
+FROM جبل طارق 	Maghrib,Barqa,Andalus	TOWA شذونة 	Maghrib,Barqa,Andalus	DIST ثلاث أيام 
+FROM شذونة 	Maghrib,Barqa,Andalus	TOWA اشبيلية 	Maghrib,Barqa,Andalus	DIST 4 أيام 
+FROM البويب 	Badiyat al-Arab	TOWA بندقة 	Badiyat al-Arab	DIST مرحلة 
+FROM بندقة 	Badiyat al-Arab	TOWA عجرود 	Badiyat al-Arab	DIST مرحلة 
+FROM عجرود 	Badiyat al-Arab	TOWA المدينة 	Badiyat al-Arab	DIST مرحلة 
+FROM المدينة 	Badiyat al-Arab	TOWA الكرسي 	Badiyat al-Arab	DIST مرحلة 
+FROM الكرسي 	Badiyat al-Arab	TOWA الحفر 	Badiyat al-Arab	DIST مرحلة 
+FROM الحفر 	Badiyat al-Arab	TOWA المنزل 	Badiyat al-Arab	DIST مرحلة 
+FROM المنزل 	Badiyat al-Arab	TOWA ويلة 	Badiyat al-Arab	DIST مرحلة 
+FROM السكرية 	Badiyat al-Arab	TOWA التليل 	Badiyat al-Arab	DIST مرحلتين 
+FROM التليل 	Badiyat al-Arab	TOWA الغمر 	Badiyat al-Arab	DIST مرحلتين 
+FROM الغمر 	Badiyat al-Arab	TOWA ويلة 	Badiyat al-Arab	DIST مرحلتين 
+FROM صغر 	Badiyat al-Arab	TOWA ويلة 	Badiyat al-Arab	DIST 4 مراحل 
+FROM عمان 	Badiyat al-Arab	TOWA معان 	Badiyat al-Arab	DIST منهلين 
+FROM معان 	Badiyat al-Arab	TOWA تبوك 	Badiyat al-Arab	DIST منهلين 
+FROM تبوك 	Badiyat al-Arab	TOWA تيماء 	Badiyat al-Arab	DIST 4 ايام 
+FROM تيماء 	Badiyat al-Arab	TOWA وادي القرى 	Badiyat al-Arab	DIST 4 ايام 
+FROM عمان 	Badiyat al-Arab	TOWA وبير 	Badiyat al-Arab	DIST ثلاثة مناهل 
+FROM وبير 	Badiyat al-Arab	TOWA الأجولى 	Badiyat al-Arab	DIST 4 مراحل 
+FROM الأجولى 	Badiyat al-Arab	TOWA ثجر 	Badiyat al-Arab	DIST منهلين 
+FROM ثجر 	Badiyat al-Arab	TOWA تيماء 	Badiyat al-Arab	DIST ثلاثة مناهل 
+FROM عمان 	Badiyat al-Arab	TOWA العونيد 	Badiyat al-Arab	DIST نهارين 
+FROM العونيد 	Badiyat al-Arab	TOWA المحدثة 	Badiyat al-Arab	DIST نصف نهار 
+FROM المحدثة 	Badiyat al-Arab	TOWA النبك 	Badiyat al-Arab	DIST نصف نهار 
+FROM الجربي 	Badiyat al-Arab	TOWA عرفجا 	Badiyat al-Arab	DIST نهارا ونصفا 
+FROM عرفجا 	Badiyat al-Arab	TOWA مخرى 	Badiyat al-Arab	DIST ثلاثا نهارا 
+FROM مخرى 	Badiyat al-Arab	TOWA تيماء 	Badiyat al-Arab	DIST أربعا نهارا 
+FROM القادسية 	Badiyat al-Arab	TOWA المغيثة 	Badiyat al-Arab	DIST 17 ميلا 
+FROM المغيثة 	Badiyat al-Arab	TOWA القرعاء 	Badiyat al-Arab	DIST 22 ميلا 
+FROM القرعاء 	Badiyat al-Arab	TOWA واقصة 	Badiyat al-Arab	DIST 24 ميلا 
+FROM واقصة 	Badiyat al-Arab	TOWA العقبة 	Badiyat al-Arab	DIST 29 ميلا 
+FROM العقبة 	Badiyat al-Arab	TOWA القاع 	Badiyat al-Arab	DIST 24 ميلا 
+FROM القاع 	Badiyat al-Arab	TOWA زبالة 	Badiyat al-Arab	DIST 24 ميلا 
+FROM زبالة 	Badiyat al-Arab	TOWA الشقوق 	Badiyat al-Arab	DIST 21 ميلا 
+FROM الشقوق 	Badiyat al-Arab	TOWA البطان 	Badiyat al-Arab	DIST 29 ميلا 
+FROM البطان 	Badiyat al-Arab	TOWA الثعلبية 	Badiyat al-Arab	DIST 26 ميلا 
+FROM الثعلبية 	Badiyat al-Arab	TOWA الخزيمية 	Badiyat al-Arab	DIST 32 ميلا 
+FROM الخزيمية 	Badiyat al-Arab	TOWA أجفر 	Badiyat al-Arab	DIST 24 ميلا 
+FROM أجفر 	Badiyat al-Arab	TOWA فيد 	Badiyat al-Arab	DIST 36 ميلا 
+FROM البصرة 	Badiyat al-Arab	TOWA الحفير 	Badiyat al-Arab	DIST 18 ميلا 
+FROM الحفير 	Badiyat al-Arab	TOWA الرحيل 	Badiyat al-Arab	DIST 28 ميلا 
+FROM الرحيل 	Badiyat al-Arab	TOWA الشجى 	Badiyat al-Arab	DIST 27 ميلا 
+FROM الشجى 	Badiyat al-Arab	TOWA حفر ابى موسى 	Badiyat al-Arab	DIST 26 ميلا 
+FROM حفر ابى موسى 	Badiyat al-Arab	TOWA ماوية 	Badiyat al-Arab	DIST 32 ميلا 
+FROM ماوية 	Badiyat al-Arab	TOWA ذات العشر 	Badiyat al-Arab	DIST 29 ميلا 
+FROM ذات العشر 	Badiyat al-Arab	TOWA الينسوعة 	Badiyat al-Arab	DIST 23 ميلا 
+FROM الينسوعة 	Badiyat al-Arab	TOWA السمينة 	Badiyat al-Arab	DIST 29 ميلا 
+FROM السمينة 	Badiyat al-Arab	TOWA القريتين 	Badiyat al-Arab	DIST 22 ميلا 
+FROM القريتين 	Badiyat al-Arab	TOWA النباج 	Badiyat al-Arab	DIST 23 ميلا 
+FROM الكوفة 	Badiyat al-Arab	TOWA الرهيمة 	Badiyat al-Arab	DIST 12 ميلا 
+FROM الرهيمة 	Badiyat al-Arab	TOWA النحيت 	Badiyat al-Arab	DIST نهارين 
+FROM النحيت 	Badiyat al-Arab	TOWA القراى 	Badiyat al-Arab	DIST نهارين 
+FROM القراى 	Badiyat al-Arab	TOWA الخنفس 	Badiyat al-Arab	DIST نهارا 
+FROM الخنفس 	Badiyat al-Arab	TOWA الحشية 	Badiyat al-Arab	DIST نهارا 
+FROM الحشية 	Badiyat al-Arab	TOWA الغريفة 	Badiyat al-Arab	DIST نهارا 
+FROM الغريفة 	Badiyat al-Arab	TOWA قراكر 	Badiyat al-Arab	DIST نهارا 
+FROM قراكر 	Badiyat al-Arab	TOWA الأزرق 	Badiyat al-Arab	DIST نهارا 
+FROM الأزرق 	Badiyat al-Arab	TOWA عمان 	Badiyat al-Arab	DIST نهارا 
+FROM هيت 	Badiyat al-Arab	TOWA دمشق 	Badiyat al-Arab	DIST عشرة أيام
+FROM الرحبة 	Badiyat al-Arab	TOWA دمشق 	Badiyat al-Arab	DIST عشرة أيام 
+FROM المنهب 	Badiyat al-Arab	TOWA وادي القرى 	Badiyat al-Arab	DIST 5 ليال 
+FROM المنهب 	Badiyat al-Arab	TOWA تيماء 	Badiyat al-Arab	DIST 4 ليال 
+FROM المنهب 	Badiyat al-Arab	TOWA تبوك 	Badiyat al-Arab	DIST 7 ليال 
+FROM المنهب 	Badiyat al-Arab	TOWA وادي طيئ 	Badiyat al-Arab	DIST ليلتان 
+FROM البصرة 	Badiyat al-Arab	TOWA الكوفة 	Badiyat al-Arab	DIST عشرة مراحل 
+FROM أخسيكت 	Khurasan,Sijistan,Transoxiana	TOWA قبا 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قبا 	Khurasan,Sijistan,Transoxiana	TOWA أوش 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أوش 	Khurasan,Sijistan,Transoxiana	TOWA أوزكند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أوزكند 	Khurasan,Sijistan,Transoxiana	TOWA العقبة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM العقبة 	Khurasan,Sijistan,Transoxiana	TOWA طباش 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM طباش 	Khurasan,Sijistan,Transoxiana	TOWA برسخان الأعلى 	Khurasan,Sijistan,Transoxiana	DIST 6 مراحل 
+FROM برسخان الأعلى 	Khurasan,Sijistan,Transoxiana	TOWA موضع بغراخاقان 	Khurasan,Sijistan,Transoxiana	DIST 6 مراحل 
+FROM اخسيكت 	Khurasan,Sijistan,Transoxiana	TOWA باب 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM باب 	Khurasan,Sijistan,Transoxiana	TOWA ترمغان 	Khurasan,Sijistan,Transoxiana	DIST نصف مرحلة 
+FROM ترمغان 	Khurasan,Sijistan,Transoxiana	TOWA جاجستان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جاجستان 	Khurasan,Sijistan,Transoxiana	TOWA صامغر 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM صامغر 	Khurasan,Sijistan,Transoxiana	TOWA خجندة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM إسبيجاب 	Khurasan,Sijistan,Transoxiana	TOWA شاواب 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM شاواب 	Khurasan,Sijistan,Transoxiana	TOWA بدوخكث 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM بدوخكث 	Khurasan,Sijistan,Transoxiana	TOWA تمتاج 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM تمتاج 	Khurasan,Sijistan,Transoxiana	TOWA بارجاخ 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM بارجاخ 	Khurasan,Sijistan,Transoxiana	TOWA منزل 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM منزل 	Khurasan,Sijistan,Transoxiana	TOWA شاوغر 	Khurasan,Sijistan,Transoxiana	DIST نصف مرحلة 
+FROM شاوغر 	Khurasan,Sijistan,Transoxiana	TOWA طراز 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM أسبيجاب 	Khurasan,Sijistan,Transoxiana	TOWA غركرد 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM غركرد 	Khurasan,Sijistan,Transoxiana	TOWA بنكث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بنكث 	Khurasan,Sijistan,Transoxiana	TOWA ستوركث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بناكث 	Khurasan,Sijistan,Transoxiana	TOWA نهر الشاش 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM نهر الشاش 	Khurasan,Sijistan,Transoxiana	TOWA خاوص 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خاوص 	Khurasan,Sijistan,Transoxiana	TOWA زامين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بنكث الشاش 	Khurasan,Sijistan,Transoxiana	TOWA معدن الفضة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM معدن الفضة 	Khurasan,Sijistan,Transoxiana	TOWA جاجستان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جاجستان 	Khurasan,Sijistan,Transoxiana	TOWA ترمغان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بنكث 	Khurasan,Sijistan,Transoxiana	TOWA غركرد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM غركرد 	Khurasan,Sijistan,Transoxiana	TOWA أسبيجاب 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM زامين 	Khurasan,Sijistan,Transoxiana	TOWA خاوص 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زامين 	Khurasan,Sijistan,Transoxiana	TOWA ساباط 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM ساباط 	Khurasan,Sijistan,Transoxiana	TOWA شاوكث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM شاوكث 	Khurasan,Sijistan,Transoxiana	TOWA خجندة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سمرقند 	Khurasan,Sijistan,Transoxiana	TOWA زرمان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زرمان 	Khurasan,Sijistan,Transoxiana	TOWA ربنجن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ربنجن 	Khurasan,Sijistan,Transoxiana	TOWA الدبوسية 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الدبوسية 	Khurasan,Sijistan,Transoxiana	TOWA كرمينية 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كرمينية 	Khurasan,Sijistan,Transoxiana	TOWA الطواويس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الطواويس 	Khurasan,Sijistan,Transoxiana	TOWA ديمس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ديمس 	Khurasan,Sijistan,Transoxiana	TOWA بخارا 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سمرقند 	Khurasan,Sijistan,Transoxiana	TOWA زامين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زامين 	Khurasan,Sijistan,Transoxiana	TOWA خاوس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خاوس 	Khurasan,Sijistan,Transoxiana	TOWA بناكث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بناكث 	Khurasan,Sijistan,Transoxiana	TOWA ستوركث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ستوركث 	Khurasan,Sijistan,Transoxiana	TOWA بنكث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سمرقند 	Khurasan,Sijistan,Transoxiana	TOWA درزده 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM درزده 	Khurasan,Sijistan,Transoxiana	TOWA كش 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كش 	Khurasan,Sijistan,Transoxiana	TOWA كندك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كندك 	Khurasan,Sijistan,Transoxiana	TOWA باب الحديد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM باب الحديد 	Khurasan,Sijistan,Transoxiana	TOWA قرنة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرنة 	Khurasan,Sijistan,Transoxiana	TOWA ترمذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بخارا 	Khurasan,Sijistan,Transoxiana	TOWA بيكند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بيكند 	Khurasan,Sijistan,Transoxiana	TOWA ميان كال 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ميان كال 	Khurasan,Sijistan,Transoxiana	TOWA فربر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فربر 	Khurasan,Sijistan,Transoxiana	TOWA جيحون 	Khurasan,Sijistan,Transoxiana	DIST نصف فرسخ 
+FROM بخارا 	Khurasan,Sijistan,Transoxiana	TOWA جكم 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جكم 	Khurasan,Sijistan,Transoxiana	TOWA رباط عتيق 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط عتيق 	Khurasan,Sijistan,Transoxiana	TOWA جب سعيد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جب سعيد 	Khurasan,Sijistan,Transoxiana	TOWA بزدة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بزدة 	Khurasan,Sijistan,Transoxiana	TOWA رباط خواران 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط خواران 	Khurasan,Sijistan,Transoxiana	TOWA قرية البخاريين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية البخاريين 	Khurasan,Sijistan,Transoxiana	TOWA قرية الخوارزميين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية الخوارزميين 	Khurasan,Sijistan,Transoxiana	TOWA بلخان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بلخان 	Khurasan,Sijistan,Transoxiana	TOWA كالف 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كالف 	Khurasan,Sijistan,Transoxiana	TOWA محلة القياسين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM محلة القياسين 	Khurasan,Sijistan,Transoxiana	TOWA ترمذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بخارا 	Khurasan,Sijistan,Transoxiana	TOWA امزه 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM امزه 	Khurasan,Sijistan,Transoxiana	TOWA رباط تاش 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط تاش 	Khurasan,Sijistan,Transoxiana	TOWA شوروخ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM شوروخ 	Khurasan,Sijistan,Transoxiana	TOWA الرمل 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الرمل 	Khurasan,Sijistan,Transoxiana	TOWA رباط طغان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط طغان 	Khurasan,Sijistan,Transoxiana	TOWA رباط جكربند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط جكربند 	Khurasan,Sijistan,Transoxiana	TOWA رباط حسن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط حسن 	Khurasan,Sijistan,Transoxiana	TOWA نابادغين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نابادغين 	Khurasan,Sijistan,Transoxiana	TOWA مضيق النهر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مضيق النهر 	Khurasan,Sijistan,Transoxiana	TOWA رباط ماش 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط ماش 	Khurasan,Sijistan,Transoxiana	TOWA رباط سنده 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط سنده 	Khurasan,Sijistan,Transoxiana	TOWA بغرقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بغرقان 	Khurasan,Sijistan,Transoxiana	TOWA شراخان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM شراخان 	Khurasan,Sijistan,Transoxiana	TOWA كاث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كاث 	Khurasan,Sijistan,Transoxiana	TOWA خاس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خاس 	Khurasan,Sijistan,Transoxiana	TOWA نوزكات 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM نوزكات 	Khurasan,Sijistan,Transoxiana	TOWA وايخان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM على اليمين 	Khurasan,Sijistan,Transoxiana	TOWA نوباغ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نوباغ 	Khurasan,Sijistan,Transoxiana	TOWA مزداخقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM مزداخقان 	Khurasan,Sijistan,Transoxiana	TOWA درسان 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM درسان 	Khurasan,Sijistan,Transoxiana	TOWA كردر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كردر 	Khurasan,Sijistan,Transoxiana	TOWA جويقان 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM جويقان 	Khurasan,Sijistan,Transoxiana	TOWA قرية براتكين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية براتكين 	Khurasan,Sijistan,Transoxiana	TOWA البحيرة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط ماش 	Khurasan,Sijistan,Transoxiana	TOWA أمير 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أمير 	Khurasan,Sijistan,Transoxiana	TOWA باراب سار 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM باراب سار 	Khurasan,Sijistan,Transoxiana	TOWA أرذخيوه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مزداخقان 	Khurasan,Sijistan,Transoxiana	TOWA وردراغ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM وردراغ 	Khurasan,Sijistan,Transoxiana	TOWA كردر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كاث 	Khurasan,Sijistan,Transoxiana	TOWA غردمان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM غردمان 	Khurasan,Sijistan,Transoxiana	TOWA وايخان 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM وايخان 	Khurasan,Sijistan,Transoxiana	TOWA أرذخيوه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أرذخيوه 	Khurasan,Sijistan,Transoxiana	TOWA نوكباغ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM اوزارمند 	Khurasan,Sijistan,Transoxiana	TOWA دسكاخان خاس 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM دسكاخان خاس 	Khurasan,Sijistan,Transoxiana	TOWA رخشميثن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رخشميثن 	Khurasan,Sijistan,Transoxiana	TOWA خيوه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خيوه 	Khurasan,Sijistan,Transoxiana	TOWA كردرانخاس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كردرانخاس 	Khurasan,Sijistan,Transoxiana	TOWA زردوخ بريدا 	Khurasan,Sijistan,Transoxiana	DIST بريدا 
+FROM زردوخ بريدا  	Khurasan,Sijistan,Transoxiana	TOWA هزاراسب 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM اوزارمند 	Khurasan,Sijistan,Transoxiana	TOWA روزوند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM روزوند 	Khurasan,Sijistan,Transoxiana	TOWA نوزوار 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نوزوار 	Khurasan,Sijistan,Transoxiana	TOWA زمخشر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زمخشر 	Khurasan,Sijistan,Transoxiana	TOWA الجرجانية 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بخارا 	Khurasan,Sijistan,Transoxiana	TOWA نخشب 	Khurasan,Sijistan,Transoxiana	DIST ثلاثين فرسخا 
+FROM نخشب 	Khurasan,Sijistan,Transoxiana	TOWA الصغانيان 	Khurasan,Sijistan,Transoxiana	DIST عشرة مراحل 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA دارزنجى 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA باسند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA بايماب 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA سنكردة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA بوراب 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA بهام 	Khurasan,Sijistan,Transoxiana	DIST ثلاثا بريد 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA غش 	Khurasan,Sijistan,Transoxiana	DIST ثلاثا بريد 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA زينور 	Khurasan,Sijistan,Transoxiana	DIST ثلاثا بريد 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA هنبان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA الختل 	Khurasan,Sijistan,Transoxiana	DIST ثلاثون فرسخا 
+FROM الصغانيان 	Khurasan,Sijistan,Transoxiana	TOWA سمرقند 	Khurasan,Sijistan,Transoxiana	DIST أربعون فرسخا 
+FROM بلخ 	Khurasan,Sijistan,Transoxiana	TOWA خلم 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM خلم 	Khurasan,Sijistan,Transoxiana	TOWA ورواليز 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM ورواليز 	Khurasan,Sijistan,Transoxiana	TOWA الطالقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM الطالقان 	Khurasan,Sijistan,Transoxiana	TOWA بذخشان 	Khurasan,Sijistan,Transoxiana	DIST سبعة مراحل 
+FROM خلم 	Khurasan,Sijistan,Transoxiana	TOWA سمنجان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM سمنجان 	Khurasan,Sijistan,Transoxiana	TOWA أندرابة 	Khurasan,Sijistan,Transoxiana	DIST خمسة مراحل 
+FROM أندرابة 	Khurasan,Sijistan,Transoxiana	TOWA كاربايه 	Khurasan,Sijistan,Transoxiana	DIST ثلاثة مراحل 
+FROM كاربايه 	Khurasan,Sijistan,Transoxiana	TOWA بنجهير 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بنجهير 	Khurasan,Sijistan,Transoxiana	TOWA فروان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM بلخ 	Khurasan,Sijistan,Transoxiana	TOWA بغلان 	Khurasan,Sijistan,Transoxiana	DIST 6 مراحل 
+FROM سمنجان 	Khurasan,Sijistan,Transoxiana	TOWA بغلان 	Khurasan,Sijistan,Transoxiana	DIST أربعة مراحل 
+FROM بلخ 	Khurasan,Sijistan,Transoxiana	TOWA مذر 	Khurasan,Sijistan,Transoxiana	DIST 6 مراحل 
+FROM مذر 	Khurasan,Sijistan,Transoxiana	TOWA كه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كه 	Khurasan,Sijistan,Transoxiana	TOWA الباميان 	Khurasan,Sijistan,Transoxiana	DIST ثلاثة مراحل 
+FROM بلخ 	Khurasan,Sijistan,Transoxiana	TOWA أشبورقان 	Khurasan,Sijistan,Transoxiana	DIST ثلاثة مراحل 
+FROM أشبورقان 	Khurasan,Sijistan,Transoxiana	TOWA الفارياب 	Khurasan,Sijistan,Transoxiana	DIST ثلاثة مراحل 
+FROM الفارياب 	Khurasan,Sijistan,Transoxiana	TOWA الطالقان 	Khurasan,Sijistan,Transoxiana	DIST ثلاثة مراحل 
+FROM بلخ 	Khurasan,Sijistan,Transoxiana	TOWA شاوكرد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM شاوكرد 	Khurasan,Sijistan,Transoxiana	TOWA ترمذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM اليهودية 	Khurasan,Sijistan,Transoxiana	TOWA القاع 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM القاع 	Khurasan,Sijistan,Transoxiana	TOWA اشبورقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM اشبورقان 	Khurasan,Sijistan,Transoxiana	TOWA السدرة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM السدرة 	Khurasan,Sijistan,Transoxiana	TOWA الدستجرده 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الدستجرده 	Khurasan,Sijistan,Transoxiana	TOWA بلخ 	Khurasan,Sijistan,Transoxiana	DIST نصف مرحلة 
+FROM اليهودية 	Khurasan,Sijistan,Transoxiana	TOWA قصر الأمير 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قصر الأمير 	Khurasan,Sijistan,Transoxiana	TOWA فارياب 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فارياب 	Khurasan,Sijistan,Transoxiana	TOWA كرك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كرك 	Khurasan,Sijistan,Transoxiana	TOWA الطالقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM اليهودية 	Khurasan,Sijistan,Transoxiana	TOWA أنبار 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أنبار 	Khurasan,Sijistan,Transoxiana	TOWA رباط 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط 	Khurasan,Sijistan,Transoxiana	TOWA بلخ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فارياب 	Khurasan,Sijistan,Transoxiana	TOWA آستانة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM آستانة 	Khurasan,Sijistan,Transoxiana	TOWA جوبين وملين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جوبين وملين 	Khurasan,Sijistan,Transoxiana	TOWA أندخوذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أندخوذ 	Khurasan,Sijistan,Transoxiana	TOWA رباط أفريغون 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط أفريغون 	Khurasan,Sijistan,Transoxiana	TOWA قنى غياث 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قنى غياث 	Khurasan,Sijistan,Transoxiana	TOWA كركوه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مرو 	Khurasan,Sijistan,Transoxiana	TOWA فاز 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فاز 	Khurasan,Sijistan,Transoxiana	TOWA مهدي آباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مهدي آباذ 	Khurasan,Sijistan,Transoxiana	TOWA بحيرآباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بحيرآباذ 	Khurasan,Sijistan,Transoxiana	TOWA القرينين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM القرينين 	Khurasan,Sijistan,Transoxiana	TOWA أسداباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM القرينين 	Khurasan,Sijistan,Transoxiana	TOWA حوزان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM حوزان 	Khurasan,Sijistan,Transoxiana	TOWA قصر أحنف 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM قصر أحنف 	Khurasan,Sijistan,Transoxiana	TOWA أرسكن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أرسكن 	Khurasan,Sijistan,Transoxiana	TOWA الأسراب 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الأسراب 	Khurasan,Sijistan,Transoxiana	TOWA كنجاباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كنجاباذ 	Khurasan,Sijistan,Transoxiana	TOWA الطالقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الطالقان 	Khurasan,Sijistan,Transoxiana	TOWA كسحان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كسحان 	Khurasan,Sijistan,Transoxiana	TOWA اليهودية 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مرو 	Khurasan,Sijistan,Transoxiana	TOWA جروجرد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جروجرد 	Khurasan,Sijistan,Transoxiana	TOWA الدندانقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الدندانقان 	Khurasan,Sijistan,Transoxiana	TOWA تلستانة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM تلستانة 	Khurasan,Sijistan,Transoxiana	TOWA أشترمغك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أشترمغك 	Khurasan,Sijistan,Transoxiana	TOWA سرخس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مرو 	Khurasan,Sijistan,Transoxiana	TOWA كشميهن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كشميهن 	Khurasan,Sijistan,Transoxiana	TOWA رباط الحديد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط الحديد 	Khurasan,Sijistan,Transoxiana	TOWA رباط نصرك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط نصرك 	Khurasan,Sijistan,Transoxiana	TOWA جب حماد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جب حماد 	Khurasan,Sijistan,Transoxiana	TOWA رباط بارس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط بارس 	Khurasan,Sijistan,Transoxiana	TOWA آمل 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM آمل 	Khurasan,Sijistan,Transoxiana	TOWA جيحون 	Khurasan,Sijistan,Transoxiana	DIST فرسخا 
+FROM ابشين 	Khurasan,Sijistan,Transoxiana	TOWA رباط شور 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط شور 	Khurasan,Sijistan,Transoxiana	TOWA رباط شار 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط شار 	Khurasan,Sijistan,Transoxiana	TOWA قرية القاضي 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية القاضي 	Khurasan,Sijistan,Transoxiana	TOWA شورمين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM شورمين 	Khurasan,Sijistan,Transoxiana	TOWA قرية المجوس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية المجوس 	Khurasan,Sijistan,Transoxiana	TOWA خاره 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خاره 	Khurasan,Sijistan,Transoxiana	TOWA رباط ميانه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط ميانه 	Khurasan,Sijistan,Transoxiana	TOWA كروخ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كروخ 	Khurasan,Sijistan,Transoxiana	TOWA هراة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ابشين 	Khurasan,Sijistan,Transoxiana	TOWA رباط كرزوان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط كرزوان 	Khurasan,Sijistan,Transoxiana	TOWA مرزك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مرزك 	Khurasan,Sijistan,Transoxiana	TOWA رباطروذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباطروذ 	Khurasan,Sijistan,Transoxiana	TOWA مروالروذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مروالروذ 	Khurasan,Sijistan,Transoxiana	TOWA جسر حر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جسر حر 	Khurasan,Sijistan,Transoxiana	TOWA الطالقان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM هراة 	Khurasan,Sijistan,Transoxiana	TOWA أسفزار 	Khurasan,Sijistan,Transoxiana	DIST ثلاثة مراحل 
+FROM هراة 	Khurasan,Sijistan,Transoxiana	TOWA مالن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM هراة 	Khurasan,Sijistan,Transoxiana	TOWA كروخ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM هراة 	Khurasan,Sijistan,Transoxiana	TOWA باشان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM باشان 	Khurasan,Sijistan,Transoxiana	TOWA خيسار 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خيسار 	Khurasan,Sijistan,Transoxiana	TOWA استربيان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM استربيان 	Khurasan,Sijistan,Transoxiana	TOWA ماراباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ماراباذ 	Khurasan,Sijistan,Transoxiana	TOWA أوفه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أوفه 	Khurasan,Sijistan,Transoxiana	TOWA خشت 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM هراة 	Khurasan,Sijistan,Transoxiana	TOWA ببنة 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM ببنة 	Khurasan,Sijistan,Transoxiana	TOWA كيف 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كيف 	Khurasan,Sijistan,Transoxiana	TOWA بغشور 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM غزنين 	Khurasan,Sijistan,Transoxiana	TOWA رباط البارد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط البارد 	Khurasan,Sijistan,Transoxiana	TOWA اسناخ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM اسناخ 	Khurasan,Sijistan,Transoxiana	TOWA حنس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM حنس 	Khurasan,Sijistan,Transoxiana	TOWA الباميان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM غزنين 	Khurasan,Sijistan,Transoxiana	TOWA كرديز 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كرديز 	Khurasan,Sijistan,Transoxiana	TOWA اوغ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بست 	Khurasan,Sijistan,Transoxiana	TOWA رباط فيروزقند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط فيروزقند 	Khurasan,Sijistan,Transoxiana	TOWA ميغون 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ميغون 	Khurasan,Sijistan,Transoxiana	TOWA رباط كشر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط كشر 	Khurasan,Sijistan,Transoxiana	TOWA بنجواى 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بنجواى 	Khurasan,Sijistan,Transoxiana	TOWA كراباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كراباذ 	Khurasan,Sijistan,Transoxiana	TOWA خرسان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خرسان 	Khurasan,Sijistan,Transoxiana	TOWA رباط سراب 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط سراب 	Khurasan,Sijistan,Transoxiana	TOWA رباط الاوقل 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط الاوقل 	Khurasan,Sijistan,Transoxiana	TOWA خنكل اباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خنكل اباذ 	Khurasan,Sijistan,Transoxiana	TOWA قرية غرم 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية غرم 	Khurasan,Sijistan,Transoxiana	TOWA قرية خاست 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية خاست 	Khurasan,Sijistan,Transoxiana	TOWA قرية جومة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قرية جومة 	Khurasan,Sijistan,Transoxiana	TOWA خايسار 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سفنجاوى 	Khurasan,Sijistan,Transoxiana	TOWA رباط 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط 	Khurasan,Sijistan,Transoxiana	TOWA جنكى 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جنكى 	Khurasan,Sijistan,Transoxiana	TOWA رباط الحجرية 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط الحجرية 	Khurasan,Sijistan,Transoxiana	TOWA بنجواى 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بست 	Khurasan,Sijistan,Transoxiana	TOWA داور 	Khurasan,Sijistan,Transoxiana	DIST 4 مراحل 
+FROM داور 	Khurasan,Sijistan,Transoxiana	TOWA الغور 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زرنج 	Khurasan,Sijistan,Transoxiana	TOWA كركويه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كركويه 	Khurasan,Sijistan,Transoxiana	TOWA بشتر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بشتر 	Khurasan,Sijistan,Transoxiana	TOWA جوين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جوين 	Khurasan,Sijistan,Transoxiana	TOWA بستك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بستك 	Khurasan,Sijistan,Transoxiana	TOWA كنجر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كنجر 	Khurasan,Sijistan,Transoxiana	TOWA سرشك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سرشك 	Khurasan,Sijistan,Transoxiana	TOWA وادي فره 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM وادي فره 	Khurasan,Sijistan,Transoxiana	TOWA فره 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فره 	Khurasan,Sijistan,Transoxiana	TOWA دره 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM دره 	Khurasan,Sijistan,Transoxiana	TOWA كوستان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كوستان 	Khurasan,Sijistan,Transoxiana	TOWA جاشان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جاشان 	Khurasan,Sijistan,Transoxiana	TOWA قناة سرى 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قناة سرى 	Khurasan,Sijistan,Transoxiana	TOWA الجبل الأسود 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الجبل الأسود 	Khurasan,Sijistan,Transoxiana	TOWA جامان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM جامان 	Khurasan,Sijistan,Transoxiana	TOWA هراة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زرنج 	Khurasan,Sijistan,Transoxiana	TOWA زانبوق 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زانبوق 	Khurasan,Sijistan,Transoxiana	TOWA سروزن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سروزن 	Khurasan,Sijistan,Transoxiana	TOWA حروري 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM حروري 	Khurasan,Sijistan,Transoxiana	TOWA دهك 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM دهك 	Khurasan,Sijistan,Transoxiana	TOWA رباط كرودين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط كرودين 	Khurasan,Sijistan,Transoxiana	TOWA رباط قهستان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط قهستان 	Khurasan,Sijistan,Transoxiana	TOWA رباط عبد الله 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM رباط عبد الله 	Khurasan,Sijistan,Transoxiana	TOWA بست 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زرنج 	Khurasan,Sijistan,Transoxiana	TOWA جزه 	Khurasan,Sijistan,Transoxiana	DIST 3 مراحل 
+FROM جزه 	Khurasan,Sijistan,Transoxiana	TOWA فره 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM جزه 	Khurasan,Sijistan,Transoxiana	TOWA القرنين 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM فره 	Khurasan,Sijistan,Transoxiana	TOWA له 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زرنج 	Khurasan,Sijistan,Transoxiana	TOWA الطاق 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM زرنج 	Khurasan,Sijistan,Transoxiana	TOWA كش 	Khurasan,Sijistan,Transoxiana	DIST 30 فرسخا 
+FROM قاين 	Khurasan,Sijistan,Transoxiana	TOWA تون 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قاين 	Khurasan,Sijistan,Transoxiana	TOWA ينابد 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM ينابد 	Khurasan,Sijistan,Transoxiana	TOWA كندر 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM كندر 	Khurasan,Sijistan,Transoxiana	TOWA طريثيث 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM ينابد 	Khurasan,Sijistan,Transoxiana	TOWA سنكان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سنكان 	Khurasan,Sijistan,Transoxiana	TOWA جايمن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سنكان 	Khurasan,Sijistan,Transoxiana	TOWA مالن كواخرز 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مالن كواخرز 	Khurasan,Sijistan,Transoxiana	TOWA بوزجان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM بوزجان 	Khurasan,Sijistan,Transoxiana	TOWA الملاحة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الملاحة 	Khurasan,Sijistan,Transoxiana	TOWA القصر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نيسابور 	Khurasan,Sijistan,Transoxiana	TOWA بيسكند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بيسكند 	Khurasan,Sijistan,Transoxiana	TOWA حسيناباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM حسيناباذ 	Khurasan,Sijistan,Transoxiana	TOWA خسروجرد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خسروجرد 	Khurasan,Sijistan,Transoxiana	TOWA النوق 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM خسروجرد 	Khurasan,Sijistan,Transoxiana	TOWA يحيى اباذ 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM أسداباذ 	Khurasan,Sijistan,Transoxiana	TOWA هفدر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نيسابور 	Khurasan,Sijistan,Transoxiana	TOWA قصر الريح 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قصر الريح 	Khurasan,Sijistan,Transoxiana	TOWA الرمادة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الرمادة 	Khurasan,Sijistan,Transoxiana	TOWA صاهه 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM صاهه 	Khurasan,Sijistan,Transoxiana	TOWA مزدوران 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مزدوران 	Khurasan,Sijistan,Transoxiana	TOWA اوكينة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM اوكينة 	Khurasan,Sijistan,Transoxiana	TOWA سرخس 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قصر الريح 	Khurasan,Sijistan,Transoxiana	TOWA فرهاكرد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فرهاكرد 	Khurasan,Sijistan,Transoxiana	TOWA نوكده 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نوكده 	Khurasan,Sijistan,Transoxiana	TOWA مالايكرد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM مالايكرد 	Khurasan,Sijistan,Transoxiana	TOWA بوزجان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بوزجان 	Khurasan,Sijistan,Transoxiana	TOWA كلنا 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كلنا 	Khurasan,Sijistan,Transoxiana	TOWA البق 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM البق 	Khurasan,Sijistan,Transoxiana	TOWA امده 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM امده 	Khurasan,Sijistan,Transoxiana	TOWA هراة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM القصر 	Khurasan,Sijistan,Transoxiana	TOWA الملاحة 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الملاحة 	Khurasan,Sijistan,Transoxiana	TOWA سنكان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM سنكان 	Khurasan,Sijistan,Transoxiana	TOWA ينابد 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM نيسابور 	Khurasan,Sijistan,Transoxiana	TOWA كلكاو 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كلكاو 	Khurasan,Sijistan,Transoxiana	TOWA الدارين 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM الدارين 	Khurasan,Sijistan,Transoxiana	TOWA نمخكن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ريك 	Khurasan,Sijistan,Transoxiana	TOWA فرخان 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM فرخان 	Khurasan,Sijistan,Transoxiana	TOWA بردر 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بردر 	Khurasan,Sijistan,Transoxiana	TOWA بغداد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بغداد 	Khurasan,Sijistan,Transoxiana	TOWA نسا 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM دزاوند 	Khurasan,Sijistan,Transoxiana	TOWA حويران 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM حويران 	Khurasan,Sijistan,Transoxiana	TOWA قلميهن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قلميهن 	Khurasan,Sijistan,Transoxiana	TOWA أبيورد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM قلميهن 	Khurasan,Sijistan,Transoxiana	TOWA كوفن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM كوفى 	Khurasan,Sijistan,Transoxiana	TOWA أبيورد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نيسابور 	Khurasan,Sijistan,Transoxiana	TOWA بغيشن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM بغيشن 	Khurasan,Sijistan,Transoxiana	TOWA القرية الحمراء 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM القرية الحمراء 	Khurasan,Sijistan,Transoxiana	TOWA المشهد 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM المشهد 	Khurasan,Sijistan,Transoxiana	TOWA طابران 	Khurasan,Sijistan,Transoxiana	DIST بريدين 
+FROM نيسابور 	Khurasan,Sijistan,Transoxiana	TOWA نشديغن 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM نيسابور 	Khurasan,Sijistan,Transoxiana	TOWA ريوند 	Khurasan,Sijistan,Transoxiana	DIST مرحلة 
+FROM ريوند 	Khurasan,Sijistan,Transoxiana	TOWA مهرجان 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM مهرجان 	Khurasan,Sijistan,Transoxiana	TOWA أسفراين 	Khurasan,Sijistan,Transoxiana	DIST مرحلتين 
+FROM الدامغان 	Daylam	TOWA الحدادة 	Daylam	DIST مرحلة 
+FROM الحدادة 	Daylam	TOWA بدش 	Daylam	DIST مرحلة 
+FROM بدش 	Daylam	TOWA مرجان 	Daylam	DIST مرحلة 
+FROM مرجان 	Daylam	TOWA هفدر 	Daylam	DIST مرحلة 
+FROM هفدر 	Daylam	TOWA أسداواذ 	Daylam	DIST مرحلة 
+FROM الدامغان 	Daylam	TOWA جرمجوى 	Daylam	DIST مرحلة 
+FROM جرمجوى 	Daylam	TOWA رباط علياباذ 	Daylam	DIST مرحلة 
+FROM رباط علياباذ 	Daylam	TOWA سمنان 	Daylam	DIST مرحلة 
+FROM سمنان 	Daylam	TOWA راس الكلب 	Daylam	DIST مرحلة 
+FROM راس الكلب 	Daylam	TOWA قرية الملح 	Daylam	DIST مرحلة 
+FROM قرية الملح 	Daylam	TOWA خوار الرى 	Daylam	DIST مرحلة 
+FROM الحدادة 	Daylam	TOWA بسطام 	Daylam	DIST مرحلة 
+FROM زرداباذ 	Daylam	TOWA خرماروذ 	Daylam	DIST مرحلة 
+FROM خرماروذ 	Daylam	TOWA جهينة 	Daylam	DIST مرحلة 
+FROM جهينة 	Daylam	TOWA جرجان 	Daylam	DIST مرحلة 
+FROM اسداواذ 	Daylam	TOWA طرثيث 	Daylam	DIST 30 فرسخا 
+FROM جرجان 	Daylam	TOWA دينازارى 	Daylam	DIST مرحلة 
+FROM دينازارى 	Daylam	TOWA املوتا 	Daylam	DIST مرحلة 
+FROM املوتا 	Daylam	TOWA اجغ 	Daylam	DIST مرحلة 
+FROM اجغ 	Daylam	TOWA سبداست 	Daylam	DIST مرحلة 
+FROM سبداست 	Daylam	TOWA أسفراين 	Daylam	DIST مرحلة 
+FROM أسفراين 	Daylam	TOWA آبسكون 	Daylam	DIST مرحلة 
+FROM أسفراين 	Daylam	TOWA آبسكون 	Daylam	DIST مرحلة 
+FROM أسفراين 	Daylam	TOWA رباط علي 	Daylam	DIST مرحلة 
+FROM رباط علي 	Daylam	TOWA رباط الأمير 	Daylam	DIST مرحلة 
+FROM رباط الأمير 	Daylam	TOWA بيلمك 	Daylam	DIST مرحلة 
+FROM بيلمك 	Daylam	TOWA رباط دهستان 	Daylam	DIST مرحلة 
+FROM آمل 	Daylam	TOWA بلور 	Daylam	DIST مرحلة 
+FROM بلور 	Daylam	TOWA اسك 	Daylam	DIST مرحلة 
+FROM اسك 	Daylam	TOWA بامهر 	Daylam	DIST مرحلة 
+FROM بامهر 	Daylam	TOWA برزيان 	Daylam	DIST مرحلة 
+FROM برزيان 	Daylam	TOWA الرى 	Daylam	DIST مرحلة 
+FROM آمل 	Daylam	TOWA مامطير 	Daylam	DIST مرحلة 
+FROM مامطير 	Daylam	TOWA سارية 	Daylam	DIST مرحلة 
+FROM سارية 	Daylam	TOWA ابارست 	Daylam	DIST مرحلة 
+FROM ابارست 	Daylam	TOWA ابادان 	Daylam	DIST مرحلة 
+FROM ابادان 	Daylam	TOWA طميسة 	Daylam	DIST مرحلة 
+FROM طميسة 	Daylam	TOWA أستراباذ 	Daylam	DIST مرحلة 
+FROM أستراباذ 	Daylam	TOWA جرجان 	Daylam	DIST مرحلتين 
+FROM جرجان 	Daylam	TOWA الديلمان 	Daylam	DIST 12 مرحلة 
+FROM الديلمان 	Daylam	TOWA أردبيل 	Daylam	DIST 12 مرحلة 
+FROM آبسكون 	Daylam	TOWA أستراباذ 	Daylam	DIST مرحلة 
+FROM أستراباذ 	Daylam	TOWA سارية 	Daylam	DIST 4 مراحل 
+FROM آمل 	Daylam	TOWA ناتل 	Daylam	DIST مرحلة 
+FROM ناتل 	Daylam	TOWA سالوس 	Daylam	DIST مرحلة 
+FROM سالوس 	Daylam	TOWA كلار 	Daylam	DIST مرحلة 
+FROM كلار 	Daylam	TOWA جبال الديلم 	Daylam	DIST مرحلة 
+FROM سالوس 	Daylam	TOWA إسبيدروذ 	Daylam	DIST مرحلة 
+FROM إسبيدروذ 	Daylam	TOWA قرية الرصد 	Daylam	DIST مرحلة 
+FROM قرية الرصد 	Daylam	TOWA خشم 	Daylam	DIST مرحلة 
+FROM خشم 	Daylam	TOWA بيلمان 	Daylam	DIST 4 مراحل 
+FROM بيلمان 	Daylam	TOWA الدولاب 	Daylam	DIST 4 مراحل 
+FROM الدولاب 	Daylam	TOWA كهن روذ 	Daylam	DIST 3 مراحل 
+FROM كهن روذ  	Daylam	TOWA موغكان 	Daylam	DIST مرحلتين 
+FROM موغكان 	Daylam	TOWA الكر 	Daylam	DIST مرحلتين 
+FROM الكر 	Daylam	TOWA هشتاذر 	Daylam	DIST مرحلتين 
+FROM هشتاذر 	Daylam	TOWA الشماخية 	Daylam	DIST مرحلتين 
+FROM برذعة 	Rihab	TOWA يونان 	Rihab	DIST مرحلة 
+FROM برذعة 	Rihab	TOWA برديج 	Rihab	DIST مرحلة 
+FROM برذعة 	Rihab	TOWA جنزة 	Rihab	DIST مرحلة 
+FROM برذعة 	Rihab	TOWA قلقاطوس 	Rihab	DIST مرحلة 
+FROM يونان 	Rihab	TOWA البيلقان 	Rihab	DIST مرحلة 
+FROM البيلقان 	Rihab	TOWA ورثان 	Rihab	DIST مرحلة 
+FROM ورثان 	Rihab	TOWA تلخاب 	Rihab	DIST مرحلة 
+FROM تلخاب 	Rihab	TOWA برزند 	Rihab	DIST مرحلة 
+FROM برزند 	Rihab	TOWA أردبيل 	Rihab	DIST مرحلة 
+FROM برديج 	Rihab	TOWA الشماخية 	Rihab	DIST مرحلتين 
+FROM الشماخية 	Rihab	TOWA شروان 	Rihab	DIST 3 مراحل 
+FROM شروان 	Rihab	TOWA الابخان 	Rihab	DIST مرحلتين 
+FROM الابخان 	Rihab	TOWA جسر سمور 	Rihab	DIST مرحلتين 
+FROM جسر سمور 	Rihab	TOWA باب الأبواب 	Rihab	DIST 3 مراحل 
+FROM جنزة 	Rihab	TOWA شمكور 	Rihab	DIST مرحلة 
+FROM شمكور 	Rihab	TOWA خنان 	Rihab	DIST 3 مراحل 
+FROM خنان 	Rihab	TOWA قلعة ابن كندمان 	Rihab	DIST مرحلة 
+FROM قلعة ابن كندمان 	Rihab	TOWA تفليس 	Rihab	DIST مرحلتين 
+FROM قلقاطوس 	Rihab	TOWA متريس 	Rihab	DIST مرحلتين 
+FROM متريس 	Rihab	TOWA دميس 	Rihab	DIST مرحلتين 
+FROM دميس 	Rihab	TOWA كيلكونى 	Rihab	DIST مرحلتين 
+FROM دبيل 	Rihab	TOWA نشوى 	Rihab	DIST 4 مراحل 
+FROM نشوى 	Rihab	TOWA خوى 	Rihab	DIST 3 أيام 
+FROM خوى 	Rihab	TOWA سلماس 	Rihab	DIST مرحلتين 
+FROM سلماس 	Rihab	TOWA أرمية 	Rihab	DIST مرحلة 
+FROM أرمية 	Rihab	TOWA خرقان 	Rihab	DIST مرحلتين 
+FROM خرقان 	Rihab	TOWA مراغة 	Rihab	DIST مرحلتين 
+FROM مراغة 	Rihab	TOWA أردبيل 	Rihab	DIST 40 فرسخا 
+FROM مراغة 	Rihab	TOWA قندرية 	Rihab	DIST مرحلتين 
+FROM قلعة الحسن بن علي 	Rihab	TOWA شهرزور 	Rihab	DIST 30 فرسخا 
+FROM مراغة 	Rihab	TOWA نورين 	Rihab	DIST مرحلة 
+FROM خوى 	Rihab	TOWA قلعة يونس 	Rihab	DIST 6 مراحل 
+FROM قلعة يونس 	Rihab	TOWA قرية العصبيات 	Rihab	DIST مرحلة 
+FROM تفليس 	Rihab	TOWA تبلا 	Rihab	DIST مرحلتين 
+FROM تبلا 	Rihab	TOWA شكى 	Rihab	DIST مرحلتين 
+FROM شكى 	Rihab	TOWA لكزان 	Rihab	DIST مرحلتين 
+FROM لكزان 	Rihab	TOWA الباب 	Rihab	DIST 2 مراحل 
+FROM مراغة 	Rihab	TOWA الخرقان 	Rihab	DIST مرحلتين 
+FROM الخرقان 	Rihab	TOWA تبريز 	Rihab	DIST مرحلة 
+FROM تبريز 	Rihab	TOWA مرند 	Rihab	DIST مرحلة 
+FROM أردبيل 	Rihab	TOWA النير 	Rihab	DIST مرحلة 
+FROM النير 	Rihab	TOWA سراة 	Rihab	DIST مرحلة 
+FROM سراة 	Rihab	TOWA كولسره 	Rihab	DIST مرحلة 
+FROM كولسره 	Rihab	TOWA مراغة 	Rihab	DIST مرحلة 
+FROM مراغة 	Rihab	TOWA خره روذ 	Rihab	DIST مرحلة 
+FROM خره روذ 	Rihab	TOWA موسى آباذ 	Rihab	DIST مرحلة 
+FROM موسى آباذ 	Rihab	TOWA برزة 	Rihab	DIST بريدين 
+FROM برزة 	Rihab	TOWA تفليس 	Rihab	DIST بريدا 
+FROM بريدا 	Rihab	TOWA جابروان 	Rihab	DIST مرحلة 
+FROM جابروان 	Rihab	TOWA نريز 	Rihab	DIST مرحلة 
+FROM نريز 	Rihab	TOWA أرومية 	Rihab	DIST مرحلة 
+FROM مرند 	Rihab	TOWA النشوى 	Rihab	DIST مرحلتين 
+FROM النشوى 	Rihab	TOWA دبيل 	Rihab	DIST مرحلتين 
+FROM مراغة 	Rihab	TOWA سابرخاست 	Rihab	DIST مرحلة 
+FROM سابرخاست 	Rihab	TOWA برزة 	Rihab	DIST مرحلة 
+FROM برزة 	Rihab	TOWA البيلقان 	Rihab	DIST مرحلة 
+FROM البيلقان 	Rihab	TOWA سيسر 	Rihab	DIST مرحلة 
+FROM سيسر 	Rihab	TOWA تل وان 	Rihab	DIST مرحلة 
+FROM تل وان 	Rihab	TOWA الخبارجان 	Rihab	DIST مرحلة 
+FROM الخبارجان 	Rihab	TOWA الدينور 	Rihab	DIST مرحلة 
+FROM أردبيل 	Rihab	TOWA الميانج 	Rihab	DIST مرحلتين 
+FROM نوى 	Rihab	TOWA زنجان 	Rihab	DIST مرحلة 
+FROM الميانج 	Rihab	TOWA خونج 	Rihab	DIST مرحلة 
+FROM خونج 	Rihab	TOWA كولسره 	Rihab	DIST مرحلة 
+FROM كولسره 	Rihab	TOWA مراغة 	Rihab	DIST مرحلة 
+FROM مراغة 	Rihab	TOWA خرقان 	Rihab	DIST مرحلتين 
+FROM مراغة 	Rihab	TOWA أرمية 	Rihab	DIST مرحلتين 
+FROM خرقان 	Rihab	TOWA سلماس 	Rihab	DIST مرحلتين 
+FROM أرمية 	Rihab	TOWA سلماس 	Rihab	DIST مرحلتين 
+FROM سلماس 	Rihab	TOWA خوى 	Rihab	DIST مرحلة 
+FROM خوى 	Rihab	TOWA بركرى 	Rihab	DIST 5 مراحل 
+FROM بركرى 	Rihab	TOWA أرجيش 	Rihab	DIST مرحلتين 
+FROM أرجيش 	Rihab	TOWA أخلاط 	Rihab	DIST ثلاثا مراحل 
+FROM أرجيش 	Rihab	TOWA بدليس 	Rihab	DIST ثلاثا مراحل 
+FROM بدليس 	Rihab	TOWA آمد 	Rihab	DIST أربعا مراحل 
+FROM بدليس 	Rihab	TOWA ميافارقين 	Rihab	DIST أربعا مراحل 
+FROM مراغة 	Rihab	TOWA الدينور 	Rihab	DIST 60 فرسخا 
+FROM برقوى 	Rihab	TOWA ملازكرد 	Rihab	DIST 3 أيام 
+FROM ملازكرد 	Rihab	TOWA أرزن 	Rihab	DIST 6 أيام 
+FROM أرزن 	Rihab	TOWA آمد 	Rihab	DIST 4 أيام 
+FROM الرى 	Jibal	TOWA كيلين 	Jibal	DIST مرحلة 
+FROM كيلين 	Jibal	TOWA كيس 	Jibal	DIST مرحلة 
+FROM كيس 	Jibal	TOWA الخوار 	Jibal	DIST مرحلة 
+FROM الرى 	Jibal	TOWA قسطان 	Jibal	DIST مرحلة 
+FROM قسطان 	Jibal	TOWA مشكويه 	Jibal	DIST مرحلة 
+FROM مشكويه 	Jibal	TOWA ودروه 	Jibal	DIST مرحلة 
+FROM ودروه 	Jibal	TOWA ساوة 	Jibal	DIST مرحلة 
+FROM ساوة 	Jibal	TOWA سونقين 	Jibal	DIST مرحلة 
+FROM سونقين 	Jibal	TOWA المصدقان 	Jibal	DIST مرحلة 
+FROM المصدقان 	Jibal	TOWA الروذة 	Jibal	DIST مرحلة 
+FROM الروذة 	Jibal	TOWA الدكان 	Jibal	DIST مرحلة 
+FROM همذان 	Jibal	TOWA بوزنجرد 	Jibal	DIST مرحلة 
+FROM بوزنجرد 	Jibal	TOWA قرية الجن 	Jibal	DIST مرحلة 
+FROM قرية الجن 	Jibal	TOWA الدكان 	Jibal	DIST مرحلة 
+FROM همذان 	Jibal	TOWA أسداواذ 	Jibal	DIST مرحلة 
+FROM أسداواذ 	Jibal	TOWA قصر اللصوص 	Jibal	DIST مرحلة 
+FROM قصر اللصوص 	Jibal	TOWA قنطرة النعمان 	Jibal	DIST مرحلة 
+FROM قنطرة النعمان 	Jibal	TOWA جبل بيستون 	Jibal	DIST مرحلة 
+FROM جبل بيستون 	Jibal	TOWA قرماسين 	Jibal	DIST مرحلة 
+FROM قرماسين 	Jibal	TOWA قصر عمرو 	Jibal	DIST بريدين 
+FROM قصر عمرو 	Jibal	TOWA الزبيدية 	Jibal	DIST مرحلة 
+FROM الزبيدية 	Jibal	TOWA طزر 	Jibal	DIST نصف مرحلة 
+FROM طزر 	Jibal	TOWA المرج 	Jibal	DIST نصف مرحلة 
+FROM طزر 	Jibal	TOWA حلوان 	Jibal	DIST مرحلة 
+FROM كرج 	Jibal	TOWA سواد مقولة 	Jibal	DIST مرحلة 
+FROM سواد مقولة 	Jibal	TOWA خوزن 	Jibal	DIST مرحلة 
+FROM خوزن 	Jibal	TOWA برزانيان 	Jibal	DIST مرحلة 
+FROM برزانيان 	Jibal	TOWA آوه 	Jibal	DIST مرحلة 
+FROM آوه 	Jibal	TOWA قرية جرا 	Jibal	DIST مرحلة 
+FROM قرية جرا 	Jibal	TOWA رباط جرا 	Jibal	DIST مرحلة 
+FROM رباط جرا 	Jibal	TOWA ورامين 	Jibal	DIST مرحلة 
+FROM ورامين 	Jibal	TOWA كسكانة 	Jibal	DIST مرحلة 
+FROM كسكانة 	Jibal	TOWA الرى 	Jibal	DIST مرحلة 
+FROM كرج 	Jibal	TOWA وفراوندة 	Jibal	DIST مرحلة 
+FROM وفراوندة 	Jibal	TOWA دارقان 	Jibal	DIST مرحلة 
+FROM دارقان 	Jibal	TOWA خروذ 	Jibal	DIST مرحلة 
+FROM خروذ 	Jibal	TOWA سابرخواس 	Jibal	DIST مرحلة 
+FROM سابرخواس 	Jibal	TOWA كركويش 	Jibal	DIST مرحلة 
+FROM كركويش 	Jibal	TOWA الخان 	Jibal	DIST مرحلة 
+FROM الخان 	Jibal	TOWA رزمانان 	Jibal	DIST مرحلة 
+FROM رزمانان 	Jibal	TOWA اللور 	Jibal	DIST مرحلة 
+FROM قصر اللصوص 	Jibal	TOWA كير حراس 	Jibal	DIST مرحلة 
+FROM كير حراس 	Jibal	TOWA نهاوند 	Jibal	DIST بريدين 
+FROM همذان 	Jibal	TOWA الديمر 	Jibal	DIST مرحلة 
+FROM الديمر 	Jibal	TOWA راكاه 	Jibal	DIST مرحلة 
+FROM راكاه 	Jibal	TOWA نهاوند 	Jibal	DIST مرحلة 
+FROM نهاوند 	Jibal	TOWA راكاه 	Jibal	DIST مرحلة 
+FROM راكاه 	Jibal	TOWA جوراب 	Jibal	DIST مرحلة 
+FROM جوراب 	Jibal	TOWA الكرج 	Jibal	DIST مرحلة 
+FROM همذان 	Jibal	TOWA طاق سعيد 	Jibal	DIST مرحلة 
+FROM طاق سعيد 	Jibal	TOWA جوراب 	Jibal	DIST مرحلة 
+FROM الكرج 	Jibal	TOWA جراناباذ 	Jibal	DIST مرحلة 
+FROM جراناباذ 	Jibal	TOWA ابتعه 	Jibal	DIST مرحلة 
+FROM ابتعه 	Jibal	TOWA جرباذقان 	Jibal	DIST مرحلة 
+FROM جرباذقان 	Jibal	TOWA قنوان 	Jibal	DIST مرحلة 
+FROM قنوان 	Jibal	TOWA مرج وزهر 	Jibal	DIST مرحلة 
+FROM مرج وزهر 	Jibal	TOWA الماريين 	Jibal	DIST بريدين 
+FROM الماريين 	Jibal	TOWA ازميران 	Jibal	DIST مرحلتين 
+FROM ازميران 	Jibal	TOWA اليهودية 	Jibal	DIST نصف مرحلة 
+FROM السوس 	Khuzistan	TOWA قرقوب 	Khuzistan	DIST مرحلة 
+FROM قرقوب 	Khuzistan	TOWA الطيب 	Khuzistan	DIST مرحلة 
+FROM السوس 	Khuzistan	TOWA بصنا 	Khuzistan	DIST بريدين 
+FROM بصنا 	Khuzistan	TOWA البذان 	Khuzistan	DIST بريدين 
+FROM جنديسابور 	Khuzistan	TOWA اللور 	Khuzistan	DIST مرحلة 
+FROM اللور 	Khuzistan	TOWA الدز 	Khuzistan	DIST مرحلتين 
+FROM الدز 	Khuzistan	TOWA رايكان 	Khuzistan	DIST مرحلة 
+FROM رايكان 	Khuzistan	TOWA كلبايكان 	Khuzistan	DIST 40 فرسخا 
+FROM كلبايكان 	Khuzistan	TOWA كرج ابى دلف 	Khuzistan	DIST مرحلة 
+FROM تستر 	Khuzistan	TOWA قرية الرمل 	Khuzistan	DIST مرحلة 
+FROM قرية الرمل 	Khuzistan	TOWA بصنا 	Khuzistan	DIST مرحلة 
+FROM العسكر 	Khuzistan	TOWA تستر 	Khuzistan	DIST مرحلة 
+FROM العسكر 	Khuzistan	TOWA الأهواز 	Khuzistan	DIST مرحلة 
+FROM جنديسابور 	Khuzistan	TOWA السوس 	Khuzistan	DIST مرحلة 
+FROM جنديسابور 	Khuzistan	TOWA تستر 	Khuzistan	DIST مرحلة 
+FROM بيروت 	Khuzistan	TOWA السوس 	Khuzistan	DIST مرحلة 
+FROM بيروت 	Khuzistan	TOWA البذان 	Khuzistan	DIST مرحلة 
+FROM الأهواز 	Khuzistan	TOWA شوراب 	Khuzistan	DIST بريدا 
+FROM شوراب 	Khuzistan	TOWA مندم 	Khuzistan	DIST مرحلة 
+FROM مندم 	Khuzistan	TOWA قصبة الدورق 	Khuzistan	DIST مرحلة 
+FROM الأهواز 	Khuzistan	TOWA سوق الأربعاء 	Khuzistan	DIST مرحلة 
+FROM سوق الأربعاء 	Khuzistan	TOWA حصن مهدى 	Khuzistan	DIST مرحلة 
+FROM حصن مهدى 	Khuzistan	TOWA فم العضدى 	Khuzistan	DIST مرحلة 
+FROM حصن مهدى 	Khuzistan	TOWA بيان 	Khuzistan	DIST مرحلة 
+FROM الأهواز 	Khuzistan	TOWA أجم 	Khuzistan	DIST مرحلة 
+FROM أجم 	Khuzistan	TOWA آزر 	Khuzistan	DIST مرحلة 
+FROM آزر 	Khuzistan	TOWA رامهرمز 	Khuzistan	DIST مرحلة 
+FROM الأهواز 	Khuzistan	TOWA الدورق 	Khuzistan	DIST مرحلة 
+FROM الدورق 	Khuzistan	TOWA خان 	Khuzistan	DIST مرحلة 
+FROM خان 	Khuzistan	TOWA بصنا 	Khuzistan	DIST مرحلة 
+FROM بصنا 	Khuzistan	TOWA قرية الرمل 	Khuzistan	DIST مرحلة 
+FROM قرية الرمل 	Khuzistan	TOWA قرقوب 	Khuzistan	DIST مرحلة 
+FROM الأهواز 	Khuzistan	TOWA نهر تيري 	Khuzistan	DIST مرحلة 
+FROM نهر تيري 	Khuzistan	TOWA نهر العباس 	Khuzistan	DIST مرحلة 
+FROM نهر العباس 	Khuzistan	TOWA الخوزية 	Khuzistan	DIST مرحلة 
+FROM الخوزية 	Khuzistan	TOWA الأبلة 	Khuzistan	DIST مرحلة 
+FROM الأهواز 	Khuzistan	TOWA الاسحاقية 	Khuzistan	DIST مرحلة 
+FROM الاسحاقية 	Khuzistan	TOWA الجسر المحترق 	Khuzistan	DIST مرحلة 
+FROM الجسر المحترق 	Khuzistan	TOWA حصن مهدى 	Khuzistan	DIST مرحلة 
+FROM نهر العباس 	Khuzistan	TOWA عسكر ابى جعفر 	Khuzistan	DIST مرحلة 
+FROM رامهرمز 	Khuzistan	TOWA سنبل 	Khuzistan	DIST مرحلتين 
+FROM سنبل 	Khuzistan	TOWA أرجان 	Khuzistan	DIST مرحلة 
+FROM رامهرمز 	Khuzistan	TOWA تيرم 	Khuzistan	DIST مرحلة 
+FROM تيرم 	Khuzistan	TOWA غروة 	Khuzistan	DIST مرحلة 
+FROM غروة 	Khuzistan	TOWA البازير 	Khuzistan	DIST بريدين 
+FROM البازير 	Khuzistan	TOWA إيذج 	Khuzistan	DIST مرحلة 
+FROM إيذج 	Khuzistan	TOWA الدز 	Khuzistan	DIST مرحلة 
+FROM الدز 	Khuzistan	TOWA الدولاب 	Khuzistan	DIST مرحلة 
+FROM الرام 	Khuzistan	TOWA الزط 	Khuzistan	DIST مرحلة 
+FROM رامهرمز 	Khuzistan	TOWA بده 	Khuzistan	DIST مرحلة 
+FROM بده 	Khuzistan	TOWA جسر جهنم 	Khuzistan	DIST مرحلة 
+FROM ارجان 	Faris	TOWA ريشهر 	Faris	DIST مرحلة 
+FROM ريشهر 	Faris	TOWA مهربان 	Faris	DIST مرحلة 
+FROM ارجان 	Faris	TOWA بسابك 	Faris	DIST مرحلة 
+FROM بسابك 	Faris	TOWA دهليزان 	Faris	DIST مرحلة 
+FROM دهليزان 	Faris	TOWA خابران 	Faris	DIST بريدين 
+FROM خابران 	Faris	TOWA وادي الملح 	Faris	DIST مرحلة 
+FROM وادي الملح 	Faris	TOWA رامهرمز 	Faris	DIST بريدين 
+FROM ارجان 	Faris	TOWA الزيتون 	Faris	DIST بريدين 
+FROM الزيتون 	Faris	TOWA حبس 	Faris	DIST مرحلة 
+FROM حبس 	Faris	TOWA بندق 	Faris	DIST مرحلة 
+FROM بندق 	Faris	TOWA جنبد 	Faris	DIST بريدين 
+FROM بندق 	Faris	TOWA جنبد 	Faris	DIST بريدا 
+FROM جنبد 	Faris	TOWA زنك 	Faris	DIST بريدين 
+FROM زنك 	Faris	TOWA دخويذ 	Faris	DIST مرحلة 
+FROM دخويذ 	Faris	TOWA خواذان 	Faris	DIST بريدين 
+FROM خواذان 	Faris	TOWA النوبندجان 	Faris	DIST بريدين 
+FROM ارجان 	Faris	TOWA كنيسة المجوس 	Faris	DIST مرحلة 
+FROM ارجان 	Faris	TOWA كنيسة المجوس 	Faris	DIST مرحلة 
+FROM كنيسة المجوس 	Faris	TOWA الزيز 	Faris	DIST مرحلة 
+FROM الزيز 	Faris	TOWA العينية 	Faris	DIST مرحلة 
+FROM العينية 	Faris	TOWA النهر 	Faris	DIST مرحلة 
+FROM النهر 	Faris	TOWA خرندة 	Faris	DIST مرحلة 
+FROM خرندة 	Faris	TOWA سميرم 	Faris	DIST مرحلة 
+FROM مهربان 	Faris	TOWA سينيز 	Faris	DIST مرحلة 
+FROM مهربان 	Faris	TOWA النهر 	Faris	DIST مرحلة 
+FROM النهر 	Faris	TOWA ارجان 	Faris	DIST مرحلة 
+FROM سينيز 	Faris	TOWA سنجاهان 	Faris	DIST مرحلة 
+FROM سنجاهان 	Faris	TOWA جنابة 	Faris	DIST مرحلة 
+FROM جنابة 	Faris	TOWA دشت داودي 	Faris	DIST مرحلة 
+FROM دشت داودي 	Faris	TOWA توز 	Faris	DIST مرحلة 
+FROM توز 	Faris	TOWA خشت 	Faris	DIST مرحلة 
+FROM خشت 	Faris	TOWA نيماراه 	Faris	DIST مرحلة 
+FROM نيماراه 	Faris	TOWA سابور 	Faris	DIST مرحلة 
+FROM سيراف 	Faris	TOWA جم 	Faris	DIST مرحلة 
+FROM جم 	Faris	TOWA برزرة 	Faris	DIST مرحلة 
+FROM برزرة 	Faris	TOWA كيرند 	Faris	DIST مرحلة 
+FROM كيرند 	Faris	TOWA مه 	Faris	DIST مرحلة 
+FROM مه 	Faris	TOWA رايكان 	Faris	DIST مرحلة 
+FROM رايكان 	Faris	TOWA بيابشوراب 	Faris	DIST مرحلة 
+FROM بيابشوراب 	Faris	TOWA جور 	Faris	DIST مرحلة 
+FROM سيراف 	Faris	TOWA عمان 	Faris	DIST خمس الى عشر فرسخا في البحر 
+FROM سيراف 	Faris	TOWA البصرة 	Faris	DIST خمس الى عشر فرسخا في البحر 
+FROM سيراف 	Faris	TOWA البحرين 	Faris	DIST سبعون فرسخا 
+FROM درابجرد 	Faris	TOWA خسو 	Faris	DIST مرحلة 
+FROM خسو 	Faris	TOWA كرب 	Faris	DIST مرحلة 
+FROM كرب 	Faris	TOWA جويم ابى احمد 	Faris	DIST مرحلة 
+FROM جويم ابى احمد 	Faris	TOWA كاريان 	Faris	DIST مرحلة 
+FROM كاريان 	Faris	TOWA باراب 	Faris	DIST مرحلة 
+FROM باراب 	Faris	TOWA كران 	Faris	DIST مرحلة 
+FROM كران 	Faris	TOWA سيراف 	Faris	DIST مرحلة 
+FROM درابجرد 	Faris	TOWA جرموا 	Faris	DIST مرحلة 
+FROM جرموا 	Faris	TOWA رستاق الرستاق 	Faris	DIST مرحلة 
+FROM رستاق الرستاق 	Faris	TOWA برك 	Faris	DIST مرحلة 
+FROM برك 	Faris	TOWA تارم 	Faris	DIST مرحلة 
+FROM درابجرد 	Faris	TOWA جاه زندايا 	Faris	DIST مرحلة 
+FROM جاه زندايا 	Faris	TOWA تيمارستان 	Faris	DIST مرحلة 
+FROM تيمارستان 	Faris	TOWA فسا 	Faris	DIST نصف مرحلة 
+FROM شيراز 	Faris	TOWA كفره 	Faris	DIST مرحلة 
+FROM كفره 	Faris	TOWA كول 	Faris	DIST مرحلة 
+FROM كول 	Faris	TOWA بومهان 	Faris	DIST مرحلة 
+FROM بومهان 	Faris	TOWA جور 	Faris	DIST مرحلة 
+FROM شيراز 	Faris	TOWA قرية جويم 	Faris	DIST مرحلة 
+FROM قرية جويم 	Faris	TOWA خلار 	Faris	DIST بريدين 
+FROM خلار 	Faris	TOWA الخرارة 	Faris	DIST بريدين 
+FROM الخرارة 	Faris	TOWA جركان 	Faris	DIST مرحلة 
+FROM جركان 	Faris	TOWA النوبندجان 	Faris	DIST مرحلة 
+FROM شيراز 	Faris	TOWA قرية الرمان 	Faris	DIST مرحلة 
+FROM قرية الرمان 	Faris	TOWA سروستان 	Faris	DIST مرحلة 
+FROM سروستان 	Faris	TOWA كرم 	Faris	DIST مرحلة 
+FROM كرم 	Faris	TOWA فسا 	Faris	DIST مرحلة 
+FROM شيراز 	Faris	TOWA داريان 	Faris	DIST مرحلة 
+FROM داريان 	Faris	TOWA خرمة 	Faris	DIST مرحلة 
+FROM خرمة 	Faris	TOWA كث 	Faris	DIST مرحلة 
+FROM كث 	Faris	TOWA خير 	Faris	DIST مرحلة 
+FROM خير 	Faris	TOWA نيريز 	Faris	DIST مرحلة 
+FROM نيريز 	Faris	TOWA كدروا 	Faris	DIST مرحلة 
+FROM كدروا 	Faris	TOWA رباط زرودوا 	Faris	DIST مرحلة 
+FROM رباط زرودوا 	Faris	TOWA نهر من 	Faris	DIST مرحلة 
+FROM نهر من 	Faris	TOWA هنته 	Faris	DIST مرحلة 
+FROM هنته 	Faris	TOWA بيمند 	Faris	DIST مرحلة 
+FROM بيمند 	Faris	TOWA السيرجان 	Faris	DIST بريدين 
+FROM شيراز 	Faris	TOWA ركان 	Faris	DIST مرحلة 
+FROM ركان 	Faris	TOWA راس السكر 	Faris	DIST مرحلة 
+FROM راس السكر 	Faris	TOWA زياداباذ 	Faris	DIST مرحلة 
+FROM زياداباذ 	Faris	TOWA جب أمير المؤمنين 	Faris	DIST مرحلة 
+FROM جب أمير المؤمنين 	Faris	TOWA راس الدنيا 	Faris	DIST مرحلة 
+FROM شيراز 	Faris	TOWA صاهه 	Faris	DIST مرحلة 
+FROM صاهه 	Faris	TOWA دشت أرزن 	Faris	DIST مرحلة 
+FROM فسا 	Faris	TOWA كارزين 	Faris	DIST مرحلة 
+FROM كارزين 	Faris	TOWA هرمز 	Faris	DIST مرحلة 
+FROM كارزين 	Faris	TOWA خارزين 	Faris	DIST مرحلة 
+FROM شيراز 	Faris	TOWA كثة 	Faris	DIST ستين فرسخ 
+FROM شيراز 	Faris	TOWA تارم 	Faris	DIST ستين فرسخ 
+FROM شيراز 	Faris	TOWA نجيرم 	Faris	DIST ستين فرسخ 
+FROM شيراز 	Faris	TOWA نهر طاب 	Faris	DIST ستين فرسخ 
+FROM شيراز 	Faris	TOWA سينيز 	Faris	DIST ثمانين فرسخ 
+FROM شيراز 	Faris	TOWA الروذان 	Faris	DIST ثمانين فرسخ 
+FROM شيراز 	Faris	TOWA سورو 	Faris	DIST ثمانين فرسخ 
+FROM شيراز 	Faris	TOWA أصفهان 	Faris	DIST ثمانين فرسخ 
+FROM سابور 	Faris	TOWA شيراز 	Faris	DIST 18 فرسخ 
+FROM كازرون 	Faris	TOWA شيراز 	Faris	DIST 18 فرسخ 
+FROM خره 	Faris	TOWA شيراز 	Faris	DIST ستة فرسخ 
+FROM جور 	Faris	TOWA شيراز 	Faris	DIST عشرون فرسخ 
+FROM سابور 	Faris	TOWA كازرون 	Faris	DIST مرحلة 
+FROM كازرون 	Faris	TOWA خره 	Faris	DIST مرحلة 
+FROM سابور 	Faris	TOWA النوبندجان 	Faris	DIST مرحلة 
+FROM سابور 	Faris	TOWA كرك 	Faris	DIST مرحلة 
+FROM كرك 	Faris	TOWA دشت ارزن 	Faris	DIST مرحلة 
+FROM كازرون 	Faris	TOWA قرية الحطب 	Faris	DIST بريدين 
+FROM قرية الحطب 	Faris	TOWA دشت ارزن 	Faris	DIST بريدين 
+FROM كازرون 	Faris	TOWA دريز 	Faris	DIST بريدين 
+FROM دريز 	Faris	TOWA راس العقبة 	Faris	DIST بريدين 
+FROM راس العقبة 	Faris	TOWA توز 	Faris	DIST بريدين 
+FROM توز 	Faris	TOWA قرية 	Faris	DIST بريدين 
+FROM قرية 	Faris	TOWA جنابة 	Faris	DIST بريدين 
+FROM إصطخر 	Faris	TOWA راس السكر 	Faris	DIST بريدين 
+FROM إصطخر 	Faris	TOWA البيضاء 	Faris	DIST مرحلة 
+FROM إصطخر 	Faris	TOWA قرية الحمام 	Faris	DIST مرحلة 
+FROM قرية الحمام 	Faris	TOWA زيادواذ 	Faris	DIST بريدا 
+FROM زيادواذ 	Faris	TOWA جب أمير المؤمنين 	Faris	DIST مرحلة 
+FROM جب أمير المؤمنين 	Faris	TOWA هراة 	Faris	DIST مرحلة 
+FROM هراة 	Faris	TOWA راذان 	Faris	DIST مرحلة 
+FROM راذان 	Faris	TOWA شاباوك 	Faris	DIST مرحلة 
+FROM شاباوك 	Faris	TOWA روار 	Faris	DIST مرحلة 
+FROM روار 	Faris	TOWA قرية الجمال 	Faris	DIST مرحلة 
+FROM قرية الجمال 	Faris	TOWA الروذان 	Faris	DIST مرحلة 
+FROM إصطخر 	Faris	TOWA بئر 	Faris	DIST بريدين 
+FROM بئر 	Faris	TOWA كهمندة 	Faris	DIST مرحلة 
+FROM كهمندة 	Faris	TOWA قرية بيذ 	Faris	DIST مرحلة 
+FROM قرية بيذ 	Faris	TOWA أبرقوه 	Faris	DIST مرحلة 
+FROM أبرقوه 	Faris	TOWA قرية الأسد 	Faris	DIST مرحلة 
+FROM قرية الأسد 	Faris	TOWA الأرد 	Faris	DIST مرحلة 
+FROM الأرد 	Faris	TOWA قلعة المجوس 	Faris	DIST مرحلة 
+FROM قلعة المجوس 	Faris	TOWA كثة 	Faris	DIST مرحلة 
+FROM كثة 	Faris	TOWA أنجيره 	Faris	DIST مرحلة 
+FROM اليهودية 	Faris	TOWA خان رش 	Faris	DIST مرحلة 
+FROM خان رش 	Faris	TOWA قومسة 	Faris	DIST مرحلة 
+FROM قومسة 	Faris	TOWA كرو 	Faris	DIST مرحلة 
+FROM كرو 	Faris	TOWA سميرم 	Faris	DIST مرحلة 
+FROM اليهودية 	Faris	TOWA الخان حان لنجان 	Faris	DIST مرحلة 
+FROM الخان حان لنجان 	Faris	TOWA كرو 	Faris	DIST مرحلة 
+FROM كرو 	Faris	TOWA ماس 	Faris	DIST مرحلة 
+FROM ماس 	Faris	TOWA خان روشن 	Faris	DIST بريدين 
+FROM خان روشن 	Faris	TOWA إصطخران 	Faris	DIST مرحلة 
+FROM إصطخران 	Faris	TOWA قصر أعين 	Faris	DIST مرحلة 
+FROM قصر أعين 	Faris	TOWA خوسكان 	Faris	DIST مرحلة 
+FROM خوسكان 	Faris	TOWA ماءين 	Faris	DIST مرحلة 
+FROM ماءين 	Faris	TOWA أزر سابور 	Faris	DIST مرحلة 
+FROM أزر سابور 	Faris	TOWA شيراز 	Faris	DIST مرحلة 
+FROM قومسة 	Faris	TOWA روزكان 	Faris	DIST مرحلة 
+FROM روزكان 	Faris	TOWA ازكاس 	Faris	DIST مرحلة 
+FROM ازكاس 	Faris	TOWA سروستان 	Faris	DIST مرحلة 
+FROM سروستان 	Faris	TOWA سرمسه 	Faris	DIST مرحلة 
+FROM سرمسه 	Faris	TOWA لاه وكره 	Faris	DIST مرحلة 
+FROM لاه وكره 	Faris	TOWA قرية الخلاف 	Faris	DIST مرحلة 
+FROM قرية الخلاف 	Faris	TOWA كماهنك 	Faris	DIST مرحلة 
+FROM كماهنك 	Faris	TOWA قرية ابن بندار 	Faris	DIST مرحلة 
+FROM قرية ابن بندار 	Faris	TOWA إصطخر 	Faris	DIST مرحلة 
+FROM سميرم 	Faris	TOWA جعفرآباذ 	Faris	DIST مرحلة 
+FROM جعفرآباذ 	Faris	TOWA الزاب 	Faris	DIST مرحلة 
+FROM الزاب 	Faris	TOWA كورد وكلار 	Faris	DIST مرحلة 
+FROM كورد وكلار 	Faris	TOWA مهرجاناواذ 	Faris	DIST مرحلة 
+FROM مهرجاناواذ 	Faris	TOWA اش وبورد 	Faris	DIST مرحلة 
+FROM اش وبورد 	Faris	TOWA نسا 	Faris	DIST مرحلة 
+FROM نسا 	Faris	TOWA شيراز 	Faris	DIST مرحلة 
+FROM اليهودية 	Faris	TOWA خالنجان 	Faris	DIST مرحلة 
+FROM خالنجان 	Faris	TOWA باركان 	Faris	DIST مرحلة 
+FROM باركان 	Faris	TOWA أسبيذدشت 	Faris	DIST مرحلة 
+FROM أسبيذدشت 	Faris	TOWA جعاد وجورد 	Faris	DIST مرحلة 
+FROM جعاد وجورد 	Faris	TOWA الرباط 	Faris	DIST مرحلة 
+FROM الرباط 	Faris	TOWA كورستان 	Faris	DIST مرحلة 
+FROM كورستان 	Faris	TOWA جسر جهنم 	Faris	DIST مرحلة 
+FROM بردسير 	Kirman	TOWA السيرجان 	Kirman	DIST مرحلتين 
+FROM بردسير 	Kirman	TOWA جنزروذ 	Kirman	DIST مرحلة 
+FROM جنزروذ 	Kirman	TOWA زرند 	Kirman	DIST مرحلة 
+FROM نرماسير 	Kirman	TOWA الفهرج 	Kirman	DIST مرحلة 
+FROM نرماسير 	Kirman	TOWA جوى سليمان 	Kirman	DIST 3 مراحل 
+FROM جوى سليمان 	Kirman	TOWA ريكان 	Kirman	DIST مرحلة 
+FROM ريكان 	Kirman	TOWA موخكان 	Kirman	DIST مرحلة 
+FROM موخكان 	Kirman	TOWA الطيب 	Kirman	DIST مرحلة 
+FROM الطيب 	Kirman	TOWA مروغان 	Kirman	DIST مرحلة 
+FROM مروغان 	Kirman	TOWA باس وجكين 	Kirman	DIST مرحلة 
+FROM باس وجكين 	Kirman	TOWA هروك 	Kirman	DIST مرحلة 
+FROM هروك 	Kirman	TOWA قصر مهدى 	Kirman	DIST مرحلة 
+FROM قصر مهدى 	Kirman	TOWA هرموز 	Kirman	DIST مرحلة 
+FROM هرموز 	Kirman	TOWA الفرضة 	Kirman	DIST بريدين 
+FROM السيرجان 	Kirman	TOWA كاهون 	Kirman	DIST مرحلتين 
+FROM كاهون 	Kirman	TOWA رستاق الرستاق 	Kirman	DIST مرحلة 
+FROM السيرجان 	Kirman	TOWA بيمند 	Kirman	DIST بريدين 
+FROM بيمند 	Kirman	TOWA كردكان 	Kirman	DIST بريدا 
+FROM كردكان 	Kirman	TOWA أناس 	Kirman	DIST مرحلة 
+FROM أناس 	Kirman	TOWA الروذان 	Kirman	DIST بريدين 
+FROM السيرجان 	Kirman	TOWA الشامات 	Kirman	DIST مرحلة 
+FROM الشامات 	Kirman	TOWA بهار 	Kirman	DIST مرحلة 
+FROM بهار 	Kirman	TOWA خناب 	Kirman	DIST مرحلة 
+FROM خناب 	Kirman	TOWA غبيرا 	Kirman	DIST مرحلة 
+FROM غبيرا 	Kirman	TOWA كوغون 	Kirman	DIST فرسخا 
+FROM كوغون 	Kirman	TOWA رائين 	Kirman	DIST مرحلة 
+FROM رائين 	Kirman	TOWA سروستان 	Kirman	DIST مرحلة 
+FROM سروستان 	Kirman	TOWA دارجين 	Kirman	DIST مرحلة 
+FROM دارجين 	Kirman	TOWA بم 	Kirman	DIST مرحلة 
+FROM السيرجان 	Kirman	TOWA فرزين 	Kirman	DIST مرحلتين 
+FROM فرزين 	Kirman	TOWA ماهان 	Kirman	DIST مرحلة 
+FROM ماهان 	Kirman	TOWA خبيص 	Kirman	DIST 3 مراحل 
+FROM بم 	Kirman	TOWA نرماسير 	Kirman	DIST مرحلة 
+FROM بم 	Kirman	TOWA دارجين 	Kirman	DIST مرحلة 
+FROM دارجين 	Kirman	TOWA هرمز 	Kirman	DIST مرحلة 
+FROM هرمز 	Kirman	TOWA جيرفت 	Kirman	DIST مرحلة 
+FROM تيز مكران 	Sind	TOWA كيس 	Sind	DIST 5 مراحل 
+FROM كيس 	Sind	TOWA فنزبور 	Sind	DIST مرحلتين 
+FROM فنزبور 	Sind	TOWA دزك 	Sind	DIST 3 مراحل 
+FROM دزك 	Sind	TOWA راسك 	Sind	DIST 3 مراحل 
+FROM راسك 	Sind	TOWA فهل فهرة 	Sind	DIST 3 مراحل 
+FROM فهل فهرة 	Sind	TOWA اصفقة 	Sind	DIST مرحلتين 
+FROM اصفقة 	Sind	TOWA بند 	Sind	DIST مرحلة 
+FROM بند 	Sind	TOWA به 	Sind	DIST مرحلة 
+FROM به 	Sind	TOWA قصرقند 	Sind	DIST مرحلة 
+FROM قصرقند 	Sind	TOWA ارمابيل 	Sind	DIST 6 مراحل 
+FROM ارمابيل 	Sind	TOWA ديبل 	Sind	DIST 4 مراحل 
+FROM التيز 	Sind	TOWA قصدار 	Sind	DIST 12 مرحلة 
+FROM المنصورة 	Sind	TOWA ديبل 	Sind	DIST 6 مراحل 
+FROM المنصورة 	Sind	TOWA الملتان 	Sind	DIST 20 مرحلة 
+FROM المنصورة 	Sind	TOWA البدهة 	Sind	DIST 5 مراحل 
+FROM البدهة 	Sind	TOWA التيز 	Sind	DIST 15 مراحل 
+FROM الملتان 	Sind	TOWA غزنين 	Sind	DIST 80 فرسخا 
+FROM الملتان 	Sind	TOWA المنصورة 	Sind	DIST 40 فرسخا 
+FROM المنصورة 	Sind	TOWA قزدار 	Sind	DIST 80 فرسخا 
+FROM قزدار 	Sind	TOWA كنكابان 	Sind	DIST 80 فرسخا 
+FROM كنكابان 	Sind	TOWA سيوه 	Sind	DIST 80 فرسخا 
+FROM سيوه 	Sind	TOWA ولا شتان 	Sind	DIST 80 فرسخا 
+FROM ولا شتان 	Sind	TOWA ساغن 	Sind	DIST 60 فرسخا 
+FROM ساغن 	Sind	TOWA غزنين 	Sind	DIST مرحلة 
+FROM قزدار 	Sind	TOWA مشكى 	Sind	DIST 50 فرسخا 
+FROM مشكى 	Sind	TOWA جالق 	Sind	DIST 30 فرسخا 
+FROM جالق 	Sind	TOWA خواص 	Sind	DIST 30 فرسخا 
+FROM خواص 	Sind	TOWA سرى شهر 	Sind	DIST 20 فرسخا 
+FROM سرى شهر 	Sind	TOWA نهر سليمان 	Sind	DIST 20 فرسخا 
+FROM نهر سليمان 	Sind	TOWA درهفان 	Sind	DIST 50 فرسخا 
+FROM درهفان 	Sind	TOWA جيرفت 	Sind	DIST 50 فرسخا 
+FROM الملتان 	Sind	TOWA بالس 	Sind	DIST 10 مراحل 
+FROM بالس 	Sind	TOWA قندابيل 	Sind	DIST 10 مراحل 
+FROM قندابيل 	Sind	TOWA قصدار 	Sind	DIST 5 مراحل 
+FROM قندابيل 	Sind	TOWA المنصورة 	Sind	DIST 8 مراحل 
+FROM قندابيل 	Sind	TOWA الملتان 	Sind	DIST 10 مراحل 
+FROM المنصورة 	Sind	TOWA قامهل 	Sind	DIST 8 مراحل 
+FROM قامهل 	Sind	TOWA كنباية 	Sind	DIST 4 مراحل 
+FROM كنباية 	Sind	TOWA سوبارة 	Sind	DIST 4 مراحل 
+FROM سندان 	Sind	TOWA سيمور 	Sind	DIST 5 مراحل 
+FROM سيمور 	Sind	TOWA سرنديب 	Sind	DIST 15 مراحل 
+FROM الملتان 	Sind	TOWA بسمد 	Sind	DIST مرحلتان 
+FROM بسمد 	Sind	TOWA الرور 	Sind	DIST 3 مراحل 
+FROM الرور 	Sind	TOWA انرى 	Sind	DIST 4 مراحل 
+FROM انرى 	Sind	TOWA قلرى 	Sind	DIST مرحلتان 
+FROM قلرى 	Sind	TOWA المنصورة 	Sind	DIST مرحلة 
+FROM المنصورة 	Sind	TOWA قامهل 	Sind	DIST مرحلة 

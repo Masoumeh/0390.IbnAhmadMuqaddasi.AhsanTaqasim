@@ -1,0 +1,1484 @@
+From,From_lat,From_long,From_Region,From_URI,To,To_lat,To_long,To_Region,To_URI,Distance_original,Distance_avgMeter
+مكة,21.39132,39.83612,Jazirat al-Arab,MAKKA_398E213N_S,بطن مر,21.64499,39.73935,Jazirat al-Arab,BATNMARR_397E216N_S,مرحلة,37987.00561797753
+بطن مر,21.64499,39.73935,Jazirat al-Arab,BATNMARR_397E216N_S,عسفان,21.88079,39.46144,Jazirat al-Arab,USFAN_394E218N_S,مرحلة,37987.00561797753
+عسفان,21.88079,39.46144,Jazirat al-Arab,USFAN_394E218N_S,خليص,22.10557,39.41808,Jazirat al-Arab,KHULAYS_394E221N_S,مرحلة,37987.00561797753
+عسفان,21.88079,39.46144,Jazirat al-Arab,USFAN_394E218N_S,أمج,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+خليص,22.10557,39.41808,Jazirat al-Arab,KHULAYS_394E221N_S,الخيم,22.38571,39.56795,Jazirat al-Arab,KHAYM_395E223N_S,مرحلة,37987.00561797753
+أمج,null,null,Jazirat al-Arab,"Yemen""",null,الخيم,22.38571,39.56795,Jazirat al-Arab,KHAYM_395E223N_S,37987.00561797753
+الخيم,22.38571,39.56795,Jazirat al-Arab,KHAYM_395E223N_S,الجحفة,22.60833,39.12422,Jazirat al-Arab,JUHFA_391E226N_S,مرحلة,37987.00561797753
+الجحفة,22.60833,39.12422,Jazirat al-Arab,JUHFA_391E226N_S,الأبواء,23.22814,39.09484,Jazirat al-Arab,ABWA_390E232N_S,مرحلة,37987.00561797753
+الأبواء,23.22814,39.09484,Jazirat al-Arab,ABWA_390E232N_S,سقيا بنى غفار,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+سقيا بنى غفار,null,null,Jazirat al-Arab,"Yemen""",null,العرج,23.85851,39.20944,Jazirat al-Arab,ARJ_392E238N_O,37987.00561797753
+العرج,23.85851,39.20944,Jazirat al-Arab,ARJ_392E238N_O,الروحاء,24.11893,39.29760,Jazirat al-Arab,RAWHA_392E241N_S,مرحلة,37987.00561797753
+الروحاء,24.11893,39.29760,Jazirat al-Arab,RAWHA_392E241N_S,رويثة,24.01966,39.23589,Jazirat al-Arab,RUWAYTHA_392E240N_S,مرحلة,37987.00561797753
+رويثة,24.01966,39.23589,Jazirat al-Arab,RUWAYTHA_392E240N_S,يثرب,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+مكة,21.39132,39.83612,Jazirat al-Arab,MAKKA_398E213N_S,يلملم,20.84741,40.08231,Jazirat al-Arab,YALAMLAM_400E208N_S,مرحلة,37987.00561797753
+يلملم,20.84741,40.08231,Jazirat al-Arab,YALAMLAM_400E208N_S,قرن,21.46576,40.21296,Jazirat al-Arab,QARN_402E214N_S,مرحلة,37987.00561797753
+قرن,21.46576,40.21296,Jazirat al-Arab,QARN_402E214N_S,السرین,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+مکه,21.39132,39.83612,Jazirat al-Arab,MAKKA_398E213N_S,بستان بنى عامر,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+بستان بنى عامر,null,null,Jazirat al-Arab,"Yemen""",null,ذات عرق,21.62677,40.42853,Jazirat al-Arab,DHATIRQ_404E216N_S,37987.00561797753
+ذات عرق,21.62677,40.42853,Jazirat al-Arab,DHATIRQ_404E216N_S,الغمرة,21.89675,40.84007,Jazirat al-Arab,GHAMRA_408E218N_S,مرحلة,37987.00561797753
+مکه,21.39132,39.83612,Jazirat al-Arab,MAKKA_398E213N_S,قرین,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+قرین,null,null,Jazirat al-Arab,"Yemen""",null,جدة,21.46201,39.17790,Jazirat al-Arab,JUDDA_391E214N_S,37987.00561797753
+بطن مر,21.64499,39.73935,Jazirat al-Arab,BATNMARR_397E216N_S,جدة,21.46201,39.17790,Jazirat al-Arab,JUDDA_391E214N_S,مرحلة,37987.00561797753
+الجحفة,22.60833,39.12422,Jazirat al-Arab,JUHFA_391E226N_S,بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,مرحلة,37987.00561797753
+بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,الصفراء,24.03308,38.95085,Jazirat al-Arab,SAFRA_389E240N_S,مرحلة,37987.00561797753
+بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,المعلاة,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+الصفراء,24.03308,38.95085,Jazirat al-Arab,SAFRA_389E240N_S,الروحاء,24.11893,39.29760,Jazirat al-Arab,RAWHA_392E241N_S,مرحلة,37987.00561797753
+المعلاة,null,null,Jazirat al-Arab,"Yemen""",null,الروحاء,24.11893,39.29760,Jazirat al-Arab,RAWHA_392E241N_S,37987.00561797753
+بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,ینبع,null,null,Jazirat al-Arab,"Yemen""",null,70357.0
+ینبع,null,null,Jazirat al-Arab,"Yemen""",null,الراس العین,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,المعدن,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+الراس العین,null,null,Jazirat al-Arab,"Yemen""",null,المروة,25.71785,38.58647,Jazirat al-Arab,MARWA_385E257N_S,70357.0
+بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,الجار,23.81820,38.50713,Jazirat al-Arab,JAR_385E238N_S,مرحلة,37987.00561797753
+الجار,23.81820,38.50713,Jazirat al-Arab,JAR_385E238N_S,الجحفة,22.60833,39.12422,Jazirat al-Arab,JUHFA_391E226N_S,مرحلتين,70357.0
+الجار,23.81820,38.50713,Jazirat al-Arab,JAR_385E238N_S,ينبع,24.10820,38.12512,Jazirat al-Arab,YANBU_381E241N_S,مرحلتين,70357.0
+جدة,21.46201,39.17790,Jazirat al-Arab,JUDDA_391E214N_S,الجار,23.81820,38.50713,Jazirat al-Arab,JAR_385E238N_S,أربعا مرحلة,151948.0224719101
+جدة,21.46201,39.17790,Jazirat al-Arab,JUDDA_391E214N_S,السرین,null,null,Jazirat al-Arab,"Yemen""",null,151948.0224719101
+یثرب,null,null,Jazirat al-Arab,"Yemen""",null,السويدية,null,null,"""Jazirat al-Arab","Yemen""",70357.0
+یثرب,null,null,Jazirat al-Arab,"Yemen""",null,بطن النخل,24.85968,40.00579,Jazirat al-Arab,BATNNAKHL_400E248N_R,70357.0
+السويدية,null,null,Jazirat al-Arab,"Yemen""",null,المروة,25.71785,38.58647,Jazirat al-Arab,MARWA_385E257N_S,70357.0
+بطن النخل,24.85968,40.00579,Jazirat al-Arab,BATNNAKHL_400E248N_R,معدن النقرة,25.55360,41.52796,Jazirat al-Arab,MADINNAQIRA_415E255N_S,مرحلتين,70357.0
+المروة,25.71785,38.58647,Jazirat al-Arab,MARWA_385E257N_S,السقيا,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+السقیا,null,null,Jazirat al-Arab,"Yemen""",null,بدا یعقوب,null,null,"""Jazirat al-Arab","Yemen""",113961.01685393258
+بدا یعقوب,null,null,Jazirat al-Arab,"Yemen""",null,العونید,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+السقیا,null,null,Jazirat al-Arab,"Yemen""",null,وادی القری,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+وادی القری,null,null,Jazirat al-Arab,"Yemen""",null,الحجر,24.64352,46.73212,Jazirat al-Arab,HAJR_467E246N_S,37987.00561797753
+الحجر,24.64352,46.73212,Jazirat al-Arab,HAJR_467E246N_S,تيماء,null,null,Jazirat al-Arab,"Yemen""",null,113961.01685393258
+زبالة,null,null,Jazirat al-Arab,"Yemen""",null,الشقوق,null,null,"""Jazirat al-Arab","Yemen""",40761
+الشقوق,null,null,Jazirat al-Arab,"Yemen""",null,البطان,null,null,"""Jazirat al-Arab","Yemen""",56289.0
+البطان,null,null,Jazirat al-Arab,"Yemen""",null,الثعلبية,null,null,"""Jazirat al-Arab","Yemen""",56289.0
+الثعلبیة,null,null,Jazirat al-Arab,"Yemen""",null,الخزیمیة,null,null,"""Jazirat al-Arab","Yemen""",62112
+الخزیمیه,null,null,Jazirat al-Arab,"Yemen""",null,أجفر,null,null,"""Jazirat al-Arab","Yemen""",46584.0
+أجفر,null,null,Jazirat al-Arab,"Yemen""",null,فید,null,null,"""Jazirat al-Arab","Yemen""",69876
+فید,null,null,Jazirat al-Arab,"Yemen""",null,توز,26.71435,42.29198,Jazirat al-Arab,TUZ_422E267N_S,60171
+توز,26.71435,42.29198,Jazirat al-Arab,TUZ_422E267N_S,سمیراء,null,null,Jazirat al-Arab,"Yemen""",null,38820
+سمیراء,null,null,Jazirat al-Arab,"Yemen""",null,حاجر,25.96910,41.75129,Jazirat al-Arab,HAJIR_417E259N_S,64053
+حاجر,25.96910,41.75129,Jazirat al-Arab,HAJIR_417E259N_S,معدن النقرة,25.55360,41.52796,Jazirat al-Arab,MADINNAQIRA_415E255N_S,34 ميلا,65994.0
+معدن النقرة,25.55360,41.52796,Jazirat al-Arab,MADINNAQIRA_415E255N_S,المغيثة,null,null,Jazirat al-Arab,"Yemen""",null,64053
+المغيثة,null,null,Jazirat al-Arab,"Yemen""",null,الربذة,24.66756,41.30169,Jazirat al-Arab,RABADHA_413E246N_S,46584
+الربذة,24.66756,41.30169,Jazirat al-Arab,RABADHA_413E246N_S,معدن بنى سليم,23.53832,40.82270,Jazirat al-Arab,MADINBANUSULAYM_408E235N_O,24 ميلا,46584.0
+معدن بنى سليم,23.53832,40.82270,Jazirat al-Arab,MADINBANUSULAYM_408E235N_O,السليلة,24.34402,41.22235,Jazirat al-Arab,SALILA_412E243N_S,ستة وثلاثون ميلا,69876
+السليلة,24.34402,41.22235,Jazirat al-Arab,SALILA_412E243N_S,العمق,24.01161,40.99902,Jazirat al-Arab,UMAQ_409E240N_S,واحد وعشرون ميلا,40761
+العمق,24.01161,40.99902,Jazirat al-Arab,UMAQ_409E240N_S,الأفيعية,23.02816,40.75512,Jazirat al-Arab,UFAYIYYA_407E230N_S,اثنان وثلاثون ميلا,62112
+الأفيعية,23.02816,40.75512,Jazirat al-Arab,UFAYIYYA_407E230N_S,المسلح,22.44276,40.79626,Jazirat al-Arab,MISLAH_407E224N_S,اثنان وثلاثون ميلا,62112
+المسلح,22.44276,40.79626,Jazirat al-Arab,MISLAH_407E224N_S,غمرة,21.89675,40.84007,Jazirat al-Arab,GHAMRA_408E218N_S,18 ميلا,34938.0
+البصرة,null,null,Jazirat al-Arab,"Yemen""",null,الحفیر,null,null,"""Jazirat al-Arab","Yemen""",34938.0
+الحفیر,null,null,Jazirat al-Arab,"Yemen""",null,الرحیل,null,null,"""Jazirat al-Arab","Yemen""",54348.0
+الرحیل,null,null,Jazirat al-Arab,"Yemen""",null,الشجى,null,null,"""Jazirat al-Arab","Yemen""",52407.0
+الشجى,null,null,Jazirat al-Arab,"Yemen""",null,حفر ابى موسى,null,null,"""Jazirat al-Arab","Yemen""",69876
+حفر ابى موسى,null,null,Jazirat al-Arab,"Yemen""",null,ماویة,null,null,"""Jazirat al-Arab","Yemen""",62112
+ماویة,null,null,Jazirat al-Arab,"Yemen""",null,ذات العشر,null,null,"""Jazirat al-Arab","Yemen""",56289
+دات العشر,null,null,Jazirat al-Arab,"Yemen""",null,الینسوعة,null,null,"""Jazirat al-Arab","Yemen""",44643
+الینسوعة,null,null,Jazirat al-Arab,"Yemen""",null,السمينة,null,null,"""Jazirat al-Arab","Yemen""",56289
+السمينة,null,null,Jazirat al-Arab,"Yemen""",null,القريتين,null,null,"""Jazirat al-Arab","Yemen""",42702.0
+القريتين,null,null,Jazirat al-Arab,"Yemen""",null,النباج,null,null,"""Jazirat al-Arab","Yemen""",44643
+النباج,null,null,Jazirat al-Arab,"Yemen""",null,العوسجة,25.98495,44.07861,Jazirat al-Arab,AWSAJA_440E259N_S,56289
+العوسجة,25.98495,44.07861,Jazirat al-Arab,AWSAJA_440E259N_S,رامة,25.77608,43.42920,Jazirat al-Arab,RAMA_434E257N_S,,null
+رامة,25.77608,43.42920,Jazirat al-Arab,RAMA_434E257N_S,إمرة,25.37319,43.14710,Jazirat al-Arab,IMMARA_431E253N_S,27 ميلا,52407.0
+إمرة,25.37319,43.14710,Jazirat al-Arab,IMMARA_431E253N_S,طخفة,24.95296,43.01192,Jazirat al-Arab,TIKHFA_430E249N_S,ستة وثلاثون ميلا,69876
+طخفة,24.95296,43.01192,Jazirat al-Arab,TIKHFA_430E249N_S,ضریة,null,null,Jazirat al-Arab,"Yemen""",null,34938.0
+ضریة,null,null,Jazirat al-Arab,"Yemen""",null,جديلة,24.09211,42.99135,Jazirat al-Arab,JADILA_429E240N_S,62112
+جدیلة,null,null,Jazirat al-Arab,"Yemen""",null,ملحة,null,null,"""Jazirat al-Arab","Yemen""",67935
+ملحة,null,null,Jazirat al-Arab,"Yemen""",null,الدثينة,23.22544,41.92466,Jazirat al-Arab,DATHINA_419E232N_S,69876
+الدثينة,23.22544,41.92466,Jazirat al-Arab,DATHINA_419E232N_S,قبا,24.44572,39.58264,Jazirat al-Arab,QUBA_395E244N_S,27 ميلا,52407.0
+قبا,24.44572,39.58264,Jazirat al-Arab,QUBA_395E244N_S,الشبيكة(السنبلة),null,null,Jazirat al-Arab,"Yemen""",null,52407.0
+الشبيكة(السنبلة),null,null,Jazirat al-Arab,"Yemen""",null,وجرة,22.03204,40.98726,Jazirat al-Arab,WAJRA_409E220N_S,77640
+وجرة,22.03204,40.98726,Jazirat al-Arab,WAJRA_409E220N_S,ذات عرق,21.62677,40.42853,Jazirat al-Arab,DHATIRQ_404E216N_S,27 ميلا,52407.0
+ويلة,null,null,Jazirat al-Arab,"Yemen""",null,شرف ذي النمل,28.94260,35.19783,Jazirat al-Arab,SHARAFDHUNAML_351E289N_S,37987.00561797753
+شرف ذي النمل,28.94260,35.19783,Jazirat al-Arab,SHARAFDHUNAML_351E289N_S,مدین,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+مدین,null,null,Jazirat al-Arab,"Yemen""",null,الاعراء,28.06253,35.57504,Jazirat al-Arab,ARA_355E280N_S,37987.00561797753
+منزل,null,null,Jazirat al-Arab,"Yemen""",null,الكلاية,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+الكلاية,null,null,Jazirat al-Arab,"Yemen""",null,شغب,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+شغب,null,null,Jazirat al-Arab,"Yemen""",null,بدا,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+بدا,null,null,Jazirat al-Arab,"Yemen""",null,السرحتین,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+السرحتین,null,null,Jazirat al-Arab,"Yemen""",null,البیضاء,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+البیضاء,null,null,Jazirat al-Arab,"Yemen""",null,وادی القری,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+شرف ذي النمل,28.94260,35.19783,Jazirat al-Arab,SHARAFDHUNAML_351E289N_S,الصلا,27.85039,35.41578,Jazirat al-Arab,SALA_354E278N_S,,null
+الصلا,27.85039,35.41578,Jazirat al-Arab,SALA_354E278N_S,النبك,26.71435,36.24739,Jazirat al-Arab,NABK_362E267N_S,,null
+النبک,26.71435,36.24739,Jazirat al-Arab,NABK_362E267N_S,ضبة,null,null,Jazirat al-Arab,"Yemen""",null,null
+صبة,null,null,Jazirat al-Arab,"Yemen""",null,العونید,null,null,"""Jazirat al-Arab","Yemen""",null
+العونید,null,null,Jazirat al-Arab,"Yemen""",null,الرحبة,27.67097,36.48835,Jazirat al-Arab,RUHBA_364E276N_R,null
+الرحبة,27.67097,36.48835,Jazirat al-Arab,RUHBA_364E276N_R,منخوس,null,null,Jazirat al-Arab,"Yemen""",null,null
+منخوس,null,null,Jazirat al-Arab,"Yemen""",null,البحیرة,null,null,"""Jazirat al-Arab","Yemen""",null
+البحیرة,null,null,Jazirat al-Arab,"Yemen""",null,الأحساء,25.34929,49.54137,Jazirat al-Arab,AHSA_495E253N_S,null
+الأحساء,25.34929,49.54137,Jazirat al-Arab,AHSA_495E253N_S,العشیرة,null,null,Jazirat al-Arab,"Yemen""",null,null
+العشیرة,null,null,Jazirat al-Arab,"Yemen""",null,الجار,23.81820,38.50713,Jazirat al-Arab,JAR_385E238N_S,null
+الجار,23.81820,38.50713,Jazirat al-Arab,JAR_385E238N_S,بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,,null
+صحار,24.35205,56.69086,Jazirat al-Arab,SUHAR_566E243N_S,نزوة,22.86309,57.52541,Jazirat al-Arab,NAZWA_575E228N_S,,null
+نزوة,22.86309,57.52541,Jazirat al-Arab,NAZWA_575E228N_S,عجلة,null,null,Jazirat al-Arab,"Yemen""",null,58230
+عجلة,null,null,Jazirat al-Arab,"Yemen""",null,عضوة,null,null,"""Jazirat al-Arab","Yemen""",46584.0
+عضوة,null,null,Jazirat al-Arab,"Yemen""",null,بئر السلاح,null,null,"""Jazirat al-Arab","Yemen""",58230
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,الريدة,15.83194,44.04470,Yemen,RAYDA_440E158N_S,مرحلة,37987.00561797753
+الريدة,15.83194,44.04470,Yemen,RAYDA_440E158N_S,أثافت,16.11174,43.97249,Yemen,ATHAFIT_439E161N_S,مرحلة,37987.00561797753
+أثافت,16.11174,43.97249,Yemen,ATHAFIT_439E161N_S,خيوان,16.29079,44.06424,Yemen,KHAYWAN_440E162N_R,مرحلة,37987.00561797753
+خيوان,16.29079,44.06424,Yemen,KHAYWAN_440E162N_R,الأعمشية,16.56721,43.95032,Yemen,AMASHIYYA_439E165N_S,مرحلة,37987.00561797753
+الأعمشية,16.56721,43.95032,Yemen,AMASHIYYA_439E165N_S,صعدة,16.94530,43.76442,Yemen,SADA_437E169N_S,مرحلة,37987.00561797753
+صعدة,16.94530,43.76442,Yemen,SADA_437E169N_S,غرفة,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+صعدة,16.94530,43.76442,Yemen,SADA_437E169N_S,المهجرة,17.60657,43.54039,Jazirat al-Arab,MAHJARA_435E176N_S,مرحلة,37987.00561797753
+المهجرة,17.60657,43.54039,Jazirat al-Arab,MAHJARA_435E176N_S,شروراح,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+شروراح,null,null,Jazirat al-Arab,"Yemen""",null,الثجة,18.17110,43.19302,Jazirat al-Arab,THUJJA_431E181N_S,37987.00561797753
+الثجة,18.17110,43.19302,Jazirat al-Arab,THUJJA_431E181N_S,کثبة,18.48351,42.98036,Jazirat al-Arab,KUTHBA_429E184N_R,مرحلة,37987.00561797753
+کثبة,18.48351,42.98036,Jazirat al-Arab,KUTHBA_429E184N_R,یبنبم,null,null,Jazirat al-Arab,"Yemen""",null,15528.0
+جرش/یبنبم,null,null,Jazirat al-Arab,"Yemen""",null,بنات جرم,19.20706,42.78290,Jazirat al-Arab,BANATJARM_427E192N_O,37987.00561797753
+بنات جرم,19.20706,42.78290,Jazirat al-Arab,BANATJARM_427E192N_O,جسداء,19.51994,42.71961,Jazirat al-Arab,JUSADA_427E195N_S,مرحلة,37987.00561797753
+جسداء,19.51994,42.71961,Jazirat al-Arab,JUSADA_427E195N_S,بیشة,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+بیشة,null,null,Jazirat al-Arab,"Yemen""",null,تبالة,20.04558,42.41439,Jazirat al-Arab,TABALA_424E200N_S,37987.00561797753
+تبالة,20.04558,42.41439,Jazirat al-Arab,TABALA_424E200N_S,رنیة,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+رنیة,null,null,Jazirat al-Arab,"Yemen""",null,کدی,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+کدی,null,null,Jazirat al-Arab,"Yemen""",null,صفر,20.85351,41.68929,Jazirat al-Arab,SAFR_416E208N_S,37987.00561797753
+صفر,20.85351,41.68929,Jazirat al-Arab,SAFR_416E208N_S,تربة,21.09750,41.57497,Jazirat al-Arab,TURABA_415E210N_R,مرحلة,37987.00561797753
+تربة,21.09750,41.57497,Jazirat al-Arab,TURABA_415E210N_R,الفتق,21.44752,41.28101,Jazirat al-Arab,FUTUQ_412E214N_S,مرحلة,37987.00561797753
+الفتق,21.44752,41.28101,Jazirat al-Arab,FUTUQ_412E214N_S,الجدد,21.73300,41.07197,Jazirat al-Arab,JUDAD_410E217N_S,مرحلة,37987.00561797753
+الجدد,21.73300,41.07197,Jazirat al-Arab,JUDAD_410E217N_S,الغمرة,21.89675,40.84007,Jazirat al-Arab,GHAMRA_408E218N_S,مرحلة,37987.00561797753
+مکة,21.39132,39.83612,Jazirat al-Arab,MAKKA_398E213N_S,بئر ابن المرتفع,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+بئر ابن المرتفع,null,null,Jazirat al-Arab,"Yemen""",null,قرن,21.46576,40.21296,Jazirat al-Arab,QARN_402E214N_S,37987.00561797753
+قرن,21.46576,40.21296,Jazirat al-Arab,QARN_402E214N_S,الطائف,21.21629,40.40566,Jazirat al-Arab,TAIF_404E212N_S,مرحلة,37987.00561797753
+ویلة,null,null,Jazirat al-Arab,"Yemen""",null,شرف البعل,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+شرف البعل,null,null,Jazirat al-Arab,"Yemen""",null,الصلا,27.85039,35.41578,Jazirat al-Arab,SALA_354E278N_S,37987.00561797753
+شرف الصلا,null,null,Jazirat al-Arab,"Yemen""",null,النبک,26.71435,36.24739,Jazirat al-Arab,NABK_362E267N_S,37987.00561797753
+شرف النبک,null,null,Jazirat al-Arab,"Yemen""",null,ضبة,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+ضبة,null,null,Jazirat al-Arab,"Yemen""",null,عونید,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+عونید,null,null,Jazirat al-Arab,"Yemen""",null,الرحبة,27.67097,36.48835,Jazirat al-Arab,RUHBA_364E276N_R,37987.00561797753
+الرحبة,27.67097,36.48835,Jazirat al-Arab,RUHBA_364E276N_R,منخوس,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+منخوس,null,null,Jazirat al-Arab,"Yemen""",null,البحیرة,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+البحیرة,null,null,Jazirat al-Arab,"Yemen""",null,الإحساء,25.34929,49.54137,Jazirat al-Arab,AHSA_495E253N_S,37987.00561797753
+الإحساء,25.34929,49.54137,Jazirat al-Arab,AHSA_495E253N_S,الاعراء,28.06253,35.57504,Jazirat al-Arab,ARA_355E280N_S,مرحلة,37987.00561797753
+الاعراء,28.06253,35.57504,Jazirat al-Arab,ARA_355E280N_S,الکلایة,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+الکلایة,null,null,Jazirat al-Arab,"Yemen""",null,شغب,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+شغب,null,null,Jazirat al-Arab,"Yemen""",null,بدا,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+بدا,null,null,Jazirat al-Arab,"Yemen""",null,السرحتین,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+السرحتین,null,null,Jazirat al-Arab,"Yemen""",null,البیضاء,null,null,"""Jazirat al-Arab","Yemen""",37987.00561797753
+البیضاء,null,null,Jazirat al-Arab,"Yemen""",null,قرح,26.55412,37.99288,Jazirat al-Arab,QURH_379E265N_S,37987.00561797753
+قرح,26.55412,37.99288,Jazirat al-Arab,QURH_379E265N_S,سقیا یزید,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,صداء,null,null,Jazirat al-Arab,"Yemen""",null,121304.4
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,حضرموت,15.64792,48.80405,Jazirat al-Arab,HADRAMAWT_488E156N_R,74 فرسخا,213726.8
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,ذمار,14.56364,44.39720,Yemen,DHIMAR_443E145N_R,16 فرسخا,46211.2
+ذمار,14.56364,44.39720,Yemen,DHIMAR_443E145N_R,نسفان,14.02916,44.84320,Yemen,NASAFAN_448E140N_R,مرحلة,37987.00561797753
+ذمار,14.56364,44.39720,Yemen,DHIMAR_443E145N_R,کحلان,13.96335,44.85637,Yemen,KAHLAN_448E139N_R,مرحلة,37987.00561797753
+کحلان,13.96335,44.85637,Yemen,KAHLAN_448E139N_R,حجر,24.64352,46.73212,Jazirat al-Arab,HAJR_467E246N_S,عشرون فرسخا,57764.0
+کحلان,13.96335,44.85637,Yemen,KAHLAN_448E139N_R,بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,عشرون فرسخا,57764.0
+بدر,23.72676,38.80098,Jazirat al-Arab,BADR_388E237N_S,عدن,12.79365,45.03942,Yemen,ADAN_450E127N_S,24 فرسخا,69316.79999999999
+ذمار,14.56364,44.39720,Yemen,DHIMAR_443E145N_R,یحصب,null,null,Jazirat al-Arab,"Yemen""",null,37987.00561797753
+یحصب,null,null,Jazirat al-Arab,"Yemen""",null,السحول,14.19370,44.03504,Yemen,SUHUL_440E141N_R,37987.00561797753
+السحول,14.19370,44.03504,Yemen,SUHUL_440E141N_R,الثجة,18.17110,43.19302,Jazirat al-Arab,THUJJA_431E181N_S,مرحلة,37987.00561797753
+الثجة,18.17110,43.19302,Jazirat al-Arab,THUJJA_431E181N_S,الجند,13.69225,44.17508,Yemen,JANAD_441E136N_R,مرحلة,37987.00561797753
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,الجند,13.69225,44.17508,Yemen,JANAD_441E136N_R,48 فرسخا,138633.59999999998
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,العرف,15.09101,44.27297,Yemen,URF_442E150N_S,مرحلة,37987.00561797753
+العرف,15.09101,44.27297,Yemen,URF_442E150N_S,ألهان,14.80399,44.07982,Yemen,ALHAN_440E148N_R,عشرة فرسخا,28882.0
+ألهان,14.80399,44.07982,Yemen,ALHAN_440E148N_R,جبلان,14.27880,43.67157,Yemen,JUBLAN_436E142N_R,14 فرسخا,40434.799999999996
+جبلان,14.27880,43.67157,Yemen,JUBLAN_436E142N_R,زبید,null,null,Jazirat al-Arab,"Yemen""",null,66428.59999999999
+صنعاء,15.37373,44.20186,Yemen,SANA_442E153N_S,شبام,15.51632,43.90335,Yemen,SHIBAM_439E155N_S,مرحلة,37987.00561797753
+عدن,12.79365,45.03942,Yemen,ADAN_450E127N_S,أبین,null,null,Jazirat al-Arab,"Yemen""",null,8664.599999999999
+بغداد,33.35932,44.35693,Iraq,BAGHDAD_443E333N_S,نهر الملك,33.05406,44.36455,Iraq,NAHRMALIK_443E330N_S,مرحلة,37987.00561797753
+نهر الملك,33.05406,44.36455,Iraq,NAHRMALIK_443E330N_S,القصر,null,null,Iraq,null,مرحلة,37987.00561797753
+القصر,null,null,Iraq,null,حمام ابن عمر,32.39084,44.34773,Iraq,HAMMAMIBNUMAR_443E323N_S,مرحلة,37987.00561797753
+حمام ابن عمر,32.39084,44.34773,Iraq,HAMMAMIBNUMAR_443E323N_S,الكوفة,32.03808,44.39355,Iraq,KUFA_443E320N_S,مرحلة,37987.00561797753
+الكوفة,32.03808,44.39355,Iraq,KUFA_443E320N_S,القادسية,34.09388,43.98259,Iraq,QADISIYYA_439E340N_S,مرحلة,37987.00561797753
+بغداد,33.35932,44.35693,Iraq,BAGHDAD_443E333N_S,المدائن,33.09075,44.59672,Iraq,MADAIN_445E330N_S,مرحلة,37987.00561797753
+المدائن,33.09075,44.59672,Iraq,MADAIN_445E330N_S,السيب,32.97916,44.84610,Iraq,SIB_448E329N_S,مرحلة,37987.00561797753
+السيب,32.97916,44.84610,Iraq,SIB_448E329N_S,دير العاقول,32.91181,44.98460,Iraq,DAYRAQUL_449E329N_S,مرحلة,37987.00561797753
+دير العاقول,32.91181,44.98460,Iraq,DAYRAQUL_449E329N_S,جرجرايا,32.74104,45.31987,Iraq,JARJARAYA_453E327N_S,مرحلة,37987.00561797753
+جرجرايا,32.74104,45.31987,Iraq,JARJARAYA_453E327N_S,النعمانية,32.59694,45.42650,Iraq,NUMANIYYA_454E325N_S,مرحلة,37987.00561797753
+النعمانية,32.59694,45.42650,Iraq,NUMANIYYA_454E325N_S,جبل,null,null,Iraq,null,مرحلة,37987.00561797753
+جبل,null,null,Iraq,null,نهر سابس,32.49681,45.96969,Iraq,NAHRSABUS_459E324N_S,مرحلة,37987.00561797753
+نهر سابس,32.49681,45.96969,Iraq,NAHRSABUS_459E324N_S,مطارة,null,null,Iraq,null,بريدين,23504.153846153848
+مطارة,null,null,Iraq,null,الحارله,null,null,Iraq,null,بريدين,23504.153846153848
+الحارله,null,null,Iraq,null,الاسحاقية,null,null,Iraq,null,مرحلة,37987.00561797753
+الاسحاقية,null,null,Iraq,null,المحراقة,null,null,Iraq,null,بريدين,23504.153846153848
+المحراقة,null,null,Iraq,null,الحدادية,null,null,Iraq,null,بريدين,23504.153846153848
+الحدادية,null,null,Iraq,null,ترمانة,null,null,Iraq,null,مرحلة,37987.00561797753
+ترمانة,null,null,Iraq,null,واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,مرحلة,37987.00561797753
+الحدادية,null,null,Iraq,null,الزبيدية,null,null,Iraq,null,مرحلة,37987.00561797753
+الزبيدية,null,null,Iraq,null,واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,بريدين,23504.153846153848
+المحراقة,null,null,Iraq,null,الجامدة,null,null,Iraq,null,بريدين,23504.153846153848
+الحدادية,null,null,Iraq,null,الصليق,null,null,Iraq,null,بريدين,23504.153846153848
+البصرة,30.40147,47.71735,Iraq,BASRA_477E304N_S,الأبلة,30.49692,47.83555,Iraq,UBULLA_478E304N_S,بريدين,23504.153846153848
+الأبلة,30.49692,47.83555,Iraq,UBULLA_478E304N_S,بيان,30.46468,48.03005,Iraq,BAYAN_480E304N_S,مرحلة,37987.00561797753
+بيان,30.46468,48.03005,Iraq,BAYAN_480E304N_S,عبادان,30.33563,48.27394,Iraq,ABBADAN_482E303N_S,مرحلة,37987.00561797753
+بغداد,33.35932,44.35693,Iraq,BAGHDAD_443E333N_S,السيلحين,33.41382,44.06385,Iraq,SAYLAHIN_440E334N_S,بريدين,23504.153846153848
+السيلحين,33.41382,44.06385,Iraq,SAYLAHIN_440E334N_S,الأنبار,33.39492,43.70150,Iraq,ANBAR_437E333N_S,مرحلة,37987.00561797753
+الأنبار,33.39492,43.70150,Iraq,ANBAR_437E333N_S,الرب,33.46273,43.26055,Iraq,RABB_432E334N_S,مرحلة,37987.00561797753
+الرب,33.46273,43.26055,Iraq,RABB_432E334N_S,هيت,33.64370,42.80628,Iraq,HIT_428E336N_S,مرحلتين,70357.0
+بغداد,33.35932,44.35693,Iraq,BAGHDAD_443E333N_S,البردان,33.50829,44.36092,Iraq,BARADAN_443E335N_S,بريدين,23504.153846153848
+البردان,33.50829,44.36092,Iraq,BARADAN_443E335N_S,عكبرا,33.85526,44.22504,Iraq,UKBARA_442E338N_S,مرحلة,37987.00561797753
+عكبرا,33.85526,44.22504,Iraq,UKBARA_442E338N_S,باحمشا,null,null,Iraq,null,نصف مرحلة,18993.502808988764
+باحمشا,null,null,Iraq,null,القادسية,34.09388,43.98259,Iraq,QADISIYYA_439E340N_S,مرحلة,37987.00561797753
+القادسية,34.09388,43.98259,Iraq,QADISIYYA_439E340N_S,الكرخ,34.29663,43.87468,Iraq,KARKH_438E342N_S,مرحلة,37987.00561797753
+الكرخ,34.29663,43.87468,Iraq,KARKH_438E342N_S,جبلتا,34.62614,43.72814,Iraq,JABILTA_437E346N_S,مرحلة,37987.00561797753
+جبلتا,34.62614,43.72814,Iraq,JABILTA_437E346N_S,السودقانية,34.81448,43.60292,Iraq,SUDAQANIYYA_436E348N_S,مرحلة,37987.00561797753
+السودقانية,34.81448,43.60292,Iraq,SUDAQANIYYA_436E348N_S,بارما,35.07982,43.57361,Iraq,BARIMMA_435E350N_S,مرحلة,37987.00561797753
+بارما,35.07982,43.57361,Iraq,BARIMMA_435E350N_S,السن,35.26076,43.46591,Iraq,SINN_434E352N_S,مرحلة,37987.00561797753
+بغداد,33.35932,44.35693,Iraq,BAGHDAD_443E333N_S,النهروان,33.43161,44.59405,Iraq,NAHRAWAN_445E334N_S,بريدين,23504.153846153848
+النهروان,33.43161,44.59405,Iraq,NAHRAWAN_445E334N_S,دير بازما,null,null,Iraq,null,بريدين,23504.153846153848
+دير بازما,null,null,Iraq,null,الدسكرة,33.94151,44.92310,Iraq,DASKARA_449E339N_S,مرحلة,37987.00561797753
+الدسكرة,33.94151,44.92310,Iraq,DASKARA_449E339N_S,جلولا,34.17989,45.11759,Iraq,JALULA_451E341N_S,مرحلة,37987.00561797753
+جلولا,34.17989,45.11759,Iraq,JALULA_451E341N_S,خانقين,34.34844,45.44708,Iraq,KHANIQIN_454E343N_S,مرحلة,37987.00561797753
+هيت,33.64370,42.80628,Iraq,HIT_428E336N_S,الناووسة,33.82317,42.61179,Iraq,NAWUSA_426E338N_S,مرحلة,37987.00561797753
+الناووسة,33.82317,42.61179,Iraq,NAWUSA_426E338N_S,عانة,null,null,Iraq,null,مرحلة,37987.00561797753
+عانة,null,null,Iraq,null,آلوسة,null,null,Iraq,null,مرحلة,37987.00561797753
+آلوسة,null,null,Iraq,null,الفحيمة,null,null,Iraq,null,مرحلة,37987.00561797753
+الفحيمة,null,null,Iraq,null,الحديثة,null,null,Iraq,null,مرحلة,37987.00561797753
+الحديثة,null,null,Iraq,null,النهية,null,null,Iraq,null,مرحلة,37987.00561797753
+حلوان,34.47862,45.93468,Iraq,HULWAN_459E344N_S,ماذرواستان,null,null,Iraq,null,بريدين,23504.153846153848
+ماذرواستان,null,null,Iraq,null,المرج,null,null,Iraq,null,مرحلة,37987.00561797753
+المرج,null,null,Iraq,null,قصر يزيد,null,null,Iraq,null,بريدين,23504.153846153848
+قصر يزيد,null,null,Iraq,null,الزبيدية,null,null,Iraq,null,مرحلة,37987.00561797753
+الزبيدية,null,null,Iraq,null,قصر عمرو,null,null,Iraq,null,مرحلة,37987.00561797753
+قصر عمرو,null,null,Iraq,null,قرماسين,null,null,Iraq,null,نصف مرحلة,18993.502808988764
+حلوان,34.47862,45.93468,Iraq,HULWAN_459E344N_S,قصر شيرين,34.49996,45.62659,Iraq,QASRSHIRIN_456E344N_S,مرحلة,37987.00561797753
+قصر شيرين,34.49996,45.62659,Iraq,QASRSHIRIN_456E344N_S,خانقين,34.34844,45.44708,Iraq,KHANIQIN_454E343N_S,مرحلة,37987.00561797753
+الأبلة,30.49692,47.83555,Iraq,UBULLA_478E304N_S,الخمازية,null,null,Iraq,null,مرحلة,37987.00561797753
+الأبلة,30.49692,47.83555,Iraq,UBULLA_478E304N_S,نهر دبا,null,null,Iraq,null,مرحلة,37987.00561797753
+نهر دبا,null,null,Iraq,null,فم العضدى,null,null,Iraq,null,مرحلة,37987.00561797753
+واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,بغداد,33.35932,44.35693,Iraq,BAGHDAD_443E333N_S,خمسين فرسخا,144410.0
+واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,الكوفة,32.03808,44.39355,Iraq,KUFA_443E320N_S,خمسين فرسخا,144410.0
+واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,البصرة,30.40147,47.71735,Iraq,BASRA_477E304N_S,خمسين فرسخا,144410.0
+واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,حلوان,34.47862,45.93468,Iraq,HULWAN_459E344N_S,خمسين فرسخا,144410.0
+واسط,32.19497,46.32308,Iraq,WASIT_463E321N_S,الأهواز,null,null,Iraq,null,خمسين فرسخا,144410.0
+الموصل,36.32809,43.12700,Aqur,MAWSIL_431E363N_S,مرجهينة,null,null,Aqur,null,مرحلة,37987.00561797753
+الموصل,36.32809,43.12700,Aqur,MAWSIL_431E363N_S,بلد,36.47417,42.75800,Aqur,BALAD_427E364N_S,مرحلة,37987.00561797753
+الموصل,36.32809,43.12700,Aqur,MAWSIL_431E363N_S,المحلبية,36.25676,42.76550,Aqur,MAHLABIYYA_427E362N_S,مرحلة,37987.00561797753
+الموصل,36.32809,43.12700,Aqur,MAWSIL_431E363N_S,مزارعى,36.63683,43.05500,Aqur,MAZARII_430E366N_S,مرحلة,37987.00561797753
+مرجهينة,null,null,Aqur,null,الحديثة,34.10682,42.38707,Aqur,HADITHA_423E341N_S,مرحلة,37987.00561797753
+الحديثة,34.10682,42.38707,Aqur,HADITHA_423E341N_S,البقيعة,35.62554,43.32428,Aqur,BAQIA_433E356N_S,مرحلة,37987.00561797753
+البقيعة,35.62554,43.32428,Aqur,BAQIA_433E356N_S,السن,null,null,Aqur,null,مرحلة,37987.00561797753
+بلد,36.47417,42.75800,Aqur,BALAD_427E364N_S,برقعيد,36.95274,42.07551,Aqur,BARQAID_420E369N_S,مرحلة,37987.00561797753
+برقعيد,36.95274,42.07551,Aqur,BARQAID_420E369N_S,أذرمة,36.99109,41.72002,Aqur,ADHRAMA_417E369N_S,مرحلة,37987.00561797753
+أذرمة,36.99109,41.72002,Aqur,ADHRAMA_417E369N_S,المونسة,null,null,Aqur,null,مرحلة,37987.00561797753
+المونسة,null,null,Aqur,null,نصيبين,37.05514,41.22167,Aqur,NASIBIN_412E370N_S,مرحلة,37987.00561797753
+نصيبين,37.05514,41.22167,Aqur,NASIBIN_412E370N_S,دارا,37.18527,40.94689,Aqur,DARA_409E371N_S,مرحلة,37987.00561797753
+المحلبية,36.25676,42.76550,Aqur,MAHLABIYYA_427E362N_S,الشحاجية,36.27006,42.96650,Aqur,SHAHHAJIYYA_429E362N_S,مرحلة,37987.00561797753
+الشحاجية,36.27006,42.96650,Aqur,SHAHHAJIYYA_429E362N_S,تل اعفر,36.36312,42.49401,Aqur,TALLAFAR_424E363N_S,مرحلة,37987.00561797753
+تل اعفر,36.36312,42.49401,Aqur,TALLAFAR_424E363N_S,سنجار,36.32446,41.89101,Aqur,SINJAR_418E363N_S,مرحلة,37987.00561797753
+مزارعى,36.63683,43.05500,Aqur,MAZARII_430E366N_S,معلثايا,null,null,Aqur,null,مرحلة,37987.00561797753
+معلثايا,null,null,Aqur,null,الحسنية,37.11078,42.72248,Aqur,HASANIYYA_427E371N_S,مرحلة,37987.00561797753
+الحسنية,37.11078,42.72248,Aqur,HASANIYYA_427E371N_S,ثمانين,37.31295,42.64158,Aqur,THAMANIN_426E373N_S,مرحلة,37987.00561797753
+ثمانين,37.31295,42.64158,Aqur,THAMANIN_426E373N_S,جزيرة ابن عمر,37.28521,42.19943,Aqur,JAZIRAIBNUMAR_421E372N_R,مرحلة,37987.00561797753
+جزيرة ابن عمر,37.28521,42.19943,Aqur,JAZIRAIBNUMAR_421E372N_R,تل فافان,37.72559,41.78238,Aqur,TALLFAFAN_417E377N_S,مرحلة,37987.00561797753
+الموصل,36.32809,43.12700,Aqur,MAWSIL_431E363N_S,شهرزور,null,null,Aqur,null,ستون فرسخا,173292.0
+آمد,37.91510,40.21323,Aqur,AMID_402E379N_S,ميافارقين,38.14322,41.00798,Aqur,MAYYAFARIQIN_410E381N_S,مرحلة,37987.00561797753
+ميافارقين,38.14322,41.00798,Aqur,MAYYAFARIQIN_410E381N_S,أرزن,37.97890,41.65964,Aqur,ARZAN_416E379N_S,مرحلة,37987.00561797753
+أرزن,37.97890,41.65964,Aqur,ARZAN_416E379N_S,مسجد أويس,null,null,Aqur,null,مرحلة,37987.00561797753
+مسجد أويس,null,null,Aqur,null,المعدن,null,null,Aqur,null,مرحلة,37987.00561797753
+المعدن,null,null,Aqur,null,بدليس,38.39550,42.13266,Aqur,BADLIS_421E383N_S,مرحلة,37987.00561797753
+بدليس,38.39550,42.13266,Aqur,BADLIS_421E383N_S,شمشاط,38.61412,39.83119,Aqur,SHIMSHAT_398E386N_S,مرحلة,37987.00561797753
+شمشاط,38.61412,39.83119,Aqur,SHIMSHAT_398E386N_S,تل حوم,38.19784,39.75447,Aqur,TALLHUM_397E381N_S,مرحلة,37987.00561797753
+تل حوم,38.19784,39.75447,Aqur,TALLHUM_397E381N_S,جرنان,37.92941,39.61765,Aqur,JARNAN_396E379N_S,مرحلة,37987.00561797753
+جرنان,37.92941,39.61765,Aqur,JARNAN_396E379N_S,بامقرا,37.75537,39.33450,Aqur,BAMAQARA_393E377N_S,مرحلة,37987.00561797753
+بامقرا,37.75537,39.33450,Aqur,BAMAQARA_393E377N_S,جلاب,37.41051,38.91048,Aqur,JULLAB_389E374N_S,مرحلة,37987.00561797753
+جلاب,37.41051,38.91048,Aqur,JULLAB_389E374N_S,الرها,37.14970,38.82122,Aqur,RUHA_388E371N_S,بريدين,23504.153846153848
+الرها,37.14970,38.82122,Aqur,RUHA_388E371N_S,حران,36.88438,39.08906,Aqur,HARRAN_390E368N_S,بريدين,23504.153846153848
+حران,36.88438,39.08906,Aqur,HARRAN_390E368N_S,باجروان,36.13571,38.98556,Aqur,BAJARWAN_389E361N_S,مرحلة,37987.00561797753
+باجروان,36.13571,38.98556,Aqur,BAJARWAN_389E361N_S,الرقة,35.94930,39.05128,Aqur,RAQQA_390E359N_S,نصف مرحلة,18993.502808988764
+الرحبة,null,null,Aqur,null,قرقيسيا,null,null,Aqur,null,مرحلة,37987.00561797753
+قرقيسيا,null,null,Aqur,null,الدالية,34.71355,40.74111,Aqur,DALIYA_407E347N_S,مرحلة,37987.00561797753
+قرقيسيا,null,null,Aqur,null,بئر,null,null,Aqur,null,مرحلة,37987.00561797753
+قرقيسيا,null,null,Aqur,null,فدين,35.41480,40.59626,Aqur,FUDAYN_405E354N_S,مرحلة,37987.00561797753
+فدين,35.41480,40.59626,Aqur,FUDAYN_405E354N_S,السكير,null,null,Aqur,null,مرحلة,37987.00561797753
+آمد,37.91510,40.21323,Aqur,AMID_402E379N_S,تل حور,null,null,Aqur,null,مرحلة,37987.00561797753
+تل حور,null,null,Aqur,null,ملطين,38.35806,38.35767,Aqur,MALATIN_383E383N_S,مرحلة,37987.00561797753
+ملطين,38.35806,38.35767,Aqur,MALATIN_383E383N_S,طبوس,null,null,Aqur,null,مرحلة,37987.00561797753
+طبوس,null,null,Aqur,null,شمشاط,38.61412,39.83119,Aqur,SHIMSHAT_398E386N_S,مرحلة,37987.00561797753
+شمشاط,38.61412,39.83119,Aqur,SHIMSHAT_398E386N_S,الفعونية,null,null,Aqur,null,مرحلة,37987.00561797753
+الفعونية,null,null,Aqur,null,حصن زياد,38.75874,39.22470,Aqur,HISNZIYAD_392E387N_S,مرحلة,37987.00561797753
+حصن زياد,38.75874,39.22470,Aqur,HISNZIYAD_392E387N_S,ملطين,38.35806,38.35767,Aqur,MALATIN_383E383N_S,مرحلة,37987.00561797753
+ملطين,38.35806,38.35767,Aqur,MALATIN_383E383N_S,عرقة,38.36373,37.96251,Aqur,ARQA_379E383N_S,مرحلة,37987.00561797753
+عرقة,38.36373,37.96251,Aqur,ARQA_379E383N_S,الصفصاف,null,null,Aqur,null,مرحلة,37987.00561797753
+الصفصاف,null,null,Aqur,null,الرمانة,null,null,Aqur,null,مرحلة,37987.00561797753
+الرمانة,null,null,Aqur,null,سمندو,null,null,Aqur,null,مرحلتين,70357.0
+سمندو,null,null,Aqur,null,مرج قيسارية,null,null,Aqur,null,مرحلة,37987.00561797753
+مرج قيسارية,null,null,Aqur,null,أنقرة,null,null,Aqur,null,4 مراحل,151948.0224719101
+أنقرة,null,null,Aqur,null,جسر شاغر,null,null,Aqur,null,ثلاثة مراحل,113961.01685393258
+جسر شاغر,null,null,Aqur,null,النقموذية,null,null,Aqur,null,مرحلة,37987.00561797753
+النقموذية,null,null,Aqur,null,ملعب الملك,null,null,Aqur,null,مرحلة,37987.00561797753
+ملعب الملك,null,null,Aqur,null,حارفة,null,null,Aqur,null,مرحلة,37987.00561797753
+حارفة,null,null,Aqur,null,القسطنطينية,null,null,Aqur,null,مرحلة,37987.00561797753
+ميافارقين,38.14322,41.00798,Aqur,MAYYAFARIQIN_410E381N_S,موش,null,null,Aqur,null,4 مراحل,151948.0224719101
+موش,null,null,Aqur,null,قنب,null,null,Aqur,null,مرحلة,37987.00561797753
+قنب,null,null,Aqur,null,سن نحاس,null,null,Aqur,null,مرحلة,37987.00561797753
+سن نحاس,null,null,Aqur,null,قاليقلا,null,null,Aqur,null,مرحلتان,70357.0
+سن نحاس,null,null,Aqur,null,ملازكرد,null,null,Aqur,null,مرحلتان,70357.0
+سن نحاس,null,null,Aqur,null,موش,null,null,Aqur,null,مرحلتان,70357.0
+سن نحاس,null,null,Aqur,null,الخالديات,null,null,Aqur,null,مرحلتان,70357.0
+سموقموش,null,null,Aqur,null,قلونية العوفي,null,null,Aqur,null,مرحلتين,70357.0
+قلونية العوفي,null,null,Aqur,null,نفشارية,null,null,Aqur,null,4 مراحل,151948.0224719101
+نفشارية,null,null,Aqur,null,عقبة الشهداء,null,null,Aqur,null,مرحلة,37987.00561797753
+عقبة الشهداء,null,null,Aqur,null,الأفلاغونية,null,null,Aqur,null,مرحلة,37987.00561797753
+الأفلاغونية,null,null,Aqur,null,السونشة,null,null,Aqur,null,مرحلة,37987.00561797753
+السونشة,null,null,Aqur,null,بمولصة,null,null,Aqur,null,مرحلة,37987.00561797753
+بمولصة,null,null,Aqur,null,بلد ابن السوانيطى,null,null,Aqur,null,مرحلة,37987.00561797753
+بلد ابن السوانيطى,null,null,Aqur,null,دوسنية,null,null,Aqur,null,مرحلة,37987.00561797753
+قطابولى,null,null,Aqur,null,بلد ابن الملاين,null,null,Aqur,null,مرحلتين,70357.0
+بلد ابن الملاين,null,null,Aqur,null,البحيرة الحلوة,null,null,Aqur,null,مرحلة,37987.00561797753
+البحيرة الحلوة,null,null,Aqur,null,حصن صاعس,null,null,Aqur,null,مرحلة,37987.00561797753
+حلب,36.19828,37.17518,Sham,HALAB_371E361N_S,بالس,36.02806,38.09005,Sham,BALIS_380E360N_S,يومين,84568.0
+حلب,36.19828,37.17518,Sham,HALAB_371E361N_S,قنسرين,35.99617,37.02701,Sham,QINNASRIN_370E359N_S,يوما,28156.0
+حلب,36.19828,37.17518,Sham,HALAB_371E361N_S,الأثارب,36.13792,36.83533,Sham,ATHARIB_368E361N_S,يوما,28156.0
+حلب,36.19828,37.17518,Sham,HALAB_371E361N_S,منبج,null,null,Sham,null,يومين,84568.0
+انطاكية,36.19718,36.18418,Sham,ANTAKIYYA_361E361N_S,الاذقية,35.51961,35.80763,Sham,LADHIQIYYA_358E355N_S,ثلاثة ايام,84468.0
+منبج,null,null,Sham,null,الفرات,35.81449,38.38504,Sham,FURAT_383E358N_W,مرحلة,37987.00561797753
+حمص,34.73793,36.72425,Sham,HIMS_367E347N_S,جوسية,34.44699,36.56409,Sham,JUSIYA_365E344N_S,مرحلة,37987.00561797753
+جوسية,34.44699,36.56409,Sham,JUSIYA_365E344N_S,يعاث,null,null,Sham,null,مرحلة,37987.00561797753
+يعاث,null,null,Sham,null,بعلبك,34.01251,36.19213,Sham,BALABAKK_361E340N_S,نصف مرحلة,18993.502808988764
+بعلبك,34.01251,36.19213,Sham,BALABAKK_361E340N_S,الزبداني,33.73115,36.08756,Sham,ZABADANI_360E337N_S,مرحلة,37987.00561797753
+الزبداني,33.73115,36.08756,Sham,ZABADANI_360E337N_S,دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,مرحلة,37987.00561797753
+حمص,34.73793,36.72425,Sham,HIMS_367E347N_S,شمسين,34.53863,36.74279,Sham,SHAMSIN_367E345N_S,مرحلة,37987.00561797753
+شمسين,34.53863,36.74279,Sham,SHAMSIN_367E345N_S,قارا,null,null,Sham,null,مرحلة,37987.00561797753
+قارا,null,null,Sham,null,البنك,null,null,Sham,null,مرحلة,37987.00561797753
+البنك,null,null,Sham,null,القطيفة,33.74546,36.60247,Sham,QUTAYYIFA_366E337N_S,مرحلة,37987.00561797753
+القطيفة,33.74546,36.60247,Sham,QUTAYYIFA_366E337N_S,دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,مرحلة,37987.00561797753
+حمص,34.73793,36.72425,Sham,HIMS_367E347N_S,سلمية,35.00401,37.07106,Sham,SALAMIYYA_370E350N_S,مرحلة,37987.00561797753
+سلمية,35.00401,37.07106,Sham,SALAMIYYA_370E350N_S,القسطل,35.06025,37.57892,Sham,QASTAL_375E350N_S,مرحلتين,70357.0
+القسطل,35.06025,37.57892,Sham,QASTAL_375E350N_S,الزراعة,null,null,Sham,null,مرحلتين,70357.0
+الزراعة,null,null,Sham,null,الرصافة,35.60242,38.77933,Sham,RUSAFA_387E356N_S,مرحلتين,70357.0
+الرصافة,35.60242,38.77933,Sham,RUSAFA_387E356N_S,الرقة,null,null,Sham,null,نصف مرحلة,18993.502808988764
+حمص,34.73793,36.72425,Sham,HIMS_367E347N_S,حماة,35.12587,36.76872,Sham,HAMA_367E351N_S,مرحلة,37987.00561797753
+حماة,35.12587,36.76872,Sham,HAMA_367E351N_S,شيزر,35.25585,36.55938,Sham,SHAYZAR_365E352N_S,مرحلة,37987.00561797753
+شيزر,35.25585,36.55938,Sham,SHAYZAR_365E352N_S,كفرطاب,35.50744,36.61239,Sham,KAFARTAB_366E355N_S,مرحلة,37987.00561797753
+كفرطاب,35.50744,36.61239,Sham,KAFARTAB_366E355N_S,قنسرين,35.99617,37.02701,Sham,QINNASRIN_370E359N_S,مرحلة,37987.00561797753
+قنسرين,35.99617,37.02701,Sham,QINNASRIN_370E359N_S,حلب,36.19828,37.17518,Sham,HALAB_371E361N_S,مرحلة,37987.00561797753
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,طرابلس,34.44044,35.85194,Sham,ATRABULUS_358E344N_S,يومين,84568.0
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,بيروت,33.90162,35.50910,Sham,BAYRUT_355E339N_S,يومين,84568.0
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,صيدا,null,null,Sham,null,يومين,84568.0
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,بانياس,33.25150,35.67787,Sham,BANIYAS_356E332N_S,يومين,84568.0
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,الحوران,32.65059,36.73153,Sham,HAWRAN_367E326N_S,يومين,84568.0
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,البثنية,32.72189,36.15837,Sham,BATHANIYYA_361E327N_S,يومين,84568.0
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,أقصى الغوطة,null,null,Sham,null,مرحلة,37987.00561797753
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,بيت سرعا,null,null,Sham,null,مرحلة,37987.00561797753
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,الكسوة,33.35826,36.23184,Sham,KUSWA_362E333N_S,بريدين,23504.153846153848
+دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,جاسم,32.98099,36.04321,Sham,JASIM_360E329N_S,مرحلة,37987.00561797753
+جاسم,32.98099,36.04321,Sham,JASIM_360E329N_S,فيق,null,null,Sham,null,مرحلة,37987.00561797753
+فيق,null,null,Sham,null,طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,بريدا,17060.5
+بانياس,33.25150,35.67787,Sham,BANIYAS_356E332N_S,قدس,33.12189,35.49123,Sham,QADAS_354E331N_S,بريدين,23504.153846153848
+بانياس,33.25150,35.67787,Sham,BANIYAS_356E332N_S,جب يوسف,32.92434,35.52565,Sham,JUBBYUSUF_355E329N_S,بريدين,23504.153846153848
+بيروت,33.90162,35.50910,Sham,BAYRUT_355E339N_S,صيدا,null,null,Sham,null,مرحلة,37987.00561797753
+بيروت,33.90162,35.50910,Sham,BAYRUT_355E339N_S,طرابلس,34.44044,35.85194,Sham,ATRABULUS_358E344N_S,مرحلة,37987.00561797753
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,اللجون,32.60823,35.27017,Sham,LAJJUN_352E326N_S,مرحلة,37987.00561797753
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,جب يوسف,32.92434,35.52565,Sham,JUBBYUSUF_355E329N_S,مرحلة,37987.00561797753
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,بيسان,32.50000,35.49256,Sham,BAYSAN_354E325N_S,مرحلة,37987.00561797753
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,عقبة أفيق,32.77421,35.67655,Sham,AQABAFIQ_356E327N_S,مرحلة,37987.00561797753
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,الجش,33.03094,35.45020,Sham,JASHSH_354E330N_S,مرحلة,37987.00561797753
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,كفركيلا,null,null,Sham,null,مرحلة,37987.00561797753
+اللجون,32.60823,35.27017,Sham,LAJJUN_352E326N_S,قلنسوة,32.29512,34.98155,Sham,QALANSUWA_349E322N_S,مرحلة,37987.00561797753
+قلنسوة,32.29512,34.98155,Sham,QALANSUWA_349E322N_S,الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,مرحلة,37987.00561797753
+اللجون,32.60823,35.27017,Sham,LAJJUN_352E326N_S,كفرسابا,32.17778,34.88134,Sham,KAFARSABA_348E321N_S,مرحلة,37987.00561797753
+كفرسابا,32.17778,34.88134,Sham,KAFARSABA_348E321N_S,الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,مرحلة,37987.00561797753
+بيسان,32.50000,35.49256,Sham,BAYSAN_354E325N_S,تعاسير,32.33910,35.38269,Sham,TAASIR_353E323N_S,بريدين,23504.153846153848
+بريدين,null,null,Sham,null,نابلس,32.22047,35.24238,Sham,NABULUS_352E322N_S,بريدين,23504.153846153848
+نابلس,32.22047,35.24238,Sham,NABULUS_352E322N_S,بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,مرحلة,37987.00561797753
+جب يوسف,32.92434,35.52565,Sham,JUBBYUSUF_355E329N_S,قرية العيون,33.36423,35.56778,Sham,QARYAUYUN_355E333N_S,مرحلتين,70357.0
+قرية العيون,33.36423,35.56778,Sham,QARYAUYUN_355E333N_S,القرعون,33.57083,35.71229,Sham,QARUN_357E335N_S,مرحلة,37987.00561797753
+القرعون,33.57083,35.71229,Sham,QARUN_357E335N_S,عين الحجر,33.72730,35.90422,Sham,AYNJARR_359E337N_S,مرحلة,37987.00561797753
+عين الحجر,33.72730,35.90422,Sham,AYNJARR_359E337N_S,بعلبك,34.01251,36.19213,Sham,BALABAKK_361E340N_S,مرحلة,37987.00561797753
+الجش,33.03094,35.45020,Sham,JASHSH_354E330N_S,صور,33.26921,35.20796,Sham,SUR_352E332N_S,مرحلة,37987.00561797753
+صور,33.26921,35.20796,Sham,SUR_352E332N_S,صيدا,null,null,Sham,null,مرحلة,37987.00561797753
+صور,33.26921,35.20796,Sham,SUR_352E332N_S,قدس,33.12189,35.49123,Sham,QADAS_354E331N_S,بريدين,23504.153846153848
+صور,33.26921,35.20796,Sham,SUR_352E332N_S,مجدل سلم,33.22604,35.43299,Sham,MAJDALSALIM_354E332N_S,بريدين,23504.153846153848
+مجدل سلم,33.22604,35.43299,Sham,MAJDALSALIM_354E332N_S,بانياس,33.25150,35.67787,Sham,BANIYAS_356E332N_S,بريدين,23504.153846153848
+طبرية,32.77755,35.51241,Sham,TABARIYYA_355E327N_S,عكا,null,null,Sham,null,مرحلتين,70357.0
+جبل لبنان,34.15941,35.99225,Sham,JABALLUBNAN_359E341N_O,نابلس,32.22047,35.24238,Sham,NABULUS_352E322N_S,مرحلة,37987.00561797753
+جبل لبنان,34.15941,35.99225,Sham,JABALLUBNAN_359E341N_O,قدس,33.12189,35.49123,Sham,QADAS_354E331N_S,مرحلة,37987.00561797753
+جبل لبنان,34.15941,35.99225,Sham,JABALLUBNAN_359E341N_O,صيدا,null,null,Sham,null,مرحلة,37987.00561797753
+جبل لبنان,34.15941,35.99225,Sham,JABALLUBNAN_359E341N_O,صور نحو,null,null,Sham,null,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,بيت جبريل,31.60564,34.88059,Sham,BAYTJIBRIL_348E316N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,عسقلان,31.66572,34.55455,Sham,ASQALAN_345E316N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,السكرية,31.56416,34.65335,Sham,SUKKARIYYA_346E315N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,نابلس,32.22047,35.24238,Sham,NABULUS_352E322N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,كفر سلام,null,null,Sham,null,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,مسجد إبراهيم,null,null,Sham,null,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,اريحاء,null,null,Sham,null,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,يافه,null,null,Sham,null,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,الماحوز,null,null,Sham,null,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,ارسوف,32.19588,34.80739,Sham,ARSUF_348E321N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,ازدود,31.79837,34.66817,Sham,AZDUD_346E317N_S,مرحلة,37987.00561797753
+الرملة,31.92484,34.86436,Sham,RAMLA_348E319N_S,رفح,31.30870,34.25897,Sham,RAFH_342E313N_S,مرحلة,37987.00561797753
+بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,بيت جبريل,31.60564,34.88059,Sham,BAYTJIBRIL_348E316N_S,مرحلة,37987.00561797753
+بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,مسجد إبراهيم,null,null,Sham,null,مرحلة,37987.00561797753
+بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,نهر الاردن,null,null,Sham,null,مرحلة,37987.00561797753
+بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,نابلس,32.22047,35.24238,Sham,NABULUS_352E322N_S,مرحلة,37987.00561797753
+بيت المقدس,31.77768,35.20345,Sham,BAYTMAQDIS_352E317N_S,اريحاء,null,null,Sham,null,بريدين,23504.153846153848
+غزة,31.49664,34.45664,Sham,GHAZZA_344E314N_S,بيت جبريل,31.60564,34.88059,Sham,BAYTJIBRIL_348E316N_S,مرحلة,37987.00561797753
+غزة,31.49664,34.45664,Sham,GHAZZA_344E314N_S,ازدود,31.79837,34.66817,Sham,AZDUD_346E317N_S,مرحلة,37987.00561797753
+غزة,31.49664,34.45664,Sham,GHAZZA_344E314N_S,رفح,31.30870,34.25897,Sham,RAFH_342E313N_S,مرحلة,37987.00561797753
+مسجد إبراهيم,null,null,Sham,null,قاووس,null,null,Sham,null,مرحلة,37987.00561797753
+قاووس,null,null,Sham,null,صغر,31.03706,35.46845,Sham,SUGHAR_354E310N_S,مرحلة,37987.00561797753
+نهر الاردن,null,null,Sham,null,عمان,31.93113,35.91903,Sham,AMMAN_359E319N_S,مرحلة,37987.00561797753
+نابلس,32.22047,35.24238,Sham,NABULUS_352E322N_S,اريحاء,null,null,Sham,null,مرحلة,37987.00561797753
+اريحاء,null,null,Sham,null,بيت الرام,31.80167,35.60287,Sham,BAYTRAM_356E318N_S,بريدين,23504.153846153848
+بيت الرام,31.80167,35.60287,Sham,BAYTRAM_356E318N_S,عمان,31.93113,35.91903,Sham,AMMAN_359E319N_S,مرحلة,37987.00561797753
+صغر,31.03706,35.46845,Sham,SUGHAR_354E310N_S,مآب,31.25790,35.73272,Sham,MAAB_357E312N_S,مرحلة,37987.00561797753
+عميان,null,null,Sham,null,مآب,31.25790,35.73272,Sham,MAAB_357E312N_S,مرحلة,37987.00561797753
+عميان,null,null,Sham,null,الزرقاء,32.07029,36.08689,Sham,ZARQA_360E320N_S,مرحلة,37987.00561797753
+الزرقاء,32.07029,36.08689,Sham,ZARQA_360E320N_S,أذرعات,32.61046,36.09087,Sham,ADHRIAT_360E326N_S,مرحلة,37987.00561797753
+أذرعات,32.61046,36.09087,Sham,ADHRIAT_360E326N_S,دمشق,33.51843,36.30199,Sham,DIMASHQ_363E335N_S,مرحلتين,70357.0
+قيسارية,32.49326,34.89906,Sham,QAYSARIYYA_348E324N_S,كفرسلام,null,null,Sham,null,مرحلة,37987.00561797753
+قيسارية,32.49326,34.89906,Sham,QAYSARIYYA_348E324N_S,كفرسابا,32.17778,34.88134,Sham,KAFARSABA_348E321N_S,مرحلة,37987.00561797753
+قيسارية,32.49326,34.89906,Sham,QAYSARIYYA_348E324N_S,ارسوف,32.19588,34.80739,Sham,ARSUF_348E321N_S,مرحلة,37987.00561797753
+قيسارية,32.49326,34.89906,Sham,QAYSARIYYA_348E324N_S,الكنيسة,32.74750,34.95381,Sham,KANISA_349E327N_S,مرحلة,37987.00561797753
+يافه,null,null,Sham,null,عسقلان,31.66572,34.55455,Sham,ASQALAN_345E316N_S,مرحلة,37987.00561797753
+الفرما,31.02282,32.59811,Egypt,FARAMA_325E310N_S,البقارة,31.02385,33.12566,Egypt,BAQQARA_331E310N_S,مرحلة,37987.00561797753
+البقارة,31.02385,33.12566,Egypt,BAQQARA_331E310N_S,الورادة,31.06734,33.54242,Egypt,WARRADA_335E310N_S,مرحلة,37987.00561797753
+الورادة,31.06734,33.54242,Egypt,WARRADA_335E310N_S,العريش,31.12453,33.80807,Egypt,ARISH_338E311N_S,مرحلة,37987.00561797753
+العريش,31.12453,33.80807,Egypt,ARISH_338E311N_S,رفح,null,null,Egypt,null,مرحلة,37987.00561797753
+الفرما,31.02282,32.59811,Egypt,FARAMA_325E310N_S,جرجير,30.91373,32.19454,Egypt,JURJIR_321E309N_S,مرحلة,37987.00561797753
+جرجير,30.91373,32.19454,Egypt,JURJIR_321E309N_S,فاقوس,30.71061,31.79581,Egypt,FAQUS_317E307N_S,مرحلة,37987.00561797753
+الفرما,31.02282,32.59811,Egypt,FARAMA_325E310N_S,الرصد,null,null,Egypt,null,مرحلة,37987.00561797753
+الرصد,null,null,Egypt,null,فاقوس,30.71061,31.79581,Egypt,FAQUS_317E307N_S,مرحلة,37987.00561797753
+الفرما,31.02282,32.59811,Egypt,FARAMA_325E310N_S,تنيس,31.21262,32.22755,Egypt,TINNIS_322E312N_S,مرحلة,37987.00561797753
+تنيس,31.21262,32.22755,Egypt,TINNIS_322E312N_S,دمياط,31.43739,31.79125,Egypt,DIMYAT_317E314N_S,مرحلة,37987.00561797753
+دمياط,31.43739,31.79125,Egypt,DIMYAT_317E314N_S,المحلة الكبيرة,30.97329,31.14662,Egypt,MAHALLAKABIRA_311E309N_S,مرحلة,37987.00561797753
+المحلة الكبيرة,30.97329,31.14662,Egypt,MAHALLAKABIRA_311E309N_S,الاسكندرية,31.19490,29.90981,Egypt,ISKANDARIYYA_299E311N_S,مرحلتين,70357.0
+دمياط,31.43739,31.79125,Egypt,DIMYAT_317E314N_S,سردوس,30.16277,31.18645,Egypt,SARDUS_311E301N_S,مرحلة,37987.00561797753
+سردوس,30.16277,31.18645,Egypt,SARDUS_311E301N_S,الفسطاط,30.04325,31.24964,Egypt,FUSTAT_312E300N_S,مرحلة,37987.00561797753
+بلبيس,30.41776,31.57097,Egypt,BILBAYS_315E304N_S,المنصف,30.18702,32.05366,Egypt,MANSAF_320E301N_S,مرحلة,37987.00561797753
+المنصف,30.18702,32.05366,Egypt,MANSAF_320E301N_S,القلزم,30.02822,32.55684,Egypt,QULZUM_325E300N_S,مرحلة,37987.00561797753
+الفرما,31.02282,32.59811,Egypt,FARAMA_325E310N_S,دير النصارى,31.14397,33.05753,Egypt,DAYRNASARA_330E311N_S,مرحلة,37987.00561797753
+دير النصارى,31.14397,33.05753,Egypt,DAYRNASARA_330E311N_S,المخلصة,null,null,Egypt,null,مرحلة,37987.00561797753
+المخلصة,null,null,Egypt,null,العريش,31.12453,33.80807,Egypt,ARISH_338E311N_S,مرحلة,37987.00561797753
+بلبيس,30.41776,31.57097,Egypt,BILBAYS_315E304N_S,الفسطاط,30.04325,31.24964,Egypt,FUSTAT_312E300N_S,مرحلة,37987.00561797753
+الاسكندرية,31.19490,29.90981,Egypt,ISKANDARIYYA_299E311N_S,الرافقة,30.69470,30.73593,Egypt,RAFIQA_307E306N_S,مرحلة,37987.00561797753
+الرافقة,30.69470,30.73593,Egypt,RAFIQA_307E306N_S,كوم شريك,30.63742,30.75642,Egypt,KUMSHARIK_307E306N_S,مرحلة,37987.00561797753
+كوم شريك,30.63742,30.75642,Egypt,KUMSHARIK_307E306N_S,ترنوط,30.40094,30.81078,Egypt,TARNUT_308E304N_S,مرحلة,37987.00561797753
+ترنوط,30.40094,30.81078,Egypt,TARNUT_308E304N_S,ذات السلاسل,null,null,Egypt,null,مرحلة,37987.00561797753
+ذات السلاسل,null,null,Egypt,null,الفسطاط,30.04325,31.24964,Egypt,FUSTAT_312E300N_S,مرحلة,37987.00561797753
+الاسكندرية,31.19490,29.90981,Egypt,ISKANDARIYYA_299E311N_S,بومينه,30.93264,29.71572,Egypt,BUMINA_297E309N_S,مرحلة,37987.00561797753
+بومينه,30.93264,29.71572,Egypt,BUMINA_297E309N_S,سفا,null,null,Egypt,null,مرحلة,37987.00561797753
+سفا,null,null,Egypt,null,ارمسا,null,null,Egypt,null,مرحلة,37987.00561797753
+ارمسا,null,null,Egypt,null,ذات الحمام,null,null,Egypt,null,مرحلة,37987.00561797753
+الاسكندرية,31.19490,29.90981,Egypt,ISKANDARIYYA_299E311N_S,الغاضرة,null,null,Egypt,null,مرحلة,37987.00561797753
+الغاضرة,null,null,Egypt,null,فاقوس,30.71061,31.79581,Egypt,FAQUS_317E307N_S,مرحلة,37987.00561797753
+الفسطاط,30.04325,31.24964,Egypt,FUSTAT_312E300N_S,بلبيس,30.41776,31.57097,Egypt,BILBAYS_315E304N_S,مرحلة,37987.00561797753
+بلبيس,30.41776,31.57097,Egypt,BILBAYS_315E304N_S,المنصف,30.18702,32.05366,Egypt,MANSAF_320E301N_S,مرحلة,37987.00561797753
+المنصف,30.18702,32.05366,Egypt,MANSAF_320E301N_S,القلزم,30.02822,32.55684,Egypt,QULZUM_325E300N_S,مرحلة,37987.00561797753
+القلزم,30.02822,32.55684,Egypt,QULZUM_325E300N_S,جدة,null,null,Egypt,null,ثلاثمائة فرسخ,8664600.0
+الجب,null,null,Egypt,null,البويب,30.16955,31.57979,Egypt,BUWAYB_315E301N_S,مرحلة,37987.00561797753
+البويب,30.16955,31.57979,Egypt,BUWAYB_315E301N_S,منزل ابن بندقة,null,null,Egypt,null,مرحلة,37987.00561797753
+منزل ابن بندقة,null,null,Egypt,null,عجرود,30.05828,32.38039,Egypt,AJARUD_323E300N_S,مرحلة,37987.00561797753
+عجرود,30.05828,32.38039,Egypt,AJARUD_323E300N_S,المدينة,null,null,Egypt,null,مرحلة,37987.00561797753
+المدينة,null,null,Egypt,null,الكرسي,null,null,Egypt,null,مرحلة,37987.00561797753
+الكرسي,null,null,Egypt,null,الحفر,null,null,Egypt,null,مرحلة,37987.00561797753
+الحفر,null,null,Egypt,null,ويلة,null,null,Egypt,null,مرحلة,37987.00561797753
+برقة,32.37576,20.84475,Barqa,BARQA_208E323N_S,الندامة,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+الندامة,null,null,Maghrib,Barqa,"Andalus""",null,تاكنست,null,null,"""Maghrib",37987.00561797753
+تاكنست,null,null,Maghrib,Barqa,"Andalus""",null,المغار,null,null,"""Maghrib",37987.00561797753
+المغار,null,null,Maghrib,Barqa,"Andalus""",null,حليمان,32.77902,22.20300,Barqa,37987.00561797753
+حليمان,32.77902,22.20300,Barqa,HALIMAN_222E327N_S,مخيل,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+مخيل,null,null,Maghrib,Barqa,"Andalus""",null,جب الميدعان,32.18179,23.31692,Barqa,37987.00561797753
+جب الميدعان,32.18179,23.31692,Barqa,JUBBMAYDAN_233E321N_S,جياد الصغير,31.99027,23.96719,Barqa,JIYADSAGHIR_239E319N_S,مرحلة,37987.00561797753
+جياد الصغير,31.99027,23.96719,Barqa,JIYADSAGHIR_239E319N_S,حى عبد الله,31.87271,24.49433,Barqa,HAYYABDALLAH_244E318N_S,مرحلة,37987.00561797753
+حى عبد الله,31.87271,24.49433,Barqa,HAYYABDALLAH_244E318N_S,مرج الشيخ,31.67644,24.83486,Barqa,MARJSHAYKH_248E316N_S,مرحلة,37987.00561797753
+مرج الشيخ,31.67644,24.83486,Barqa,MARJSHAYKH_248E316N_S,العقبة,31.42889,25.18308,Barqa,AQABA_251E314N_S,مرحلة,37987.00561797753
+العقبة,31.42889,25.18308,Barqa,AQABA_251E314N_S,خرائب ابى حليمة,31.41576,25.51014,Barqa,KHARAIBABUHALIMA_255E314N_S,مرحلة,37987.00561797753
+خرائب ابى حليمة,31.41576,25.51014,Barqa,KHARAIBABUHALIMA_255E314N_S,خربة القوم,31.35376,26.11423,Barqa,KHIRBAQAWM_261E313N_S,مرحلة,37987.00561797753
+خربة القوم,31.35376,26.11423,Barqa,KHIRBAQAWM_261E313N_S,قصر الشماس,31.32418,26.37011,Barqa,QASRSHAMMAS_263E313N_S,مرحلة,37987.00561797753
+قصر الشماس,31.32418,26.37011,Barqa,QASRSHAMMAS_263E313N_S,سكة الحمام,31.19426,26.77604,Barqa,SIKKAHAMMAM_267E311N_S,مرحلة,37987.00561797753
+سكة الحمام,31.19426,26.77604,Barqa,SIKKAHAMMAM_267E311N_S,جب العوسج,31.04479,27.30318,Barqa,JUBBAWSAJ_273E310N_S,مرحلة,37987.00561797753
+جب العوسج,31.04479,27.30318,Barqa,JUBBAWSAJ_273E310N_S,كنائس الحرير,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+كنائس الحرير,null,null,Maghrib,Barqa,"Andalus""",null,الطاحونة,30.84844,28.30167,Barqa,37987.00561797753
+الطاحونة,30.84844,28.30167,Barqa,TAHUNA_283E308N_S,حنية الروم,30.80549,28.85190,Barqa,HANIYYARUM_288E308N_S,مرحلة,37987.00561797753
+حنية الروم,30.80549,28.85190,Barqa,HANIYYARUM_288E308N_S,ذات الحمام,30.86496,29.30208,Barqa,DHATHUMAM_293E308N_S,مرحلة,37987.00561797753
+ذات الحمام,30.86496,29.30208,Barqa,DHATHUMAM_293E308N_S,بومينه,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+بومينه,null,null,Maghrib,Barqa,"Andalus""",null,الاسكندرية,null,null,"""Maghrib",37987.00561797753
+طرابلس,32.87801,13.19209,Barqa,ATRABULUS_131E328N_S,المسدودة,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+المسدودة,null,null,Maghrib,Barqa,"Andalus""",null,ارسطا,null,null,"""Maghrib",37987.00561797753
+ارسطا,null,null,Maghrib,Barqa,"Andalus""",null,الراشدية,null,null,"""Maghrib",37987.00561797753
+الراشدية,null,null,Maghrib,Barqa,"Andalus""",null,قصور حسان,31.25883,15.87924,Barqa,37987.00561797753
+قصور حسان,31.25883,15.87924,Barqa,QUSURHASSAN_158E312N_S,مغمداش,31.19302,16.22169,Barqa,MAGHMADASH_162E311N_S,مرحلة,37987.00561797753
+مغمداش,31.19302,16.22169,Barqa,MAGHMADASH_162E311N_S,سرت,31.09917,16.60839,Barqa,SURT_166E310N_S,مرحلة,37987.00561797753
+سرت,31.09917,16.60839,Barqa,SURT_166E310N_S,قصر العبادى,30.94914,17.29329,Barqa,QASRIBADI_172E309N_S,مرحلة,37987.00561797753
+قصر العبادى,30.94914,17.29329,Barqa,QASRIBADI_172E309N_S,اليهوديتين,30.77615,17.72231,Barqa,YAHUDIYYATAYN_177E307N_S,مرحلة,37987.00561797753
+اليهوديتين,30.77615,17.72231,Barqa,YAHUDIYYATAYN_177E307N_S,قصر العطش,30.54115,18.19751,Barqa,QASRATISH_181E305N_S,مرحلة,37987.00561797753
+قصر العطش,30.54115,18.19751,Barqa,QASRATISH_181E305N_S,سبخة منهوسا,29.78891,18.63423,Barqa,SABKHAMANHUSHA_186E297N_R,مرحلة,37987.00561797753
+سبخة منهوسا,29.78891,18.63423,Barqa,SABKHAMANHUSHA_186E297N_R,بلد روب,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+بلد روب,null,null,Maghrib,Barqa,"Andalus""",null,برمست,null,null,"""Maghrib",37987.00561797753
+برمست,null,null,Maghrib,Barqa,"Andalus""",null,سلوق,31.40180,20.24835,Barqa,37987.00561797753
+سلوق,31.40180,20.24835,Barqa,SULUQ_202E314N_S,اوبران,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+اوبران,null,null,Maghrib,Barqa,"Andalus""",null,قصر الفيل,null,null,"""Maghrib",37987.00561797753
+قصر الفيل,null,null,Maghrib,Barqa,"Andalus""",null,مليتية,null,null,"""Maghrib",37987.00561797753
+مليتية,null,null,Maghrib,Barqa,"Andalus""",null,برقة,32.37576,20.84475,Barqa,37987.00561797753
+أطرابلس,32.87801,13.19209,Barqa,ATRABULUS_131E328N_S,بئر الجمالين,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+بئر الجمالين,null,null,Maghrib,Barqa,"Andalus""",null,قصر الدرق,null,null,"""Maghrib",37987.00561797753
+قصر الدرق,null,null,Maghrib,Barqa,"Andalus""",null,بارجمت,33.05675,11.63847,Barqa,37987.00561797753
+بارجمت,33.05675,11.63847,Barqa,BARJAMT_116E330N_S,الفوارة,33.55129,10.50881,Barqa,FAWWARA_105E335N_S,مرحلة,37987.00561797753
+الفوارة,33.55129,10.50881,Barqa,FAWWARA_105E335N_S,قابس,33.86603,10.08563,Barqa,QABIS_100E338N_S,مرحلة,37987.00561797753
+قابس,33.86603,10.08563,Barqa,QABIS_100E338N_S,الزيتونة,34.35352,10.10538,Maghrib,ZAYTUNA_101E343N_S,مرحلة,37987.00561797753
+الزيتونة,34.35352,10.10538,Maghrib,ZAYTUNA_101E343N_S,كتانة,33.69175,10.27879,Barqa,KATANA_102E336N_S,مرحلة,37987.00561797753
+كتانة,33.69175,10.27879,Barqa,KATANA_102E336N_S,الكبس,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+الكبس,null,null,Maghrib,Barqa,"Andalus""",null,القيروان,35.70049,10.14137,Maghrib,37987.00561797753
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,السوس الأدنى,null,null,Maghrib,Barqa,"Andalus""",4173150
+السوس الأدنى,null,null,Maghrib,Barqa,"Andalus""",null,السوس الأقصى,null,null,"""Maghrib",647588.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,قفصة,34.40681,8.82032,Maghrib,QAFSA_088E344N_S,7 مراحل,265909.0393258427
+قفصة,34.40681,8.82032,Maghrib,QAFSA_088E344N_S,قسطيلية,33.88951,8.27517,Maghrib,QASTILIYA_082E338N_R,ثلاثة مراحل,113961.01685393258
+قسطيلية,33.88951,8.27517,Maghrib,QASTILIYA_082E338N_R,تاهرت,35.36971,1.36504,Maghrib,TAHIRT_013E353N_S,خمسة عشر يوما,422340.0
+تاهرت,35.36971,1.36504,Maghrib,TAHIRT_013E353N_S,فلس,null,null,Maghrib,Barqa,"Andalus""",84468.0
+فلس,null,null,Maghrib,Barqa,"Andalus""",null,الشقور,null,null,"""Maghrib",303896.0449438202
+الشقور,null,null,Maghrib,Barqa,"Andalus""",null,البصرة,34.82887,-5.88806,Maghrib,303896.0449438202
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,سطيف,36.15863,5.40760,Maghrib,SATIF_054E361N_S,عشرة مراحل,379870.0561797753
+سطيف,36.15863,5.40760,Maghrib,SATIF_054E361N_S,تاهرت,35.36971,1.36504,Maghrib,TAHIRT_013E353N_S,عشرون مراحل,759740.1123595505
+تاهرت,35.36971,1.36504,Maghrib,TAHIRT_013E353N_S,فلس,null,null,Maghrib,Barqa,"Andalus""",1899350.2808988765
+فلس,null,null,Maghrib,Barqa,"Andalus""",null,السوس الأقصى,null,null,"""Maghrib",1139610.1685393257
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,زويلة,25.78099,14.78841,Barqa,ZAWILA_147E257N_S,شهرا,900000.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,سجلماسة,31.27819,-4.23723,Maghrib,SIJILMASA_042W312N_S,ثلاثون مراحل,1139610.1685393257
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,سجلماسة,31.27819,-4.23723,Maghrib,SIJILMASA_042W312N_S,خمسون مراحل,1899350.2808988765
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,تونس,36.77071,10.17736,Maghrib,TUNIS_101E367N_S,ثلاثة مراحل,113961.01685393258
+تونس,36.77071,10.17736,Maghrib,TUNIS_101E367N_S,طبرقة,36.91556,8.81185,Maghrib,TABARQA_088E369N_S,عشرة مراحل,379870.0561797753
+طبرقة,36.91556,8.81185,Maghrib,TABARQA_088E369N_S,تنس,36.49038,1.37563,Maghrib,TANAS_013E364N_S,6 مراحل,227922.03370786516
+تنس,36.49038,1.37563,Maghrib,TANAS_013E364N_S,جزيرة بنى زغناى,36.70793,3.09046,Maghrib,JAZIRABANUZAGHANNAYA_030E367N_S,خمسة مراحل,189935.02808988764
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,قابس,33.86603,10.08563,Barqa,QABIS_100E338N_S,مرحلتين,70357.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,نفطة,33.87018,7.90257,Maghrib,NAFTA_079E338N_S,مرحلتين,70357.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,قرنة,null,null,Maghrib,Barqa,"Andalus""",70357.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,سبيبة,35.41674,9.16117,Maghrib,SABIBA_091E354N_S,مرحلتين,70357.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,مدينة القصور,null,null,Maghrib,Barqa,"Andalus""",70357.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,المهدية,35.49133,11.05807,Maghrib,MAHDIYYA_110E354N_S,مرحلتين,70357.0
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,لافس,null,null,Maghrib,Barqa,"Andalus""",113961.01685393258
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,الجزيرة,null,null,Maghrib,Barqa,"Andalus""",113961.01685393258
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,أبة,35.80744,8.72082,Maghrib,UBBA_087E358N_S,ثلاث مراحل,113961.01685393258
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,مرسى الخرز,36.85460,8.42231,Maghrib,MARSAKHARAZ_084E368N_S,ثلاث مراحل,113961.01685393258
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,قابس,33.86603,10.08563,Barqa,QABIS_100E338N_S,5 مراحل,189935.02808988764
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,قصر الافريقى,null,null,Maghrib,Barqa,"Andalus""",189935.02808988764
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,مجانة,null,null,Maghrib,Barqa,"Andalus""",189935.02808988764
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,تبسة,null,null,"""Maghrib",37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,باغلى,null,null,"""Maghrib",37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,دوفانة,35.49564,6.62915,Maghrib,37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,عين العصافير,null,null,"""Maghrib",37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,دار ملول,null,null,"""Maghrib",37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,طبنة,35.32395,5.35573,Maghrib,37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,مقرة,35.54259,5.02970,Maghrib,37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,المسيلة,35.66309,4.53218,Maghrib,37987.00561797753
+مجانة,null,null,Maghrib,Barqa,"Andalus""",null,تبسة,null,null,"""Maghrib",37987.00561797753
+تبسة,null,null,Maghrib,Barqa,"Andalus""",null,باغلى,null,null,"""Maghrib",37987.00561797753
+باغلى,null,null,Maghrib,Barqa,"Andalus""",null,دوفانة,35.49564,6.62915,Maghrib,37987.00561797753
+دوفانة,35.49564,6.62915,Maghrib,DUFANA_066E354N_S,عين العصافير,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+عين العصافير,null,null,Maghrib,Barqa,"Andalus""",null,دار ملول,null,null,"""Maghrib",37987.00561797753
+دار ملول,null,null,Maghrib,Barqa,"Andalus""",null,طبنة,35.32395,5.35573,Maghrib,37987.00561797753
+طبنة,35.32395,5.35573,Maghrib,TUBNA_053E353N_S,مقرة,35.54259,5.02970,Maghrib,MAQQARA_050E355N_S,مرحلة,37987.00561797753
+مقرة,35.54259,5.02970,Maghrib,MAQQARA_050E355N_S,المسيلة,35.66309,4.53218,Maghrib,MASILA_045E356N_S,مرحلة,37987.00561797753
+المسيلة,35.66309,4.53218,Maghrib,MASILA_045E356N_S,أشير,null,null,Maghrib,Barqa,"Andalus""",84468.0
+أشير,null,null,Maghrib,Barqa,"Andalus""",null,تاهرت,35.36971,1.36504,Maghrib,140780.0
+تاهرت,35.36971,1.36504,Maghrib,TAHIRT_013E353N_S,فكان,35.21592,0.05881,Maghrib,FAKKAN_000E352N_S,5 أيام,140780.0
+فكان,35.21592,0.05881,Maghrib,FAKKAN_000E352N_S,تلمسان,34.88186,-1.32364,Maghrib,TILIMSAN_013W348N_S,مرحلتين,70357.0
+تلمسان,34.88186,-1.32364,Maghrib,TILIMSAN_013W348N_S,جراوة,null,null,Maghrib,Barqa,"Andalus""",70357.0
+تلمسان,34.88186,-1.32364,Maghrib,TILIMSAN_013W348N_S,صاع,34.41816,-2.89875,Maghrib,SA_028W344N_S,مرحلتين,70357.0
+تاهرت,35.36971,1.36504,Maghrib,TAHIRT_013E353N_S,ناكور,null,null,Maghrib,Barqa,"Andalus""",1139610.1685393257
+ناكور,null,null,Maghrib,Barqa,"Andalus""",null,سجلماسة,31.27819,-4.23723,Maghrib,569805.0842696629
+فاس,34.06727,-5.02852,Maghrib,FAS_050W340N_S,البصرة,34.82887,-5.88806,Maghrib,BASRA_058W348N_S,6 مراحل,227922.03370786516
+فاس,34.06727,-5.02852,Maghrib,FAS_050W340N_S,أزيلة,35.58306,-5.97486,Maghrib,AZILA_059W355N_S,ثامن مراحل,303896.0449438202
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,سوسة,35.81044,10.61560,Maghrib,SUSA_106E358N_S,مرحلة,37987.00561797753
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,قلشانة,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+القيروان,35.70049,10.14137,Maghrib,QAYRAWAN_101E357N_S,تماجر,null,null,Maghrib,Barqa,"Andalus""",37987.00561797753
+قرطبة,37.91898,-4.78135,Andalus,QURTUBA_047W379N_S,اشبيلية,37.40790,-5.96199,Andalus,ISHBILIYYA_059W374N_R,ثلاثة مراحل,113961.01685393258
+اشبيلية,37.40790,-5.96199,Andalus,ISHBILIYYA_059W374N_R,استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,مرحلة,37987.00561797753
+قرطبة,37.91898,-4.78135,Andalus,QURTUBA_047W379N_S,طليطلة,39.88926,-4.05210,Andalus,TULAYTILA_040W398N_R,ستة أيام,168936.0
+طليطلة,39.88926,-4.05210,Andalus,TULAYTILA_040W398N_R,وادي الحجارة,40.64910,-3.15111,Andalus,WADIHIJARA_031W406N_R,مرحلتان,70357.0
+قرطبة,37.91898,-4.78135,Andalus,QURTUBA_047W379N_S,مكناسة,33.91455,-5.56626,Maghrib,MIKNASA_055W339N_S,4 أيام,112624.0
+مكناسة,33.91455,-5.56626,Maghrib,MIKNASA_055W339N_S,هوارة,35.55078,0.44200,Maghrib,HUWARA_004E355N_S,4 أيام,112624.0
+هوارة,35.55078,0.44200,Maghrib,HUWARA_004E355N_S,نفرة,null,null,Maghrib,Barqa,"Andalus""",281560.0
+نفرة,null,null,Maghrib,Barqa,"Andalus""",null,سمورة,41.44051,-5.76776,Andalus,112624.0
+قرطبة,37.91898,-4.78135,Andalus,QURTUBA_047W379N_S,قورية,null,null,Maghrib,Barqa,"Andalus""",455844.06741573033
+قورية,null,null,Maghrib,Barqa,"Andalus""",null,ماردة,38.89521,-6.32886,Andalus,151948.0224719101
+قورية,null,null,Maghrib,Barqa,"Andalus""",null,باجة,38.00689,-7.80444,Andalus,168936.0
+باجة,38.00689,-7.80444,Andalus,BAJA_078W380N_R,شنترين,39.22337,-8.71712,Andalus,SHANTARIN_087W392N_S,17 أيام,478652.0
+باجة,38.00689,-7.80444,Andalus,BAJA_078W380N_R,فحص البلوط,38.63018,-4.89554,Andalus,FAHSBALLUT_048W386N_R,يومان,84568.0
+فحص البلوط,38.63018,-4.89554,Andalus,FAHSBALLUT_048W386N_R,لبلة,37.38969,-6.66965,Andalus,LABLA_066W373N_S,14 أيام,394184.0
+باجة,38.00689,-7.80444,Andalus,BAJA_078W380N_R,قرمونة,37.42933,-5.64097,Andalus,QARMUNA_056W374N_S,4 أيام,112624.0
+قرمونة,37.42933,-5.64097,Andalus,QARMUNA_056W374N_S,اشبيلية,37.40790,-5.96199,Andalus,ISHBILIYYA_059W374N_R,مرحلتان,70357.0
+استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,مورور,37.14029,-5.48272,Andalus,MAWRUR_054W371N_S,مرحلة,37987.00561797753
+مورور,37.14029,-5.48272,Andalus,MAWRUR_054W371N_S,شذونة,36.46640,-5.91433,Andalus,SHADHUNA_059W364N_R,يومان,84568.0
+مورور,37.14029,-5.48272,Andalus,MAWRUR_054W371N_S,جبل طارق,null,null,Maghrib,Barqa,"Andalus""",84468.0
+استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,مالقة,36.74791,-4.43066,Andalus,MALIQA_044W367N_R,سبعة أيام,197092.0
+استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,أرجدونة,37.92040,-4.05300,Andalus,ARJUNA_040W379N_S,ثلاث مراحل,113961.01685393258
+استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,بجانة,36.95657,-2.41826,Andalus,BAJJANA_024W369N_R,6 مراحل,227922.03370786516
+استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,مرسية,37.99945,-1.11443,Andalus,MURSIYA_011W379N_S,سبعة أيام,197092.0
+استجة,37.53493,-5.10865,Andalus,ISTIJA_051W375N_S,بلنسية,39.43516,-0.41486,Andalus,BALANSIYYA_004W394N_R,عشرون أيام,563120.0
+بلنسية,39.43516,-0.41486,Andalus,BALANSIYYA_004W394N_R,طرطوشة,40.79221,0.60933,Andalus,TURTUSHA_006E407N_S,12 مراحل,455844.06741573033
+مرسية,37.99945,-1.11443,Andalus,MURSIYA_011W379N_S,بجانة,36.95657,-2.41826,Andalus,BAJJANA_024W369N_R,ستة أيام,168936.0
+بجانة,36.95657,-2.41826,Andalus,BAJJANA_024W369N_R,مالقة,36.74791,-4.43066,Andalus,MALIQA_044W367N_R,عشرة أيام,281560.0
+مالقة,36.74791,-4.43066,Andalus,MALIQA_044W367N_R,جبل طارق,null,null,Maghrib,Barqa,"Andalus""",112624.0
+جبل طارق,null,null,Maghrib,Barqa,"Andalus""",null,شذونة,36.46640,-5.91433,Andalus,84468.0
+شذونة,36.46640,-5.91433,Andalus,SHADHUNA_059W364N_R,اشبيلية,37.40790,-5.96199,Andalus,ISHBILIYYA_059W374N_R,4 أيام,112624.0
+البويب,null,null,Badiyat al-Arab,null,بندقة,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+بندقة,null,null,Badiyat al-Arab,null,عجرود,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+عجرود,null,null,Badiyat al-Arab,null,المدينة,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+المدينة,null,null,Badiyat al-Arab,null,الكرسي,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+الكرسي,null,null,Badiyat al-Arab,null,الحفر,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+الحفر,null,null,Badiyat al-Arab,null,المنزل,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+المنزل,null,null,Badiyat al-Arab,null,ويلة,null,null,Badiyat al-Arab,null,مرحلة,37987.00561797753
+السكرية,null,null,Badiyat al-Arab,null,التليل,null,null,Badiyat al-Arab,null,مرحلتين,70357.0
+التليل,null,null,Badiyat al-Arab,null,الغمر,null,null,Badiyat al-Arab,null,مرحلتين,70357.0
+الغمر,null,null,Badiyat al-Arab,null,ويلة,null,null,Badiyat al-Arab,null,مرحلتين,70357.0
+صغر,null,null,Badiyat al-Arab,null,ويلة,null,null,Badiyat al-Arab,null,4 مراحل,151948.0224719101
+عمان,null,null,Badiyat al-Arab,null,معان,null,null,Badiyat al-Arab,null,منهلين,84568.0
+معان,null,null,Badiyat al-Arab,null,تبوك,28.37114,36.50620,Badiyat al-Arab,TABUK_365E283N_S,منهلين,84568.0
+تبوك,28.37114,36.50620,Badiyat al-Arab,TABUK_365E283N_S,تيماء,27.58081,38.52000,Badiyat al-Arab,TAYMA_385E275N_S,4 ايام,112624.0
+تيماء,27.58081,38.52000,Badiyat al-Arab,TAYMA_385E275N_S,وادي القرى,null,null,Badiyat al-Arab,null,4 ايام,112624.0
+عمان,null,null,Badiyat al-Arab,null,وبير,null,null,Badiyat al-Arab,null,ثلاثة مناهل,84468.0
+وبير,null,null,Badiyat al-Arab,null,الأجولى,29.87858,37.43170,Badiyat al-Arab,AJWALI_374E298N_S,4 مراحل,151948.0224719101
+الأجولى,29.87858,37.43170,Badiyat al-Arab,AJWALI_374E298N_S,ثجر,28.87521,37.89149,Badiyat al-Arab,THAJR_378E288N_S,منهلين,84568.0
+ثجر,28.87521,37.89149,Badiyat al-Arab,THAJR_378E288N_S,تيماء,27.58081,38.52000,Badiyat al-Arab,TAYMA_385E275N_S,ثلاثة مناهل,84468.0
+عمان,null,null,Badiyat al-Arab,null,العونيد,31.64055,36.92899,Badiyat al-Arab,AWNID_369E316N_S,نهارين,56312.0
+العونيد,31.64055,36.92899,Badiyat al-Arab,AWNID_369E316N_S,المحدثة,31.51278,37.15494,Badiyat al-Arab,MUHDATHA_371E315N_S,نصف نهار,14078.0
+المحدثة,31.51278,37.15494,Badiyat al-Arab,MUHDATHA_371E315N_S,النبك,31.21242,37.46475,Badiyat al-Arab,NABK_374E312N_S,نصف نهار,14078.0
+الجربي,null,null,Badiyat al-Arab,null,عرفجا,29.99999,38.67294,Badiyat al-Arab,ARFAJA_386E299N_S,نهارا ونصفا,null
+عرفجا,29.99999,38.67294,Badiyat al-Arab,ARFAJA_386E299N_S,مخرى,29.01767,38.70747,Badiyat al-Arab,MUKHRI_387E290N_S,ثلاثا نهارا,84468.0
+مخرى,29.01767,38.70747,Badiyat al-Arab,MUKHRI_387E290N_S,تيماء,27.58081,38.52000,Badiyat al-Arab,TAYMA_385E275N_S,أربعا نهارا,112624.0
+القادسية,null,null,Badiyat al-Arab,null,المغيثة,31.10097,44.00938,Badiyat al-Arab,MUGHITHA_440E311N_S,17 ميلا,32997.0
+المغيثة,31.10097,44.00938,Badiyat al-Arab,MUGHITHA_440E311N_S,القرعاء,30.87576,43.81303,Badiyat al-Arab,QARA_438E308N_S,22 ميلا,42702.0
+القرعاء,30.87576,43.81303,Badiyat al-Arab,QARA_438E308N_S,واقصة,null,null,Badiyat al-Arab,null,24 ميلا,46584.0
+واقصة,null,null,Badiyat al-Arab,null,العقبة,30.09074,43.61471,Badiyat al-Arab,AQABA_436E300N_S,29 ميلا,56289.0
+العقبة,30.09074,43.61471,Badiyat al-Arab,AQABA_436E300N_S,القاع,null,null,Badiyat al-Arab,null,24 ميلا,46584.0
+القاع,null,null,Badiyat al-Arab,null,زبالة,29.40521,43.56390,Badiyat al-Arab,ZUBALA_435E294N_S,24 ميلا,46584.0
+زبالة,29.40521,43.56390,Badiyat al-Arab,ZUBALA_435E294N_S,الشقوق,29.08495,43.41491,Badiyat al-Arab,SHUQUQ_434E290N_S,21 ميلا,40761.0
+الشقوق,29.08495,43.41491,Badiyat al-Arab,SHUQUQ_434E290N_S,البطان,28.74899,43.27579,Badiyat al-Arab,BITAN_432E287N_S,29 ميلا,56289.0
+البطان,28.74899,43.27579,Badiyat al-Arab,BITAN_432E287N_S,الثعلبية,28.29472,43.16528,Badiyat al-Arab,THALABIYYA_431E282N_S,26 ميلا,50466.0
+الثعلبية,28.29472,43.16528,Badiyat al-Arab,THALABIYYA_431E282N_S,الخزيمية,27.91046,43.13666,Badiyat al-Arab,KHUZAYMIYYA_431E279N_S,32 ميلا,62112.0
+الخزيمية,27.91046,43.13666,Badiyat al-Arab,KHUZAYMIYYA_431E279N_S,أجفر,27.44255,42.97781,Badiyat al-Arab,AJFUR_429E274N_S,24 ميلا,46584.0
+أجفر,27.44255,42.97781,Badiyat al-Arab,AJFUR_429E274N_S,فيد,27.06977,42.50815,Badiyat al-Arab,FAYD_425E270N_S,36 ميلا,69876.0
+البصرة,null,null,Badiyat al-Arab,null,الحفير,null,null,Badiyat al-Arab,null,18 ميلا,34938.0
+الحفير,null,null,Badiyat al-Arab,null,الرحيل,null,null,Badiyat al-Arab,null,28 ميلا,54348.0
+الرحيل,null,null,Badiyat al-Arab,null,الشجى,null,null,Badiyat al-Arab,null,27 ميلا,52407.0
+الشجى,null,null,Badiyat al-Arab,null,حفر ابى موسى,28.41584,45.92797,Badiyat al-Arab,HAFARABUMUSA_459E284N_S,26 ميلا,50466.0
+حفر ابى موسى,28.41584,45.92797,Badiyat al-Arab,HAFARABUMUSA_459E284N_S,ماوية,null,null,Badiyat al-Arab,null,32 ميلا,62112.0
+ماوية,null,null,Badiyat al-Arab,null,ذات العشر,null,null,Badiyat al-Arab,null,29 ميلا,56289.0
+ذات العشر,null,null,Badiyat al-Arab,null,الينسوعة,null,null,Badiyat al-Arab,null,23 ميلا,44643.0
+الينسوعة,null,null,Badiyat al-Arab,null,السمينة,null,null,Badiyat al-Arab,null,29 ميلا,56289.0
+السمينة,null,null,Badiyat al-Arab,null,القريتين,26.08634,43.92995,Badiyat al-Arab,QARYATAYN_439E260N_S,22 ميلا,42702.0
+القريتين,26.08634,43.92995,Badiyat al-Arab,QARYATAYN_439E260N_S,النباج,26.35812,44.45181,Badiyat al-Arab,NIBAJ_444E263N_S,23 ميلا,44643.0
+الكوفة,null,null,Badiyat al-Arab,null,الرهيمة,31.85995,43.95117,Badiyat al-Arab,RUHAYMA_439E318N_S,12 ميلا,23292.0
+الرهيمة,31.85995,43.95117,Badiyat al-Arab,RUHAYMA_439E318N_S,النحيت,31.49890,42.85300,Badiyat al-Arab,NAHIT_428E314N_S,نهارين,56312.0
+النحيت,31.49890,42.85300,Badiyat al-Arab,NAHIT_428E314N_S,القراى,31.51068,41.79330,Badiyat al-Arab,QURAY_417E315N_S,نهارين,56312.0
+القراى,31.51068,41.79330,Badiyat al-Arab,QURAY_417E315N_S,الخنفس,31.48039,40.76716,Badiyat al-Arab,KHANFAS_407E314N_S,نهارا,28156.0
+الخنفس,31.48039,40.76716,Badiyat al-Arab,KHANFAS_407E314N_S,الحشية,31.43199,39.82192,Badiyat al-Arab,HASHIYYA_398E314N_S,نهارا,28156.0
+الحشية,31.43199,39.82192,Badiyat al-Arab,HASHIYYA_398E314N_S,الغريفة,null,null,Badiyat al-Arab,null,نهارا,28156.0
+الغريفة,null,null,Badiyat al-Arab,null,قراكر,31.32585,37.75187,Badiyat al-Arab,QURAKIR_377E313N_S,نهارا,28156.0
+قراكر,31.32585,37.75187,Badiyat al-Arab,QURAKIR_377E313N_S,الأزرق,31.84612,36.87768,Badiyat al-Arab,AZRAQ_368E318N_S,نهارا,28156.0
+الأزرق,31.84612,36.87768,Badiyat al-Arab,AZRAQ_368E318N_S,عمان,null,null,Badiyat al-Arab,null,نهارا,28156.0
+هيت,null,null,Badiyat al-Arab,null,دمشق,null,null,Badiyat al-Arab,null,عشرة أيام,281560.0
+الرحبة,null,null,Badiyat al-Arab,null,دمشق,null,null,Badiyat al-Arab,null,عشرة أيام,281560.0
+المنهب,27.27430,42.21215,Badiyat al-Arab,MANHAB_422E272N_R,وادي القرى,null,null,Badiyat al-Arab,null,5 ليال,35970.0
+المنهب,27.27430,42.21215,Badiyat al-Arab,MANHAB_422E272N_R,تيماء,27.58081,38.52000,Badiyat al-Arab,TAYMA_385E275N_S,4 ليال,28776.0
+المنهب,27.27430,42.21215,Badiyat al-Arab,MANHAB_422E272N_R,تبوك,28.37114,36.50620,Badiyat al-Arab,TABUK_365E283N_S,7 ليال,50358.0
+المنهب,27.27430,42.21215,Badiyat al-Arab,MANHAB_422E272N_R,وادي طيئ,27.05571,41.94575,Badiyat al-Arab,WADITAYY_419E270N_R,ليلتان,14388
+البصرة,null,null,Badiyat al-Arab,null,الكوفة,null,null,Badiyat al-Arab,null,عشرة مراحل,379870.0561797753
+أخسيكت,null,null,Khurasan,Sijistan,"Transoxiana""",null,قبا,40.55660,72.18143,Transoxiana,37987.00561797753
+قبا,40.55660,72.18143,Transoxiana,QUBA_721E405N_S,أوش,40.53599,72.85752,Transoxiana,USH_728E405N_S,مرحلة,37987.00561797753
+أوش,40.53599,72.85752,Transoxiana,USH_728E405N_S,أوزكند,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+أوزكند,null,null,Khurasan,Sijistan,"Transoxiana""",null,العقبة,null,null,"""Khurasan",37987.00561797753
+العقبة,null,null,Khurasan,Sijistan,"Transoxiana""",null,طباش,null,null,"""Khurasan",37987.00561797753
+طباش,null,null,Khurasan,Sijistan,"Transoxiana""",null,برسخان الأعلى,null,null,"""Khurasan",227922.03370786516
+برسخان الأعلى,null,null,Khurasan,Sijistan,"Transoxiana""",null,موضع بغراخاقان,null,null,"""Khurasan",227922.03370786516
+اخسيكت,null,null,Khurasan,Sijistan,"Transoxiana""",null,باب,40.88072,71.16439,Transoxiana,23504.153846153848
+باب,40.88072,71.16439,Transoxiana,BAB_711E408N_S,ترمغان,40.78105,70.89318,Transoxiana,TURMUGHAN_708E407N_S,نصف مرحلة,18993.502808988764
+ترمغان,40.78105,70.89318,Transoxiana,TURMUGHAN_708E407N_S,جاجستان,40.55623,70.43986,Transoxiana,JAJISTAN_704E405N_S,مرحلة,37987.00561797753
+جاجستان,40.55623,70.43986,Transoxiana,JAJISTAN_704E405N_S,صامغر,40.46049,70.22677,Transoxiana,SAMGHAR_702E404N_S,بريدين,23504.153846153848
+صامغر,40.46049,70.22677,Transoxiana,SAMGHAR_702E404N_S,خجندة,40.24606,69.63107,Transoxiana,KHUJANDA_696E402N_S,مرحلة,37987.00561797753
+إسبيجاب,42.23062,69.75409,Transoxiana,ISBIJAB_697E422N_S,شاواب,null,null,Khurasan,Sijistan,"Transoxiana""",23504.153846153848
+شاواب,null,null,Khurasan,Sijistan,"Transoxiana""",null,بدوخكث,null,null,"""Khurasan",23504.153846153848
+بدوخكث,null,null,Khurasan,Sijistan,"Transoxiana""",null,تمتاج,42.56503,70.50767,Transoxiana,37987.00561797753
+تمتاج,42.56503,70.50767,Transoxiana,TAMTAJ_705E425N_S,بارجاخ,null,null,Khurasan,Sijistan,"Transoxiana""",23504.153846153848
+بارجاخ,null,null,Khurasan,Sijistan,"Transoxiana""",null,منزل,null,null,"""Khurasan",37987.00561797753
+منزل,null,null,Khurasan,Sijistan,"Transoxiana""",null,شاوغر,43.25000,68.31570,Transoxiana,18993.502808988764
+شاوغر,43.25000,68.31570,Transoxiana,SHAWAGHAR_683E432N_S,طراز,42.83695,71.44044,Transoxiana,TARAZ_714E428N_S,بريدين,23504.153846153848
+أسبيجاب,42.23062,69.75409,Transoxiana,ISBIJAB_697E422N_S,غركرد,null,null,Khurasan,Sijistan,"Transoxiana""",23504.153846153848
+غركرد,null,null,Khurasan,Sijistan,"Transoxiana""",null,بنكث,41.22621,69.41991,Transoxiana,37987.00561797753
+بنكث,41.22621,69.41991,Transoxiana,BINKATH_694E412N_S,ستوركث,40.88768,68.87652,Transoxiana,SUTURKATH_688E408N_S,مرحلة,37987.00561797753
+بناكث,40.71867,68.80969,Transoxiana,BANAKATH_688E407N_S,نهر الشاش,null,null,Khurasan,Sijistan,"Transoxiana""",23504.153846153848
+نهر الشاش,null,null,Khurasan,Sijistan,"Transoxiana""",null,خاوص,40.22314,68.82906,Transoxiana,37987.00561797753
+خاوص,40.22314,68.82906,Transoxiana,KHAWAS_688E402N_S,زامين,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+بنكث الشاش,null,null,Khurasan,Sijistan,"Transoxiana""",null,معدن الفضة,null,null,"""Khurasan",37987.00561797753
+معدن الفضة,null,null,Khurasan,Sijistan,"Transoxiana""",null,جاجستان,40.55623,70.43986,Transoxiana,37987.00561797753
+جاجستان,40.55623,70.43986,Transoxiana,JAJISTAN_704E405N_S,ترمغان,40.78105,70.89318,Transoxiana,TURMUGHAN_708E407N_S,مرحلة,37987.00561797753
+بنكث,41.22621,69.41991,Transoxiana,BINKATH_694E412N_S,غركرد,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+غركرد,null,null,Khurasan,Sijistan,"Transoxiana""",null,أسبيجاب,42.23062,69.75409,Transoxiana,23504.153846153848
+زامين,null,null,Khurasan,Sijistan,"Transoxiana""",null,خاوص,40.22314,68.82906,Transoxiana,37987.00561797753
+زامين,null,null,Khurasan,Sijistan,"Transoxiana""",null,ساباط,null,null,"""Khurasan",23504.153846153848
+ساباط,null,null,Khurasan,Sijistan,"Transoxiana""",null,شاوكث,null,null,"""Khurasan",37987.00561797753
+شاوكث,null,null,Khurasan,Sijistan,"Transoxiana""",null,خجندة,40.24606,69.63107,Transoxiana,37987.00561797753
+سمرقند,39.67905,67.03225,Transoxiana,SAMARQAND_670E396N_S,زرمان,39.77390,66.63169,Transoxiana,ZARMAN_666E397N_S,مرحلة,37987.00561797753
+زرمان,39.77390,66.63169,Transoxiana,ZARMAN_666E397N_S,ربنجن,39.86785,66.37226,Transoxiana,RABINJAN_663E398N_S,مرحلة,37987.00561797753
+ربنجن,39.86785,66.37226,Transoxiana,RABINJAN_663E398N_S,الدبوسية,39.93282,66.01740,Transoxiana,DABUSIYA_660E399N_S,مرحلة,37987.00561797753
+الدبوسية,39.93282,66.01740,Transoxiana,DABUSIYA_660E399N_S,كرمينية,40.14581,65.40937,Transoxiana,KARMIINIYYA_654E401N_S,مرحلة,37987.00561797753
+كرمينية,40.14581,65.40937,Transoxiana,KARMIINIYYA_654E401N_S,الطواويس,40.01136,64.78279,Transoxiana,TAWAWIS_647E400N_S,مرحلة,37987.00561797753
+الطواويس,40.01136,64.78279,Transoxiana,TAWAWIS_647E400N_S,ديمس,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+ديمس,null,null,Khurasan,Sijistan,"Transoxiana""",null,بخارا,null,null,"""Khurasan",37987.00561797753
+سمرقند,39.67905,67.03225,Transoxiana,SAMARQAND_670E396N_S,زامين,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+زامين,null,null,Khurasan,Sijistan,"Transoxiana""",null,خاوس,null,null,"""Khurasan",37987.00561797753
+خاوس,null,null,Khurasan,Sijistan,"Transoxiana""",null,بناكث,40.71867,68.80969,Transoxiana,37987.00561797753
+بناكث,40.71867,68.80969,Transoxiana,BANAKATH_688E407N_S,ستوركث,40.88768,68.87652,Transoxiana,SUTURKATH_688E408N_S,مرحلة,37987.00561797753
+ستوركث,40.88768,68.87652,Transoxiana,SUTURKATH_688E408N_S,بنكث,41.22621,69.41991,Transoxiana,BINKATH_694E412N_S,مرحلة,37987.00561797753
+سمرقند,39.67905,67.03225,Transoxiana,SAMARQAND_670E396N_S,درزده,39.31836,67.06451,Transoxiana,DIRIZDAH_670E393N_S,مرحلة,37987.00561797753
+درزده,39.31836,67.06451,Transoxiana,DIRIZDAH_670E393N_S,كش,30.15265,62.37889,Sijistan,KISHSH_623E301N_S,مرحلة,37987.00561797753
+كش,30.15265,62.37889,Sijistan,KISHSH_623E301N_S,كندك,38.37384,66.78829,Transoxiana,KANDAK_667E383N_S,مرحلة,37987.00561797753
+كندك,38.37384,66.78829,Transoxiana,KANDAK_667E383N_S,باب الحديد,38.22114,67.03158,Transoxiana,BABHADID_670E382N_O,مرحلة,37987.00561797753
+باب الحديد,38.22114,67.03158,Transoxiana,BABHADID_670E382N_O,قرنة,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+قرنة,null,null,Khurasan,Sijistan,"Transoxiana""",null,ترمذ,null,null,"""Khurasan",37987.00561797753
+بخارا,null,null,Khurasan,Sijistan,"Transoxiana""",null,بيكند,36.08371,58.39294,Khurasan,37987.00561797753
+بيكند,36.08371,58.39294,Khurasan,BISKAND_583E360N_S,ميان كال,39.34189,64.26931,Transoxiana,MIYANKAL_642E393N_S,مرحلة,37987.00561797753
+ميان كال,39.34189,64.26931,Transoxiana,MIYANKAL_642E393N_S,فربر,39.17015,63.61874,Transoxiana,FIRABR_636E391N_S,مرحلة,37987.00561797753
+فربر,39.17015,63.61874,Transoxiana,FIRABR_636E391N_S,جيحون,null,null,Khurasan,Sijistan,"Transoxiana""",1444.1
+بخارا,null,null,Khurasan,Sijistan,"Transoxiana""",null,جكم,39.58498,64.73843,Transoxiana,37987.00561797753
+جكم,39.58498,64.73843,Transoxiana,JIKAM_647E395N_S,رباط عتيق,39.44667,65.02339,Transoxiana,RIBATATIQ_650E394N_S,مرحلة,37987.00561797753
+رباط عتيق,39.44667,65.02339,Transoxiana,RIBATATIQ_650E394N_S,جب سعيد,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+جب سعيد,null,null,Khurasan,Sijistan,"Transoxiana""",null,بزدة,39.03468,65.44949,Transoxiana,37987.00561797753
+بزدة,39.03468,65.44949,Transoxiana,BAZDA_654E390N_S,رباط خواران,38.54277,65.33793,Transoxiana,RIBATKHUWARAN_653E385N_S,مرحلة,37987.00561797753
+رباط خواران,38.54277,65.33793,Transoxiana,RIBATKHUWARAN_653E385N_S,قرية البخاريين,38.07235,65.15512,Transoxiana,QARYABUKHARIYYIN_651E380N_S,مرحلة,37987.00561797753
+قرية البخاريين,38.07235,65.15512,Transoxiana,QARYABUKHARIYYIN_651E380N_S,قرية الخوارزميين,37.69255,65.56778,Transoxiana,QARYAKHUWARIZMIYYIN_655E376N_S,مرحلة,37987.00561797753
+قرية الخوارزميين,37.69255,65.56778,Transoxiana,QARYAKHUWARIZMIYYIN_655E376N_S,بلخان,37.51897,66.00329,Transoxiana,BALKHAN_660E375N_S,مرحلة,37987.00561797753
+بلخان,37.51897,66.00329,Transoxiana,BALKHAN_660E375N_S,كالف,37.37958,66.31581,Transoxiana,KALIF_663E373N_S,مرحلة,37987.00561797753
+كالف,37.37958,66.31581,Transoxiana,KALIF_663E373N_S,محلة القياسين,37.44577,66.88170,Transoxiana,MAHALLAQAYYASIN_668E374N_S,مرحلة,37987.00561797753
+محلة القياسين,37.44577,66.88170,Transoxiana,MAHALLAQAYYASIN_668E374N_S,ترمذ,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+بخارا,null,null,Khurasan,Sijistan,"Transoxiana""",null,امزه,39.90472,64.25722,Transoxiana,23504.153846153848
+امزه,39.90472,64.25722,Transoxiana,AMZAH_642E399N_S,رباط تاش,39.99849,63.82036,Transoxiana,RIBATTASH_638E399N_S,مرحلة,37987.00561797753
+رباط تاش,39.99849,63.82036,Transoxiana,RIBATTASH_638E399N_S,شوروخ,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+شوروخ,null,null,Khurasan,Sijistan,"Transoxiana""",null,الرمل,40.13581,63.16025,Transoxiana,37987.00561797753
+الرمل,40.13581,63.16025,Transoxiana,RAML_631E401N_S,رباط طغان,40.18541,62.82511,Transoxiana,RIBATTUGHAN_628E401N_S,مرحلة,37987.00561797753
+رباط طغان,40.18541,62.82511,Transoxiana,RIBATTUGHAN_628E401N_S,رباط جكربند,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رباط جكربند,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط حسن,40.50009,62.28269,Transoxiana,37987.00561797753
+رباط حسن,40.50009,62.28269,Transoxiana,RIBATHASAN_622E405N_S,نابادغين,40.79993,62.06959,Transoxiana,NABADGHIN_620E407N_S,مرحلة,37987.00561797753
+نابادغين,40.79993,62.06959,Transoxiana,NABADGHIN_620E407N_S,مضيق النهر,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+مضيق النهر,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط ماش,41.35412,61.49617,Transoxiana,37987.00561797753
+رباط ماش,41.35412,61.49617,Transoxiana,RIBATMASH_614E413N_S,رباط سنده,41.23222,61.76738,Transoxiana,RIBATSANDAH_617E412N_S,مرحلة,37987.00561797753
+رباط سنده,41.23222,61.76738,Transoxiana,RIBATSANDAH_617E412N_S,بغرقان,41.43986,61.27533,Transoxiana,BAGHIRQAN_612E414N_S,مرحلة,37987.00561797753
+بغرقان,41.43986,61.27533,Transoxiana,BAGHIRQAN_612E414N_S,شراخان,41.50228,60.94019,Transoxiana,SHURAKHAN_609E415N_S,مرحلة,37987.00561797753
+شراخان,41.50228,60.94019,Transoxiana,SHURAKHAN_609E415N_S,كاث,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+كاث,null,null,Khurasan,Sijistan,"Transoxiana""",null,خاس,null,null,"""Khurasan",37987.00561797753
+خاس,null,null,Khurasan,Sijistan,"Transoxiana""",null,نوزكات,null,null,"""Khurasan",23504.153846153848
+نوزكات,null,null,Khurasan,Sijistan,"Transoxiana""",null,وايخان,42.05520,60.19436,Transoxiana,37987.00561797753
+على اليمين,null,null,Khurasan,Sijistan,"Transoxiana""",null,نوباغ,42.26880,59.81853,Transoxiana,37987.00561797753
+نوباغ,42.26880,59.81853,Transoxiana,NUBAGH_598E422N_S,مزداخقان,null,null,Khurasan,Sijistan,"Transoxiana""",70357.0
+مزداخقان,null,null,Khurasan,Sijistan,"Transoxiana""",null,درسان,null,null,"""Khurasan",23504.153846153848
+درسان,null,null,Khurasan,Sijistan,"Transoxiana""",null,كردر,42.80533,59.79383,Transoxiana,37987.00561797753
+كردر,42.80533,59.79383,Transoxiana,KARDAR_597E428N_S,جويقان,42.94872,59.88682,Transoxiana,JUWIQAN_598E429N_S,بريدين,23504.153846153848
+جويقان,42.94872,59.88682,Transoxiana,JUWIQAN_598E429N_S,قرية براتكين,43.19354,59.95269,Transoxiana,QARYABARATIKIN_599E431N_S,مرحلة,37987.00561797753
+قرية براتكين,43.19354,59.95269,Transoxiana,QARYABARATIKIN_599E431N_S,البحيرة,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رباط ماش,41.35412,61.49617,Transoxiana,RIBATMASH_614E413N_S,أمير,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+أمير,null,null,Khurasan,Sijistan,"Transoxiana""",null,باراب سار,null,null,"""Khurasan",70357.0
+باراب سار,null,null,Khurasan,Sijistan,"Transoxiana""",null,أرذخيوه,null,null,"""Khurasan",37987.00561797753
+مزداخقان,null,null,Khurasan,Sijistan,"Transoxiana""",null,وردراغ,null,null,"""Khurasan",37987.00561797753
+وردراغ,null,null,Khurasan,Sijistan,"Transoxiana""",null,كردر,42.80533,59.79383,Transoxiana,37987.00561797753
+كاث,null,null,Khurasan,Sijistan,"Transoxiana""",null,غردمان,41.88381,60.37258,Transoxiana,37987.00561797753
+غردمان,41.88381,60.37258,Transoxiana,GHARDAMAN_603E418N_S,وايخان,42.05520,60.19436,Transoxiana,WAYKHAN_601E420N_S,بريدين,23504.153846153848
+وايخان,42.05520,60.19436,Transoxiana,WAYKHAN_601E420N_S,أرذخيوه,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+أرذخيوه,null,null,Khurasan,Sijistan,"Transoxiana""",null,نوكباغ,42.26880,59.81853,Transoxiana,37987.00561797753
+اوزارمند,41.86361,59.74298,Transoxiana,WAZARMAND_597E418N_S,دسكاخان خاس,41.84474,59.93725,Transoxiana,DASKAKHANKHAS_599E418N_S,بريدين,23504.153846153848
+دسكاخان خاس,41.84474,59.93725,Transoxiana,DASKAKHANKHAS_599E418N_S,رخشميثن,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رخشميثن,null,null,Khurasan,Sijistan,"Transoxiana""",null,خيوه,41.38465,60.33577,Transoxiana,37987.00561797753
+خيوه,41.38465,60.33577,Transoxiana,KHIWAH_603E413N_S,كردرانخاس,41.38937,60.68254,Transoxiana,KARDARANKHAS_606E413N_S,مرحلة,37987.00561797753
+كردرانخاس,41.38937,60.68254,Transoxiana,KARDARANKHAS_606E413N_S,زردوخ بريدا,null,null,Khurasan,Sijistan,"Transoxiana""",17060.5
+زردوخ بريدا,null,null,Khurasan,Sijistan,"Transoxiana""",null,هزاراسب,41.28610,61.09517,Transoxiana,23504.153846153848
+اوزارمند,41.86361,59.74298,Transoxiana,WAZARMAND_597E418N_S,روزوند,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+روزوند,null,null,Khurasan,Sijistan,"Transoxiana""",null,نوزوار,42.00196,59.39815,Transoxiana,37987.00561797753
+نوزوار,42.00196,59.39815,Transoxiana,NUZWAR_593E420N_S,زمخشر,42.21861,59.71005,Transoxiana,ZAMAKHSHAR_597E422N_S,مرحلة,37987.00561797753
+زمخشر,42.21861,59.71005,Transoxiana,ZAMAKHSHAR_597E422N_S,الجرجانية,42.45632,59.21993,Transoxiana,JURJANIYYA_592E424N_S,مرحلة,37987.00561797753
+بخارا,null,null,Khurasan,Sijistan,"Transoxiana""",null,نخشب,null,null,"""Khurasan",86646.0
+نخشب,null,null,Khurasan,Sijistan,"Transoxiana""",null,الصغانيان,38.26337,67.89454,Transoxiana,379870.0561797753
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,دارزنجى,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,باسند,38.21375,67.24396,Transoxiana,BASAND_672E382N_S,مرحلة,37987.00561797753
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,بايماب,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,سنكردة,38.50044,67.57933,Transoxiana,SANKARDAH_675E385N_S,مرحلة,37987.00561797753
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,بوراب,null,null,Khurasan,Sijistan,"Transoxiana""",23504.153846153848
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,بهام,null,null,Khurasan,Sijistan,"Transoxiana""",51181.5
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,غش,null,null,Khurasan,Sijistan,"Transoxiana""",51181.5
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,زينور,null,null,Khurasan,Sijistan,"Transoxiana""",51181.5
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,هنبان,null,null,Khurasan,Sijistan,"Transoxiana""",70357.0
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,الختل,37.94076,69.75285,Transoxiana,KHUTTAL_697E379N_R,ثلاثون فرسخا,86646.0
+الصغانيان,38.26337,67.89454,Transoxiana,SAGHANIYAN_678E382N_S,سمرقند,39.67905,67.03225,Transoxiana,SAMARQAND_670E396N_S,أربعون فرسخا,115528.0
+بلخ,36.78497,66.88305,Khurasan,BALKH_668E367N_S,خلم,36.74621,67.70299,Khurasan,KHULM_677E367N_S,مرحلتين,70357.0
+خلم,36.74621,67.70299,Khurasan,KHULM_677E367N_S,ورواليز,null,null,Khurasan,Sijistan,"Transoxiana""",70357.0
+ورواليز,null,null,Khurasan,Sijistan,"Transoxiana""",null,الطالقان,35.72328,64.24579,Khurasan,70357.0
+الطالقان,35.72328,64.24579,Khurasan,TALAQAN_642E357N_S,بذخشان,37.59609,70.79525,Khurasan,BADHAKHSHAN_707E375N_R,سبعة مراحل,265909.0393258427
+خلم,36.74621,67.70299,Khurasan,KHULM_677E367N_S,سمنجان,36.22585,68.09011,Khurasan,SIMINJAN_680E362N_S,مرحلتين,70357.0
+سمنجان,36.22585,68.09011,Khurasan,SIMINJAN_680E362N_S,أندرابة,35.68835,69.36909,Khurasan,ANDARAB_693E356N_S,خمسة مراحل,189935.02808988764
+أندرابة,35.68835,69.36909,Khurasan,ANDARAB_693E356N_S,كاربايه,null,null,Khurasan,Sijistan,"Transoxiana""",113961.01685393258
+كاربايه,null,null,Khurasan,Sijistan,"Transoxiana""",null,بنجهير,35.51814,69.81804,Khurasan,37987.00561797753
+بنجهير,35.51814,69.81804,Khurasan,BANJAHIR_698E355N_S,فروان,null,null,Khurasan,Sijistan,"Transoxiana""",70357.0
+بلخ,36.78497,66.88305,Khurasan,BALKH_668E367N_S,بغلان,36.23560,68.77093,Khurasan,BAGHLAN_687E362N_R,6 مراحل,227922.03370786516
+سمنجان,36.22585,68.09011,Khurasan,SIMINJAN_680E362N_S,بغلان,36.23560,68.77093,Khurasan,BAGHLAN_687E362N_R,أربعة مراحل,151948.0224719101
+بلخ,36.78497,66.88305,Khurasan,BALKH_668E367N_S,مذر,35.38044,67.85287,Khurasan,MADHAR_678E353N_S,6 مراحل,227922.03370786516
+مذر,35.38044,67.85287,Khurasan,MADHAR_678E353N_S,كه,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+كه,null,null,Khurasan,Sijistan,"Transoxiana""",null,الباميان,34.84737,67.80206,Khurasan,113961.01685393258
+بلخ,36.78497,66.88305,Khurasan,BALKH_668E367N_S,أشبورقان,36.65136,65.78352,Khurasan,SHABURQAN_657E366N_S,ثلاثة مراحل,113961.01685393258
+أشبورقان,36.65136,65.78352,Khurasan,SHABURQAN_657E366N_S,الفارياب,36.46025,64.93938,Khurasan,FARIYAB_649E364N_S,ثلاثة مراحل,113961.01685393258
+الفارياب,36.46025,64.93938,Khurasan,FARIYAB_649E364N_S,الطالقان,35.72328,64.24579,Khurasan,TALAQAN_642E357N_S,ثلاثة مراحل,113961.01685393258
+بلخ,36.78497,66.88305,Khurasan,BALKH_668E367N_S,شاوكرد,37.02037,67.09946,Khurasan,SHAWKARD_670E370N_S,مرحلة,37987.00561797753
+شاوكرد,37.02037,67.09946,Khurasan,SHAWKARD_670E370N_S,ترمذ,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+اليهودية,35.93470,64.83857,Khurasan,YAHUDIYYA_648E359N_S,القاع,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+القاع,null,null,Khurasan,Sijistan,"Transoxiana""",null,اشبورقان,36.65136,65.78352,Khurasan,37987.00561797753
+اشبورقان,36.65136,65.78352,Khurasan,SHABURQAN_657E366N_S,السدرة,36.83770,66.21231,Khurasan,SIDRA_662E368N_S,مرحلة,37987.00561797753
+السدرة,36.83770,66.21231,Khurasan,SIDRA_662E368N_S,الدستجرده,36.83340,66.64110,Khurasan,DASTAJIRDA_666E368N_S,مرحلة,37987.00561797753
+الدستجرده,36.83340,66.64110,Khurasan,DASTAJIRDA_666E368N_S,بلخ,36.78497,66.88305,Khurasan,BALKH_668E367N_S,نصف مرحلة,18993.502808988764
+اليهودية,35.93470,64.83857,Khurasan,YAHUDIYYA_648E359N_S,قصر الأمير,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+قصر الأمير,null,null,Khurasan,Sijistan,"Transoxiana""",null,فارياب,36.46025,64.93938,Khurasan,37987.00561797753
+فارياب,36.46025,64.93938,Khurasan,FARIYAB_649E364N_S,كرك,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+كرك,null,null,Khurasan,Sijistan,"Transoxiana""",null,الطالقان,35.72328,64.24579,Khurasan,37987.00561797753
+اليهودية,35.93470,64.83857,Khurasan,YAHUDIYYA_648E359N_S,أنبار,36.20578,65.94751,Khurasan,ANBAR_659E362N_S,مرحلة,37987.00561797753
+أنبار,36.20578,65.94751,Khurasan,ANBAR_659E362N_S,رباط,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رباط,null,null,Khurasan,Sijistan,"Transoxiana""",null,بلخ,36.78497,66.88305,Khurasan,37987.00561797753
+فارياب,36.46025,64.93938,Khurasan,FARIYAB_649E364N_S,آستانة,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+آستانة,null,null,Khurasan,Sijistan,"Transoxiana""",null,جوبين وملين,null,null,"""Khurasan",37987.00561797753
+جوبين وملين,null,null,Khurasan,Sijistan,"Transoxiana""",null,أندخوذ,36.95541,65.16655,Khurasan,37987.00561797753
+أندخوذ,36.95541,65.16655,Khurasan,ANDAKHUDH_651E369N_S,رباط أفريغون,37.26306,65.27273,Khurasan,RIBATAFRIGHUN_652E372N_S,مرحلة,37987.00561797753
+رباط أفريغون,37.26306,65.27273,Khurasan,RIBATAFRIGHUN_652E372N_S,قنى غياث,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+قنى غياث,null,null,Khurasan,Sijistan,"Transoxiana""",null,كركوه,31.26104,61.74272,Sijistan,37987.00561797753
+مرو,37.67193,62.10386,Khurasan,MARW_621E376N_S,فاز,37.39749,62.29575,Khurasan,FAZ_622E373N_S,مرحلة,37987.00561797753
+فاز,37.39749,62.29575,Khurasan,FAZ_622E373N_S,مهدي آباذ,37.12201,62.41583,Khurasan,MAHDIABADH_624E371N_S,مرحلة,37987.00561797753
+مهدي آباذ,37.12201,62.41583,Khurasan,MAHDIABADH_624E371N_S,بحيرآباذ,36.88847,62.46952,Khurasan,BAHIRABADH_624E368N_S,مرحلة,37987.00561797753
+بحيرآباذ,36.88847,62.46952,Khurasan,BAHIRABADH_624E368N_S,القرينين,36.57540,62.44974,Khurasan,QARINAYN_624E365N_S,مرحلة,37987.00561797753
+القرينين,36.57540,62.44974,Khurasan,QARINAYN_624E365N_S,أسداباذ,36.32897,56.45362,Khurasan,ASADABADH_564E363N_S,مرحلة,37987.00561797753
+القرينين,36.57540,62.44974,Khurasan,QARINAYN_624E365N_S,حوزان,35.96191,62.96749,Khurasan,HAWZAN_629E359N_S,مرحلة,37987.00561797753
+حوزان,35.96191,62.96749,Khurasan,HAWZAN_629E359N_S,قصر أحنف,35.76147,63.21212,Khurasan,QASRAHNAF_632E357N_S,بريدين,23504.153846153848
+قصر أحنف,35.76147,63.21212,Khurasan,QASRAHNAF_632E357N_S,أرسكن,35.74074,63.44735,Khurasan,ARASKAN_634E357N_S,مرحلة,37987.00561797753
+أرسكن,35.74074,63.44735,Khurasan,ARASKAN_634E357N_S,الأسراب,35.81599,63.76323,Khurasan,ASRAB_637E358N_S,مرحلة,37987.00561797753
+الأسراب,35.81599,63.76323,Khurasan,ASRAB_637E358N_S,كنجاباذ,35.78873,63.98233,Khurasan,KANJABADH_639E357N_S,مرحلة,37987.00561797753
+كنجاباذ,35.78873,63.98233,Khurasan,KANJABADH_639E357N_S,الطالقان,35.72328,64.24579,Khurasan,TALAQAN_642E357N_S,مرحلة,37987.00561797753
+الطالقان,35.72328,64.24579,Khurasan,TALAQAN_642E357N_S,كسحان,35.88354,64.54957,Khurasan,KASHAN_645E358N_S,مرحلة,37987.00561797753
+كسحان,35.88354,64.54957,Khurasan,KASHAN_645E358N_S,اليهودية,35.93470,64.83857,Khurasan,YAHUDIYYA_648E359N_S,مرحلة,37987.00561797753
+مرو,37.67193,62.10386,Khurasan,MARW_621E376N_S,جروجرد,37.50068,61.87474,Khurasan,JARUJIRD_618E375N_S,مرحلة,37987.00561797753
+جروجرد,37.50068,61.87474,Khurasan,JARUJIRD_618E375N_S,الدندانقان,37.27393,61.65152,Khurasan,DANDANAQAN_616E372N_S,مرحلة,37987.00561797753
+الدندانقان,37.27393,61.65152,Khurasan,DANDANAQAN_616E372N_S,تلستانة,37.03409,61.47492,Khurasan,TALASTANA_614E370N_S,مرحلة,37987.00561797753
+تلستانة,37.03409,61.47492,Khurasan,TALASTANA_614E370N_S,أشترمغك,36.80480,61.32517,Khurasan,USHTURMAGHAK_613E368N_S,مرحلة,37987.00561797753
+أشترمغك,36.80480,61.32517,Khurasan,USHTURMAGHAK_613E368N_S,سرخس,36.51694,61.18671,Khurasan,SARAKHS_611E365N_S,مرحلة,37987.00561797753
+مرو,37.67193,62.10386,Khurasan,MARW_621E376N_S,كشميهن,37.78994,62.59986,Khurasan,KUSHMAYHAN_625E377N_S,مرحلة,37987.00561797753
+كشميهن,37.78994,62.59986,Khurasan,KUSHMAYHAN_625E377N_S,رباط الحديد,38.04920,62.80686,Khurasan,RIBATHADID_628E380N_S,مرحلة,37987.00561797753
+رباط الحديد,38.04920,62.80686,Khurasan,RIBATHADID_628E380N_S,رباط نصرك,38.31229,62.99639,Khurasan,RIBATNASRAK_629E383N_S,مرحلة,37987.00561797753
+رباط نصرك,38.31229,62.99639,Khurasan,RIBATNASRAK_629E383N_S,جب حماد,38.58258,63.20339,Khurasan,JUBBHAMMAD_632E385N_S,مرحلة,37987.00561797753
+جب حماد,38.58258,63.20339,Khurasan,JUBBHAMMAD_632E385N_S,رباط بارس,38.84034,63.35393,Khurasan,RIBATBARIS_633E388N_S,مرحلة,37987.00561797753
+رباط بارس,38.84034,63.35393,Khurasan,RIBATBARIS_633E388N_S,آمل,39.06795,63.51255,Khurasan,AMUL_635E390N_S,مرحلة,37987.00561797753
+آمل,39.06795,63.51255,Khurasan,AMUL_635E390N_S,جيحون,null,null,Khurasan,Sijistan,"Transoxiana""",2888.2
+ابشين,35.24882,63.52800,Khurasan,ABSHIN_635E352N_S,رباط شور,35.08069,63.52263,Khurasan,RIBATSHUR_635E350N_S,مرحلة,37987.00561797753
+رباط شور,35.08069,63.52263,Khurasan,RIBATSHUR_635E350N_S,رباط شار,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رباط شار,null,null,Khurasan,Sijistan,"Transoxiana""",null,قرية القاضي,null,null,"""Khurasan",37987.00561797753
+قرية القاضي,null,null,Khurasan,Sijistan,"Transoxiana""",null,شورمين,34.72729,63.51568,Khurasan,37987.00561797753
+شورمين,34.72729,63.51568,Khurasan,SHURMIN_635E347N_S,قرية المجوس,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+قرية المجوس,null,null,Khurasan,Sijistan,"Transoxiana""",null,خاره,null,null,"""Khurasan",37987.00561797753
+خاره,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط ميانه,34.53751,62.76550,Khurasan,37987.00561797753
+رباط ميانه,34.53751,62.76550,Khurasan,RIBATMAYANAH_627E345N_S,كروخ,34.47814,62.54651,Khurasan,KARUKH_625E344N_S,مرحلة,37987.00561797753
+كروخ,34.47814,62.54651,Khurasan,KARUKH_625E344N_S,هراة,34.33419,62.15235,Khurasan,HARA_621E343N_S,مرحلة,37987.00561797753
+ابشين,35.24882,63.52800,Khurasan,ABSHIN_635E352N_S,رباط كرزوان,35.61955,63.81969,Khurasan,RIBATKARZWAN_638E356N_S,مرحلة,37987.00561797753
+رباط كرزوان,35.61955,63.81969,Khurasan,RIBATKARZWAN_638E356N_S,مرزك,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+مرزك,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباطروذ,null,null,"""Khurasan",37987.00561797753
+رباطروذ,null,null,Khurasan,Sijistan,"Transoxiana""",null,مروالروذ,35.59250,63.36670,Khurasan,37987.00561797753
+مروالروذ,35.59250,63.36670,Khurasan,MARWRUDH_633E355N_S,جسر حر,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+جسر حر,null,null,Khurasan,Sijistan,"Transoxiana""",null,الطالقان,35.72328,64.24579,Khurasan,37987.00561797753
+هراة,34.33419,62.15235,Khurasan,HARA_621E343N_S,أسفزار,33.24402,62.12974,Khurasan,ASFUZAR_621E332N_S,ثلاثة مراحل,113961.01685393258
+هراة,34.33419,62.15235,Khurasan,HARA_621E343N_S,مالن,34.93776,60.26487,Khurasan,MALIN_602E349N_S,مرحلة,37987.00561797753
+هراة,34.33419,62.15235,Khurasan,HARA_621E343N_S,كروخ,34.47814,62.54651,Khurasan,KARUKH_625E344N_S,مرحلة,37987.00561797753
+هراة,34.33419,62.15235,Khurasan,HARA_621E343N_S,باشان,34.28751,62.37698,Khurasan,BASHAN_623E342N_S,مرحلة,37987.00561797753
+باشان,34.28751,62.37698,Khurasan,BASHAN_623E342N_S,خيسار,34.27292,62.58466,Khurasan,KHAYSAR_625E342N_S,مرحلة,37987.00561797753
+خيسار,34.27292,62.58466,Khurasan,KHAYSAR_625E342N_S,استربيان,34.24840,62.80223,Khurasan,ASTARABYAN_628E342N_S,مرحلة,37987.00561797753
+استربيان,34.24840,62.80223,Khurasan,ASTARABYAN_628E342N_S,ماراباذ,34.33710,63.00426,Khurasan,MARABADH_630E343N_S,مرحلة,37987.00561797753
+ماراباذ,34.33710,63.00426,Khurasan,MARABADH_630E343N_S,أوفه,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+أوفه,null,null,Khurasan,Sijistan,"Transoxiana""",null,خشت,34.34906,63.94658,Khurasan,37987.00561797753
+هراة,34.33419,62.15235,Khurasan,HARA_621E343N_S,ببنة,34.94152,62.47870,Khurasan,BABNA_624E349N_S,مرحلتين,70357.0
+ببنة,34.94152,62.47870,Khurasan,BABNA_624E349N_S,كيف,35.20428,62.42996,Khurasan,KAYF_624E352N_S,مرحلة,37987.00561797753
+كيف,35.20428,62.42996,Khurasan,KAYF_624E352N_S,بغشور,35.60846,62.54722,Khurasan,BAGHSHUR_625E356N_S,مرحلة,37987.00561797753
+غزنين,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط البارد,null,null,"""Khurasan",37987.00561797753
+رباط البارد,null,null,Khurasan,Sijistan,"Transoxiana""",null,اسناخ,null,null,"""Khurasan",37987.00561797753
+اسناخ,null,null,Khurasan,Sijistan,"Transoxiana""",null,حنس,null,null,"""Khurasan",37987.00561797753
+حنس,null,null,Khurasan,Sijistan,"Transoxiana""",null,الباميان,34.84737,67.80206,Khurasan,37987.00561797753
+غزنين,null,null,Khurasan,Sijistan,"Transoxiana""",null,كرديز,null,null,"""Khurasan",37987.00561797753
+كرديز,null,null,Khurasan,Sijistan,"Transoxiana""",null,اوغ,33.95277,69.86876,Sijistan,37987.00561797753
+بست,31.39108,64.39078,Sijistan,BUST_643E313N_S,رباط فيروزقند,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رباط فيروزقند,null,null,Khurasan,Sijistan,"Transoxiana""",null,ميغون,null,null,"""Khurasan",37987.00561797753
+ميغون,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط كشر,null,null,"""Khurasan",37987.00561797753
+رباط كشر,null,null,Khurasan,Sijistan,"Transoxiana""",null,بنجواى,31.51036,65.43237,Sijistan,37987.00561797753
+بنجواى,31.51036,65.43237,Sijistan,BANJAWAY_654E315N_S,كراباذ,31.59434,65.86183,Sijistan,BAKRABADH_658E315N_S,مرحلة,37987.00561797753
+كراباذ,31.59434,65.86183,Sijistan,BAKRABADH_658E315N_S,خرسان,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+خرسان,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط سراب,31.85842,66.38343,Sijistan,37987.00561797753
+رباط سراب,31.85842,66.38343,Sijistan,RIBATSARAB_663E318N_S,رباط الاوقل,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+رباط الاوقل,null,null,Khurasan,Sijistan,"Transoxiana""",null,خنكل اباذ,null,null,"""Khurasan",37987.00561797753
+خنكل اباذ,null,null,Khurasan,Sijistan,"Transoxiana""",null,قرية غرم,null,null,"""Khurasan",37987.00561797753
+قرية غرم,null,null,Khurasan,Sijistan,"Transoxiana""",null,قرية خاست,null,null,"""Khurasan",37987.00561797753
+قرية خاست,null,null,Khurasan,Sijistan,"Transoxiana""",null,قرية جومة,null,null,"""Khurasan",37987.00561797753
+قرية جومة,null,null,Khurasan,Sijistan,"Transoxiana""",null,خايسار,34.27292,62.58466,Khurasan,37987.00561797753
+سفنجاوى,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط,null,null,"""Khurasan",37987.00561797753
+رباط,null,null,Khurasan,Sijistan,"Transoxiana""",null,جنكى,null,null,"""Khurasan",37987.00561797753
+جنكى,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط الحجرية,31.39074,65.88026,Sijistan,37987.00561797753
+رباط الحجرية,31.39074,65.88026,Sijistan,RIBATHAJARIYYA_658E313N_S,بنجواى,31.51036,65.43237,Sijistan,BANJAWAY_654E315N_S,مرحلة,37987.00561797753
+بست,31.39108,64.39078,Sijistan,BUST_643E313N_S,داور,null,null,Khurasan,Sijistan,"Transoxiana""",151948.0224719101
+داور,null,null,Khurasan,Sijistan,"Transoxiana""",null,الغور,null,null,"""Khurasan",37987.00561797753
+زرنج,30.75940,61.61613,Sijistan,ZARANJ_616E307N_S,كركويه,31.26104,61.74272,Sijistan,KARKUYAH_617E312N_S,مرحلة,37987.00561797753
+كركويه,31.26104,61.74272,Sijistan,KARKUYAH_617E312N_S,بشتر,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+بشتر,null,null,Khurasan,Sijistan,"Transoxiana""",null,جوين,36.86045,56.69972,Khurasan,37987.00561797753
+جوين,36.86045,56.69972,Khurasan,JUWAYN_566E368N_R,بستك,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+بستك,null,null,Khurasan,Sijistan,"Transoxiana""",null,كنجر,null,null,"""Khurasan",37987.00561797753
+كنجر,null,null,Khurasan,Sijistan,"Transoxiana""",null,سرشك,null,null,"""Khurasan",37987.00561797753
+سرشك,null,null,Khurasan,Sijistan,"Transoxiana""",null,وادي فره,null,null,"""Khurasan",37987.00561797753
+وادي فره,null,null,Khurasan,Sijistan,"Transoxiana""",null,فره,32.35928,62.06561,Sijistan,37987.00561797753
+فره,32.35928,62.06561,Sijistan,FARAH_620E323N_S,دره,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+دره,null,null,Khurasan,Sijistan,"Transoxiana""",null,كوستان,null,null,"""Khurasan",37987.00561797753
+كوستان,null,null,Khurasan,Sijistan,"Transoxiana""",null,جاشان,null,null,"""Khurasan",37987.00561797753
+جاشان,null,null,Khurasan,Sijistan,"Transoxiana""",null,قناة سرى,null,null,"""Khurasan",37987.00561797753
+قناة سرى,null,null,Khurasan,Sijistan,"Transoxiana""",null,الجبل الأسود,null,null,"""Khurasan",37987.00561797753
+الجبل الأسود,null,null,Khurasan,Sijistan,"Transoxiana""",null,جامان,null,null,"""Khurasan",37987.00561797753
+جامان,null,null,Khurasan,Sijistan,"Transoxiana""",null,هراة,34.33419,62.15235,Khurasan,37987.00561797753
+زرنج,30.75940,61.61613,Sijistan,ZARANJ_616E307N_S,زانبوق,30.99252,61.91899,Sijistan,ZANBUQ_619E309N_S,مرحلة,37987.00561797753
+زانبوق,30.99252,61.91899,Sijistan,ZANBUQ_619E309N_S,سروزن,31.14385,62.17057,Sijistan,SARUZAN_621E311N_S,مرحلة,37987.00561797753
+سروزن,31.14385,62.17057,Sijistan,SARUZAN_621E311N_S,حروري,31.28570,62.39332,Sijistan,HARURI_623E312N_S,مرحلة,37987.00561797753
+حروري,31.28570,62.39332,Sijistan,HARURI_623E312N_S,دهك,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+دهك,null,null,Khurasan,Sijistan,"Transoxiana""",null,رباط كرودين,31.38151,63.14407,Sijistan,37987.00561797753
+رباط كرودين,31.38151,63.14407,Sijistan,RIBATKARUDIN_631E313N_S,رباط قهستان,31.36919,63.54388,Sijistan,RIBATQAHASTAN_635E313N_S,مرحلة,37987.00561797753
+رباط قهستان,31.36919,63.54388,Sijistan,RIBATQAHASTAN_635E313N_S,رباط عبد الله,31.37330,63.92927,Sijistan,RIBATABDALLAH_639E313N_S,مرحلة,37987.00561797753
+رباط عبد الله,31.37330,63.92927,Sijistan,RIBATABDALLAH_639E313N_S,بست,31.39108,64.39078,Sijistan,BUST_643E313N_S,مرحلة,37987.00561797753
+زرنج,30.75940,61.61613,Sijistan,ZARANJ_616E307N_S,جزه,31.96860,62.38610,Sijistan,JIZAH_623E319N_S,3 مراحل,113961.01685393258
+جزه,31.96860,62.38610,Sijistan,JIZAH_623E319N_S,فره,32.35928,62.06561,Sijistan,FARAH_620E323N_S,مرحلتين,70357.0
+جزه,31.96860,62.38610,Sijistan,JIZAH_623E319N_S,القرنين,36.57540,62.44974,Khurasan,QARINAYN_624E365N_S,مرحلتين,70357.0
+فره,32.35928,62.06561,Sijistan,FARAH_620E323N_S,له,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+زرنج,30.75940,61.61613,Sijistan,ZARANJ_616E307N_S,الطاق,30.68777,62.12651,Sijistan,TAQ_621E306N_S,مرحلة,37987.00561797753
+زرنج,30.75940,61.61613,Sijistan,ZARANJ_616E307N_S,كش,30.15265,62.37889,Sijistan,KISHSH_623E301N_S,30 فرسخا,86646.0
+قاين,null,null,Khurasan,Sijistan,"Transoxiana""",null,تون,33.92591,58.11679,Khurasan,37987.00561797753
+قاين,null,null,Khurasan,Sijistan,"Transoxiana""",null,ينابد,null,null,"""Khurasan",70357.0
+ينابد,null,null,Khurasan,Sijistan,"Transoxiana""",null,كندر,35.12055,58.12875,Khurasan,70357.0
+كندر,35.12055,58.12875,Khurasan,KUNDUR_581E351N_S,طريثيث,35.13557,58.41130,Khurasan,TURTHITH_584E351N_S,بريدين,23504.153846153848
+ينابد,null,null,Khurasan,Sijistan,"Transoxiana""",null,سنكان,35.05003,59.41155,Khurasan,37987.00561797753
+سنكان,35.05003,59.41155,Khurasan,SANKAN_594E350N_S,جايمن,35.04974,59.84669,Khurasan,JAYIMAND_598E350N_S,مرحلة,37987.00561797753
+سنكان,35.05003,59.41155,Khurasan,SANKAN_594E350N_S,مالن كواخرز,34.93776,60.26487,Khurasan,MALIN_602E349N_S,مرحلة,37987.00561797753
+مالن كواخرز,34.93776,60.26487,Khurasan,MALIN_602E349N_S,بوزجان,35.17917,60.61524,Khurasan,BUZJAN_606E351N_S,مرحلتين,70357.0
+بوزجان,35.17917,60.61524,Khurasan,BUZJAN_606E351N_S,الملاحة,35.53664,59.36352,Khurasan,MALLAHA_593E355N_S,مرحلة,37987.00561797753
+الملاحة,35.53664,59.36352,Khurasan,MALLAHA_593E355N_S,القصر,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+نيسابور,36.12138,58.79841,Khurasan,NAYSABUR_587E361N_S,بيسكند,36.08371,58.39294,Khurasan,BISKAND_583E360N_S,مرحلة,37987.00561797753
+بيسكند,36.08371,58.39294,Khurasan,BISKAND_583E360N_S,حسيناباذ,36.10768,57.92813,Khurasan,HUSAYNABADH_579E361N_S,مرحلة,37987.00561797753
+حسيناباذ,36.10768,57.92813,Khurasan,HUSAYNABADH_579E361N_S,خسروجرد,36.18956,57.47851,Khurasan,KHUSRAWJIRD_574E361N_S,مرحلة,37987.00561797753
+خسروجرد,36.18956,57.47851,Khurasan,KHUSRAWJIRD_574E361N_S,النوق,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+خسروجرد,36.18956,57.47851,Khurasan,KHUSRAWJIRD_574E361N_S,يحيى اباذ,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+أسداباذ,36.32897,56.45362,Khurasan,ASADABADH_564E363N_S,هفدر,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+نيسابور,36.12138,58.79841,Khurasan,NAYSABUR_587E361N_S,قصر الريح,36.03203,59.12900,Khurasan,QASRRIH_591E360N_S,مرحلة,37987.00561797753
+قصر الريح,36.03203,59.12900,Khurasan,QASRRIH_591E360N_S,الرمادة,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+الرمادة,null,null,Khurasan,Sijistan,"Transoxiana""",null,صاهه,36.10597,60.18929,Khurasan,37987.00561797753
+صاهه,36.10597,60.18929,Khurasan,SAHIH_601E361N_S,مزدوران,36.17215,60.54672,Khurasan,MAZDURAN_605E361N_S,مرحلة,37987.00561797753
+مزدوران,36.17215,60.54672,Khurasan,MAZDURAN_605E361N_S,اوكينة,36.34872,60.79678,Khurasan,UKINA_607E363N_S,مرحلة,37987.00561797753
+اوكينة,36.34872,60.79678,Khurasan,UKINA_607E363N_S,سرخس,36.51694,61.18671,Khurasan,SARAKHS_611E365N_S,مرحلة,37987.00561797753
+قصر الريح,36.03203,59.12900,Khurasan,QASRRIH_591E360N_S,فرهاكرد,35.78200,59.56978,Khurasan,FARHAKIRD_595E357N_S,مرحلة,37987.00561797753
+فرهاكرد,35.78200,59.56978,Khurasan,FARHAKIRD_595E357N_S,نوكده,35.63286,60.00916,Khurasan,NUKDAH_600E356N_S,مرحلة,37987.00561797753
+نوكده,35.63286,60.00916,Khurasan,NUKDAH_600E356N_S,مالايكرد,35.41670,60.29878,Khurasan,MALAYAKIRD_602E354N_S,مرحلة,37987.00561797753
+مالايكرد,35.41670,60.29878,Khurasan,MALAYAKIRD_602E354N_S,بوزجان,35.17917,60.61524,Khurasan,BUZJAN_606E351N_S,مرحلة,37987.00561797753
+بوزجان,35.17917,60.61524,Khurasan,BUZJAN_606E351N_S,كلنا,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+كلنا,null,null,Khurasan,Sijistan,"Transoxiana""",null,البق,null,null,"""Khurasan",37987.00561797753
+البق,null,null,Khurasan,Sijistan,"Transoxiana""",null,امده,null,null,"""Khurasan",37987.00561797753
+امده,null,null,Khurasan,Sijistan,"Transoxiana""",null,هراة,34.33419,62.15235,Khurasan,37987.00561797753
+القصر,null,null,Khurasan,Sijistan,"Transoxiana""",null,الملاحة,35.53664,59.36352,Khurasan,37987.00561797753
+الملاحة,35.53664,59.36352,Khurasan,MALLAHA_593E355N_S,سنكان,35.05003,59.41155,Khurasan,SANKAN_594E350N_S,مرحلة,37987.00561797753
+سنكان,35.05003,59.41155,Khurasan,SANKAN_594E350N_S,ينابد,null,null,Khurasan,Sijistan,"Transoxiana""",70357.0
+نيسابور,36.12138,58.79841,Khurasan,NAYSABUR_587E361N_S,كلكاو,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+كلكاو,null,null,Khurasan,Sijistan,"Transoxiana""",null,الدارين,null,null,"""Khurasan",37987.00561797753
+الدارين,null,null,Khurasan,Sijistan,"Transoxiana""",null,نمخكن,null,null,"""Khurasan",37987.00561797753
+ريك,null,null,Khurasan,Sijistan,"Transoxiana""",null,فرخان,null,null,"""Khurasan",37987.00561797753
+فرخان,null,null,Khurasan,Sijistan,"Transoxiana""",null,بردر,null,null,"""Khurasan",37987.00561797753
+بردر,null,null,Khurasan,Sijistan,"Transoxiana""",null,بغداد,null,null,"""Khurasan",37987.00561797753
+بغداد,null,null,Khurasan,Sijistan,"Transoxiana""",null,نسا,null,null,"""Khurasan",37987.00561797753
+دزاوند,null,null,Khurasan,Sijistan,"Transoxiana""",null,حويران,null,null,"""Khurasan",37987.00561797753
+حويران,null,null,Khurasan,Sijistan,"Transoxiana""",null,قلميهن,37.12708,59.28793,Khurasan,37987.00561797753
+قلميهن,37.12708,59.28793,Khurasan,QALMAYHAN_592E371N_S,أبيورد,37.27000,59.59733,Khurasan,ABIWARD_595E372N_S,مرحلة,37987.00561797753
+قلميهن,37.12708,59.28793,Khurasan,QALMAYHAN_592E371N_S,كوفن,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+كوفى,null,null,Khurasan,Sijistan,"Transoxiana""",null,أبيورد,37.27000,59.59733,Khurasan,37987.00561797753
+نيسابور,36.12138,58.79841,Khurasan,NAYSABUR_587E361N_S,بغيشن,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+بغيشن,null,null,Khurasan,Sijistan,"Transoxiana""",null,القرية الحمراء,null,null,"""Khurasan",37987.00561797753
+القرية الحمراء,null,null,Khurasan,Sijistan,"Transoxiana""",null,المشهد,null,null,"""Khurasan",37987.00561797753
+المشهد,null,null,Khurasan,Sijistan,"Transoxiana""",null,طابران,null,null,"""Khurasan",23504.153846153848
+نيسابور,36.12138,58.79841,Khurasan,NAYSABUR_587E361N_S,نشديغن,null,null,Khurasan,Sijistan,"Transoxiana""",37987.00561797753
+نيسابور,36.12138,58.79841,Khurasan,NAYSABUR_587E361N_S,ريوند,36.18583,58.36115,Khurasan,RIWAND_583E361N_S,مرحلة,37987.00561797753
+ريوند,36.18583,58.36115,Khurasan,RIWAND_583E361N_S,مهرجان,36.58050,57.84690,Khurasan,MIHRAJAN_578E365N_S,مرحلتين,70357.0
+مهرجان,36.58050,57.84690,Khurasan,MIHRAJAN_578E365N_S,أسفراين,36.98777,57.43023,Khurasan,ASFARAYIN_574E369N_S,مرحلتين,70357.0
+الدامغان,36.13093,54.37503,Daylam,DAMGHAN_543E361N_S,الحدادة,36.28520,54.80181,Daylam,HADDADA_548E362N_S,مرحلة,37987.00561797753
+الحدادة,36.28520,54.80181,Daylam,HADDADA_548E362N_S,بدش,null,null,Daylam,null,مرحلة,37987.00561797753
+بدش,null,null,Daylam,null,مرجان,36.39341,55.67094,Daylam,MURJAN_556E363N_S,مرحلة,37987.00561797753
+مرجان,36.39341,55.67094,Daylam,MURJAN_556E363N_S,هفدر,36.36629,56.13276,Daylam,HAFDAR_561E363N_S,مرحلة,37987.00561797753
+هفدر,36.36629,56.13276,Daylam,HAFDAR_561E363N_S,أسداواذ,null,null,Daylam,null,مرحلة,37987.00561797753
+الدامغان,36.13093,54.37503,Daylam,DAMGHAN_543E361N_S,جرمجوى,35.97336,54.04249,Daylam,JARMJUWI_540E359N_S,مرحلة,37987.00561797753
+جرمجوى,35.97336,54.04249,Daylam,JARMJUWI_540E359N_S,رباط علياباذ,35.74424,53.73487,Daylam,RIBATALIYYABADH_537E357N_S,مرحلة,37987.00561797753
+رباط علياباذ,35.74424,53.73487,Daylam,RIBATALIYYABADH_537E357N_S,سمنان,35.49513,53.40856,Daylam,SIMNAN_534E354N_S,مرحلة,37987.00561797753
+سمنان,35.49513,53.40856,Daylam,SIMNAN_534E354N_S,راس الكلب,35.37647,53.07601,Daylam,RASKALB_530E353N_S,مرحلة,37987.00561797753
+راس الكلب,35.37647,53.07601,Daylam,RASKALB_530E353N_S,قرية الملح,35.26209,52.63600,Daylam,QARYAMILH_526E352N_S,مرحلة,37987.00561797753
+قرية الملح,35.26209,52.63600,Daylam,QARYAMILH_526E352N_S,خوار الرى,null,null,Daylam,null,مرحلة,37987.00561797753
+الحدادة,36.28520,54.80181,Daylam,HADDADA_548E362N_S,بسطام,36.45952,55.07205,Daylam,BISTAM_550E364N_S,مرحلة,37987.00561797753
+زرداباذ,36.65798,55.30802,Daylam,ZIRADABADH_553E366N_S,خرماروذ,null,null,Daylam,null,مرحلة,37987.00561797753
+خرماروذ,null,null,Daylam,null,جهينة,null,null,Daylam,null,مرحلة,37987.00561797753
+جهينة,null,null,Daylam,null,جرجان,37.33269,54.99028,Daylam,JURJAN_549E373N_R,مرحلة,37987.00561797753
+اسداواذ,null,null,Daylam,null,طرثيث,null,null,Daylam,null,30 فرسخا,86646.0
+جرجان,37.33269,54.99028,Daylam,JURJAN_549E373N_R,دينازارى,37.57458,55.99881,Daylam,DINAZARI_559E375N_S,مرحلة,37987.00561797753
+دينازارى,37.57458,55.99881,Daylam,DINAZARI_559E375N_S,املوتا,null,null,Daylam,null,مرحلة,37987.00561797753
+املوتا,null,null,Daylam,null,اجغ,37.51437,56.95205,Daylam,AJGH_569E375N_S,مرحلة,37987.00561797753
+اجغ,37.51437,56.95205,Daylam,AJGH_569E375N_S,سبداست,null,null,Daylam,null,مرحلة,37987.00561797753
+سبداست,null,null,Daylam,null,أسفراين,null,null,Daylam,null,مرحلة,37987.00561797753
+أسفراين,null,null,Daylam,null,آبسكون,37.02772,54.04327,Daylam,ABASKUN_540E370N_S,مرحلة,37987.00561797753
+أسفراين,null,null,Daylam,null,آبسكون,37.02772,54.04327,Daylam,ABASKUN_540E370N_S,مرحلة,37987.00561797753
+أسفراين,null,null,Daylam,null,رباط علي,37.22611,54.51366,Daylam,RIBATALI_545E372N_S,مرحلة,37987.00561797753
+رباط علي,37.22611,54.51366,Daylam,RIBATALI_545E372N_S,رباط الأمير,37.58399,54.76443,Daylam,RIBATAMIR_547E375N_S,مرحلة,37987.00561797753
+رباط الأمير,37.58399,54.76443,Daylam,RIBATAMIR_547E375N_S,بيلمك,37.88855,54.72705,Daylam,BAYLAMAK_547E378N_S,مرحلة,37987.00561797753
+بيلمك,37.88855,54.72705,Daylam,BAYLAMAK_547E378N_S,رباط دهستان,38.26671,54.61471,Daylam,RIBATDIHISTAN_546E382N_S,مرحلة,37987.00561797753
+آمل,36.42256,52.40859,Daylam,AMUL_524E364N_S,بلور,35.81911,52.06670,Daylam,BALUR_520E358N_S,مرحلة,37987.00561797753
+بلور,35.81911,52.06670,Daylam,BALUR_520E358N_S,اسك,35.87340,52.21623,Daylam,ASAK_522E358N_S,مرحلة,37987.00561797753
+اسك,35.87340,52.21623,Daylam,ASAK_522E358N_S,بامهر,null,null,Daylam,null,مرحلة,37987.00561797753
+بامهر,null,null,Daylam,null,برزيان,null,null,Daylam,null,مرحلة,37987.00561797753
+برزيان,null,null,Daylam,null,الرى,null,null,Daylam,null,مرحلة,37987.00561797753
+آمل,36.42256,52.40859,Daylam,AMUL_524E364N_S,مامطير,36.51713,52.74659,Daylam,MAMATIR_527E365N_S,مرحلة,37987.00561797753
+مامطير,36.51713,52.74659,Daylam,MAMATIR_527E365N_S,سارية,36.53215,53.11807,Daylam,SARIYA_531E365N_S,مرحلة,37987.00561797753
+سارية,36.53215,53.11807,Daylam,SARIYA_531E365N_S,ابارست,null,null,Daylam,null,مرحلة,37987.00561797753
+ابارست,null,null,Daylam,null,ابادان,null,null,Daylam,null,مرحلة,37987.00561797753
+ابادان,null,null,Daylam,null,طميسة,null,null,Daylam,null,مرحلة,37987.00561797753
+طميسة,null,null,Daylam,null,أستراباذ,null,null,Daylam,null,مرحلة,37987.00561797753
+أستراباذ,null,null,Daylam,null,جرجان,37.33269,54.99028,Daylam,JURJAN_549E373N_R,مرحلتين,70357.0
+جرجان,37.33269,54.99028,Daylam,JURJAN_549E373N_R,الديلمان,36.69592,50.52548,Daylam,DAYLAMAN_505E366N_R,12 مرحلة,455844.06741573033
+الديلمان,36.69592,50.52548,Daylam,DAYLAMAN_505E366N_R,أردبيل,null,null,Daylam,null,12 مرحلة,455844.06741573033
+آبسكون,37.02772,54.04327,Daylam,ABASKUN_540E370N_S,أستراباذ,null,null,Daylam,null,مرحلة,37987.00561797753
+أستراباذ,null,null,Daylam,null,سارية,36.53215,53.11807,Daylam,SARIYA_531E365N_S,4 مراحل,151948.0224719101
+آمل,36.42256,52.40859,Daylam,AMUL_524E364N_S,ناتل,36.47768,51.91951,Daylam,NATIL_519E364N_S,مرحلة,37987.00561797753
+ناتل,36.47768,51.91951,Daylam,NATIL_519E364N_S,سالوس,null,null,Daylam,null,مرحلة,37987.00561797753
+سالوس,null,null,Daylam,null,كلار,36.49897,51.07686,Daylam,KALAR_510E364N_S,مرحلة,37987.00561797753
+كلار,36.49897,51.07686,Daylam,KALAR_510E364N_S,جبال الديلم,null,null,Daylam,null,مرحلة,37987.00561797753
+سالوس,null,null,Daylam,null,إسبيدروذ,null,null,Daylam,null,مرحلة,37987.00561797753
+إسبيدروذ,null,null,Daylam,null,قرية الرصد,null,null,Daylam,null,مرحلة,37987.00561797753
+قرية الرصد,null,null,Daylam,null,خشم,37.48626,49.18674,Daylam,KHASHM_491E374N_S,مرحلة,37987.00561797753
+خشم,37.48626,49.18674,Daylam,KHASHM_491E374N_S,بيلمان,null,null,Daylam,null,4 مراحل,151948.0224719101
+بيلمان,null,null,Daylam,null,الدولاب,null,null,Daylam,null,4 مراحل,151948.0224719101
+الدولاب,null,null,Daylam,null,كهن روذ,37.79153,49.00372,Daylam,KUHANRUDH_490E377N_S,3 مراحل,113961.01685393258
+كهن روذ,37.79153,49.00372,Daylam,KUHANRUDH_490E377N_S,موغكان,null,null,Daylam,null,مرحلتين,70357.0
+موغكان,null,null,Daylam,null,الكر,null,null,Daylam,null,مرحلتين,70357.0
+الكر,null,null,Daylam,null,هشتاذر,null,null,Daylam,null,مرحلتين,70357.0
+هشتاذر,null,null,Daylam,null,الشماخية,null,null,Daylam,null,مرحلتين,70357.0
+برذعة,40.45334,47.23624,Rihab,BARDHAA_472E404N_S,يونان,null,null,Rihab,null,مرحلة,37987.00561797753
+برذعة,40.45334,47.23624,Rihab,BARDHAA_472E404N_S,برديج,null,null,Rihab,null,مرحلة,37987.00561797753
+برذعة,40.45334,47.23624,Rihab,BARDHAA_472E404N_S,جنزة,40.81356,46.38603,Rihab,JANZA_463E408N_S,مرحلة,37987.00561797753
+برذعة,40.45334,47.23624,Rihab,BARDHAA_472E404N_S,قلقاطوس,40.20714,46.64590,Rihab,QALQATUS_466E402N_S,مرحلة,37987.00561797753
+يونان,null,null,Rihab,null,البيلقان,39.86701,47.46081,Rihab,BAYLAQAN_474E398N_S,مرحلة,37987.00561797753
+البيلقان,39.86701,47.46081,Rihab,BAYLAQAN_474E398N_S,ورثان,39.56659,47.64257,Rihab,WARTHAN_476E395N_S,مرحلة,37987.00561797753
+ورثان,39.56659,47.64257,Rihab,WARTHAN_476E395N_S,تلخاب,null,null,Rihab,null,مرحلة,37987.00561797753
+تلخاب,null,null,Rihab,null,برزند,38.96621,47.85286,Rihab,BARZAND_478E389N_S,مرحلة,37987.00561797753
+برزند,38.96621,47.85286,Rihab,BARZAND_478E389N_S,أردبيل,38.23604,48.30651,Rihab,ARDABIL_483E382N_S,مرحلة,37987.00561797753
+برديج,null,null,Rihab,null,الشماخية,40.67871,48.68505,Rihab,SHAMAKHIYYA_486E406N_S,مرحلتين,70357.0
+الشماخية,40.67871,48.68505,Rihab,SHAMAKHIYYA_486E406N_S,شروان,41.11585,48.75339,Rihab,SHIRWAN_487E411N_R,3 مراحل,113961.01685393258
+شروان,41.11585,48.75339,Rihab,SHIRWAN_487E411N_R,الابخان,40.88004,48.38086,Rihab,ABKHAN_483E408N_R,مرحلتين,70357.0
+الابخان,40.88004,48.38086,Rihab,ABKHAN_483E408N_R,جسر سمور,41.84983,48.48301,Rihab,JISRSAMUR_484E418N_S,مرحلتين,70357.0
+جسر سمور,41.84983,48.48301,Rihab,JISRSAMUR_484E418N_S,باب الأبواب,42.04308,48.30854,Rihab,BABABWAB_483E420N_S,3 مراحل,113961.01685393258
+جنزة,40.81356,46.38603,Rihab,JANZA_463E408N_S,شمكور,40.99521,46.06157,Rihab,SHAMKUR_460E409N_S,مرحلة,37987.00561797753
+شمكور,40.99521,46.06157,Rihab,SHAMKUR_460E409N_S,خنان,41.39027,45.50578,Rihab,KHUNAN_455E413N_S,3 مراحل,113961.01685393258
+خنان,41.39027,45.50578,Rihab,KHUNAN_455E413N_S,قلعة ابن كندمان,41.56808,45.16780,Rihab,QALAIBNKANDAMAN_451E415N_S,مرحلة,37987.00561797753
+قلعة ابن كندمان,41.56808,45.16780,Rihab,QALAIBNKANDAMAN_451E415N_S,تفليس,42.08410,44.83734,Rihab,TIFLIS_448E420N_S,مرحلتين,70357.0
+قلقاطوس,40.20714,46.64590,Rihab,QALQATUS_466E402N_S,متريس,null,null,Rihab,null,مرحلتين,70357.0
+متريس,null,null,Rihab,null,دميس,null,null,Rihab,null,مرحلتين,70357.0
+دميس,null,null,Rihab,null,كيلكونى,null,null,Rihab,null,مرحلتين,70357.0
+دبيل,40.16468,44.68562,Rihab,DABIL_446E401N_S,نشوى,39.34739,45.37660,Rihab,NASHAWA_453E393N_S,4 مراحل,151948.0224719101
+نشوى,39.34739,45.37660,Rihab,NASHAWA_453E393N_S,خوى,38.58650,44.99055,Rihab,KHUWI_449E385N_S,3 أيام,84468.0
+خوى,38.58650,44.99055,Rihab,KHUWI_449E385N_S,سلماس,38.22277,44.82832,Rihab,SALAMAS_448E382N_S,مرحلتين,70357.0
+سلماس,38.22277,44.82832,Rihab,SALAMAS_448E382N_S,أرمية,39.47331,44.11256,Rihab,ARMINIYYA_441E394N_R,مرحلة,37987.00561797753
+أرمية,39.47331,44.11256,Rihab,ARMINIYYA_441E394N_R,خرقان,null,null,Rihab,null,مرحلتين,70357.0
+خرقان,null,null,Rihab,null,مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,مرحلتين,70357.0
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,أردبيل,38.23604,48.30651,Rihab,ARDABIL_483E382N_S,40 فرسخا,115528.0
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,قندرية,null,null,Rihab,null,مرحلتين,70357.0
+قلعة الحسن بن علي,null,null,Rihab,null,شهرزور,null,null,Rihab,null,30 فرسخا,86646.0
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,نورين,null,null,Rihab,null,مرحلة,37987.00561797753
+خوى,38.58650,44.99055,Rihab,KHUWI_449E385N_S,قلعة يونس,null,null,Rihab,null,6 مراحل,227922.03370786516
+قلعة يونس,null,null,Rihab,null,قرية العصبيات,null,null,Rihab,null,مرحلة,37987.00561797753
+تفليس,42.08410,44.83734,Rihab,TIFLIS_448E420N_S,تبلا,null,null,Rihab,null,مرحلتين,70357.0
+تبلا,null,null,Rihab,null,شكى,41.34856,47.20469,Rihab,SHAKKI_472E413N_R,مرحلتين,70357.0
+شكى,41.34856,47.20469,Rihab,SHAKKI_472E413N_R,لكزان,null,null,Rihab,null,مرحلتين,70357.0
+لكزان,null,null,Rihab,null,الباب,null,null,Rihab,null,2 مراحل,75974.01123595505
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,الخرقان,null,null,Rihab,null,مرحلتين,70357.0
+الخرقان,null,null,Rihab,null,تبريز,38.06387,46.33121,Rihab,TABRIZ_463E380N_S,مرحلة,37987.00561797753
+تبريز,38.06387,46.33121,Rihab,TABRIZ_463E380N_S,مرند,38.46017,45.80321,Rihab,MARAND_458E384N_S,مرحلة,37987.00561797753
+أردبيل,38.23604,48.30651,Rihab,ARDABIL_483E382N_S,النير,38.02656,47.99130,Rihab,NIR_479E380N_S,مرحلة,37987.00561797753
+النير,38.02656,47.99130,Rihab,NIR_479E380N_S,سراة,null,null,Rihab,null,مرحلة,37987.00561797753
+سراة,null,null,Rihab,null,كولسره,null,null,Rihab,null,مرحلة,37987.00561797753
+كولسره,null,null,Rihab,null,مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,مرحلة,37987.00561797753
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,خره روذ,null,null,Rihab,null,مرحلة,37987.00561797753
+خره روذ,null,null,Rihab,null,موسى آباذ,null,null,Rihab,null,مرحلة,37987.00561797753
+موسى آباذ,null,null,Rihab,null,برزة,36.50570,46.21410,Rihab,BARZA_462E365N_S,بريدين,23504.153846153848
+برزة,36.50570,46.21410,Rihab,BARZA_462E365N_S,تفليس,42.08410,44.83734,Rihab,TIFLIS_448E420N_S,بريدا,17060.5
+بريدا,null,null,Rihab,null,جابروان,36.96475,45.60275,Rihab,JABRAWAN_456E369N_S,مرحلة,37987.00561797753
+جابروان,36.96475,45.60275,Rihab,JABRAWAN_456E369N_S,نريز,null,null,Rihab,null,مرحلة,37987.00561797753
+نريز,null,null,Rihab,null,أرومية,null,null,Rihab,null,مرحلة,37987.00561797753
+مرند,38.46017,45.80321,Rihab,MARAND_458E384N_S,النشوى,39.34739,45.37660,Rihab,NASHAWA_453E393N_S,مرحلتين,70357.0
+النشوى,39.34739,45.37660,Rihab,NASHAWA_453E393N_S,دبيل,40.16468,44.68562,Rihab,DABIL_446E401N_S,مرحلتين,70357.0
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,سابرخاست,36.92367,46.10896,Rihab,SABURKHAST_461E369N_S,مرحلة,37987.00561797753
+سابرخاست,36.92367,46.10896,Rihab,SABURKHAST_461E369N_S,برزة,36.50570,46.21410,Rihab,BARZA_462E365N_S,مرحلة,37987.00561797753
+برزة,36.50570,46.21410,Rihab,BARZA_462E365N_S,البيلقان,39.86701,47.46081,Rihab,BAYLAQAN_474E398N_S,مرحلة,37987.00561797753
+البيلقان,39.86701,47.46081,Rihab,BAYLAQAN_474E398N_S,سيسر,null,null,Rihab,null,مرحلة,37987.00561797753
+سيسر,null,null,Rihab,null,تل وان,null,null,Rihab,null,مرحلة,37987.00561797753
+تل وان,null,null,Rihab,null,الخبارجان,null,null,Rihab,null,مرحلة,37987.00561797753
+الخبارجان,null,null,Rihab,null,الدينور,null,null,Rihab,null,مرحلة,37987.00561797753
+أردبيل,38.23604,48.30651,Rihab,ARDABIL_483E382N_S,الميانج,37.40341,47.74052,Rihab,MAYANIJ_477E374N_S,مرحلتين,70357.0
+نوى,null,null,Rihab,null,زنجان,36.66235,48.50530,Rihab,ZANJAN_485E366N_S,مرحلة,37987.00561797753
+الميانج,37.40341,47.74052,Rihab,MAYANIJ_477E374N_S,خونج,37.38856,47.25690,Rihab,KHUNAJ_472E373N_S,مرحلة,37987.00561797753
+خونج,37.38856,47.25690,Rihab,KHUNAJ_472E373N_S,كولسره,null,null,Rihab,null,مرحلة,37987.00561797753
+كولسره,null,null,Rihab,null,مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,مرحلة,37987.00561797753
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,خرقان,null,null,Rihab,null,مرحلتين,70357.0
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,أرمية,39.47331,44.11256,Rihab,ARMINIYYA_441E394N_R,مرحلتين,70357.0
+خرقان,null,null,Rihab,null,سلماس,38.22277,44.82832,Rihab,SALAMAS_448E382N_S,مرحلتين,70357.0
+أرمية,39.47331,44.11256,Rihab,ARMINIYYA_441E394N_R,سلماس,38.22277,44.82832,Rihab,SALAMAS_448E382N_S,مرحلتين,70357.0
+سلماس,38.22277,44.82832,Rihab,SALAMAS_448E382N_S,خوى,38.58650,44.99055,Rihab,KHUWI_449E385N_S,مرحلة,37987.00561797753
+خوى,38.58650,44.99055,Rihab,KHUWI_449E385N_S,بركرى,38.98412,43.75682,Rihab,BARKARI_437E389N_S,5 مراحل,189935.02808988764
+بركرى,38.98412,43.75682,Rihab,BARKARI_437E389N_S,أرجيش,39.02230,43.35895,Rihab,ARJISH_433E390N_S,مرحلتين,70357.0
+أرجيش,39.02230,43.35895,Rihab,ARJISH_433E390N_S,أخلاط,38.76551,42.51044,Rihab,AKHLAT_425E387N_S,ثلاثا مراحل,113961.01685393258
+أرجيش,39.02230,43.35895,Rihab,ARJISH_433E390N_S,بدليس,null,null,Rihab,null,ثلاثا مراحل,113961.01685393258
+بدليس,null,null,Rihab,null,آمد,null,null,Rihab,null,أربعا مراحل,151948.0224719101
+بدليس,null,null,Rihab,null,ميافارقين,null,null,Rihab,null,أربعا مراحل,151948.0224719101
+مراغة,37.34276,46.24758,Rihab,MARAGHA_462E373N_S,الدينور,null,null,Rihab,null,60 فرسخا,173292.0
+برقوى,null,null,Rihab,null,ملازكرد,39.14370,42.55713,Rihab,MALAZKIRD_425E391N_S,3 أيام,84468.0
+ملازكرد,39.14370,42.55713,Rihab,MALAZKIRD_425E391N_S,أرزن,null,null,Rihab,null,6 أيام,168936.0
+أرزن,null,null,Rihab,null,آمد,null,null,Rihab,null,4 أيام,112624.0
+الرى,35.62754,51.50831,Jibal,RAYY_515E356N_S,كيلين,null,null,Jibal,null,مرحلة,37987.00561797753
+كيلين,null,null,Jibal,null,كيس,null,null,Jibal,null,مرحلة,37987.00561797753
+كيس,null,null,Jibal,null,الخوار,null,null,Jibal,null,مرحلة,37987.00561797753
+الرى,35.62754,51.50831,Jibal,RAYY_515E356N_S,قسطان,35.41491,51.03856,Jibal,QUSTANA_510E354N_S,مرحلة,37987.00561797753
+قسطان,35.41491,51.03856,Jibal,QUSTANA_510E354N_S,مشكويه,35.30758,50.77259,Jibal,MASHKUYA_507E353N_S,مرحلة,37987.00561797753
+مشكويه,35.30758,50.77259,Jibal,MASHKUYA_507E353N_S,ودروه,null,null,Jibal,null,مرحلة,37987.00561797753
+ودروه,null,null,Jibal,null,ساوة,34.97799,50.42711,Jibal,SAWA_504E349N_S,مرحلة,37987.00561797753
+ساوة,34.97799,50.42711,Jibal,SAWA_504E349N_S,سونقين,35.02740,50.02954,Jibal,SUSANQIN_500E350N_S,مرحلة,37987.00561797753
+سونقين,35.02740,50.02954,Jibal,SUSANQIN_500E350N_S,المصدقان,35.06107,49.85406,Jibal,MASDAQAN_498E350N_S,مرحلة,37987.00561797753
+المصدقان,35.06107,49.85406,Jibal,MASDAQAN_498E350N_S,الروذة,35.10371,49.79100,Jibal,RUDHA_497E351N_S,مرحلة,37987.00561797753
+الروذة,35.10371,49.79100,Jibal,RUDHA_497E351N_S,الدكان,null,null,Jibal,null,مرحلة,37987.00561797753
+همذان,34.77554,48.57908,Jibal,HAMADHAN_485E347N_S,بوزنجرد,34.95777,48.98488,Jibal,BUZANJIRD_489E349N_S,مرحلة,37987.00561797753
+بوزنجرد,34.95777,48.98488,Jibal,BUZANJIRD_489E349N_S,قرية الجن,null,null,Jibal,null,مرحلة,37987.00561797753
+قرية الجن,null,null,Jibal,null,الدكان,null,null,Jibal,null,مرحلة,37987.00561797753
+همذان,34.77554,48.57908,Jibal,HAMADHAN_485E347N_S,أسداواذ,null,null,Jibal,null,مرحلة,37987.00561797753
+أسداواذ,null,null,Jibal,null,قصر اللصوص,34.49580,47.90457,Jibal,QASRLUSUS_479E344N_S,مرحلة,37987.00561797753
+قصر اللصوص,34.49580,47.90457,Jibal,QASRLUSUS_479E344N_S,قنطرة النعمان,34.46868,47.65232,Jibal,QANTARANUMAN_476E344N_S,مرحلة,37987.00561797753
+قنطرة النعمان,34.46868,47.65232,Jibal,QANTARANUMAN_476E344N_S,جبل بيستون,null,null,Jibal,null,مرحلة,37987.00561797753
+جبل بيستون,null,null,Jibal,null,قرماسين,34.32388,47.09845,Jibal,QARMASIN_470E343N_S,مرحلة,37987.00561797753
+قرماسين,34.32388,47.09845,Jibal,QARMASIN_470E343N_S,قصر عمرو,null,null,Jibal,null,بريدين,23504.153846153848
+قصر عمرو,null,null,Jibal,null,الزبيدية,34.23099,46.85168,Jibal,ZUBAYDIYYA_468E342N_S,مرحلة,37987.00561797753
+الزبيدية,34.23099,46.85168,Jibal,ZUBAYDIYYA_468E342N_S,طزر,34.16749,46.44040,Jibal,TAZAR_464E341N_S,نصف مرحلة,18993.502808988764
+طزر,34.16749,46.44040,Jibal,TAZAR_464E341N_S,المرج,34.30577,46.22379,Jibal,MARJ_462E343N_S,نصف مرحلة,18993.502808988764
+طزر,34.16749,46.44040,Jibal,TAZAR_464E341N_S,حلوان,null,null,Jibal,null,مرحلة,37987.00561797753
+كرج,33.88116,49.54697,Jibal,KARAJ_495E338N_S,سواد مقولة,null,null,Jibal,null,مرحلة,37987.00561797753
+سواد مقولة,null,null,Jibal,null,خوزن,null,null,Jibal,null,مرحلة,37987.00561797753
+خوزن,null,null,Jibal,null,برزانيان,null,null,Jibal,null,مرحلة,37987.00561797753
+برزانيان,null,null,Jibal,null,آوه,34.68541,50.54227,Jibal,AWA_505E346N_S,مرحلة,37987.00561797753
+آوه,34.68541,50.54227,Jibal,AWA_505E346N_S,قرية جرا,null,null,Jibal,null,مرحلة,37987.00561797753
+قرية جرا,null,null,Jibal,null,رباط جرا,null,null,Jibal,null,مرحلة,37987.00561797753
+رباط جرا,null,null,Jibal,null,ورامين,null,null,Jibal,null,مرحلة,37987.00561797753
+ورامين,null,null,Jibal,null,كسكانة,null,null,Jibal,null,مرحلة,37987.00561797753
+كسكانة,null,null,Jibal,null,الرى,35.62754,51.50831,Jibal,RAYY_515E356N_S,مرحلة,37987.00561797753
+كرج,33.88116,49.54697,Jibal,KARAJ_495E338N_S,وفراوندة,null,null,Jibal,null,مرحلة,37987.00561797753
+وفراوندة,null,null,Jibal,null,دارقان,33.44757,48.75730,Jibal,DARAQAN_487E334N_S,مرحلة,37987.00561797753
+دارقان,33.44757,48.75730,Jibal,DARAQAN_487E334N_S,خروذ,null,null,Jibal,null,مرحلة,37987.00561797753
+خروذ,null,null,Jibal,null,سابرخواس,null,null,Jibal,null,مرحلة,37987.00561797753
+سابرخواس,null,null,Jibal,null,كركويش,null,null,Jibal,null,مرحلة,37987.00561797753
+كركويش,null,null,Jibal,null,الخان,null,null,Jibal,null,مرحلة,37987.00561797753
+الخان,null,null,Jibal,null,رزمانان,null,null,Jibal,null,مرحلة,37987.00561797753
+رزمانان,null,null,Jibal,null,اللور,null,null,Jibal,null,مرحلة,37987.00561797753
+قصر اللصوص,34.49580,47.90457,Jibal,QASRLUSUS_479E344N_S,كير حراس,null,null,Jibal,null,مرحلة,37987.00561797753
+كير حراس,null,null,Jibal,null,نهاوند,34.21512,48.39263,Jibal,NIHAWAND_483E342N_S,بريدين,23504.153846153848
+همذان,34.77554,48.57908,Jibal,HAMADHAN_485E347N_S,الديمر,null,null,Jibal,null,مرحلة,37987.00561797753
+الديمر,null,null,Jibal,null,راكاه,34.42798,48.54618,Jibal,RAKAH_485E344N_S,مرحلة,37987.00561797753
+راكاه,34.42798,48.54618,Jibal,RAKAH_485E344N_S,نهاوند,34.21512,48.39263,Jibal,NIHAWAND_483E342N_S,مرحلة,37987.00561797753
+نهاوند,34.21512,48.39263,Jibal,NIHAWAND_483E342N_S,راكاه,34.42798,48.54618,Jibal,RAKAH_485E344N_S,مرحلة,37987.00561797753
+راكاه,34.42798,48.54618,Jibal,RAKAH_485E344N_S,جوراب,34.21059,48.90536,Jibal,JURAB_489E342N_S,مرحلة,37987.00561797753
+جوراب,34.21059,48.90536,Jibal,JURAB_489E342N_S,الكرج,33.88116,49.54697,Jibal,KARAJ_495E338N_S,مرحلة,37987.00561797753
+همذان,34.77554,48.57908,Jibal,HAMADHAN_485E347N_S,طاق سعيد,null,null,Jibal,null,مرحلة,37987.00561797753
+طاق سعيد,null,null,Jibal,null,جوراب,34.21059,48.90536,Jibal,JURAB_489E342N_S,مرحلة,37987.00561797753
+الكرج,33.88116,49.54697,Jibal,KARAJ_495E338N_S,جراناباذ,null,null,Jibal,null,مرحلة,37987.00561797753
+جراناباذ,null,null,Jibal,null,ابتعه,33.62812,50.05422,Jibal,ABTIA_500E336N_S,مرحلة,37987.00561797753
+ابتعه,33.62812,50.05422,Jibal,ABTIA_500E336N_S,جرباذقان,33.38120,50.29276,Jibal,JARBADHAQAN_502E333N_S,مرحلة,37987.00561797753
+جرباذقان,33.38120,50.29276,Jibal,JARBADHAQAN_502E333N_S,قنوان,33.23683,50.65469,Jibal,QANUWAN_506E332N_S,مرحلة,37987.00561797753
+قنوان,33.23683,50.65469,Jibal,QANUWAN_506E332N_S,مرج وزهر,33.08994,50.95356,Jibal,MARJWA-ZAHR_509E330N_S,مرحلة,37987.00561797753
+مرج وزهر,33.08994,50.95356,Jibal,MARJWA-ZAHR_509E330N_S,الماريين,null,null,Jibal,null,بريدين,23504.153846153848
+الماريين,null,null,Jibal,null,ازميران,null,null,Jibal,null,مرحلتين,70357.0
+ازميران,null,null,Jibal,null,اليهودية,null,null,Jibal,null,نصف مرحلة,18993.502808988764
+السوس,32.20166,48.26047,Khuzistan,SUS_482E322N_S,قرقوب,null,null,Khuzistan,null,مرحلة,37987.00561797753
+قرقوب,null,null,Khuzistan,null,الطيب,null,null,Khuzistan,null,مرحلة,37987.00561797753
+السوس,32.20166,48.26047,Khuzistan,SUS_482E322N_S,بصنا,31.99567,48.30405,Khuzistan,BASINNA_483E319N_S,بريدين,23504.153846153848
+بصنا,31.99567,48.30405,Khuzistan,BASINNA_483E319N_S,البذان,null,null,Khuzistan,null,بريدين,23504.153846153848
+جنديسابور,32.29866,48.53919,Khuzistan,JUNDAYSABUR_485E322N_S,اللور,32.53782,48.30291,Khuzistan,LUR_483E325N_R,مرحلة,37987.00561797753
+اللور,32.53782,48.30291,Khuzistan,LUR_483E325N_R,الدز,32.38975,48.42219,Khuzistan,DIZ_484E323N_S,مرحلتين,70357.0
+الدز,32.38975,48.42219,Khuzistan,DIZ_484E323N_S,رايكان,null,null,Khuzistan,null,مرحلة,37987.00561797753
+رايكان,null,null,Khuzistan,null,كلبايكان,null,null,Khuzistan,null,40 فرسخا,115528.0
+كلبايكان,null,null,Khuzistan,null,كرج ابى دلف,null,null,Khuzistan,null,مرحلة,37987.00561797753
+تستر,32.05110,48.85461,Khuzistan,TUSTAR_488E320N_S,قرية الرمل,null,null,Khuzistan,null,مرحلة,37987.00561797753
+قرية الرمل,null,null,Khuzistan,null,بصنا,31.99567,48.30405,Khuzistan,BASINNA_483E319N_S,مرحلة,37987.00561797753
+العسكر,null,null,Khuzistan,null,تستر,32.05110,48.85461,Khuzistan,TUSTAR_488E320N_S,مرحلة,37987.00561797753
+العسكر,null,null,Khuzistan,null,الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,مرحلة,37987.00561797753
+جنديسابور,32.29866,48.53919,Khuzistan,JUNDAYSABUR_485E322N_S,السوس,32.20166,48.26047,Khuzistan,SUS_482E322N_S,مرحلة,37987.00561797753
+جنديسابور,32.29866,48.53919,Khuzistan,JUNDAYSABUR_485E322N_S,تستر,32.05110,48.85461,Khuzistan,TUSTAR_488E320N_S,مرحلة,37987.00561797753
+بيروت,32.06082,47.90375,Khuzistan,BAYRUT_479E320N_S,السوس,32.20166,48.26047,Khuzistan,SUS_482E322N_S,مرحلة,37987.00561797753
+بيروت,32.06082,47.90375,Khuzistan,BAYRUT_479E320N_S,البذان,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,شوراب,31.20731,48.79726,Khuzistan,SHURAB_487E312N_S,بريدا,17060.5
+شوراب,31.20731,48.79726,Khuzistan,SHURAB_487E312N_S,مندم,31.02269,48.88100,Khuzistan,MANDAM_488E310N_S,مرحلة,37987.00561797753
+مندم,31.02269,48.88100,Khuzistan,MANDAM_488E310N_S,قصبة الدورق,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,سوق الأربعاء,30.94139,48.52390,Khuzistan,SUQARBAA_485E309N_S,مرحلة,37987.00561797753
+سوق الأربعاء,30.94139,48.52390,Khuzistan,SUQARBAA_485E309N_S,حصن مهدى,30.52571,48.33301,Khuzistan,HISNMAHDI_483E305N_S,مرحلة,37987.00561797753
+حصن مهدى,30.52571,48.33301,Khuzistan,HISNMAHDI_483E305N_S,فم العضدى,30.41602,48.14211,Khuzistan,FAMADUDI_481E304N_W,مرحلة,37987.00561797753
+حصن مهدى,30.52571,48.33301,Khuzistan,HISNMAHDI_483E305N_S,بيان,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,أجم,null,null,Khuzistan,null,مرحلة,37987.00561797753
+أجم,null,null,Khuzistan,null,آزر,null,null,Khuzistan,null,مرحلة,37987.00561797753
+آزر,null,null,Khuzistan,null,رامهرمز,31.28576,49.60131,Khuzistan,RAMHURMUZ_496E312N_S,مرحلة,37987.00561797753
+الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,الدورق,30.81069,48.92625,Khuzistan,DAWRAQ_489E308N_S,مرحلة,37987.00561797753
+الدورق,30.81069,48.92625,Khuzistan,DAWRAQ_489E308N_S,خان,null,null,Khuzistan,null,مرحلة,37987.00561797753
+خان,null,null,Khuzistan,null,بصنا,31.99567,48.30405,Khuzistan,BASINNA_483E319N_S,مرحلة,37987.00561797753
+بصنا,31.99567,48.30405,Khuzistan,BASINNA_483E319N_S,قرية الرمل,null,null,Khuzistan,null,مرحلة,37987.00561797753
+قرية الرمل,null,null,Khuzistan,null,قرقوب,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,نهر تيري,null,null,Khuzistan,null,مرحلة,37987.00561797753
+نهر تيري,null,null,Khuzistan,null,نهر العباس,null,null,Khuzistan,null,مرحلة,37987.00561797753
+نهر العباس,null,null,Khuzistan,null,الخوزية,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الخوزية,null,null,Khuzistan,null,الأبلة,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الأهواز,31.32986,48.69059,Khuzistan,AHWAZ_486E313N_S,الاسحاقية,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الاسحاقية,null,null,Khuzistan,null,الجسر المحترق,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الجسر المحترق,null,null,Khuzistan,null,حصن مهدى,30.52571,48.33301,Khuzistan,HISNMAHDI_483E305N_S,مرحلة,37987.00561797753
+نهر العباس,null,null,Khuzistan,null,عسكر ابى جعفر,null,null,Khuzistan,null,مرحلة,37987.00561797753
+رامهرمز,31.28576,49.60131,Khuzistan,RAMHURMUZ_496E312N_S,سنبل,null,null,Khuzistan,null,مرحلتين,70357.0
+سنبل,null,null,Khuzistan,null,أرجان,null,null,Khuzistan,null,مرحلة,37987.00561797753
+رامهرمز,31.28576,49.60131,Khuzistan,RAMHURMUZ_496E312N_S,تيرم,31.39156,49.82612,Khuzistan,TIRAM_498E313N_S,مرحلة,37987.00561797753
+تيرم,31.39156,49.82612,Khuzistan,TIRAM_498E313N_S,غروة,31.54027,49.89724,Khuzistan,GHARWA_498E315N_S,مرحلة,37987.00561797753
+غروة,31.54027,49.89724,Khuzistan,GHARWA_498E315N_S,البازير,31.64090,49.89265,Khuzistan,BAZIR_498E316N_S,بريدين,23504.153846153848
+البازير,31.64090,49.89265,Khuzistan,BAZIR_498E316N_S,إيذج,31.85548,49.87086,Khuzistan,IDHAJ_498E318N_S,مرحلة,37987.00561797753
+إيذج,31.85548,49.87086,Khuzistan,IDHAJ_498E318N_S,الدز,32.38975,48.42219,Khuzistan,DIZ_484E323N_S,مرحلة,37987.00561797753
+الدز,32.38975,48.42219,Khuzistan,DIZ_484E323N_S,الدولاب,null,null,Khuzistan,null,مرحلة,37987.00561797753
+الرام,null,null,Khuzistan,null,الزط,null,null,Khuzistan,null,مرحلة,37987.00561797753
+رامهرمز,31.28576,49.60131,Khuzistan,RAMHURMUZ_496E312N_S,بده,31.29164,49.96262,Khuzistan,BADAH_499E312N_S,مرحلة,37987.00561797753
+بده,31.29164,49.96262,Khuzistan,BADAH_499E312N_S,جسر جهنم,31.47670,50.23675,Khuzistan,JISRJAHANNAM_502E314N_S,مرحلة,37987.00561797753
+ارجان,30.61030,50.29766,Faris,ARRAJAN_502E306N_S,ريشهر,30.34108,50.22217,Faris,RISHAHR_502E303N_S,مرحلة,37987.00561797753
+ريشهر,30.34108,50.22217,Faris,RISHAHR_502E303N_S,مهربان,30.06436,50.21436,Faris,MAHRUBAN_502E300N_S,مرحلة,37987.00561797753
+ارجان,30.61030,50.29766,Faris,ARRAJAN_502E306N_S,بسابك,null,null,Faris,null,مرحلة,37987.00561797753
+بسابك,null,null,Faris,null,دهليزان,null,null,Faris,null,مرحلة,37987.00561797753
+دهليزان,null,null,Faris,null,خابران,null,null,Faris,null,بريدين,23504.153846153848
+خابران,null,null,Faris,null,وادي الملح,null,null,Faris,null,مرحلة,37987.00561797753
+وادي الملح,null,null,Faris,null,رامهرمز,null,null,Faris,null,بريدين,23504.153846153848
+ارجان,30.61030,50.29766,Faris,ARRAJAN_502E306N_S,الزيتون,30.51616,50.39397,Faris,ZAYTUN_503E305N_S,بريدين,23504.153846153848
+الزيتون,30.51616,50.39397,Faris,ZAYTUN_503E305N_S,حبس,null,null,Faris,null,مرحلة,37987.00561797753
+حبس,null,null,Faris,null,بندق,null,null,Faris,null,مرحلة,37987.00561797753
+بندق,null,null,Faris,null,جنبد,null,null,Faris,null,بريدين,23504.153846153848
+بندق,null,null,Faris,null,جنبد,null,null,Faris,null,بريدا,17060.5
+جنبد,null,null,Faris,null,زنك,null,null,Faris,null,بريدين,23504.153846153848
+زنك,null,null,Faris,null,دخويذ,null,null,Faris,null,مرحلة,37987.00561797753
+دخويذ,null,null,Faris,null,خواذان,30.24443,51.50809,Faris,KHAWADHAN_515E302N_S,بريدين,23504.153846153848
+خواذان,30.24443,51.50809,Faris,KHAWADHAN_515E302N_S,النوبندجان,30.12743,51.55235,Faris,NUBANDAJAN_515E301N_S,بريدين,23504.153846153848
+ارجان,30.61030,50.29766,Faris,ARRAJAN_502E306N_S,كنيسة المجوس,null,null,Faris,null,مرحلة,37987.00561797753
+ارجان,30.61030,50.29766,Faris,ARRAJAN_502E306N_S,كنيسة المجوس,null,null,Faris,null,مرحلة,37987.00561797753
+كنيسة المجوس,null,null,Faris,null,الزيز,null,null,Faris,null,مرحلة,37987.00561797753
+الزيز,null,null,Faris,null,العينية,null,null,Faris,null,مرحلة,37987.00561797753
+العينية,null,null,Faris,null,النهر,null,null,Faris,null,مرحلة,37987.00561797753
+النهر,null,null,Faris,null,خرندة,null,null,Faris,null,مرحلة,37987.00561797753
+خرندة,null,null,Faris,null,سميرم,31.35567,51.81266,Faris,SUMAYRAM_518E313N_S,مرحلة,37987.00561797753
+مهربان,30.06436,50.21436,Faris,MAHRUBAN_502E300N_S,سينيز,29.92283,50.27838,Faris,SINIZ_502E299N_S,مرحلة,37987.00561797753
+مهربان,30.06436,50.21436,Faris,MAHRUBAN_502E300N_S,النهر,null,null,Faris,null,مرحلة,37987.00561797753
+النهر,null,null,Faris,null,ارجان,30.61030,50.29766,Faris,ARRAJAN_502E306N_S,مرحلة,37987.00561797753
+سينيز,29.92283,50.27838,Faris,SINIZ_502E299N_S,سنجاهان,29.74023,50.38864,Faris,SANJAHAN_503E297N_S,مرحلة,37987.00561797753
+سنجاهان,29.74023,50.38864,Faris,SANJAHAN_503E297N_S,جنابة,29.60089,50.53898,Faris,JANNABA_505E296N_S,مرحلة,37987.00561797753
+جنابة,29.60089,50.53898,Faris,JANNABA_505E296N_S,دشت داودي,null,null,Faris,null,مرحلة,37987.00561797753
+دشت داودي,null,null,Faris,null,توز,29.44172,51.03513,Faris,TAWWAZ_510E294N_S,مرحلة,37987.00561797753
+توز,29.44172,51.03513,Faris,TAWWAZ_510E294N_S,خشت,29.54859,51.30575,Faris,KHASHT_513E295N_S,مرحلة,37987.00561797753
+خشت,29.54859,51.30575,Faris,KHASHT_513E295N_S,نيماراه,null,null,Faris,null,مرحلة,37987.00561797753
+نيماراه,null,null,Faris,null,سابور,29.83157,51.51624,Faris,SABUR_515E298N_R,مرحلة,37987.00561797753
+سيراف,27.69666,52.34306,Faris,SIRAF_523E276N_S,جم,27.81680,52.39133,Faris,JAMM_523E278N_S,مرحلة,37987.00561797753
+جم,27.81680,52.39133,Faris,JAMM_523E278N_S,برزرة,null,null,Faris,null,مرحلة,37987.00561797753
+برزرة,null,null,Faris,null,كيرند,28.41977,52.36569,Faris,KIRAND_523E284N_S,مرحلة,37987.00561797753
+كيرند,28.41977,52.36569,Faris,KIRAND_523E284N_S,مه,28.05331,52.28050,Faris,MAH_522E280N_S,مرحلة,37987.00561797753
+مه,28.05331,52.28050,Faris,MAH_522E280N_S,رايكان,28.52097,52.67152,Faris,RAYKAN_526E285N_S,مرحلة,37987.00561797753
+رايكان,28.52097,52.67152,Faris,RAYKAN_526E285N_S,بيابشوراب,28.69894,52.68133,Faris,BIYABSHURAB_526E286N_S,مرحلة,37987.00561797753
+بيابشوراب,28.69894,52.68133,Faris,BIYABSHURAB_526E286N_S,جور,28.84797,52.58324,Faris,JUR_525E288N_S,مرحلة,37987.00561797753
+سيراف,27.69666,52.34306,Faris,SIRAF_523E276N_S,عمان,null,null,Faris,null,خمس الى عشر فرسخا في البحر,null
+سيراف,27.69666,52.34306,Faris,SIRAF_523E276N_S,البصرة,null,null,Faris,null,خمس الى عشر فرسخا في البحر,null
+سيراف,27.69666,52.34306,Faris,SIRAF_523E276N_S,البحرين,null,null,Faris,null,سبعون فرسخا,202174.0
+درابجرد,28.75143,54.54591,Faris,DARABAJIRD_545E287N_S,خسو,28.51610,54.40794,Faris,KHASU_544E285N_S,مرحلة,37987.00561797753
+خسو,28.51610,54.40794,Faris,KHASU_544E285N_S,كرب,28.26649,54.21531,Faris,KARB_542E282N_S,مرحلة,37987.00561797753
+كرب,28.26649,54.21531,Faris,KARB_542E282N_S,جويم ابى احمد,28.14336,53.94661,Faris,JUWAYMABUAHMAD_539E281N_S,مرحلة,37987.00561797753
+جويم ابى احمد,28.14336,53.94661,Faris,JUWAYMABUAHMAD_539E281N_S,كاريان,28.05935,53.70323,Faris,KARYAN_537E280N_S,مرحلة,37987.00561797753
+كاريان,28.05935,53.70323,Faris,KARYAN_537E280N_S,باراب,27.88081,53.43209,Faris,BARAB_534E278N_S,مرحلة,37987.00561797753
+باراب,27.88081,53.43209,Faris,BARAB_534E278N_S,كران,27.76342,52.86193,Faris,KURAN_528E277N_S,مرحلة,37987.00561797753
+كران,27.76342,52.86193,Faris,KURAN_528E277N_S,سيراف,27.69666,52.34306,Faris,SIRAF_523E276N_S,مرحلة,37987.00561797753
+درابجرد,28.75143,54.54591,Faris,DARABAJIRD_545E287N_S,جرموا,null,null,Faris,null,مرحلة,37987.00561797753
+جرموا,null,null,Faris,null,رستاق الرستاق,null,null,Faris,null,مرحلة,37987.00561797753
+رستاق الرستاق,null,null,Faris,null,برك,null,null,Faris,null,مرحلة,37987.00561797753
+برك,null,null,Faris,null,تارم,28.18163,55.80841,Faris,TARIM_558E281N_S,مرحلة,37987.00561797753
+درابجرد,28.75143,54.54591,Faris,DARABAJIRD_545E287N_S,جاه زندايا,28.85635,54.18928,Faris,JAHZANDAYA_541E288N_S,مرحلة,37987.00561797753
+جاه زندايا,28.85635,54.18928,Faris,JAHZANDAYA_541E288N_S,تيمارستان,null,null,Faris,null,مرحلة,37987.00561797753
+تيمارستان,null,null,Faris,null,فسا,28.92193,53.63181,Faris,FASA_536E289N_S,نصف مرحلة,18993.502808988764
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,كفره,29.50609,52.49957,Faris,KAFRAH_524E295N_S,مرحلة,37987.00561797753
+كفره,29.50609,52.49957,Faris,KAFRAH_524E295N_S,كول,null,null,Faris,null,مرحلة,37987.00561797753
+كول,null,null,Faris,null,بومهان,null,null,Faris,null,مرحلة,37987.00561797753
+بومهان,null,null,Faris,null,جور,28.84797,52.58324,Faris,JUR_525E288N_S,مرحلة,37987.00561797753
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,قرية جويم,null,null,Faris,null,مرحلة,37987.00561797753
+قرية جويم,null,null,Faris,null,خلار,29.98842,52.19005,Faris,KHULLAR_521E299N_S,بريدين,23504.153846153848
+خلار,29.98842,52.19005,Faris,KHULLAR_521E299N_S,الخرارة,30.04859,51.94541,Faris,KHARRARA_519E300N_S,بريدين,23504.153846153848
+الخرارة,30.04859,51.94541,Faris,KHARRARA_519E300N_S,جركان,30.09815,51.78402,Faris,JARKAN_517E300N_S,مرحلة,37987.00561797753
+جركان,30.09815,51.78402,Faris,JARKAN_517E300N_S,النوبندجان,30.12743,51.55235,Faris,NUBANDAJAN_515E301N_S,مرحلة,37987.00561797753
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,قرية الرمان,29.37477,52.80644,Faris,QARYARUMMAN_528E293N_S,مرحلة,37987.00561797753
+قرية الرمان,29.37477,52.80644,Faris,QARYARUMMAN_528E293N_S,سروستان,31.42233,52.43219,Faris,SARWISTAN_524E314N_S,مرحلة,37987.00561797753
+سروستان,31.42233,52.43219,Faris,SARWISTAN_524E314N_S,كرم,29.07233,53.60800,Faris,KURM_536E290N_S,مرحلة,37987.00561797753
+كرم,29.07233,53.60800,Faris,KURM_536E290N_S,فسا,28.92193,53.63181,Faris,FASA_536E289N_S,مرحلة,37987.00561797753
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,داريان,29.54062,52.92548,Faris,DARIYAN_529E295N_S,مرحلة,37987.00561797753
+داريان,29.54062,52.92548,Faris,DARIYAN_529E295N_S,خرمة,null,null,Faris,null,مرحلة,37987.00561797753
+خرمة,null,null,Faris,null,كث,29.36324,53.70323,Faris,KATH_537E293N_S,مرحلة,37987.00561797753
+كث,29.36324,53.70323,Faris,KATH_537E293N_S,خير,null,null,Faris,null,مرحلة,37987.00561797753
+خير,null,null,Faris,null,نيريز,29.21368,54.27518,Faris,NAYRIZ_542E292N_S,مرحلة,37987.00561797753
+نيريز,29.21368,54.27518,Faris,NAYRIZ_542E292N_S,كدروا,29.16368,54.67346,Faris,KADRUWA_546E291N_S,مرحلة,37987.00561797753
+كدروا,29.16368,54.67346,Faris,KADRUWA_546E291N_S,رباط زرودوا,null,null,Faris,null,مرحلة,37987.00561797753
+رباط زرودوا,null,null,Faris,null,نهر من,null,null,Faris,null,مرحلة,37987.00561797753
+نهر من,null,null,Faris,null,هنته,null,null,Faris,null,مرحلة,37987.00561797753
+هنته,null,null,Faris,null,بيمند,null,null,Faris,null,مرحلة,37987.00561797753
+بيمند,null,null,Faris,null,السيرجان,null,null,Faris,null,بريدين,23504.153846153848
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,ركان,29.77510,52.74824,Faris,RAKAN_527E297N_S,مرحلة,37987.00561797753
+ركان,29.77510,52.74824,Faris,RAKAN_527E297N_S,راس السكر,29.77510,52.87257,Faris,RASSIKR_528E297N_S,مرحلة,37987.00561797753
+راس السكر,29.77510,52.87257,Faris,RASSIKR_528E297N_S,زياداباذ,null,null,Faris,null,مرحلة,37987.00561797753
+زياداباذ,null,null,Faris,null,جب أمير المؤمنين,null,null,Faris,null,مرحلة,37987.00561797753
+جب أمير المؤمنين,null,null,Faris,null,راس الدنيا,30.00577,53.78841,Faris,RASDUNYA_537E300N_S,مرحلة,37987.00561797753
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,صاهه,null,null,Faris,null,مرحلة,37987.00561797753
+صاهه,null,null,Faris,null,دشت أرزن,29.60960,51.94222,Faris,DASHTARZAN_519E296N_S,مرحلة,37987.00561797753
+فسا,28.92193,53.63181,Faris,FASA_536E289N_S,كارزين,28.40599,53.11293,Faris,KARZIN_531E284N_S,مرحلة,37987.00561797753
+كارزين,28.40599,53.11293,Faris,KARZIN_531E284N_S,هرمز,null,null,Faris,null,مرحلة,37987.00561797753
+كارزين,28.40599,53.11293,Faris,KARZIN_531E284N_S,خارزين,null,null,Faris,null,مرحلة,37987.00561797753
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,كثة,null,null,Faris,null,ستين فرسخ,173292.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,تارم,28.18163,55.80841,Faris,TARIM_558E281N_S,ستين فرسخ,173292.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,نجيرم,28.49687,51.12283,Faris,NAJIRAM_511E284N_R,ستين فرسخ,173292.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,نهر طاب,null,null,Faris,null,ستين فرسخ,173292.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,سينيز,29.92283,50.27838,Faris,SINIZ_502E299N_S,ثمانين فرسخ,231056.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,الروذان,30.39947,56.02186,Faris,RUDHAN_560E303N_R,ثمانين فرسخ,231056.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,سورو,27.19067,56.21348,Faris,SURU_562E271N_S,ثمانين فرسخ,231056.0
+شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,أصفهان,null,null,Faris,null,ثمانين فرسخ,231056.0
+سابور,29.83157,51.51624,Faris,SABUR_515E298N_R,شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,18 فرسخ,51987.6
+كازرون,29.60743,51.68412,Faris,KAZARUN_516E296N_S,شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,18 فرسخ,51987.6
+خره,29.22327,51.97730,Faris,KHURRA_519E292N_S,شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,ستة فرسخ,17329.199999999997
+جور,28.84797,52.58324,Faris,JUR_525E288N_S,شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,عشرون فرسخ,57764.0
+سابور,29.83157,51.51624,Faris,SABUR_515E298N_R,كازرون,29.60743,51.68412,Faris,KAZARUN_516E296N_S,مرحلة,37987.00561797753
+كازرون,29.60743,51.68412,Faris,KAZARUN_516E296N_S,خره,29.22327,51.97730,Faris,KHURRA_519E292N_S,مرحلة,37987.00561797753
+سابور,29.83157,51.51624,Faris,SABUR_515E298N_R,النوبندجان,30.12743,51.55235,Faris,NUBANDAJAN_515E301N_S,مرحلة,37987.00561797753
+سابور,29.83157,51.51624,Faris,SABUR_515E298N_R,كرك,null,null,Faris,null,مرحلة,37987.00561797753
+كرك,null,null,Faris,null,دشت ارزن,29.60960,51.94222,Faris,DASHTARZAN_519E296N_S,مرحلة,37987.00561797753
+كازرون,29.60743,51.68412,Faris,KAZARUN_516E296N_S,قرية الحطب,null,null,Faris,null,بريدين,23504.153846153848
+قرية الحطب,null,null,Faris,null,دشت ارزن,29.60960,51.94222,Faris,DASHTARZAN_519E296N_S,بريدين,23504.153846153848
+كازرون,29.60743,51.68412,Faris,KAZARUN_516E296N_S,دريز,29.66188,51.54129,Faris,DARIZ_515E296N_S,بريدين,23504.153846153848
+دريز,29.66188,51.54129,Faris,DARIZ_515E296N_S,راس العقبة,null,null,Faris,null,بريدين,23504.153846153848
+راس العقبة,null,null,Faris,null,توز,29.44172,51.03513,Faris,TAWWAZ_510E294N_S,بريدين,23504.153846153848
+توز,29.44172,51.03513,Faris,TAWWAZ_510E294N_S,قرية,null,null,Faris,null,بريدين,23504.153846153848
+قرية,null,null,Faris,null,جنابة,29.60089,50.53898,Faris,JANNABA_505E296N_S,بريدين,23504.153846153848
+إصطخر,29.97008,52.92548,Faris,ISTAKHR_529E299N_S,راس السكر,29.77510,52.87257,Faris,RASSIKR_528E297N_S,بريدين,23504.153846153848
+إصطخر,29.97008,52.92548,Faris,ISTAKHR_529E299N_S,البيضاء,30.03958,52.36712,Faris,BAYDA_523E300N_S,مرحلة,37987.00561797753
+إصطخر,29.97008,52.92548,Faris,ISTAKHR_529E299N_S,قرية الحمام,null,null,Faris,null,مرحلة,37987.00561797753
+قرية الحمام,null,null,Faris,null,زيادواذ,null,null,Faris,null,بريدا,17060.5
+زيادواذ,null,null,Faris,null,جب أمير المؤمنين,null,null,Faris,null,مرحلة,37987.00561797753
+جب أمير المؤمنين,null,null,Faris,null,هراة,30.11392,54.41315,Faris,HARA_544E301N_S,مرحلة,37987.00561797753
+هراة,30.11392,54.41315,Faris,HARA_544E301N_S,راذان,30.12067,54.70209,Faris,RADHAN_547E301N_S,مرحلة,37987.00561797753
+راذان,30.12067,54.70209,Faris,RADHAN_547E301N_S,شاباوك,null,null,Faris,null,مرحلة,37987.00561797753
+شاباوك,null,null,Faris,null,روار,null,null,Faris,null,مرحلة,37987.00561797753
+روار,null,null,Faris,null,قرية الجمال,null,null,Faris,null,مرحلة,37987.00561797753
+قرية الجمال,null,null,Faris,null,الروذان,30.39947,56.02186,Faris,RUDHAN_560E303N_R,مرحلة,37987.00561797753
+إصطخر,29.97008,52.92548,Faris,ISTAKHR_529E299N_S,بئر,null,null,Faris,null,بريدين,23504.153846153848
+بئر,null,null,Faris,null,كهمندة,30.28490,53.19750,Faris,KAHAMANDA_531E302N_S,مرحلة,37987.00561797753
+كهمندة,30.28490,53.19750,Faris,KAHAMANDA_531E302N_S,قرية بيذ,30.63942,53.18449,Faris,QARYABIDH_531E306N_S,مرحلة,37987.00561797753
+قرية بيذ,30.63942,53.18449,Faris,QARYABIDH_531E306N_S,أبرقوه,31.15094,53.25737,Faris,ABARQUH_532E311N_S,مرحلة,37987.00561797753
+أبرقوه,31.15094,53.25737,Faris,ABARQUH_532E311N_S,قرية الأسد,31.55774,53.84828,Faris,QARYAASAD_538E315N_S,مرحلة,37987.00561797753
+قرية الأسد,31.55774,53.84828,Faris,QARYAASAD_538E315N_S,الأرد,null,null,Faris,null,مرحلة,37987.00561797753
+الأرد,null,null,Faris,null,قلعة المجوس,null,null,Faris,null,مرحلة,37987.00561797753
+قلعة المجوس,null,null,Faris,null,كثة,null,null,Faris,null,مرحلة,37987.00561797753
+كثة,null,null,Faris,null,أنجيره,null,null,Faris,null,مرحلة,37987.00561797753
+اليهودية,null,null,Faris,null,خان رش,null,null,Faris,null,مرحلة,37987.00561797753
+خان رش,null,null,Faris,null,قومسة,32.00251,51.86732,Faris,QUMISA_518E320N_S,مرحلة,37987.00561797753
+قومسة,32.00251,51.86732,Faris,QUMISA_518E320N_S,كرو,31.79256,51.69552,Faris,KARU_516E317N_S,مرحلة,37987.00561797753
+كرو,31.79256,51.69552,Faris,KARU_516E317N_S,سميرم,31.35567,51.81266,Faris,SUMAYRAM_518E313N_S,مرحلة,37987.00561797753
+اليهودية,null,null,Faris,null,الخان حان لنجان,null,null,Faris,null,مرحلة,37987.00561797753
+الخان حان لنجان,null,null,Faris,null,كرو,31.79256,51.69552,Faris,KARU_516E317N_S,مرحلة,37987.00561797753
+كرو,31.79256,51.69552,Faris,KARU_516E317N_S,ماس,31.44454,51.91938,Faris,MAS_519E314N_O,مرحلة,37987.00561797753
+ماس,31.44454,51.91938,Faris,MAS_519E314N_O,خان روشن,31.25559,52.02871,Faris,KHANRUSHAN_520E312N_S,بريدين,23504.153846153848
+خان روشن,31.25559,52.02871,Faris,KHANRUSHAN_520E312N_S,إصطخران,null,null,Faris,null,مرحلة,37987.00561797753
+إصطخران,null,null,Faris,null,قصر أعين,30.82066,52.44521,Faris,QASRAIN_524E308N_S,مرحلة,37987.00561797753
+قصر أعين,30.82066,52.44521,Faris,QASRAIN_524E308N_S,خوسكان,30.50270,52.48426,Faris,KHUSIKAN_524E305N_S,مرحلة,37987.00561797753
+خوسكان,30.50270,52.48426,Faris,KHUSIKAN_524E305N_S,ماءين,null,null,Faris,null,مرحلة,37987.00561797753
+ماءين,null,null,Faris,null,أزر سابور,null,null,Faris,null,مرحلة,37987.00561797753
+أزر سابور,null,null,Faris,null,شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,مرحلة,37987.00561797753
+قومسة,32.00251,51.86732,Faris,QUMISA_518E320N_S,روزكان,31.80584,51.96103,Faris,RUZKAN_519E318N_S,مرحلة,37987.00561797753
+روزكان,31.80584,51.96103,Faris,RUZKAN_519E318N_S,ازكاس,31.51558,52.17709,Faris,AZKAS_521E315N_S,مرحلة,37987.00561797753
+ازكاس,31.51558,52.17709,Faris,AZKAS_521E315N_S,سروستان,31.42233,52.43219,Faris,SARWISTAN_524E314N_S,مرحلة,37987.00561797753
+سروستان,31.42233,52.43219,Faris,SARWISTAN_524E314N_S,سرمسه,null,null,Faris,null,مرحلة,37987.00561797753
+سرمسه,null,null,Faris,null,لاه وكره,null,null,Faris,null,مرحلة,37987.00561797753
+لاه وكره,null,null,Faris,null,قرية الخلاف,null,null,Faris,null,مرحلة,37987.00561797753
+قرية الخلاف,null,null,Faris,null,كماهنك,null,null,Faris,null,مرحلة,37987.00561797753
+كماهنك,null,null,Faris,null,قرية ابن بندار,30.13418,53.03090,Faris,QARYAIBNBUNDAR_530E301N_S,مرحلة,37987.00561797753
+قرية ابن بندار,30.13418,53.03090,Faris,QARYAIBNBUNDAR_530E301N_S,إصطخر,29.97008,52.92548,Faris,ISTAKHR_529E299N_S,مرحلة,37987.00561797753
+سميرم,31.35567,51.81266,Faris,SUMAYRAM_518E313N_S,جعفرآباذ,31.19326,51.81266,Faris,JAFARABADH_518E311N_S,مرحلة,37987.00561797753
+جعفرآباذ,31.19326,51.81266,Faris,JAFARABADH_518E311N_S,الزاب,null,null,Faris,null,مرحلة,37987.00561797753
+الزاب,null,null,Faris,null,كورد وكلار,null,null,Faris,null,مرحلة,37987.00561797753
+كورد وكلار,null,null,Faris,null,مهرجاناواذ,30.39049,52.21353,Faris,MIHRJANAWAZ_522E303N_S,مرحلة,37987.00561797753
+مهرجاناواذ,30.39049,52.21353,Faris,MIHRJANAWAZ_522E303N_S,اش وبورد,null,null,Faris,null,مرحلة,37987.00561797753
+اش وبورد,null,null,Faris,null,نسا,null,null,Faris,null,مرحلة,37987.00561797753
+نسا,null,null,Faris,null,شيراز,29.61884,52.52867,Faris,SHIRAZ_525E296N_S,مرحلة,37987.00561797753
+اليهودية,null,null,Faris,null,خالنجان,null,null,Faris,null,مرحلة,37987.00561797753
+خالنجان,null,null,Faris,null,باركان,null,null,Faris,null,مرحلة,37987.00561797753
+باركان,null,null,Faris,null,أسبيذدشت,null,null,Faris,null,مرحلة,37987.00561797753
+أسبيذدشت,null,null,Faris,null,جعاد وجورد,null,null,Faris,null,مرحلة,37987.00561797753
+جعاد وجورد,null,null,Faris,null,الرباط,29.12318,53.44663,Faris,RIBAT_534E291N_S,مرحلة,37987.00561797753
+الرباط,29.12318,53.44663,Faris,RIBAT_534E291N_S,كورستان,null,null,Faris,null,مرحلة,37987.00561797753
+كورستان,null,null,Faris,null,جسر جهنم,null,null,Faris,null,مرحلة,37987.00561797753
+بردسير,30.30962,57.10475,Kirman,BARDASIR_571E303N_R,السيرجان,29.46102,55.74854,Kirman,SIRJAN_557E294N_S,مرحلتين,70357.0
+بردسير,30.30962,57.10475,Kirman,BARDASIR_571E303N_R,جنزروذ,30.67077,56.92513,Kirman,JANZARUDH_569E306N_S,مرحلة,37987.00561797753
+جنزروذ,30.67077,56.92513,Kirman,JANZARUDH_569E306N_S,زرند,30.82737,56.59714,Kirman,ZARAND_565E308N_S,مرحلة,37987.00561797753
+نرماسير,28.98436,58.64795,Kirman,NARMASIR_586E289N_S,الفهرج,28.97908,58.88326,Kirman,FAHRAJ_588E289N_S,مرحلة,37987.00561797753
+نرماسير,28.98436,58.64795,Kirman,NARMASIR_586E289N_S,جوى سليمان,28.12851,58.18338,Kirman,JUWISULAYMAN_581E281N_S,3 مراحل,113961.01685393258
+جوى سليمان,28.12851,58.18338,Kirman,JUWISULAYMAN_581E281N_S,ريكان,null,null,Kirman,null,مرحلة,37987.00561797753
+ريكان,null,null,Kirman,null,موخكان,null,null,Kirman,null,مرحلة,37987.00561797753
+موخكان,null,null,Kirman,null,الطيب,null,null,Kirman,null,مرحلة,37987.00561797753
+الطيب,null,null,Kirman,null,مروغان,null,null,Kirman,null,مرحلة,37987.00561797753
+مروغان,null,null,Kirman,null,باس وجكين,null,null,Kirman,null,مرحلة,37987.00561797753
+باس وجكين,null,null,Kirman,null,هروك,null,null,Kirman,null,مرحلة,37987.00561797753
+هروك,null,null,Kirman,null,قصر مهدى,null,null,Kirman,null,مرحلة,37987.00561797753
+قصر مهدى,null,null,Kirman,null,هرموز,27.09940,56.94955,Kirman,HURMUZ_569E270N_S,مرحلة,37987.00561797753
+هرموز,27.09940,56.94955,Kirman,HURMUZ_569E270N_S,الفرضة,null,null,Kirman,null,بريدين,23504.153846153848
+السيرجان,29.46102,55.74854,Kirman,SIRJAN_557E294N_S,كاهون,28.87915,55.33985,Kirman,KAHUN_553E288N_S,مرحلتين,70357.0
+كاهون,28.87915,55.33985,Kirman,KAHUN_553E288N_S,رستاق الرستاق,null,null,Kirman,null,مرحلة,37987.00561797753
+السيرجان,29.46102,55.74854,Kirman,SIRJAN_557E294N_S,بيمند,29.66254,55.59756,Kirman,BIMAND_555E296N_S,بريدين,23504.153846153848
+بيمند,29.66254,55.59756,Kirman,BIMAND_555E296N_S,كردكان,29.79365,55.67825,Kirman,KURDAKAN_556E297N_S,بريدا,17060.5
+كردكان,29.79365,55.67825,Kirman,KURDAKAN_556E297N_S,أناس,null,null,Kirman,null,مرحلة,37987.00561797753
+أناس,null,null,Kirman,null,الروذان,null,null,Kirman,null,بريدين,23504.153846153848
+السيرجان,29.46102,55.74854,Kirman,SIRJAN_557E294N_S,الشامات,29.76249,56.01438,Kirman,SHAMAT_560E297N_S,مرحلة,37987.00561797753
+الشامات,29.76249,56.01438,Kirman,SHAMAT_560E297N_S,بهار,29.88550,56.35225,Kirman,BAHAR_563E298N_S,مرحلة,37987.00561797753
+بهار,29.88550,56.35225,Kirman,BAHAR_563E298N_S,خناب,29.85672,56.71727,Kirman,KHANNAB_567E298N_S,مرحلة,37987.00561797753
+خناب,29.85672,56.71727,Kirman,KHANNAB_567E298N_S,غبيرا,29.72844,56.97972,Kirman,GHUBAYRA_569E297N_S,مرحلة,37987.00561797753
+غبيرا,29.72844,56.97972,Kirman,GHUBAYRA_569E297N_S,كوغون,29.61836,57.06721,Kirman,KUGHUN_570E296N_S,فرسخا,2888.2
+كوغون,29.61836,57.06721,Kirman,KUGHUN_570E296N_S,رائين,null,null,Kirman,null,مرحلة,37987.00561797753
+رائين,null,null,Kirman,null,سروستان,29.27422,57.89378,Kirman,SARWISTAN_578E292N_S,مرحلة,37987.00561797753
+سروستان,29.27422,57.89378,Kirman,SARWISTAN_578E292N_S,دارجين,29.20052,58.17433,Kirman,DARJIN_581E292N_S,مرحلة,37987.00561797753
+دارجين,29.20052,58.17433,Kirman,DARJIN_581E292N_S,بم,29.10304,58.34327,Kirman,BAMM_583E291N_S,مرحلة,37987.00561797753
+السيرجان,29.46102,55.74854,Kirman,SIRJAN_557E294N_S,فرزين,29.95407,56.77211,Kirman,FIRZIN_567E299N_S,مرحلتين,70357.0
+فرزين,29.95407,56.77211,Kirman,FIRZIN_567E299N_S,ماهان,30.11166,57.31039,Kirman,MAHAN_573E301N_S,مرحلة,37987.00561797753
+ماهان,30.11166,57.31039,Kirman,MAHAN_573E301N_S,خبيص,30.46232,57.75292,Kirman,KHABIS_577E304N_S,3 مراحل,113961.01685393258
+بم,29.10304,58.34327,Kirman,BAMM_583E291N_S,نرماسير,28.98436,58.64795,Kirman,NARMASIR_586E289N_S,مرحلة,37987.00561797753
+بم,29.10304,58.34327,Kirman,BAMM_583E291N_S,دارجين,29.20052,58.17433,Kirman,DARJIN_581E292N_S,مرحلة,37987.00561797753
+دارجين,29.20052,58.17433,Kirman,DARJIN_581E292N_S,هرمز,null,null,Kirman,null,مرحلة,37987.00561797753
+هرمز,null,null,Kirman,null,جيرفت,28.69436,57.80498,Kirman,JIRUFT_578E286N_S,مرحلة,37987.00561797753
+تيز مكران,null,null,Sind,null,كيس,null,null,Sind,null,5 مراحل,189935.02808988764
+كيس,null,null,Sind,null,فنزبور,null,null,Sind,null,مرحلتين,70357.0
+فنزبور,null,null,Sind,null,دزك,27.36457,62.26752,Sind,DIZAK_622E273N_S,3 مراحل,113961.01685393258
+دزك,27.36457,62.26752,Sind,DIZAK_622E273N_S,راسك,26.70943,61.22272,Sind,RASK_612E267N_S,3 مراحل,113961.01685393258
+راسك,26.70943,61.22272,Sind,RASK_612E267N_S,فهل فهرة,null,null,Sind,null,3 مراحل,113961.01685393258
+فهل فهرة,null,null,Sind,null,اصفقة,26.24757,62.20454,Sind,ASFAQA_622E262N_S,مرحلتين,70357.0
+اصفقة,26.24757,62.20454,Sind,ASFAQA_622E262N_S,بند,26.09290,62.05375,Sind,BAND_620E260N_S,مرحلة,37987.00561797753
+بند,26.09290,62.05375,Sind,BAND_620E260N_S,به,26.22927,61.33378,Sind,BIH_613E262N_S,مرحلة,37987.00561797753
+به,26.22927,61.33378,Sind,BIH_613E262N_S,قصرقند,26.29231,60.71473,Sind,QASRQAND_607E262N_S,مرحلة,37987.00561797753
+قصرقند,26.29231,60.71473,Sind,QASRQAND_607E262N_S,ارمابيل,26.23769,66.38343,Sind,ARMABIL_663E262N_S,6 مراحل,227922.03370786516
+ارمابيل,26.23769,66.38343,Sind,ARMABIL_663E262N_S,ديبل,24.43756,67.69101,Sind,DAYBUL_676E244N_S,4 مراحل,151948.0224719101
+التيز,25.38207,60.63196,Sind,TIZ_606E253N_S,قصدار,27.77650,66.59495,Sind,QUSDAR_665E277N_S,12 مرحلة,455844.06741573033
+المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,ديبل,24.43756,67.69101,Sind,DAYBUL_676E244N_S,6 مراحل,227922.03370786516
+المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,الملتان,30.17568,71.40071,Sind,MULTAN_714E301N_S,20 مرحلة,759740.1123595505
+المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,البدهة,28.71365,67.56764,Sind,BUDHA_675E287N_R,5 مراحل,189935.02808988764
+البدهة,28.71365,67.56764,Sind,BUDHA_675E287N_R,التيز,25.38207,60.63196,Sind,TIZ_606E253N_S,15 مراحل,569805.0842696629
+الملتان,30.17568,71.40071,Sind,MULTAN_714E301N_S,غزنين,null,null,Sind,null,80 فرسخا,231056.0
+الملتان,30.17568,71.40071,Sind,MULTAN_714E301N_S,المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,40 فرسخا,115528.0
+المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,قزدار,null,null,Sind,null,80 فرسخا,231056.0
+قزدار,null,null,Sind,null,كنكابان,null,null,Sind,null,80 فرسخا,231056.0
+كنكابان,null,null,Sind,null,سيوه,null,null,Sind,null,80 فرسخا,231056.0
+سيوه,null,null,Sind,null,ولا شتان,null,null,Sind,null,80 فرسخا,231056.0
+ولا شتان,null,null,Sind,null,ساغن,null,null,Sind,null,60 فرسخا,173292.0
+ساغن,null,null,Sind,null,غزنين,null,null,Sind,null,مرحلة,37987.00561797753
+قزدار,null,null,Sind,null,مشكى,27.46467,63.94609,Sind,MASHKA_639E274N_S,50 فرسخا,144410.0
+مشكى,27.46467,63.94609,Sind,MASHKA_639E274N_S,جالق,27.64173,62.64811,Sind,JALQ_626E276N_S,30 فرسخا,86646.0
+جالق,27.64173,62.64811,Sind,JALQ_626E276N_S,خواص,null,null,Sind,null,30 فرسخا,86646.0
+خواص,null,null,Sind,null,سرى شهر,28.17735,59.73164,Sind,SARAYSHAHR_597E281N_S,20 فرسخا,57764.0
+سرى شهر,28.17735,59.73164,Sind,SARAYSHAHR_597E281N_S,نهر سليمان,null,null,Sind,null,20 فرسخا,57764.0
+نهر سليمان,null,null,Sind,null,درهفان,null,null,Sind,null,50 فرسخا,144410.0
+درهفان,null,null,Sind,null,جيرفت,null,null,Sind,null,50 فرسخا,144410.0
+الملتان,30.17568,71.40071,Sind,MULTAN_714E301N_S,بالس,null,null,Sind,null,10 مراحل,379870.0561797753
+بالس,null,null,Sind,null,قندابيل,28.62665,67.48191,Sind,QANDABIL_674E286N_S,10 مراحل,379870.0561797753
+قندابيل,28.62665,67.48191,Sind,QANDABIL_674E286N_S,قصدار,27.77650,66.59495,Sind,QUSDAR_665E277N_S,5 مراحل,189935.02808988764
+قندابيل,28.62665,67.48191,Sind,QANDABIL_674E286N_S,المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,8 مراحل,303896.0449438202
+قندابيل,28.62665,67.48191,Sind,QANDABIL_674E286N_S,الملتان,30.17568,71.40071,Sind,MULTAN_714E301N_S,10 مراحل,379870.0561797753
+المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,قامهل,23.61826,71.72209,Sind,QAMUHUL_717E236N_S,8 مراحل,303896.0449438202
+قامهل,23.61826,71.72209,Sind,QAMUHUL_717E236N_S,كنباية,22.35228,72.56065,Sind,KANBAYA_725E223N_S,4 مراحل,151948.0224719101
+كنباية,22.35228,72.56065,Sind,KANBAYA_725E223N_S,سوبارة,19.52404,72.95093,Sind,SUBARA_729E195N_S,4 مراحل,151948.0224719101
+سندان,19.90633,73.01422,Sind,SANDAN_730E199N_S,سيمور,null,null,Sind,null,5 مراحل,189935.02808988764
+سيمور,null,null,Sind,null,سرنديب,7.60759,80.81976,Sind,SARANDIB_808E076N_R,15 مراحل,569805.0842696629
+الملتان,30.17568,71.40071,Sind,MULTAN_714E301N_S,بسمد,29.12094,70.87350,Sind,BASMAD_708E291N_S,مرحلتان,70357.0
+بسمد,29.12094,70.87350,Sind,BASMAD_708E291N_S,الرور,27.65788,68.90569,Sind,RUR_689E276N_S,3 مراحل,113961.01685393258
+الرور,27.65788,68.90569,Sind,RUR_689E276N_S,انرى,null,null,Sind,null,4 مراحل,151948.0224719101
+انرى,null,null,Sind,null,قلرى,null,null,Sind,null,مرحلتان,70357.0
+قلرى,null,null,Sind,null,المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,مرحلة,37987.00561797753
+المنصورة,25.86510,68.87697,Sind,MANSURA_688E258N_S,قامهل,23.61826,71.72209,Sind,QAMUHUL_717E236N_S,مرحلة,37987.00561797753

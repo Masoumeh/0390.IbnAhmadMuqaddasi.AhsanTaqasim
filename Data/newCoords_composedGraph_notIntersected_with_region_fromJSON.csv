@@ -1,0 +1,562 @@
+{
+    "ينابد,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 70357.0,
+        "neighor1": "KUNDUR_581E351N_S,Khurasan",
+        "haversine distance": 116.98490405434694,
+        "dist2": 70357.0,
+        "neighor2": "SANKAN_594E350N_S,Khurasan"
+    },
+    "مخلصة,Egypt": {
+        "dist1": 37987.00561797753,
+        "neighor1": "DAYRNASARA_330E311N_S,Egypt",
+        "haversine distance": 71.46761074951885,
+        "dist2": 37987.00561797753,
+        "neighor2": "ARISH_338E311N_S,Egypt"
+    },
+    "عمان,Badiyat al-Arab": {
+        "dist1": 28156.0,
+        "neighor1": "AZRAQ_368E318N_S,Badiyat al-Arab",
+        "haversine distance": 23.36761017586577,
+        "dist2": 56312.0,
+        "neighor2": "AWNID_369E316N_S,Badiyat al-Arab"
+    },
+    "غريفة,Badiyat al-Arab": {
+        "dist1": 28156.0,
+        "neighor1": "QURAKIR_377E313N_S,Badiyat al-Arab",
+        "haversine distance": 196.864765909073,
+        "dist2": 28156.0,
+        "neighor2": "HASHIYYA_398E314N_S,Badiyat al-Arab"
+    },
+    "رمادة,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "SAHIH_601E361N_S,Khurasan",
+        "haversine distance": 95.65217949520247,
+        "dist2": 37987.00561797753,
+        "neighor2": "QASRRIH_591E360N_S,Khurasan"
+    },
+    "جسر حر,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "TALAQAN_642E357N_S,Khurasan",
+        "haversine distance": 80.74336638112295,
+        "dist2": 37987.00561797753,
+        "neighor2": "MARWRUDH_633E355N_S,Khurasan"
+    },
+    "زراعة,Sham": {
+        "dist1": 70357.0,
+        "neighor1": "RUSAFA_387E356N_S,Sham",
+        "haversine distance": 124.4681415533697,
+        "dist2": 70357.0,
+        "neighor2": "QASTAL_375E350N_S,Sham"
+    },
+    "زردوخ بريدا,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 23504.153846153848,
+        "neighor1": "HAZARASB_610E412N_S,Transoxiana",
+        "haversine distance": 36.313200217853726,
+        "dist2": 17060.5,
+        "neighor2": "KARDARANKHAS_606E413N_S,Transoxiana"
+    },
+    "تبلا,Rihab": {
+        "dist1": 70357.0,
+        "neighor1": "SHAKKI_472E413N_R,Rihab",
+        "haversine distance": 212.82538284068067,
+        "dist2": 70357.0,
+        "neighor2": "TIFLIS_448E420N_S,Rihab"
+    },
+    "فعونية,Aqur": {
+        "dist1": 37987.00561797753,
+        "neighor1": "HISNZIYAD_392E387N_S,Aqur",
+        "haversine distance": 55.04246371915787,
+        "dist2": 37987.00561797753,
+        "neighor2": "SHIMSHAT_398E386N_S,Aqur"
+    },
+    "خرمة,Faris": {
+        "dist1": 37987.00561797753,
+        "neighor1": "DARIYAN_529E295N_S,Faris",
+        "haversine distance": 77.8456263677841,
+        "dist2": 37987.00561797753,
+        "neighor2": "KATH_537E293N_S,Faris"
+    },
+    "قاووس,Sham": {
+        "dist1": 37987.00561797753,
+        "neighor1": "SUGHAR_354E310N_S,Sham",
+        "haversine distance": 99.57674439602017,
+        "dist2": 37987.00561797753,
+        "neighor2": "مسجد ابراةيم,Sham"
+    },
+    "سبداست,Daylam": {
+        "dist1": 37987.00561797753,
+        "neighor1": "AJGH_569E375N_S,Daylam",
+        "haversine distance": 240.38353994822563,
+        "dist2": 37987.00561797753,
+        "neighor2": "اسفراين,Daylam"
+    },
+    "بخارا,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "BISKAND_583E360N_S,Khurasan",
+        "haversine distance": 679.5027387048038,
+        "dist2": 37987.00561797753,
+        "neighor2": "JIKAM_647E395N_S,Transoxiana"
+    },
+    "صيدا,Sham": {
+        "dist1": 37987.00561797753,
+        "neighor1": "SUR_352E332N_S,Sham",
+        "haversine distance": 122.72009593900526,
+        "dist2": 37987.00561797753,
+        "neighor2": "JABALLUBNAN_359E341N_O,Sham"
+    },
+    "اخسيكت,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "QUBA_721E405N_S,Transoxiana",
+        "haversine distance": 92.98127294690357,
+        "dist2": 23504.153846153848,
+        "neighor2": "BAB_711E408N_S,Transoxiana"
+    },
+    "قني غياث,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "RIBATAFRIGHUN_652E372N_S,Khurasan",
+        "haversine distance": 741.8984106623577,
+        "dist2": 37987.00561797753,
+        "neighor2": "KARKUYAH_617E312N_S,Sijistan"
+    },
+    "مجانة,Maghrib,Barqa,Andalus": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MAQQARA_050E355N_S,Maghrib",
+        "haversine distance": 46.93371786525259,
+        "dist2": 37987.00561797753,
+        "neighor2": "MASILA_045E356N_S,Maghrib"
+    },
+    "برديج,Rihab": {
+        "dist1": 37987.00561797753,
+        "neighor1": "BARDHAA_472E404N_S,Rihab",
+        "haversine distance": 124.91882558501523,
+        "dist2": 70357.0,
+        "neighor2": "SHAMAKHIYYA_486E406N_S,Rihab"
+    },
+    "سقيا بني غفار,Jazirat al-Arab,Yemen": {
+        "dist1": 37987.00561797753,
+        "neighor1": "ABWA_390E232N_S,Jazirat al-Arab",
+        "haversine distance": 71.06076805437768,
+        "dist2": 37987.00561797753,
+        "neighor2": "ARJ_392E238N_O,Jazirat al-Arab"
+    },
+    "قرية,Faris": {
+        "dist1": 23504.153846153848,
+        "neighor1": "JANNABA_505E296N_S,Faris",
+        "haversine distance": 51.165452578968065,
+        "dist2": 23504.153846153848,
+        "neighor2": "TAWWAZ_510E294N_S,Faris"
+    },
+    "يعاث,Sham": {
+        "dist1": 18993.502808988764,
+        "neighor1": "BALABAKK_361E340N_S,Sham",
+        "haversine distance": 59.18952975672249,
+        "dist2": 37987.00561797753,
+        "neighor2": "JUSIYA_365E344N_S,Sham"
+    },
+    "مرجةينة,Aqur": {
+        "dist1": 37987.00561797753,
+        "neighor1": "HADITHA_423E341N_S,Aqur",
+        "haversine distance": 255.97412292558397,
+        "dist2": 37987.00561797753,
+        "neighor2": "MAWSIL_431E363N_S,Aqur"
+    },
+    "كة,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MADHAR_678E353N_S,Khurasan",
+        "haversine distance": 59.454574999292184,
+        "dist2": 113961.01685393258,
+        "neighor2": "BAMIYAN_678E348N_S,Khurasan"
+    },
+    "بستان بني عامر,Jazirat al-Arab,Yemen": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MAKKA_398E213N_S,Jazirat al-Arab",
+        "haversine distance": 66.64342234814697,
+        "dist2": 37987.00561797753,
+        "neighor2": "DHATIRQ_404E216N_S,Jazirat al-Arab"
+    },
+    "كير حراس,Jibal": {
+        "dist1": 23504.153846153848,
+        "neighor1": "NIHAWAND_483E342N_S,Jibal",
+        "haversine distance": 54.601576571987806,
+        "dist2": 37987.00561797753,
+        "neighor2": "QASRLUSUS_479E344N_S,Jibal"
+    },
+    "بشتر,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "KARKUYAH_617E312N_S,Sijistan",
+        "haversine distance": 776.5457503252419,
+        "dist2": 37987.00561797753,
+        "neighor2": "JUWAYN_566E368N_R,Khurasan"
+    },
+    "سمیراء,Jazirat al-Arab,Yemen": {
+        "dist1": 38820,
+        "neighor1": "TUZ_422E267N_S,Jazirat al-Arab",
+        "haversine distance": 98.84327996345921,
+        "dist2": 64053,
+        "neighor2": "HAJIR_417E259N_S,Jazirat al-Arab"
+    },
+    "نةر الاردن,Sham": {
+        "dist1": 37987.00561797753,
+        "neighor1": "AMMAN_359E319N_S,Sham",
+        "haversine distance": 69.70560770091112,
+        "dist2": 37987.00561797753,
+        "neighor2": "BAYTMAQDIS_352E317N_S,Sham"
+    },
+    "رصد,Egypt": {
+        "dist1": 37987.00561797753,
+        "neighor1": "FARAMA_325E310N_S,Egypt",
+        "haversine distance": 84.07760807514086,
+        "dist2": 37987.00561797753,
+        "neighor2": "FAQUS_317E307N_S,Egypt"
+    },
+    "تيمارستان,Faris": {
+        "dist1": 37987.00561797753,
+        "neighor1": "JAHZANDAYA_541E288N_S,Faris",
+        "haversine distance": 54.76146524531924,
+        "dist2": 18993.502808988764,
+        "neighor2": "FASA_536E289N_S,Faris"
+    },
+    "جب امير المءمنين,Faris": {
+        "dist1": 37987.00561797753,
+        "neighor1": "RASDUNYA_537E300N_S,Faris",
+        "haversine distance": 61.31543864143097,
+        "dist2": 37987.00561797753,
+        "neighor2": "HARA_544E301N_S,Faris"
+    },
+    "شبيكة(السنبلة),Jazirat al-Arab,Yemen": {
+        "dist1": 52407.0,
+        "neighor1": "QUBA_395E244N_S,Jazirat al-Arab",
+        "haversine distance": 304.34234200460253,
+        "dist2": 77640,
+        "neighor2": "WAJRA_409E220N_S,Jazirat al-Arab"
+    },
+    "قاع,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "YAHUDIYYA_648E359N_S,Khurasan",
+        "haversine distance": 116.28551355268398,
+        "dist2": 37987.00561797753,
+        "neighor2": "SHABURQAN_657E366N_S,Khurasan"
+    },
+    "ناكور,Maghrib,Barqa,Andalus": {
+        "dist1": 1139610.1685393257,
+        "neighor1": "TAHIRT_013E353N_S,Maghrib",
+        "haversine distance": 691.0822189051729,
+        "dist2": 569805.0842696629,
+        "neighor2": "SIJILMASA_042W312N_S,Maghrib"
+    },
+    "كولسرة,Rihab": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MARAGHA_462E373N_S,Rihab",
+        "haversine distance": 89.34382900869294,
+        "dist2": 37987.00561797753,
+        "neighor2": "KHUNAJ_472E373N_S,Rihab"
+    },
+    "كرك,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "FARIYAB_649E364N_S,Khurasan",
+        "haversine distance": 102.95242539653806,
+        "dist2": 37987.00561797753,
+        "neighor2": "TALAQAN_642E357N_S,Khurasan"
+    },
+    "كناءس الحرير,Maghrib,Barqa,Andalus": {
+        "dist1": 37987.00561797753,
+        "neighor1": "TAHUNA_283E308N_S,Barqa",
+        "haversine distance": 97.69252823039525,
+        "dist2": 37987.00561797753,
+        "neighor2": "JUBBAWSAJ_273E310N_S,Barqa"
+    },
+    "رباط,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "ANBAR_659E362N_S,Khurasan",
+        "haversine distance": 105.55180854957923,
+        "dist2": 37987.00561797753,
+        "neighor2": "BALKH_668E367N_S,Khurasan"
+    },
+    "قرین,Jazirat al-Arab,Yemen": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MAKKA_398E213N_S,Jazirat al-Arab",
+        "haversine distance": 68.5840819671034,
+        "dist2": 37987.00561797753,
+        "neighor2": "JUDDA_391E214N_S,Jazirat al-Arab"
+    },
+    "صاةة,Faris": {
+        "dist1": 37987.00561797753,
+        "neighor1": "DASHTARZAN_519E296N_S,Faris",
+        "haversine distance": 56.70124766387387,
+        "dist2": 37987.00561797753,
+        "neighor2": "SHIRAZ_525E296N_S,Faris"
+    },
+    "كبس,Maghrib,Barqa,Andalus": {
+        "dist1": 37987.00561797753,
+        "neighor1": "QAYRAWAN_101E357N_S,Maghrib",
+        "haversine distance": 223.71464935951627,
+        "dist2": 37987.00561797753,
+        "neighor2": "KATANA_102E336N_S,Barqa"
+    },
+    "ورواليز,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 70357.0,
+        "neighor1": "KHULM_677E367N_S,Khurasan",
+        "haversine distance": 330.25502177440814,
+        "dist2": 70357.0,
+        "neighor2": "TALAQAN_642E357N_S,Khurasan"
+    },
+    "دير بازما,Iraq": {
+        "dist1": 23504.153846153848,
+        "neighor1": "NAHRAWAN_445E334N_S,Iraq",
+        "haversine distance": 64.35504400129543,
+        "dist2": 37987.00561797753,
+        "neighor2": "DASKARA_449E339N_S,Iraq"
+    },
+    "املوتا,Daylam": {
+        "dist1": 37987.00561797753,
+        "neighor1": "AJGH_569E375N_S,Daylam",
+        "haversine distance": 84.30761686089724,
+        "dist2": 37987.00561797753,
+        "neighor2": "DINAZARI_559E375N_S,Daylam"
+    },
+    "قزدار,Sind": {
+        "dist1": 144410.0,
+        "neighor1": "MASHKA_639E274N_S,Sind",
+        "haversine distance": 521.2056224918731,
+        "dist2": 231056.0,
+        "neighor2": "MANSURA_688E258N_S,Sind"
+    },
+    "عميان,Sham": {
+        "dist1": 37987.00561797753,
+        "neighor1": "ZARQA_360E320N_S,Sham",
+        "haversine distance": 96.35188112475096,
+        "dist2": 37987.00561797753,
+        "neighor2": "MAAB_357E312N_S,Sham"
+    },
+    "وادي القري,Badiyat al-Arab": {
+        "dist1": 112624.0,
+        "neighor1": "TAYMA_385E275N_S,Badiyat al-Arab",
+        "haversine distance": 365.9765196413489,
+        "dist2": 35970.0,
+        "neighor2": "MANHAB_422E272N_R,Badiyat al-Arab"
+    },
+    "شوروخ,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "RIBATTASH_638E399N_S,Transoxiana",
+        "haversine distance": 58.21115317547782,
+        "dist2": 37987.00561797753,
+        "neighor2": "RAML_631E401N_S,Transoxiana"
+    },
+    "شروراح,Jazirat al-Arab,Yemen": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MAHJARA_435E176N_S,Jazirat al-Arab",
+        "haversine distance": 72.74337068721313,
+        "dist2": 37987.00561797753,
+        "neighor2": "THUJJA_431E181N_S,Jazirat al-Arab"
+    },
+    "بدش,Daylam": {
+        "dist1": 37987.00561797753,
+        "neighor1": "HADDADA_548E362N_S,Daylam",
+        "haversine distance": 78.77204051757516,
+        "dist2": 37987.00561797753,
+        "neighor2": "MURJAN_556E363N_S,Daylam"
+    },
+    "طبوس,Aqur": {
+        "dist1": 37987.00561797753,
+        "neighor1": "MALATIN_383E383N_S,Aqur",
+        "haversine distance": 131.37433972389283,
+        "dist2": 37987.00561797753,
+        "neighor2": "SHIMSHAT_398E386N_S,Aqur"
+    },
+    "فيق,Sham": {
+        "dist1": 17060.5,
+        "neighor1": "TABARIYYA_355E327N_S,Sham",
+        "haversine distance": 54.48572487099039,
+        "dist2": 37987.00561797753,
+        "neighor2": "JASIM_360E329N_S,Sham"
+    },
+    "اسداواذ,Jibal": {
+        "dist1": 37987.00561797753,
+        "neighor1": "QASRLUSUS_479E344N_S,Jibal",
+        "haversine distance": 69.10648419238365,
+        "dist2": 37987.00561797753,
+        "neighor2": "HAMADHAN_485E347N_S,Jibal"
+    },
+    "معلاة,Jazirat al-Arab,Yemen": {
+        "dist1": 37987.00561797753,
+        "neighor1": "BADR_388E237N_S,Jazirat al-Arab",
+        "haversine distance": 66.70512726794239,
+        "dist2": 37987.00561797753,
+        "neighor2": "RAWHA_392E241N_S,Jazirat al-Arab"
+    },
+    "خان,Khuzistan": {
+        "dist1": 37987.00561797753,
+        "neighor1": "DAWRAQ_489E308N_S,Khuzistan",
+        "haversine distance": 144.3900128605621,
+        "dist2": 37987.00561797753,
+        "neighor2": "BASINNA_483E319N_S,Khuzistan"
+    },
+    "نفرة,Maghrib,Barqa,Andalus": {
+        "dist1": 281560.0,
+        "neighor1": "HUWARA_004E355N_S,Maghrib",
+        "haversine distance": 848.587372298107,
+        "dist2": 112624.0,
+        "neighor2": "SAMMURA_057W414N_S,Andalus"
+    },
+    "خواص,Sind": {
+        "dist1": 86646.0,
+        "neighor1": "JALQ_626E276N_S,Sind",
+        "haversine distance": 292.6919188607309,
+        "dist2": 57764.0,
+        "neighor2": "SARAYSHAHR_597E281N_S,Sind"
+    },
+    "راءين,Kirman": {
+        "dist1": 37987.00561797753,
+        "neighor1": "SARWISTAN_578E292N_S,Kirman",
+        "haversine distance": 88.71420922699487,
+        "dist2": 37987.00561797753,
+        "neighor2": "KUGHUN_570E296N_S,Kirman"
+    },
+    "ذات السلاسل,Egypt": {
+        "dist1": 37987.00561797753,
+        "neighor1": "TARNUT_308E304N_S,Egypt",
+        "haversine distance": 57.964626327600165,
+        "dist2": 37987.00561797753,
+        "neighor2": "FUSTAT_312E300N_S,Egypt"
+    },
+    "كارباية,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "BANJAHIR_698E355N_S,Khurasan",
+        "haversine distance": 44.784854882140564,
+        "dist2": 113961.01685393258,
+        "neighor2": "ANDARAB_693E356N_S,Khurasan"
+    },
+    "وفراوندة,Jibal": {
+        "dist1": 37987.00561797753,
+        "neighor1": "KARAJ_495E338N_S,Jibal",
+        "haversine distance": 87.55214036631959,
+        "dist2": 37987.00561797753,
+        "neighor2": "DARAQAN_487E334N_S,Jibal"
+    },
+    "تل حور,Aqur": {
+        "dist1": 37987.00561797753,
+        "neighor1": "AMID_402E379N_S,Aqur",
+        "haversine distance": 169.59236117412556,
+        "dist2": 37987.00561797753,
+        "neighor2": "MALATIN_383E383N_S,Aqur"
+    },
+    "خرقان,Rihab": {
+        "dist1": 70357.0,
+        "neighor1": "SALAMAS_448E382N_S,Rihab",
+        "haversine distance": 158.52701261838857,
+        "dist2": 70357.0,
+        "neighor2": "MARAGHA_462E373N_S,Rihab"
+    },
+    "دةك,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "HARURI_623E312N_S,Sijistan",
+        "haversine distance": 72.09575370899665,
+        "dist2": 37987.00561797753,
+        "neighor2": "RIBATKARUDIN_631E313N_S,Sijistan"
+    },
+    "مخيل,Maghrib,Barqa,Andalus": {
+        "dist1": 37987.00561797753,
+        "neighor1": "HALIMAN_222E327N_S,Barqa",
+        "haversine distance": 123.80382813284947,
+        "dist2": 37987.00561797753,
+        "neighor2": "JUBBMAYDAN_233E321N_S,Barqa"
+    },
+    "سالوس,Daylam": {
+        "dist1": 37987.00561797753,
+        "neighor1": "KALAR_510E364N_S,Daylam",
+        "haversine distance": 75.36840813534911,
+        "dist2": 37987.00561797753,
+        "neighor2": "NATIL_519E364N_S,Daylam"
+    },
+    "منزل ابن بندقة,Egypt": {
+        "dist1": 37987.00561797753,
+        "neighor1": "BUWAYB_315E301N_S,Egypt",
+        "haversine distance": 77.99467153881074,
+        "dist2": 37987.00561797753,
+        "neighor2": "AJARUD_323E300N_S,Egypt"
+    },
+    "اشير,Maghrib,Barqa,Andalus": {
+        "dist1": 140780.0,
+        "neighor1": "TAHIRT_013E353N_S,Maghrib",
+        "haversine distance": 288.4857476099201,
+        "dist2": 84468.0,
+        "neighor2": "MASILA_045E356N_S,Maghrib"
+    },
+    "غاضرة,Egypt": {
+        "dist1": 37987.00561797753,
+        "neighor1": "FAQUS_317E307N_S,Egypt",
+        "haversine distance": 187.73453905155858,
+        "dist2": 37987.00561797753,
+        "neighor2": "ISKANDARIYYA_299E311N_S,Egypt"
+    },
+    "مدین,Jazirat al-Arab,Yemen": {
+        "dist1": 37987.00561797753,
+        "neighor1": "SHARAFDHUNAML_351E289N_S,Jazirat al-Arab",
+        "haversine distance": 104.57083436419904,
+        "dist2": 37987.00561797753,
+        "neighor2": "ARA_355E280N_S,Jazirat al-Arab"
+    },
+    "خرندة,Faris": {
+        "dist1": 37987.00561797753,
+        "neighor1": "SUMAYRAM_518E313N_S,Faris",
+        "haversine distance": 186.87815817044182,
+        "dist2": 37987.00561797753,
+        "neighor2": "نةر,Faris"
+    },
+    "استراباذ,Daylam": {
+        "dist1": 37987.00561797753,
+        "neighor1": "ABASKUN_540E370N_S,Daylam",
+        "haversine distance": 90.49231950841673,
+        "dist2": 70357.0,
+        "neighor2": "JURJAN_549E373N_R,Daylam"
+    },
+    "سيمور,Sind": {
+        "dist1": 569805.0842696629,
+        "neighor1": "SARANDIB_808E076N_R,Sind",
+        "haversine distance": 1605.5029279687767,
+        "dist2": 189935.02808988764,
+        "neighor2": "SANDAN_730E199N_S,Sind"
+    },
+    "جيحون,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 2888.2,
+        "neighor1": "AMUL_635E390N_S,Khurasan",
+        "haversine distance": 14.596765481413467,
+        "dist2": 1444.1,
+        "neighor2": "FIRABR_636E391N_S,Transoxiana"
+    },
+    "اوفة,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "KHASHT_639E343N_S,Khurasan",
+        "haversine distance": 86.52506230285229,
+        "dist2": 37987.00561797753,
+        "neighor2": "MARABADH_630E343N_S,Khurasan"
+    },
+    "راس العقبة,Faris": {
+        "dist1": 23504.153846153848,
+        "neighor1": "TAWWAZ_510E294N_S,Faris",
+        "haversine distance": 54.739741542679525,
+        "dist2": 23504.153846153848,
+        "neighor2": "DARIZ_515E296N_S,Faris"
+    },
+    "منبج,Sham": {
+        "dist1": 84568.0,
+        "neighor1": "HALAB_371E361N_S,Sham",
+        "haversine distance": 116.89555247465523,
+        "dist2": 37987.00561797753,
+        "neighor2": "FURAT_383E358N_W,Sham"
+    },
+    "زامين,Khurasan,Sijistan,Transoxiana": {
+        "dist1": 37987.00561797753,
+        "neighor1": "KHAWAS_688E402N_S,Transoxiana",
+        "haversine distance": 164.67423972490744,
+        "dist2": 37987.00561797753,
+        "neighor2": "SAMARQAND_670E396N_S,Transoxiana"
+    },
+    "قرقيسيا,Aqur": {
+        "dist1": 37987.00561797753,
+        "neighor1": "DALIYA_407E347N_S,Aqur",
+        "haversine distance": 79.0820198971862,
+        "dist2": 37987.00561797753,
+        "neighor2": "FUDAYN_405E354N_S,Aqur"
+    }
+}

@@ -10,7 +10,7 @@ def cornuJsonToCsv(openFile, writeFile):
   with open(openFile) as jsonFile:    
       allData = json.load(jsonFile)
       with open(writeFile, 'w') as csvCornu:
-        fWriter = csv.writer(csvCornu, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        fWriter = csv.writer(csvCornu, delimiter='\t', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         fWriter.writerow(["arBW","source","arTitle","lat", "eiSearch","lon","region", "translitTitleOther","topURI","searchNames", "topTypeAlt", "topType", "translitTitle", "arTitleOther", "UStranslitTitle"])
       #print(allData["data"][0])  
         for d in allData["data"]:
@@ -18,4 +18,4 @@ def cornuJsonToCsv(openFile, writeFile):
   print("All done!")
 
 
-cornuJsonToCsv("../Data/cornu_all_new2.js", "../Data/cornu.csv")
+cornuJsonToCsv("../Data/cornu_all_new2.json", "../Data/cornu.csv")

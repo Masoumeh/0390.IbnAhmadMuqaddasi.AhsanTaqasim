@@ -1,0 +1,1459 @@
+REG1 افريقية  - STTL بنزرد 	REG1 افريقية 	{}
+REG1 الريف  - STTL شطنوف 	REG1 الريف 	{}
+REG1 سابور  - STTL  كازرون 	REG1 سابور 	{}
+REG1 أرمينية  - STTL دبيل 	REG1 أرمينية 	{}
+REG1 شيراز  - STTL كول 	REG1 شيراز 	{}
+REG1 الأهواز  - STTL شوراب 	REG1 الأهواز 	{}
+REG1 برقة  - STTL غافق 	REG1 برقة 	{}
+PROV المغرب 	PROV المغرب  - REG1 فاس 	{}
+PROV المغرب 	PROV المغرب  - REG1 سجلماسة 	{}
+PROV المغرب 	PROV المغرب  - REG1 برقة 	{}
+PROV المغرب 	PROV المغرب  - REG1 إفريقية 	{}
+PROV المغرب 	PROV المغرب  - REG1 جزيرة إصقلية 	{}
+PROV المغرب 	PROV المغرب  - REG1 تاهرت 	{}
+PROV المغرب 	PROV المغرب  - REG1 السوس الأقصي 	{}
+REG3 سجستان  - STTL سنج 	REG3 سجستان 	{}
+REG1 أذربيجان  - STTL السراة 	REG1 أذربيجان 	{}
+REG1 اصقلية  - STTL قرينش 	REG1 اصقلية 	{}
+REG2 الصغد  - STTL سمرقند 	REG2 الصغد 	{}
+REG3 نيسابور  - REG4 نسا 	REG3 نيسابور 	{}
+REG1 اسكندرية  - STTL اسكندرية 	REG1 اسكندرية 	{}
+REG1 اصقلية  - STTL ميقش 	REG1 اصقلية 	{}
+REG1 افريقية  - STTL جزيرة بنى زغناية 	REG1 افريقية 	{}
+REG2 تهامه  - STTL مخا 	REG2 تهامه 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 ياركث 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 بوزماجن 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 وذار 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 بورنمذ 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 مايمرغ 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 كبوذنجكث 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 بنجكث 	{}
+REG2 الصغد 	REG2 الصغد  - STTL إشتيخن 	{}
+REG2 الصغد 	REG2 الصغد  - STTL كشانى 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 المرزبان 	{}
+REG2 الصغد 	REG2 الصغد  - STTL دبوسية 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 أوفر 	{}
+REG2 الصغد 	REG2 الصغد  - STTL أبغر 	{}
+REG2 الصغد 	REG2 الصغد  - STTL ربنجان قطوانة 	{}
+REG2 الصغد 	REG2 الصغد  - STTL ريودد 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 ورغسرة 	{}
+REG2 الصغد 	REG2 الصغد  - STTL كرمينية 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 سنجرفغن 	{}
+REG2 الصغد 	REG2 الصغد  - REG3 الدرغم 	{}
+PROV جزيرة العرب  - REG1 قرح 	PROV جزيرة العرب 	{}
+REG1 نرماسير  - STTL نرماسير 	REG1 نرماسير 	{}
+REG3 الواغز  - STTL جارک 	REG3 الواغز 	{}
+REG3 نيسابور  - REG4 ريوند 	REG3 نيسابور 	{}
+PROV السند  - REG1 مكران 	PROV السند 	{}
+REG1 السوس  - STTL السوس 	REG1 السوس 	{}
+REG1 الحجاز  - STTL المروة 	REG1 الحجاز 	{}
+REG1 اصقلية  - STTL قلعة القوارب 	REG1 اصقلية 	{}
+REG3 عثر  - STTL حلى 	REG3 عثر 	{}
+PROV السند 	PROV السند  - REG1 السند 	{}
+PROV السند 	PROV السند  - REG1 قنوج 	{}
+PROV السند 	PROV السند  - REG1 طوران 	{}
+PROV السند 	PROV السند  - REG1 ويهند 	{}
+PROV السند 	PROV السند  - REG1 الملتان 	{}
+REG1 أرمينية  - STTL بركرى 	REG1 أرمينية 	{}
+REG1 الدورق  - STTL آزر 	REG1 الدورق 	{}
+REG1 الخابور  - STTL الحصين 	REG1 الخابور 	{}
+REG1 قنسرين  - STTL مرعش 	REG1 قنسرين 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL أبالغ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL تكابكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL دل اواس 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL روانجم 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL ده نوجيكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL كولان 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL اطلخ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL جمشلاغو 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL ميركى 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL شغلجان 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL لبان 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL نويكث 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL أردوا 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL كتاك 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL شاوغر 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL ده نوى 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL سوس 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL كول 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL نوشكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL يكانكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL شورجشمه 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL بلاسكون 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL جكركان 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL أسبيجاب 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL مادانكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL جموكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL برسخان 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL بروكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL أذخكت 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL سوران 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL جركرد 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL ارسبانيكث 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL يكالغ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL بروخ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL جكل 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL طراز 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL ترار زراخ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL شوى 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL يغ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL بلاج 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL برسيان 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL جموك 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL لقرا 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL شلجى 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL بالوا 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL بلغ 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTLباراب 	{}
+REG2 أسبيجاب 	REG2 أسبيجاب  - STTL خورلوغ 	{}
+REG1 الکوفة  - STTL سورا 	REG1 الکوفة 	{}
+REG1 هيطل  - REG2 الصغد 	REG1 هيطل 	{}
+REG1 افريقية  - STTL دوفانة 	REG1 افريقية 	{}
+REG1 فاس  - REG2 الزاب 	REG1 فاس 	{}
+REG2 طنجة  - STTL مدركة 	REG2 طنجة 	{}
+REG3 بلخ  - STTL كركو 	REG3 بلخ 	{}
+REG1 الران  - STTL القلعة 	REG1 الران 	{}
+REG2 تهامه  - STTL اللسعة 	REG2 تهامه 	{}
+PROV الديلم  - REG1 قومس 	PROV الديلم 	{}
+REG3 أبين 	REG3 أبين  - STTL عدن 	{}
+REG3 أبين 	REG3 أبين  - STTL لهج 	{}
+REG1 بردسير  - STTL كوغون 	REG1 بردسير 	{}
+REG1 شيراز  - STTL دشت بارين 	REG1 شيراز 	{}
+REG3 مهرة  - STTL الشحر 	REG3 مهرة 	{}
+REG2 الشاش  - STTL فردكث 	REG2 الشاش 	{}
+PROV الشام  - REG1 الشراة 	PROV الشام 	{}
+REG1 الري  - REG2 سر 	REG1 الري 	{}
+REG2 الشاش  - STTL البيكث 	REG2 الشاش 	{}
+REG1 سجلماسة  - STTL درعة 	REG1 سجلماسة 	{}
+REG2 تهامه  - STTL كدرة 	REG2 تهامه 	{}
+REG1 الکوفة  - STTL النيل 	REG1 الکوفة 	{}
+REG3 والشتان  - STTL سيوه 	REG3 والشتان 	{}
+REG2 الشاش  - STTL ده كوران 	REG2 الشاش 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL لماية 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL شلف 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL رهباية 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تاغليسية 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL طير 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تبرين 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تاويلت ابى مغول تامزيت 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL هزارة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL قصر الفلوس 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL واريفن 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL فكان 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL سوق كرى 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL جبل تجان 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL منداس 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL ربا 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تاويلت لغوا 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تمما 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL سوق ابن حبلة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL البطحة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL بحرية 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL قلعة ابن الهرب 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL الجعبة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL الغزة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL وهران 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL الزيتونة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تاهرت 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL اوزكى 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL تنس 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL يعود 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL سوق ابن مبلول 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL غدير الدروع 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL يممة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL مطماطة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL منجصة 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL سوق إبراهيم 	{}
+REG1 تاهرت 	REG1 تاهرت  - STTL الخضراء 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL ايك 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL جويم ابى احمد 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL درابجرد 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL رم شهريار 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL كرم 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL طبستان 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL برك 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL المسكانات 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL الكردبان 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL الاصبهانات 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL سنان 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL ازبراه 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL كدروا 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL اوجين 	{}
+REG1 درابجرد 	REG1 درابجرد  - STTL يزدخواست 	{}
+REG1 الريف  - STTL بنها العسل 	REG1 الريف 	{}
+REG1 فاس  - STTL قلعة النسور 	REG1 فاس 	{}
+REG2 نجد  - STTL جرش 	REG2 نجد 	{}
+REG3 غزنين  - STTL فرمل 	REG3 غزنين 	{}
+REG1 الصعيد  - STTL حلوان 	REG1 الصعيد 	{}
+REG2 الشاش  - STTL وردك 	REG2 الشاش 	{}
+REG2 الصغانيان  - STTL ريكدشت 	REG2 الصغانيان 	{}
+REG1 الشراة  - STTL أذرح 	REG1 الشراة 	{}
+REG1 أرجان  - STTL سينيز 	REG1 أرجان 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL حبك ذو قرطم 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL سوق الثلثاء 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL عسكر مكرم 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL برجان 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL وزيدان 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - REG2 المشرقان 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL جوبك 	{}
+REG1 عسكر مكرم 	REG1 عسكر مكرم  - STTL خان طوق 	{}
+REG2 نجد  - STTL صعدة 	REG2 نجد 	{}
+REG2 إيلاق  - STTL تكث 	REG2 إيلاق 	{}
+REG1 الأهواز  - STTL بندم 	REG1 الأهواز 	{}
+REG2 خراسان  - REG3 طخارستان 	REG2 خراسان 	{}
+REG1 برقة 	REG1 برقة  - STTL قابس 	{}
+REG1 برقة 	REG1 برقة  - STTL رمادة 	{}
+REG1 برقة 	REG1 برقة  - STTL أطرابلس 	{}
+REG1 برقة 	REG1 برقة  - STTL برقة 	{}
+REG1 برقة 	REG1 برقة  - STTL صبرة 	{}
+REG1 برقة 	REG1 برقة  - STTL أجدابية 	{}
+REG1 برقة 	REG1 برقة  - STTL ذات الحمام 	{}
+REG3 جوزجانان  - STTL شبورقان 	REG3 جوزجانان 	{}
+REG3 سجستان  - STTL باب الطعام 	REG3 سجستان 	{}
+REG2 خراسان  - REG3 هراة 	REG2 خراسان 	{}
+REG1 سابور  - STTL خشت 	REG1 سابور 	{}
+REG1 طوران  - STTL رستاق روذ 	REG1 طوران 	{}
+REG1 مكران  - STTL شهر 	REG1 مكران 	{}
+REG1 الکوفة  - STTL الجامعين 	REG1 الکوفة 	{}
+REG1 الري  - REG2 قصران الخارج 	REG1 الري 	{}
+REG1 البصرة  - STTL زبان 	REG1 البصرة 	{}
+REG3 هراة  - STTL كروخ 	REG3 هراة 	{}
+REG1 مكران  - STTL فهل فهرة 	REG1 مكران 	{}
+REG1 همذان  - STTL سيراوند 	REG1 همذان 	{}
+REG1 الحوف  - STTL فاقوس 	REG1 الحوف 	{}
+REG1 ديار ربيعة  - STTL برقعيد 	REG1 ديار ربيعة 	{}
+REG1 افريقية  - STTL سبيبة 	REG1 افريقية 	{}
+REG2 بخارا  - STTL ارياميثن 	REG2 بخارا 	{}
+REG1 أرمينية  - STTL بدليس 	REG1 أرمينية 	{}
+PROV مصر  - REG1 الصعيد 	PROV مصر 	{}
+REG1 الحوف  - STTL القلزم 	REG1 الحوف 	{}
+REG2 قواديان 	REG2 قواديان  - STTL سكارا 	{}
+REG2 قواديان 	REG2 قواديان  - STTL اوزج 	{}
+REG2 قواديان 	REG2 قواديان  - STTL بورم 	{}
+PROV كرمان  - REG1 بردسير 	PROV كرمان 	{}
+REG3 النساءية  - STTL مرغينان 	REG3 النساءية 	{}
+PROV الجبال  - REG1 قم 	PROV الجبال 	{}
+REG3 طخارستان  - STTL اسكلكند 	REG3 طخارستان 	{}
+REG1 أذربيجان  - STTL رسبة 	REG1 أذربيجان 	{}
+REG1 الري 	REG1 الري  - STTL الري 	{}
+REG1 الري 	REG1 الري  - REG2 قرج 	{}
+REG1 الري 	REG1 الري  - STTL الخوار 	{}
+REG1 الري 	REG1 الري  - STTL أبهر 	{}
+REG1 الري 	REG1 الري  - REG2 جنى 	{}
+REG1 الري 	REG1 الري  - STTL قزوين 	{}
+REG1 الري 	REG1 الري  - REG2 بهزان 	{}
+REG1 الري 	REG1 الري  - REG2 سيرا 	{}
+REG1 الري 	REG1 الري  - REG2 فيروزرام 	{}
+REG1 الري 	REG1 الري  - REG2 قوسين 	{}
+REG1 الري 	REG1 الري  - REG2 قصران الداخل 	{}
+REG1 الري 	REG1 الري  - REG2 قم 	{}
+REG1 الري 	REG1 الري  - STTL شلنبة 	{}
+REG1 الري 	REG1 الري  - STTL آوه 	{}
+REG1 الري 	REG1 الري  - REG2 دماوند 	{}
+REG1 الري 	REG1 الري  - STTL ساوة 	{}
+REG1 الري 	REG1 الري  - REG2 شهرزور 	{}
+REG1 بردسير  - STTL جنزروذ 	REG1 بردسير 	{}
+REG1 افريقية  - STTL اوذة 	REG1 افريقية 	{}
+REG1 فاس  - STTL لواتة عبد الله 	REG1 فاس 	{}
+REG1 الريف  - STTL سنهور 	REG1 الريف 	{}
+REG1 الريف  - STTL بريس 	REG1 الريف 	{}
+REG1 هيطل  - REG2 الشاش 	REG1 هيطل 	{}
+REG1 اصقلية  - STTL بثيرة 	REG1 اصقلية 	{}
+REG1 الحوف  - STTL تونة 	REG1 الحوف 	{}
+REG1 الريف  - STTL سندفا 	REG1 الريف 	{}
+REG1 جيرفت  - STTL باس 	REG1 جيرفت 	{}
+REG1 ديار مضر  - STTL الرقة 	REG1 ديار مضر 	{}
+REG3 بست  - STTL بست 	REG3 بست 	{}
+REG1 فاس  - STTL كزناية 	REG1 فاس 	{}
+REG1 قنسرين  - STTL رفنية 	REG1 قنسرين 	{}
+REG1 الصعيد  - STTL قوص 	REG1 الصعيد 	{}
+REG1 شيراز  - STTL جمكان 	REG1 شيراز 	{}
+REG1 الشراة  - STTL مآب 	REG1 الشراة 	{}
+REG1 نيريز  - STTL المريزجان 	REG1 نيريز 	{}
+REG1 الريف  - STTL العباسية 	REG1 الريف 	{}
+REG1 ديار بکر  - STTL ميافارقين 	REG1 ديار بکر 	{}
+REG1 دمشق  - REG2 البثنية 	REG1 دمشق 	{}
+REG2 نجد  - STTL السحول 	REG2 نجد 	{}
+REG1 سامرا  - STTL عکبرا 	REG1 سامرا 	{}
+REG1 سامرا  - STTL دمما 	REG1 سامرا 	{}
+REG1 افريقية  - STTL قبيشة 	REG1 افريقية 	{}
+REG3 هراة  - STTL خيسار 	REG3 هراة 	{}
+REG1 حمص  - STTL سلمية 	REG1 حمص 	{}
+REG1 دمشق  - STTL صيدا 	REG1 دمشق 	{}
+REG1 واسط  - STTL سيادة 	REG1 واسط 	{}
+REG2 الشاش  - STTL نکث 	REG2 الشاش 	{}
+REG1 حلوان  - STTL شلاشلان 	REG1 حلوان 	{}
+REG1 الاردن  - STTL طبرية 	REG1 الاردن 	{}
+REG1 فاس  - STTL صنهاجة  	REG1 فاس 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL معلثاى 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL أذرمة 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL نصيبين 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL ثمانين 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL الحسنية 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL راس العين 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL سنجار 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL الحديثة 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL کفرتوثا 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL بلد 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL تلعفر 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL الموصل 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - REG2 جزيرة ابن عمر 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL دارا 	{}
+REG1 ديار ربيعة 	REG1 ديار ربيعة  - STTL الجبال 	{}
+REG1 قنسرين  - STTL السويدية 	REG1 قنسرين 	{}
+REG3 بلخ  - STTL بنجهير 	REG3 بلخ 	{}
+REG1 مضر  - REG2 کفرزاب 	REG1 مضر 	{}
+REG1 أرمينية  - STTL مراغة 	REG1 أرمينية 	{}
+REG1 قنوج  - STTL برهيروا 	REG1 قنوج 	{}
+REG2 بخارا  - STTL بمجكث 	REG2 بخارا 	{}
+REG1 عمان  - STTL نزوة 	REG1 عمان 	{}
+REG1 الحجاز  - STTL بدر 	REG1 الحجاز 	{}
+REG3 باذغيس  - STTL جاذاوا 	REG3 باذغيس 	{}
+REG1 بغداد 	REG1 بغداد  - STTL النهروان 	{}
+REG1 بغداد 	REG1 بغداد  - STTL هارونية 	{}
+REG1 بغداد 	REG1 بغداد  - STTL الدسکرة 	{}
+REG1 بغداد 	REG1 بغداد  - STTL بغداد 	{}
+REG1 بغداد 	REG1 بغداد  - STTL بردان 	{}
+REG1 بغداد 	REG1 بغداد  - STTL کارة 	{}
+REG1 بغداد 	REG1 بغداد  - STTL طراستان 	{}
+REG2 الشاش  - STTL غزك 	REG2 الشاش 	{}
+REG1 فاس  - STTL سبوا 	REG1 فاس 	{}
+REG2 الزاب  - STTL طولقا 	REG2 الزاب 	{}
+REG1 همذان 	REG1 همذان  - STTL روذراور 	{}
+REG1 همذان 	REG1 همذان  - STTL أسداواذ 	{}
+REG1 همذان 	REG1 همذان  - STTL رامن 	{}
+REG1 همذان 	REG1 همذان  - STTL وبه 	{}
+REG1 همذان 	REG1 همذان  - STTL آوه 	{}
+REG1 همذان 	REG1 همذان  - STTL سبه 	{}
+REG1 همذان 	REG1 همذان  - STTL طزر 	{}
+REG2 الصغانيان  - STTL باسند 	REG2 الصغانيان 	{}
+REG2 فرغانة  - STTL أوزكند 	REG2 فرغانة 	{}
+REG1 حمص  - STTL بلنياس 	REG1 حمص 	{}
+REG3 غزنين  - STTL كرديس 	REG3 غزنين 	{}
+REG1 افريقية  - STTL قلانس 	REG1 افريقية 	{}
+REG1 البصرة  - STTL الجعفرية 	REG1 البصرة 	{}
+REG2 بخارا  - STTL زندنة 	REG2 بخارا 	{}
+REG3 بلخ  - STTL بلخ 	REG3 بلخ 	{}
+REG1 حلوان  - STTL حلوان 	REG1 حلوان 	{}
+REG3 بست  - STTL بوزاد 	REG3 بست 	{}
+REG1 الأهواز  - STTL سوق الأربعاء 	REG1 الأهواز 	{}
+REG2 اشروسنة  - STTL ديزك 	REG2 اشروسنة 	{}
+REG1 فاس  - STTL مرنيسة 	REG1 فاس 	{}
+REG1 رامهرمز  - STTL تيرم 	REG1 رامهرمز 	{}
+REG1 اصقلية  - STTL قرليون 	REG1 اصقلية 	{}
+REG3 نيسابور  - STTL ايرانشهر 	REG3 نيسابور 	{}
+REG3 أسفزار  - STTL كواشان 	REG3 أسفزار 	{}
+REG1 شيراز  - STTL بجه 	REG1 شيراز 	{}
+PROV خوزستان  - REG1 الدورق 	PROV خوزستان 	{}
+REG1 بردسير 	REG1 بردسير  - STTL كارشتان 	{}
+REG1 بردسير 	REG1 بردسير  - STTL غبيرا 	{}
+REG1 بردسير 	REG1 بردسير  - REG2 خبيص 	{}
+REG1 بردسير 	REG1 بردسير  - STTL زاور 	{}
+REG1 بردسير 	REG1 بردسير  - STTL زرند 	{}
+REG1 بردسير 	REG1 بردسير  - STTL بردسير 	{}
+REG1 بردسير 	REG1 بردسير  - STTL ماهان 	{}
+REG1 بردسير 	REG1 بردسير  - STTL أناس 	{}
+REG1 بردسير 	REG1 بردسير  - STTL خوناوب 	{}
+REG1 بردسير 	REG1 بردسير  - STTL كوه بيان 	{}
+REG1 بردسير 	REG1 بردسير  - STTL قواف 	{}
+REG2 اشروسنة  - REG3 بسكر 	REG2 اشروسنة 	{}
+REG2 إيلاق  - STTL تونكث 	REG2 إيلاق 	{}
+REG1 أرمينية  - STTL مرند 	REG1 أرمينية 	{}
+REG1 أرمينية  - STTL خوى 	REG1 أرمينية 	{}
+REG2 نسف 	REG2 نسف  - STTL كسبة 	{}
+REG2 نسف 	REG2 نسف  - STTL بزدة 	{}
+REG1 إصطخر  - STTL فاروق 	REG1 إصطخر 	{}
+REG2 الصغانيان  - STTL دارزنجى 	REG2 الصغانيان 	{}
+REG1 الحجاز  - STTL خليص 	REG1 الحجاز 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL برجى 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL نامية 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL آمل 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL هرى 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL ما مطير 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL سالوس 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL ميلة 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL سارية 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL طميسة 	{}
+REG1 طبرستان 	REG1 طبرستان  - STTL بود 	{}
+REG2 إيلاق  - STTL بانخاش 	REG2 إيلاق 	{}
+REG2 الجيل  - STTL شهر 	REG2 الجيل 	{}
+REG1 الديلمان  - REG2  الجيل 	REG1 الديلمان 	{}
+REG1 الخابور  - STTL الخابور 	REG1 الخابور 	{}
+REG1 خسو  - STTL رستاق الرستاق 	REG1 خسو 	{}
+REG1 ويهند  - STTL كنباية 	REG1 ويهند 	{}
+REG1 خسو  - STTL روبنج 	REG1 خسو 	{}
+REG1 حمص 	REG1 حمص  - STTL الخناصرة 	{}
+REG1 حمص 	REG1 حمص  - STTL أنطرسوس 	{}
+REG1 حمص 	REG1 حمص  - STTL كفرطاب 	{}
+REG1 حمص 	REG1 حمص  - STTL جبلة 	{}
+REG1 حمص 	REG1 حمص  - STTL اللاذقية 	{}
+REG1 حمص 	REG1 حمص  - STTL حصن الخوابي 	{}
+REG1 حمص 	REG1 حمص  - STTL تدمر 	{}
+REG1 حمص 	REG1 حمص  - STTL حمص 	{}
+REG1 الشراة 	REG1 الشراة  - STTL ويله 	{}
+REG1 الشراة 	REG1 الشراة  - STTL مدين 	{}
+REG1 الشراة 	REG1 الشراة  - STTL صغر 	{}
+REG1 الشراة 	REG1 الشراة  - STTL تبوك 	{}
+REG1 الشراة 	REG1 الشراة  - STTL معان 	{}
+REG1 سامرا  - STTL الجامعين 	REG1 سامرا 	{}
+REG1 فاس  - STTL زلول 	REG1 فاس 	{}
+REG1 فاس  - STTL تيزا 	REG1 فاس 	{}
+REG2 الشاش  - STTL بشكت 	REG2 الشاش 	{}
+REG2 نجد  - STTL العرف 	REG2 نجد 	{}
+REG1 أذربيجان  - STTL تبريز 	REG1 أذربيجان 	{}
+REG3 والشتان  - STTL مستنك 	REG3 والشتان 	{}
+REG1 قنسرين  - STTL حلب 	REG1 قنسرين 	{}
+REG1 ويهند  - STTL لوار 	REG1 ويهند 	{}
+REG1 سامرا  - STTL سندية 	REG1 سامرا 	{}
+REG2 فرغانة  - REG3 الواغز 	REG2 فرغانة 	{}
+REG1 افريقية  - STTL طبرقة 	REG1 افريقية 	{}
+REG1 جيرفت  - STTL جوى سليمان 	REG1 جيرفت 	{}
+REG1 مكران  - STTL كيج 	REG1 مكران 	{}
+REG1 السند  - STTL صيمور 	REG1 السند 	{}
+REG1 الصعيد  - STTL بلينا 	REG1 الصعيد 	{}
+REG2 فرغانة  - STTL الميانروذية 	REG2 فرغانة 	{}
+REG1 ويهند  - STTL بسمد 	REG1 ويهند 	{}
+REG1 الصعيد  - STTL اجمع 	REG1 الصعيد 	{}
+REG1 البصرة  - STTL دبا 	REG1 البصرة 	{}
+REG1 فلسطين  - STTL نابلس 	REG1 فلسطين 	{}
+REG3 الواغز  - STTL نوقاد 	REG3 الواغز 	{}
+REG1 أرمينية  - STTL قندرية 	REG1 أرمينية 	{}
+REG1 فلسطين  - STTL ميماس 	REG1 فلسطين 	{}
+REG1 الحوف  - STTL دبقو 	REG1 الحوف 	{}
+REG1 جيرفت  - STTL جكين 	REG1 جيرفت 	{}
+REG1 فاس  - STTL هوارة 	REG1 فاس 	{}
+REG1 فاس  - STTL فاس 	REG1 فاس 	{}
+REG1 نرماسير  - STTL ريكان 	REG1 نرماسير 	{}
+PROV العراق  - REG1 بغداد 	PROV العراق 	{}
+REG1 إصطخر  - STTL ده أشتران 	REG1 إصطخر 	{}
+REG2 بخارا  - STTL خديمنكن 	REG2 بخارا 	{}
+REG2 الشاش  - STTL دروا 	REG2 الشاش 	{}
+REG1 فاس  - STTL بلش 	REG1 فاس 	{}
+REG1 السيرجان  - STTL دشت برين 	REG1 السيرجان 	{}
+REG1 الخزر  - STTL إتل 	REG1 الخزر 	{}
+REG2 الفراتية  - STTL عانة 	REG2 الفراتية 	{}
+REG1 اسكندرية 	REG1 اسكندرية  - STTL برلس 	{}
+REG1 اسكندرية 	REG1 اسكندرية  - STTL الرشيد 	{}
+REG1 اسكندرية 	REG1 اسكندرية  - STTL ذات الحمام 	{}
+REG1 اسكندرية 	REG1 اسكندرية  - STTL مريوط 	{}
+REG3 مروالروذ  - STTL حٮٮٮة 	REG3 مروالروذ 	{}
+REG1 افريقية  - STTL المسيلة 	REG1 افريقية 	{}
+REG1 الران  - STTL قبلة 	REG1 الران 	{}
+REG2 الشاش  - STTL تل اوش 	REG2 الشاش 	{}
+REG3 بست 	REG3 بست  - STTL روذان 	{}
+REG3 بست 	REG3 بست  - STTL رخود 	{}
+REG3 بست 	REG3 بست  - STTL بان 	{}
+REG3 بست 	REG3 بست  - STTL بنجوى 	{}
+REG3 بست 	REG3 بست  - STTL كش 	{}
+REG3 بست 	REG3 بست  - STTL ارض داور 	{}
+REG3 بست 	REG3 بست  - STTL صروستان 	{}
+REG3 بست 	REG3 بست  - STTL طلقان 	{}
+REG3 بست 	REG3 بست  - STTL سفنجاوى 	{}
+REG3 بست 	REG3 بست  - STTL بكراواذ 	{}
+REG3 بست 	REG3 بست  - STTL قرمة 	{}
+REG3 بست 	REG3 بست  - STTL جهالكان 	{}
+REG3 بست 	REG3 بست  - STTL قرية الجوز 	{}
+REG1 قومس  - STTL زغنة 	REG1 قومس 	{}
+REG1 الدورق  - STTL بخساباذ 	REG1 الدورق 	{}
+REG2 بخارا  - STTL كشفغن 	REG2 بخارا 	{}
+REG1 طوران  - STTL بكانان 	REG1 طوران 	{}
+REG1 طوران  - STTL قزدار 	REG1 طوران 	{}
+REG1 افريقية  - STTL تقيوس 	REG1 افريقية 	{}
+REG1 حلوان  - STTL الحر 	REG1 حلوان 	{}
+REG1 واسط  - STTL واسط 	REG1 واسط 	{}
+REG1 الدورق 	REG1 الدورق  - STTL ميراثيان 	{}
+REG1 الدورق 	REG1 الدورق  - STTL الدورق 	{}
+REG1 الدورق 	REG1 الدورق  - STTL الدز 	{}
+REG1 الدورق 	REG1 الدورق  - STTL أجم 	{}
+REG1 الدورق 	REG1 الدورق  - STTL ميراقيان 	{}
+REG1 الدورق 	REG1 الدورق  - STTL اندبار 	{}
+REG2 إيلاق  - STTL سام سرك 	REG2 إيلاق 	{}
+REG1 افريقية  - STTL منستير 	REG1 افريقية 	{}
+REG3 غزنين  - STTL نوه 	REG3 غزنين 	{}
+REG1 فاس  - STTL سبتا 	REG1 فاس 	{}
+REG1 البصرة  - STTL المفتح 	REG1 البصرة 	{}
+REG1 الصعيد  - STTL الفيوم 	REG1 الصعيد 	{}
+REG1 الحجاز  - STTL السقيا 	REG1 الحجاز 	{}
+REG1 الحجاز  - STTL جدة 	REG1 الحجاز 	{}
+REG1 اصقلية  - STTL ثرمة 	REG1 اصقلية 	{}
+REG2 الزاب  - STTL مقرة 	REG2 الزاب 	{}
+REG1 طوران  - STTL جثرد 	REG1 طوران 	{}
+REG1 دمشق  - REG2 البقاع 	REG1 دمشق 	{}
+REG3 باميان 	REG3 باميان  - STTL سكاوند 	{}
+REG3 باميان 	REG3 باميان  - STTL لخراب 	{}
+REG3 باميان 	REG3 باميان  - STTL بسغورفند 	{}
+REG1 مكران  - STTL بنجبور 	REG1 مكران 	{}
+REG2 تهامه  - STTL الخصوف 	REG2 تهامه 	{}
+REG1 دمشق 	REG1 دمشق  - REG2 الحولة 	{}
+REG1 دمشق 	REG1 دمشق  - STTL عرقة 	{}
+REG1 دمشق 	REG1 دمشق  - REG2 الغوطة 	{}
+REG1 دمشق 	REG1 دمشق  - STTL بيروت 	{}
+REG1 دمشق 	REG1 دمشق  - STTL دمشق 	{}
+REG1 دمشق 	REG1 دمشق  - REG2 حوران 	{}
+REG1 دمشق 	REG1 دمشق  - STTL بانياس 	{}
+REG1 دمشق 	REG1 دمشق  - REG2 الجولان 	{}
+REG1 دمشق 	REG1 دمشق  - STTL أطرابلس 	{}
+REG2 خراسان  - REG3 باذغيس 	REG2 خراسان 	{}
+REG3 نيسابور  - REG4 مازل 	REG3 نيسابور 	{}
+REG1 عمان  - STTL لسيا 	REG1 عمان 	{}
+REG1 السيرجان 	REG1 السيرجان  - STTL الشامات 	{}
+REG1 السيرجان 	REG1 السيرجان  - STTL بيمند 	{}
+REG1 السيرجان 	REG1 السيرجان  - STTL واجب 	{}
+REG1 السيرجان 	REG1 السيرجان  - STTL خور 	{}
+REG1 السيرجان 	REG1 السيرجان  - STTL بزورك 	{}
+REG1 فاس  - STTL امليل 	REG1 فاس 	{}
+REG1 رامهرمز  - STTL بازنك 	REG1 رامهرمز 	{}
+REG2 طنجة 	REG2 طنجة  - STTL الحاجر 	{}
+REG2 طنجة 	REG2 طنجة  - STTL غميرة 	{}
+REG2 طنجة 	REG2 طنجة  - STTL ماجراجرا 	{}
+REG2 طنجة 	REG2 طنجة  - STTL البيضاء 	{}
+REG2 طنجة 	REG2 طنجة  - STTL متروكة 	{}
+REG2 طنجة 	REG2 طنجة  - STTL غزة 	{}
+REG2 طنجة 	REG2 طنجة  - STTL زفون 	{}
+REG2 طنجة 	REG2 طنجة  - STTL الخضراء 	{}
+REG2 طنجة 	REG2 طنجة  - STTL وليلة 	{}
+REG1 سجلماسة  - STTL دار الأمير 	REG1 سجلماسة 	{}
+REG2 نجد  - STTL نسفان 	REG2 نجد 	{}
+REG2 الفراتية 	REG2 الفراتية  - STTL قرقيسيا 	{}
+REG2 الفراتية 	REG2 الفراتية  - STTL الدالية 	{}
+REG2 الفراتية 	REG2 الفراتية  - STTL الحديثة 	{}
+REG2 الفراتية 	REG2 الفراتية  - STTL رحبة ابن طوق 	{}
+REG1 إصطخر  - STTL ميبذ 	REG1 إصطخر 	{}
+REG2 الشاش  - STTL بارسكث 	REG2 الشاش 	{}
+REG1 أرجان  - STTL مهربان 	REG1 أرجان 	{}
+REG1 الخابور  - STTL سکير العباس 	REG1 الخابور 	{}
+REG1 سامرا  - STTL الدور 	REG1 سامرا 	{}
+REG3 سجستان  - STTL قرنين 	REG3 سجستان 	{}
+REG1 البصرة  - STTL عبادان 	REG1 البصرة 	{}
+REG3 سجستان  - STTL كوين 	REG3 سجستان 	{}
+REG1 الأحقاف  - STTL حضرموت 	REG1 الأحقاف 	{}
+REG1 سامرا  - STTL السن 	REG1 سامرا 	{}
+REG1 سجلماسة  - STTL حصن ابن صالح 	REG1 سجلماسة 	{}
+REG1 الران  - STTL الشابران 	REG1 الران 	{}
+REG1 طوران  - STTL قندبيل 	REG1 طوران 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL منبج 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL شيزر 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL لجون 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL جوسية 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL قنسرين 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL التينات 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL أنطاكية 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL بيلس 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL حماة 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL سميساط 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL معرة قنسرين 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL وادي بطنان 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL إسكندرونة 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL بالس 	{}
+REG1 قنسرين 	REG1 قنسرين  - STTL معرة النعمان 	{}
+REG1 افريقية  - STTL بنجد 	REG1 افريقية 	{}
+REG1 افريقية  - STTL مرماجنة 	REG1 افريقية 	{}
+REG1 السند  - STTL زندريج 	REG1 السند 	{}
+PROV مصر  - REG1 مقدونية 	PROV مصر 	{}
+REG1 الحجاز  - STTL الجار 	REG1 الحجاز 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL قلعة ابى ثور 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL الخالصة 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL برطنة 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL اطرابنش 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTLجرجنت 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL طبرمين 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL اخياس 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL قطانية 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL اليلج 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL بلجة 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL بطرلية 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL رمطة 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL بطرنوا 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTLقلعة البلوط 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL بورقاد 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL مسينة 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTLعين المغطا 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL لنتيني 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL برطنيق 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL جاراس 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL سرقوسة 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL قلعة الصراط 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL بلرم 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL مازر 	{}
+REG1 اصقلية 	REG1 اصقلية  - STTL دمنش 	{}
+REG2 خراسان  - REG3 مروالروذ 	REG2 خراسان 	{}
+REG1 أرجان  - STTL هندوان 	REG1 أرجان 	{}
+REG1 افريقية  - STTL دكما 	REG1 افريقية 	{}
+REG3 هراة  - STTL هراة 	REG3 هراة 	{}
+REG1 الأهواز  - STTL مناذر الصغرى 	REG1 الأهواز 	{}
+REG1 الريف  - STTL محلة كرمين 	REG1 الريف 	{}
+REG2 الشاش  - STTL اشتوركث 	REG2 الشاش 	{}
+REG2 خراسان  - REG3 سجستان 	REG2 خراسان 	{}
+REG1 خسو 	REG1 خسو  - STTL فرج 	{}
+REG1 خسو 	REG1 خسو  - STTL تارم 	{}
+PROV المشرق  - REG1 هيطل 	PROV المشرق 	{}
+REG3 غزنين  - STTL زاوه 	REG3 غزنين 	{}
+REG3 سجستان  - STTL بارنواذ 	REG3 سجستان 	{}
+PROV الشام  - REG1 الأردن 	PROV الشام 	{}
+REG1 الاردن  - STTL صور 	REG1 الاردن 	{}
+REG1 بم  - STTL أوارك 	REG1 بم 	{}
+REG1 الحجاز  - STTL مكة 	REG1 الحجاز 	{}
+REG1 فلسطين  - STTL يافه 	REG1 فلسطين 	{}
+REG1 نرماسير  - STTL كرك 	REG1 نرماسير 	{}
+REG3 بلخ  - STTL برواز 	REG3 بلخ 	{}
+REG1 افريقية  - STTL باغر 	REG1 افريقية 	{}
+REG1 الحجاز  - STTL بدا يعقوب 	REG1 الحجاز 	{}
+PROV الشام  - REG1 حمص 	PROV الشام 	{}
+REG1 افريقية  - STTL قرية الصقالبة 	REG1 افريقية 	{}
+REG1 فلسطين  - STTL بيت جبريل 	REG1 فلسطين 	{}
+REG2 تهامه  - STTL شرمة 	REG2 تهامه 	{}
+REG1 افريقية  - STTL جبل زالاغ 	REG1 افريقية 	{}
+REG1 إصطخر  - STTL بوان كرمان 	REG1 إصطخر 	{}
+REG3 طخارستان  - STTL بغلان العليا 	REG3 طخارستان 	{}
+REG1 فاس  - STTL مدائن 	REG1 فاس 	{}
+REG3 سجستان  - STTL زنبوك 	REG3 سجستان 	{}
+REG3 بوشنج  - STTL كوسوى 	REG3 بوشنج 	{}
+REG1 فاس  - STTL وصاع 	REG1 فاس 	{}
+PROV مصر  - REG1 الريف 	PROV مصر 	{}
+REG1 السند  - STTL سدوسان 	REG1 السند 	{}
+REG1 السوس الأقصى  - STTL تندلى 	REG1 السوس الأقصى 	{}
+REG2 اشروسنة  - REG3 بشاغر 	REG2 اشروسنة 	{}
+REG1 أردشيرخره  - STTL نابند 	REG1 أردشيرخره 	{}
+REG1 البصرة 	REG1 البصرة  - STTL الأبله 	{}
+REG1 البصرة 	REG1 البصرة  - STTL نهر الملک 	{}
+REG1 البصرة 	REG1 البصرة  - STTL المطوعة 	{}
+REG1 البصرة 	REG1 البصرة  - STTL ابو الخصيب 	{}
+REG1 البصرة 	REG1 البصرة  - STTL بيان 	{}
+REG1 البصرة 	REG1 البصرة  - STTL نهر الأمير 	{}
+REG1 البصرة 	REG1 البصرة  - STTL شق عثمان 	{}
+REG1 البصرة 	REG1 البصرة  - STTL القندلة 	{}
+REG1 البصرة 	REG1 البصرة  - STTL بدران 	{}
+REG1 البصرة 	REG1 البصرة  - STTL سليمانان 	{}
+REG1 البصرة 	REG1 البصرة  - STTL البصرة 	{}
+REG1 مقدونية 	REG1 مقدونية  - STTL العزيزية 	{}
+REG1 مقدونية 	REG1 مقدونية  - STTL الفسطاط 	{}
+REG1 مقدونية 	REG1 مقدونية  - STTL عين شمس 	{}
+REG1 مقدونية 	REG1 مقدونية  - STTL الجيزة 	{}
+REG1 جرجان  - STTL الرباط 	REG1 جرجان 	{}
+REG1 نرماسير  - STTL باهر 	REG1 نرماسير 	{}
+REG1 طوران 	REG1 طوران  - STTL كيزكانان 	{}
+REG1 طوران 	REG1 طوران  - STTL موردان  	{}
+REG1 طوران 	REG1 طوران  - STTL رستاكهن 	{}
+REG1 طوران 	REG1 طوران  - STTL قصدار 	{}
+REG1 طوران 	REG1 طوران  - STTL سورة 	{}
+REG1 طوران 	REG1 طوران  - STTL كهركور 	{}
+REG1 طوران 	REG1 طوران  - STTLرستاق ماسكان 	{}
+REG1 طوران 	REG1 طوران  - STTL محالى 	{}
+REG1 طوران 	REG1 طوران  - STTL خوزي 	{}
+REG1 طوران 	REG1 طوران  - STTL بجثرد 	{}
+REG2 الزاب  - STTL المسيلة 	REG2 الزاب 	{}
+REG1 سامرا  - STTL الکرخ 	REG1 سامرا 	{}
+REG2 بخارا  - STTL نموجكث 	REG2 بخارا 	{}
+REG3 باذغيس  - STTL دهستان 	REG3 باذغيس 	{}
+REG1 فاس  - STTL مدينة بنى قرباس 	REG1 فاس 	{}
+REG1 اليمن 	REG1 اليمن  - REG2 نجد 	{}
+REG1 اليمن 	REG1 اليمن  - REG2 تهامه 	{}
+REG1 فاس  - STTL أكذار ابن شراك 	REG1 فاس 	{}
+REG1 افريقية  - STTL مرسى الحجر 	REG1 افريقية 	{}
+REG3 نيسابور  - REG4 أبيورد 	REG3 نيسابور 	{}
+REG1 فاس  - STTL تيونوا 	REG1 فاس 	{}
+REG3 غزنين  - STTL دمراخى 	REG3 غزنين 	{}
+REG1 السوس الأقصى  - STTL وريكة 	REG1 السوس الأقصى 	{}
+REG2 تهامه  - STTL الحمضة 	REG2 تهامه 	{}
+REG1 أردشيرخره  - STTL سورو 	REG1 أردشيرخره 	{}
+REG1 الحوف  - STTL جرجير 	REG1 الحوف 	{}
+REG1 أردشيرخره  - STTL خبر 	REG1 أردشيرخره 	{}
+REG1 شيراز 	REG1 شيراز  - STTL جور 	{}
+REG1 شيراز 	REG1 شيراز  - STTL شيراز 	{}
+REG1 شيراز 	REG1 شيراز  - STTL فسا 	{}
+REG1 شيراز 	REG1 شيراز  - STTL كورد 	{}
+REG1 شيراز 	REG1 شيراز  - STTL جم 	{}
+REG1 شيراز 	REG1 شيراز  - STTL كارزين 	{}
+REG1 شيراز 	REG1 شيراز  - STTL جوبك 	{}
+REG1 شيراز 	REG1 شيراز  - STTL المص 	{}
+REG1 شيراز 	REG1 شيراز  - STTL البيضاء 	{}
+REG1 شيراز 	REG1 شيراز  - STTL أبك 	{}
+REG1 شيراز 	REG1 شيراز  - STTL هزار 	{}
+REG1 مكران  - STTL جالك 	REG1 مكران 	{}
+REG3 طخارستان  - STTL سراى عاصم 	REG3 طخارستان 	{}
+PROV مصر 	PROV مصر  - REG1 الحوف 	{}
+PROV مصر 	PROV مصر  - REG1 الواحات 	{}
+PROV مصر 	PROV مصر  - REG1 إسكندرية 	{}
+PROV مصر 	PROV مصر  - REG1 الجفار 	{}
+REG2 فرغانة  - STTL شكت 	REG2 فرغانة 	{}
+REG1 الأهواز  - STTL نهر تيري 	REG1 الأهواز 	{}
+REG2 فرغانة  - STTL رنجد 	REG2 فرغانة 	{}
+REG1 الکوفة  - STTL القادسيه 	REG1 الکوفة 	{}
+REG1 الخزر  - STTL قيشوى 	REG1 الخزر 	{}
+REG1 الريف  - STTL سنهور الصغرى 	REG1 الريف 	{}
+REG1 هيطل  - REG2 کش 	REG1 هيطل 	{}
+REG3 مرو الشاهجان  - STTL هرمزفره 	REG3 مرو الشاهجان 	{}
+REG1 افريقية  - STTL أسفاقس 	REG1 افريقية 	{}
+REG3 سجستان  - STTL كزه 	REG3 سجستان 	{}
+REG3 غزنين 	REG3 غزنين  - STTL كاويل 	{}
+REG3 غزنين 	REG3 غزنين  - STTL غزنين 	{}
+REG3 غزنين 	REG3 غزنين  - STTL بردن 	{}
+REG3 غزنين 	REG3 غزنين  - STTL حش بارى 	{}
+REG3 غزنين 	REG3 غزنين  - REG4 والشتان 	{}
+REG3 غزنين 	REG3 غزنين  - STTL لجرا 	{}
+REG3 غزنين 	REG3 غزنين  - STTL خواست 	{}
+REG3 غزنين 	REG3 غزنين  - STTL سرهون 	{}
+REG3 غزنين 	REG3 غزنين  - STTL لهوكر 	{}
+REG3 غزنين 	REG3 غزنين  - STTL كابل  	{}
+REG3 غزنين 	REG3 غزنين  - STTL بودن 	{}
+REG3 غزنين 	REG3 غزنين  - STTLلمغان 	{}
+REG3 غزنين 	REG3 غزنين  - STTL سكاوند 	{}
+REG1 ديار مضر  - STTL حران 	REG1 ديار مضر 	{}
+REG1 ديار مضر  - STTL تل محرى 	REG1 ديار مضر 	{}
+REG1 الحجاز  - STTL حاذة 	REG1 الحجاز 	{}
+REG1 ويهند  - STTL بيتر 	REG1 ويهند 	{}
+PROV جزيرة العرب  - REG1 اليمامة 	PROV جزيرة العرب 	{}
+REG1 السند  - STTL أنرى 	REG1 السند 	{}
+REG1 ديار بکر  - STTL آمد 	REG1 ديار بکر 	{}
+REG1 جيرفت  - STTL درهقان 	REG1 جيرفت 	{}
+PROV خوزستان  - REG1 رامهرمز 	PROV خوزستان 	{}
+REG2 نجد 	REG2 نجد  - STTL الجند 	{}
+REG2 نجد 	REG2 نجد  - STTL خولان 	{}
+REG2 نجد 	REG2 نجد  - STTL نجران 	{}
+REG2 نجد 	REG2 نجد  - STTL ذمار 	{}
+REG2 نجد 	REG2 نجد  - STTL صنعاء 	{}
+REG2 نجد 	REG2 نجد  - STTL جبلان 	{}
+REG2 نجد 	REG2 نجد  - REG3 سبإ 	{}
+REG2 نجد 	REG2 نجد  - STTL يحصب 	{}
+REG2 نجد 	REG2 نجد  - STTL المذيخرة 	{}
+REG2 نجد 	REG2 نجد  - REG3 مهرة 	{}
+REG3 بلخ  - STTL أشفورقان 	REG3 بلخ 	{}
+PROV العراق  - REG1 حلوان 	PROV العراق 	{}
+REG2 الصغانيان  - STTL زينور 	REG2 الصغانيان 	{}
+PROV العراق  - REG1 البصرة 	PROV العراق 	{}
+REG1 الخزر  - STTL بغند 	REG1 الخزر 	{}
+REG3 كنج رستاق  - STTL ببن 	REG3 كنج رستاق 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL مناذر الكبرى 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL الدورق 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL جبى 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL حصن مهدى 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL وسنة 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL بيروه 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL جوزدك 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL الأهواز 	{}
+REG1 الأهواز 	REG1 الأهواز  - STTL باسيان 	{}
+REG1 فاس  - STTL لواتة بركية 	REG1 فاس 	{}
+REG2 تهامه  - STTL دويمة 	REG2 تهامه 	{}
+REG1 واسط  - STTL الطيب 	REG1 واسط 	{}
+REG1 الصعيد  - STTL أسوان 	REG1 الصعيد 	{}
+REG2 إيلاق  - STTL ادخكت 	REG2 إيلاق 	{}
+REG1 جيرفت  - STTL جواون 	REG1 جيرفت 	{}
+REG2 بخارا  - STTL سيشكث 	REG2 بخارا 	{}
+REG1 سابور  - STTL جنبد 	REG1 سابور 	{}
+REG3 أسفزار  - STTL ادرسكر 	REG3 أسفزار 	{}
+REG2 الشاش  - STTL نكالك 	REG2 الشاش 	{}
+REG2 خراسان  - REG3 بلخ 	REG2 خراسان 	{}
+REG1 هجر  - STTL العقير 	REG1 هجر 	{}
+REG3 النساءية 	REG3 النساءية  - STTL وانكت 	{}
+REG3 النساءية 	REG3 النساءية  - STTL رشتان 	{}
+REG3 النساءية 	REG3 النساءية  - STTL برنك 	{}
+REG3 النساءية 	REG3 النساءية  - STTL قبا 	{}
+REG3 النساءية 	REG3 النساءية  - STTL أوش 	{}
+REG3 النساءية 	REG3 النساءية  - STTL كند 	{}
+REG2 الشاش  - STTL كداك 	REG2 الشاش 	{}
+REG3 نيسابور  - REG4 زوزن 	REG3 نيسابور 	{}
+REG1 جزيرة ابن عمر  - STTL باعيناثا 	REG1 جزيرة ابن عمر 	{}
+REG1 افريقية  - STTL دار ملول 	REG1 افريقية 	{}
+REG1 جنديسابور  - REG2 اللور 	REG1 جنديسابور 	{}
+REG1 الحجاز  - STTL أمج 	REG1 الحجاز 	{}
+REG1 هيطل  - REG2 إسبيجاب 	REG1 هيطل 	{}
+REG1 ديار مضر  - STTL الرها 	REG1 ديار مضر 	{}
+REG1 إصطخر  - STTL ترك نيشان 	REG1 إصطخر 	{}
+REG3 بلخ 	REG3 بلخ  - STTL بدخشان 	{}
+REG3 بلخ 	REG3 بلخ  - STTL جا 	{}
+REG3 بلخ 	REG3 بلخ  - STTL بروان 	{}
+REG3 بلخ 	REG3 بلخ  - STTL جاربايه 	{}
+REG3 بلخ 	REG3 بلخ  - STTL سليم 	{}
+REG3 بلخ 	REG3 بلخ  - STTL مذر 	{}
+REG1 فاس  - STTL أزيلا 	REG1 فاس 	{}
+REG2 الختل 	REG2 الختل  - STTL هلبك 	{}
+REG2 الختل 	REG2 الختل  - STTL اسكندرة 	{}
+REG2 الختل 	REG2 الختل  - STTL هلاورد 	{}
+REG2 الختل 	REG2 الختل  - STTL تمليات 	{}
+REG2 الختل 	REG2 الختل  - STTL لاوكند 	{}
+REG2 الختل 	REG2 الختل  - STTL فارغر 	{}
+REG2 الختل 	REG2 الختل  - STTL كاربنك 	{}
+REG2 الختل 	REG2 الختل  - STTL مرند 	{}
+REG2 الختل 	REG2 الختل  - STTL منك 	{}
+REG2 الختل 	REG2 الختل  - STTL انديجارغ 	{}
+REG2 الختل 	REG2 الختل  - STTL بنك 	{}
+REG3 قوهستان  - STTL خور 	REG3 قوهستان 	{}
+REG1 الريف  - STTL محلة 	REG1 الريف 	{}
+REG1 السوس الأقصى  - STTL ماسة 	REG1 السوس الأقصى 	{}
+REG1 السند  - STTL مايل 	REG1 السند 	{}
+REG1 السند  - STTL بانية 	REG1 السند 	{}
+REG2 اشروسنة  - STTL مرسمندة 	REG2 اشروسنة 	{}
+REG3 بوشنج  - STTL خركرد 	REG3 بوشنج 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL حصن السودان 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL تادنقوست 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL تازروت 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL سجلماسة 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL ايلا 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL حصن برارة 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL إمصلى 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL ويلميس 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL الخيامات 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL هلال 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL النحاسين 	{}
+REG1 سجلماسة 	REG1 سجلماسة  - STTL اثر 	{}
+REG1 جنديسابور 	REG1 جنديسابور  - REG2 بايوه 	{}
+REG1 جنديسابور 	REG1 جنديسابور  - REG2 قاضبين 	{}
+REG1 جنديسابور 	REG1 جنديسابور  - REG2 الدز 	{}
+REG1 جنديسابور 	REG1 جنديسابور  - REG2  الروناش 	{}
+REG1 جنديسابور 	REG1 جنديسابور  - STTL جنديسابور 	{}
+REG1 عمان 	REG1 عمان  - STTL حفيت 	{}
+REG1 عمان 	REG1 عمان  - STTL جلفار 	{}
+REG1 عمان 	REG1 عمان  - STTL ملح 	{}
+REG1 عمان 	REG1 عمان  - STTL ضنك 	{}
+REG1 عمان 	REG1 عمان  - STTL سمد 	{}
+REG1 عمان 	REG1 عمان  - STTL صحار 	{}
+REG1 عمان 	REG1 عمان  - STTL سلوت 	{}
+REG1 عمان 	REG1 عمان  - STTL دبا 	{}
+REG1 عمان 	REG1 عمان  - STTL السر 	{}
+REG1 افريقية  - STTL سوق ابن خلف 	REG1 افريقية 	{}
+REG3 مرو الشاهجان  - STTL خرق 	REG3 مرو الشاهجان 	{}
+REG3 قوهستان  - STTL كرى 	REG3 قوهستان 	{}
+REG1 افريقية  - STTL مرسى الدجاج 	REG1 افريقية 	{}
+REG3 نيسابور  - REG4 بشتفروش 	REG3 نيسابور 	{}
+REG1 افريقية  - STTL متيجة 	REG1 افريقية 	{}
+REG2 اشروسنة  - STTL ارسبانيكث	REG2 اشروسنة 	{}
+REG3 نيسابور  - REG4 بوزجان 	REG3 نيسابور 	{}
+REG2 خراسان  - REG3 باميان 	REG2 خراسان 	{}
+REG1 فاس  - STTL برجن اوزكى  	REG1 فاس 	{}
+REG1 قنوج  - STTL اورهة 	REG1 قنوج 	{}
+REG1 افريقية  - STTL مس 	REG1 افريقية 	{}
+REG1 أرجان  - STTL قوستان 	REG1 أرجان 	{}
+REG1 افريقية  - STTL ميلى 	REG1 افريقية 	{}
+REG3 باذغيس  - STTL كابرون 	REG3 باذغيس 	{}
+REG1 سامرا  - STTL رذانات 	REG1 سامرا 	{}
+REG1 سامرا 	REG1 سامرا  - STTL تکريت 	{}
+REG1 سامرا 	REG1 سامرا  - STTL بت 	{}
+REG1 سامرا 	REG1 سامرا  - STTL الأنبار 	{}
+REG1 سامرا 	REG1 سامرا  - STTL حري 	{}
+REG1 سامرا 	REG1 سامرا  - STTL راقفروبة 	{}
+REG1 سامرا 	REG1 سامرا  - STTL هيت 	{}
+REG1 سامرا 	REG1 سامرا  - STTL سامرا 	{}
+REG1 سامرا 	REG1 سامرا  - STTL أيوانا 	{}
+REG1 سامرا 	REG1 سامرا  - STTL بريقا 	{}
+REG1 سامرا 	REG1 سامرا  - STTL قصر الجص 	{}
+REG1 مكران  - STTL كبرتون 	REG1 مكران 	{}
+REG3 والشتان  - STTL سكيرة 	REG3 والشتان 	{}
+REG2 الزاب  - STTL طبنة 	REG2 الزاب 	{}
+REG1 الخزر  - STTL سمندر 	REG1 الخزر 	{}
+REG2 بخارا  - STTL ورخشى 	REG2 بخارا 	{}
+REG1 افريقية  - STTL تابريت 	REG1 افريقية 	{}
+REG1 رامهرمز  - STTL بابج 	REG1 رامهرمز 	{}
+REG3 قوهستان  - STTL قاين 	REG3 قوهستان 	{}
+REG1 الديلمان  - STTL شكيرز 	REG1 الديلمان 	{}
+REG1 افريقية  - STTL لافس 	REG1 افريقية 	{}
+REG1 الخابور 	REG1 الخابور  - STTL ميکسين 	{}
+REG1 الخابور 	REG1 الخابور  - STTL الخشية 	{}
+REG1 الخابور 	REG1 الخابور  - STTL التنانير 	{}
+REG1 الخابور 	REG1 الخابور  - STTL السکينية 	{}
+REG1 الخابور 	REG1 الخابور  - STTL الشمسينية 	{}
+REG1 سابور  - STTL النوبندجان 	REG1 سابور 	{}
+REG1 الحوف 	REG1 الحوف  - STTL دمياط 	{}
+REG1 الحوف 	REG1 الحوف  - STTL بلبيس 	{}
+REG1 الحوف 	REG1 الحوف  - STTL بريم 	{}
+REG1 الحوف 	REG1 الحوف  - STTL غيفا 	{}
+REG1 الحوف 	REG1 الحوف  - STTL تنيس 	{}
+REG1 الحوف 	REG1 الحوف  - STTL مشتول 	{}
+REG2 خبيص  - STTL نشك 	REG2 خبيص 	{}
+REG1 الملتان 	REG1 الملتان  - STTL الملتان 	{}
+REG1 الملتان 	REG1 الملتان  - STTL وروين 	{}
+REG1 الملتان 	REG1 الملتان  - STTL برور 	{}
+REG1 الملتان 	REG1 الملتان  - STTL برار 	{}
+REG1 الملتان 	REG1 الملتان  - STTL راماذان 	{}
+REG1 افريقية  - STTL مرنيسة 	REG1 افريقية 	{}
+REG3 الواغز  - STTL بيكان 	REG3 الواغز 	{}
+REG1 أرجان  - STTL أرجان 	REG1 أرجان 	{}
+REG1 هجر  - STTL أوال 	REG1 هجر 	{}
+REG1 جيرفت  - STTL زوذكان 	REG1 جيرفت 	{}
+REG1 السند  - STTL تنبلى 	REG1 السند 	{}
+REG3 بوشنج  - STTL كره 	REG3 بوشنج 	{}
+REG2 بخارا  - STTL بخسون 	REG2 بخارا 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL خست 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL طخارستان 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL سمنجان 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL ولوالج 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL أندراب 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL غربنك 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL اسكيمشت 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL رؤب 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL راون 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL الطالقان 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL بغلان السفلى 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL  آرهن 	{}
+REG3 طخارستان 	REG3 طخارستان  - STTL خلم 	{}
+PROV الرحاب 	PROV الرحاب  - REG1 أذربيجان 	{}
+PROV الرحاب 	PROV الرحاب  - REG1 الران 	{}
+PROV الرحاب 	PROV الرحاب  - REG1 أرمينية 	{}
+REG1 ديار مضر  - STTL ترعوز 	REG1 ديار مضر 	{}
+REG1 أردشيرخره  - STTL كران 	REG1 أردشيرخره 	{}
+REG1 فاس  - STTL بلد غمار 	REG1 فاس 	{}
+REG1 رامهرمز  - STTL غروة 	REG1 رامهرمز 	{}
+REG2 الشاش  - STTL بركوش 	REG2 الشاش 	{}
+REG3 نيسابور  - REG4 باخرز 	REG3 نيسابور 	{}
+REG3 سجستان  - STTL زرنج 	REG3 سجستان 	{}
+REG2 البقاع  - STTL بعلبك 	REG2 البقاع 	{}
+REG1 الصعيد  - STTL طحا 	REG1 الصعيد 	{}
+REG2 اشروسنة  - STTL خرقانة 	REG2 اشروسنة 	{}
+REG1 افريقية  - STTL المهدية 	REG1 افريقية 	{}
+REG1 افريقية  - STTL مرسى الحجامين 	REG1 افريقية 	{}
+REG2 تهامه 	REG2 تهامه  - STTL الحردة 	{}
+REG2 تهامه 	REG2 تهامه  - STTL عطنة 	{}
+REG2 تهامه 	REG2 تهامه  - STTL المهجم 	{}
+REG2 تهامه 	REG2 تهامه  - STTL زبيد 	{}
+REG2 تهامه 	REG2 تهامه  - STTL الساعد 	{}
+REG2 تهامه 	REG2 تهامه  - STTL مور 	{}
+REG2 تهامه 	REG2 تهامه  - REG3 عثر 	{}
+REG2 تهامه 	REG2 تهامه  - REG3 السروات 	{}
+REG2 تهامه 	REG2 تهامه  - REG3 أبين 	{}
+REG2 تهامه 	REG2 تهامه  - STTL معقر 	{}
+REG2 تهامه 	REG2 تهامه  - STTL كمران 	{}
+REG2 تهامه 	REG2 تهامه  - STTL الشرجة 	{}
+REG2 تهامه 	REG2 تهامه  - STTL غلافقة 	{}
+REG2 تهامه 	REG2 تهامه  - STTL العشيرة 	{}
+REG2 تهامه 	REG2 تهامه  - STTL رنقة 	{}
+REG2 خبيص  - STTL كثروا 	REG2 خبيص 	{}
+REG3 نيسابور  - REG4 الشامات 	REG3 نيسابور 	{}
+PROV جزيرة العرب  - REG1 الأشجار 	PROV جزيرة العرب 	{}
+REG2 الزاب  - STTL أدنة 	REG2 الزاب 	{}
+REG2 الشاش  - STTL كبرنه 	REG2 الشاش 	{}
+PROV كرمان 	PROV كرمان  - REG1 جيرفت 	{}
+PROV كرمان 	PROV كرمان  - REG1 السيرجان 	{}
+PROV كرمان 	PROV كرمان  - REG1 نرماسير 	{}
+PROV كرمان 	PROV كرمان  - REG1 بم 	{}
+REG3 مرو الشاهجان  - STTL باشان 	REG3 مرو الشاهجان 	{}
+REG1 فاس  - STTL قلعة شميت 	REG1 فاس 	{}
+REG1 قومس  - STTL بسطام 	REG1 قومس 	{}
+REG1 الصعيد  - STTL تندة 	REG1 الصعيد 	{}
+REG1 سابور  - STTL كندران 	REG1 سابور 	{}
+PROV الجبال  - REG1 الصيمرة 	PROV الجبال 	{}
+REG1 الحجاز  - STTL السوارقية 	REG1 الحجاز 	{}
+REG1 إصطخر  - STTL مائين الفهرج 	REG1 إصطخر 	{}
+REG1 الاردن  - STTL أذرعات 	REG1 الاردن 	{}
+REG1 الران  - STTL تبلا 	REG1 الران 	{}
+PROV الجبال  - REG1 أصفهان 	PROV الجبال 	{}
+REG1 سابور  - STTL توز 	REG1 سابور 	{}
+REG1 افريقية  - STTL بنزرت 	REG1 افريقية 	{}
+REG1 أرجان  - STTL داريان 	REG1 أرجان 	{}
+REG2 بخارا  - STTLمغكان 	REG2 بخارا 	{}
+REG2 اشروسنة  - STTL زامين 	REG2 اشروسنة 	{}
+REG1 افريقية  - STTL قلعة برجمة 	REG1 افريقية 	{}
+PROV الجبال  - REG1 الري 	PROV الجبال 	{}
+REG1 نرماسير 	REG1 نرماسير  - STTL نسا 	{}
+REG3 قوهستان  - STTL طبس 	REG3 قوهستان 	{}
+REG2 خراسان  - REG3 أسفزار 	REG2 خراسان 	{}
+REG3 نيسابور  - REG4 زاوه 	REG3 نيسابور 	{}
+REG3 قوهستان 	REG3 قوهستان  - STTL تون 	{}
+REG3 قوهستان 	REG3 قوهستان  - STTLطبس التمر 	{}
+REG3 قوهستان 	REG3 قوهستان  - STTL الرقة 	{}
+REG3 قوهستان 	REG3 قوهستان  - STTL العناب 	{}
+REG3 قوهستان 	REG3 قوهستان  - STTL جنابد 	{}
+REG3 قوهستان 	REG3 قوهستان  - STTL خوست 	{}
+REG1 افريقية  - STTL مسكيانة 	REG1 افريقية 	{}
+REG2 خراسان  - REG3 قوهستان 	REG2 خراسان 	{}
+PROV فارس  - REG1 أرجان 	PROV فارس 	{}
+REG3 الواغز  - STTL جدغل 	REG3 الواغز 	{}
+REG1 فاس  - STTL املاه ابى الحسن 	REG1 فاس 	{}
+REG1 سابور  - STTL شهرستان 	REG1 سابور 	{}
+REG1 الحجاز  - STTL العونيد 	REG1 الحجاز 	{}
+REG1 ديار مضر  - STTL الحريش 	REG1 ديار مضر 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL الفرع 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL الحجر 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL الجحفة 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL جبلة 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL مهايع 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL خيبر 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL يثرب 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL قرح 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL العشيرة 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL السيرة 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL الحوراء 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL الطائف 	{}
+REG1 الحجاز 	REG1 الحجاز  - STTL ينبع 	{}
+REG2 الصغانيان  - STTL شومان 	REG2 الصغانيان 	{}
+REG1 هيطل  - REG2 الصغانيان 	REG1 هيطل 	{}
+REG1 قنوج  - STTL بارد 	REG1 قنوج 	{}
+PROV فارس  - REG1 خسو 	PROV فارس 	{}
+REG3 سجستان  - STTL درهند 	REG3 سجستان 	{}
+REG2 الشاش  - STTL جيغوكت 	REG2 الشاش 	{}
+REG1 السند  - STTL المسواهى 	REG1 السند 	{}
+REG1 جيرفت  - STTL مغون 	REG1 جيرفت 	{}
+PROV فارس  - REG1 إصطخر 	PROV فارس 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL منارة 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL خير لام 	{}
+REG2 فرغانة 	REG2 فرغانة  - REG3 النساء 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL نصراباذ 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL زاركان 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL بشبشان 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL أشتيقان 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL أخسيكت 	{}
+REG2 فرغانة 	REG2 فرغانة  - STTL وزرندرامش 	{}
+REG2 إيلاق  - STTL خجاكث 	REG2 إيلاق 	{}
+REG1 ديار مضر 	REG1 ديار مضر  - STTL حصن مسلمة 	{}
+REG1 ديار مضر 	REG1 ديار مضر  - STTL خانوقة 	{}
+REG1 ديار مضر 	REG1 ديار مضر  - STTL الرافقة 	{}
+REG1 ديار مضر 	REG1 ديار مضر  - STTL باجروان 	{}
+REG1 ديار مضر 	REG1 ديار مضر  - STTL المحترقة 	{}
+REG3 نيسابور  - REG4 جاجرم 	REG3 نيسابور 	{}
+REG1 افريقية  - STTL بنطيوس 	REG1 افريقية 	{}
+REG3 سجستان  - STTL فره 	REG3 سجستان 	{}
+REG2 کش  - STTL نوقد قريش 	REG2 کش 	{}
+PROV الجبال 	PROV الجبال  - REG1 قاشان 	{}
+PROV الجبال 	PROV الجبال  - REG1 همذان 	{}
+PROV الجبال 	PROV الجبال  - REG1 شهرزور 	{}
+PROV الجبال 	PROV الجبال  - REG1 ماه البصرة 	{}
+PROV الجبال 	PROV الجبال  - REG1 ماه الكوفة 	{}
+PROV الجبال 	PROV الجبال  - REG1 كرج 	{}
+REG1 أردشيرخره  - STTL نابند دون 	REG1 أردشيرخره 	{}
+REG1 إصطخر  - STTL سروستان 	REG1 إصطخر 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL قيس 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL علاقى 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL بوصير 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL بهنسة 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL إخميم 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL أشمونين 	{}
+REG1 الصعيد 	REG1 الصعيد  - STTL سمسطا 	{}
+REG2 خراسان  - REG3 كنج رستاق 	REG2 خراسان 	{}
+REG2 الشاش  - STTL أنوذكت 	REG2 الشاش 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL داخرقان 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL خلاط 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL سنجان 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL قاليقلا 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL أرجيش 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL قلعة يونس 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL نورين 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL أهر 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL سلماس 	{}
+REG1 أرمينية 	REG1 أرمينية  - STTL أرمية 	{}
+REG1 الخزر 	REG1 الخزر  - STTL خمليج 	{}
+REG1 الخزر 	REG1 الخزر  - STTL سوار 	{}
+REG1 الخزر 	REG1 الخزر  - STTL البيضاء 	{}
+REG1 الخزر 	REG1 الخزر  - STTL بلنجر 	{}
+REG1 الخزر 	REG1 الخزر  - STTL بلغار 	{}
+PROV أقور  - REG1 الفراتية 	PROV أقور 	{}
+REG1 تستر  - STTL تستر 	REG1 تستر 	{}
+REG1 جيرفت  - STTL منوقان 	REG1 جيرفت 	{}
+REG1 الران  - STTL برذعة 	REG1 الران 	{}
+REG2 اشروسنة  - STTL بنجكث 	REG2 اشروسنة 	{}
+REG3 الواغز  - STTL باب 	REG3 الواغز 	{}
+REG2 اشروسنة  - STTL غزق 	REG2 اشروسنة 	{}
+REG1 افريقية  - STTL قرنة 	REG1 افريقية 	{}
+REG1 واسط 	REG1 واسط  - STTL قراقبه 	{}
+REG1 واسط 	REG1 واسط  - STTL باذبين 	{}
+REG1 واسط 	REG1 واسط  - STTL فم الصلح 	{}
+REG1 واسط 	REG1 واسط  - STTL درمکان 	{}
+REG1 واسط 	REG1 واسط  - STTL السکر 	{}
+REG1 أردشيرخره  - STTL الصيمكان 	REG1 أردشيرخره 	{}
+REG1 افريقية  - STTL بنونش 	REG1 افريقية 	{}
+REG1 افريقية  - STTL غيبث 	REG1 افريقية 	{}
+REG1 بم  - STTL طوشتان 	REG1 بم 	{}
+REG1 أذربيجان  - STTL جابروان 	REG1 أذربيجان 	{}
+REG1 افريقية  - STTL مقرة 	REG1 افريقية 	{}
+REG3 هراة 	REG3 هراة  - STTL مالن 	{}
+REG3 هراة 	REG3 هراة  - STTL استرينان 	{}
+REG3 هراة 	REG3 هراة  - STTL ماراباذ 	{}
+REG3 هراة 	REG3 هراة  - STTL أوبه 	{}
+REG1 نيريز  - STTL خيار 	REG1 نيريز 	{}
+REG2 الزاب  - STTL أشير 	REG2 الزاب 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL كهسيم 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL نوكث 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL خمرك 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL غرجند 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL نموذلغ 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL شاوكث 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL بسكت 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL سيكث 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL خاس 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL اربلخ 	{}
+REG2 إيلاق 	REG2 إيلاق  - STTL بالايان 	{}
+PROV خوزستان  - REG1 جنديسابور 	PROV خوزستان 	{}
+REG2 الصغانيان  - STTL دستجرد 	REG2 الصغانيان 	{}
+REG1 افريقية  - STTL عين العصافير 	REG1 افريقية 	{}
+REG1 ويهند  - STTL نوج 	REG1 ويهند 	{}
+REG1 أذربيجان  - STTL الميانج 	REG1 أذربيجان 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 كويان 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 خواف 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 أستوا 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 أسفند 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 بيهق 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 طوس 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 رخ 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 بشت 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 جام 	{}
+REG3 نيسابور 	REG3 نيسابور  - REG4 أسفراين 	{}
+REG3 والشتان  - STTL ابشين 	REG3 والشتان 	{}
+REG3 أسفزار 	REG3 أسفزار  - STTL كوشك 	{}
+REG3 أسفزار 	REG3 أسفزار  - STTL كواران 	{}
+REG2 بخارا  - STTL فغرسين 	REG2 بخارا 	{}
+REG1 الريف 	REG1 الريف  - STTL محلة زياد 	{}
+REG1 الريف 	REG1 الريف  - STTL محلة زيد 	{}
+REG1 الريف 	REG1 الريف  - STTL محلة حفص 	{}
+REG1 الريف 	REG1 الريف  - STTL بورة 	{}
+REG1 الريف 	REG1 الريف  - STTL شبرو 	{}
+REG1 الريف 	REG1 الريف  - STTL المحلة الكبيرة 	{}
+REG1 الريف 	REG1 الريف  - STTL مليج 	{}
+REG1 الريف 	REG1 الريف  - STTL دقهلة 	{}
+REG1 الريف 	REG1 الريف  - STTL سدر 	{}
+REG1 الريف 	REG1 الريف  - STTLدمنهور 	{}
+REG1 الريف 	REG1 الريف  - STTL دميرة 	{}
+REG1 الاردن 	REG1 الاردن  - STTL قدس 	{}
+REG1 الاردن 	REG1 الاردن  - STTL بيسان 	{}
+REG1 الاردن 	REG1 الاردن  - STTL اللجون 	{}
+REG1 الاردن 	REG1 الاردن  - STTL كابل 	{}
+REG1 الاردن 	REG1 الاردن  - STTL عكا 	{}
+REG3 عثر  - STTL السرين 	REG3 عثر 	{}
+REG1 السوس 	REG1 السوس  - STTL كرخة 	{}
+REG1 السوس 	REG1 السوس  - STTL البذان 	{}
+REG1 السوس 	REG1 السوس  - STTL قرية الرمل 	{}
+REG1 السوس 	REG1 السوس  - STTL بصنا 	{}
+REG1 السوس 	REG1 السوس  - STTL بيروت 	{}
+REG1 السوس 	REG1 السوس  - STTL متوت 	{}
+REG2 اشروسنة  - STTL قطوان دزه 	REG2 اشروسنة 	{}
+REG1 قومس  - STTL الدامغان 	REG1 قومس 	{}
+REG1 قنوج  - STTL ابار 	REG1 قنوج 	{}
+REG1 أردشيرخره  - STTL سميران 	REG1 أردشيرخره 	{}
+REG1 أذربيجان  - STTL ورثان 	REG1 أذربيجان 	{}
+REG3 مرو الشاهجان  - STTL دندانقان 	REG3 مرو الشاهجان 	{}
+REG2 کش  - STTL سونج 	REG2 کش 	{}
+REG1 قنوج  - STTL زهو 	REG1 قنوج 	{}
+REG1 ويهند  - STTL قامهل 	REG1 ويهند 	{}
+PROV أقور  - REG1 ديار بکر 	PROV أقور 	{}
+REG1 افريقية  - STTL مرسى الخرز 	REG1 افريقية 	{}
+REG1 جزيرة ابن عمر  - STTL فيشابور 	REG1 جزيرة ابن عمر 	{}
+REG1 افريقية  - STTL لربس 	REG1 افريقية 	{}
+REG1 أرجان  - STTL جومة 	REG1 أرجان 	{}
+REG1 مضر  - REG2 کفرسيرين 	REG1 مضر 	{}
+REG2 بخارا  - STTL نويدك 	REG2 بخارا 	{}
+REG2 الصغانيان  - STTL بابباب 	REG2 الصغانيان 	{}
+REG2 الصغانيان  - STTL هنبان 	REG2 الصغانيان 	{}
+REG2 الشاش  - STTL خرشكث 	REG2 الشاش 	{}
+REG1 جرجان  - STTL شهرستان 	REG1 جرجان 	{}
+REG1 افريقية  - STTL قفصة 	REG1 افريقية 	{}
+REG1 ديار بکر 	REG1 ديار بکر  - STTL حاذية 	{}
+REG1 ديار بکر 	REG1 ديار بکر  - STTL تل فافان 	{}
+REG1 ديار بکر 	REG1 ديار بکر  - STTL الفار 	{}
+REG1 ديار بکر 	REG1 ديار بکر  - STTL حصن کيفا 	{}
+REG1 افريقية 	REG1 افريقية  - STTL قسطيلية 	{}
+REG1 افريقية 	REG1 افريقية  - STTL جزيرة أبى شريك 	{}
+REG1 افريقية 	REG1 افريقية  - STTL طبنة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL سوق إبراهيم 	{}
+REG1 افريقية 	REG1 افريقية  - STTL سوسة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL تنس 	{}
+REG1 افريقية 	REG1 افريقية  - STTL باغاى 	{}
+REG1 افريقية 	REG1 افريقية  - STTL تامسنت 	{}
+REG1 افريقية 	REG1 افريقية  - STTL لجم 	{}
+REG1 افريقية 	REG1 افريقية  - STTL هياجة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL صبرة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL ركوى 	{}
+REG1 افريقية 	REG1 افريقية  - STTL تيجس 	{}
+REG1 افريقية 	REG1 افريقية  - STTL نفطة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL جيجل 	{}
+REG1 افريقية 	REG1 افريقية  - STTL الغزة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL مدينة القصور 	{}
+REG1 افريقية 	REG1 افريقية  - STTL جمونس الصابون 	{}
+REG1 افريقية 	REG1 افريقية  - STTL باجة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL إيكجا 	{}
+REG1 افريقية 	REG1 افريقية  - STTL أشير 	{}
+REG1 افريقية 	REG1 افريقية  - STTLدوفانة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL القيروان 	{}
+REG1 افريقية 	REG1 افريقية  - STTL نفزاوة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL مدينة المهريين 	{}
+REG1 افريقية 	REG1 افريقية  - STTL سوق حمزة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL دار 	{}
+REG1 افريقية 	REG1 افريقية  - STTL قمودة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL رصفة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL طرس 	{}
+REG1 افريقية 	REG1 افريقية  - STTL القسطنطينية 	{}
+REG1 افريقية 	REG1 افريقية  - STTL يلل 	{}
+REG1 افريقية 	REG1 افريقية  - STTL سطيف 	{}
+REG1 افريقية 	REG1 افريقية  - STTL بونة 	{}
+REG1 افريقية 	REG1 افريقية  - STTL قصر الافريقى 	{}
+REG1 افريقية 	REG1 افريقية  - STTL تونس 	{}
+PROV الديلم  - REG1 طبرستان 	PROV الديلم 	{}
+REG3 باذغيس  - STTL بشت 	REG3 باذغيس 	{}
+REG1 أرجان  - STTL جنابة 	REG1 أرجان 	{}
+REG1 السند  - STTL المنصورة 	REG1 السند 	{}
+REG1 إصطخر  - STTL أسبنجان 	REG1 إصطخر 	{}
+REG2 خراسان  - REG3 بست 	REG2 خراسان 	{}
+REG1 السند  - STTL البهرج 	REG1 السند 	{}
+REG1 ويهند  - STTL قوج 	REG1 ويهند 	{}
+REG3 كنج رستاق  - STTL كيف 	REG3 كنج رستاق 	{}
+REG1 مكران  - STTL أرمائيل 	REG1 مكران 	{}
+REG1 الران  - STTL برديج 	REG1 الران 	{}
+REG1 مكران  - STTL اصفقة 	REG1 مكران 	{}
+REG1 مكران  - STTL دشت علي 	REG1 مكران 	{}
+REG2 بخارا 	REG2 بخارا  - STTL وزرميثن 	{}
+REG2 بخارا 	REG2 بخارا  - STTL عروان 	{}
+REG2 بخارا 	REG2 بخارا  - STTL سيكث 	{}
+REG2 بخارا 	REG2 بخارا  - STTL وركي 	{}
+REG2 بخارا 	REG2 بخارا  - STTL خرغانكث 	{}
+REG2 بخارا 	REG2 بخارا  - STTL خجادى 	{}
+REG2 بخارا 	REG2 بخارا  - STTL جرغر 	{}
+REG2 بخارا 	REG2 بخارا  - STTL كمجكث 	{}
+REG2 بخارا 	REG2 بخارا  - STTL الطواويس 	{}
+REG2 بخارا 	REG2 بخارا  - STTL بيكند 	{}
+REG1 أذربيجان  - STTL موقان 	REG1 أذربيجان 	{}
+REG2 الشاش  - STTL اجخ 	REG2 الشاش 	{}
+REG1 مكران  - STTL قصر قند 	REG1 مكران 	{}
+PROV فارس  - REG1 درابجرد 	PROV فارس 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - STTL كردكث 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - STTL فغكث 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - STTL نوجكث 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 برغر 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 بانغام 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - STTL خشت 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 ارسبانيكث 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 مينك 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 البتم 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 مسحا 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - STTL ساباط 	{}
+REG2 اشروسنة 	REG2 اشروسنة  - REG3 وقر 	{}
+REG1 أردشيرخره  - STTL الغندجان 	REG1 أردشيرخره 	{}
+REG1 الجفار  - STTL الفرما 	REG1 الجفار 	{}
+REG1 فاس  - STTL مكناسة 	REG1 فاس 	{}
+REG1 أردشيرخره  - STTL خورستان 	REG1 أردشيرخره 	{}
+REG3 الواغز  - STTL مسكان 	REG3 الواغز 	{}
+REG1 ويهند  - STTL ويهند 	REG1 ويهند 	{}
+REG3 سجستان  - STTL نه 	REG3 سجستان 	{}
+REG1 الکوفة  - STTL عين التمر 	REG1 الکوفة 	{}
+REG3 بوشنج  - STTL فركرد 	REG3 بوشنج 	{}
+REG1 فاس  - STTL سوق الكتامي 	REG1 فاس 	{}
+REG1 أصفهان  - STTL اليهودية 	REG1 أصفهان 	{}
+PROV أقور  - REG1 الخابور 	PROV أقور 	{}
+REG2 الشاش  - STTL بناكث 	REG2 الشاش 	{}
+REG3 مروالروذ  - STTL قصر أحنف 	REG3 مروالروذ 	{}
+PROV خوزستان  - REG1 عسكر مكرم 	PROV خوزستان 	{}
+REG1 جرجان  - STTL أستراباذ 	REG1 جرجان 	{}
+REG2 الشاش  - STTL نوجكث 	REG2 الشاش 	{}
+REG1 فاس  - STTL نقاوس 	REG1 فاس 	{}
+REG1 هجر 	REG1 هجر  - STTL سابون 	{}
+REG1 هجر 	REG1 هجر  - STTL الأحساء 	{}
+REG1 هجر 	REG1 هجر  - STTL الزرقاء 	{}
+REG1 الجفار  - STTL البقارة 	REG1 الجفار 	{}
+REG1 قنوج  - STTL وجين 	REG1 قنوج 	{}
+REG2 الشاش  - STTL بنكث 	REG2 الشاش 	{}
+REG1 أردشيرخره  - STTL نجيرم 	REG1 أردشيرخره 	{}
+REG1 هيطل  - REG2 نسف 	REG1 هيطل 	{}
+PROV جزيرة العرب  - REG1 الأحقاف 	PROV جزيرة العرب 	{}
+REG3 باذغيس  - STTL كوغاناباذ 	REG3 باذغيس 	{}
+REG1 حلوان  - STTL خانقين 	REG1 حلوان 	{}
+REG3 مرو الشاهجان  - STTL سنك عبادى 	REG3 مرو الشاهجان 	{}
+REG2 خبيص  - STTL كشيد 	REG2 خبيص 	{}
+REG1 إصطخر  - STTL هراة 	REG1 إصطخر 	{}
+REG2 الصغانيان  - STTL بوراب 	REG2 الصغانيان 	{}
+PROV أقور  - REG1 ديار ربيعة 	PROV أقور 	{}
+REG2 کش 	REG2 کش  - STTL اسكيفغن 	{}
+REG1 مكران  - STTL بربور 	REG1 مكران 	{}
+REG2 الشاش  - STTL غرجند 	REG2 الشاش 	{}
+REG1 فاس  - STTL نكور 	REG1 فاس 	{}
+PROV خوزستان  - REG1 الأهواز 	PROV خوزستان 	{}
+REG1 ويهند  - STTL سمان 	REG1 ويهند 	{}
+REG1 جرجان  - STTL آخر 	REG1 جرجان 	{}
+REG1 الکوفة  - STTL الکوفة 	REG1 الکوفة 	{}
+REG1 السند  - STTL بلرى 	REG1 السند 	{}
+REG3 الواغز  - STTL دكركرد 	REG3 الواغز 	{}
+REG1 أذربيجان  - STTL برزند 	REG1 أذربيجان 	{}
+PROV فارس  - REG1 سابور 	PROV فارس 	{}
+REG2 البقاع  - STTL كامد 	REG2 البقاع 	{}
+PROV الشام 	PROV الشام  - REG1 قنسرين 	{}
+PROV الشام 	PROV الشام  - REG1 دمشق 	{}
+PROV الشام 	PROV الشام  - REG1 فلسطين 	{}
+REG1 الکوفة  - STTL حمام ابن عمر 	REG1 الکوفة 	{}
+REG1 ويهند 	REG1 ويهند  - STTL وذهان 	{}
+REG1 ويهند 	REG1 ويهند  - STTL سندان 	{}
+REG1 ويهند 	REG1 ويهند  - STTL الملتان 	{}
+REG1 ويهند 	REG1 ويهند  - STTL سوبارة 	{}
+REG1 ويهند 	REG1 ويهند  - STTL جندرور 	{}
+REG1 ويهند 	REG1 ويهند  - STTL صيمور 	{}
+REG1 فاس  - STTL سلا 	REG1 فاس 	{}
+REG1 فاس  - STTL مطماطة 	REG1 فاس 	{}
+REG2 الشاش  - STTL نمدوانك 	REG2 الشاش 	{}
+REG1 فلسطين  - STTL غزة 	REG1 فلسطين 	{}
+REG2 الزاب  - STTL بادس 	REG2 الزاب 	{}
+REG1 أذربيجان 	REG1 أذربيجان  - STTL خونج 	{}
+REG1 أذربيجان 	REG1 أذربيجان  - STTL بروى 	{}
+REG1 أذربيجان 	REG1 أذربيجان  - STTL أردبيل 	{}
+REG1 أذربيجان 	REG1 أذربيجان  - STTL ميمذ 	{}
+REG2 خراسان  - REG3 نيسابور 	REG2 خراسان 	{}
+REG1 الران  - STTL شروان 	REG1 الران 	{}
+REG3 سجستان  - STTL الطاق 	REG3 سجستان 	{}
+REG2 خراسان  - REG3 مرو الشاهجان 	REG2 خراسان 	{}
+PROV فارس  - REG1 أردشيرخره 	PROV فارس 	{}
+REG1 سابور  - STTL خره 	REG1 سابور 	{}
+REG2 الشاش  - STTL خاتونكت 	REG2 الشاش 	{}
+REG1 إصطخر  - STTL شبابك 	REG1 إصطخر 	{}
+REG1 الديلمان  - STTL بروان 	REG1 الديلمان 	{}
+REG1 الران  - STTL شكى 	REG1 الران 	{}
+REG1 فاس  - STTL قسطيلية 	REG1 فاس 	{}
+REG2 الصغانيان  - STTL بهام 	REG2 الصغانيان 	{}
+REG1 فلسطين  - STTL عسقلان 	REG1 فلسطين 	{}
+REG1 مكران  - STTL مشكة 	REG1 مكران 	{}
+REG2 الشاش  - STTL جينانجكث 	REG2 الشاش 	{}
+PROV فارس  - REG1 نيريز 	PROV فارس 	{}
+REG1 قومس 	REG1 قومس  - STTL بيار 	{}
+REG1 قومس 	REG1 قومس  - STTL مغون 	{}
+REG1 قومس 	REG1 قومس  - STTL سمنان 	{}
+REG1 الديلمان  - STTL خشم 	REG1 الديلمان 	{}
+REG2 الشاش  - STTL فرنكد 	REG2 الشاش 	{}
+REG1 سابور  - STTL دريز 	REG1 سابور 	{}
+PROV المشرق 	PROV المشرق  - REG1 خراسان 	{}
+REG1 إصطخر 	REG1 إصطخر  - STTL شهرباتق 	{}
+REG1 إصطخر 	REG1 إصطخر  - STTL خرمة 	{}
+REG1 إصطخر 	REG1 إصطخر  - STTL أورد 	{}
+REG1 إصطخر 	REG1 إصطخر  - STTL الحيرة 	{}
+REG1 إصطخر 	REG1 إصطخر  - STTL الرون 	{}
+REG1 إصطخر 	REG1 إصطخر  - STTL صاهه 	{}
+REG1 مضر  - REG2 سروج 	REG1 مضر 	{}
+REG1 مكران  - STTL خواش 	REG1 مكران 	{}
+REG1 رامهرمز 	REG1 رامهرمز  - STTL إيذج 	{}
+REG1 رامهرمز 	REG1 رامهرمز  - STTL كوزوك 	{}
+REG1 رامهرمز 	REG1 رامهرمز  - STTL لاذ 	{}
+REG1 رامهرمز 	REG1 رامهرمز  - STTL رامهرمز 	{}
+REG1 رامهرمز 	REG1 رامهرمز  - STTL سنبل 	{}
+REG1 السوس الأقصى 	REG1 السوس الأقصى  - STTL طرفانة 	{}
+REG1 السوس الأقصى 	REG1 السوس الأقصى  - STTL أغمات ويلا 	{}
+REG1 هيطل  - REG2 أشروسنة 	REG1 هيطل 	{}
+REG1 جزيرة ابن عمر 	REG1 جزيرة ابن عمر  - STTL الزوزان 	{}
+REG1 جزيرة ابن عمر 	REG1 جزيرة ابن عمر  - STTL المغيثة 	{}
+REG1 مكران  - STTL دزك 	REG1 مكران 	{}
+REG3 مروالروذ  - STTL الطالقان 	REG3 مروالروذ 	{}
+REG1 حلوان  - STTL السيروان 	REG1 حلوان 	{}
+REG1 فاس  - STTL تابريدا 	REG1 فاس 	{}
+REG1 جيرفت  - STTL ولاشجرد 	REG1 جيرفت 	{}
+PROV العراق  - REG1 الکوفة 	PROV العراق 	{}
+REG1 السند  - STTL منحاترى 	REG1 السند 	{}
+REG3 كنج رستاق 	REG3 كنج رستاق  - STTL بغ شور 	{}
+REG1 مكران  - STTL راسك 	REG1 مكران 	{}
+REG3 جوزجانان  - STTL كلان 	REG3 جوزجانان 	{}
+REG3 مرو الشاهجان 	REG3 مرو الشاهجان  - STTL كيرنك 	{}
+REG3 مرو الشاهجان 	REG3 مرو الشاهجان  - STTL صهبة 	{}
+REG3 مرو الشاهجان 	REG3 مرو الشاهجان  - STTL مرو الشاهجان 	{}
+REG3 مرو الشاهجان 	REG3 مرو الشاهجان  - STTL سوسقان 	{}
+REG3 مرو الشاهجان 	REG3 مرو الشاهجان  - STTL سنجان 	{}
+REG1 الديلمان  - STTL ولامر 	REG1 الديلمان 	{}
+REG1 الران 	REG1 الران  - STTL خنان 	{}
+REG1 الران 	REG1 الران  - STTL تفليس 	{}
+REG1 الران 	REG1 الران  - STTL جنزة 	{}
+REG1 الران 	REG1 الران  - STTL شمكور 	{}
+REG1 الران 	REG1 الران  - STTL باكوه 	{}
+REG1 الران 	REG1 الران  - STTL الشماخية 	{}
+REG1 الران 	REG1 الران  - STTL باب الأبواب 	{}
+REG1 الران 	REG1 الران  - STTL الأبخاز 	{}
+REG1 الران 	REG1 الران  - STTL ملازكرد 	{}
+REG3 باذغيس 	REG3 باذغيس  - STTL كوفا 	{}
+REG3 باذغيس 	REG3 باذغيس  - STTL كالوون 	{}
+REG3 باذغيس 	REG3 باذغيس  - STTL جبل الفضة 	{}
+REG1 قنوج  - STTL قنوج 	REG1 قنوج 	{}
+REG2 الشاش  - STTL زرانكث 	REG2 الشاش 	{}
+REG2 الشاش  - STTL نجاكث 	REG2 الشاش 	{}
+PROV جزيرة العرب  - REG1 عمان 	PROV جزيرة العرب 	{}
+REG3 مروالروذ 	REG3 مروالروذ  - STTL لوكر 	{}
+PROV الديلم  - REG1 الخزر 	PROV الديلم 	{}
+REG2 البقاع  - STTL الزبداني 	REG2 البقاع 	{}
+REG1 السند  - STTL الرور 	REG1 السند 	{}
+REG2 خراسان  - REG3 غرجستان 	REG2 خراسان 	{}
+REG1 حلوان  - STTL الجامد 	REG1 حلوان 	{}
+PROV أقور  - REG1 ديار مضر 	PROV أقور 	{}
+REG1 بم  - STTL مهركرد 	REG1 بم 	{}
+REG1 قنوج  - STTL كهارة 	REG1 قنوج 	{}
+REG3 الواغز  - STTL توبکار 	REG3 الواغز 	{}
+PROV جزيرة العرب  - REG1 هجر 	PROV جزيرة العرب 	{}
+REG1 فلسطين 	REG1 فلسطين  - STTL الرملة 	{}
+REG1 فلسطين 	REG1 فلسطين  - STTL عمان 	{}
+REG1 فلسطين 	REG1 فلسطين  - STTL قيسارية 	{}
+REG1 فلسطين 	REG1 فلسطين  - STTL أريحا 	{}
+REG1 فلسطين 	REG1 فلسطين  - STTL أرسوف 	{}
+REG1 فلسطين 	REG1 فلسطين  - STTL بيت المقدس 	{}
+REG1 السند  - STTL البيرون 	REG1 السند 	{}
+REG2 خراسان  - REG3 جوزجانان 	REG2 خراسان 	{}
+REG1 فاس  - STTL مدينة جبل زالاغ 	REG1 فاس 	{}
+REG1 مكران 	REG1 مكران  - STTL به 	{}
+REG1 مكران 	REG1 مكران  - STTL سرى 	{}
+REG1 مكران 	REG1 مكران  - STTL بند 	{}
+REG1 مكران 	REG1 مكران  - STTL التيز 	{}
+REG1 مكران 	REG1 مكران  - STTL قنبلى 	{}
+REG1 مكران 	REG1 مكران  - STTL دمندان 	{}
+REG2 البقاع  - STTL عرجموش 	REG2 البقاع 	{}
+REG2 الزاب  - STTL بنطيوس 	REG2 الزاب 	{}
+REG1 أردشيرخره  - STTL سيراف 	REG1 أردشيرخره 	{}
+REG1 فاس  - REG2 طنجة 	REG1 فاس 	{}
+REG1 الجفار  - STTL الواردة 	REG1 الجفار 	{}
+REG1 فاس  - STTL قبيشة 	REG1 فاس 	{}
+REG2 خراسان  - REG3 بوشنج 	REG2 خراسان 	{}
+REG1 فاس  - STTL بسكرة 	REG1 فاس 	{}
+PROV فارس  - REG1 الروذان 	PROV فارس 	{}
+REG2 الشاش  - STTL كباشكث 	REG2 الشاش 	{}
+REG3 والشتان  - STTL اسبيجه 	REG3 والشتان 	{}
+REG3 سجستان 	REG3 سجستان  - STTL كواربواذ 	{}
+REG3 سجستان 	REG3 سجستان  - STTL روادكن 	{}
+REG3 جوزجانان 	REG3 جوزجانان  - STTL أنبار 	{}
+REG3 جوزجانان 	REG3 جوزجانان  - STTL برزور 	{}
+REG3 جوزجانان 	REG3 جوزجانان  - STTL اليهودية 	{}
+REG3 جوزجانان 	REG3 جوزجانان  - STTL فارياب 	{}
+REG3 والشتان 	REG3 والشتان  - STTL شال 	{}
+REG1 السند  - STTL سوبارة 	REG1 السند 	{}
+PROV الديلم 	PROV الديلم  - REG1 جرجان 	{}
+PROV الديلم 	PROV الديلم  - REG1 الديلمان 	{}
+REG1 هيطل  - REG2 فرغانة 	REG1 هيطل 	{}
+REG1 السند 	REG1 السند  - STTL كدار 	{}
+REG1 السند 	REG1 السند  - STTL قالرى 	{}
+REG1 السند 	REG1 السند  - STTL ديبل 	{}
+REG1 السند 	REG1 السند  - STTL كيناص 	{}
+REG3 عثر  - STTL بيش 	REG3 عثر 	{}
+REG1 جيرفت  - STTL قوهستان 	REG1 جيرفت 	{}
+PROV خوزستان  - REG1 السوس 	PROV خوزستان 	{}
+REG1 فاس  - STTL مكسين 	REG1 فاس 	{}
+PROV جزيرة العرب  - REG1 الحجاز 	PROV جزيرة العرب 	{}
+REG2 الشاش  - STTL غزكرد 	REG2 الشاش 	{}
+REG1 قنوج  - STTL هر 	REG1 قنوج 	{}
+REG3 الواغز  - STTL أوال 	REG3 الواغز 	{}
+REG3 الواغز  - STTL بوکند 	REG3 الواغز 	{}
+REG1 الروذان 	REG1 الروذان  - STTL الروذان 	{}
+REG3 الواغز  - STTL اشت 	REG3 الواغز 	{}
+REG2 الشاش 	REG2 الشاش  - STTL جبوزن 	{}
+REG2 الشاش 	REG2 الشاش  - STTL غناج 	{}
+REG2 الزاب 	REG2 الزاب  - STTL تهوذا 	{}
+REG2 الزاب 	REG2 الزاب  - STTL بسكرة 	{}
+REG2 الزاب 	REG2 الزاب  - STTLجميلا 	{}
+PROV فارس 	PROV فارس  - REG1 شيراز 	{}
+REG1 أردشيرخره  - STTL راس كشم 	REG1 أردشيرخره 	{}
+PROV العراق  - REG1 واسط 	PROV العراق 	{}
+REG1 حلوان  - STTL زبوجان 	REG1 حلوان 	{}
+REG1 هيطل  - REG2 بخارا 	REG1 هيطل 	{}
+REG1 فاس  - STTL البصرة 	REG1 فاس 	{}
+REG1 جيرفت 	REG1 جيرفت  - STTL كوه بارجان 	{}
+REG1 جيرفت 	REG1 جيرفت  - STTL درفانى 	{}
+REG3 الواغز 	REG3 الواغز  - STTL اشحمحان 	{}
+REG3 الواغز 	REG3 الواغز  - STTL کاسان 	{}
+REG3 الواغز 	REG3 الواغز  - STTL شاودان 	{}
+REG1 جرجان  - STTL آبسكون 	REG1 جرجان 	{}
+REG1 جرجان  - STTL ألهم 	REG1 جرجان 	{}
+REG1 قنوج 	REG1 قنوج  - STTL قدار 	{}
+REG1 فاس  - STTL ورغة 	REG1 فاس 	{}
+REG1 نيريز  - STTL الماذوان 	REG1 نيريز 	{}
+REG1 سابور  - STTL رم الأكراد 	REG1 سابور 	{}
+REG1 الجفار 	REG1 الجفار  - STTL العريش 	{}
+REG1 الديلمان  - STTL تارم 	REG1 الديلمان 	{}
+REG1 أردشيرخره  - STTL جور 	REG1 أردشيرخره 	{}
+REG1 سابور  - STTL كاريان 	REG1 سابور 	{}
+REG1 فاس  - STTL السوس الأدنى 	REG1 فاس 	{}
+REG2 خراسان  - REG3 غزنين 	REG2 خراسان 	{}
+PROV جزيرة العرب 	PROV جزيرة العرب  - REG1 اليمن 	{}
+REG2 الجيل  - STTL كهن روذ 	REG2 الجيل 	{}
+REG1 فاس 	REG1 فاس  - STTL مدينة بنى زحيق 	{}
+REG1 فاس 	REG1 فاس  - STTL مزحاحية 	{}
+REG1 فاس 	REG1 فاس  - STTL الجاحد 	{}
+REG1 فاس 	REG1 فاس  - STTL نفزاوة 	{}
+REG1 بم  - STTL راين 	REG1 بم 	{}
+REG1 هيطل  - REG2 إيلاق 	REG1 هيطل 	{}
+PROV خوزستان  - REG1 تستر 	PROV خوزستان 	{}
+REG1 أردشيرخره  - STTL زيرباذ 	REG1 أردشيرخره 	{}
+PROV العراق  - REG1 سامرا 	PROV العراق 	{}
+REG1 أردشيرخره  - STTL ميمند 	REG1 أردشيرخره 	{}
+REG2 الجيل  - STTL دولاب 	REG2 الجيل 	{}
+REG2 خبيص  - STTL كوك 	REG2 خبيص 	{}
+REG2 الجيل  - STTL بيلمان 	REG2 الجيل 	{}
+REG1 بم  - STTL دارژين 	REG1 بم 	{}

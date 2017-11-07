@@ -2,12 +2,7 @@ from networkx.readwrite import json_graph
 import io, json
 import re
 import networkx as nx
-import matplotlib.pyplot as plt	
-import sys  
-from decimal import *
-from pyproj import *
 import global_var as gv
-import numpy as np
 import matplotlib.pyplot as plt
 
 

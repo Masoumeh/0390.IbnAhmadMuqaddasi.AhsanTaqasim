@@ -1,14 +1,5 @@
-from networkx.readwrite import json_graph
-import io, json, csv
-import re
+import json
 import networkx as nx
-import matplotlib.pyplot as plt	
-import sys  
-import math
-from decimal import *
-from pyproj import *
-import geograph.graph as ggraph
-import geograph.map  as ggeo
 
 
 def createGraphFromJSON(fileName):

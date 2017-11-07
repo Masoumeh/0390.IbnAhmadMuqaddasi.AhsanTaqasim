@@ -9,7 +9,7 @@
 }
 
 .node {
-  font: 10px sans-serif;
+  font: 18px sans-serif;
 }
 
 .link {
@@ -57,13 +57,13 @@ d3.json("../Data/treeroot.json", function(error, root) {
       .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
 
   node.append("circle")
-      .attr("r", 4.5);
+      .attr("r", 4);
 
   node.append("text")
       .attr("dy", ".31em")
       .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-      .text(function(d) { return d.label; })
+      .text(function(d) {return d.label.trim().split(" ").pop(); })
       .on("mouseover", function (d) {
         link.style('stroke-width', function(l) {
           if (d === l.target || d === l.source)

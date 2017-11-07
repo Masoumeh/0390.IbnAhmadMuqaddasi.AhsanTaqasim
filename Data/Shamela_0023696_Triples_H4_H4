@@ -1,0 +1,167 @@
+PROV خوزستان ,TYPE كورة ,REG1جنديسابور 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الغوطة 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 حوران 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 البثنية 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الجولان 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الحولة 
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE قسم ,REG2 تهامه ,TYPE ناحيه ,REG3 السروات 
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE ناحيه ,REG2 نجد ,TYPE ناحيه ,REG3 سبإ 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 الأشجار 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 اليمامة 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 قرح 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 فرغانة ,TYPE ؟؟؟ ,REG3 النساء 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بشاغر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 مسحا 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 برغر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 وقر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بانغام 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 مينك 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بسكر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 ارسبانيكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 البتم 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بنجكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 ورغسرة 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 مايمرغ 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 سنجرفغن 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 الدرغم 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 أوفر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 ياركث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بورنمذ 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بوزماجن 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 كبوذنجكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 وذار 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 المرزبان 
+PROV المشرق ,TYPE جانب ,REG1 خراسان 
+PROV المغرب ,TYPE كورة ,REG1 جزيرة إصقلية 
+PROV مصر ,TYPE کورة ,REG1 الواحات 
+PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE ناحية ,REG2 جزيرة ابن عمر 
+PROV أقور ,TYPE ناحية ,REG1 الفراتية 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قوسين 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قصران الداخل 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قصران الخارج 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 سر 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 بهزان 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قرج 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 جنى 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 سيرا 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 فيروزرام 
+PROV الجبال ,TYPE ناحية ,REG1 قم 
+PROV الجبال ,TYPE ناحية ,REG1 قاشان 
+PROV الجبال ,TYPE ناحية ,REG1 الصيمرة 
+PROV الجبال ,TYPE ناحية ,REG1 كرج 
+PROV الجبال ,TYPE ناحية ,REG1 ماه الكوفة 
+PROV الجبال ,TYPE ناحية ,REG1 ماه البصرة 
+PROV الجبال ,TYPE ناحية ,REG1 شهرزور 
+PROV الديلم ,TYPE كورة ,REG1 الديلمان ,TYPE ؟؟؟؟ ,REG2  الجيل 
+PROV الديلم ,TYPE كورة ,REG1 الديلمان ,TYPE ؟؟؟؟ ,REG2  الجيل 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الغوطة 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 حوران 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 البثنية 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الجولان 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الحولة 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قوسين 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قصران الداخل 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قصران الخارج 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 سر 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 بهزان 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قرج 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 جنى 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 سيرا 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 فيروزرام 
+PROV الجبال ,TYPE ناحية ,REG1 قم 
+PROV الجبال ,TYPE ناحية ,REG1 قاشان 
+PROV الجبال ,TYPE ناحية ,REG1 الصيمرة 
+PROV الجبال ,TYPE ناحية ,REG1 كرج 
+PROV الجبال ,TYPE ناحية ,REG1 ماه الكوفة 
+PROV الجبال ,TYPE ناحية ,REG1 ماه البصرة 
+PROV الجبال ,TYPE ناحية ,REG1 شهرزور 
+PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE ناحية ,REG2 جزيرة ابن عمر 
+PROV أقور ,TYPE ناحية ,REG1 الفراتية 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 فرغانة ,TYPE ؟؟؟ ,REG3 النساء 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بشاغر 
+PROV الديلم ,TYPE كورة ,REG1 الديلمان ,TYPE ؟؟؟؟ ,REG2  الجيل 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 مسحا 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 برغر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 وقر 
+PROV مصر ,TYPE کورة ,REG1 الواحات 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بانغام 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الغوطة 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 حوران 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 البثنية 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الجولان 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 مينك 
+PROV الشام ,TYPE كورة ,REG1 دمشق ,TYPE رستاق ,REG2 الحولة 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بسكر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 ارسبانيكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 البتم 
+PROV أقور ,TYPE کورة ,REG1 ديار ربيعة ,TYPE ناحية ,REG2 جزيرة ابن عمر 
+PROV أقور ,TYPE ناحية ,REG1 الفراتية 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بنجكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 ورغسرة 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 مايمرغ 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 سنجرفغن 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 الدرغم 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 أوفر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 ياركث 
+PROV المغرب ,TYPE كورة ,REG1 السوس الأقصي 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بورنمذ 
+PROV المغرب ,TYPE كورة ,REG1 جزيرة إصقلية 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بوزماجن 
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE قسم ,REG2 تهامه ,TYPE ناحيه ,REG3 السروات 
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE ناحيه ,REG2 نجد ,TYPE ناحيه ,REG3 سبإ 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 كبوذنجكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 وذار 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 الأشجار 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 اليمامة 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 قرح 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 المرزبان 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 فرغانة ,TYPE ؟؟؟ ,REG3 النساء 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بشاغر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 مسحا 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 برغر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 وقر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بانغام 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 مينك 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 بسكر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 ارسبانيكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 أشروسنة ,TYPE رستاق ,REG3 البتم 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بنجكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 ورغسرة 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 مايمرغ 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 سنجرفغن 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 الدرغم 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 أوفر 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 ياركث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بورنمذ 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 بوزماجن 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 كبوذنجكث 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 وذار 
+PROV المشرق ,TYPE جانب ,REG1 خراسان 
+PROV المشرق ,TYPE جانب ,REG1 هيطل ,TYPE کورة ,REG2 الصغد ,TYPE رستاق ,REG3 المرزبان 
+PROV المشرق ,TYPE جانب ,REG1 خراسان 
+PROV خوزستان ,TYPE كورة ,REG1جنديسابور 
+PROV خوزستان ,TYPE كورة ,REG1جنديسابور 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قوسين 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قصران الداخل 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قصران الخارج 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 سر 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 بهزان 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 قرج 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 جنى 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 سيرا 
+PROV الجبال ,TYPE كورة ,REG1 الري ,TYPE رستاق ,REG2 فيروزرام 
+PROV الجبال ,TYPE ناحية ,REG1 قم 
+PROV الجبال ,TYPE ناحية ,REG1 قاشان 
+PROV الجبال ,TYPE ناحية ,REG1 الصيمرة 
+PROV الجبال ,TYPE ناحية ,REG1 كرج 
+PROV الجبال ,TYPE ناحية ,REG1 ماه الكوفة 
+PROV الجبال ,TYPE ناحية ,REG1 ماه البصرة 
+PROV الجبال ,TYPE ناحية ,REG1 شهرزور 
+PROV المغرب ,TYPE كورة ,REG1 السوس الأقصي 
+PROV المغرب ,TYPE كورة ,REG1 جزيرة إصقلية 
+PROV مصر ,TYPE کورة ,REG1 الواحات 
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE قسم ,REG2 تهامه ,TYPE ناحيه ,REG3 السروات 
+PROV جزيرة العرب ,TYPE كورة ,REG1 اليمن ,TYPE ناحيه ,REG2 نجد ,TYPE ناحيه ,REG3 سبإ 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 الأشجار 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 اليمامة 
+PROV جزيرة العرب ,TYPE ناحية ,REG1 قرح 

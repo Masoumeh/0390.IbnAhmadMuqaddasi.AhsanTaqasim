@@ -105,11 +105,11 @@ tileLayer
 
 postLayer = d3.carto.layer.geojson();
 postLayer
-    .path("../Data/new_simplified_cornu_coords_postProcessed_loop2.geojson")//new_simplified_muq_coords_post.geojson")
+    .path("../Data/new_simplified_muq_coords_post.geojson")//new_simplified_muq_coords_post.geojson")
     .label("Points")
-    .renderMode("svg")
+    .renderMode("canvas")
     .markerSize(3)
-    .markerColor(function(d) { return "green"})//colorLookup[d.properties.region]})
+    .markerColor(function(d) { colorLookup[d.properties.region]})
 //    .cssClass("point")
     //                .modal(pointModal)
     .clickableFeatures(true)
@@ -121,17 +121,18 @@ postLayer
     });
 pathLayer = d3.carto.layer.geojson();
 pathLayer
-    .path("../Data/simplified_cornu_lines.geojson")
+    .path("../Data/new_simplified_muq_coords_post_lines.geojson")
     .label("Paths")
-    .renderMode("svg")
+    .renderMode("canvas")
     //                .cssClass("point")
     //                .modal(pointModal)
 //        .markerSize(5)
-    .clickableFeatures(true)
+//    .clickableFeatures(true)
 
-//        d3.selectAll("circle").style("fil", function(d){console.log(d); return colorLookup[d.properties.cornuDara.region_code]})
-//        postLayer
-//                .markerColor(function(d) { return colorLookup[d.properties.region]})
+        d3.selectAll("circle").style("fill", function(d){console.log(d); return colorLookup[d.properties.cornuDara.region_code]})
+        postLayer
+                .markerColor(function(d) { return colorLookup[d.properties.region]})
+    console.log(pathLayer)
 map.addCartoLayer(tileLayer).addCartoLayer(postLayer)//.addCartoLayer(pathLayer);
 map.centerOn([44.361488, 33.312806], "latlong").setScale(3);
 }

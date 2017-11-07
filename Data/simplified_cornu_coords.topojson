@@ -1,0 +1,153 @@
+{
+    "type": "Topology",
+    "objects": {
+        "collection": {
+            "type": "GeometryCollection",
+            "geometries": [
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        2873,
+                        85
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        455,
+                        1598
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1186,
+                        2277
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1327,
+                        2555
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        1095,
+                        2716
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4111,
+                        3407
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4236,
+                        5724
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        4446,
+                        6278
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7570,
+                        7378
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8133,
+                        7971
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8304,
+                        8340
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8465,
+                        8617
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8516,
+                        8766
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        9999,
+                        9522
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        8034,
+                        9627
+                    ]
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        7059,
+                        9999
+                    ]
+                }
+            ]
+        }
+    },
+    "arcs": [],
+    "bbox": [
+        34.47862,
+        45.93468,
+        37.19099232916818,
+        55.67094
+    ],
+    "transform": {
+        "scale": [
+            0.00027126435935275356,
+            0.000973723372337234
+        ],
+        "translate": [
+            34.47862,
+            45.93468
+        ]
+    }
+}

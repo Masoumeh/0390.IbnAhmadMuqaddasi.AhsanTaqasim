@@ -1,0 +1,1872 @@
+{
+    "description": "Cornu Regions",
+    "children": [
+        {
+            "description": "Khurasan",
+            "children": [
+                {
+                    "description": "جوين، جوين، كويان",
+                    "size": 1,
+                    "name": "جوين"
+                },
+                {
+                    "description": "بيهق، بيهق",
+                    "size": 1,
+                    "name": "بيهق"
+                },
+                {
+                    "description": "بشت، بشت",
+                    "size": 1,
+                    "name": "بشت"
+                },
+                {
+                    "description": "نيسابور، نيسابور",
+                    "size": 1,
+                    "name": "نيسابور"
+                },
+                {
+                    "description": "بشتفروش، بشتفروش، بستنفروش",
+                    "size": 1,
+                    "name": "بشتفروش"
+                },
+                {
+                    "description": "قوهستان، قوهستان",
+                    "size": 1,
+                    "name": "قوهستان"
+                },
+                {
+                    "description": "طوس، طوس، طابران",
+                    "size": 1,
+                    "name": "طوس"
+                },
+                {
+                    "description": "خواف، خواف",
+                    "size": 1,
+                    "name": "خواف"
+                },
+                {
+                    "description": "باخرز، باخرز",
+                    "size": 1,
+                    "name": "باخرز"
+                },
+                {
+                    "description": "جام، جام",
+                    "size": 1,
+                    "name": "جام"
+                },
+                {
+                    "description": "بوسنج، بوسنج، فشنج، بوشنك",
+                    "size": 1,
+                    "name": "بوسنج"
+                },
+                {
+                    "description": "باذغيس، باذغيس، باذغيس",
+                    "size": 1,
+                    "name": "باذغيس"
+                },
+                {
+                    "description": "مرو، مرو، مرو الشاهجان",
+                    "size": 1,
+                    "name": "مرو"
+                },
+                {
+                    "description": "الأسفزار، الأسفزار",
+                    "size": 1,
+                    "name": "الأسفزار"
+                },
+                {
+                    "description": "هراة، هراة",
+                    "size": 1,
+                    "name": "هراة"
+                },
+                {
+                    "description": "كنج رستاق، كنج رستاق",
+                    "size": 1,
+                    "name": "كنج رستاق"
+                },
+                {
+                    "description": "مرو الروذ، مرو الروذ",
+                    "size": 1,
+                    "name": "مرو الروذ"
+                },
+                {
+                    "description": "غرج الشار، غرج الشار، جرجستان",
+                    "size": 1,
+                    "name": "غرج الشار"
+                },
+                {
+                    "description": "جوزجان، جوزجان",
+                    "size": 1,
+                    "name": "جوزجان"
+                },
+                {
+                    "description": "الجرزوان، الجرزوان",
+                    "size": 1,
+                    "name": "الجرزوان"
+                },
+                {
+                    "description": "بلخ، بلخ",
+                    "size": 1,
+                    "name": "بلخ"
+                },
+                {
+                    "description": "الباميان، الباميان",
+                    "size": 1,
+                    "name": "الباميان"
+                },
+                {
+                    "description": "طخارستان، طخارستان",
+                    "size": 1,
+                    "name": "طخارستان"
+                },
+                {
+                    "description": "بغلان، بغلان",
+                    "size": 1,
+                    "name": "بغلان"
+                },
+                {
+                    "description": "بذخشان، بذخشان",
+                    "size": 1,
+                    "name": "بذخشان"
+                },
+                {
+                    "description": "وخان، وخان",
+                    "size": 1,
+                    "name": "وخان"
+                }
+            ],
+            "name": "Khurasan"
+        },
+        {
+            "description": "Transoxiana",
+            "children": [
+                {
+                    "description": "خوارزم، خوارزم",
+                    "size": 1,
+                    "name": "خوارزم"
+                },
+                {
+                    "description": "بخارة، بخارة",
+                    "size": 1,
+                    "name": "بخارة"
+                },
+                {
+                    "description": "نسف، نسف",
+                    "size": 1,
+                    "name": "نسف"
+                },
+                {
+                    "description": "الصغد، الصغد",
+                    "size": 1,
+                    "name": "الصغد"
+                },
+                {
+                    "description": "سنجرفغن، سنجرفغن",
+                    "size": 1,
+                    "name": "سنجرفغن"
+                },
+                {
+                    "description": "أوفر، أوفر",
+                    "size": 1,
+                    "name": "أوفر"
+                },
+                {
+                    "description": "مايمرغ، مايمرغ، مايمرغ",
+                    "size": 1,
+                    "name": "مايمرغ"
+                },
+                {
+                    "description": "كش، كش، كش",
+                    "size": 1,
+                    "name": "كش"
+                },
+                {
+                    "description": "الشاوذار، الشاوذار",
+                    "size": 1,
+                    "name": "الشاوذار"
+                },
+                {
+                    "description": "الصغانيان، الصغانيان",
+                    "size": 1,
+                    "name": "الصغانيان"
+                },
+                {
+                    "description": "قباذيان، قباذيان، قواذيان",
+                    "size": 1,
+                    "name": "قباذيان"
+                },
+                {
+                    "description": "فاراب، فاراب، باراب",
+                    "size": 1,
+                    "name": "فاراب"
+                },
+                {
+                    "description": "نهر وخشاب، نهر وخشاب",
+                    "size": 1,
+                    "name": "نهر وخشاب"
+                },
+                {
+                    "description": "أشروسنة، أشروسنة",
+                    "size": 1,
+                    "name": "أشروسنة"
+                },
+                {
+                    "description": "وخش، وخش",
+                    "size": 1,
+                    "name": "وخش"
+                },
+                {
+                    "description": "الشاش، الشاش، بلاد الشاش",
+                    "size": 1,
+                    "name": "الشاش"
+                },
+                {
+                    "description": "مينك، مينك",
+                    "size": 1,
+                    "name": "مينك"
+                },
+                {
+                    "description": "مسحا، مسحا",
+                    "size": 1,
+                    "name": "مسحا"
+                },
+                {
+                    "description": "الختل، الختل",
+                    "size": 1,
+                    "name": "الختل"
+                },
+                {
+                    "description": "إسبيجاب، إسبيجاب",
+                    "size": 1,
+                    "name": "إسبيجاب"
+                },
+                {
+                    "description": "إيلاق، إيلاق",
+                    "size": 1,
+                    "name": "إيلاق"
+                },
+                {
+                    "description": "الرشت، الرشت",
+                    "size": 1,
+                    "name": "الرشت"
+                },
+                {
+                    "description": "نساء، نساء، نسيا",
+                    "size": 1,
+                    "name": "نساء"
+                },
+                {
+                    "description": "كروان، كروان",
+                    "size": 1,
+                    "name": "كروان"
+                },
+                {
+                    "description": "جدغل، جدغل",
+                    "size": 1,
+                    "name": "جدغل"
+                },
+                {
+                    "description": "فرغانة، فرغانة",
+                    "size": 1,
+                    "name": "فرغانة"
+                },
+                {
+                    "description": "نقاد، نقاد، نقاد",
+                    "size": 1,
+                    "name": "نقاد"
+                },
+                {
+                    "description": "فامر، فامر",
+                    "size": 1,
+                    "name": "فامر"
+                },
+                {
+                    "description": "الخرلخية، الخرلخية",
+                    "size": 1,
+                    "name": "الخرلخية"
+                }
+            ],
+            "name": "Transoxiana"
+        },
+        {
+            "description": "Andalus",
+            "children": [
+                {
+                    "description": "وشقة، وشقة",
+                    "size": 1,
+                    "name": "وشقة"
+                },
+                {
+                    "description": "بلنسية، بلنسية",
+                    "size": 1,
+                    "name": "بلنسية"
+                },
+                {
+                    "description": "سرقوسة، سرقوسة، سرقوسطة",
+                    "size": 1,
+                    "name": "سرقوسة"
+                },
+                {
+                    "description": "تدمير، تدمير",
+                    "size": 1,
+                    "name": "تدمير"
+                },
+                {
+                    "description": "تطيلة، تطيلة",
+                    "size": 1,
+                    "name": "تطيلة"
+                },
+                {
+                    "description": "بجانة، بجانة",
+                    "size": 1,
+                    "name": "بجانة"
+                },
+                {
+                    "description": "وادي الحجارة، وادي الحجارة",
+                    "size": 1,
+                    "name": "وادي الحجارة"
+                },
+                {
+                    "description": "لبيرة، لبيرة، إلبيرة",
+                    "size": 1,
+                    "name": "لبيرة"
+                },
+                {
+                    "description": "طليطلة، طليطلة",
+                    "size": 1,
+                    "name": "طليطلة"
+                },
+                {
+                    "description": "رية، رية، ريه",
+                    "size": 1,
+                    "name": "رية"
+                },
+                {
+                    "description": "مالقة، مالقة",
+                    "size": 1,
+                    "name": "مالقة"
+                },
+                {
+                    "description": "فحص البلوط، فحص البلوط",
+                    "size": 1,
+                    "name": "فحص البلوط"
+                },
+                {
+                    "description": "جزيرة الخضراء، جزيرة الخضراء",
+                    "size": 1,
+                    "name": "جزيرة الخضراء"
+                },
+                {
+                    "description": "فريش، فريش، قرسيس",
+                    "size": 1,
+                    "name": "فريش"
+                },
+                {
+                    "description": "شذونة، شذونة، شدونة",
+                    "size": 1,
+                    "name": "شذونة"
+                },
+                {
+                    "description": "إشبيلية، إشبيلية",
+                    "size": 1,
+                    "name": "إشبيلية"
+                },
+                {
+                    "description": "قادس، قادس",
+                    "size": 1,
+                    "name": "قادس"
+                },
+                {
+                    "description": "بطليوس، بطليوس، بطليوث",
+                    "size": 1,
+                    "name": "بطليوس"
+                },
+                {
+                    "description": "باجة، باجة",
+                    "size": 1,
+                    "name": "باجة"
+                },
+                {
+                    "description": "خشنبة، خشنبة، أخشنبة",
+                    "size": 1,
+                    "name": "خشنبة"
+                },
+                {
+                    "description": "يابسة، يابسة",
+                    "size": 1,
+                    "name": "يابسة"
+                }
+            ],
+            "name": "Andalus"
+        },
+        {
+            "description": "Yemen",
+            "children": [
+                {
+                    "description": "ضنكان، ضنكان",
+                    "size": 1,
+                    "name": "ضنكان"
+                },
+                {
+                    "description": "عطار، عطار",
+                    "size": 1,
+                    "name": "عطار"
+                },
+                {
+                    "description": "جزيرة كمران، جزيرة كمران",
+                    "size": 1,
+                    "name": "جزيرة كمران"
+                },
+                {
+                    "description": "جازان، جازان",
+                    "size": 1,
+                    "name": "جازان"
+                },
+                {
+                    "description": "الحردة، الحردة",
+                    "size": 1,
+                    "name": "الحردة"
+                },
+                {
+                    "description": "حكم، حكم",
+                    "size": 1,
+                    "name": "حكم"
+                },
+                {
+                    "description": "حيران، حيران",
+                    "size": 1,
+                    "name": "حيران"
+                },
+                {
+                    "description": "سردد، سردد، سردد",
+                    "size": 1,
+                    "name": "سردد"
+                },
+                {
+                    "description": "رماع، رماع",
+                    "size": 1,
+                    "name": "رماع"
+                },
+                {
+                    "description": "ملحان، ملحان",
+                    "size": 1,
+                    "name": "ملحان"
+                },
+                {
+                    "description": "المندب، المندب",
+                    "size": 1,
+                    "name": "المندب"
+                },
+                {
+                    "description": "هوزان، هوزان",
+                    "size": 1,
+                    "name": "هوزان"
+                },
+                {
+                    "description": "حجور، حجور",
+                    "size": 1,
+                    "name": "حجور"
+                },
+                {
+                    "description": "قفاعة، قفاعة",
+                    "size": 1,
+                    "name": "قفاعة"
+                },
+                {
+                    "description": "جبلان، جبلان",
+                    "size": 1,
+                    "name": "جبلان"
+                },
+                {
+                    "description": "قدم، قدم، قدم",
+                    "size": 1,
+                    "name": "قدم"
+                },
+                {
+                    "description": "حراز، حراز",
+                    "size": 1,
+                    "name": "حراز"
+                },
+                {
+                    "description": "الأخروج، الأخروج",
+                    "size": 1,
+                    "name": "الأخروج"
+                },
+                {
+                    "description": "حضور، حضور",
+                    "size": 1,
+                    "name": "حضور"
+                },
+                {
+                    "description": "وادعة، وادعة",
+                    "size": 1,
+                    "name": "وادعة"
+                },
+                {
+                    "description": "ركب، ركب",
+                    "size": 1,
+                    "name": "ركب"
+                },
+                {
+                    "description": "عنة، عنة",
+                    "size": 1,
+                    "name": "عنة"
+                },
+                {
+                    "description": "بون، بون",
+                    "size": 1,
+                    "name": "بون"
+                },
+                {
+                    "description": "شرعب، شرعب",
+                    "size": 1,
+                    "name": "شرعب"
+                },
+                {
+                    "description": "المصانع، المصانع",
+                    "size": 1,
+                    "name": "المصانع"
+                },
+                {
+                    "description": "السحول، السحول",
+                    "size": 1,
+                    "name": "السحول"
+                },
+                {
+                    "description": "واضع المعلل، واضع المعلل",
+                    "size": 1,
+                    "name": "واضع المعلل"
+                },
+                {
+                    "description": "خيوان، خيوان",
+                    "size": 1,
+                    "name": "خيوان"
+                },
+                {
+                    "description": "ألهان، ألهان",
+                    "size": 1,
+                    "name": "ألهان"
+                },
+                {
+                    "description": "ذبحان، ذبحان",
+                    "size": 1,
+                    "name": "ذبحان"
+                },
+                {
+                    "description": "بوشان، بوشان",
+                    "size": 1,
+                    "name": "بوشان"
+                },
+                {
+                    "description": "همدان، همدان",
+                    "size": 1,
+                    "name": "همدان"
+                },
+                {
+                    "description": "السكاسك، السكاسك",
+                    "size": 1,
+                    "name": "السكاسك"
+                },
+                {
+                    "description": "الجند، الجند",
+                    "size": 1,
+                    "name": "الجند"
+                },
+                {
+                    "description": "الثجة، الثجة",
+                    "size": 1,
+                    "name": "الثجة"
+                },
+                {
+                    "description": "الحقل، الحقل",
+                    "size": 1,
+                    "name": "الحقل"
+                },
+                {
+                    "description": "رحابة، رحابة",
+                    "size": 1,
+                    "name": "رحابة"
+                },
+                {
+                    "description": "الغدر، الغدر",
+                    "size": 1,
+                    "name": "الغدر"
+                },
+                {
+                    "description": "خشب، خشب",
+                    "size": 1,
+                    "name": "خشب"
+                },
+                {
+                    "description": "مرمل، مرمل",
+                    "size": 1,
+                    "name": "مرمل"
+                },
+                {
+                    "description": "عنس، عنس",
+                    "size": 1,
+                    "name": "عنس"
+                },
+                {
+                    "description": "ميتم، ميتم",
+                    "size": 1,
+                    "name": "ميتم"
+                },
+                {
+                    "description": "أرحب، أرحب",
+                    "size": 1,
+                    "name": "أرحب"
+                },
+                {
+                    "description": "ذمار، ذمار",
+                    "size": 1,
+                    "name": "ذمار"
+                },
+                {
+                    "description": "يحصب، يحصب",
+                    "size": 1,
+                    "name": "يحصب"
+                },
+                {
+                    "description": "المعافر، المعافر",
+                    "size": 1,
+                    "name": "المعافر"
+                },
+                {
+                    "description": "هجر وبدر، هجر وبدر",
+                    "size": 1,
+                    "name": "هجر وبدر"
+                },
+                {
+                    "description": "رعين، رعين",
+                    "size": 1,
+                    "name": "رعين"
+                },
+                {
+                    "description": "ذو جرة، ذو جرة",
+                    "size": 1,
+                    "name": "ذو جرة"
+                },
+                {
+                    "description": "يام، يام",
+                    "size": 1,
+                    "name": "يام"
+                },
+                {
+                    "description": "الخولان، الخولان",
+                    "size": 1,
+                    "name": "الخولان"
+                },
+                {
+                    "description": "بدر، بدر",
+                    "size": 1,
+                    "name": "بدر"
+                },
+                {
+                    "description": "دمث، دمث",
+                    "size": 1,
+                    "name": "دمث"
+                },
+                {
+                    "description": "ثات ورداع، ثات ورداع",
+                    "size": 1,
+                    "name": "ثات ورداع"
+                },
+                {
+                    "description": "جوف همدان، جوف همدان",
+                    "size": 1,
+                    "name": "جوف همدان"
+                },
+                {
+                    "description": "نسفان، نسفان",
+                    "size": 1,
+                    "name": "نسفان"
+                },
+                {
+                    "description": "كحلان، كحلان",
+                    "size": 1,
+                    "name": "كحلان"
+                },
+                {
+                    "description": "أبياين، أبياين",
+                    "size": 1,
+                    "name": "أبياين"
+                },
+                {
+                    "description": "رداع، رداع",
+                    "size": 1,
+                    "name": "رداع"
+                },
+                {
+                    "description": "أخلة، أخلة",
+                    "size": 1,
+                    "name": "أخلة"
+                },
+                {
+                    "description": "يافع، يافع",
+                    "size": 1,
+                    "name": "يافع"
+                },
+                {
+                    "description": "سباء، سباء",
+                    "size": 1,
+                    "name": "سباء"
+                },
+                {
+                    "description": "مأرب، مأرب",
+                    "size": 1,
+                    "name": "مأرب"
+                },
+                {
+                    "description": "جوف مراد، جوف مراد",
+                    "size": 1,
+                    "name": "جوف مراد"
+                },
+                {
+                    "description": "السرو، السرو",
+                    "size": 1,
+                    "name": "السرو"
+                },
+                {
+                    "description": "دثينة، دثينة",
+                    "size": 1,
+                    "name": "دثينة"
+                },
+                {
+                    "description": "كندة و سكون، كندة و سكون",
+                    "size": 1,
+                    "name": "كندة و سكون"
+                },
+                {
+                    "description": "مهرة، مهرة",
+                    "size": 1,
+                    "name": "مهرة"
+                }
+            ],
+            "name": "Yemen"
+        },
+        {
+            "description": "Rihab",
+            "children": [
+                {
+                    "description": "بغروند، بغروند",
+                    "size": 1,
+                    "name": "بغروند"
+                },
+                {
+                    "description": "جرزان، جرزان",
+                    "size": 1,
+                    "name": "جرزان"
+                },
+                {
+                    "description": "أرمنية، أرمنية",
+                    "size": 1,
+                    "name": "أرمنية"
+                },
+                {
+                    "description": "سغدبيل، سغدبيل",
+                    "size": 1,
+                    "name": "سغدبيل"
+                },
+                {
+                    "description": "بسفرجان، بسفرجان",
+                    "size": 1,
+                    "name": "بسفرجان"
+                },
+                {
+                    "description": "ميمذ، ميمذ، ميمذ",
+                    "size": 1,
+                    "name": "ميمذ"
+                },
+                {
+                    "description": "أران، أران",
+                    "size": 1,
+                    "name": "أران"
+                },
+                {
+                    "description": "شكي، شكي",
+                    "size": 1,
+                    "name": "شكي"
+                },
+                {
+                    "description": "أذربيجان، أذربيجان",
+                    "size": 1,
+                    "name": "أذربيجان"
+                },
+                {
+                    "description": "باجروان، باجروان، موقان، موغكان",
+                    "size": 1,
+                    "name": "باجروان"
+                },
+                {
+                    "description": "الأبخان، الأبخان، لايجان، ليزان، ليزان، ليران",
+                    "size": 1,
+                    "name": "الأبخان"
+                },
+                {
+                    "description": "موغان، موغان، موغكان، موقان",
+                    "size": 1,
+                    "name": "موغان"
+                },
+                {
+                    "description": "شروان، شروان، شروان",
+                    "size": 1,
+                    "name": "شروان"
+                }
+            ],
+            "name": "Rihab"
+        },
+        {
+            "description": "Khuzistan",
+            "children": [
+                {
+                    "description": "سوس، سوس",
+                    "size": 1,
+                    "name": "سوس"
+                },
+                {
+                    "description": "اللور، اللور",
+                    "size": 1,
+                    "name": "اللور"
+                },
+                {
+                    "description": "مناذر، مناذر",
+                    "size": 1,
+                    "name": "مناذر"
+                },
+                {
+                    "description": "جنديسابور، جنديسابور",
+                    "size": 1,
+                    "name": "جنديسابور"
+                },
+                {
+                    "description": "الأهواز، الأهواز، سوق الأهواز",
+                    "size": 1,
+                    "name": "الأهواز"
+                },
+                {
+                    "description": "تستر، تستر، ششتر",
+                    "size": 1,
+                    "name": "تستر"
+                },
+                {
+                    "description": "عسكر مكرم، عسكر مكرم",
+                    "size": 1,
+                    "name": "عسكر مكرم"
+                },
+                {
+                    "description": "الدورق، الدورق، السراق",
+                    "size": 1,
+                    "name": "الدورق"
+                },
+                {
+                    "description": "رام هرمز، رام هرمز، رامهرمز",
+                    "size": 1,
+                    "name": "رام هرمز"
+                },
+                {
+                    "description": "حومة الزط، حومة الزط، الزط",
+                    "size": 1,
+                    "name": "حومة الزط"
+                },
+                {
+                    "description": "الجايزن، الجايزن",
+                    "size": 1,
+                    "name": "الجايزن"
+                }
+            ],
+            "name": "Khuzistan"
+        },
+        {
+            "description": "Jibal",
+            "children": [
+                {
+                    "description": "ماسبذان، ماسبذان",
+                    "size": 1,
+                    "name": "ماسبذان"
+                },
+                {
+                    "description": "مهرجانقذق، مهرجانقذق",
+                    "size": 1,
+                    "name": "مهرجانقذق"
+                },
+                {
+                    "description": "همذان، همذان",
+                    "size": 1,
+                    "name": "همذان"
+                },
+                {
+                    "description": "الكرج، الكرج، كرج أبو دلف",
+                    "size": 1,
+                    "name": "الكرج"
+                },
+                {
+                    "description": "فراهان، فراهان",
+                    "size": 1,
+                    "name": "فراهان"
+                },
+                {
+                    "description": "طبريش، طبريش",
+                    "size": 1,
+                    "name": "طبريش"
+                },
+                {
+                    "description": "قم، قم",
+                    "size": 1,
+                    "name": "قم"
+                },
+                {
+                    "description": "قاشان، قاشان",
+                    "size": 1,
+                    "name": "قاشان"
+                },
+                {
+                    "description": "إصبهان، إصبهان، إصفهان",
+                    "size": 1,
+                    "name": "إصبهان"
+                },
+                {
+                    "description": "برخوار، برخوار",
+                    "size": 1,
+                    "name": "برخوار"
+                },
+                {
+                    "description": "كروان، كروان",
+                    "size": 1,
+                    "name": "كروان"
+                },
+                {
+                    "description": "دماوند، دماوند",
+                    "size": 1,
+                    "name": "دماوند"
+                }
+            ],
+            "name": "Jibal"
+        },
+        {
+            "description": "Daylam",
+            "children": [
+                {
+                    "description": "جيل، جيل، جيلان",
+                    "size": 1,
+                    "name": "جيل"
+                },
+                {
+                    "description": "ديلمان، ديلمان، الديلم",
+                    "size": 1,
+                    "name": "ديلمان"
+                },
+                {
+                    "description": "طلقان، طلقان",
+                    "size": 1,
+                    "name": "طلقان"
+                },
+                {
+                    "description": "الرويان، الرويان",
+                    "size": 1,
+                    "name": "الرويان"
+                },
+                {
+                    "description": "طبرستان، طبرستان",
+                    "size": 1,
+                    "name": "طبرستان"
+                },
+                {
+                    "description": "فادوسبان، فادوسبان، قادوستان، قادوسيان",
+                    "size": 1,
+                    "name": "فادوسبان"
+                },
+                {
+                    "description": "قومس، قومس",
+                    "size": 1,
+                    "name": "قومس"
+                },
+                {
+                    "description": "جرجان، جرجان",
+                    "size": 1,
+                    "name": "جرجان"
+                },
+                {
+                    "description": "جرجان، جرجان",
+                    "size": 1,
+                    "name": "جرجان"
+                },
+                {
+                    "description": "دهستان، دهستان",
+                    "size": 1,
+                    "name": "دهستان"
+                }
+            ],
+            "name": "Daylam"
+        },
+        {
+            "description": "Sicile",
+            "children": [],
+            "name": "Sicile"
+        },
+        {
+            "description": "Barqa",
+            "children": [
+                {
+                    "description": "سبخة منهوشا، سبخة منهوشا",
+                    "size": 1,
+                    "name": "سبخة منهوشا"
+                },
+                {
+                    "description": "برقة، برقة",
+                    "size": 1,
+                    "name": "برقة"
+                }
+            ],
+            "name": "Barqa"
+        },
+        {
+            "description": "Sham",
+            "children": [
+                {
+                    "description": "الجبال، الجبال",
+                    "size": 1,
+                    "name": "الجبال"
+                },
+                {
+                    "description": "الغور، الغور",
+                    "size": 1,
+                    "name": "الغور"
+                },
+                {
+                    "description": "فهل، فهل",
+                    "size": 1,
+                    "name": "فهل"
+                },
+                {
+                    "description": "الشرات، الشرات",
+                    "size": 1,
+                    "name": "الشرات"
+                },
+                {
+                    "description": "جبل سنير، جبل سنير",
+                    "size": 1,
+                    "name": "جبل سنير"
+                },
+                {
+                    "description": "البلقاء، البلقاء",
+                    "size": 1,
+                    "name": "البلقاء"
+                },
+                {
+                    "description": "جبل بهرة، جبل بهرة",
+                    "size": 1,
+                    "name": "جبل بهرة"
+                },
+                {
+                    "description": "بوقا، بوقا",
+                    "size": 1,
+                    "name": "بوقا"
+                },
+                {
+                    "description": "تل منس، تل منس",
+                    "size": 1,
+                    "name": "تل منس"
+                },
+                {
+                    "description": "صوران، صوران",
+                    "size": 1,
+                    "name": "صوران"
+                }
+            ],
+            "name": "Sham"
+        },
+        {
+            "description": "Sind",
+            "children": [
+                {
+                    "description": "مكران، مكران",
+                    "size": 1,
+                    "name": "مكران"
+                },
+                {
+                    "description": "كلوان، كلوان، كلوان",
+                    "size": 1,
+                    "name": "كلوان"
+                },
+                {
+                    "description": "توران، توران",
+                    "size": 1,
+                    "name": "توران"
+                },
+                {
+                    "description": "أيل، أيل",
+                    "size": 1,
+                    "name": "أيل"
+                },
+                {
+                    "description": "البدهة، البدهة",
+                    "size": 1,
+                    "name": "البدهة"
+                },
+                {
+                    "description": "ويهند، ويهند",
+                    "size": 1,
+                    "name": "ويهند"
+                },
+                {
+                    "description": "قنوج، قنوج",
+                    "size": 1,
+                    "name": "قنوج"
+                },
+                {
+                    "description": "سرنديب، سرنديب",
+                    "size": 1,
+                    "name": "سرنديب"
+                }
+            ],
+            "name": "Sind"
+        },
+        {
+            "description": "Aqur",
+            "children": [
+                {
+                    "description": "سروج، سروج",
+                    "size": 1,
+                    "name": "سروج"
+                },
+                {
+                    "description": "ديار مضر، ديار مضر",
+                    "size": 1,
+                    "name": "ديار مضر"
+                },
+                {
+                    "description": "ديار بكر، ديار بكر",
+                    "size": 1,
+                    "name": "ديار بكر"
+                },
+                {
+                    "description": "ديار ربيعة، ديار ربيعة",
+                    "size": 1,
+                    "name": "ديار ربيعة"
+                },
+                {
+                    "description": "جزيرة إبن عمر، جزيرة إبن عمر",
+                    "size": 1,
+                    "name": "جزيرة إبن عمر"
+                }
+            ],
+            "name": "Aqur"
+        },
+        {
+            "description": "Khazar",
+            "children": [
+                {
+                    "description": "البجاناك، البجاناك، البجاناكية",
+                    "size": 1,
+                    "name": "البجاناك"
+                },
+                {
+                    "description": "الأرثا، الأرثا، الأرثانية",
+                    "size": 1,
+                    "name": "الأرثا"
+                },
+                {
+                    "description": "السرير، السرير",
+                    "size": 1,
+                    "name": "السرير"
+                },
+                {
+                    "description": "برطاس، برطاس",
+                    "size": 1,
+                    "name": "برطاس"
+                },
+                {
+                    "description": "الخزر، الخزر",
+                    "size": 1,
+                    "name": "الخزر"
+                },
+                {
+                    "description": "بلغار، بلغار",
+                    "size": 1,
+                    "name": "بلغار"
+                },
+                {
+                    "description": "البجاناك، البجاناك، البجاناكية",
+                    "size": 1,
+                    "name": "البجاناك"
+                },
+                {
+                    "description": "جزيرة سياه كوه، جزيرة سياه كوه",
+                    "size": 1,
+                    "name": "جزيرة سياه كوه"
+                },
+                {
+                    "description": "بشجرت، بشجرت، بسجرد",
+                    "size": 1,
+                    "name": "بشجرت"
+                }
+            ],
+            "name": "Khazar"
+        },
+        {
+            "description": "Sijistan",
+            "children": [
+                {
+                    "description": "نيشك، نيشك",
+                    "size": 1,
+                    "name": "نيشك"
+                },
+                {
+                    "description": "بست، بست",
+                    "size": 1,
+                    "name": "بست"
+                },
+                {
+                    "description": "بشلنك، بشلنك",
+                    "size": 1,
+                    "name": "بشلنك"
+                },
+                {
+                    "description": "بغنين، بغنين",
+                    "size": 1,
+                    "name": "بغنين"
+                },
+                {
+                    "description": "بلد داور، بلد داور، بلا داور، زمين داور",
+                    "size": 1,
+                    "name": "بلد داور"
+                },
+                {
+                    "description": "الرخاج، الرخاج، الرخوذ",
+                    "size": 1,
+                    "name": "الرخاج"
+                },
+                {
+                    "description": "قندهار، قندهار",
+                    "size": 1,
+                    "name": "قندهار"
+                },
+                {
+                    "description": "بالش، بالش، بالس، والش، والشتان",
+                    "size": 1,
+                    "name": "بالش"
+                },
+                {
+                    "description": "غزنة، غزنة، غزنين",
+                    "size": 1,
+                    "name": "غزنة"
+                }
+            ],
+            "name": "Sijistan"
+        },
+        {
+            "description": "NoRegion",
+            "children": [],
+            "name": "NoRegion"
+        },
+        {
+            "description": "Jazirat al-Arab",
+            "children": [
+                {
+                    "description": "رحبة، رحبة، رحبة",
+                    "size": 1,
+                    "name": "رحبة"
+                },
+                {
+                    "description": "الحجاز، الحجاز",
+                    "size": 1,
+                    "name": "الحجاز"
+                },
+                {
+                    "description": "بطن النخل، بطن النخل",
+                    "size": 1,
+                    "name": "بطن النخل"
+                },
+                {
+                    "description": "دهلك، دهلك",
+                    "size": 1,
+                    "name": "دهلك"
+                },
+                {
+                    "description": "عشم، عشم",
+                    "size": 1,
+                    "name": "عشم"
+                },
+                {
+                    "description": "تربة، تربة",
+                    "size": 1,
+                    "name": "تربة"
+                },
+                {
+                    "description": "جرش، جرش",
+                    "size": 1,
+                    "name": "جرش"
+                },
+                {
+                    "description": "تهامة، تهامة",
+                    "size": 1,
+                    "name": "تهامة"
+                },
+                {
+                    "description": "بيشة، بيشة",
+                    "size": 1,
+                    "name": "بيشة"
+                },
+                {
+                    "description": "كثبة، كثبة، كثنة",
+                    "size": 1,
+                    "name": "كثبة"
+                },
+                {
+                    "description": "هجيرة، هجيرة",
+                    "size": 1,
+                    "name": "هجيرة"
+                },
+                {
+                    "description": "السد، السد",
+                    "size": 1,
+                    "name": "السد"
+                },
+                {
+                    "description": "الثنية، الثنية",
+                    "size": 1,
+                    "name": "الثنية"
+                },
+                {
+                    "description": "أحور، أحور",
+                    "size": 1,
+                    "name": "أحور"
+                },
+                {
+                    "description": "الفلج، الفلج",
+                    "size": 1,
+                    "name": "الفلج"
+                },
+                {
+                    "description": "العرض، العرض",
+                    "size": 1,
+                    "name": "العرض"
+                },
+                {
+                    "description": "اليمامة، اليمامة",
+                    "size": 1,
+                    "name": "اليمامة"
+                },
+                {
+                    "description": "الصمان، الصمان",
+                    "size": 1,
+                    "name": "الصمان"
+                },
+                {
+                    "description": "الخرج، الخرج",
+                    "size": 1,
+                    "name": "الخرج"
+                },
+                {
+                    "description": "حضرموت، حضرموت",
+                    "size": 1,
+                    "name": "حضرموت"
+                },
+                {
+                    "description": "يبرين، يبرين",
+                    "size": 1,
+                    "name": "يبرين"
+                },
+                {
+                    "description": "الهجر، الهجر",
+                    "size": 1,
+                    "name": "الهجر"
+                },
+                {
+                    "description": "أوال، أوال",
+                    "size": 1,
+                    "name": "أوال"
+                },
+                {
+                    "description": "الأحقاف، الأحقاف",
+                    "size": 1,
+                    "name": "الأحقاف"
+                },
+                {
+                    "description": "قطر، قطر",
+                    "size": 1,
+                    "name": "قطر"
+                },
+                {
+                    "description": "السبخة، السبخة",
+                    "size": 1,
+                    "name": "السبخة"
+                },
+                {
+                    "description": "البينونة، البينونة",
+                    "size": 1,
+                    "name": "البينونة"
+                },
+                {
+                    "description": "عمان، عمان",
+                    "size": 1,
+                    "name": "عمان"
+                }
+            ],
+            "name": "Jazirat al-Arab"
+        },
+        {
+            "description": "Maghrib",
+            "children": [
+                {
+                    "description": "سجلماسة، سجلماسة",
+                    "size": 1,
+                    "name": "سجلماسة"
+                },
+                {
+                    "description": "تنجة، تنجة",
+                    "size": 1,
+                    "name": "تنجة"
+                },
+                {
+                    "description": "تاهرت، تاهرت",
+                    "size": 1,
+                    "name": "تاهرت"
+                },
+                {
+                    "description": "مطماطة، مطماطة",
+                    "size": 1,
+                    "name": "مطماطة"
+                },
+                {
+                    "description": "قبيشة، قبيشة",
+                    "size": 1,
+                    "name": "قبيشة"
+                },
+                {
+                    "description": "قسطيلية، قسطيلية",
+                    "size": 1,
+                    "name": "قسطيلية"
+                },
+                {
+                    "description": "مكنة أبو منصور، مكنة أبو منصور",
+                    "size": 1,
+                    "name": "مكنة أبو منصور"
+                },
+                {
+                    "description": "قمودة، قمودة",
+                    "size": 1,
+                    "name": "قمودة"
+                },
+                {
+                    "description": "نفزاوة، نفزاوة",
+                    "size": 1,
+                    "name": "نفزاوة"
+                }
+            ],
+            "name": "Maghrib"
+        },
+        {
+            "description": "Badiyat al-Arab",
+            "children": [
+                {
+                    "description": "بطن السر، بطن السر",
+                    "size": 1,
+                    "name": "بطن السر"
+                },
+                {
+                    "description": "سلما، سلما",
+                    "size": 1,
+                    "name": "سلما"
+                },
+                {
+                    "description": "الهبير، الهبير",
+                    "size": 1,
+                    "name": "الهبير"
+                }
+            ],
+            "name": "Badiyat al-Arab"
+        },
+        {
+            "description": "Iraq",
+            "children": [
+                {
+                    "description": "عقرقوف، عقرقوف",
+                    "size": 1,
+                    "name": "عقرقوف"
+                },
+                {
+                    "description": "البطائح، البطائح، البطيحة",
+                    "size": 1,
+                    "name": "البطائح"
+                },
+                {
+                    "description": "كسكر، كسكر",
+                    "size": 1,
+                    "name": "كسكر"
+                }
+            ],
+            "name": "Iraq"
+        },
+        {
+            "description": "Mafaza",
+            "children": [],
+            "name": "Mafaza"
+        },
+        {
+            "description": "Kirman",
+            "children": [
+                {
+                    "description": "السيرجان، السيرجان",
+                    "size": 1,
+                    "name": "السيرجان"
+                },
+                {
+                    "description": "بردسير، بردسير، بردشير، كوشير",
+                    "size": 1,
+                    "name": "بردسير"
+                },
+                {
+                    "description": "رذبار، رذبار، رذبال",
+                    "size": 1,
+                    "name": "رذبار"
+                }
+            ],
+            "name": "Kirman"
+        },
+        {
+            "description": "Faris",
+            "children": [
+                {
+                    "description": "جزيرة خرك، جزيرة خرك",
+                    "size": 1,
+                    "name": "جزيرة خرك"
+                },
+                {
+                    "description": "سردان، سردان",
+                    "size": 1,
+                    "name": "سردان"
+                },
+                {
+                    "description": "بزرنج، بزرنج",
+                    "size": 1,
+                    "name": "بزرنج"
+                },
+                {
+                    "description": "نجيرم، نجيرم",
+                    "size": 1,
+                    "name": "نجيرم"
+                },
+                {
+                    "description": "بلا سابور، بلا سابور",
+                    "size": 1,
+                    "name": "بلا سابور"
+                },
+                {
+                    "description": "خرمق، خرمق",
+                    "size": 1,
+                    "name": "خرمق"
+                },
+                {
+                    "description": "خميجان، خميجان",
+                    "size": 1,
+                    "name": "خميجان"
+                },
+                {
+                    "description": "سابور، سابور، شهرستان",
+                    "size": 1,
+                    "name": "سابور"
+                },
+                {
+                    "description": "كام فيروز، كام فيروز",
+                    "size": 1,
+                    "name": "كام فيروز"
+                },
+                {
+                    "description": "تير مردان، تير مردان",
+                    "size": 1,
+                    "name": "تير مردان"
+                },
+                {
+                    "description": "الرون، الرون",
+                    "size": 1,
+                    "name": "الرون"
+                },
+                {
+                    "description": "أرجمان، أرجمان",
+                    "size": 1,
+                    "name": "أرجمان"
+                },
+                {
+                    "description": "برم، برم",
+                    "size": 1,
+                    "name": "برم"
+                },
+                {
+                    "description": "كمين، كمين",
+                    "size": 1,
+                    "name": "كمين"
+                },
+                {
+                    "description": "نيريز، نيريز",
+                    "size": 1,
+                    "name": "نيريز"
+                },
+                {
+                    "description": "يزد، يزد، كثة",
+                    "size": 1,
+                    "name": "يزد"
+                },
+                {
+                    "description": "روبنج، روبنج",
+                    "size": 1,
+                    "name": "روبنج"
+                },
+                {
+                    "description": "سيف عمارة، سيف عمارة",
+                    "size": 1,
+                    "name": "سيف عمارة"
+                },
+                {
+                    "description": "جزيرة لفت، جزيرة لفت، جزيرة بركاوان، جزيرة بنو كاوان",
+                    "size": 1,
+                    "name": "جزيرة لفت"
+                },
+                {
+                    "description": "الروذان، الروذان",
+                    "size": 1,
+                    "name": "الروذان"
+                }
+            ],
+            "name": "Faris"
+        },
+        {
+            "description": "Egypt",
+            "children": [
+                {
+                    "description": "فرفارون، فرفارون",
+                    "size": 1,
+                    "name": "فرفارون"
+                },
+                {
+                    "description": "الداخلة، الداخلة",
+                    "size": 1,
+                    "name": "الداخلة"
+                },
+                {
+                    "description": "الواحات، الواحات",
+                    "size": 1,
+                    "name": "الواحات"
+                },
+                {
+                    "description": "المليداس، المليداس، المليدس",
+                    "size": 1,
+                    "name": "المليداس"
+                },
+                {
+                    "description": "الحوف الغربي، الحوف الغربي",
+                    "size": 1,
+                    "name": "الحوف الغربي"
+                },
+                {
+                    "description": "مصيل، مصيل",
+                    "size": 1,
+                    "name": "مصيل"
+                },
+                {
+                    "description": "الخارجة، الخارجة",
+                    "size": 1,
+                    "name": "الخارجة"
+                },
+                {
+                    "description": "البدقون، البدقون",
+                    "size": 1,
+                    "name": "البدقون"
+                },
+                {
+                    "description": "الشراك، الشراك",
+                    "size": 1,
+                    "name": "الشراك"
+                },
+                {
+                    "description": "إخنا، إخنا",
+                    "size": 1,
+                    "name": "إخنا"
+                },
+                {
+                    "description": "بهنسى، بهنسى",
+                    "size": 1,
+                    "name": "بهنسى"
+                },
+                {
+                    "description": "خربتا، خربتا",
+                    "size": 1,
+                    "name": "خربتا"
+                },
+                {
+                    "description": "شباس، شباس",
+                    "size": 1,
+                    "name": "شباس"
+                },
+                {
+                    "description": "تيدة، تيدة",
+                    "size": 1,
+                    "name": "تيدة"
+                },
+                {
+                    "description": "الفيوم، الفيوم",
+                    "size": 1,
+                    "name": "الفيوم"
+                },
+                {
+                    "description": "الأفراحون، الأفراحون",
+                    "size": 1,
+                    "name": "الأفراحون"
+                },
+                {
+                    "description": "طوة، طوة",
+                    "size": 1,
+                    "name": "طوة"
+                },
+                {
+                    "description": "مريس، مريس",
+                    "size": 1,
+                    "name": "مريس"
+                },
+                {
+                    "description": "منوف العليا، منوف العليا",
+                    "size": 1,
+                    "name": "منوف العليا"
+                },
+                {
+                    "description": "بطن الريف، بطن الريف",
+                    "size": 1,
+                    "name": "بطن الريف"
+                },
+                {
+                    "description": "أتريب، أتريب",
+                    "size": 1,
+                    "name": "أتريب"
+                },
+                {
+                    "description": "دمسيس، دمسيس",
+                    "size": 1,
+                    "name": "دمسيس"
+                },
+                {
+                    "description": "البشرود، البشرود",
+                    "size": 1,
+                    "name": "البشرود"
+                },
+                {
+                    "description": "سمنود، سمنود",
+                    "size": 1,
+                    "name": "سمنود"
+                },
+                {
+                    "description": "الأوسية، الأوسية",
+                    "size": 1,
+                    "name": "الأوسية"
+                },
+                {
+                    "description": "نوسا، نوسا",
+                    "size": 1,
+                    "name": "نوسا"
+                },
+                {
+                    "description": "نطوية، نطوية، نطو الرمان",
+                    "size": 1,
+                    "name": "نطوية"
+                },
+                {
+                    "description": "بسطة، بسطة",
+                    "size": 1,
+                    "name": "بسطة"
+                },
+                {
+                    "description": "طمي، طمي",
+                    "size": 1,
+                    "name": "طمي"
+                },
+                {
+                    "description": "الحوف الشرقي، الحوف الشرقي",
+                    "size": 1,
+                    "name": "الحوف الشرقي"
+                },
+                {
+                    "description": "بلد النوبة، بلد النوبة",
+                    "size": 1,
+                    "name": "بلد النوبة"
+                },
+                {
+                    "description": "الدير، الدير، دير بو شنودة",
+                    "size": 1,
+                    "name": "الدير"
+                },
+                {
+                    "description": "قربيت، قربيت",
+                    "size": 1,
+                    "name": "قربيت"
+                },
+                {
+                    "description": "أطربية، أطربية",
+                    "size": 1,
+                    "name": "أطربية"
+                },
+                {
+                    "description": "إبليل، إبليل",
+                    "size": 1,
+                    "name": "إبليل"
+                },
+                {
+                    "description": "صان، صان",
+                    "size": 1,
+                    "name": "صان"
+                },
+                {
+                    "description": "مقرة، مقرة، مقرة",
+                    "size": 1,
+                    "name": "مقرة"
+                },
+                {
+                    "description": "دندرة، دندرة",
+                    "size": 1,
+                    "name": "دندرة"
+                },
+                {
+                    "description": "قنا، قنا",
+                    "size": 1,
+                    "name": "قنا"
+                },
+                {
+                    "description": "قفط، قفط، قفط",
+                    "size": 1,
+                    "name": "قفط"
+                },
+                {
+                    "description": "أتفو، أتفو",
+                    "size": 1,
+                    "name": "أتفو"
+                },
+                {
+                    "description": "بلاق، بلاق، أبلاق",
+                    "size": 1,
+                    "name": "بلاق"
+                },
+                {
+                    "description": "الجفار، الجفار",
+                    "size": 1,
+                    "name": "الجفار"
+                },
+                {
+                    "description": "تيه بنو إسرائل، تيه بنو إسرائل",
+                    "size": 1,
+                    "name": "تيه بنو إسرائل"
+                },
+                {
+                    "description": "بلاد الحبشة، بلاد الحبشة",
+                    "size": 1,
+                    "name": "بلاد الحبشة"
+                },
+                {
+                    "description": "بلاد البجة، بلاد البجة",
+                    "size": 1,
+                    "name": "بلاد البجة"
+                }
+            ],
+            "name": "Egypt"
+        }
+    ],
+    "name": "Cornu"
+}

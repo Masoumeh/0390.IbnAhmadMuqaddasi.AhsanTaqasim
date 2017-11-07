@@ -1,0 +1,172 @@
+{
+ "name": "flare",
+ "description": "flare",
+ "children": [
+  {
+   "name": "المشرق",
+   "description": "اقليم المشرق",
+   "children": [
+    {
+     "name": "خراسان",
+     "description": "Ḫurāsān",
+     "size": 1
+    },
+    {
+     "name": "سحستان",
+     "description": "Sijistān (Sīstān)",
+     "size": 1
+
+    },
+    {
+     "name": "ماوراء النهر",
+     "description": "Mā-warāʾ-l-nahr (Transoxiana)",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "المغرب",
+   "description": "اقليم المغرب",
+   "children": [
+    {"name": "برقة", "description": "Barqaŧ (Lybia)", "size": 1},
+    {"name": "الاندلس", "description": "al-Andalus (Spain)", "size": 1},
+    {
+     "name": "مغرب",
+     "description": "al-Maġrib",
+     "size": 1
+    },
+    {"name": "سيسيل", "description": "Siqiliyyaŧ (Sicile)", "size": 1}
+   ]
+  },
+  {
+   "name": "جزيرة العرب",
+   "description": "جزيرة العرب",
+   "children": [
+    {
+     "name": "جزيرة العرب",
+     "description": "Jazīraŧ al-ʿarab",
+     "size": 1
+    },
+    {"name": "يمن", "description": "al-Yaman", "size": 1}
+   ]
+  },
+  {
+   "name": "العراق",
+   "description": "اقلیم العراق",
+   "children": [
+    {"name": "العراق", "description": "al-ʿIrāq", "size": 1}
+   ]
+  },
+  {
+   "name": "أقور",
+   "description": "اقلیم أقور",
+   "children": [
+    {"name": "أقور", "description": "Aqūr (al-Jazīraŧ)", "size": 1}
+   ]
+  },
+  {
+   "name": "الشام",
+   "description": "اقلیم الشام",
+   "children": [
+    {"name": "الشام", "description": "al-Šām (Greater Syria)", "size": 1}
+   ]
+  },
+  {
+   "name": "مصر",
+   "description": "اقلیم مصر",
+   "children": [
+    {"name": "مصر", "description": "Miṣr (Egypt)", "size": 1}
+   ]
+  },
+  {
+   "name": "السند",
+   "description": "اقلیم السند",
+   "children": [
+    {"name": "السند", "description": "al-Sind", "size": 1}
+   ]
+  },
+  {
+   "name": "کرمان",
+   "description": "اقلیم کرمان",
+   "children": [
+    {"name": "کرمان", "description": "Kirmān", "size": 1}
+   ]
+  },
+  {
+   "name": "فارس",
+   "description": "اقلیم فارس",
+   "children": [
+    {
+     "name": "فارس",
+     "description": "Fārs(or Fāris)",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "خوزستان",
+   "description": "اقلیم خوزستان",
+   "children": [
+    {
+     "name": "خوزستان",
+     "description": "Ḫūzistān (al-Ahwāz)",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "الجبال",
+   "description": "اقلیم الجبال",
+   "children": [
+    {
+     "name": "الجبال",
+     "description": "al-Jibāl",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "الرحاب",
+   "description": "اقلیم الرحاب",
+   "children": [
+    {
+     "name": "الرحاب",
+     "description": "al-Riḥāb (Caucasus)",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "الدیلم",
+   "description": "اقلیم الدیلم",
+   "children": [
+    {
+     "name": "الدیلم",
+     "description": "al-Daylam",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "بادية العرب",
+   "description": "بادية العرب",
+   "children": [
+    {
+     "name": "بادية العرب",
+     "description": "Badiyyaŧ al-ʿarab",
+     "size": 1
+    }
+   ]
+  },
+  {
+   "name": "الخزر",
+   "description": "al-Ḫazar",
+   "size": 1
+  },
+  {
+   "name": "المفازة",
+   "description": "al-Mafāzaŧ",
+   "size": 1
+  }
+ ]
+}

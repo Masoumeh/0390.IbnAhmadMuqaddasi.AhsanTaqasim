@@ -1,7 +1,7 @@
 import networkx as nx
 import json
-import geograph.graph as ggraph
-import geograph.map  as ggeo
+import net_simplification.graph as ggraph
+import net_simplification.map  as ggeo
 import createGraphFromJSON_geoText_toJSON as cgjt
 
 

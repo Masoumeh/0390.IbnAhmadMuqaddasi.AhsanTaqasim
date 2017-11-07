@@ -1,0 +1,10 @@
+graph [
+  node [
+    id 0
+    label "TIB_473E322N_S"
+    status "old"
+    lng "47.30428"
+    lat "32.22674"
+  ]
+  node [
+    id 1

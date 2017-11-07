@@ -1,12 +1,8 @@
 """
 Create Matrix for cornu data in two levels (regions and settlements)
 """
-import csv, json
-import io
-import scipy.sparse as sps
-import numpy as np
+import json
 import pandas as pd
-import pprint 
 
 
 def print_full(x):

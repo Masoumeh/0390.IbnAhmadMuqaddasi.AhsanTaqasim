@@ -1,8 +1,8 @@
 """
-This script uses the outputs from distance_measurment.py to caclulates the average value of classic distances.
-That mans, if we have different values in meter (or any other modern measurment units) for a distance value in classic word,
+This script uses the outputs from distance_measurement.py to calculates the average value of classic distances.
+That means, if we have different values in meter (or any other modern measurement units) for a distance value in classic word,
 here we simple make an average to define a basic equivalent for classic values (like مرحلة).
-This definitely cannot be the correct way of measurment and it needs more research to come to an end and map classic values with modern values.
+This definitely cannot be the correct way of measurement and it needs more research to come to an end and map classic values with modern values.
 Then, here we just use average values as quick replacements for our calculations.
 """
 import re

@@ -1,0 +1,32 @@
+{
+	"مكة,Jazirat al-Arab,Yemen بطن مر,Jazirat al-Arab,Yemen": {
+		"distance": "مرحلة",
+		"start": {
+			"lon": "39.83612",
+			"region": "Jazirat al-Arab",
+			"URI": "MAKKA_398E213N_S",
+			"lat": "21.39132"
+		},
+		"end": {
+			"lon": "39.73935",
+			"region": "Jazirat al-Arab",
+			"URI": "BATNMARR_397E216N_S",
+			"lat": "21.64499"
+		}
+	},
+	"بطن مر,Jazirat al-Arab,Yemen عسفان,Jazirat al-Arab,Yemen": {
+		"distance": "مرحلة",
+		"start": {
+			"lon": "39.73935",
+			"region": "Jazirat al-Arab",
+			"URI": "BATNMARR_397E216N_S",
+			"lat": "21.64499"
+		},
+		"end": {
+			"lon": "39.46144",
+			"region": "Jazirat al-Arab",
+			"URI": "USFAN_394E218N_S",
+			"lat": "21.88079"
+		}
+	}
+}

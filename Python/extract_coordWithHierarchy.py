@@ -1,7 +1,10 @@
 """
 Makes a list of similar sttl names with cornu, using fuzzywuzzy with more that 90% similarity ratio (or exact match that is commented out!).
-the output is a csv file, containing sttl names, region from both Cornu and geographical text and other information as:
-["Title in geo text", "Name in Cornu", "TitleOther from Cornu", "lat", "lon", "belonging region in cornu", "Prov in geo text", "direct region (parent) in geo text", "eiSearch from Cornu", "translitTitle from Cornu"]
+the output is a csv file, containing sttl names, region from both Cornu and geographical text and 
+other information as:
+["Title in geo text", "Name in Cornu", "TitleOther from Cornu", "lat", "lon", 
+"belonging region in cornu", "Prov in geo text", "direct region (parent) in geo text",
+"eiSearch from Cornu", "translitTitle from Cornu"]
 """
 
 from fuzzywuzzy import fuzz

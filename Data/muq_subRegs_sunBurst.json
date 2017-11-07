@@ -1,0 +1,520 @@
+{
+    "name": "Muqadasi",
+    "children": [
+        {
+            "name": "الجبال",
+            "children": [
+                {
+                    "name": "الري",
+                    "size": 1,
+                    "description": "الري"
+                },
+                {
+                    "name": "همذان",
+                    "size": 1,
+                    "description": "همذان"
+                },
+                {
+                    "name": "أصفهان",
+                    "size": 1,
+                    "description": "أصفهان"
+                },
+                {
+                    "name": "قم",
+                    "size": 1,
+                    "description": "قم"
+                },
+                {
+                    "name": "قاشان",
+                    "size": 1,
+                    "description": "قاشان"
+                },
+                {
+                    "name": "الصيمرة",
+                    "size": 1,
+                    "description": "الصيمرة"
+                },
+                {
+                    "name": "كرج",
+                    "size": 1,
+                    "description": "كرج"
+                },
+                {
+                    "name": "ماه الكوفة",
+                    "size": 1,
+                    "description": "ماه الكوفة"
+                },
+                {
+                    "name": "ماه البصرة",
+                    "size": 1,
+                    "description": "ماه البصرة"
+                },
+                {
+                    "name": "شهرزور",
+                    "size": 1,
+                    "description": "شهرزور"
+                }
+            ],
+            "description": "الجبال"
+        },
+        {
+            "name": "المشرق",
+            "children": [
+                {
+                    "name": "هيطل",
+                    "size": 1,
+                    "description": "هيطل"
+                },
+                {
+                    "name": "خراسان",
+                    "size": 1,
+                    "description": "خراسان"
+                }
+            ],
+            "description": "المشرق"
+        },
+        {
+            "name": "الشام",
+            "children": [
+                {
+                    "name": "قنسرين",
+                    "size": 1,
+                    "description": "قنسرين"
+                },
+                {
+                    "name": "حمص",
+                    "size": 1,
+                    "description": "حمص"
+                },
+                {
+                    "name": "دمشق",
+                    "size": 1,
+                    "description": "دمشق"
+                },
+                {
+                    "name": "الأردن",
+                    "size": 1,
+                    "description": "الأردن"
+                },
+                {
+                    "name": "فلسطين",
+                    "size": 1,
+                    "description": "فلسطين"
+                },
+                {
+                    "name": "الشراة",
+                    "size": 1,
+                    "description": "الشراة"
+                }
+            ],
+            "description": "الشام"
+        },
+        {
+            "name": "العراق",
+            "children": [
+                {
+                    "name": "الکوفة",
+                    "size": 1,
+                    "description": "الکوفة"
+                },
+                {
+                    "name": "البصرة",
+                    "size": 1,
+                    "description": "البصرة"
+                },
+                {
+                    "name": "واسط",
+                    "size": 1,
+                    "description": "واسط"
+                },
+                {
+                    "name": "بغداد",
+                    "size": 1,
+                    "description": "بغداد"
+                },
+                {
+                    "name": "حلوان",
+                    "size": 1,
+                    "description": "حلوان"
+                },
+                {
+                    "name": "سامرا",
+                    "size": 1,
+                    "description": "سامرا"
+                }
+            ],
+            "description": "العراق"
+        },
+        {
+            "name": "مصر",
+            "children": [
+                {
+                    "name": "الجفار",
+                    "size": 1,
+                    "description": "الجفار"
+                },
+                {
+                    "name": "الحوف",
+                    "size": 1,
+                    "description": "الحوف"
+                },
+                {
+                    "name": "الريف",
+                    "size": 1,
+                    "description": "الريف"
+                },
+                {
+                    "name": "إسكندرية",
+                    "size": 1,
+                    "description": "إسكندرية"
+                },
+                {
+                    "name": "مقدونية",
+                    "size": 1,
+                    "description": "مقدونية"
+                },
+                {
+                    "name": "الصعيد",
+                    "size": 1,
+                    "description": "الصعيد"
+                },
+                {
+                    "name": "الواحات",
+                    "size": 1,
+                    "description": "الواحات"
+                }
+            ],
+            "description": "مصر"
+        },
+        {
+            "name": "خوزستان",
+            "children": [
+                {
+                    "name": "السوس",
+                    "size": 1,
+                    "description": "السوس"
+                },
+                {
+                    "name": "جنديسابور",
+                    "size": 1,
+                    "description": "جنديسابور"
+                },
+                {
+                    "name": "تستر",
+                    "size": 1,
+                    "description": "تستر"
+                },
+                {
+                    "name": "عسكر مكرم",
+                    "size": 1,
+                    "description": "عسكر مكرم"
+                },
+                {
+                    "name": "الأهواز",
+                    "size": 1,
+                    "description": "الأهواز"
+                },
+                {
+                    "name": "رامهرمز",
+                    "size": 1,
+                    "description": "رامهرمز"
+                },
+                {
+                    "name": "الدورق",
+                    "size": 1,
+                    "description": "الدورق"
+                }
+            ],
+            "description": "خوزستان"
+        },
+        {
+            "name": "السند",
+            "children": [
+                {
+                    "name": "مكران",
+                    "size": 1,
+                    "description": "مكران"
+                },
+                {
+                    "name": "طوران",
+                    "size": 1,
+                    "description": "طوران"
+                },
+                {
+                    "name": "السند",
+                    "size": 1,
+                    "description": "السند"
+                },
+                {
+                    "name": "ويهند",
+                    "size": 1,
+                    "description": "ويهند"
+                },
+                {
+                    "name": "قنوج",
+                    "size": 1,
+                    "description": "قنوج"
+                },
+                {
+                    "name": "الملتان",
+                    "size": 1,
+                    "description": "الملتان"
+                }
+            ],
+            "description": "السند"
+        },
+        {
+            "name": "فارس",
+            "children": [
+                {
+                    "name": "أرجان",
+                    "size": 1,
+                    "description": "أرجان"
+                },
+                {
+                    "name": "أردشيرخره",
+                    "size": 1,
+                    "description": "أردشيرخره"
+                },
+                {
+                    "name": "درابجرد",
+                    "size": 1,
+                    "description": "درابجرد"
+                },
+                {
+                    "name": "شيراز",
+                    "size": 1,
+                    "description": "شيراز"
+                },
+                {
+                    "name": "سابور",
+                    "size": 1,
+                    "description": "سابور"
+                },
+                {
+                    "name": "إصطخر",
+                    "size": 1,
+                    "description": "إصطخر"
+                },
+                {
+                    "name": "الروذان",
+                    "size": 1,
+                    "description": "الروذان"
+                },
+                {
+                    "name": "نيريز",
+                    "size": 1,
+                    "description": "نيريز"
+                },
+                {
+                    "name": "خسو",
+                    "size": 1,
+                    "description": "خسو"
+                }
+            ],
+            "description": "فارس"
+        },
+        {
+            "name": "جزيرة العرب",
+            "children": [
+                {
+                    "name": "الحجاز",
+                    "size": 1,
+                    "description": "الحجاز"
+                },
+                {
+                    "name": "اليمن",
+                    "size": 1,
+                    "description": "اليمن"
+                },
+                {
+                    "name": "عمان",
+                    "size": 1,
+                    "description": "عمان"
+                },
+                {
+                    "name": "هجر",
+                    "size": 1,
+                    "description": "هجر"
+                },
+                {
+                    "name": "الأحقاف",
+                    "size": 1,
+                    "description": "الأحقاف"
+                },
+                {
+                    "name": "الأشجار",
+                    "size": 1,
+                    "description": "الأشجار"
+                },
+                {
+                    "name": "اليمامة",
+                    "size": 1,
+                    "description": "اليمامة"
+                },
+                {
+                    "name": "قرح",
+                    "size": 1,
+                    "description": "قرح"
+                }
+            ],
+            "description": "جزيرة العرب"
+        },
+        {
+            "name": "الديلم",
+            "children": [
+                {
+                    "name": "قومس",
+                    "size": 1,
+                    "description": "قومس"
+                },
+                {
+                    "name": "جرجان",
+                    "size": 1,
+                    "description": "جرجان"
+                },
+                {
+                    "name": "طبرستان",
+                    "size": 1,
+                    "description": "طبرستان"
+                },
+                {
+                    "name": "الديلمان",
+                    "size": 1,
+                    "description": "الديلمان"
+                },
+                {
+                    "name": "الخزر",
+                    "size": 1,
+                    "description": "الخزر"
+                }
+            ],
+            "description": "الديلم"
+        },
+        {
+            "name": "كرمان",
+            "children": [
+                {
+                    "name": "بردسير",
+                    "size": 1,
+                    "description": "بردسير"
+                },
+                {
+                    "name": "نرماسير",
+                    "size": 1,
+                    "description": "نرماسير"
+                },
+                {
+                    "name": "السيرجان",
+                    "size": 1,
+                    "description": "السيرجان"
+                },
+                {
+                    "name": "بم",
+                    "size": 1,
+                    "description": "بم"
+                },
+                {
+                    "name": "جيرفت",
+                    "size": 1,
+                    "description": "جيرفت"
+                }
+            ],
+            "description": "كرمان"
+        },
+        {
+            "name": "أقور",
+            "children": [
+                {
+                    "name": "ديار ربيعة",
+                    "size": 1,
+                    "description": "ديار ربيعة"
+                },
+                {
+                    "name": "ديار مضر",
+                    "size": 1,
+                    "description": "ديار مضر"
+                },
+                {
+                    "name": "ديار بکر",
+                    "size": 1,
+                    "description": "ديار بکر"
+                },
+                {
+                    "name": "الفراتية",
+                    "size": 1,
+                    "description": "الفراتية"
+                },
+                {
+                    "name": "الخابور",
+                    "size": 1,
+                    "description": "الخابور"
+                }
+            ],
+            "description": "أقور"
+        },
+        {
+            "name": "المغرب",
+            "children": [
+                {
+                    "name": "برقة",
+                    "size": 1,
+                    "description": "برقة"
+                },
+                {
+                    "name": "إفريقية",
+                    "size": 1,
+                    "description": "إفريقية"
+                },
+                {
+                    "name": "تاهرت",
+                    "size": 1,
+                    "description": "تاهرت"
+                },
+                {
+                    "name": "سجلماسة",
+                    "size": 1,
+                    "description": "سجلماسة"
+                },
+                {
+                    "name": "فاس",
+                    "size": 1,
+                    "description": "فاس"
+                },
+                {
+                    "name": "السوس الأقصي",
+                    "size": 1,
+                    "description": "السوس الأقصي"
+                },
+                {
+                    "name": "جزيرة إصقلية",
+                    "size": 1,
+                    "description": "جزيرة إصقلية"
+                }
+            ],
+            "description": "المغرب"
+        },
+        {
+            "name": "الرحاب",
+            "children": [
+                {
+                    "name": "الران",
+                    "size": 1,
+                    "description": "الران"
+                },
+                {
+                    "name": "أرمينية",
+                    "size": 1,
+                    "description": "أرمينية"
+                },
+                {
+                    "name": "أذربيجان",
+                    "size": 1,
+                    "description": "أذربيجان"
+                }
+            ],
+            "description": "الرحاب"
+        }
+    ],
+    "description": "Muqaddasi Regions"
+}

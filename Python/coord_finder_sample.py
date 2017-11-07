@@ -1,3 +1,7 @@
+'''
+sample code for some geospatila calculations. 
+Not used yet, I guess!
+'''
 import math
 
 def getPathLength(lat1,lng1,lat2,lng2):

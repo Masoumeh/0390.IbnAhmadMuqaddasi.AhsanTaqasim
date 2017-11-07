@@ -1,0 +1,11 @@
+Geo Title	Cornu Title	Cornu Title Other	Geo Neighbours	Cornu Neighbours	lat	lon	Cornu Region	Geo Prov	Geo Subregion	Cornu URI	Status	Match Method
+آمل	آمل	آمل	null	['FIRABR_636E391N_S', 'RIBATBARIS_633E388N_S', 'TAHIRIYYA_625E398N_S']	39.06795	63.51255	Khurasan	المشرق	هيطل	AMUL_635E390N_S	NA	Dam Levenstein
+قلعة النسور	هجر النصر	هجر النصر، قلعة النسور، ناكور، نكور	null	['ROUTPOINT1209_038W351N_O']	35.22154	-3.90859	Maghrib	المغرب	فاس	HAJARNASR_039W352N_S	NA	Dam Levenstein
+بالايان	بالايان	بالايان	null	['ROUTPOINT1716_694E411N_O', 'BANKHASH_700E409N_S']	41.11173	69.45575	Transoxiana	المشرق	إيلاق	BALAYAN_694E411N_S	NA	Dam Levenstein
+بطرلية	بطرلية	بطرلية	null	null	37.81415	14.13046	Sicile	المغرب	إصقلية	BATARLIYYA_141E378N_S	NA	Dam Levenstein
+ميکسين	ميكسين	ميكسين، ميكسين، ماكسين	null	['ARABAN_406E360N_S', 'JIBAL_416E362N_S', 'HUSAYN_407E356N_S']	35.74173	40.75934	Aqur	أقور	الخابور	MIKISIN_407E357N_S	NA	Dam Levenstein
+اسكلكند	سكلكند	سكلكند، إسكلكند	null	null	36.65244	70.91488	Khurasan	المشرق	طخارستان	SAKALKAND_709E366N_S	NA	Dam Levenstein
+يحصب	يحصب	يحصب	null	null	14.21583	44.41651	Yemen	جزيرة العرب	نجد	YAHSIB_444E142N_R	NA	Dam Levenstein
+بانياس	بانياس	بانياس	null	['ROUTPOINT0117_355E332N_O']	33.25150	35.67787	Sham	الشام	دمشق	BANIYAS_356E332N_S	NA	Dam Levenstein
+بانياس	بلنياس	بلنياس	null	['JABALA_359E353N_S', 'MARAQIYYA_359E350N_S']	35.18256	35.97212	Sham	الشام	دمشق	BULUNYAS_359E351N_S	NA	Dam Levenstein
+قمودة	قمودة	قمودة	null	null	35.15407	9.13153	Maghrib	المغرب	إفريقية	QAMUDA_091E351N_R	NA	Dam Levenstein
